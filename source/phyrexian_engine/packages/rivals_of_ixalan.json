@@ -1,0 +1,1048 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} {VAMP_LIFE}",
+          2,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, {VAMP_LIFE}",
+          2,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, creatures you control get +1/+1 until end of turn.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, {ASCEND_SENTENCE}",
+          1,
+          3,
+          7
+        ],
+        [
+          "Other Vampires you control get +1/+1.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature explores; {CITIES_BLESSING_BONUS}",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} and lifelink until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Exile target tapped creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 white Vampire creature tokens with lifelink.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. {ASCEND_SENTENCE}",
+          2,
+          3,
+          7
+        ],
+        [
+          "{RAID_CLAUSE}destroy target creature that blocked or was blocked this turn.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Vampire creature tokens with lifelink.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Destroy target creature with power 4 or greater.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          3,
+          7
+        ],
+        [
+          "You gain {X} life. Draw a card.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you gained life this turn, create a 1/1 white Vampire creature token with lifelink.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+1. {ASCEND_SENTENCE}",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, you gain 1 life.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+2 and has vigilance.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature gets +1/+1 and lifelink.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature gets +3/+3. {ASCEND_SENTENCE}",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} You gain 2 life.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Create a 1/1 white Vampire creature token with lifelink.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "[ACTIVATED_COST] Create a 1/1 white Vampire creature token.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}. {RAID_CLAUSE} you gain 1 life.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, {EXPLORE_SENTENCE}",
+          3,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, draw a card, then discard a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Other Merfolk you control get +1/+1.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, {PIRATE_TEMPO}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell with mana value {X} or less.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to two target creatures. {PIRATE_TEMPO}",
+          1,
+          1,
+          4
+        ],
+        [
+          "Target creature gets -{N}/0 until end of turn. Draw a card.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature explores twice.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Draw two cards. {RAID_CLAUSE} scry 2, then draw a card instead.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, up to one target creature you control explores.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Merfolk you control have hexproof as long as you control another Merfolk.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 and has \"{T}: Target creature explores.\"",
+          1,
+          3,
+          7
+        ],
+        [
+          "Enchanted creature gets +2/+2 and can't be blocked by more than one creature.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Draw a card, then discard a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Target creature gains flying until end of turn.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature explores.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {U}. {ASCEND_SENTENCE}",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, create a 1/1 black Vampire creature token with lifelink.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{RAID_CLAUSE} this creature gets +2/+0 until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Other Vampires you control get +1/+1.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature with mana value {X} or less.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Create a Treasure token.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Return up to one target creature card from your graveyard to your hand. Create a Treasure token.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Create two 2/2 black Vampire creature tokens with lifelink.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, each opponent loses 1 life if you gained life this turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Vampires you control get +1/+1 and have menace.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, you create a Treasure token.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1 and has lifelink.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has deathtouch and \"{T}: Create a Treasure token.\"",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gets -1/-1 until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {B}. {RAID_CLAUSE} create a Treasure token.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} {DINO_FIGHT}",
+          3,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, this creature gets +1/+0 until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{RAID_CLAUSE} this creature gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Other Dinosaurs you control get +1/+0 and have trample.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "This creature deals {N} damage to any target.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{RAID_CLAUSE} this deals {N} damage to target creature or planeswalker.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 2/2 red Pirate creature tokens with menace.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Target creature explores, then this deals 2 damage to that creature.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Create two Treasure tokens.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, target Dinosaur you control gets +2/+0 and gains trample until end of turn.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Pirates you control get +1/+0 and have menace.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has menace.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature gets +3/+1 and has first strike.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Create a Treasure token.",
+          3,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Target creature gains haste until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] This creature deals 1 damage to any target.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {R}. {ASCEND_SENTENCE}",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} put a +1/+1 counter on this creature.",
+          3,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, this creature explores.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Other Dinosaurs you control get +1/+1.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control fights target creature you don't control.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Put two +1/+1 counters on target creature. It gains trample until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Creatures you control get +2/+2 until end of turn.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Target creature explores twice.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Create a 3/3 green Dinosaur creature token with trample.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you control a creature with power 4 or greater, draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Dinosaurs you control have trample.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +3/+3 and has trample.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Enchanted creature has \"{T}: Target creature you control fights up to one target creature you don't control.\"",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Put a +1/+1 counter on target Dinosaur.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature explores.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {G}. {RAID_CLAUSE} put a +1/+1 counter on target creature you control.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "{RAID_CLAUSE} draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target creature explores.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ASCEND_SENTENCE}",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a Treasure token.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Create two Treasure tokens.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Each opponent loses 1 life. You gain 1 life.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Create a Treasure token.",
+          3,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Target creature you control explores.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} your end step begins, if you have the city's blessing, draw a card.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Pirate, Vampire, Merfolk, or Dinosaur spells.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {CREATURE_TRIGGER}, {TREASURE_SENTENCE}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{ACTIVATED_COST} This creature explores.\"",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a Treasure token.",
+          2,
+          1,
+          4
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Create a Treasure token.",
+          4,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Add one mana of any color.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Target creature gains menace until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "{ACTIVATED_COST} Target creature explores.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Whenever this creature is dealt damage, it explores.\"",
+          1,
+          1,
+          4
+        ],
+        [
+          "Equip {EQUIP_COST}.",
+          10,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell of a chosen creature type.",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Vampire",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Human"
+    ],
+    "U": [
+      "Merfolk",
+      "Scout",
+      "Wizard",
+      "Pirate",
+      "Human"
+    ],
+    "B": [
+      "Vampire",
+      "Pirate",
+      "Assassin",
+      "Shaman",
+      "Human"
+    ],
+    "R": [
+      "Pirate",
+      "Dinosaur",
+      "Human",
+      "Berserker",
+      "Shaman"
+    ],
+    "G": [
+      "Dinosaur",
+      "Merfolk",
+      "Shaman",
+      "Scout",
+      "Human"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Treasure",
+      "Dinosaur"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever"
+    ],
+    "CREATURE_TRIGGER": [
+      "enters the battlefield",
+      "attacks",
+      "dies",
+      "blocks"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{3}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Create a Treasure token.",
+      "Target creature gets +1/+1 until end of turn.",
+      "Tap target creature an opponent controls.",
+      "This creature explores."
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Pirate",
+      "Vampire",
+      "Dinosaur",
+      "Merfolk",
+      "Soldier"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "X": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "ASCEND_SENTENCE": [
+      "If you control ten or more permanents, you gain the city's blessing for the rest of the game."
+    ],
+    "RAID_CLAUSE": [
+      "If you attacked with a creature this turn, ",
+      "If a creature you control attacked this turn, "
+    ],
+    "ENRAGE_INTRO": [
+      "Whenever this creature is dealt damage, "
+    ],
+    "EXPLORE_SENTENCE": [
+      "it explores. (Reveal the top card of your library. Lands go to your hand; nonlands give this creature a +1/+1 counter, then you may leave that card on top or put it into your graveyard.)"
+    ],
+    "TREASURE_SENTENCE": [
+      "Create a Treasure token. (It's an artifact with \"{T}, Sacrifice this: Add one mana of any color.\")"
+    ],
+    "DINO_FIGHT": [
+      "this creature fights up to one target creature you don't control."
+    ],
+    "VAMP_LIFE": [
+      "you gain {N} life."
+    ],
+    "PIRATE_TEMPO": [
+      "tap up to one target creature. It doesn't untap during its controller's next untap step."
+    ],
+    "MERFOLK_COUNTERS": [
+      "put a +1/+1 counter on up to one target Merfolk you control."
+    ],
+    "CITIES_BLESSING_BONUS": [
+      "If you have the city's blessing, put two +1/+1 counters on that creature instead."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "hexproof"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "menace"
+    ]
+  }
+}

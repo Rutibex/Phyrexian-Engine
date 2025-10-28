@@ -1,0 +1,743 @@
+{
+  "package_name": "urzas_legacy",
+  "version": "1.0.0",
+  "description": "A large content pack inspired by Urza's Legacy (1999): Echo, Cycling {2}, blue 'free' untap-lands spells, artifact & enchantment themes, and iconic-style build-arounds (Tinker, Defense of the Heart, Rancor-like aura, Memory Jar–style wheels, Grim Monolith–style mana rocks). Designed for the ad‑lib card generator.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{T}: Target creature you control gains protection from the color of your choice until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {X} life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo. {ECHO_REMINDER}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, tap up to [X] target creatures.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature. Enchanted creature gets +2/+2. When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.",
+          3,
+          1,
+          4
+        ],
+        [
+          "At the beginning of your upkeep, if an opponent controls three or more creatures, you may search your library for up to two creature cards, put them onto the battlefield, then shuffle.",
+          1,
+          4,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, choose one — • Creatures you control get +1/+1 until end of turn. • You gain 2 life for each creature you control.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking creature. Cycling {2}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Untap up to [X] target creatures. Prevent the next {X} damage that would be dealt to any number of targets this turn, divided as you choose.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create [X] 1/1 white Soldier creature tokens.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+2 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This artifact doesn't untap during your untap step. {T}: Add {C}{C}{C}. {4}: Untap this artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {C}. When you cast a spell with mana value [X] or greater, untap this.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Cycling {2}.",
+          1,
+          1,
+          7
+        ],
+        [
+          "{T}: Add {C}. {ACTIVATED_COST}, {T}: Untap up to [X] target lands.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of {C}. {ACTIVATED_COST}, {T}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell. When this spell resolves, untap up to [X] lands.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Draw two cards, then discard two cards. When this spell resolves, untap up to [X] lands.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Return target creature to its owner's hand. When this spell resolves, untap up to [X] lands.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Tap up to [X] target permanents. Draw a card. Cycling {2}.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As an additional cost to cast this spell, sacrifice an artifact. Search your library for an artifact card, put it onto the battlefield, then shuffle.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Look at the top [X] cards of your library. Put one into your hand and the rest on the bottom in any order. Cycling {2}.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Flying. When this enters the battlefield, untap up to [X] lands.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{2}{U}{U}: Return this creature to its owner's hand.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "You may cast artifact spells as though they had flash.",
+          1,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may put a slumber counter on this. As long as it has three or more slumber counters, creatures your opponents control don't untap during their controllers' untap steps.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}. Whenever you cast an instant or sorcery, you may untap this.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This artifact doesn't untap during your untap step. {T}: Add {C}{C}{C}. {4}: Untap this artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {C}. When you cast a spell with mana value [X] or greater, untap this.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Cycling {2}.",
+          1,
+          1,
+          7
+        ],
+        [
+          "{T}: Add {C}. {ACTIVATED_COST}, {T}: Untap up to [X] target lands.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of {C}. {ACTIVATED_COST}, {T}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Echo. {ECHO_REMINDER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this enters the battlefield, each opponent discards a card. Cycling {2}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards [X] cards at random.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, you may pay {1} life. If you do, return it to your hand.",
+          1,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life for each artifact you control.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice this: Each player exiles their hand face down, then draws seven cards. At the beginning of the next end step, each player discards their hand and returns the cards exiled this way to their owners' hands.",
+          1,
+          4,
+          7
+        ],
+        [
+          "This artifact doesn't untap during your untap step. {T}: Add {C}{C}{C}. {4}: Untap this artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {C}. When you cast a spell with mana value [X] or greater, untap this.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -[X]/-[X] until end of turn. Cycling {2}.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Cycling {2}.",
+          1,
+          1,
+          7
+        ],
+        [
+          "{T}: Add {C}. {ACTIVATED_COST}, {T}: Untap up to [X] target lands.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of {C}. {ACTIVATED_COST}, {T}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. Echo. {ECHO_REMINDER}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Choose target artifact a player controls and target artifact card in that player's graveyard. That player sacrifices the artifact, then returns the other to the battlefield.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "This deals [X] damage divided as you choose among up to [X] targets. Cycling {2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact. If that artifact had mana value [X] or less, this deals 2 damage to that artifact's controller.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. When this spell resolves, untap up to [X] lands.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an artifact spell, this deals 1 damage to any target.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +2/+0 and has trample. When this is put into a graveyard from the battlefield, return it to its owner's hand. Equip {EQUIP_COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "This artifact doesn't untap during your untap step. {T}: Add {C}{C}{C}. {4}: Untap this artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {C}. When you cast a spell with mana value [X] or greater, untap this.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Cycling {2}.",
+          1,
+          1,
+          7
+        ],
+        [
+          "{T}: Add {C}. {ACTIVATED_COST}, {T}: Untap up to [X] target lands.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of {C}. {ACTIVATED_COST}, {T}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. Echo. {ECHO_REMINDER}",
+          3,
+          4,
+          7
+        ],
+        [
+          "When this enters the battlefield, you may search your library for a Forest card, reveal it, put it into your hand, then shuffle. Echo. {ECHO_REMINDER}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Reach. Whenever this blocks a creature with flying, it gets +2/+2 until end of turn. Cycling {2}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature. Enchanted creature gets +2/+0 and has trample. When this Aura is put into a graveyard from the battlefield, return it to its owner's hand.",
+          5,
+          1,
+          4
+        ],
+        [
+          "At the beginning of your upkeep, if an opponent controls three or more creatures, you may search your library for up to two creature cards, put them onto the battlefield, then shuffle.",
+          1,
+          4,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, put a growth counter on this. Creatures you control get +1/+1 for each growth counter on this.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, sacrifice a land. Search your library for a land card, put it onto the battlefield, then shuffle.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +[X]/+[X] until end of turn. Cycling {2}.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a [X]/[X] green Beast creature token.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "This artifact doesn't untap during your untap step. {T}: Add {C}{C}{C}. {4}: Untap this artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {C}. When you cast a spell with mana value [X] or greater, untap this.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Each player shuffles their hand and graveyard into their library, then draws seven cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Cycling {2}.",
+          1,
+          1,
+          7
+        ],
+        [
+          "{T}: Add {C}. {ACTIVATED_COST}, {T}: Untap up to [X] target lands.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of {C}. {ACTIVATED_COST}, {T}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Angel",
+      "Cleric",
+      "Knight",
+      "Soldier",
+      "Spirit",
+      "Cat",
+      "Human"
+    ],
+    "U": [
+      "Wizard",
+      "Faerie",
+      "Illusion",
+      "Drake",
+      "Merfolk",
+      "Bird",
+      "Human"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Horror",
+      "Imp",
+      "Shade",
+      "Minion",
+      "Human"
+    ],
+    "R": [
+      "Goblin",
+      "Elemental",
+      "Shaman",
+      "Warrior",
+      "Dragon",
+      "Human"
+    ],
+    "G": [
+      "Elf",
+      "Wurm",
+      "Treefolk",
+      "Beast",
+      "Druid",
+      "Spider",
+      "Human"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "protection from artifacts"
+    ],
+    "U": [
+      "flying",
+      "ward 1",
+      "flash",
+      "hexproof from sorceries"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink",
+      "fear"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from instants",
+      "vigilance"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "At the beginning of your upkeep,",
+      "Whenever you cast a spell,",
+      "Whenever a creature you control dies,",
+      "Whenever one or more artifacts enter the battlefield under your control,",
+      "Whenever one or more creatures attack,",
+      "When this enters the battlefield,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own",
+      "you control with power {X} or less",
+      "target opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "another creature enters the battlefield under your control",
+      "this creature deals combat damage to a player",
+      "you sacrifice an artifact",
+      "an opponent casts a spell"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Saproling",
+      "Beast",
+      "Faerie",
+      "Goblin",
+      "Pegasus",
+      "Illusion",
+      "Phyrexian"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}",
+      "{4}",
+      "{2}{G}",
+      "{2}{U}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{U}",
+      "{G}",
+      "{1}{U}",
+      "{1}{G}",
+      "{2}{U}"
+    ],
+    "ARTIFACT_NAMES": [
+      "Thran Engine",
+      "Legacy Node",
+      "Academy Dynamo",
+      "Serra Relic",
+      "Shivan Coil",
+      "Phyrexian Core"
+    ],
+    "LOCATION_WORD": [
+      "the Academy",
+      "Serra's Realm",
+      "Shiv",
+      "Phyrexia",
+      "Tolaria",
+      "Yavimaya"
+    ],
+    "ECHO_REMINDER": [
+      "Echo (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its mana cost.)"
+    ],
+    "CYCLING_REMINDER": [
+      "Cycling {2} ({2}, Discard this card: Draw a card.)"
+    ]
+  }
+}

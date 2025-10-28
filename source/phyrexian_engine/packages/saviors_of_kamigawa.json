@@ -1,0 +1,1040 @@
+{
+  "name": "saviors_of_kamigawa",
+  "version": "1.0.0",
+  "description": "A very large package modeled on Saviors of Kamigawa (2005). Includes mechanics and themes: Wisdom (hand size matters), Sweep, Channel, Epic, Arcane/Spiritcraft, Samurai/Bushido, Moonfolk land-bounce, maximum hand size tweaks, and a sprinkling of Flip-inspired text. Effect templates are weighted and gated by mana value ranges to keep results sane.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Bushido {N} (Whenever this creature blocks or becomes blocked, it gets +{N}/+{N} until end of turn.)",
+          12,
+          2,
+          5
+        ],
+        [
+          "Return a land you control to its owner's hand: create a 1/1 white Spirit creature token with flying. Activate only once each turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, create a 1/1 white Spirit creature token with flying.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, create a 1/1 white Spirit creature token with flying.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, create a 1/1 white Spirit creature token with flying.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, create a 1/1 white Spirit creature token with flying.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ],
+        [
+          "Return a land you control to its owner's hand: Create a 1/1 white spirit creature token with flying.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Create a 1/1 white spirit creature token with flying. If you have more cards in hand than an opponent, create a 1/1 white Spirit creature token with flying.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do create a 1/1 white Spirit creature token with flying. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Sweep — Return any number of Plainss you control to their owner's hand. Then creatures you control get +1/+1 until end of turn for each card returned this way.",
+          14,
+          3,
+          7
+        ],
+        [
+          "Search your library for an enchantment card, put it onto the battlefield, then shuffle. Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)",
+          3,
+          7,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [],
+      "Equipment": [
+        [
+          "Equip {ACTIVATED_COST}. Equipped Samurai gets +1/+1 and has vigilance.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Land": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever you cast a Spirit or Arcane spell, draw a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, draw a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, draw a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, draw a card.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ],
+        [
+          "Return a land you control to its owner's hand: Draw a card.",
+          12,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Draw a card. If you have more cards in hand than an opponent, draw a card.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do draw a card. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Sweep — Return any number of Islands you control to their owner's hand. Then return up to that many target permanents to their owners' hands.",
+          14,
+          3,
+          7
+        ],
+        [
+          "Search target opponent's library for a permanent card and put it onto the battlefield under your control. Then that player shuffles. Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)",
+          3,
+          8,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature. Whenever enchanted creature deals combat damage to a player, draw a card. If you have seven or more cards in hand, draw two cards instead.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "Land": []
+    },
+    "B": {
+      "Creature": [
+        [
+          "Bushido {N} (Whenever this creature blocks or becomes blocked, it gets +{N}/+{N} until end of turn.)",
+          12,
+          2,
+          5
+        ],
+        [
+          "Return a land you control to its owner's hand: target player discards a card. Activate only once each turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, target player discards a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, target player discards a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, target player discards a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, target player discards a card.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target player discards a card. If you have more cards in hand than an opponent, target player discards a card.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do target player discards a card. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Sweep — Return any number of Swamps you control to their owner's hand. Then target creature gets -X/-X until end of turn, where X is the number of cards returned this way.",
+          14,
+          3,
+          7
+        ],
+        [
+          "Search target player's library for up to X cards, where X is the number of cards in your hand, and exile them. Then that player shuffles. Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)",
+          3,
+          6,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature. Enchanted creature gets -{N}/-0. If you have more cards in hand than an opponent, it also gets -0/-{N}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "Land": []
+    },
+    "R": {
+      "Creature": [
+        [
+          "Bushido {N} (Whenever this creature blocks or becomes blocked, it gets +{N}/+{N} until end of turn.)",
+          12,
+          2,
+          5
+        ],
+        [
+          "Return a land you control to its owner's hand: this spell deals {N} damage to any target. Activate only once each turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, this spell deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, this spell deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, this spell deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, this spell deals 1 damage to any target.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "This spell deals {n} damage to any target. If you have more cards in hand than an opponent, this spell deals 1 damage to any target.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do this spell deals 2 damage to any target. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Sweep — Return any number of Mountains you control to their owner's hand. Then this spell deals X damage divided as you choose among up to X targets, where X is the number of cards returned this way.",
+          14,
+          3,
+          7
+        ],
+        [
+          "Exile cards from the top of your library until you exile a nonland card. This spell deals damage equal to that card's mana value to any target. Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)",
+          3,
+          6,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [],
+      "Equipment": [
+        [
+          "Equip {ACTIVATED_COST}. Equipped creature has first strike. If you have seven or more cards in hand, it also has double strike.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "Whenever you cast a Spirit or Arcane spell, target creature gets +1/+1 until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, target creature gets +1/+1 until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, target creature gets +1/+1 until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, target creature gets +1/+1 until end of turn.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature has trample and gets +{N}/+{N}.",
+          10,
+          3,
+          7
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, if you have more cards in hand than that player, create a 1/1 green Snake creature token.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{n}/+{n} until end of turn. If you have more cards in hand than an opponent, target creature gets +1/+1 until end of turn.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do target creature gets +2/+2 until end of turn. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Sweep — Return any number of Forests you control to their owner's hand. Then put X +1/+1 counters on target creature, where X is the number of cards returned this way.",
+          14,
+          3,
+          7
+        ],
+        [
+          "Create a 1/1 green Snake creature token for each card in your hand. Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)",
+          3,
+          7,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature. Enchanted creature gets +{N}/+{N}. When enchanted creature deals combat damage to a player, if you have more cards in hand than that player, draw a card.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "Land": []
+    },
+    "C": {
+      "Creature": [
+        [
+          "Whenever you cast a Spirit or Arcane spell, add {C}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, add {C}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Arcane spell, add {C}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "As long as you have seven or more cards in hand, this creature gets +{N}/+{N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature attacks, if you have more cards in hand than defending player, add {C}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Add {c}. If you have more cards in hand than an opponent, add {C}.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is Arcane in addition to its other types.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Splice onto Arcane {ACTIVATED_COST}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Do add {C}. If you have seven or more cards in hand, do it again.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "You have no maximum hand size.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Each opponent's maximum hand size is reduced by {N}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you have more cards in hand than an opponent, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Channel — {ACTIVATED_COST}: {ACTIVATED_EFFECT} (Discard this card.)",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Aura": [],
+      "Equipment": [
+        [
+          "Equip {ACTIVATED_COST}. Equipped creature gets +3/+0 and trample. Equip only a creature with power 3 or greater.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "T: Add {C}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "T: Add one mana of any color. Spend this mana only to cast Spirit or Arcane spells.",
+          6,
+          0,
+          0
+        ],
+        [
+          "Return a land you control to its owner's hand: Add {CC}}.",
+          4,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Fox",
+      "Samurai",
+      "Monk",
+      "Spirit",
+      "Legend"
+    ],
+    "U": [
+      "Human",
+      "Moonfolk",
+      "Wizard",
+      "Spirit",
+      "Legend"
+    ],
+    "B": [
+      "Human",
+      "Ogre",
+      "Rat",
+      "Shaman",
+      "Spirit",
+      "Legend"
+    ],
+    "R": [
+      "Human",
+      "Samurai",
+      "Warrior",
+      "Ogre",
+      "Spirit",
+      "Legend"
+    ],
+    "G": [
+      "Human",
+      "Snake",
+      "Shaman",
+      "Warrior",
+      "Spirit",
+      "Legend"
+    ],
+    "C": [
+      "Spirit",
+      "Construct",
+      "Samurai",
+      "Snake"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "bushido {N}"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "fear",
+      "menace"
+    ],
+    "R": [
+      "first strike",
+      "haste",
+      "bushido {N}"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card",
+      "this creature gets +{N}/+{N} until end of turn",
+      "tap target permanent",
+      "untap target permanent",
+      "return target nonland permanent to its owner's hand",
+      "target player discards a card",
+      "this spell deals {N} damage to any target",
+      "create a 1/1 Spirit creature token with flying"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever this creature attacks,",
+      "Whenever this creature blocks,",
+      "At the beginning of your upkeep,",
+      "At the beginning of your end step,"
+    ],
+    "WISDOM_COND": [
+      "as long as you have seven or more cards in hand",
+      "if you have more cards in hand than each opponent",
+      "as long as you have more cards in hand than an opponent",
+      "if you have exactly seven cards in hand",
+      "if you have eight or more cards in hand",
+      "as long as you have the most cards in hand"
+    ],
+    "EPIC_REMINDER": [
+      "Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.)"
+    ],
+    "ARCANE_TAG": [
+      "Arcane"
+    ],
+    "KAMIGAWA_FLAVOR_NOUN": [
+      "kami",
+      "Soratami",
+      "Akki",
+      "Nezumi",
+      "Kitsune",
+      "Konda's guard",
+      "Minamo sages",
+      "Sokenzan",
+      "Reito"
+    ],
+    "LAND_RETURN_COST": [
+      "Return a land you control to its owner's hand"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "X/X": [
+      "1/1",
+      "2/2",
+      "3/3"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Spirit",
+      "Snake",
+      "Samurai"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ]
+  }
+}

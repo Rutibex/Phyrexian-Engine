@@ -1,0 +1,816 @@
+{
+  "package_id": "urzas_destiny",
+  "display_name": "Urza's Destiny — Comprehensive (HUGE)",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{REVEAL_PROMPT_WHITE} {T}: Prevent 1 damage to target creature or player {REVEAL_SCALER}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "As long as this creature is enchanted, it gets +2/+2 and has flying.",
+          6,
+          2,
+          5
+        ],
+        [
+          "As long as this creature is enchanted, it has first strike and vigilance.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} exile all creatures.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you gain 4 life.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{SAC_DRAW_INTRO}",
+          6,
+          2,
+          5
+        ],
+        [
+          "Echo [ECHO_COST_W]",
+          4,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you may exile this creature. If you do, search your library for an enchantment card, put that card onto the battlefield, then shuffle.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{REVEAL_PROMPT_WHITE} Target creature gets +1/+1 until end of turn {REVEAL_SCALER}.",
+          7,
+          1,
+          3
+        ],
+        [
+          "{REVEAL_PROMPT_WHITE} Prevent the next 2 damage that would be dealt to any target this turn {REVEAL_SCALER}.",
+          7,
+          1,
+          3
+        ],
+        [
+          "Exile target creature, then return it to the battlefield under its owner's control.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return all enchantment cards from your graveyard to the battlefield.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Exile target enchantment. Search its controller's hand, graveyard, and library for any number of cards with the same name as that permanent and exile them. Then that player shuffles.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nAt the beginning of your upkeep, you may put a [GROWTH_COUNTER_NAME] counter on this Aura.\nEnchanted creature gets +1/+1 for each [GROWTH_COUNTER_NAME] counter on this Aura.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nAt the beginning of your upkeep, you may put a [GROWTH_COUNTER_NAME] counter on this Aura.\nWhen enchanted creature dies, draw a card for each [GROWTH_COUNTER_NAME] counter on this Aura.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Each other non-Aura enchantment is a creature in addition to its other types with power and toughness each equal to its mana value.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "At the beginning of your upkeep, you may put a fuse counter on this artifact.\n{T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card.\n{2}: This creature deals 1 damage to target creature.\n{2}: Regenerate this creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Add one mana of any color.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          1,
+          7
+        ],
+        [
+          "{G}, {T}: Regenerate target creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add one mana of any color.",
+          6,
+          1,
+          7
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{REVEAL_PROMPT_BLUE} {T}: Counter target activated ability unless its controller pays {1} {REVEAL_SCALER}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "As long as this creature is enchanted, it has flying and hexproof.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw two cards.",
+          4,
+          3,
+          5
+        ],
+        [
+          "{SAC_DRAW_INTRO}",
+          7,
+          2,
+          5
+        ],
+        [
+          "Echo [ECHO_COST_U]",
+          4,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you gain control of all enchantments.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{REVEAL_PROMPT_BLUE} Counter target spell unless its controller pays {1} for each card revealed this way.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Draw a card.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent gains control of target permanent you control.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Counter target instant spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. Search its owner's graveyard, hand, and library for any number of cards with the same name as that spell and exile them. Then that player shuffles.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nYou control enchanted creature.\nWhen this Aura enters the battlefield, untap up to five lands you control.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "At the beginning of your upkeep, you may put a fuse counter on this artifact.\n{T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card.\n{2}: This creature deals 1 damage to target creature.\n{2}: Regenerate this creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Add one mana of any color.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          1,
+          7
+        ],
+        [
+          "{G}, {T}: Regenerate target creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add one mana of any color.",
+          6,
+          1,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{REVEAL_PROMPT_BLACK} {T}: Target creature gets -1/-1 until end of turn {REVEAL_SCALER}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} return another target creature card from your graveyard to your hand.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} each opponent loses 2 life and you gain 2 life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{SAC_DRAW_INTRO}",
+          7,
+          2,
+          5
+        ],
+        [
+          "Echo [ECHO_COST_B]",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -4/-4 until end of turn.",
+          7,
+          2,
+          5
+        ],
+        [
+          "{REVEAL_PROMPT_BLACK} Target creature gets -1/-1 until end of turn {REVEAL_SCALER}.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target creature. Search its controller's graveyard, hand, and library for any number of cards with the same name as that creature and exile them. Then that player shuffles.",
+          3,
+          3,
+          6
+        ],
+        [
+          "You skip your draw step.\nPay 1 life: Draw a card.",
+          1,
+          6,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{B}, Sacrifice a creature: Destroy target nonblack creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature enters the battlefield, you lose 1 life and add {B}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "At the beginning of your upkeep, you may put a fuse counter on this artifact.\n{T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card.\n{2}: This creature deals 1 damage to target creature.\n{2}: Regenerate this creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Add one mana of any color.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          1,
+          7
+        ],
+        [
+          "{G}, {T}: Regenerate target creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add one mana of any color.",
+          6,
+          1,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Echo [ECHO_COST_R]\nWhen this creature enters the battlefield, it deals 3 damage to target player or planeswalker.",
+          4,
+          4,
+          6
+        ],
+        [
+          "{REVEAL_PROMPT_RED} {T}: This creature gets +1/+0 until end of turn {REVEAL_SCALER}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "{SAC_DRAW_INTRO}",
+          7,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals 2 damage to any target.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "{REVEAL_PROMPT_RED} This spell deals 1 damage to any target {REVEAL_SCALER}.",
+          7,
+          1,
+          3
+        ],
+        [
+          "As an additional cost to cast this spell, sacrifice a creature. This spell deals damage equal to the sacrificed creature's power to any target.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target nonbasic land. Search its controller's graveyard, hand, and library for any number of cards with the same name as that land and exile them. Then that player shuffles.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an opponent casts a creature spell, this enchantment deals 1 damage to that player.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "At the beginning of your upkeep, you may put a fuse counter on this artifact.\n{T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card.\n{2}: This creature deals 1 damage to target creature.\n{2}: Regenerate this creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Add one mana of any color.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          1,
+          7
+        ],
+        [
+          "{G}, {T}: Regenerate target creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add one mana of any color.",
+          6,
+          1,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Echo [ECHO_COST_G]\nWhen this creature enters the battlefield, put two +1/+1 counters on target creature.",
+          4,
+          4,
+          6
+        ],
+        [
+          "{REVEAL_PROMPT_GREEN} {T}: Target creature gets +1/+1 until end of turn {REVEAL_SCALER}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "{SAC_DRAW_INTRO}\nWhen you sacrifice this creature, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          7,
+          2,
+          5
+        ],
+        [
+          "When you control no other creatures, sacrifice this creature.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{REVEAL_PROMPT_GREEN} Target creature gets +2/+2 until end of turn {REVEAL_SCALER}.",
+          7,
+          1,
+          3
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may put a creature card from your hand onto the battlefield.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Exile target artifact. Search its controller's graveyard, hand, and library for any number of cards with the same name as that artifact and exile them. Then that player shuffles.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nAt the beginning of your upkeep, you may put a [GROWTH_COUNTER_NAME] counter on this Aura.\nEnchanted creature gets +1/+1 for each [GROWTH_COUNTER_NAME] counter on this Aura and has trample.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "At the beginning of your upkeep, you may put a fuse counter on this artifact.\n{T}, Sacrifice this artifact: Destroy each artifact and creature with mana value equal to the number of fuse counters on it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}: Reveal any number of artifact cards in your hand. Add {C}{C} for each card revealed this way.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card.\n{2}: This creature deals 1 damage to target creature.\n{2}: Regenerate this creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Add one mana of any color.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          1,
+          7
+        ],
+        [
+          "{G}, {T}: Regenerate target creature.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add one mana of any color.",
+          6,
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Angel",
+      "Cleric",
+      "Griffin",
+      "Knight",
+      "Soldier",
+      "Wizard",
+      "Human"
+    ],
+    "U": [
+      "Wizard",
+      "Illusion",
+      "Drake",
+      "Beeble",
+      "Metathran",
+      "Bird",
+      "Human"
+    ],
+    "B": [
+      "Minion",
+      "Horror",
+      "Rat",
+      "Assassin",
+      "Cleric",
+      "Zombie",
+      "Human"
+    ],
+    "R": [
+      "Goblin",
+      "Barbarian",
+      "Ogre",
+      "Beast",
+      "Hound",
+      "Human"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Insect",
+      "Giant",
+      "Crocodile",
+      "Human"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "ward 1",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When this creature dies,",
+      "When this permanent is put into a graveyard from the battlefield,",
+      "When this creature leaves the battlefield,"
+    ],
+    "SAC_DRAW_INTRO": [
+      "{2}, sacrifice this creature: Draw a card.",
+      "{2}, sacrifice this permanent: Draw a card.",
+      "{3}, sacrifice this creature: Draw two cards."
+    ],
+    "REVEAL_PROMPT_WHITE": [
+      "Reveal any number of white cards from your hand."
+    ],
+    "REVEAL_PROMPT_BLUE": [
+      "Reveal any number of blue cards from your hand."
+    ],
+    "REVEAL_PROMPT_BLACK": [
+      "Reveal any number of black cards from your hand."
+    ],
+    "REVEAL_PROMPT_RED": [
+      "Reveal any number of red cards from your hand."
+    ],
+    "REVEAL_PROMPT_GREEN": [
+      "Reveal any number of green cards from your hand."
+    ],
+    "REVEAL_SCALER": [
+      "for each card revealed this way",
+      "equal to the number of cards revealed this way"
+    ],
+    "ECHO_COST_W": [
+      "{2}{W}",
+      "{3}{W}",
+      "{W}{W}"
+    ],
+    "ECHO_COST_U": [
+      "{2}{U}",
+      "{3}{U}",
+      "{U}{U}"
+    ],
+    "ECHO_COST_B": [
+      "{2}{B}",
+      "{3}{B}",
+      "{B}{B}"
+    ],
+    "ECHO_COST_R": [
+      "{2}{R}",
+      "{3}{R}",
+      "{R}{R}"
+    ],
+    "ECHO_COST_G": [
+      "{2}{G}",
+      "{3}{G}",
+      "{G}{G}"
+    ],
+    "GROWTH_COUNTER_NAME": [
+      "page",
+      "charge",
+      "study",
+      "aim"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "its controller controls"
+    ],
+    "LOBOTOMY_TYPE": [
+      "artifact",
+      "creature",
+      "enchantment",
+      "land",
+      "instant",
+      "sorcery"
+    ],
+    "TOKEN_SUBTYPE_W": [
+      "Soldier",
+      "Angel"
+    ],
+    "TOKEN_SUBTYPE_U": [
+      "Illusion",
+      "Drake"
+    ],
+    "TOKEN_SUBTYPE_B": [
+      "Zombie",
+      "Imp"
+    ],
+    "TOKEN_SUBTYPE_R": [
+      "Goblin",
+      "Elemental"
+    ],
+    "TOKEN_SUBTYPE_G": [
+      "Elf",
+      "Beast"
+    ]
+  }
+}

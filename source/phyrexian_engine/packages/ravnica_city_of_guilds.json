@@ -1,0 +1,1052 @@
+{
+  "name": "Ravnica: City of Guilds (Comprehensive)",
+  "description": "HUGE package covering Convoke (Selesnya), Dredge (Golgari), Transmute (Dimir), Radiance (Boros), hybrid costs, guild commons/uncommons, signets, guildmages, and shockland-style lands.",
+  "version": "1.0.0",
+  "effects_by_color": {
+    "W": {
+      "Sorcery": [
+        [
+          "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {AURA_ATTACHED_TO} {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, create a {SMALL_NUMBER}/{SMALL_NUMBER} green and white {SELESNYA_TOKEN} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Create two {SMALL_NUMBER}/{SMALL_NUMBER} green and white {SELESNYA_TOKEN} creature tokens. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on each creature you control. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Tap up to {MED_NUMBER} target creatures. Those creatures don't untap during their controller's next untap step. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create {MED_NUMBER} 1/1 green and white {SELESNYA_TOKEN} creature tokens.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Convoke",
+          2,
+          3,
+          7
+        ],
+        [
+          "Guildmage — {W/R}{W/R}: Target creature gains {BOROS_KEYWORD} until end of turn. {W/R}{W/R}: Create a 1/1 white Soldier creature token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {G/W}{G/W}: Create a 1/1 green Saproling creature token. {G/W}{G/W}: Creatures you control get +1/+1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {U/B}{U/B}: Target player mills {MED_NUMBER}. {U/B}{U/B}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {B/G}{B/G}: Return target {GOLGARI_GRAVE} from your graveyard to your hand. {B/G}{B/G}: Target creature gains deathtouch until end of turn.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Enchantment - Aura": [
+        [
+          "Enchanted creature gets +{SMALL_NUMBER}/+{SMALL_NUMBER} and has vigilance. Convoke.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gets +{SMALL_NUMBER}/+{SMALL_NUMBER} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it can't block this turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gains first strike until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gets -{SMALL_NUMBER}/-{SMALL_NUMBER} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +{MED_NUMBER}/+{MED_NUMBER} and gains vigilance until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "({GUILD_PAIR} can be paid with either of its colors.) Target creature gets +{SMALL_NUMBER}/+{SMALL_NUMBER} until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature if it's red or white. Radiance — Each other creature that shares a color with it is tapped.",
+          2,
+          2,
+          4
+        ]
+      ]
+    },
+    "G": {
+      "Sorcery": [
+        [
+          "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {AURA_ATTACHED_TO} {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, create a {SMALL_NUMBER}/{SMALL_NUMBER} green and white {SELESNYA_TOKEN} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Create two {SMALL_NUMBER}/{SMALL_NUMBER} green and white {SELESNYA_TOKEN} creature tokens. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on each creature you control. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Tap up to {MED_NUMBER} target creatures. Those creatures don't untap during their controller's next untap step. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Dredge 2 (If you would draw a card, instead you may mill 2 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 3 (If you would draw a card, instead you may mill 3 cards. If you do, return this card from your graveyard to your hand.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dredge 4 (If you would draw a card, instead you may mill 4 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 5 (If you would draw a card, instead you may mill 5 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Dredge 6 (If you would draw a card, instead you may mill 6 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Return up to {SMALL_NUMBER} target {GOLGARI_GRAVE}s from your graveyard to your hand.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Mill {MED_NUMBER} cards, then you may return a land card from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Convoke",
+          2,
+          3,
+          7
+        ],
+        [
+          "Dredge 2 (If you would draw a card, instead you may mill 2 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 3 (If you would draw a card, instead you may mill 3 cards. If you do, return this card from your graveyard to your hand.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dredge 4 (If you would draw a card, instead you may mill 4 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 5 (If you would draw a card, instead you may mill 5 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Dredge 6 (If you would draw a card, instead you may mill 6 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature you control dies, create a {SMALL_NUMBER}/{SMALL_NUMBER} green {TOKEN_SUBTYPE} creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Guildmage — {W/R}{W/R}: Target creature gains {BOROS_KEYWORD} until end of turn. {W/R}{W/R}: Create a 1/1 white Soldier creature token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {G/W}{G/W}: Create a 1/1 green Saproling creature token. {G/W}{G/W}: Creatures you control get +1/+1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {U/B}{U/B}: Target player mills {MED_NUMBER}. {U/B}{U/B}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {B/G}{B/G}: Return target {GOLGARI_GRAVE} from your graveyard to your hand. {B/G}{B/G}: Target creature gains deathtouch until end of turn.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "({GUILD_PAIR} can be paid with either of its colors.) Target creature gets +{MED_NUMBER}/+{MED_NUMBER} until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {SMALL_NUMBER} target creatures.",
+          2,
+          2,
+          4
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Dredge 2 (If you would draw a card, instead you may mill 2 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 3 (If you would draw a card, instead you may mill 3 cards. If you do, return this card from your graveyard to your hand.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dredge 4 (If you would draw a card, instead you may mill 4 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 5 (If you would draw a card, instead you may mill 5 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Dredge 6 (If you would draw a card, instead you may mill 6 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature {CREATURE_CONTROLLER} dies, put a +1/+1 counter on this creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Guildmage — {W/R}{W/R}: Target creature gains {BOROS_KEYWORD} until end of turn. {W/R}{W/R}: Create a 1/1 white Soldier creature token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {G/W}{G/W}: Create a 1/1 green Saproling creature token. {G/W}{G/W}: Creatures you control get +1/+1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {U/B}{U/B}: Target player mills {MED_NUMBER}. {U/B}{U/B}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {B/G}{B/G}: Return target {GOLGARI_GRAVE} from your graveyard to your hand. {B/G}{B/G}: Target creature gains deathtouch until end of turn.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Dredge 2 (If you would draw a card, instead you may mill 2 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 3 (If you would draw a card, instead you may mill 3 cards. If you do, return this card from your graveyard to your hand.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dredge 4 (If you would draw a card, instead you may mill 4 cards. If you do, return this card from your graveyard to your hand.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Dredge 5 (If you would draw a card, instead you may mill 5 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Dredge 6 (If you would draw a card, instead you may mill 6 cards. If you do, return this card from your graveyard to your hand.)",
+          1,
+          1,
+          6
+        ],
+        [
+          "Return target {GOLGARI_GRAVE} from your graveyard to your hand. Then mill {SMALL_NUMBER} cards.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Transmute {1}{U}{B} ({1}{U}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {U}{U}{B} ({U}{U}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {U}{B}{B} ({U}{B}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {1}{U}{U} ({1}{U}{U}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {1}{B}{B} ({1}{B}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Target player discards {SMALL_NUMBER} cards. If you transmuted this turn, they discard that many plus 1 instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "({GUILD_PAIR} can be paid with either of its colors.) Target creature gets -{SMALL_NUMBER}/-{SMALL_NUMBER} until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-{MED_NUMBER} until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Transmute {1}{U}{B} ({1}{U}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {U}{U}{B} ({U}{U}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {U}{B}{B} ({U}{B}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {1}{U}{U} ({1}{U}{U}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Transmute {1}{B}{B} ({1}{B}{B}: Discard this card: Search your library for a card with mana value equal to this card's, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Target creature gets -{SMALL_NUMBER}/-0 until end of turn. Draw a card.",
+          2,
+          1,
+          3
+        ],
+        [
+          "({GUILD_PAIR} can be paid with either of its colors.) Counter target spell unless its controller pays {MED_NUMBER}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw a card. If you transmuted this turn, draw two cards instead.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} this deals combat damage to a player, surveil {SMALL_NUMBER}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Guildmage — {W/R}{W/R}: Target creature gains {BOROS_KEYWORD} until end of turn. {W/R}{W/R}: Create a 1/1 white Soldier creature token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {G/W}{G/W}: Create a 1/1 green Saproling creature token. {G/W}{G/W}: Creatures you control get +1/+1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {U/B}{U/B}: Target player mills {MED_NUMBER}. {U/B}{U/B}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {B/G}{B/G}: Return target {GOLGARI_GRAVE} from your graveyard to your hand. {B/G}{B/G}: Target creature gains deathtouch until end of turn.",
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gets +{SMALL_NUMBER}/+{SMALL_NUMBER} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it can't block this turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gains first strike until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Radiance — Target creature and each other creature that shares a color with it gets -{SMALL_NUMBER}/-{SMALL_NUMBER} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gains double strike until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "({GUILD_PAIR} can be paid with either of its colors.) Deal {SMALL_NUMBER} damage to any target.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Guildmage — {W/R}{W/R}: Target creature gains {BOROS_KEYWORD} until end of turn. {W/R}{W/R}: Create a 1/1 white Soldier creature token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {G/W}{G/W}: Create a 1/1 green Saproling creature token. {G/W}{G/W}: Creatures you control get +1/+1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {U/B}{U/B}: Target player mills {MED_NUMBER}. {U/B}{U/B}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Guildmage — {B/G}{B/G}: Return target {GOLGARI_GRAVE} from your graveyard to your hand. {B/G}{B/G}: Target creature gains deathtouch until end of turn.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{SMALL_NUMBER}/+0 and gain haste until end of turn.",
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Signet — {1}, {T}: Add {SIGNET_PAIR}.",
+          6,
+          2,
+          3
+        ]
+      ],
+      "Land": [
+        [
+          "({SHOCKLAND_TYPES}) As this enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.",
+          4,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "becomes blocked",
+      "enters the battlefield"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Saproling",
+      "Goblin",
+      "Zombie",
+      "Spirit",
+      "Insect",
+      "Wolf"
+    ],
+    "AURA_ATTACHED_TO": [
+      "creature",
+      "artifact",
+      "land"
+    ],
+    "SMALL_NUMBER": [
+      "1",
+      "2"
+    ],
+    "MED_NUMBER": [
+      "2",
+      "3",
+      "4"
+    ],
+    "LARGE_NUMBER": [
+      "4",
+      "5",
+      "6"
+    ],
+    "TARGET_NONLAND": [
+      "nonland permanent",
+      "creature",
+      "artifact",
+      "enchantment"
+    ],
+    "BOROS_KEYWORD": [
+      "first strike",
+      "vigilance",
+      "haste"
+    ],
+    "SELESNYA_TOKEN": [
+      "Saproling",
+      "Soldier",
+      "Wolf",
+      "Elf Knight"
+    ],
+    "GOLGARI_GRAVE": [
+      "card",
+      "creature card"
+    ],
+    "DIMIR_SEARCH_TYPE": [
+      "instant card",
+      "sorcery card",
+      "creature card",
+      "artifact card",
+      "enchantment card",
+      "land card"
+    ],
+    "GUILD_PAIR": [
+      "{W/R}",
+      "{G/W}",
+      "{U/B}",
+      "{B/G}"
+    ],
+    "SHOCKLAND_TYPES": [
+      "Plains Island",
+      "Island Swamp",
+      "Swamp Forest",
+      "Forest Plains"
+    ],
+    "SIGNET_PAIR": [
+      "{R}{W}",
+      "{G}{W}",
+      "{U}{B}",
+      "{B}{G}"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Pegasus",
+      "Spirit",
+      "Human"
+    ],
+    "U": [
+      "Wizard",
+      "Rogue",
+      "Vedalken",
+      "Spirit",
+      "Human",
+      "Cephalid"
+    ],
+    "B": [
+      "Zombie",
+      "Thrull",
+      "Insect",
+      "Elf",
+      "Human",
+      "Rat"
+    ],
+    "R": [
+      "Soldier",
+      "Goblin",
+      "Minotaur",
+      "Human",
+      "Elemental"
+    ],
+    "G": [
+      "Elf",
+      "Dryad",
+      "Centaur",
+      "Saproling",
+      "Wolf",
+      "Human"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Thopter"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "mentor"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "ward {N}",
+      "skulk"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "fear"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "flying",
+      "menace"
+    ]
+  }
+}

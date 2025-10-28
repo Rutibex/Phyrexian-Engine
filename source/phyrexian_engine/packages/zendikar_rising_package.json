@@ -1,0 +1,1124 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{CLERIC_LIFE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Other creatures you control get +1/+1 if you have a full party.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one \u2014\n\u2022 Target creature gets +2/+2 until end of turn.\n\u2022 {LIFE_GAIN_SMALL}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{PARTY_COST_REDUCTION}\nPrevent the next 3 damage that would be dealt to any target this turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nExile target tapped creature. If this spell was kicked, you gain 3 life.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two {TOKEN_COLOR} Kor Warrior creature tokens with 1/1. If you have a full party, create four of those tokens instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nTap up to two target creatures. If this spell was kicked, they don't untap during their controller's next untap step.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{LANDFALL_INTRO} {LIFE_GAIN_MED}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Creatures you control get +1/+1. As long as you have a full party, they also have vigilance.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {SELF} enters the battlefield, {LIFE_GAIN_SMALL}.\nEnchanted creature gets +2/+2.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {W}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LIFE_GAIN_SMALL}.",
+          3,
+          0,
+          8
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{WIZARD_SPELLS_MATTER}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever {SELF} deals combat damage to a player, {MILL_BURST}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. {MILL_BURST}",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. If you have a full party, draw three cards instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nScry 2, then draw two cards.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{LANDFALL_INTRO} scry 1.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever you cast a kicked spell, draw a card.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has \"Whenever you cast a kicked spell, draw a card.\"",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {U}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} scry 1.",
+          3,
+          0,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{ROGUE_MILL_PAYOFF}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} each opponent loses 1 life and you gain 1 life.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. If you have a full party, it gets -4/-4 instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nTarget opponent mills four cards. If this spell was kicked, you gain 2 life.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Destroy target creature with mana value 2 or less. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose 2 life. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nEach opponent mills four cards. If this spell was kicked, each opponent sacrifices a creature.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{LANDFALL_INTRO} each opponent loses 1 life and you gain 1 life.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever a Rogue you control deals combat damage to a player, {MILL_BURST}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has menace.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {B}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} each opponent loses 1 life.",
+          3,
+          0,
+          8
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{WARRIOR_AGGRO}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} target creature can't block this turn.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals 3 damage to any target. Kicker {KICKER_COST}. If this spell was kicked, it deals 5 damage instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. If you have a full party, draw a card.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nCreate two tapped {TOKEN_COLOR} {TOKEN_SUBTYPE} creature tokens with {TOKEN_INSECT_PT}. If this spell was kicked, they gain haste until end of turn.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}\nThis spell deals 2 damage to each creature. If this spell was kicked, it deals 4 damage to each creature.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Create two {TOKEN_COLOR} Goblin creature tokens. Creatures you control gain haste until end of turn.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{LANDFALL_INTRO} target creature can't block this turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever you cast a Warrior spell, create a {TOKEN_COLOR} 1/1 Goblin creature token.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has first strike.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {R}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} target creature can't block this turn.",
+          3,
+          0,
+          8
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} put {COUNTERS_SMALL} on {SELF}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} target creature you control gains trample until end of turn.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nPut two +1/+1 counters on target creature. If this spell was kicked, that creature gains trample until end of turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} target creature you control fights up to one target creature you don't control.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Kicker {KICKER_COST}\nCreate a {TOKEN_COLOR} Beast creature token with {TOKEN_BEAST_PT}. If this spell was kicked, create two of those tokens instead.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{LANDFALL_INTRO} put a +1/+1 counter on target creature you control.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Creatures you control have trample as long as you have a full party.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has trample.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {G}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} put a +1/+1 counter on target creature.",
+          3,
+          0,
+          8
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "{KICKER_INTRO}\nWhen {SELF} enters the battlefield, {KICKER_EFFECT_CREATURE}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_SMALL}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} {LANDFALL_EFFECT_MED}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{PARTY_ETB}",
+          3,
+          0,
+          8
+        ],
+        [
+          "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+          2,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} add {C}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Add {C}{C}. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a tapped {TOKEN_COLOR} Elemental creature token with {TOKEN_ELEMENTAL_PT}. {PARTY_COST_REDUCTION}",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a land enters the battlefield under your control, add {C}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{PARTY_COST_REDUCTION}\n{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever you cast a kicked spell, {SELF} deals 1 damage to any target.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} add {C}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1. As long as you have a full party, it has vigilance and trample.\nEquip {EQUIP_COST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Equipped creature gets +1/+1 {PARTY_REF}.\nEquip {EQUIP_COST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Whenever equipped creature attacks, {LANDFALL_EFFECT_SMALL} if a land entered the battlefield under your control this turn.\nEquip {EQUIP_COST}",
+          3,
+          0,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\n{LAND_AURA_BOOST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. Then, if you kicked a spell this turn, add an additional {C}.\"",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} scry 1. If you have a full party, draw a card instead.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} {MILL_BURST}",
+          3,
+          0,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+          3,
+          0,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{SELF} enters the battlefield tapped.\n{T}: Add {C}.",
+          3,
+          0,
+          8
+        ],
+        [
+          "{LANDFALL_INTRO} add {C}.",
+          3,
+          0,
+          8
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kor",
+      "Human",
+      "Cleric",
+      "Warrior",
+      "Cat",
+      "Angel"
+    ],
+    "U": [
+      "Merfolk",
+      "Human",
+      "Rogue",
+      "Wizard",
+      "Drake",
+      "Elemental"
+    ],
+    "B": [
+      "Vampire",
+      "Human",
+      "Cleric",
+      "Rogue",
+      "Shade",
+      "Horror"
+    ],
+    "R": [
+      "Goblin",
+      "Human",
+      "Warrior",
+      "Wizard",
+      "Minotaur",
+      "Elemental"
+    ],
+    "G": [
+      "Elf",
+      "Human",
+      "Beast",
+      "Elemental",
+      "Warrior",
+      "Insect"
+    ],
+    "C": [
+      "Construct",
+      "Drone",
+      "Golem"
+    ]
+  },
+  "string_pools": {
+    "LANDFALL_INTRO": [
+      "Landfall \u2014 Whenever a land enters the battlefield under your control,"
+    ],
+    "KICKER_INTRO": [
+      "Kicker {KICKER_COST}",
+      "Kicker {KICKER_COST} and/or {KICKER_COST_ALT}"
+    ],
+    "PARTY_BLURB": [
+      "your party is up to one each of Cleric, Rogue, Warrior, and Wizard",
+      "you control up to one each of Cleric, Rogue, Warrior, and Wizard"
+    ],
+    "PARTY_REF": [
+      "for each creature in your party",
+      "if you have a full party",
+      "where X is the number of creatures in your party"
+    ],
+    "PARTY_CLASSES": [
+      "Cleric",
+      "Rogue",
+      "Warrior",
+      "Wizard"
+    ],
+    "KICKER_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}{W}",
+      "{3}{U}",
+      "{3}{B}",
+      "{3}{R}",
+      "{3}{G}"
+    ],
+    "KICKER_EFFECT_CREATURE": [
+      "If this spell was kicked, it enters the battlefield with two +1/+1 counters on it.",
+      "If this spell was kicked, put a +1/+1 counter on up to two target creatures.",
+      "If this spell was kicked, it gains vigilance and lifelink until end of turn."
+    ],
+    "KICKER_EFFECT_NONCREATURE": [
+      "If this spell was kicked, {SMALL_BURN}.",
+      "If this spell was kicked, draw two cards.",
+      "If this spell was kicked, destroy target artifact or enchantment."
+    ],
+    "SMALL_BURN": [
+      "it deals 2 damage to any target",
+      "this deals 2 damage to target creature or planeswalker"
+    ],
+    "MILL_BURST": [
+      "target player mills four cards",
+      "each opponent mills three cards"
+    ],
+    "COUNTERS_SMALL": [
+      "a +1/+1 counter",
+      "two +1/+1 counters"
+    ],
+    "LIFE_GAIN_SMALL": [
+      "you gain 2 life",
+      "you gain 3 life"
+    ],
+    "LIFE_GAIN_MED": [
+      "you gain 4 life",
+      "you gain 5 life"
+    ],
+    "TOKEN_ELEMENTAL_PT": [
+      "1/1",
+      "2/1",
+      "3/1"
+    ],
+    "TOKEN_BEAST_PT": [
+      "3/3",
+      "4/4"
+    ],
+    "TOKEN_INSECT_PT": [
+      "1/1"
+    ],
+    "PARTY_COST_REDUCTION": [
+      "This spell costs {1} less to cast {PARTY_REF}.",
+      "This ability costs {1} less to activate {PARTY_REF}."
+    ],
+    "PARTY_BONUS_LINE": [
+      "As long as you have a full party, {SELF} gets +2/+2 and has vigilance.",
+      "As long as you have a full party, spells you cast cost {1} less to cast."
+    ],
+    "ROGUE_MILL_PAYOFF": [
+      "Whenever one or more cards are milled, {SELF} gets +1/+0 until end of turn.",
+      "Whenever an opponent mills a creature card, you may have {SELF} gain deathtouch until end of turn."
+    ],
+    "WIZARD_SPELLS_MATTER": [
+      "Whenever you cast an instant or sorcery spell, put {COUNTERS_SMALL} on {SELF}.",
+      "Whenever you cast a Wizard spell, scry 1."
+    ],
+    "WARRIOR_AGGRO": [
+      "{SELF} has first strike as long as it is attacking.",
+      "Whenever {SELF} attacks alone, it gets +2/+0 until end of turn."
+    ],
+    "CLERIC_LIFE": [
+      "Whenever you gain life, put {COUNTERS_SMALL} on {SELF}.",
+      "At the beginning of your end step, if you gained life this turn, create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token."
+    ],
+    "LANDFALL_EFFECT_SMALL": [
+      "put {COUNTERS_SMALL} on {SELF}.",
+      "target creature can't block this turn.",
+      "add {C}.",
+      "create a {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+      "scry 1."
+    ],
+    "LANDFALL_EFFECT_MED": [
+      "target creature gets +2/+2 until end of turn.",
+      "draw a card.",
+      "you gain 2 life.",
+      "this deals 1 damage to each opponent.",
+      "return target creature card with mana value 2 or less from your graveyard to your hand."
+    ],
+    "LANDFALL_EFFECT_BIG": [
+      "destroy target artifact or enchantment an opponent controls.",
+      "create a tapped {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token with {TOKEN_PT}.",
+      "creatures you control get +1/+1 until end of turn."
+    ],
+    "PARTY_ETB": [
+      "When {SELF} enters the battlefield, {PARTY_COST_REDUCTION}",
+      "When {SELF} enters the battlefield, if you have a full party, draw a card."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}"
+    ],
+    "AURA_GRANT": [
+      "enchanted creature gets +1/+1 for each creature in your party",
+      "enchanted creature gets +2/+1 and has menace",
+      "enchanted creature has \"{T}: Add one mana of any color.\""
+    ],
+    "LAND_AURA_BOOST": [
+      "enchanted land has \"{T}: Add {W}{U}\"",
+      "enchanted land has \"{T}: Add {B}{R}\"",
+      "enchanted land has \"{T}: Add {G}{G}\""
+    ],
+    "DFLAVOR": [
+      "Skittering across the Skyclaves, it knows every crack.",
+      "The Roil rewards the bold and devours the unready.",
+      "Heroes gather, and the world itself answers."
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Kor",
+      "Cat",
+      "Goblin",
+      "Vampire",
+      "Elemental",
+      "Beast",
+      "Insect"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/1",
+      "3/3",
+      "{X}/{X}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "ward {X}"
+    ]
+  }
+}

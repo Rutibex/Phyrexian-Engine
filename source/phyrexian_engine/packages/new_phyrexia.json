@@ -1,0 +1,1714 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{INFECTION_VERB}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Lifelink",
+          3,
+          2,
+          6
+        ],
+        [
+          "Other creatures you control get +1/+1.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, you gain 1 life and proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{HAND_REVEAL_INTRO} at the beginning of your first upkeep, create a 1/1 white creature token.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Creatures you control get +2/+2. Creatures your opponents control get -2/-2.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Other creatures you control have vigilance and lifelink. {TRIGGER_INTRO} a creature you control dies, proliferate.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Exile target attacking creature.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "You gain 4 life. Proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ],
+        [
+          "Exile target artifact or enchantment. You gain 2 life.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Prevent the next 3 damage that would be dealt to any target this turn. Proliferate.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you paid life to cast this, create a 1/1 white Soldier creature token.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures. Proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control gain vigilance until end of turn. Proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{B/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{W/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying, {INFECTION_VERB}",
+          3,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, draw a card. Proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{HAND_REVEAL_INTRO} at the beginning of your first upkeep, create a 1/1 blue creature token.",
+          1,
+          5,
+          7
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a creature. At the beginning of your end step, return target creature card from your graveyard to the battlefield.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Flying. Spells your opponents cast cost {X} more to cast, where X is the number of poison counters they have.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Draw two cards. Then proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Look at the top three cards of your library, put one into your hand and the rest into your graveyard.",
+          3,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ],
+        [
+          "Counter target spell with mana value 3 or less. If you paid life to cast this, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Tap target permanent. It doesn't untap during its controller's next untap step. Proliferate.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exchange control of two target artifacts.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Proliferate, then draw a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target artifact you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Tap up to three target creatures. Those creatures don't untap during their controller's next untap step.",
+          3,
+          3,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{R/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{U/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{INFECTION_VERB}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Menace, {INFECTION_VERB}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, that player gets an additional poison counter.",
+          5,
+          2,
+          6
+        ],
+        [
+          "When this enters the battlefield, target creature gets -1/-1 until end of turn. Proliferate.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{HAND_REVEAL_INTRO} at the beginning of your first upkeep, create a 1/1 black creature token.",
+          1,
+          5,
+          7
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a creature. At the beginning of your end step, return target creature card from your graveyard to the battlefield.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Menace. {TRIGGER_INTRO} this deals combat damage to a player, that player gets that many poison counters instead.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -X/-X until end of turn, where X is {X}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Each opponent loses 2 life. You gain 2 life. Proliferate.",
+          4,
+          2,
+          5
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. Destroy target creature with mana value 3 or less.",
+          4,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature or planeswalker. You lose 2 life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target opponent discards two cards. Proliferate.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Until end of turn, creatures you control gain lifelink and infect.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose 2 life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. Proliferate.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Proliferate.",
+          4,
+          3,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{U/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{U/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste, {INFECTION_VERB}",
+          3,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever you pay life, this gets +1/+0 until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{HAND_REVEAL_INTRO} at the beginning of your first upkeep, create a 1/1 red creature token.",
+          1,
+          5,
+          7
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a creature. At the beginning of your end step, return target creature card from your graveyard to the battlefield.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Haste. Whenever you pay life, this deals 1 damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals 3 damage to any target.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature can't block this turn. Proliferate.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Add {R}{R}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          3,
+          1,
+          4
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ],
+        [
+          "This spell deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target player can't gain life this turn. Proliferate.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Discard a card, then draw two cards. If you paid life to cast this, this deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "This spell deals 4 damage to target creature or planeswalker. Proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens with haste.",
+          3,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{U/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{W/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample, {INFECTION_VERB}",
+          4,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, proliferate.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, distribute two +1/+1 counters among up to two target creatures.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{HAND_REVEAL_INTRO} at the beginning of your first upkeep, create a 1/1 green creature token.",
+          1,
+          5,
+          7
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a creature. At the beginning of your end step, return target creature card from your graveyard to the battlefield.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Trample. Other creatures you control have toxic 1. {TRIGGER_INTRO} this attacks, proliferate.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Put two +1/+1 counters on target creature. Proliferate.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          4,
+          1,
+          4
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target creature you control fights target creature you don't control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Double the number of +1/+1 counters on target creature, then proliferate.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Regenerate target creature. Proliferate.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create a 3/3 green Beast creature token, then proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{U/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{R/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [],
+      "Instant": [
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell costs {PHYREXIAN_PIP} less to cast.",
+          1,
+          2,
+          6
+        ],
+        [
+          "As an additional cost to cast this spell, you may pay 2 life. If you do, copy it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one — Proliferate; or counter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — Proliferate; or remove up to two counters from target permanent or opponent.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. It gains 'When this creature deals combat damage to a player, that player gets a poison counter.'",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast this spell, ({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Choose one or both — Proliferate; and create a 0/0 black Germ creature token.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You get a poison counter. Then proliferate twice.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gets a poison counter. Then if they have five or more poison counters, draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you pay life, draw a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with infect get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, create a 0/0 black Germ creature token, then attach target Equipment you control to it.",
+          3,
+          3,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you pay life, put a +1/+1 counter on target creature you control. Then proliferate.",
+          2,
+          3,
+          6
+        ],
+        [
+          "As long as an opponent has three or more poison counters, creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature. Enchanted creature has infect.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each poison counter your opponents have.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Enchant artifact or creature. Enchanted permanent has '{ACTIVATED_COST}: {ACTIVATED_EFFECT}.'",
+          3,
+          1,
+          5
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{IMPRINT_INTRO} exile a card from your hand.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{IMPRINT_INTRO} exile target card from a graveyard.",
+          3,
+          2,
+          6
+        ],
+        [
+          "As long as a card exiled with this is a creature card, this is a creature in addition to its other types with power and toughness each equal to that card's mana value.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "{W/P}: Proliferate.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{G/P}: Target creature gains infect until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{2}, Pay 2 life: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}, Pay 2 life: Add one mana of any color.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Imprint — When this enters the battlefield, you may exile target instant or sorcery card from a graveyard. {T}: You may cast a copy of the exiled card. Activate only as a sorcery.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Imprint — As this enters the battlefield, you may exile a creature card from your hand. This has power and toughness each equal to the exiled card's mana value.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Imprint — When this enters the battlefield, exile target artifact you control until this leaves the battlefield.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "{LIVING_WEAPON_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{LIVING_WEAPON_LINE} Equipped creature gets +2/+2.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{LIVING_WEAPON_LINE} Equipped creature has infect.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{LIVING_WEAPON_LINE} {TRIGGER_INTRO} equipped creature {CREATURE_TRIGGER}, proliferate.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{LIVING_WEAPON_LINE} Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Equipped creature gets +X/+0, where X is the number of poison counters your opponents have.",
+          5,
+          2,
+          6
+        ],
+        [
+          "({PHYREXIAN_PIP} can be paid with {PHYREXIAN_COLOR_NAME} or 2 life.)",
+          1,
+          1,
+          7
+        ],
+        [
+          "Equipped creature has infect and 'Whenever this creature deals combat damage to a player, proliferate.' Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 for each poison counter your opponents have. Equip—Pay 2 life.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{ACTIVATED_COST}: Proliferate.' Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Cleric",
+      "Soldier",
+      "Knight",
+      "Angel",
+      "Germ",
+      "Horror",
+      "Praetor"
+    ],
+    "U": [
+      "Wizard",
+      "Horror",
+      "Drake",
+      "Vedalken",
+      "Homunculus",
+      "Praetor"
+    ],
+    "B": [
+      "Cleric",
+      "Zombie",
+      "Horror",
+      "Imp",
+      "Vampire",
+      "Praetor",
+      "Germ"
+    ],
+    "R": [
+      "Warrior",
+      "Shaman",
+      "Horror",
+      "Berserker",
+      "Praetor"
+    ],
+    "G": [
+      "Beast",
+      "Cleric",
+      "Insect",
+      "Ooze",
+      "Praetor",
+      "Elf"
+    ],
+    "any": [
+      "Germ",
+      "Horror",
+      "Drone",
+      "Construct",
+      "Phyrexian",
+      "Praetor"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "that player controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "is dealt damage",
+      "becomes tapped",
+      "becomes blocked"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Germ",
+      "Horror",
+      "Beast",
+      "Insect",
+      "Ooze"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "Sacrifice a creature",
+      "Discard a card"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card",
+      "proliferate",
+      "target creature gets -1/-1 until end of turn",
+      "you gain 2 life",
+      "add {C}{C}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "PHYREXIAN_PIP": [
+      "{W/P}",
+      "{U/P}",
+      "{B/P}",
+      "{R/P}",
+      "{G/P}"
+    ],
+    "PHYREXIAN_COLOR_NAME": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "INFECTION_VERB": [
+      "infect",
+      "toxic 1"
+    ],
+    "LIVING_WEAPON_LINE": [
+      "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)"
+    ],
+    "PROLIFERATE_LINE": [
+      "Proliferate. (Choose any number of permanents and/or players with counters on them, then give each another of each kind already there.)"
+    ],
+    "IMPRINT_INTRO": [
+      "Imprint —",
+      "Imprint — As this enters the battlefield,",
+      "Imprint — When this enters the battlefield,"
+    ],
+    "HAND_REVEAL_INTRO": [
+      "You may reveal this card from your opening hand. If you do,"
+    ],
+    "PRAETOR_STATIC_TEMPLATE": [
+      "Creatures you control get +{N}/+{N}. Creatures your opponents control get -{N}/-{N}.",
+      "At the beginning of each opponent's upkeep, that player sacrifices a creature. At the beginning of your end step, return target creature card from your graveyard to the battlefield."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "ward {X}"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "trample",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "ward {X}"
+    ],
+    "C": [
+      "deathtouch",
+      "menace"
+    ]
+  }
+}

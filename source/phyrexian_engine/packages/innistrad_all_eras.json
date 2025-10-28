@@ -1,0 +1,1363 @@
+{
+  "name": "Innistrad — All Eras (2011, 2016, 2021)",
+  "id": "innistrad_all_eras",
+  "description": "A huge Innistrad package spanning original Innistrad block (2011–2012), Shadows/Eldritch (2016), and Midnight Hunt/Crimson Vow (2021). Includes transform/day–night, flashback, morbid, curses, undying, fateful hour, miracle, soulbond, delirium, investigate, skulk, madness, emerge, meld, escalate, disturb, coven, decayed, training, cleave, blood tokens, exploit, and more.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Soulbond. As long as this is paired with another creature, both have {SOULBOND_BONUS}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Disturb {ALT_COST}. (You may cast this from your graveyard for its disturb cost.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "Whenever another Human enters the battlefield under your control, {TRAINING_BONUS}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Miracle {ALT_COST}. Then {MIRACLE_EFFECT}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Investigate.",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Investigate.",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Skulk.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Skulk — {SKULK_BONUS}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Soulbond. As long as this is paired with another creature, both have {SOULBOND_BONUS}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Exploit. When this exploits a creature, {EXPLOIT_EFFECT}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Disturb {ALT_COST}. (You may cast this from your graveyard for its disturb cost.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "Decayed.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Whenever one or more Zombies you control attack, {BLOOD_EFFECT}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Investigate.",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Miracle {ALT_COST}. Then {MIRACLE_EFFECT}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Investigate.",
+          10,
+          1,
+          6
+        ],
+        [
+          "Draw {SMALL_N} cards. If you investigated this turn, draw an additional card.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Enchant player — {CURSE_EFFECT}.",
+          12,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "B": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Skulk.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Skulk — {SKULK_BONUS}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Undying.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Soulbond. As long as this is paired with another creature, both have {SOULBOND_BONUS}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Exploit. When this exploits a creature, {EXPLOIT_EFFECT}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Decayed.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Whenever one or more Zombies you control attack, {BLOOD_EFFECT}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchant player — {CURSE_EFFECT}.",
+          12,
+          2,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, if a creature died last turn, each opponent loses 1 life and you gain 1 life.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "R": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Soulbond. As long as this is paired with another creature, both have {SOULBOND_BONUS}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Daybound.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{DFC_TRIGGER_DAY}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{DFC_TRIGGER_NIGHT}",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          10,
+          2,
+          6
+        ],
+        [
+          "This spell deals {MED_N} damage to any target. If it's night, it deals {BIG_N} damage instead.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Miracle {ALT_COST}. Then {MIRACLE_EFFECT}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchant player — {CURSE_EFFECT}.",
+          12,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Undying.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Soulbond. As long as this is paired with another creature, both have {SOULBOND_BONUS}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Daybound.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{DFC_TRIGGER_DAY}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{DFC_TRIGGER_NIGHT}",
+          6,
+          3,
+          7
+        ],
+        [
+          "Wolves and Werewolves you control get +1/+0 and have trample.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Fateful hour — {COVEN_EFFECT}. Activate only if you have 5 or less life.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Coven — {COVEN_EFFECT} if you control three or more creatures with different powers.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "C": {
+      "Creature": [
+        [
+          "Daybound.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Nightbound.",
+          12,
+          3,
+          7
+        ],
+        [
+          "{DFC_TRIGGER_DAY}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{DFC_TRIGGER_NIGHT}",
+          6,
+          3,
+          7
+        ],
+        [
+          "Disturb {ALT_COST}. (You may cast this from your graveyard for its disturb cost.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "If cast using disturb, it enters as {DISTURB_FORM}.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Decayed.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Training.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Emerge {ALT_COST}. (You may cast this by sacrificing a creature and paying the difference.)",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Investigate.",
+          18,
+          1,
+          6
+        ],
+        [
+          "Investigate {SMALL_N}.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Create a Clue token. (It's an artifact with '{A_PLAYER} may pay {2}, sacrifice this: draw a card'.)",
+          6,
+          1,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          14,
+          1,
+          7
+        ],
+        [
+          "Create {SMALL_N} Blood tokens.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Blood tokens you control have '{BLOOD_EFFECT}'.",
+          5,
+          3,
+          8
+        ],
+        [
+          "Cleave {ALT_COST}. (You may cast this for its cleave cost; ignore words in brackets.)",
+          6,
+          3,
+          8
+        ],
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Flashback {ALT_COST}.",
+          14,
+          2,
+          7
+        ],
+        [
+          "Madness {ALT_COST}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Escalate {ALT_COST}. (Choose any number of modes beyond the first by paying the escalate cost for each.)",
+          6,
+          3,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate.",
+          18,
+          1,
+          6
+        ],
+        [
+          "Investigate {SMALL_N}.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Create a Clue token. (It's an artifact with '{A_PLAYER} may pay {2}, sacrifice this: draw a card'.)",
+          6,
+          1,
+          7
+        ],
+        [
+          "Create a Blood token.",
+          14,
+          1,
+          7
+        ],
+        [
+          "Create {SMALL_N} Blood tokens.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Blood tokens you control have '{BLOOD_EFFECT}'.",
+          5,
+          3,
+          8
+        ],
+        [
+          "Cleave {ALT_COST}. (You may cast this for its cleave cost; ignore words in brackets.)",
+          6,
+          3,
+          8
+        ],
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Flashback {ALT_COST}.",
+          14,
+          2,
+          7
+        ],
+        [
+          "Madness {ALT_COST}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Escalate {ALT_COST}. (Choose any number of modes beyond the first by paying the escalate cost for each.)",
+          6,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Create a Blood token.",
+          14,
+          1,
+          7
+        ],
+        [
+          "Create {SMALL_N} Blood tokens.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Blood tokens you control have '{BLOOD_EFFECT}'.",
+          5,
+          3,
+          8
+        ],
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Emerge {ALT_COST}. (You may cast this by sacrificing a creature and paying the difference.)",
+          6,
+          4,
+          8
+        ],
+        [
+          "Meld — This card melds with a designated partner to become a larger back face.",
+          2,
+          4,
+          8
+        ]
+      ],
+      "Land": []
+    },
+    "M": {
+      "Creature": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Morbid — {MORBID_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Create a Blood token.",
+          14,
+          1,
+          7
+        ],
+        [
+          "Create {SMALL_N} Blood tokens.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Blood tokens you control have '{BLOOD_EFFECT}'.",
+          5,
+          3,
+          8
+        ],
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Delirium — {DELIRIUM_EFFECT}.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Land": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Spirit",
+      "Soldier",
+      "Cleric",
+      "Hound"
+    ],
+    "U": [
+      "Spirit",
+      "Zombie",
+      "Horror",
+      "Homunculus",
+      "Wizard"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Horror",
+      "Warlock",
+      "Assassin"
+    ],
+    "R": [
+      "Vampire",
+      "Devil",
+      "Werewolf",
+      "Berserker",
+      "Shaman"
+    ],
+    "G": [
+      "Human",
+      "Wolf",
+      "Werewolf",
+      "Spider",
+      "Warrior"
+    ],
+    "C": [
+      "Construct",
+      "Scarecrow",
+      "Golem"
+    ],
+    "M": [
+      "Angel",
+      "Demon",
+      "Eldrazi Horror",
+      "Vampire",
+      "Werewolf",
+      "Spirit",
+      "Zombie"
+    ]
+  },
+  "string_pools": {
+    "ALT_COST": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}",
+      "{X}{B}",
+      "{X}{R}",
+      "{X}{G}",
+      "{X}{U}",
+      "{X}{W}",
+      "{W/P}",
+      "{U/P}",
+      "{B/P}",
+      "{R/P}",
+      "{G/P}"
+    ],
+    "SMALL_N": [
+      "1",
+      "2"
+    ],
+    "MED_N": [
+      "2",
+      "3",
+      "4"
+    ],
+    "BIG_N": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Human",
+      "Spirit",
+      "Zombie",
+      "Vampire",
+      "Werewolf",
+      "Wolf",
+      "Horror",
+      "Devil",
+      "Insect",
+      "Construct",
+      "Bat"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "PERMANENT_TYPE": [
+      "creature",
+      "artifact",
+      "enchantment",
+      "land",
+      "planeswalker"
+    ],
+    "CARD_TYPE": [
+      "artifact",
+      "creature",
+      "enchantment",
+      "instant",
+      "sorcery",
+      "land",
+      "planeswalker"
+    ],
+    "A_PLAYER": [
+      "you",
+      "an opponent",
+      "target player",
+      "each opponent"
+    ],
+    "THIS": [
+      "this creature",
+      "this permanent",
+      "this spell"
+    ],
+    "SELF": [
+      "it",
+      "this creature"
+    ],
+    "PAIRED_EFFECT": [
+      "as long as it is paired, both creatures get +1/+1",
+      "as long as it is paired, both creatures have lifelink",
+      "while paired, both creatures have vigilance",
+      "while paired, each of those creatures has first strike"
+    ],
+    "DELIRIUM_EFFECT": [
+      "this gets +2/+2",
+      "this has flying",
+      "this has deathtouch",
+      "create a {SMALL_N}/{SMALL_N} black Zombie token",
+      "draw a card",
+      "opponents lose 2 life and you gain 2 life"
+    ],
+    "MORBID_EFFECT": [
+      "put two +1/+1 counters on {SELF}",
+      "destroy target creature with toughness {MED_N} or less",
+      "create a tapped {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "return target creature card from your graveyard to your hand"
+    ],
+    "COVEN_EFFECT": [
+      "add {G}{G}",
+      "creatures you control get +1/+1 until end of turn",
+      "{SELF} gains indestructible until end of turn",
+      "draw a card"
+    ],
+    "TRAINING_BONUS": [
+      "put a +1/+1 counter on {SELF}",
+      "scry 1"
+    ],
+    "EXPLOIT_EFFECT": [
+      "destroy target creature",
+      "draw two cards",
+      "each opponent loses 2 life and you gain 2 life"
+    ],
+    "BLOOD_EFFECT": [
+      "discard a card, then draw a card",
+      "sacrifice it: each opponent loses 1 life"
+    ],
+    "DISTURB_FORM": [
+      "a Spirit with flying and 'if it would go to the graveyard from anywhere, exile it instead'",
+      "an Aura with 'enchant creature' and 'enchanted creature gets +2/+2'",
+      "an Aura with 'enchant creature' and 'enchanted creature has flying'"
+    ],
+    "SOULBOND_BONUS": [
+      "first strike",
+      "deathtouch",
+      "lifelink",
+      "vigilance",
+      "flying"
+    ],
+    "MIRACLE_EFFECT": [
+      "copy this spell",
+      "it deals {MED_N} damage to any target",
+      "create two {TOKEN_COLOR} {TOKEN_SUBTYPE} creature tokens"
+    ],
+    "CURSE_EFFECT": [
+      "at the beginning of enchanted player's upkeep, that player loses 1 life",
+      "enchanted player discards a card at random",
+      "spells that player casts cost {SMALL_N} more to cast"
+    ],
+    "SKULK_BONUS": [
+      "whenever this deals combat damage to a player, draw a card",
+      "whenever it deals combat damage to a player, create a {TOKEN_COLOR} Clue token"
+    ],
+    "DFC_TRIGGER_DAY": [
+      "at the beginning of each upkeep, if a player cast no spells last turn, transform {SELF}"
+    ],
+    "DFC_TRIGGER_NIGHT": [
+      "at the beginning of each upkeep, if a player cast two or more spells last turn, transform {SELF}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "skulk",
+      "ward {1}"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "menace",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "M": [
+      "flying",
+      "menace",
+      "trample",
+      "ward {2}"
+    ],
+    "C": [
+      "deathtouch",
+      "reach"
+    ]
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Exile target artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. If it’s an artifact, it gains vigilance until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Metalcraft — Target creature gets +2/+2 and gains first strike until end of turn as long as you control three or more artifacts.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Tap up to two target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target attacking creature. If that creature was an artifact, you gain 3 life.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Soldier creature tokens. If you control an artifact, create three of those tokens instead.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Create two 1/1 white Myr artifact creature tokens as long as you control three or more artifacts.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Exile target tapped creature.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Metalcraft — Creatures you control get +1/+1 as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Artifact creatures you control have vigilance.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Imprint — When this enters the battlefield, you may exile a creature card from your hand. Metalcraft — Equipped creature gets +2/+2 as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a 1/1 white Myr artifact creature token.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}: Target creature gains vigilance until end of turn.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Metalcraft — {1}: Create a 1/1 colorless Myr artifact creature token as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+2.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Metalcraft — Enchanted creature gets an additional +1/+1 as long as you control three or more artifacts.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Equipped creature has first strike as long as you control three or more artifacts.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {3}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Proliferate. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target artifacts.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner’s hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Search your library for an artifact card with mana value {N}, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an artifact spell, scry 1.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — At the beginning of your end step, draw a card as long as you control three or more artifacts.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, you may draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Imprint — When this enters the battlefield, you may exile an instant or sorcery card from your graveyard. {T}: Copy the exiled card. You may cast the copy without paying its mana cost.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{T}: Add {C}. Metalcraft — {T}: Add one mana of any color as long as you control three or more artifacts.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{4}, {T}: Proliferate.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}: Untap target artifact.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{3}: Target creature can’t be blocked this turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets -2/-0.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever enchanted creature deals combat damage to a player, you may draw a card.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature has flying.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Equipped creature gets +1/+1 as long as you control three or more artifacts.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target player gets a poison counter.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target creature gains Infect until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target artifact or creature card from your graveyard to your hand.",
+          2,
+          2,
+          5
+        ],
+        [
+          "All creatures get -1/-1 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target opponent discards two cards.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life if they have a poison counter.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Creatures you control with Infect get +1/+0 as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When this enters the battlefield, you may exile a creature card from a graveyard. {T}: Target creature gets -X/-X until end of turn, where X is the exiled card’s mana value.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{2}, {T}, Sacrifice an artifact: Target player gets a poison counter.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, you gain 1 life.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}, Sacrifice a creature: Proliferate.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{2}: Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1 and has deathtouch.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Enchanted creature has Infect.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has deathtouch.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Equipped creature has Infect as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Deal 3 damage to any target.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal 3 damage to target artifact creature. If that creature would die this turn, exile it instead.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Metalcraft — Deal 2 damage to any target as long as you control three or more artifacts.",
+          2,
+          1,
+          3
+        ],
+        [
+          "{T}, Sacrifice an artifact: Deal 1 damage to any target.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create three 1/1 red Goblin creature tokens. Sacrifice an artifact as an additional cost to cast this spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Gain control of target artifact until end of turn. Untap it. It gains haste until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, this deals 1 damage to any target.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Metalcraft — Creatures you control get +1/+0 as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When this enters the battlefield, you may exile an instant or sorcery card from your hand. {T}: You may copy the exiled card. If you do, you may cast the copy by paying {1} rather than paying its mana cost.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{T}, Sacrifice an artifact: Add {R}{R}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Proliferate.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}, Sacrifice an artifact: This deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{2}: Target creature gains haste until end of turn.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has haste.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Metalcraft — Enchanted creature gets an additional +1/+0 as long as you control three or more artifacts.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has first strike.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{2}, Sacrifice this: It deals 2 damage to any target.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target creature gains Infect until end of turn.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 green Insect creature tokens with Infect.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target creature. Then proliferate.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Metalcraft — Creatures you control get +1/+1 as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever you proliferate, you may put a +1/+1 counter on target creature you control.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Imprint — When this enters the battlefield, you may exile a creature card from your hand. {T}: Add mana equal to that card’s colors.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Creatures you control with infect have trample.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}: Target creature gains trample until end of turn.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{3}: Proliferate.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +3/+3.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Enchanted creature has Infect.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Metalcraft — Equipped creature has trample as long as you control three or more artifacts.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Target artifact gains indestructible until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Search your library for an artifact card with mana value {N}, reveal it, put it into your hand, then shuffle.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifact creatures you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, proliferate.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When this enters the battlefield, you may exile a nonland card from your hand. {T}: Add one mana of any of the exiled card’s colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Imprint — Whenever a creature enters the battlefield, you may exile it. When this leaves the battlefield, return the exiled card to the battlefield under its owner’s control.",
+          1,
+          4,
+          7
+        ],
+        [
+          "This enters the battlefield with three charge counters on it. {T}: Add {C}. Remove a charge counter from this: Add one mana of any color.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{4}, {T}: Proliferate.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{T}: Put a charge counter on target artifact.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Remove a charge counter from this: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a 3/3 colorless Golem artifact creature token.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you proliferate, scry 1.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Artifact spells you cast cost {1} less to cast.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Sacrifice an artifact: Proliferate.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}, {T}: Put a charge counter on this.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Remove a charge counter from this: Add {C}{C}.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted artifact creature gets +2/+2 and has vigilance.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          2,
+          2,
+          5
+        ],
+        [
+          "Whenever enchanted land is tapped for mana, its controller gets a poison counter.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has infect.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, proliferate.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped creature gets +1/+1 for each artifact you control.",
+          1,
+          4,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Myr",
+      "Cat"
+    ],
+    "U": [
+      "Vedalken",
+      "Human",
+      "Wizard",
+      "Myr",
+      "Drake"
+    ],
+    "B": [
+      "Zombie",
+      "Horror",
+      "Cleric",
+      "Insect",
+      "Rat"
+    ],
+    "R": [
+      "Goblin",
+      "Shaman",
+      "Warrior",
+      "Myr",
+      "Ogre"
+    ],
+    "G": [
+      "Elf",
+      "Warrior",
+      "Beast",
+      "Insect",
+      "Troll"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Myr",
+      "Drone",
+      "Shapeshifter"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,",
+      "Whenever you proliferate,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "deals combat damage to a player"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Myr",
+      "Germ",
+      "Golem",
+      "Construct",
+      "Insect",
+      "Horror",
+      "Beast",
+      "Soldier",
+      "Goblin"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice an artifact:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Proliferate.",
+      "Target creature gets +1/+1 until end of turn.",
+      "Add {C}.",
+      "Create a 1/1 colorless Myr artifact creature token.",
+      "Target player gets a poison counter."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "NUM_ARTIFACTS": [
+      "three or more artifacts",
+      "four or more artifacts"
+    ],
+    "COUNTER_TYPE": [
+      "charge counter",
+      "+1/+1 counter",
+      "-1/-1 counter",
+      "loyalty counter"
+    ],
+    "METALCRAFT_TEXT": [
+      "Metalcraft — {EFFECT} as long as you control three or more artifacts."
+    ],
+    "IMPRINT_VERB": [
+      "exile",
+      "imprint"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample"
+    ],
+    "C": [
+      "reach",
+      "menace"
+    ]
+  }
+}

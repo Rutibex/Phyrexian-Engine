@@ -1,0 +1,2297 @@
+{
+  "name": "modern_horizons",
+  "version": "1.0",
+  "description": "Huge mechanics-heavy package inspired by Modern Horizons (MH1, MH2, MH3): cascade, storm, delirium, affinity, modular, living weapon, dash, suspend, ninjutsu, madness, unearth, persist/undying, investigate, domain, proliferate, energy, Eldrazi, snow hooks and more.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Exile target tapped creature.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Creatures you control get +{X}/+{X} until end of turn.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Create {X} 1/1 white Soldier creature tokens.",
+          4,
+          1,
+          4
+        ],
+        [
+          "You gain {X} life.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Put a +1/+1 counter on up to {X} target creatures.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy all creatures. They can't be regenerated.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return target enchantment card from your graveyard to the battlefield.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Creatures you control gain vigilance until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Create a 1/1 white Soldier creature token for each basic land type among lands you control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains hexproof.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains indestructible.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose one \u2014 \u2022 Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. \u2022 Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Replicate {X} (When you cast this spell, copy it for each time you paid its replicate cost.)",
+          1,
+          2,
+          4
+        ],
+        [
+          "Buyback {X}",
+          1,
+          2,
+          5
+        ],
+        [
+          "Surveil {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose target spell. Its controller may pay {X}. If they don't, counter that spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} tapped Powerstone tokens.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Convoke",
+          1,
+          1,
+          1
+        ],
+        [
+          "Overload {X}{X} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target tapped creature.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Creatures you control get +{X}/+{X} until end of turn.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Create {X} 1/1 white Soldier creature tokens.",
+          4,
+          1,
+          4
+        ],
+        [
+          "You gain {X} life.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Put a +1/+1 counter on up to {X} target creatures.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy all creatures. They can't be regenerated.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return target enchantment card from your graveyard to the battlefield.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Creatures you control gain vigilance until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Create a 1/1 white Soldier creature token for each basic land type among lands you control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Proliferate {X} times.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Suspend {X}\u2014{X}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return up to {X} target cards from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Resuspend \u2014 Exile target spell or permanent, then its owner suspends it with {X} time counters on it.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Create {X} tapped Treasure tokens, then you may sacrifice any number of artifacts. For each sacrificed this way, Scry {X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Living lore \u2014 Exile an instant or sorcery card from your graveyard. Create an X/X blue Avatar creature token where X is its mana value. When it dies, you may cast the exiled card without paying its mana cost.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Choose up to one effect for each basic land type among lands you control. Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Lifelink",
+          3,
+          1,
+          1
+        ],
+        [
+          "Vigilance",
+          3,
+          1,
+          1
+        ],
+        [
+          "Ward {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "ETB \u2014 Create a 1/1 white Soldier creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "ETB \u2014 Exile target creature an opponent controls with power {X} or less until this creature leaves the battlefield.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Outlast {X}",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, Proliferate {X} times.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, Create {X} Food tokens.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with cascade, Tap up to {X} target permanents.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you create a token, Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has first strike and trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          5
+        ],
+        [
+          "Living weapon",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has vigilance and lifelink.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Totem armor",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "When enchanted land becomes tapped, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Enchant snow land; Enchanted land has \"{T}: Add {X}. Spend this mana only to cast snow spells or activate abilities of snow permanents.\"",
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Draw {X} cards.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Investigate {X} times. (Create a Clue token for each time.)",
+          3,
+          1,
+          3
+        ],
+        [
+          "Scry {X}, then draw a card.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Proliferate.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains hexproof.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains indestructible.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose one \u2014 \u2022 Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. \u2022 Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Replicate {X} (When you cast this spell, copy it for each time you paid its replicate cost.)",
+          1,
+          2,
+          4
+        ],
+        [
+          "Buyback {X}",
+          1,
+          2,
+          5
+        ],
+        [
+          "Surveil {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose target spell. Its controller may pay {X}. If they don't, counter that spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} tapped Powerstone tokens.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Convoke",
+          1,
+          1,
+          1
+        ],
+        [
+          "Overload {X}{X} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Draw {X} cards.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Investigate {X} times. (Create a Clue token for each time.)",
+          3,
+          1,
+          3
+        ],
+        [
+          "Scry {X}, then draw a card.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Proliferate.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Proliferate {X} times.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Suspend {X}\u2014{X}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return up to {X} target cards from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Resuspend \u2014 Exile target spell or permanent, then its owner suspends it with {X} time counters on it.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Create {X} tapped Treasure tokens, then you may sacrifice any number of artifacts. For each sacrificed this way, Create {X} Food tokens.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Living lore \u2014 Exile an instant or sorcery card from your graveyard. Create an X/X blue Avatar creature token where X is its mana value. When it dies, you may cast the exiled card without paying its mana cost.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Choose up to one effect for each basic land type among lands you control. Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Flying",
+          4,
+          1,
+          1
+        ],
+        [
+          "Ward {X}",
+          3,
+          1,
+          3
+        ],
+        [
+          "ETB \u2014 Draw a card.",
+          3,
+          1,
+          1
+        ],
+        [
+          "ETB \u2014 Return target nonland permanent to its owner's hand.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Ninjutsu {X}",
+          1,
+          1,
+          3
+        ],
+        [
+          "Prowess",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, Draw {X} cards, then discard a card.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with cascade, Target player mills {X}.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you create a token, Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Tap up to {X} target permanents.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has first strike and trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          5
+        ],
+        [
+          "Living weapon",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has vigilance and lifelink.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Totem armor",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "When enchanted land becomes tapped, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Enchant snow land; Enchanted land has \"{T}: Add {X}. Spend this mana only to cast snow spells or activate abilities of snow permanents.\"",
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Destroy target creature. You lose {X} life.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Each opponent sacrifices a creature.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Exile target creature or planeswalker.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 This spell gets an additional effect if there are four or more card types among cards in your graveyard.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Madness {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "Unearth {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains hexproof.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains indestructible.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose one \u2014 \u2022 Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. \u2022 Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Replicate {X} (When you cast this spell, copy it for each time you paid its replicate cost.)",
+          1,
+          2,
+          4
+        ],
+        [
+          "Buyback {X}",
+          1,
+          2,
+          5
+        ],
+        [
+          "Surveil {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose target spell. Its controller may pay {X}. If they don't, counter that spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} tapped Powerstone tokens.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Convoke",
+          1,
+          1,
+          1
+        ],
+        [
+          "Overload {X}{X} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Destroy target creature. You lose {X} life.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Each opponent sacrifices a creature.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Exile target creature or planeswalker.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 This spell gets an additional effect if there are four or more card types among cards in your graveyard.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Madness {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "Unearth {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Proliferate {X} times.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Suspend {X}\u2014{X}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return up to {X} target cards from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Resuspend \u2014 Exile target spell or permanent, then its owner suspends it with {X} time counters on it.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Create {X} tapped Treasure tokens, then you may sacrifice any number of artifacts. For each sacrificed this way, Target player mills {X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Living lore \u2014 Exile an instant or sorcery card from your graveyard. Create an X/X blue Avatar creature token where X is its mana value. When it dies, you may cast the exiled card without paying its mana cost.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Choose up to one effect for each basic land type among lands you control. Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Deathtouch",
+          4,
+          1,
+          1
+        ],
+        [
+          "Menace",
+          3,
+          1,
+          1
+        ],
+        [
+          "ETB \u2014 Each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Sacrifice another creature: This creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Delirium \u2014 This creature gets +{X}/+{X} as long as there are four or more card types among cards in your graveyard.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Unearth {X}",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, Target player mills {X}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with cascade, Scry {X}.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, Target player mills {X}.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you create a token, Tap up to {X} target permanents.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Proliferate {X} times.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has first strike and trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          5
+        ],
+        [
+          "Living weapon",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has vigilance and lifelink.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Totem armor",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "When enchanted land becomes tapped, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Enchant snow land; Enchanted land has \"{T}: Add {X}. Spend this mana only to cast snow spells or activate abilities of snow permanents.\"",
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Dash {X}",
+          3,
+          1,
+          3
+        ],
+        [
+          "Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Aftermath (Cast this spell only from your graveyard. Then exile it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains hexproof.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains indestructible.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose one \u2014 \u2022 Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. \u2022 Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Replicate {X} (When you cast this spell, copy it for each time you paid its replicate cost.)",
+          1,
+          2,
+          4
+        ],
+        [
+          "Buyback {X}",
+          1,
+          2,
+          5
+        ],
+        [
+          "Surveil {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose target spell. Its controller may pay {X}. If they don't, counter that spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} tapped Powerstone tokens.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Convoke",
+          1,
+          1,
+          1
+        ],
+        [
+          "Overload {X}{X} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {X} damage to any target.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Dash {X}",
+          3,
+          1,
+          3
+        ],
+        [
+          "Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Aftermath (Cast this spell only from your graveyard. Then exile it.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Proliferate {X} times.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Suspend {X}\u2014{X}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return up to {X} target cards from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Resuspend \u2014 Exile target spell or permanent, then its owner suspends it with {X} time counters on it.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Create {X} tapped Treasure tokens, then you may sacrifice any number of artifacts. For each sacrificed this way, Scry {X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Living lore \u2014 Exile an instant or sorcery card from your graveyard. Create an X/X blue Avatar creature token where X is its mana value. When it dies, you may cast the exiled card without paying its mana cost.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Choose up to one effect for each basic land type among lands you control. Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste",
+          4,
+          1,
+          1
+        ],
+        [
+          "First strike",
+          3,
+          1,
+          1
+        ],
+        [
+          "Prowess",
+          2,
+          1,
+          1
+        ],
+        [
+          "Dash {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "ETB \u2014 It deals {X} damage to any target.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Madness {X}",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, Create {X} Food tokens.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with cascade, Scry {X}.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you create a token, Proliferate {X} times.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Scry {X}.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has first strike and trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          5
+        ],
+        [
+          "Living weapon",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has vigilance and lifelink.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Totem armor",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "When enchanted land becomes tapped, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Enchant snow land; Enchanted land has \"{T}: Add {X}. Spend this mana only to cast snow spells or activate abilities of snow permanents.\"",
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Create a {X}/{X} green [TOKEN_SUBTYPE] creature token with trample.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to {X} target creatures you control.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Search your library for up to {X} basic land cards, reveal them, put them into your hand, then shuffle.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Monstrous {X} ({X}: If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Until end of turn, target creature gains hexproof.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Until end of turn, target creature gains indestructible.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland permanent you control, then return it to the battlefield under its owner's control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose one \u2014 \u2022 Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. \u2022 Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Replicate {X} (When you cast this spell, copy it for each time you paid its replicate cost.)",
+          1,
+          2,
+          4
+        ],
+        [
+          "Buyback {X}",
+          1,
+          2,
+          5
+        ],
+        [
+          "Surveil {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose target spell. Its controller may pay {X}. If they don't, counter that spell.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} tapped Powerstone tokens.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Convoke",
+          1,
+          1,
+          1
+        ],
+        [
+          "Overload {X}{X} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of \"target\" with \"each\".)",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Create a {X}/{X} green [TOKEN_SUBTYPE] creature token with trample.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to {X} target creatures you control.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Search your library for up to {X} basic land cards, reveal them, put them into your hand, then shuffle.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Monstrous {X} ({X}: If this creature isn't monstrous, put X +1/+1 counters on it and it becomes monstrous.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Proliferate {X} times.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Cascade",
+          2,
+          1,
+          1
+        ],
+        [
+          "Suspend {X}\u2014{X}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return up to {X} target cards from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Resuspend \u2014 Exile target spell or permanent, then its owner suspends it with {X} time counters on it.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Create {X} tapped Treasure tokens, then you may sacrifice any number of artifacts. For each sacrificed this way, Target player mills {X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Living lore \u2014 Exile an instant or sorcery card from your graveyard. Create an X/X blue Avatar creature token where X is its mana value. When it dies, you may cast the exiled card without paying its mana cost.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Domain \u2014 Choose up to one effect for each basic land type among lands you control. Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample",
+          4,
+          1,
+          1
+        ],
+        [
+          "Reach",
+          3,
+          1,
+          1
+        ],
+        [
+          "ETB \u2014 Put {X} +1/+1 counters on target creature.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Domain \u2014 This creature gets +{X}/+{X} as long as you control {X} or more basic land types.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Monstrosity {X}",
+          1,
+          3,
+          7
+        ],
+        [
+          "Cascade",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, Tap up to {X} target permanents.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, Tap up to {X} target permanents.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with cascade, Create {X} Treasure tokens.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you create a token, Create {X} Treasure tokens.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Tap up to {X} target permanents.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has first strike and trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          5
+        ],
+        [
+          "Living weapon",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has vigilance and lifelink.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Totem armor",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "When enchanted land becomes tapped, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Enchant snow land; Enchanted land has \"{T}: Add {X}. Spend this mana only to cast snow spells or activate abilities of snow permanents.\"",
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Affinity for artifacts",
+          3,
+          1,
+          1
+        ],
+        [
+          "Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Modular {X}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Improvise (Your artifacts can help cast this spell.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Add {X} mana of any one color.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you sacrifice an artifact, Create {X} Food tokens.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Devoid (This card has no color.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Emerge {X} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)",
+          1,
+          4,
+          9
+        ],
+        [
+          "Annihilator {X}",
+          1,
+          1,
+          4
+        ],
+        [
+          "When you cast this spell, create {X} 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you get {X} energy counters.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Devoid",
+          1,
+          1,
+          1
+        ],
+        [
+          "Annihilator {X}",
+          1,
+          1,
+          3
+        ],
+        [
+          "ETB \u2014 Create {X} Eldrazi Spawn creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          1,
+          1,
+          3
+        ],
+        [
+          "When you pay {X} energy, this gets +{X}/+{X} and gains trample until end of turn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Add {C}{C}{C}. Spend this mana only to cast colorless spells.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} and becomes colorless until end of turn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a Wastes card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create an X/X colorless Eldrazi creature token.",
+          1,
+          2,
+          8
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# MacOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Build / export artifacts
+dist/
+build/
+*.mse-set
+*.zip
+exports/

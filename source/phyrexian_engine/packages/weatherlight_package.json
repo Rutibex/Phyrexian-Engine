@@ -1,0 +1,685 @@
+{
+  "package_name": "weatherlight",
+  "package_version": "1.0.0",
+  "package_description": "Comprehensive Mirage-block Weatherlight pack. Focuses on graveyard matters and the set's marquee/returning mechanics: cumulative upkeep, flanking, phasing, and landwalk/landhome-style restrictions. Includes cantrips, recursion, graveyard hate, shuffle-back effects, and a few high-splashy build-around templates inspired by cards like Doomsday and Gaea's Blessing.",
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Knight",
+      "Soldier",
+      "Cat",
+      "Elephant",
+      "Pegasus",
+      "Angel",
+      "Griffin"
+    ],
+    "U": [
+      "Human",
+      "Merfolk",
+      "Wizard",
+      "Bird",
+      "Drake",
+      "Illusion",
+      "Djinn",
+      "Serpent"
+    ],
+    "B": [
+      "Human",
+      "Cleric",
+      "Zombie",
+      "Vampire",
+      "Shade",
+      "Horror",
+      "Imp",
+      "Rat",
+      "Wraith"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Warrior",
+      "Barbarian",
+      "Efreet",
+      "Elemental",
+      "Phoenix",
+      "Minotaur"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Druid",
+      "Beast",
+      "Cat",
+      "Spider",
+      "Wurm",
+      "Elephant",
+      "Treefolk"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ]
+  },
+  "string_pools": {
+    "CU_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "Pay 1 life",
+      "Exile a card from your graveyard",
+      "Discard a card"
+    ],
+    "PREVENT_COST": [
+      "{W}",
+      "{1}{W}",
+      "Tap an untapped creature you control"
+    ],
+    "SACRIFICE_COST": [
+      "Sacrifice a creature",
+      "Sacrifice an artifact",
+      "Sacrifice a land"
+    ],
+    "GY_EXILE_N": [
+      "exile a card from your graveyard",
+      "exile two cards from your graveyard"
+    ],
+    "LAND_TYPES": [
+      "Plains",
+      "Island",
+      "Swamp",
+      "Mountain",
+      "Forest"
+    ],
+    "TINY_NUMBER": [
+      "1",
+      "2"
+    ],
+    "SMALL_NUMBER": [
+      "2",
+      "3"
+    ],
+    "MED_NUMBER": [
+      "3",
+      "4",
+      "5"
+    ],
+    "LARGE_NUMBER": [
+      "5",
+      "6",
+      "7"
+    ],
+    "FLANKING_RT": [
+      "Flanking (Whenever this creature becomes blocked by a creature without flanking, that creature gets -1/-1 until end of turn.)"
+    ],
+    "PHASING_RT": [
+      "Phasing (This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.)"
+    ],
+    "LANDHOME_A": [
+      "This creature can't attack unless defending player controls a [LAND_TYPE]."
+    ],
+    "LANDHOME_B": [
+      "When you control no [LAND_TYPE_PLURAL], sacrifice this creature."
+    ],
+    "LANDWALK_LINE": [
+      "This creature can't be blocked as long as defending player controls a [LAND_TYPE]."
+    ],
+    "CANTRIP": [
+      "Draw a card.",
+      "Scry 2.",
+      "Create a Treasure token.",
+      "Gain 2 life."
+    ],
+    "WHITE_PREVENT": [
+      "Prevent the next [MED_NUMBER] damage that would be dealt to any target this turn.",
+      "Prevent all combat damage that would be dealt by target attacking creature this turn."
+    ],
+    "BLUE_TEMPO": [
+      "Return target creature to its owner's hand.",
+      "Counter target spell unless its controller pays {2}.",
+      "Tap up to two target permanents. They don't untap during their controller's next untap step."
+    ],
+    "BLACK_GRAVE": [
+      "Return target creature card from your graveyard to your hand.",
+      "Target player discards a card.",
+      "Exile target card from a graveyard."
+    ],
+    "RED_BURN": [
+      "This spell deals [SMALL_NUMBER] damage to any target.",
+      "Target creature can't block this turn.",
+      "Destroy target artifact."
+    ],
+    "GREEN_GROWTH": [
+      "Target creature gets +[MED_NUMBER]/+[MED_NUMBER] until end of turn.",
+      "Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    ],
+    "FIVE_CARD_PILE": [
+      "Choose up to five cards you own from your library and graveyard. Exile all other cards from your library. Put the chosen cards on top of your library in any order. You lose half your life, rounded up."
+    ],
+    "BLESSING_LINE": [
+      "Target player shuffles up to three target cards from their graveyard into their library.",
+      "When this is put into a graveyard from anywhere, shuffle your graveyard into your library."
+    ],
+    "REANIMATE_SHORT": [
+      "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value."
+    ],
+    "EXILE_GRAVE_FOR_EFFECT": [
+      "As an additional cost to cast this spell, exile up to [SMALL_NUMBER] target cards from your graveyard."
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "[FLANKING_RT]\nWhen ~ enters, you gain [MED_NUMBER] life.",
+          3,
+          2,
+          4
+        ],
+        [
+          "First strike, [FLANKING_RT]\nOther attacking creatures you control get +1/+0.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Vigilance\nCumulative upkeep—[CU_COST].",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flying\n[LANDWALK_LINE]",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "[WHITE_PREVENT] [CANTRIP]",
+          5,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking or blocking creature. [CANTRIP]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Until end of turn, creatures you control gain flanking. [CANTRIP]",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create [MED_NUMBER] 1/1 white Soldier creature tokens. [CANTRIP]",
+          3,
+          3,
+          5
+        ],
+        [
+          "Destroy all Auras. [CANTRIP]",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target player gains [LARGE_NUMBER] life. [CANTRIP]",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—[CU_COST]\nAt the beginning of your end step, if you paid ~'s cumulative upkeep this turn, create a 1/1 white Soldier creature token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Creatures you control have flanking.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Cumulative upkeep—[CU_COST]\n{T}: You gain 1 life.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}.\n[LANDHOME_A]\n[LANDHOME_B]",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying\n[PHASING_RT]",
+          3,
+          3,
+          5
+        ],
+        [
+          "Ward {1}\nWhen ~ phases in, draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "[FLANKING_RT]\nWhenever ~ deals combat damage to a player, scry [TINY_NUMBER].",
+          1,
+          2,
+          4
+        ],
+        [
+          "Islandwalk",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "[BLUE_TEMPO] [CANTRIP]",
+          4,
+          1,
+          3
+        ],
+        [
+          "Target permanent phases out. [CANTRIP]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Counter target spell with mana value [MED_NUMBER] or less. [CANTRIP]",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top [LARGE_NUMBER] cards of your library. Put one into your hand and the rest into your graveyard.",
+          2,
+          3,
+          5
+        ],
+        [
+          "[FIVE_CARD_PILE]",
+          1,
+          5,
+          6
+        ],
+        [
+          "Target player mills [LARGE_NUMBER]. If [SMALL_NUMBER] or more creature cards were milled this way, draw a card.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—[CU_COST]\nAt the beginning of your upkeep, scry 1, then draw a card if you paid ~'s cumulative upkeep this turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control have \"{U}: This creature phases out.\"",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {U}.\nCumulative upkeep—[CU_COST]",
+          1,
+          2,
+          5
+        ],
+        [
+          "{2}, {T}: Target creature phases out.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}.\n{1}{U}, {T}: Target creature gains islandwalk until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace\nAt the beginning of your upkeep, mill 1. When you do, you may pay {1}. If you do, return that card to your hand.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deathtouch\nCumulative upkeep—Pay 1 life.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Swampwalk",
+          1,
+          2,
+          4
+        ],
+        [
+          "[FLANKING_RT]\nWhenever ~ or another creature dies, each opponent loses 1 life.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "[EXILE_GRAVE_FOR_EFFECT]\nTarget creature gets -[MED_NUMBER]/-[MED_NUMBER] until end of turn. [CANTRIP]",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Destroy target nonblack creature. You lose 2 life.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "[REANIMATE_SHORT]",
+          2,
+          4,
+          6
+        ],
+        [
+          "Search your library for up to three creature cards, put them into your graveyard, then shuffle.",
+          2,
+          3,
+          4
+        ],
+        [
+          "Each opponent sacrifices a creature. [CANTRIP]",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—Discard a card.\nWhenever you discard a creature card, return it from your graveyard to the battlefield tapped at the beginning of the next end step.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Whenever a creature card is put into an opponent's graveyard from anywhere, you may pay {1}. If you do, exile it.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Pay 2 life: Add {B}{B}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Cumulative upkeep—[CU_COST]\n{3}, {T}: Return target creature card from your graveyard to your hand.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}.\n{2}{B}, {T}, Sacrifice ~: Return target creature card from your graveyard to your hand.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste\n[FLANKING_RT]",
+          2,
+          2,
+          4
+        ],
+        [
+          "First strike\nCumulative upkeep—[CU_COST]",
+          2,
+          3,
+          5
+        ],
+        [
+          "Mountainwalk",
+          1,
+          2,
+          4
+        ],
+        [
+          "Whenever ~ or another creature you control dies, ~ deals 1 damage to any target.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "[RED_BURN] [CANTRIP]",
+          4,
+          1,
+          3
+        ],
+        [
+          "Target creature gains first strike until end of turn. Draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Exile target card from a graveyard. If a creature card is exiled this way, ~ deals 2 damage to any target.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "~ deals [LARGE_NUMBER] damage divided as you choose among up to [SMALL_NUMBER] targets.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Destroy target land. [CANTRIP]",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—[CU_COST]\nAt the beginning of combat on your turn, target creature you control gets +2/+0 and gains first strike until end of turn.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}: ~ deals 1 damage to any target.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}.\n{1}{R}, {T}: Target creature gains mountainwalk until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample\n[FLANKING_RT]",
+          2,
+          3,
+          5
+        ],
+        [
+          "Reach\nCumulative upkeep—Put a +1/+1 counter on a creature you control.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Forestwalk",
+          1,
+          2,
+          4
+        ],
+        [
+          "[PHASING_RT]\nWhenever ~ phases in, put a +1/+1 counter on up to one target creature.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "[GREEN_GROWTH] [CANTRIP]",
+          4,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment. Draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If a creature would die this way, shuffle it into its owner's library instead.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Reveal the top [MED_NUMBER] cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.",
+          2,
+          3,
+          5
+        ],
+        [
+          "You may put a creature card from your hand onto the battlefield. Sacrifice it at the beginning of the next end step.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—[CU_COST]\nAt the beginning of your upkeep, you may return target card from your graveyard to your hand if you paid ~'s cumulative upkeep this turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control have forestwalk.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}. When the mana produced by ~ is spent to cast a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}.\n{1}{G}, {T}: Target creature gains forestwalk until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

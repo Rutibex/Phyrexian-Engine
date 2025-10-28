@@ -1,0 +1,862 @@
+{
+  "name": "theros_beyond_death_megapack",
+  "version": "1.0",
+  "description": "A very large Theros Beyond Death–inspired package: escape, constellation, devotion, sagas, Omens, Gods, Demigods, and enchantment synergies.",
+  "effects_by_color": {
+    "W": {
+      "Enchantment": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on up to one target creature you control, then you gain 1 life.",
+          16,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, tap up to one target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          14,
+          2,
+          7
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, scry 2\n{ACTIVATED_COST}: Sacrifice this permanent: You gain 2 life.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, create a 1/1 white Human creature token\n{ACTIVATED_COST}: Sacrifice this permanent: Tap up to one target creature.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchantment — Saga\n(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 1/1 white Human creature token.\nII — Exile target creature you control, then return it to the battlefield under its owner's control.\nIII — Creatures you control get +1/+1 until end of turn.",
+          10,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, if you gained 3 or more life this turn, create a 1/1 white Human creature token.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on up to one target creature you control, then you gain 1 life.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, tap up to one target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_2} (You may cast this from your graveyard by paying its escape cost and also exiling 2 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard by paying its escape cost and also exiling 3 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "As long as your devotion to white is less than 5, this isn't a creature.\nIndestructible.",
+          14,
+          3,
+          7
+        ],
+        [
+          "This creature's toughness is 1 plus your devotion to white.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Lifelink",
+          10,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          10,
+          2,
+          7
+        ],
+        [
+          "When this enters the battlefield, exile target creature with mana value 3 or less an opponent controls until this leaves the battlefield.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever you gain life, {TRIGGER_EFFECT_POSITIVE}",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target tapped creature.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Scry 1.",
+          10,
+          2,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Enchantment": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, scry 1, then draw a card.",
+          14,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, tap up to one target nonland permanent. It doesn't untap during its controller's next untap step.",
+          16,
+          2,
+          7
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, scry 2\n{ACTIVATED_COST}: Sacrifice this permanent: Draw a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchantment — Saga\n(As this Saga enters and after your draw step, add a lore counter.)\nI — Draw two cards, then discard a card.\nII — Return up to one target nonland permanent to its owner's hand.\nIII — Creatures your opponents control get -1/-0 until end of turn.",
+          10,
+          3,
+          7
+        ],
+        [
+          "You may cast spells as though they had flash.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, scry 1, then draw a card.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, tap up to one target nonland permanent. It doesn't untap during its controller's next untap step.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_2} (You may cast this from your graveyard by paying its escape cost and also exiling 2 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard by paying its escape cost and also exiling 4 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "As long as your devotion to blue is less than 5, this isn't a creature.\nIndestructible.",
+          14,
+          3,
+          7
+        ],
+        [
+          "This creature's power is 1 plus your devotion to blue.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Flash",
+          8,
+          2,
+          5
+        ],
+        [
+          "Flying",
+          10,
+          2,
+          7
+        ],
+        [
+          "Whenever you draw your second card each turn, {TRIGGER_EFFECT_BLUE}",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X} where X is {MV}.",
+          9,
+          2,
+          5
+        ],
+        [
+          "Counter target spell with mana value {MV} or less.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Scry 1.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Enchantment": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, target opponent loses 1 life and you gain 1 life.",
+          16,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, mill two cards, then you may return a creature card with mana value 2 or less from your graveyard to your hand.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, each opponent loses 2 life and you gain 2 life\n{ACTIVATED_COST}: Sacrifice this permanent: Target creature gets -2/-2 until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchantment — Saga\n(As this Saga enters and after your draw step, add a lore counter.)\nI — Each player mills two cards.\nII — You may sacrifice a creature. When you do, destroy target creature an opponent controls.\nIII — Return target creature card from your graveyard to the battlefield tapped.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, target opponent loses 1 life and you gain 1 life.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, mill two cards, then you may return a creature card with mana value 2 or less from your graveyard to your hand.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard by paying its escape cost and also exiling 3 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard by paying its escape cost and also exiling 4 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_5} (You may cast this from your graveyard by paying its escape cost and also exiling 5 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "As long as your devotion to black is less than 5, this isn't a creature.\nIndestructible.",
+          14,
+          3,
+          7
+        ],
+        [
+          "This creature's power is 2 plus your devotion to black.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Deathtouch",
+          10,
+          2,
+          6
+        ],
+        [
+          "When this enters the battlefield, each opponent discards a card.",
+          9,
+          2,
+          5
+        ],
+        [
+          "Whenever a creature an opponent controls dies, {TRIGGER_EFFECT_BLACK}",
+          9,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard for its escape cost by also exiling 4 other cards from your graveyard.)\nDestroy target creature.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Target player mills four cards. Then you may return a creature card from your graveyard to your hand.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature.",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard for its escape cost by also exiling 4 other cards from your graveyard.)\nDestroy target creature.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Enchantment": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, this deals 1 damage to each opponent.",
+          15,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, target creature can't block this turn.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, scry 2\n{ACTIVATED_COST}: Sacrifice this permanent: This permanent deals 2 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchantment — Saga\n(As this Saga enters and after your draw step, add a lore counter.)\nI — Create a 1/1 red Satyr creature token with haste.\nII — Exile the top two cards of your library. You may play one of them this turn.\nIII — Creatures you control get +2/+0 until end of turn.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, this deals 1 damage to each opponent.",
+          11,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, target creature can't block this turn.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_2} (You may cast this from your graveyard by paying its escape cost and also exiling 2 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard by paying its escape cost and also exiling 3 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard by paying its escape cost and also exiling 4 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "As long as your devotion to red is less than 5, this isn't a creature.\nIndestructible.",
+          14,
+          3,
+          7
+        ],
+        [
+          "This creature's power is 1 plus your devotion to red.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Haste",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast your second spell each turn, {TRIGGER_EFFECT_RED}",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard for its escape cost by also exiling 3 other cards from your graveyard.)\nThis spell deals 3 damage to any target.",
+          12,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard for its escape cost by also exiling 3 other cards from your graveyard.)\nThis spell deals 3 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "This spell deals 2 damage to any target. Scry 1.",
+          10,
+          1,
+          4
+        ],
+        [
+          "This spell deals 4 damage to target creature.",
+          9,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Enchantment": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          16,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, you gain 2 life, then untap up to one target land.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Flash\nWhen this enters the battlefield, look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand, then put the rest into your graveyard.\n{ACTIVATED_COST}: Sacrifice this permanent: Create a 1/1 green Insect creature token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchantment — Saga\n(As this Saga enters and after your draw step, add a lore counter.)\nI — Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nII — Put two +1/+1 counters on target creature you control.\nIII — Creatures you control gain trample until end of turn.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, you gain 2 life, then untap up to one target land.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_2} (You may cast this from your graveyard by paying its escape cost and also exiling 2 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard by paying its escape cost and also exiling 3 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard by paying its escape cost and also exiling 4 other cards from your graveyard.)",
+          12,
+          2,
+          7
+        ],
+        [
+          "As long as your devotion to green is less than 5, this isn't a creature.\nIndestructible.",
+          14,
+          3,
+          7
+        ],
+        [
+          "This creature's power is 2 plus your devotion to green.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Trample",
+          10,
+          3,
+          7
+        ],
+        [
+          "Reach",
+          9,
+          2,
+          6
+        ],
+        [
+          "When this enters the battlefield, destroy target artifact or enchantment an opponent controls.",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard for its escape cost by also exiling 4 other cards from your graveyard.)\nReturn target creature card from your graveyard to the battlefield. It enters with a +1/+1 counter.",
+          12,
+          2,
+          7
+        ],
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          9,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Escape {ESCAPE_COST_4} (You may cast this from your graveyard for its escape cost by also exiling 4 other cards from your graveyard.)\nReturn target creature card from your graveyard to the battlefield. It enters with a +1/+1 counter.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "When this enters the battlefield, scry 2.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Exile this card from your graveyard: Target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+          8,
+          2,
+          6
+        ]
+      ]
+    },
+    "any": {
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has trample.\nEquip {EQUIP_COST}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has vigilance.\nEquip {EQUIP_COST}",
+          10,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and is an enchantment in addition to its other types.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, scry 1.\nEnchanted creature gets +1/+1 and has lifelink.",
+          9,
+          1,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{ACTIVATED_COST}: Add one mana of any color.\"",
+          10,
+          2,
+          6
+        ],
+        [
+          "Enchant land\nWhen this Aura enters the battlefield, draw a card.\nEnchanted land has \"{ACTIVATED_COST}: Create a 1/1 colorless Soldier artifact creature token.\"",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Scry 2.",
+          8,
+          1,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Add {TOKEN_COLOR} or {ALT_TOKEN_COLOR}.",
+          8,
+          1,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard. If a creature card was exiled this way, you gain 2 life.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Enchantment creature",
+          4,
+          2,
+          7
+        ],
+        [
+          "Whenever this becomes the target of a spell you control, {TRIGGER_EFFECT_HEROIC_STYLE}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Escape {ESCAPE_COST_3} (You may cast this from your graveyard for its escape cost by also exiling three other cards from your graveyard.)",
+          6,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Spirit",
+      "Pegasus",
+      "Archon",
+      "Cat",
+      "Nymph",
+      "Griffin",
+      "Demigod"
+    ],
+    "U": [
+      "Merfolk",
+      "Siren",
+      "Sphinx",
+      "Bird",
+      "Octopus",
+      "Nymph",
+      "Hippocamp",
+      "Demigod"
+    ],
+    "B": [
+      "Zombie",
+      "Harpy",
+      "Lamia",
+      "Minion",
+      "Skeleton",
+      "Nightmare",
+      "Gorgon",
+      "Nymph",
+      "Demigod"
+    ],
+    "R": [
+      "Satyr",
+      "Cyclops",
+      "Minotaur",
+      "Giant",
+      "Orc",
+      "Phoenix",
+      "Nymph",
+      "Demigod"
+    ],
+    "G": [
+      "Centaur",
+      "Hydra",
+      "Beast",
+      "Wurm",
+      "Boar",
+      "Nymph",
+      "Dryad",
+      "Demigod"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Chimera",
+      "Ox",
+      "Hound",
+      "Avatar",
+      "God"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "whenever this creature attacks,",
+      "at the beginning of your end step,",
+      "whenever a creature you control dies,",
+      "whenever you cast an enchantment spell,"
+    ],
+    "TRIGGER_EFFECT_POSITIVE": [
+      "put a +1/+1 counter on target creature you control",
+      "you gain 2 life",
+      "scry 1"
+    ],
+    "TRIGGER_EFFECT_BLUE": [
+      "tap up to one target creature",
+      "draw a card",
+      "return up to one target nonland permanent to its owner's hand"
+    ],
+    "TRIGGER_EFFECT_BLACK": [
+      "you gain 1 life",
+      "put a +1/+1 counter on this creature",
+      "each opponent loses 1 life"
+    ],
+    "TRIGGER_EFFECT_RED": [
+      "this deals 1 damage to any target",
+      "create a 1/1 red Satyr creature token with haste",
+      "scry 1"
+    ],
+    "TRIGGER_EFFECT_HEROIC_STYLE": [
+      "put a +1/+1 counter on this creature",
+      "scry 1",
+      "this deals 1 damage to any target"
+    ],
+    "EQUIP_COST": [
+      "2",
+      "3",
+      "1{W}",
+      "{R}",
+      "2{G}"
+    ],
+    "ACTIVATED_COST": [
+      "1",
+      "2",
+      "3",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "1{W}",
+      "1{U}",
+      "1{B}",
+      "1{R}",
+      "1{G}"
+    ],
+    "TOKEN_COLOR": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "ALT_TOKEN_COLOR": [
+      "{C}",
+      "{2}"
+    ],
+    "ESCAPE_COST_2": [
+      "{MV}{W}",
+      "{MV}{U}",
+      "{MV}{B}",
+      "{MV}{R}",
+      "{MV}{G}",
+      "{MV}{C}"
+    ],
+    "ESCAPE_COST_3": [
+      "{MV}{MV}",
+      "{MV}{B}",
+      "{MV}{R}",
+      "{MV}{G}",
+      "{MV}{U}",
+      "{MV}{W}"
+    ],
+    "ESCAPE_COST_4": [
+      "{MV}{MV}{MV}",
+      "{2}{B}{B}",
+      "{2}{G}{G}",
+      "{2}{R}{R}",
+      "{2}{U}{U}",
+      "{2}{W}{W}"
+    ],
+    "ESCAPE_COST_5": [
+      "{3}{B}{B}",
+      "{3}{G}{G}",
+      "{3}{R}{R}",
+      "{3}{U}{U}",
+      "{3}{W}{W}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "Lifelink",
+      "First strike"
+    ],
+    "U": [
+      "Flying",
+      "Flash"
+    ],
+    "B": [
+      "Deathtouch",
+      "Lifelink"
+    ],
+    "R": [
+      "Haste",
+      "First strike",
+      "Menace"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ],
+    "C": [
+      "Devoid"
+    ]
+  }
+}

@@ -1,0 +1,1566 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Landfall \u2014 Whenever a land enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, scry {X}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target opponent loses {X} life and you gain {X} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, untap target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature can't block this turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains hexproof until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, you may have target player mill {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, exile up to one target card from a graveyard.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, draw {X} cards.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, return target creature card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Multikicker {1}{W}\nReturn up to {X} target creature card(s) from your graveyard to the battlefield, where X is the number of times this spell was kicked.",
+          6,
+          5,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 2/6 white Spirit creature with vigilance. It's still a land.\nWhen enchanted land dies, return that card to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Landfall \u2014 Whenever a land enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, scry {X}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target opponent loses {X} life and you gain {X} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, untap target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature can't block this turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains hexproof until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, you may have target player mill {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, exile up to one target card from a graveyard.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, draw {X} cards.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Multikicker {1}{U} (You may pay an additional {1}{U} any number of times as you cast this spell.)\nDraw a card for each time this spell was kicked.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Scry {X}, then draw a card.",
+          5,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, return target creature card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Reveal cards from the top of your library until you reveal a nonland card. Put all land cards revealed this way into your hand and the rest on top in a random order.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Reveal cards from the top of your library until you reveal a nonland card. Put all cards revealed this way into your hand.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 2/2 blue Illusion creature with flying. It's still a land.\nWhen enchanted land dies, return that card to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Landfall \u2014 Whenever a land enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, scry {X}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target opponent loses {X} life and you gain {X} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, untap target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature can't block this turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains hexproof until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, you may have target player mill {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, exile up to one target card from a graveyard.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, draw {X} cards.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          5,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, return target creature card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Multikicker {1}{B} (You may pay an additional {1}{B} any number of times as you cast this spell.)\nReturn up to {X} target creature card(s) with mana value {X} or less from your graveyard to the battlefield, where X is the number of times this spell was kicked.",
+          5,
+          4,
+          6
+        ],
+        [
+          "Target player loses {X} life and you gain {X} life.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 2/2 black Zombie creature. It's still a land.\n{TRIGGER_INTRO} enchanted land dies, return that card to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Landfall \u2014 Whenever a land enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, scry {X}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target opponent loses {X} life and you gain {X} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, untap target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature can't block this turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains hexproof until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, you may have target player mill {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, exile up to one target card from a graveyard.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, draw {X} cards.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Multikicker {R} (You may pay an additional {R} any number of times as you cast this spell.)\nThis spell deals {X} damage to any target for each time it was kicked.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Multikicker {1}\nChoose any number of targets. This spell deals {X} damage divided as you choose among them, where X is the number of times this spell was kicked.",
+          6,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, return target creature card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Destroy target land. Landfall \u2014 If you had a land enter the battlefield under your control this turn, this deals {X} damage to that land's controller.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 4/4 red Elemental creature with trample. It's still a land.\nWhen enchanted land dies, return that card to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Landfall \u2014 Whenever a land enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, scry {X}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains trample until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control gain vigilance until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target creature gets +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, {ACTIVATED_EFFECT}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, tap target creature an opponent controls.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, target opponent loses {X} life and you gain {X} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, untap target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, target creature can't block this turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Landfall \u2014 {TRIGGER_INTRO} a land enters the battlefield under your control, this creature gains hexproof until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, you may have target player mill {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever this or another Ally enters the battlefield under your control, exile up to one target card from a graveyard.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, draw {X} cards.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Multikicker {1}{G}\nDistribute {X} +1/+1 counters among any number of target creatures, where X is the number of times this spell was kicked.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Landfall \u2014 If you had a land enter the battlefield under your control this turn, return target creature card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Search your library for up to {X} basic land card(s), reveal them, put them onto the battlefield tapped, then shuffle.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Create a 1/1 green Snake creature token, a 2/2 green Wolf creature token, and a 3/3 green Elephant creature token.",
+          5,
+          4,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 6/4 green Elemental creature. It's still a land.\nWhen enchanted land dies, return that card to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Multikicker {2}\n{TRIGGER_INTRO} this enters the battlefield, put a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} add {C}{C}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, you may destroy target artifact or enchantment that player controls.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, equipped creature gets +2/+2 until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Equipped creature has shroud.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis creature enters the battlefield with a +1/+1 counter on it for each time it was kicked.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Multikicker {1} (You may pay an additional {1} any number of times as you cast this spell.)\nTarget creature gets +{X}/+{X} until end of turn for each time this spell was kicked.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Trap \u2014 If an opponent had two or more lands enter the battlefield under their control this turn, you may pay {R} rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent drew three or more cards this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls attacked this turn and wasn't blocked, you may pay {1}{W} rather than pay this spell's mana cost. Exile target attacking creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent had a land leave the battlefield this turn, you may pay {G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Trap \u2014 If an opponent cast two or more spells this turn, you may pay {U} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature with flying entered the battlefield under an opponent's control this turn, you may pay {1}{B} rather than pay this spell's mana cost. Destroy target creature with flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If an opponent searched their library this turn, you may pay {1}{G} rather than pay this spell's mana cost. Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Trap \u2014 If a creature an opponent controls dealt combat damage this turn, you may pay {1}{R} rather than pay this spell's mana cost. This spell deals {X} damage to that creature.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} a creature you control deals combat damage to a player, you may put a quest counter on this.\nRemove three quest counters from this: Draw three cards.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature enters the battlefield under your control, you may put a quest counter on this.\nRemove two quest counters from this: Creatures you control get +{X}/+{X} until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if there are three or more quest counters on this, creatures you control gain first strike until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, you may put a quest counter on this.\nRemove four quest counters from this: Create a 4/4 white Angel creature token with flying.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, you may put a quest counter on this.\nRemove two quest counters from this: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, you may put a quest counter on this.\nRemove three quest counters from this: Create two {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature tokens.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has flying.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals combat damage to a player, draw a card.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s).",
+          4,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{1}{W}: Until end of turn, this land becomes a 2/6 white Elemental creature with vigilance. It's still a land.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{3}{U}: Until end of turn, this land becomes a 3/4 blue Elemental creature with flying. It's still a land.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{2}{B}: Until end of turn, this land becomes a 2/1 black Elemental creature with lifelink. It's still a land.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{3}{R}: Until end of turn, this land becomes a 4/1 red Elemental creature with haste. It's still a land.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{3}{G}: Until end of turn, this land becomes a 3/3 green Elemental creature with trample. It's still a land.\"",
+          6,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Kor",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Ally",
+      "Spirit",
+      "Cat"
+    ],
+    "U": [
+      "Human",
+      "Merfolk",
+      "Wizard",
+      "Ally",
+      "Vedalken",
+      "Leviathan",
+      "Sphinx"
+    ],
+    "B": [
+      "Human",
+      "Vampire",
+      "Rogue",
+      "Shaman",
+      "Ally",
+      "Zombie",
+      "Horror"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Warrior",
+      "Shaman",
+      "Ally",
+      "Elemental",
+      "Ogre"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Druid",
+      "Warrior",
+      "Ally",
+      "Beast",
+      "Hydra"
+    ],
+    "C": [
+      "Construct",
+      "Eldrazi Spawn",
+      "Golem",
+      "Scarecrow",
+      "Wall"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "that player controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "attacks or blocks",
+      "enters the battlefield"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Merfolk",
+      "Vampire",
+      "Goblin",
+      "Beast"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T},",
+      "{2},",
+      "{3}, {T},",
+      "Sacrifice this creature,",
+      "Discard a card,"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card",
+      "create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "deal {X} damage to any target",
+      "gain {X} life",
+      "put a +1/+1 counter on target creature"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance",
+      "protection from black"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "shroud"
+    ],
+    "B": [
+      "deathtouch",
+      "intimidate",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "intimidate"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "vigilance"
+    ]
+  }
+}

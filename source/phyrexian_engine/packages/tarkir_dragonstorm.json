@@ -1,0 +1,959 @@
+{
+  "package_name": "tarkir_dragonstorm",
+  "display_name": "Tarkir: Dragonstorm (Comprehensive)",
+  "version": "1.0",
+  "description": "A very large template pack capturing Tarkir-era mechanics with dragon-centric twists: Outlast, Prowess, Delve, Raid, Bolster, Dash, Exploit, Megamorph, Rebound, Formidable, Manifest, plus abundant Dragon and clan synergies.",
+  "recommended_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Warrior",
+      "Bird",
+      "Spirit",
+      "Hound",
+      "Cleric",
+      "Knight",
+      "Monk",
+      "Cat",
+      "Dragon"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Monk",
+      "Djinn",
+      "Bird",
+      "Illusion",
+      "Elemental",
+      "Naga",
+      "Rogue",
+      "Dragon"
+    ],
+    "B": [
+      "Human",
+      "Warrior",
+      "Zombie",
+      "Vampire",
+      "Rat",
+      "Rogue",
+      "Naga",
+      "Horror",
+      "Spirit",
+      "Dragon"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Berserker",
+      "Goblin",
+      "Shaman",
+      "Ogre",
+      "Elemental",
+      "Dragon",
+      "Efreet",
+      "Ape"
+    ],
+    "G": [
+      "Human",
+      "Warrior",
+      "Shaman",
+      "Bear",
+      "Wolf",
+      "Beast",
+      "Elemental",
+      "Snake",
+      "Centaur",
+      "Dragon"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Creatures you control get +{X}/+{X} until end of turn. Bolster {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Exile target attacking creature if its power is {N} or greater.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Tap up to {N} target creatures. They don't untap during their controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any number of targets divided as you choose this turn. You gain {N} life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Rebound \u2014 Target creature gains indestructible until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on up to {N} target creatures. Bolster 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Exile target enchantment or tapped artifact.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {N} 1/1 [TOKEN_COLOR] Warrior creature tokens with vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Until end of turn, creatures you control gain 'Whenever this creature blocks, you may bolster 1.'",
+          3,
+          1,
+          6
+        ],
+        [
+          "Choose one \u2014 \u2022 Counter target spell that targets a creature you control \u2022 Exile target Aura \u2022 Creatures you control gain lifelink until end of turn.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Bolster {N}. Then create {N} 1/1 [TOKEN_COLOR] Spirit creature tokens with flying.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Exile target tapped creature. You gain life equal to its power.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Manifest the top card of your library, then bolster 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Return up to {N} target creature cards with mana value {N} or less from your graveyard to the battlefield tapped.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] Warrior creature tokens. Creatures you control gain vigilance until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Each opponent sacrifices an attacking or blocking creature of your choice they control. If a Dragon was cast this turn, bolster 2.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Dragons you control have vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, bolster 1. If you control a Dragon, instead bolster 2.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with a +1/+1 counter on it attacks, create a 1/1 [TOKEN_COLOR] Warrior creature token tapped and attacking.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1 and you gain 1 life. If it was cast from exile, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has vigilance.\nOutlast {N} \u2014 Put a +1/+1 counter on enchanted creature. Activate only as a sorcery.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 for each +1/+1 counter on it and has vigilance.\nEquip {N}.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Prowess\nWhen this creature enters the battlefield, bolster 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Outlast {N} ({N}: Put a +1/+1 counter on this creature. Activate only as a sorcery.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Raid \u2014 When this creature enters the battlefield, if you attacked this turn, create a 1/1 [TOKEN_COLOR] Warrior creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Megamorph {N} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature blocks or becomes blocked, bolster 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dragons you control have \"T: Tap target creature.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters the battlefield, choose one \u2014 \u2022 Create a Treasure token \u2022 Scry 2 \u2022 Put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "T: Add {N}. Spend this mana only to cast Dragon spells or activate abilities of Dragons.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a Dragon spell, this artifact deals 1 damage to any target and you gain 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"T: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. If that mana is spent on a creature spell, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you control a Dragon, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Manifest the top card of your library.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets -{X}/0 until end of turn. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Untap up to {N} target creatures. They gain flying until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Rebound \u2014 Scry {N}, then draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Tap up to {N} target creatures. Those creatures don't untap during their controller's next untap step.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nDraw {N} cards.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Look at the top {N} cards of your library. Manifest one of them and put the rest back in any order.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create a token that's a copy of target nonlegendary creature you control, except it's a 1/1 Illusion in addition to its other types.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Prowess\nWhenever you cast a noncreature spell, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a Dragon you control attacks, draw a card, then discard a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -2/-0 as long as you control a Dragon.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has hexproof and \"T: Scry 1.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nRebound \u2014 Whenever enchanted creature deals combat damage to a player, draw a card.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Prowess\nWhenever you cast a noncreature spell, untap target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Exploit (When this creature enters the battlefield, you may sacrifice a creature.)\nWhen it exploits a creature, draw two cards.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Megamorph {N}\nWhen turned face up, counter target spell unless its controller pays {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a Dragon enters the battlefield under your control, scry 2.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters the battlefield, choose one \u2014 \u2022 Create a Treasure token \u2022 Scry 2 \u2022 Put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "T: Add {N}. Spend this mana only to cast Dragon spells or activate abilities of Dragons.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a Dragon spell, this artifact deals 1 damage to any target and you gain 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"T: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. If that mana is spent on a creature spell, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, you gain {N} life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Destroy target creature with mana value {N} or less.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Delve \u2014 Exile up to {N} target cards from a single graveyard. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If you controlled a Dragon this turn, you may return that card to the battlefield instead.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. If you exploited a creature this turn, you gain 2 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delve \u2014 Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Search your library for a card, put it into your hand, then shuffle. You lose {N} life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {N} 2/2 black Zombie creature tokens. If a Dragon died this turn, create that many plus one instead.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Manifest the top two cards of your library.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Exploit \u2014 Whenever a creature you control exploits a creature, each opponent loses 2 life and you gain 2 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, mill two cards. Then you may pay {N}. If you do, return target creature card with mana value {N} or less from your graveyard to the battlefield tapped.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has menace.\nWhen enchanted creature exploits a creature, draw a card and lose 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Exploit\nWhen this creature exploits a creature, destroy target creature an opponent controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Delve\nThis spell costs {N} less to cast for each card exiled with it.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Megamorph {N}\nWhen turned face up, target opponent discards two cards.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Raid \u2014 When this creature enters the battlefield, if you attacked this turn, each opponent sacrifices a creature.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters the battlefield, choose one \u2014 \u2022 Create a Treasure token \u2022 Scry 2 \u2022 Put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "T: Add {N}. Spend this mana only to cast Dragon spells or activate abilities of Dragons.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a Dragon spell, this artifact deals 1 damage to any target and you gain 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"T: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. If that mana is spent on a creature spell, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target. If you control a Dragon, this spell deals that much damage plus {N} instead.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Dash {N} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens. They gain haste until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Rebound \u2014 This spell deals 2 damage to up to {N} targets.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Raid \u2014 If you attacked this turn, this spell costs {N} less to cast.\nThis spell deals {X} damage divided as you choose among up to {N} targets.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create a 3/3 red Dragon creature token with flying. If you control a Dragon, create two of those tokens instead.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Manifest the top card of your library, then this spell deals 2 damage to each creature without flying.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Dragons you control get +1/+0 and have haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, this enchantment deals 1 damage to any target. If it was cast from exile, it deals 2 damage instead.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gains dash {N} until end of turn.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has haste.\nWhenever enchanted creature attacks, it deals 1 damage to any target.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Dash {N} (You may cast this spell for its dash cost. If you do, it gains haste, then return it to its owner's hand at end of turn.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Prowess\nWhenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Megamorph {N}\nWhen turned face up, this creature deals 2 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a Dragon you control attacks, this creature gets +2/+0 until end of turn.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters the battlefield, choose one \u2014 \u2022 Create a Treasure token \u2022 Scry 2 \u2022 Put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "T: Add {N}. Spend this mana only to cast Dragon spells or activate abilities of Dragons.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a Dragon spell, this artifact deals 1 damage to any target and you gain 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"T: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. If that mana is spent on a creature spell, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If you control a creature with power 4 or greater, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. That creature gains trample until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Untap up to {N} target lands.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Choose one \u2014 \u2022 Destroy target artifact \u2022 Destroy target enchantment \u2022 Target creature you control fights target creature you don't control.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create a 4/4 green Dragon creature token with flying and trample.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Bolster {N}. Then creatures you control gain trample until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Manifest the top two cards of your library.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Formidable \u2014 As long as creatures you control have total power 8 or greater, creatures you control have trample.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with power 4 or greater enters the battlefield, draw a card.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +3/+3 and has trample.\nFormidable \u2014 As long as you control creatures with total power 8 or greater, enchanted creature has hexproof.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Ferocious \u2014 As long as you control a creature with power 4 or greater, this creature gets +1/+1 and has trample.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Megamorph {N}\nWhen turned face up, put two +1/+1 counters on target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Exploit \u2014 When this creature exploits a creature, search your library for a basic land card and put it onto the battlefield tapped, then shuffle.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a Dragon enters the battlefield under your control, put a +1/+1 counter on each creature you control.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters the battlefield, choose one \u2014 \u2022 Create a Treasure token \u2022 Scry 2 \u2022 Put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "T: Add {N}. Spend this mana only to cast Dragon spells or activate abilities of Dragons.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a Dragon spell, this artifact deals 1 damage to any target and you gain 1 life.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"T: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. If that mana is spent on a creature spell, bolster 1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "land_effects": [
+    [
+      "T: Add one mana of any color. Spend this mana only to cast a Dragon spell.",
+      2,
+      1,
+      1
+    ],
+    [
+      "T: Add {N}. Formidable \u2014 As long as creatures you control have total power 8 or greater, T: Add {N}{N} instead.",
+      1,
+      1,
+      1
+    ],
+    [
+      "T: Add {N}. {N}, T, Sacrifice this land: Manifest the top card of your library.",
+      1,
+      1,
+      1
+    ]
+  ],
+  "dragon_global": {
+    "Creature": [
+      [
+        "Flying\nWhenever this creature attacks, it deals {N} damage to any target.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Flying, haste\nRaid \u2014 When this creature enters the battlefield, if you attacked this turn, it deals {N} damage divided as you choose among up to {N} targets.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Flying\nExploit \u2014 When this creature exploits a creature, draw two cards.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Flying\nAt the beginning of combat on your turn, bolster 1.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Flying\nProwess\nWhenever you cast a noncreature spell, scry 1, then this creature gets +1/+0 until end of turn.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Flying\nMegamorph {N}\nWhen turned face up, create a 4/4 Dragon creature token with flying.",
+        3,
+        1,
+        6
+      ]
+    ],
+    "Sorcery": [
+      [
+        "Create {N} 4/4 red Dragon creature tokens with flying.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Until end of turn, Dragons you control gain double strike and haste.",
+        3,
+        1,
+        6
+      ],
+      [
+        "Search your library for a Dragon card, reveal it, put it into your hand, then shuffle.",
+        3,
+        1,
+        6
+      ]
+    ]
+  }
+}

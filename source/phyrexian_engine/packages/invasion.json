@@ -1,0 +1,812 @@
+{
+  "name": "invasion",
+  "version": "1.0",
+  "description": "Invasion (2000) mega-package: multicolor focus, Kicker (including dual/enemy-color kickers and non-mana variants), proto-Domain scaling, split-like modal templates, allied-color cycles (battlemages, dragons), ETB tapped allied duals, protection-hate, and color-matters effects.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. Kicker — [KICKER_COST_ALLY_W]. If this spell was kicked, that creature gains lifelink until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature. Kicker — {2}. If this spell was kicked, you gain 4 life.",
+          3,
+          2,
+          4
+        ],
+        [
+          "[CHOOSE_ONE]\n• Prevent the next 3 damage that would be dealt to any target this turn.\n• Return target Aura card from your graveyard to your hand.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn [DOMAIN_PHRASE].",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +1/+1 until end of turn [DOMAIN_PHRASE]. Prevent the next 1 damage that would be dealt to it this turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +1/+1 until end of turn [DOMAIN_PHRASE]. Prevent the next 1 damage that would be dealt to it this turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +1/+1 until end of turn [DOMAIN_PHRASE]. Prevent the next 1 damage that would be dealt to it this turn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Soldier creature tokens. Kicker — [KICKER_COST]. If this spell was kicked, create two of those tokens instead.",
+          4,
+          2,
+          5
+        ],
+        [
+          "You gain 2 life [PERMANENT_COLOR_COUNT]. Draw a card.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 [DOMAIN_PHRASE].",
+          2,
+          4,
+          6
+        ],
+        [
+          "Enchanted creature has protection from [OPPOSING_COLOR_WORD].",
+          2,
+          1,
+          3
+        ],
+        [
+          "Aura — Enchant creature\nEnchanted creature gets +2/+2.\nKicker — {1}{W}. If this spell was kicked, enchanted creature has vigilance.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} if this spell was kicked, exile target artifact or enchantment an opponent controls.\n{THIS} gets +1/+1 as long as you control a [ALLY_COLOR_WORD] permanent.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Kicker — {U} and/or {G}.\nWhen {THIS} enters the battlefield, if it was kicked with {U}, tap up to two target creatures. They don't untap during their controller's next untap step.\nWhen {THIS} enters the battlefield, if it was kicked with {G}, create a 2/2 green Kavu creature token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1. Equip [EQUIP_COST]. Kicker — {2}. If this spell was kicked, equipped creature has first strike.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Kicker — {2}. When {THIS} enters the battlefield, if it was kicked, draw two cards, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}, where X is the number of colors among permanents you control.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Kicker — [KICKER_COST_ALLY_U]. If this spell was kicked, scry 2 and draw a card.",
+          4,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_ONE]\n• Tap up to two target creatures.\n• Counter target activated or triggered ability unless its controller pays {2}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Draw three cards. Kicker — discard a card. If this spell was kicked, instead draw four cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Kicker — [KICKER_COST_ALLY_U]. If this spell was kicked, instead counter that spell unless its controller pays {4}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Kicker — [KICKER_COST_ALLY_U]. If this spell was kicked, instead counter that spell unless its controller pays {4}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Kicker — [KICKER_COST_ALLY_U]. If this spell was kicked, instead counter that spell unless its controller pays {4}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Kicker — [KICKER_COST_ALLY_U]. If this spell was kicked, instead counter that spell unless its controller pays {4}.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw a card [DOMAIN_PHRASE]. Then discard a card.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Flying.\nKicker — {1}{B} and/or {1}{W}.\nWhen {THIS} enters the battlefield, if it was kicked with {1}{B}, target opponent mills six cards.\nWhen {THIS} enters the battlefield, if it was kicked with {1}{W}, draw two cards, then discard a card.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, scry 1 [PERMANENT_COLOR_COUNT].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1. Equip [EQUIP_COST]. Kicker — {2}. If this spell was kicked, equipped creature has first strike.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Kicker — {2}. When {THIS} enters the battlefield, if it was kicked, draw two cards, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Sorcery": [
+        [
+          "Target player discards two cards. Kicker — [KICKER_COST_ALLY_B]. If this spell was kicked, that player discards two cards instead.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target nonblack creature. Kicker — {G}. If this spell was kicked, you gain life equal to that creature's toughness.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target player discards a card [PERMANENT_COLOR_COUNT]. If they can't, they lose 2 life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target player discards a card [PERMANENT_COLOR_COUNT]. If they can't, they lose 2 life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target player discards a card [PERMANENT_COLOR_COUNT]. If they can't, they lose 2 life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target player discards a card [PERMANENT_COLOR_COUNT]. If they can't, they lose 2 life.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn. Kicker — {2}. If this spell was kicked, that creature gets -5/-5 until end of turn instead.",
+          4,
+          2,
+          4
+        ],
+        [
+          "[CHOOSE_ONE]\n• Exile target creature card from a graveyard. You gain 3 life.\n• Target creature gains fear until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Menace.\nKicker — {R} and/or {U}.\nWhen {THIS} enters the battlefield, if it was kicked with {R}, it deals 2 damage to any target.\nWhen {THIS} enters the battlefield, if it was kicked with {U}, return target creature to its owner's hand.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures your opponents control get -1/-0 [DOMAIN_PHRASE].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1. Equip [EQUIP_COST]. Kicker — {2}. If this spell was kicked, equipped creature has first strike.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Kicker — {2}. When {THIS} enters the battlefield, if it was kicked, draw two cards, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{THIS} deals 3 damage to any target. Kicker — [KICKER_COST_ALLY_R]. If this spell was kicked, {THIS} deals 3 damage to another target.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Creatures can't block this turn. Kicker — {1}. If this spell was kicked, up to two target creatures can't block this turn and you scry 1.",
+          3,
+          1,
+          3
+        ],
+        [
+          "[CHOOSE_ONE]\n• {THIS} deals 2 damage to any target.\n• Destroy target artifact.",
+          3,
+          1,
+          3
+        ],
+        [
+          "{THIS} deals 2 damage to any target. Kicker — {1}. If this spell was kicked, it deals 4 damage instead.",
+          3,
+          1,
+          3
+        ],
+        [
+          "{THIS} deals 2 damage to any target. Kicker — {1}. If this spell was kicked, it deals 4 damage instead.",
+          3,
+          1,
+          3
+        ],
+        [
+          "{THIS} deals 2 damage to any target. Kicker — {1}. If this spell was kicked, it deals 4 damage instead.",
+          3,
+          1,
+          3
+        ],
+        [
+          "{THIS} deals 2 damage to any target. Kicker — {1}. If this spell was kicked, it deals 4 damage instead.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact. Kicker — {G}. If this spell was kicked, destroy target land.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{THIS} deals X damage divided as you choose among up to X targets, where X is the number of basic land types among lands you control.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste.\nKicker — {1}{G} and/or {1}{B}.\nWhen {THIS} enters the battlefield, if it was kicked with {1}{G}, put two +1/+1 counters on it.\nWhen {THIS} enters the battlefield, if it was kicked with {1}{B}, it gains \"When this creature dies, it deals 2 damage to any target.\" ",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1. Equip [EQUIP_COST]. Kicker — {2}. If this spell was kicked, equipped creature has first strike.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Kicker — {2}. When {THIS} enters the battlefield, if it was kicked, draw two cards, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. Kicker — [KICKER_COST_ALLY_G]. If this spell was kicked, that creature also gains trample until end of turn.",
+          5,
+          1,
+          4
+        ],
+        [
+          "[CHOOSE_ONE]\n• Destroy target artifact or enchantment.\n• Target creature you control fights up to one target creature you don't control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Draw a card [DOMAIN_PHRASE].",
+          4,
+          2,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures [DOMAIN_PHRASE]. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures [DOMAIN_PHRASE]. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures [DOMAIN_PHRASE]. Draw a card.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker — {W} and/or {U}.\nWhen {THIS} enters the battlefield, if it was kicked with {W}, put a +1/+1 counter on each of up to two target creatures.\nWhen {THIS} enters the battlefield, if it was kicked with {U}, draw a card.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have trample [PERMANENT_COLOR_COUNT].",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1. Equip [EQUIP_COST]. Kicker — {2}. If this spell was kicked, equipped creature has first strike.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Kicker — {2}. When {THIS} enters the battlefield, if it was kicked, draw two cards, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped.\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Soldier",
+      "Cleric",
+      "Angel",
+      "Bird"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Drake",
+      "Bird",
+      "Illusion"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Cleric",
+      "Minion",
+      "Horror",
+      "Specter"
+    ],
+    "R": [
+      "Human",
+      "Kavu",
+      "Goblin",
+      "Warrior",
+      "Barbarian",
+      "Shaman"
+    ],
+    "G": [
+      "Human",
+      "Kavu",
+      "Elf",
+      "Beast",
+      "Druid",
+      "Insect"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash",
+      "cannot be blocked by more than one creature"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "fear",
+      "protection from white"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample",
+      "cannot block"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from blue",
+      "protection from blue"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield, ",
+      "Whenever {THIS} attacks, ",
+      "At the beginning of your end step, "
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own",
+      "you control"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "OPPOSING_COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "ALLY_COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "KICKER_COST": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}",
+      "{3}",
+      "discard a card",
+      "sacrifice a land"
+    ],
+    "KICKER_COST_ALLY_W": [
+      "{U}",
+      "{G}",
+      "{2}"
+    ],
+    "KICKER_COST_ALLY_U": [
+      "{W}",
+      "{B}",
+      "{2}"
+    ],
+    "KICKER_COST_ALLY_B": [
+      "{U}",
+      "{R}",
+      "{2}"
+    ],
+    "KICKER_COST_ALLY_R": [
+      "{B}",
+      "{G}",
+      "{2}"
+    ],
+    "KICKER_COST_ALLY_G": [
+      "{R}",
+      "{W}",
+      "{2}"
+    ],
+    "DOMAIN_PHRASE": [
+      "for each basic land type among lands you control",
+      "for each of the five basic land types you control",
+      "for each basic land type you control"
+    ],
+    "PERMANENT_COLOR_COUNT": [
+      "for each color among permanents you control"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Kavu",
+      "Saproling",
+      "Soldier",
+      "Goblin",
+      "Bird",
+      "Zombie",
+      "Drake",
+      "Beast"
+    ],
+    "AURA_SUBTYPE": [
+      "Aura"
+    ],
+    "ARTIFACT_SUBTYPE": [
+      "Equipment"
+    ],
+    "CREATURE_CLASS_W": [
+      "Knight",
+      "Soldier",
+      "Cleric",
+      "Angel"
+    ],
+    "CREATURE_CLASS_U": [
+      "Wizard",
+      "Merfolk",
+      "Bird",
+      "Illusion"
+    ],
+    "CREATURE_CLASS_B": [
+      "Zombie",
+      "Cleric",
+      "Minion",
+      "Horror"
+    ],
+    "CREATURE_CLASS_R": [
+      "Kavu",
+      "Warrior",
+      "Goblin",
+      "Barbarian"
+    ],
+    "CREATURE_CLASS_G": [
+      "Kavu",
+      "Elf",
+      "Beast",
+      "Druid"
+    ],
+    "CHOOSE_ONE": [
+      "Choose one —",
+      "Choose one or both —"
+    ]
+  }
+}

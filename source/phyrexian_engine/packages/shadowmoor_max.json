@@ -1,0 +1,1027 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Tap up to two target creatures.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} and gains vigilance until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Move a -1/-1 counter from target creature onto another target creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Kithkin creature tokens.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Exile target tapped creature.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a attacking creature [CREATURE_CONTROLLER] dies, create a 1/1 white Kithkin creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control that are W/U get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control that are G/W get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 if they have a -1/-1 counter on them.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] one or more -1/-1 counters are put on a creature, you may draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a permanent you control becomes untapped, it gets +1/+0 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{Q}: This creature gets +1/+1 until end of turn. Activate only once each turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] another target creature you control gets +1/+1 until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap target permanent.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals damage to a creature, put that many -1/-1 counters on that creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 for each of its colors.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither and \"{Q}: Untap this creature.\"",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Tap target permanent. It doesn’t untap during its controller’s next untap step.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Move a -1/-1 counter from target creature onto another target creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Look at the top three cards of your library, put one into your hand and the rest into your graveyard.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a tapped creature [CREATURE_CONTROLLER] dies, create a 1/1 blue Faerie creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control that are W/U get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control that are U/B get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 if they have a -1/-1 counter on them.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] one or more -1/-1 counters are put on a creature, you may draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a permanent you control becomes untapped, it gets +1/+0 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{Q}: This creature gets +1/+1 until end of turn. Activate only once each turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] draw a card, then discard a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap target permanent.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals damage to a creature, put that many -1/-1 counters on that creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has wither and \"{Q}: Untap this creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 for each of its colors.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Put two -1/-1 counters on target creature.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Move a -1/-1 counter from target creature onto another target creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards two cards.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield with a -1/-1 counter on it.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target creature.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a nonblack creature [CREATURE_CONTROLLER] dies, create a 1/1 black Rogue creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control that are U/B get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control that are B/R get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 if they have a -1/-1 counter on them.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] one or more -1/-1 counters are put on a creature, you may draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a permanent you control becomes untapped, it gets +1/+0 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{Q}: This creature gets +1/+1 until end of turn. Activate only once each turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] each opponent loses 1 life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap target permanent.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals damage to a creature, put that many -1/-1 counters on that creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has wither and \"{Q}: Untap this creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 for each of its colors.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Deal 3 damage to any target.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          1,
+          5
+        ],
+        [
+          "Target creature gains first strike until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          1,
+          5
+        ],
+        [
+          "Move a -1/-1 counter from target creature onto another target creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Deal {X} damage to any target.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +2/+0 until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a blocking creature [CREATURE_CONTROLLER] dies, create a 1/1 red Goblin creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control that are B/R get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control that are R/G get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 if they have a -1/-1 counter on them.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] one or more -1/-1 counters are put on a creature, you may draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a permanent you control becomes untapped, it gets +1/+0 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{Q}: This creature gets +1/+1 until end of turn. Activate only once each turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] this creature gets +1/+0 until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap target permanent.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals damage to a creature, put that many -1/-1 counters on that creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has wither and \"{Q}: Untap this creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 for each of its colors.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Move a -1/-1 counter from target creature onto another target creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature you control fights target creature you don’t control.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target creature you control.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nConspire (As you cast this spell, you may tap two creatures that share a color with it. When you do, copy it. You may choose new targets for the copy.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a creature with flying creature [CREATURE_CONTROLLER] dies, create a 1/1 green Elf creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control that are R/G get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control that are G/W get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 if they have a -1/-1 counter on them.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] one or more -1/-1 counters are put on a creature, you may draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a permanent you control becomes untapped, it gets +1/+0 until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{Q}: This creature gets +1/+1 until end of turn. Activate only once each turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] add one mana of any color.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap target permanent.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted creature deals damage to a creature, put that many -1/-1 counters on that creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has wither and \"{Q}: Untap this creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 for each of its colors.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        [
+          "Scarecrow creatures you control get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] a Scarecrow enters the battlefield under your control, you may destroy target nonland permanent with converted mana cost {X} or less, where X is the number of Scarecrows you control.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Untap another target permanent.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}, {Q}: Target creature gets +{N}/+{N} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{2}, {Q}: Put a -1/-1 counter on target tapped creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has \"{Q}: This creature gets +1/+0 until end of turn.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has \"{Q}: Untap this creature.\"",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has wither.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"{Q}: This creature gets +1/+1 until end of turn.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has first strike and wither.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0 and has \"{Q}: Untap this creature.\"",
+          2,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kithkin",
+      "Spirit",
+      "Knight",
+      "Cleric",
+      "Soldier",
+      "Elemental",
+      "Scarecrow"
+    ],
+    "U": [
+      "Merfolk",
+      "Faerie",
+      "Wizard",
+      "Rogue",
+      "Elemental",
+      "Scarecrow"
+    ],
+    "B": [
+      "Faerie",
+      "Rogue",
+      "Shaman",
+      "Horror",
+      "Scarecrow",
+      "Elemental",
+      "Zombie"
+    ],
+    "R": [
+      "Goblin",
+      "Shaman",
+      "Warrior",
+      "Elemental",
+      "Scarecrow",
+      "Giant"
+    ],
+    "G": [
+      "Elf",
+      "Shaman",
+      "Warrior",
+      "Treefolk",
+      "Ouphe",
+      "Elemental",
+      "Scarecrow"
+    ],
+    "C": [
+      "Scarecrow",
+      "Construct",
+      "Golem",
+      "Spirit"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{Q}:",
+      "{Q}, {1}:",
+      "{Q}, {T}:",
+      "{1}, {Q}:",
+      "{2}, {Q}:",
+      "{1}{W/U}:",
+      "{1}{U/B}:",
+      "{1}{B/R}:",
+      "{1}{R/G}:",
+      "{1}{G/W}:"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,",
+      "Whenever one or more -1/-1 counters are put on a creature,",
+      "Whenever a creature you control becomes untapped,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Kithkin",
+      "Merfolk",
+      "Faerie",
+      "Ouphe",
+      "Elemental",
+      "Scarecrow",
+      "Elf",
+      "Goblin",
+      "Giant",
+      "Spirit",
+      "Shaman",
+      "Warrior",
+      "Wizard",
+      "Rogue",
+      "Knight",
+      "Horror",
+      "Treefolk",
+      "Construct"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ],
+    "U": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ],
+    "B": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ],
+    "R": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ],
+    "G": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ],
+    "C": [
+      "wither (This deals damage to creatures in the form of -1/-1 counters.)",
+      "persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)"
+    ]
+  }
+}

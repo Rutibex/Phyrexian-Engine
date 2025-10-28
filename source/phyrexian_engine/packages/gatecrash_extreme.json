@@ -1,0 +1,1340 @@
+{
+  "name": "gatecrash_extreme",
+  "version": "1.0",
+  "description": "A very large Gatecrash (GTC) package with Boros (Battalion), Dimir (Cipher), Gruul (Bloodrush), Orzhov (Extort), Simic (Evolve), plus Gates and Keyrunes.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, {THIS} gets +2/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, creatures you control get +1/+0 until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, tap target creature defending player controls.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, {THIS} gains lifelink until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, create a 1/1 white Soldier creature token tapped and attacking.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent all damage that would be dealt this turn to you and permanents you control.\nDraw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Prevent all damage that would be dealt this turn to you and permanents you control.\nDraw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Prevent all damage that would be dealt this turn to you and permanents you control.\nDraw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target creatures.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{TOKEN_BOROS}",
+          8,
+          2,
+          5
+        ],
+        [
+          "Exile target tapped creature.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0.\nExtort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          7,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your end step, {TOKEN_BOROS}",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature can't be blocked this turn.\nCipher",
+          6,
+          2,
+          5
+        ],
+        [
+          "Draw a card, then each opponent mills two cards.\nCipher",
+          6,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.\nCipher",
+          6,
+          2,
+          5
+        ],
+        [
+          "Look at target player's hand. You may have that player discard a nonland card.\nCipher",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Draw a card.\nCipher",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -3/-3 until end of turn.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {3}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Counter target noncreature spell.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Draw two cards.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Return target creature to its owner's hand.",
+          7,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature can't be blocked this turn.\nCipher",
+          9,
+          2,
+          5
+        ],
+        [
+          "Draw a card, then each opponent mills two cards.\nCipher",
+          9,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.\nCipher",
+          9,
+          2,
+          5
+        ],
+        [
+          "Look at target player's hand. You may have that player discard a nonland card.\nCipher",
+          9,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Draw a card.\nCipher",
+          9,
+          2,
+          5
+        ],
+        [
+          "Put two +1/+1 counters on target creature. You may move a +1/+1 counter from another creature you control onto it.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Return target creature to its owner's hand. If that creature had counters on it, draw a card.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control with +1/+1 counters on them have flying.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature you control deals combat damage to a player, scry 1.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "B": {
+      "Creature": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature can't be blocked this turn.\nCipher",
+          5,
+          2,
+          5
+        ],
+        [
+          "Draw a card, then each opponent mills two cards.\nCipher",
+          5,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.\nCipher",
+          5,
+          2,
+          5
+        ],
+        [
+          "Look at target player's hand. You may have that player discard a nonland card.\nCipher",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Draw a card.\nCipher",
+          5,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Destroy target tapped creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Destroy target tapped creature.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target creature. You gain 2 life.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Target player sacrifices a creature. You gain life equal to that creature's toughness.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Target creature can't be blocked this turn.\nCipher",
+          7,
+          2,
+          5
+        ],
+        [
+          "Draw a card, then each opponent mills two cards.\nCipher",
+          7,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.\nCipher",
+          7,
+          2,
+          5
+        ],
+        [
+          "Look at target player's hand. You may have that player discard a nonland card.\nCipher",
+          7,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Draw a card.\nCipher",
+          7,
+          2,
+          5
+        ],
+        [
+          "Each opponent loses 2 life and you gain 2 life.",
+          7,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.\nExtort",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain that much life.)",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "R": {
+      "Creature": [
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, {THIS} gets +2/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, creatures you control get +1/+0 until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, tap target creature defending player controls.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, {THIS} gains lifelink until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Battalion — Whenever {THIS} and at least two other creatures attack, create a 1/1 white Soldier creature token tapped and attacking.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +3/+3 until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +4/+2 and gains trample until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +2/+2 and gains first strike until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +X/+X until end of turn, where X is {THIS}'s power.",
+          10,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Deal 3 damage to any target.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Deal 2 damage to up to two target creatures.",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature you control fights target creature you don't control.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or land.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Deal 4 damage to target creature.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Deal 3 damage to any target.",
+          10,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature you control attacks, it gets +1/+0 until end of turn.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +3/+3 until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +4/+2 and gains trample until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +2/+2 and gains first strike until end of turn.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard {THIS}: Target attacking creature gets +X/+X until end of turn, where X is {THIS}'s power.",
+          10,
+          2,
+          7
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than {THIS}, put a +1/+1 counter on {THIS}.)",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          6,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, creatures you control with +1/+1 counters on them gain trample until end of turn.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "any": {
+      "Creature": [],
+      "Instant": [
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn.\nDraw a card.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. If you control a red permanent, they also gain haste until end of turn.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has first strike.\nEquip {EQUIP_COST}",
+          7,
+          2,
+          5
+        ],
+        [
+          "Equipped creature gets +0/+2 and has hexproof.\nEquip {EQUIP_COST}",
+          6,
+          2,
+          5
+        ],
+        [
+          "Equipped creature gets +1/+1 and lifelink.\nEquip {EQUIP_COST}",
+          6,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +3/+0 and has trample.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{ACTIVATED_COST}: This creature can't be blocked this turn.\"",
+          6,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": []
+    },
+    "C": {
+      "Creature": [],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{T}: Add {W} or {R}.\n{1}{W}{R}: ~ becomes a 2/2 white and red Soldier artifact creature with first strike until end of turn.",
+          6,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {U} or {B}.\n{1}{U}{B}: ~ becomes a 2/2 blue and black Rogue artifact creature with unblockable until end of turn.",
+          6,
+          2,
+          4
+        ],
+        [
+          "{T}: Add {R} or {G}.\n{1}{R}{G}: ~ becomes a 3/1 red and green Warrior artifact creature with trample until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {W} or {B}.\n{1}{W}{B}: ~ becomes a 1/4 white and black Thrull artifact creature with lifelink until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {U} or {G}.\n{1}{U}{G}: ~ becomes a 2/3 blue and green Mutant artifact creature with reach until end of turn.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "~ enters the battlefield tapped.\n{T}: Add {W} or {R}.\n(Gate)",
+          8,
+          0,
+          0
+        ],
+        [
+          "~ enters the battlefield tapped.\n{T}: Add {U} or {B}.\n(Gate)",
+          8,
+          0,
+          0
+        ],
+        [
+          "~ enters the battlefield tapped.\n{T}: Add {R} or {G}.\n(Gate)",
+          8,
+          0,
+          0
+        ],
+        [
+          "~ enters the battlefield tapped.\n{T}: Add {W} or {B}.\n(Gate)",
+          6,
+          0,
+          0
+        ],
+        [
+          "~ enters the battlefield tapped.\n{T}: Add {U} or {G}.\n(Gate)",
+          6,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Angel",
+      "Cleric",
+      "Human",
+      "Spirit"
+    ],
+    "U": [
+      "Wizard",
+      "Rogue",
+      "Vedalken",
+      "Shapeshifter",
+      "Merfolk",
+      "Homunculus"
+    ],
+    "B": [
+      "Thrull",
+      "Vampire",
+      "Zombie",
+      "Cleric",
+      "Spirit",
+      "Advisor"
+    ],
+    "R": [
+      "Warrior",
+      "Berserker",
+      "Devil",
+      "Goblin",
+      "Human",
+      "Shaman"
+    ],
+    "G": [
+      "Beast",
+      "Elemental",
+      "Elf",
+      "Frog",
+      "Mutant",
+      "Ooze"
+    ],
+    "C": [
+      "Construct",
+      "Golem"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{W/B}",
+      "{U/B}",
+      "{R/G}",
+      "{2}{W}",
+      "{2}{B}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{W}",
+      "{B}",
+      "{R}",
+      "{2}{W}",
+      "{2}{R}"
+    ],
+    "AURA_CREATURE_COST": [
+      "{1}{W}",
+      "{2}{W}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{U}",
+      "{3}{G}"
+    ],
+    "BLOODRUSH_COST": [
+      "{1}{R}",
+      "{1}{G}",
+      "{R}{G}",
+      "{2}{R}",
+      "{2}{G}",
+      "{1}{R}{G}"
+    ],
+    "EXTORT_SYMBOL": [
+      "{W/B}"
+    ],
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "Whenever {THIS} attacks,",
+      "Whenever a creature you control dies,",
+      "Whenever you gain life,",
+      "At the beginning of combat on your turn,"
+    ],
+    "COMBAT_TRICK": [
+      "Target creature gets +2/+2 until end of turn.",
+      "Target creature gets +3/+0 and gains first strike until end of turn.",
+      "Target creature gets +0/+3 and gains hexproof until end of turn.",
+      "Creatures you control get +1/+0 until end of turn."
+    ],
+    "REMOVAL_SMALL": [
+      "Destroy target creature with power 2 or less.",
+      "Exile target tapped creature.",
+      "Target creature gets -2/-2 until end of turn.",
+      "Deal 3 damage to target creature."
+    ],
+    "REMOVAL_MED": [
+      "Destroy target creature.",
+      "Exile target nonland permanent with mana value 3 or less.",
+      "Deal 4 damage to target creature or planeswalker."
+    ],
+    "TOKEN_BOROS": [
+      "Create two 1/1 white Soldier creature tokens.",
+      "Create a 1/1 white Soldier creature token with vigilance."
+    ],
+    "TOKEN_ORZHOV": [
+      "Create a 1/1 white and black Spirit creature token with flying.",
+      "Create two 1/1 white and black Thrull creature tokens."
+    ],
+    "TOKEN_DIMIR": [
+      "Create a 1/1 blue Rogue creature token that can't be blocked.",
+      "Mill three cards."
+    ],
+    "TOKEN_GRUUL": [
+      "Create a 3/3 green Beast creature token.",
+      "Target creature you control fights target creature you don't control."
+    ],
+    "TOKEN_SIMIC": [
+      "Create a 0/0 green Ooze creature token, then put two +1/+1 counters on it.",
+      "Proliferate."
+    ],
+    "AURA_LAND_COST": [
+      "{1}{G}",
+      "{1}{U}",
+      "{2}{G}"
+    ],
+    "KEYWORD_GRUUL": [
+      "trample",
+      "haste",
+      "reach"
+    ],
+    "KEYWORD_BOROS": [
+      "first strike",
+      "vigilance",
+      "mentor"
+    ],
+    "KEYWORD_ORZHOV": [
+      "lifelink",
+      "flying",
+      "deathtouch"
+    ],
+    "KEYWORD_DIMIR": [
+      "flying",
+      "hexproof",
+      "skulk"
+    ],
+    "KEYWORD_SIMIC": [
+      "flying",
+      "reach"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "deathtouch"
+    ],
+    "R": [
+      "haste"
+    ],
+    "G": [
+      "trample"
+    ],
+    "C": []
+  }
+}

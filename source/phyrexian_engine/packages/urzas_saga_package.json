@@ -1,0 +1,794 @@
+{
+  "name": "urzas_saga_block_plus",
+  "version": "1.0.0",
+  "description": "A very large package inspired by Urza\u2019s Saga (1998) with cycling, echo, and \u2018free\u2019 untap-land spell patterns, plus heavy artifacts/enchantments themes. Wording paraphrased for generator use (not official oracle text).",
+  "authors": [
+    "You + ChatGPT"
+  ],
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Lifelink. Cycling {2} (Pay {2}, discard this: draw a card.)",
+          3,
+          1,
+          5
+        ],
+        [
+          "When this enters, create two 1/1 white Soldier creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When this enters, you gain {X} life, where X is the number of creatures you control.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Other creatures you control get +1/+1 as long as you control three or more artifacts or enchantments.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking creature with mana value {X} or less, where X is the number of artifacts you control.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prevent the next [X] damage that would be dealt this turn to any targets. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create X 1/1 white Soldier creature tokens, where X is the number of enchantments you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. {ACTIVATED_COST} Create a 1/1 white Spirit creature token with flying.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Aura \u2014 Enchant creature. Enchanted creature gets {AURA_BONUS}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment \u2014 Equipped creature has vigilance. Equip {EQUIP_COST}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, tap up to two target creatures.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying. When this enters, draw a card, then discard a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1, then this gets +1/+0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}, where X is the number of artifacts you control. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Draw two cards. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return up to one target nonland permanent to its owner\u2019s hand. Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you tap a land for mana, add an additional {U}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters under your control, you may tap or untap target permanent.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, untap up to two target permanents.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, scry 1. {ACTIVATED_COST} Draw a card.",
+          2,
+          2,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace. When this enters, each opponent loses 2 life and you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "When this dies, you may pay {1}. If you do, return it to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -X/-X until end of turn, where X is the number of cards in your graveyard.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Destroy target nonblack creature. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of each end step, if a creature died this turn, you draw a card and you lose 1 life.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. When this enters, it deals X damage to any target, where X is the number of artifacts you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Add {R}{R}. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          3,
+          1,
+          5
+        ],
+        [
+          "This deals 3 damage to any target. If you control an artifact, it deals 4 damage instead.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or land.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an artifact is tapped for mana, it deals 1 damage to any target.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, this deals 2 damage to any target.",
+          2,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. When this enters, put a +1/+1 counter on up to two target creatures.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +X/+X until end of turn, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          3,
+          1,
+          6
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a land card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you tap a land for mana, add an additional {G}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Mana Rock \u2014 {T}: Add {C}. When this enters, untap up to one target artifact or land.",
+          4,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cast two or more spells this turn, draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) When you cycle this, create a tapped Treasure token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Choose one \u2014 copy target activated ability of an artifact; or put a charge counter on this; or remove a charge counter from this to draw a card.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 3/3 colorless Golem artifact creature token. If you control three or more artifacts, create two of those tokens instead.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Then you may exile this card from your graveyard to scry 2.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Land \u2014 {T}: Add {C}. {ACTIVATED_COST} Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Land \u2014 {T}: Add {C}. Whenever you cast an artifact spell, untap this.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Cycling {2} (Pay {2}, discard this: draw a card.) Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target permanents. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target player mills X cards, where X is this spell\u2019s mana value. Untap up to [X] lands. (X is this spell\u2019s mana value.)",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, you may draw a card.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, it deals 2 damage to any target.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Echo \u2014 pay this card\u2019s mana cost. (At the start of your next upkeep after this enters under your control, sacrifice it unless you pay it.) When this dies, return another target creature card with mana value 2 or less from your graveyard to your hand.",
+          1,
+          3,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Soldier",
+      "Angel",
+      "Cat",
+      "Kor",
+      "Knight",
+      "Spirit",
+      "Pegasus"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Bird",
+      "Vedalken",
+      "Homunculus",
+      "Faerie"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Shade",
+      "Vampire",
+      "Imp",
+      "Horror",
+      "Cleric",
+      "Rat"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Dragon",
+      "Efreet",
+      "Barbarian",
+      "Shaman",
+      "Warrior",
+      "Devil"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Beast",
+      "Insect",
+      "Treefolk",
+      "Wurm",
+      "Druid",
+      "Spider"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Thopter",
+      "Myr",
+      "Drone"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "prowess"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from artifacts"
+    ],
+    "C": [
+      "reach",
+      "menace"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When this enters the battlefield,",
+      "Whenever {CREATURE_CONTROLLER} casts a spell,",
+      "At the beginning of your upkeep,",
+      "Whenever a creature you control dies,",
+      "Whenever an artifact enters under your control,",
+      "Whenever you discard a card,",
+      "Whenever you tap a land for mana,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you",
+      "its controller",
+      "that creature\u2019s controller"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T}, discard a card:",
+      "{2}, {T}, sacrifice an artifact:",
+      "{2}, {T}:",
+      "{3}, {T}, pay 2 life:"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{4}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Cleric",
+      "Spirit",
+      "Bird",
+      "Illusion",
+      "Zombie",
+      "Shade",
+      "Imp",
+      "Goblin",
+      "Elemental",
+      "Saproling",
+      "Beast",
+      "Elf",
+      "Insect",
+      "Golem",
+      "Thopter"
+    ],
+    "AURA_BONUS": [
+      "+1/+1 and vigilance",
+      "+1/+1 and flying",
+      "+2/+0 and first strike",
+      "+0/+2 and ward {1}",
+      "+2/+2"
+    ],
+    "ARTIFACT_VERB": [
+      "copy",
+      "untap",
+      "reconfigure",
+      "charge",
+      "reforge",
+      "imprint",
+      "overclock"
+    ]
+  }
+}

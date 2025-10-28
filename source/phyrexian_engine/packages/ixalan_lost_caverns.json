@@ -1,0 +1,914 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature you control explores. If it explores this way, untap it.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{MAP_ACTION}",
+          3,
+          1,
+          6
+        ],
+        [
+          "Discover {X}. (Exile cards from the top of your library until you exile a nonland card with mana value {X} or less. You may cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Create two Map tokens.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Vampire creature tokens with lifelink. You gain 2 life. Then create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped. It gains a finality counter. (If it would die, exile it instead.)",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a finality counter on up to one target creature. Draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Create a Map token, then discover 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Descend 4 — Creatures you control gain vigilance until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create a 2/2 white Knight creature token. Then create a Map token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target tapped creature. If you've descended this turn, scry 1.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Craft with artifact or creature {X}. When this transforms, create a 2/2 white Knight creature token and put a +1/+1 counter on it.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a finality counter on target creature you control. It gains flying until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever {this} or another creature enters the battlefield under your control, if you've descended this turn, put a +1/+1 counter on that creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Fathomless descent — {this} gets +1/+1 for each permanent card in your graveyard.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} enters the battlefield with two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When {this} enters the battlefield, create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever {this} explores, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you've descended this turn, create a 1/1 white Vampire creature token with lifelink.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.\nWhenever a creature you control explores, you gain 1 life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you discover a card, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control explores, you gain 2 life.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Until end of turn, target creature gets +2/+2 and \"Whenever this creature explores, tap target creature an opponent controls.\"",
+          2,
+          2,
+          4
+        ],
+        [
+          "Fathomless descent — At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of permanent cards in your graveyard.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Craft with {CRAFT_MATERIAL} {X}. ({X}, Exile this artifact, exile the specified materials from among permanents you control and/or cards from your graveyard: Return this card to the battlefield transformed under its owner's control.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +1/+1 and has vigilance.\nWhenever equipped creature explores, scry 1.\nEquip {1}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever a Map you control is sacrificed, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Cave\n{T}: Add {W}.\n{1}, {T}: Create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {W}.\nDescended — {W}, {T}: Create a Map token. Activate only if you've descended this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {W}.\n{3}, {T}, Sacrifice this land: Discover 2.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you had descended this turn, draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature you control explores. If a nonland card is revealed this way, return up to one target creature to its owner's hand.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Discover {X}.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Target creature gains flying until end of turn. Create a Map token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Discover {X}. If you didn't cast the discovered card, put a +1/+1 counter on up to one target creature you control.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. Then create a Map token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Descend 8 — Take an extra turn after this one. Activate only if there are eight or more permanent cards in your graveyard.",
+          1,
+          3,
+          3
+        ],
+        [
+          "Create a Map token, then discover 1.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever one or more artifacts you control become tapped, if you've descended this turn, scry 2.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Fathomless descent — {this} has flying as long as there are four or more permanent cards in your graveyard. It gets +1/+0 for each.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} enters the battlefield with two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When {this} enters the battlefield, create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever {this} explores, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, target creature you control explores. Whenever a creature you control explores, you may tap target nonland permanent.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you discover a card, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — Draw two cards.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever one or more creatures you control explore, return up to one target nonland permanent to its owner's hand.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Craft with two artifacts {X}. When this transforms, scry 3, then draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Fathomless descent — At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of permanent cards in your graveyard.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Craft with artifact {X}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you draw your second card each turn, create a Map token.\n{1}, {T}, Sacrifice this artifact: Target creature you control explores.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever a Map you control is sacrificed, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Cave\n{T}: Add {U}.\nWhenever this land enters the battlefield, scry 1. If you've descended this turn, scry 2 instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {U}.\nDescended — {U}, {T}: Create a Map token. Activate only if you've descended this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {U}.\n{3}, {T}, Sacrifice this land: Discover 2.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If you've descended this turn, you gain {X} life.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Create a Map token.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Fathomless descent — Each opponent loses X life and you gain X life, where X is the number of permanent cards in your graveyard.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — Destroy target creature or planeswalker. You create a Treasure token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create a Map token, then discover 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. If you've descended this turn, create a Map token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put a finality counter on up to one target creature. Create a Treasure token.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Menace\nWhenever one or more creature cards are put into your graveyard from anywhere, you've descended this turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control explores, target opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} enters the battlefield with two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When {this} enters the battlefield, create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever {this} explores, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you've descended this turn, return up to one target creature card from your graveyard to your hand.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you discover a card, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Descended — At the beginning of your end step, if you've descended this turn, each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Fathomless descent — At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of permanent cards in your graveyard.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Craft with creature {X}. When this permanent transforms, put a finality counter on up to one target creature.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a Map you control is sacrificed, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Craft with creature {X}. When this transforms, return up to one target creature card from your graveyard to the battlefield. It gains a finality counter.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "Cave\n{T}: Add {B}.\n{2}, {T}, Sacrifice a creature: Discover 2.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {B}.\nDescended — {B}, {T}: Create a Map token. Activate only if you've descended this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {B}.\n{3}, {T}, Sacrifice this land: Discover 2.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{this} deals {X} damage to any target. If you've descended this turn, it deals {X}+1 damage instead.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Target creature you control explores, then it gains haste until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} gets +2/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target creature explores, then {this} deals 2 damage to that creature.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Discover {X}, then create a Treasure token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Create two 1/1 colorless Gnome artifact creature tokens. Create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create a Map token, then discover 1.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "First strike\nWhenever a Pirate you control deals combat damage to a player, {EFFECT_MED}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Fathomless descent — {this} gets +1/+0 for each permanent card in your graveyard.\n{T}: Target creature can't block this turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} enters the battlefield with two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When {this} enters the battlefield, create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever {this} explores, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever one or more artifacts you control are sacrificed, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you discover a card, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Map or Treasure, {EFFECT_SMALL}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Fathomless descent — At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of permanent cards in your graveyard.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +2/+0 and has trample.\nWhenever equipped creature explores, it deals 1 damage to each opponent.\nEquip {2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Craft with two artifacts {X}. When this transforms, create two Treasure tokens and it gains \"{T}: Add {R}{R}.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a Map you control is sacrificed, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Craft with two artifacts {X}. When this transforms, it deals 3 damage to any target.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "Cave\n{T}: Add {R}.\nWhenever a Cave enters the battlefield under your control, {DINOSAUR_PUMP}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {R}.\nDescended — {R}, {T}: Create a Map token. Activate only if you've descended this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {R}.\n{3}, {T}, Sacrifice this land: Discover 2.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature you control explores. Then that creature gets +{X}/+{X} until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Create a Map token. Target creature you control fights up to one target creature you don't control if it explored this turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a Cave card, put it onto the battlefield tapped, then shuffle. You gain 2 life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Descend 8 — Create a 6/6 green Dinosaur creature token with trample and haste.",
+          2,
+          3,
+          3
+        ],
+        [
+          "Create a Map token, then discover 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Descend 8 — Creatures you control get +2/+2 and gain trample until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Return target permanent card from your graveyard to your hand. Create a Map token.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Dinosaurs you control have trample.\nWhenever a Dinosaur you control explores, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Fathomless descent — {this} enters the battlefield with a +1/+1 counter on it for each permanent card in your graveyard.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Descend 4 — {this} enters the battlefield with two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When {this} enters the battlefield, create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever {this} explores, {EFFECT_SMALL}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control explores, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you discover a card, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control explores, create a 1/1 green Saproling creature token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Fathomless descent — At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of permanent cards in your graveyard.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Craft with creature {X}. When this transforms, target creature you control explores twice.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a Map you control is sacrificed, {EFFECT_SMALL}",
+          1,
+          1,
+          6
+        ],
+        [
+          "Craft with creature {X}. When this transforms, search your library for a land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "Cave\n{T}: Add {G}.\n{1}, {T}: Create a Map token.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {G}.\nDescended — {G}, {T}: Create a Map token. Activate only if you've descended this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Cave\n{T}: Add {G}.\n{3}, {T}, Sacrifice this land: Discover 2.",
+          1,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Vampire",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Dinosaur"
+    ],
+    "U": [
+      "Merfolk",
+      "Human",
+      "Pirate",
+      "Wizard",
+      "Scout"
+    ],
+    "B": [
+      "Vampire",
+      "Human",
+      "Pirate",
+      "Shaman",
+      "Fungus"
+    ],
+    "R": [
+      "Human",
+      "Pirate",
+      "Dinosaur",
+      "Barbarian",
+      "Elemental"
+    ],
+    "G": [
+      "Dinosaur",
+      "Merfolk",
+      "Elemental",
+      "Shaman",
+      "Scout"
+    ]
+  },
+  "string_pools": {
+    "MAP_ACTION": [
+      "Create a Map token.",
+      "Create two Map tokens.",
+      "Create a Map token, then you may have target creature you control explore."
+    ],
+    "CAVE_SYNERGY": [
+      "This spell costs {1} less to cast for each Cave you control.",
+      "Whenever a Cave enters the battlefield under your control, {EFFECT}"
+    ],
+    "DINOSAUR_PUMP": [
+      "Dinosaurs you control get +1/+0 until end of turn.",
+      "Put a +1/+1 counter on up to two target Dinosaurs you control."
+    ],
+    "PIRATE_SYNERGY": [
+      "Whenever one or more Pirates you control deal combat damage to a player, {EFFECT}",
+      "Create a Treasure token."
+    ],
+    "MERFOLK_SYNERGY": [
+      "Whenever a Merfolk you control explores, {EFFECT}",
+      "Merfolk you control have \"{T}: Add {U}. Spend this mana only to cast noncreature spells.\""
+    ],
+    "VAMPIRE_SYNERGY": [
+      "Whenever a Vampire you control dies, {EFFECT}",
+      "Vampires you control get +1/+1 as long as you have descended this turn."
+    ],
+    "EFFECT_SMALL": [
+      "draw a card.",
+      "scry 2.",
+      "gain 2 life.",
+      "target creature gets -1/-1 until end of turn.",
+      "create a Treasure token."
+    ],
+    "EFFECT_MED": [
+      "draw two cards.",
+      "create a 3/3 Dinosaur creature token.",
+      "return target nonland permanent to its owner's hand.",
+      "target creature can't block this turn."
+    ],
+    "CRAFT_MATERIAL": [
+      "artifact",
+      "creature",
+      "Dinosaur",
+      "two artifacts",
+      "two creatures",
+      "a Cave"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "ward {1}"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  }
+}

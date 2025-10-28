@@ -1,0 +1,2201 @@
+{
+  "name": "guilds_of_ravnica_megapack",
+  "version": "1.0",
+  "description": "HUGE Guilds of Ravnica-inspired package: Surveil (Dimir), Jump-Start (Izzet), Mentor (Boros), Undergrowth (Golgari), Convoke (Selesnya), plus guild-flavored tokens, auras, equipment, and land patterns. Designed for procedural generation via adlibs.",
+  "effects_by_color": {
+    "U": {
+      "Instant": [
+        [
+          "Draw a card, then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Target creature gets -{NUM_MED}/-{NUM_MED} {TEMP_DURATION}. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Target creature can't be blocked this turn. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +{NUM_SMALL}/+0 and gains prowess {TEMP_DURATION}. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage to any target. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Copy target instant or sorcery spell you control. You may choose new targets for the copy. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Draw two cards, then discard a card. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Mill {NUM_MED}. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Draw two cards. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Destroy target tapped creature. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Search your library for a card, then shuffle. Put that card on top. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 blue Elemental creature tokens with \"When this creature dies, it deals 1 damage to any target.\" Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Scry 2, then draw two cards. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_MED} damage to target creature or planeswalker. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Return target instant or sorcery card from your graveyard to your hand. Exile this spell. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}if you cast a {NONCREATURE_HINT} this turn, {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Mill {NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Draw a card. Activate only as a sorcery.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Scry 1, then draw a card.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +{NUM_SMALL}/+{NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has lifelink and vigilance.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"Mentor.\" {MENTOR_HINT}",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +1/+0 and has \"Discard a card: This creature deals 1 damage to any target.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nUndergrowth — Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nConvoke. {CONVOKE_HINT} (This aura spell has convoke.)",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Draw a card, then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Target creature gets -{NUM_MED}/-{NUM_MED} {TEMP_DURATION}. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Target creature can't be blocked this turn. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Target creature gets -X/-X {TEMP_DURATION}, where X is the number of creature cards in your graveyard.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Mill {NUM_MED}. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Draw two cards. Then {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Destroy target tapped creature. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Search your library for a card, then shuffle. Put that card on top. {SURVEIL_X}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Target creature gets +{NUM_SMALL}/+{NUM_SMALL} {TEMP_DURATION} for each creature card in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Return target creature card with mana value {NUM_SMALL} or less from your graveyard to the battlefield.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Each opponent loses X life and you gain X life, where X is the number of creature cards in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Mill {NUM_MED}, then you may return a creature card from your graveyard to your hand.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Create a 1/1 black and green Insect creature token for each creature card in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}each opponent loses 1 life and you gain 1 life if there are three or more creature cards in your graveyard.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Each opponent loses 1 life. Activate only if you surveilled this turn.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +{NUM_SMALL}/+{NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has lifelink and vigilance.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"Mentor.\" {MENTOR_HINT}",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +1/+0 and has \"Discard a card: This creature deals 1 damage to any target.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nUndergrowth — Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nConvoke. {CONVOKE_HINT} (This aura spell has convoke.)",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "Draw a card, then {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Counter target spell unless its controller pays {2}. Then {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Target creature gets -{NUM_MED}/-{NUM_MED} {TEMP_DURATION}. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Target creature can't be blocked this turn. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +{NUM_SMALL}/+0 and gains prowess {TEMP_DURATION}. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage to any target. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Copy target instant or sorcery spell you control. You may choose new targets for the copy. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Draw two cards, then discard a card. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Then {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Mill {NUM_MED}. Then {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Draw two cards. Then {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Destroy target tapped creature. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Search your library for a card, then shuffle. Put that card on top. {SURVEIL_X}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 blue Elemental creature tokens with \"When this creature dies, it deals 1 damage to any target.\" Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Scry 2, then draw two cards. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_MED} damage to target creature or planeswalker. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Return target instant or sorcery card from your graveyard to your hand. Exile this spell. Jump-start. {JUMP_START_HINT}",
+          7,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Target creature gets +{NUM_SMALL}/+{NUM_SMALL} {TEMP_DURATION} for each creature card in your graveyard.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Return target creature card with mana value {NUM_SMALL} or less from your graveyard to the battlefield.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Each opponent loses X life and you gain X life, where X is the number of creature cards in your graveyard.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Mill {NUM_MED}, then you may return a creature card from your graveyard to your hand.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Create a 1/1 black and green Insect creature token for each creature card in your graveyard.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Create two 2/2 green and white Knight creature tokens with vigilance.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Put two +1/+1 counters on up to two target creatures.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Exile target nonland permanent with mana value {NUM_MED} or less.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Creatures you control get +2/+2 {TEMP_DURATION}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Create X 1/1 white Soldier creature tokens with lifelink, where X is the number of creatures tapped to convoke this spell.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Creature": [
+        [
+          "Mentor. {MENTOR_HINT}",
+          8,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} mentors a creature, that creature gains first strike {TEMP_DURATION}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, create a 1/1 white Soldier creature token with lifelink tapped and attacking.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, it deals 1 damage to any target.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} or another attacking creature you control dies, put a +1/+1 counter on target creature you control.",
+          8,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [
+        [
+          "{AURA_LAND_INTRO}\nEnchanted land has \"{T}: Add one mana of any color.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_LAND_INTRO}\nWhen {THIS} enters the battlefield, untap enchanted land.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_LAND_INTRO}\nEnchanted land has \"{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast multicolored spells.\"",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Equipped creature has first strike and vigilance. Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\" Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, put a +1/+1 counter on another target attacking creature with lesser power.\" Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Equipped creature has \"Discard a card: This creature deals 1 damage to any target.\" Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Equipped creature gets +X/+X, where X is the number of creature cards in your graveyard. Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of W or U. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of U or B. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of B or R. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of R or G. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of G or W. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of W or R. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of U or R. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of B or G. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of U or G. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{THIS} enters the battlefield tapped. {T}: Add one mana of either of W or B. {THIS} is a Gate in addition to its other types.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +{NUM_SMALL}/+0 and gains prowess {TEMP_DURATION}. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage to any target. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Copy target instant or sorcery spell you control. You may choose new targets for the copy. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Draw two cards, then discard a card. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +{NUM_MED}/+{NUM_MED} and gains first strike {TEMP_DURATION}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens with lifelink.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_MED} damage to any target.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+0 {TEMP_DURATION}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 blue Elemental creature tokens with \"When this creature dies, it deals 1 damage to any target.\" Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Scry 2, then draw two cards. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_MED} damage to target creature or planeswalker. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Return target instant or sorcery card from your graveyard to your hand. Exile this spell. Jump-start. {JUMP_START_HINT}",
+          14,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO}this deals 1 damage to any target.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Whenever you cast a creature spell, target creature you control gets +1/+0 {TEMP_DURATION}.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Discard a card: Draw a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: This artifact deals 1 damage to any target.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Creature": [
+        [
+          "Mentor. {MENTOR_HINT}",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} mentors a creature, that creature gains first strike {TEMP_DURATION}.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, create a 1/1 white Soldier creature token with lifelink tapped and attacking.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, it deals 1 damage to any target.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} or another attacking creature you control dies, put a +1/+1 counter on target creature you control.",
+          16,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +{NUM_SMALL}/+{NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has lifelink and vigilance.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"Mentor.\" {MENTOR_HINT}",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +1/+0 and has \"Discard a card: This creature deals 1 damage to any target.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nUndergrowth — Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nConvoke. {CONVOKE_HINT} (This aura spell has convoke.)",
+          6,
+          0,
+          12
+        ]
+      ]
+    },
+    "W": {
+      "Creature": [
+        [
+          "Mentor. {MENTOR_HINT}",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} mentors a creature, that creature gains first strike {TEMP_DURATION}.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, create a 1/1 white Soldier creature token with lifelink tapped and attacking.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} attacks, it deals 1 damage to any target.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Mentor. Whenever {THIS} or another attacking creature you control dies, put a +1/+1 counter on target creature you control.",
+          16,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{NUM_MED}/+{NUM_MED} and gains first strike {TEMP_DURATION}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens with lifelink.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_MED} damage to any target.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+0 {TEMP_DURATION}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Prevent all damage that would be dealt this turn by noncreature sources you don't control.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have mentor.",
+          6,
+          0,
+          12
+        ],
+        [
+          "Creature tokens you control have vigilance and lifelink.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Equipment": [
+        [
+          "+1/+1. Equipped creature has mentor. Equip {EQUIP_COST}.",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Convoke. {CONVOKE_HINT} Create two 2/2 green and white Knight creature tokens with vigilance.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Put two +1/+1 counters on up to two target creatures.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Exile target nonland permanent with mana value {NUM_MED} or less.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Creatures you control get +2/+2 {TEMP_DURATION}.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Create X 1/1 white Soldier creature tokens with lifelink, where X is the number of creatures tapped to convoke this spell.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +{NUM_SMALL}/+{NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has lifelink and vigilance.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"Mentor.\" {MENTOR_HINT}",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +1/+0 and has \"Discard a card: This creature deals 1 damage to any target.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nUndergrowth — Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nConvoke. {CONVOKE_HINT} (This aura spell has convoke.)",
+          6,
+          0,
+          12
+        ]
+      ]
+    },
+    "G": {
+      "Sorcery": [
+        [
+          "Undergrowth — Target creature gets +{NUM_SMALL}/+{NUM_SMALL} {TEMP_DURATION} for each creature card in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Return target creature card with mana value {NUM_SMALL} or less from your graveyard to the battlefield.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Each opponent loses X life and you gain X life, where X is the number of creature cards in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Mill {NUM_MED}, then you may return a creature card from your graveyard to your hand.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Undergrowth — Create a 1/1 black and green Insect creature token for each creature card in your graveyard.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Create two 2/2 green and white Knight creature tokens with vigilance.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Put two +1/+1 counters on up to two target creatures.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Exile target nonland permanent with mana value {NUM_MED} or less.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Creatures you control get +2/+2 {TEMP_DURATION}.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Create X 1/1 white Soldier creature tokens with lifelink, where X is the number of creatures tapped to convoke this spell.",
+          16,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 creature tokens. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Return up to one target creature card and up to one target land card from your graveyard to your hand.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target player draws two cards and loses 2 life.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Create a 1/1 creature token.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Put a +1/+1 counter on target creature, then another for each creature card in your graveyard.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Convoke. {CONVOKE_HINT} Target creature gets +X/+X {TEMP_DURATION}, where X is the number of tapped creatures you control.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Tap up to two target creatures. {SURVEIL_X}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Creatures you control gain hexproof {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Deal {NUM_SMALL} damage divided as you choose among one or two targets.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gains flying {TEMP_DURATION}. Draw a card.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Exile target card from a graveyard. Create a 1/1 black Insect creature token.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Target creature gets +2/+2 and gains trample {TEMP_DURATION}.",
+          3,
+          0,
+          12
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 as long as there are five or more creature cards in your graveyard.",
+          8,
+          0,
+          12
+        ],
+        [
+          "You may tap an untapped creature you control: Add one mana of any of that creature's colors. Activate only as a sorcery.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +{NUM_SMALL}/+{NUM_SMALL}.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has lifelink and vigilance.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"{ACTIVATED_COST}: {SURVEIL_X}.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature has \"Mentor.\" {MENTOR_HINT}",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nEnchanted creature gets +1/+0 and has \"Discard a card: This creature deals 1 damage to any target.\"",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nUndergrowth — Enchanted creature gets +X/+X, where X is the number of creature cards in your graveyard.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{AURA_CREATURE_INTRO}\nConvoke. {CONVOKE_HINT} (This aura spell has convoke.)",
+          6,
+          0,
+          12
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}{SURVEIL_X}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature gains haste {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}return target creature card from your graveyard to your hand.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 white Soldier creature token with lifelink.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on target creature.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}target creature an opponent controls gets -1/-1 {TEMP_DURATION}.",
+          4,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}untap up to two target creatures.",
+          4,
+          0,
+          12
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Draw a card.",
+          6,
+          0,
+          12
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast multicolored spells.",
+          8,
+          0,
+          12
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Angel",
+      "Human",
+      "Loxodon"
+    ],
+    "U": [
+      "Wizard",
+      "Vedalken",
+      "Merfolk",
+      "Spirit",
+      "Faerie",
+      "Human",
+      "Horror"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Skeleton",
+      "Horror",
+      "Human",
+      "Rat"
+    ],
+    "R": [
+      "Goblin",
+      "Minotaur",
+      "Devil",
+      "Human",
+      "Warrior",
+      "Shaman"
+    ],
+    "G": [
+      "Elf",
+      "Centaur",
+      "Dryad",
+      "Rhino",
+      "Beast",
+      "Human"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Wall",
+      "Scarecrow"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield, ",
+      "Whenever {THIS} attacks, ",
+      "Whenever a creature you control dies, ",
+      "At the beginning of your upkeep, ",
+      "Whenever you cast an instant or sorcery spell, ",
+      "Whenever you surveil, ",
+      "Whenever a creature enters the battlefield under your control, ",
+      "Whenever {THIS} becomes tapped, ",
+      "Whenever you gain life, ",
+      "Whenever you discard a card, "
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}, {T}",
+      "{2}, {T}",
+      "{W}{U}",
+      "{U}{B}",
+      "{B}{R}",
+      "{R}{G}",
+      "{G}{W}",
+      "{1}, Discard a card",
+      "Sacrifice a creature"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{R}",
+      "{2}{W}",
+      "{2}{R}"
+    ],
+    "AURA_CREATURE_INTRO": [
+      "Enchant creature",
+      "Enchant creature you control",
+      "Enchant creature an opponent controls"
+    ],
+    "AURA_LAND_INTRO": [
+      "Enchant land",
+      "Enchant land you control"
+    ],
+    "TOKEN_SIZE": [
+      "1/1",
+      "2/2",
+      "3/3",
+      "4/4"
+    ],
+    "TOKEN_ABILITY": [
+      "flying",
+      "vigilance",
+      "lifelink",
+      "trample",
+      "haste",
+      "deathtouch",
+      "menace"
+    ],
+    "COUNTER_TYPE": [
+      "+1/+1 counter",
+      "loyalty counter",
+      "charge counter",
+      "shield counter"
+    ],
+    "NUM_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "NUM_MED": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "NUM_BIG": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "CHOOSE_CREATURE_CONTROL": [
+      "creature you control",
+      "another creature you control",
+      "target creature you control"
+    ],
+    "CHOOSE_CREATURE_ANY": [
+      "target creature",
+      "up to one target creature",
+      "up to two target creatures"
+    ],
+    "SURVEIL_X": [
+      "surveil 1",
+      "surveil 2",
+      "surveil 3"
+    ],
+    "JUMP_START_HINT": [
+      "(You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)"
+    ],
+    "MENTOR_HINT": [
+      "(Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)"
+    ],
+    "CONVOKE_HINT": [
+      "(Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)"
+    ],
+    "UNDERGROWTH_HINT": [
+      "(Undergrowth — Do X where X is the number of creature cards in your graveyard.)"
+    ],
+    "GATE_LANDLINE": [
+      "{THIS} enters the battlefield tapped.",
+      "{T}: Add one mana of either of {GUILD_COLORS}.",
+      "{THIS} is a Gate in addition to its other types."
+    ],
+    "DISCARD_COST": [
+      "Discard a card: ",
+      "Discard a nonland card: ",
+      "Discard an instant or sorcery card: "
+    ],
+    "SAC_COST": [
+      "Sacrifice a creature: ",
+      "Sacrifice this artifact: ",
+      "Sacrifice a land: "
+    ],
+    "TEMP_DURATION": [
+      "until end of turn",
+      "this turn"
+    ],
+    "NONCREATURE_HINT": [
+      "noncreature spell",
+      "instant or sorcery spell",
+      "artifact or enchantment spell"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "defender"
+    ]
+  }
+}

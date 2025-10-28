@@ -1,0 +1,890 @@
+{
+  "name": "phyrexia_all_will_be_one",
+  "version": "1.0",
+  "description": "Huge package capturing ONE mechanics: Toxic, Corrupted, Oil counters, Proliferate, For Mirrodin!, Spheres, and Phyrexian themes.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Toxic {X}.",
+          8,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and “This creature can’t block.”",
+          6,
+          1,
+          1
+        ],
+        [
+          "Corrupted — {THIS} gets +{X}/+0 as long as an opponent has three or more poison counters.",
+          5,
+          1,
+          2
+        ],
+        [
+          "Whenever you attack with exactly one creature, proliferate.",
+          3,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if an opponent has a poison counter, create a 1/1 Phyrexian Mite token with toxic 1.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Vigilance. Toxic {X}.",
+          6,
+          1,
+          2
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever another creature you control with toxic attacks, creatures you control get +1/+1 until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "When this enters, put {X} oil counters on target creature or artifact you control.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Remove an oil counter from {THIS}: {THIS} gains lifelink until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Corrupted — When this enters, exile target artifact or enchantment an opponent controls until {THIS} leaves the battlefield.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a noncreature spell, put an oil counter on {THIS}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Remove two oil counters from {THIS}: Tap target creature. It doesn’t untap during its controller’s next untap step.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains first strike until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Exile target tapped creature.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Proliferate. Draw a card.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Exile target artifact or enchantment. You gain {X} life if an opponent has three or more poison counters.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Put two oil counters on target creature or artifact. You gain 2 life.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and “This creature can’t block.”",
+          6,
+          1,
+          5
+        ],
+        [
+          "Destroy all creatures. Corrupted — Permanents you control gain indestructible until end of turn if an opponent has three or more poison counters.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target artifact or enchantment. Proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Search your library for an Aura or Equipment card, reveal it, put it into your hand, then proliferate.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have toxic 1.",
+          4,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Creatures you control get +1/+1 as long as an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast an artifact or Equipment spell, put an oil counter on {THIS}. Remove three oil counters from {THIS}: Create a 2/2 white Rebel creature token.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has toxic 1.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Enchanted creature has “Whenever this creature deals combat damage to a player, proliferate.”",
+          4,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Enchanted creature gets +2/+2 and has vigilance as long as an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 white Rebel creature token, then attach this to it.)",
+          8,
+          1,
+          1
+        ],
+        [
+          "Equipped creature gets +{X}/+{X}. Corrupted — It has lifelink and vigilance as long as an opponent has three or more poison counters.",
+          5,
+          1,
+          2
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever equipped creature attacks, create a 1/1 Phyrexian Mite token with toxic 1.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put {X} oil counters on it.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Remove an oil counter from {THIS}: Proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if an opponent has a poison counter, you gain 1 life and scry 1.",
+          4,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying. Toxic {X}.",
+          6,
+          1,
+          2
+        ],
+        [
+          "When this enters the battlefield, draw a card, then proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a noncreature spell, put an oil counter on {THIS}.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Remove an oil counter from {THIS}: Tap target permanent. It doesn’t untap during its controller’s next untap step.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Corrupted — {THIS} has hexproof as long as an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more counters are put on a permanent you control, scry 1.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. Proliferate.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner’s hand. Proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Draw two cards. Corrupted — Draw three cards instead if an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Tap up to two target permanents. Put an oil counter on each of up to two permanents you control.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate, then draw a card for each permanent you control with an oil counter on it.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Look at the top {X} cards of your library. Put one into your hand and the rest into your graveyard. Proliferate.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Corrupted — Take an extra turn after this one. Activate only if an opponent has three or more poison counters.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a noncreature spell, put an oil counter on {THIS}. Then if it has three or more oil counters, draw a card.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Creatures your opponents control get −1/−0 as long as an opponent has three or more poison counters.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has “Whenever this creature deals combat damage to a player, proliferate.”",
+          5,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature gets +1/+1 and has flying and toxic 1.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put {X} oil counters on it.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Remove an oil counter from {THIS}: Draw a card, then discard a card.",
+          4,
+          1,
+          1
+        ],
+        [
+          "{T}: Add {C}. Whenever you spend this mana to cast a spell, proliferate.",
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Toxic {X}.",
+          8,
+          1,
+          3
+        ],
+        [
+          "Corrupted — {THIS} gets +1/+1 and has deathtouch as long as an opponent has three or more poison counters.",
+          6,
+          1,
+          1
+        ],
+        [
+          "When this enters the battlefield, each opponent gets a poison counter.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever a creature an opponent controls dies, proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if an opponent has a poison counter, each opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, that player gets a poison counter.",
+          6,
+          1,
+          1
+        ],
+        [
+          "When this enters the battlefield, put two oil counters on target creature you control.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Remove an oil counter from {THIS}: Target player discards a card. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets −{X}/−{X} until end of turn. Proliferate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature. Corrupted — You gain {X} life if an opponent has three or more poison counters.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Each opponent gets a poison counter. Draw a card.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "All creatures get −{X}/−{X} until end of turn. Proliferate.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield with a toxic 1 counter on it.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life. Corrupted — They lose 2 life instead if an opponent has three or more poison counters.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever a creature you control with toxic deals combat damage to a player, that player sacrifices a creature.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever an opponent gets one or more poison counters, proliferate.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1 and has toxic 1.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Enchanted creature gets +3/+3 and has menace as long as an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put {X} oil counters on it.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Remove an oil counter from {THIS}: Target opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more oil counters are removed from a permanent you control, each opponent gets a poison counter.",
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. Toxic {X}.",
+          5,
+          1,
+          2
+        ],
+        [
+          "Whenever you cast a noncreature spell, put an oil counter on {THIS}.",
+          6,
+          1,
+          1
+        ],
+        [
+          "Remove an oil counter from {THIS}: {THIS} gets +2/+0 until end of turn.",
+          6,
+          1,
+          1
+        ],
+        [
+          "Whenever oil counters are put on a permanent you control, {THIS} deals 1 damage to any target.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Corrupted — {THIS} has first strike as long as an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {X} damage to any target. Proliferate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +2/+0 and gains toxic 1 until end of turn. Draw a card.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Put two oil counters on target artifact or creature you control. It gains haste until end of turn.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 Phyrexian Mite tokens with toxic 1. {THIS} deals 1 damage to each creature your opponents control.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Proliferate, then {THIS} deals {X} damage to each opponent.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Create a 2/2 white Rebel creature token. Proliferate.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, you may remove an oil counter from a permanent you control. If you do, {THIS} deals 2 damage to any target.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a noncreature spell, put an oil counter on {THIS}. Then if it has five or more oil counters, create a 2/2 Rebel creature token.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 white Rebel creature token, then attach this to it.)",
+          8,
+          1,
+          1
+        ],
+        [
+          "Equipped creature gets +{X}/+0 and has trample.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Whenever equipped creature attacks, put an oil counter on it. Then it deals 1 damage to defending player if it has three or more oil counters.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put three oil counters on it.",
+          5,
+          1,
+          1
+        ],
+        [
+          "{T}, Remove an oil counter from {THIS}: Add {R}{R}.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Sacrifice {THIS}: It deals 2 damage to any target. Proliferate.",
+          4,
+          1,
+          1
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Toxic {X}.",
+          8,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, proliferate.",
+          6,
+          1,
+          1
+        ],
+        [
+          "Corrupted — {THIS} gets +2/+2 and has trample as long as an opponent has three or more poison counters.",
+          5,
+          1,
+          1
+        ],
+        [
+          "If one or more counters would be put on a permanent you control, put that many plus one of each of those kinds of counters on that permanent instead.",
+          3,
+          1,
+          1
+        ],
+        [
+          "When this enters the battlefield, distribute {X} oil counters among up to two target creatures you control.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Remove two oil counters from among permanents you control: Create a 3/3 green Phyrexian Beast creature token with toxic 1. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Proliferate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. Proliferate.",
+          6,
+          1,
+          1
+        ],
+        [
+          "Put two oil counters on target creature you control. It fights up to one target creature you don’t control.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 3/3 green Phyrexian Beast creature token with toxic 1, then proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Corrupted — Draw {X} cards, where X is the greatest power among creatures you control, if an opponent has three or more poison counters.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control with toxic get +1/+1.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, proliferate.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more oil counters are put on a permanent you control, create a 1/1 green Phyrexian Insect creature token.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has toxic 1.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Enchanted creature has trample and “Whenever this creature deals combat damage to a player, proliferate.”",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put {X} oil counters on it.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Remove an oil counter from {THIS}: Add one mana of any color.",
+          5,
+          1,
+          1
+        ],
+        [
+          "{T}: Add {C}. Whenever you cast a creature spell, proliferate.",
+          3,
+          1,
+          1
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "When {THIS} enters the battlefield, put {X} oil counters on it.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{T}, Remove an oil counter from {THIS}: Draw a card. Activate only if you control a creature with toxic.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Proliferate.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Corrupted — {T}: Add one mana of any color. Activate only if an opponent has three or more poison counters.",
+          4,
+          1,
+          1
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and “This creature can’t block.”",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever you proliferate, put an oil counter on {THIS}. Then if it has five or more oil counters, draw a card.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "For Mirrodin! (When this Equipment enters the battlefield, create a 2/2 white Rebel creature token, then attach this to it.)",
+          6,
+          1,
+          1
+        ],
+        [
+          "Equipped creature has toxic 1 and gets +1/+1 for each oil counter on it.",
+          5,
+          1,
+          1
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, proliferate.",
+          5,
+          1,
+          1
+        ]
+      ],
+      "Land": [
+        [
+          "Sphere — {T}: Add {C}.",
+          7,
+          1,
+          1
+        ],
+        [
+          "Sphere — {T}: Add one mana of any color. Spend this mana only to cast Phyrexian spells or activate abilities of Phyrexians.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Sphere — {T}: Put an oil counter on target artifact or creature you control. Activate only as a sorcery.",
+          4,
+          1,
+          1
+        ],
+        [
+          "When {THIS} enters the battlefield, you may proliferate.",
+          5,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "notes": {
+    "mechanics": [
+      "Toxic",
+      "Corrupted",
+      "Proliferate",
+      "Oil counters",
+      "For Mirrodin!",
+      "Sphere lands",
+      "Phyrexian tribal"
+    ],
+    "tokens": [
+      "Phyrexian Mite (1/1, toxic 1, can’t block)",
+      "Rebel 2/2 (For Mirrodin!)",
+      "Phyrexian Beast 3/3 toxic 1",
+      "Generic Insect/Thopter as needed"
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "effects_by_color": {
+    "B": {
+      "Instant": [
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to your hand.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 2/2 black [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature an opponent controls dies, create a 2/2 black [TOKEN_SUBTYPE] creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target [TOKEN_SUBTYPE] gains menace until end of turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Ghoul",
+      "Wraith",
+      "Spirit"
+    ],
+    "any": [
+      "Horror",
+      "Shade"
+    ]
+  },
+  "string_pools": {
+    "CREATURE_TRIGGER": [
+      "dies",
+      "is put into a graveyard from the battlefield"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Zombie",
+      "Ghoul",
+      "Wraith",
+      "Vampire",
+      "Spirit",
+      "Horror",
+      "Shade"
+    ],
+    "TOKEN_COLOR": [
+      "black"
+    ],
+    "ACTIVATED_COST": [
+      "{2}:",
+      "{B}:",
+      "{2}, {T}:",
+      "{B}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target Zombie gains menace until end of turn.",
+      "Target creature gets -1/-1 until end of turn.",
+      "Each opponent loses 1 life and you gain 1 life."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [],
+    "U": [
+      "ward {X}"
+    ],
+    "B": [
+      "menace",
+      "ward {X}"
+    ],
+    "R": [],
+    "G": [],
+    "C": []
+  }
+}

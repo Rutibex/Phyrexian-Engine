@@ -1,0 +1,663 @@
+{
+  "name": "scourge_maxi",
+  "description": "HUGE Scourge-inspired package: Storm, typecycling (basic landcycling), Decrees-style cycle triggers, Dragon Auras (mv>=6 returns), and 'mana value matters' (size-matters) theme. Plus tribal Warchief-like cost reducers and dragon subtheme.",
+  "version": "1.0.0",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Soldier and Cleric spells you cast cost {1} less to cast.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast a spell with mana value 6 or greater, put a +1/+1 counter on this creature.",
+          2,
+          3,
+          10
+        ],
+        [
+          "Cycling {2}. {DEGREE_INTRO} tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you gain life equal to the highest mana value among permanents you control.",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target attacking creature gets -{X}/-{X} until end of turn. Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Soldier creature tokens. {DEGREE_INTRO} you may pay {X}. If you do, create {X} 1/1 white Soldier creature tokens. (Draw a card.)",
+          2,
+          4,
+          10
+        ],
+        [
+          "Each opponent gains life equal to the highest mana value among permanents you control.",
+          1,
+          3,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+2 and has vigilance.\n{DRAGON_AURA_LINE}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever a player casts a spell with mana value 3 or less, this enchantment deals 2 damage to that player.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Creatures of the chosen type get +1/+1. {TRIGGER_INTRO} you cast a spell with mana value 6 or greater, create a 1/1 white Soldier creature token.",
+          2,
+          3,
+          10
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment \u2014 Equipped creature has vigilance and gets +1/+1.\nEquip {EQUIP_COST}.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}. Cycling {2}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. If you control five or more lands, instead add {W}{W}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}, Sacrifice this land: Draw a card.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Wizard spells you cast cost {1} less to cast.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Morph {3}. (You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          2,
+          3,
+          8
+        ],
+        [
+          "Islandcycling {2}. (Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell with mana value less than or equal to the highest mana value among permanents you control.",
+          3,
+          2,
+          8
+        ],
+        [
+          "Target player mills three cards. Storm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+          3,
+          3,
+          8
+        ],
+        [
+          "Draw a card. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw cards equal to the highest mana value among permanents you control.",
+          3,
+          4,
+          10
+        ],
+        [
+          "Return up to one target nonland permanent to its owner's hand. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          1,
+          4,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature has flying.\n{DRAGON_AURA_LINE}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a spell with mana value 6 or greater, scry 2, then draw a card.",
+          2,
+          4,
+          10
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {U}. Spells with mana value 6 or greater you cast cost {1} less to cast.",
+          2,
+          3,
+          10
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}. Cycling {2}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Draw a card. Activate only if you control a permanent with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}, Sacrifice this land: Draw a card.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Zombie and Cleric spells you cast cost {1} less to cast.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Swampcycling {2}. (Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle another card, put a +1/+1 counter on this creature.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn, where X is the highest mana value among permanents you control.",
+          3,
+          3,
+          9
+        ],
+        [
+          "Target player loses 2 life and you gain 2 life. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          3,
+          3,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all creatures. They can't be regenerated. {DEGREE_INTRO} all creatures get -2/-2 until end of turn instead. (Draw a card.)",
+          2,
+          6,
+          10
+        ],
+        [
+          "Each opponent discards a card for each creature you control with mana value 6 or greater.",
+          2,
+          5,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+0 and has fear.\n{DRAGON_AURA_LINE}",
+          3,
+          2,
+          7
+        ],
+        [
+          "At the beginning of each end step, if a creature died this turn and you control a permanent with mana value 6 or greater, each opponent loses 2 life and you gain 2 life.",
+          2,
+          4,
+          10
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cycle a card, each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}. Cycling {2}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}, Sacrifice this land: Draw a card.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Goblin spells you cast cost {1} less to cast.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Plainscycling {2}. (Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Mountaincycling {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals 2 damage to any target. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          3,
+          3,
+          8
+        ],
+        [
+          "Destroy target artifact. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals damage to any target equal to the highest mana value among permanents you control.",
+          3,
+          4,
+          10
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens. {DEGREE_INTRO} create a 1/1 red Goblin creature token instead. (Draw a card.)",
+          2,
+          3,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature has haste.\n{R}: Enchanted creature gets +1/+0 until end of turn.\n{DRAGON_AURA_LINE}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever a player casts a spell with mana value 3 or less, this enchantment deals 2 damage to that player.",
+          3,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Goblin spells you cast cost {1} less to cast.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}. Cycling {2}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}, Sacrifice this land: Draw a card.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Beast and Elf spells you cast cost {1} less to cast.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Forestcycling {2}. (Discard this card: Search your library for a Forest card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever another creature with mana value 6 or greater enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          2,
+          4,
+          10
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn, where X is the highest mana value among permanents you control.",
+          3,
+          3,
+          9
+        ],
+        [
+          "Create a 3/3 green Beast creature token. Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          2,
+          4,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put a +1/+1 counter on each creature you control. {DEGREE_INTRO} put a +1/+1 counter on up to two target creatures instead. (Draw a card.)",
+          2,
+          4,
+          9
+        ],
+        [
+          "Search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle.",
+          3,
+          4,
+          10
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1 and has trample.\n{DRAGON_AURA_LINE}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Creatures with mana value 6 or greater you control have trample.",
+          2,
+          4,
+          10
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}. Creature spells with mana value 6 or greater you cast cost {1} less to cast.",
+          2,
+          3,
+          10
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}. Cycling {2}.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}, Sacrifice this land: Draw a card.",
+          1,
+          0,
+          10
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell with mana value 6 or greater.",
+          1,
+          0,
+          10
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Cleric",
+      "Soldier",
+      "Knight",
+      "Angel",
+      "Bird",
+      "Cat"
+    ],
+    "U": [
+      "Wizard",
+      "Bird",
+      "Drake",
+      "Serpent",
+      "Illusion",
+      "Faerie"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Demon",
+      "Shade",
+      "Horror",
+      "Rat"
+    ],
+    "R": [
+      "Goblin",
+      "Barbarian",
+      "Dragon",
+      "Elemental",
+      "Minotaur",
+      "Shaman"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Druid",
+      "Wurm",
+      "Insect",
+      "Spider",
+      "Dragon"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "ward {1}"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "ward {1}"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "under your control"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Wizard",
+      "Zombie",
+      "Goblin",
+      "Beast",
+      "Elf",
+      "Cleric",
+      "Dragon"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}"
+    ],
+    "BIG_NUMBER": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "SMALL_NUMBER": [
+      "1",
+      "2",
+      "3"
+    ],
+    "STORM_HINT": [
+      "copy it for each spell cast before it this turn",
+      "create a copy for each spell cast before it this turn"
+    ],
+    "COST_REDUCTION_TYPE": [
+      "Goblin",
+      "Wizard",
+      "Cleric",
+      "Soldier",
+      "Beast",
+      "Zombie",
+      "Dragon"
+    ],
+    "DRAGON_AURA_LINE": [
+      "When a creature with mana value 6 or greater enters the battlefield under your control, you may return this card from your graveyard to the battlefield attached to that creature."
+    ],
+    "DEGREE_INTRO": [
+      "When you cycle this card,",
+      "If you cycled this card,"
+    ],
+    "COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "ABILITY_GRANT": [
+      "flying",
+      "first strike",
+      "double strike",
+      "trample",
+      "vigilance",
+      "haste",
+      "menace",
+      "deathtouch",
+      "lifelink",
+      "ward {1}"
+    ]
+  }
+}

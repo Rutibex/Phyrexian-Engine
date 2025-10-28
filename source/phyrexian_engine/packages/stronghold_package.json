@@ -1,0 +1,606 @@
+{
+  "package_name": "stronghold",
+  "version": "1.0.0",
+  "description": "Tempest block — Stronghold-flavored package. Emphasizes Buyback, Shadow, Slivers, Spikes, Licids, en-Kor redirection, Flowstone pumps, and Walls.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{SELF} has shadow. [SHADOW_REMINDER]",
+          2,
+          1,
+          3
+        ],
+        [
+          "{SELF} gets +1/+1 for each other creature you control with shadow.",
+          1,
+          2,
+          4
+        ],
+        [
+          "0: The next 1 damage that would be dealt to {SELF} this turn is dealt to target creature you control instead.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Other Sliver creatures you control have vigilance.",
+          1,
+          3,
+          5
+        ],
+        [
+          "{SELF} enters the battlefield with {X} +1/+1 counters on it. {MV_SCALED_REMOVE_COUNTER}: Remove a +1/+1 counter from {SELF}: Prevent the next 1 damage that would be dealt to target creature this turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever {SELF} attacks, other creatures you control get +1/+0 until end of turn.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Buyback [BUYBACK_GENERIC_MED].",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking or blocking creature. Buyback [BUYBACK_W].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn. Buyback [BUYBACK_GENERIC_LOW].",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Soldier creature tokens. Buyback [BUYBACK_W].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Destroy target Aura. Draw a card. Buyback [BUYBACK_GENERIC_LOW].",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sliver creatures you control get +0/+1.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Creatures with shadow you control get +1/+1.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{SELF} has shadow. [SHADOW_REMINDER]",
+          3,
+          1,
+          4
+        ],
+        [
+          "Other Sliver creatures you control have ward {2}.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Licid — {LICID_ACTIVATE_U}: {SELF} loses all abilities and becomes an Aura enchantment with enchant creature. Attach it to target creature. {LICID_END}: End this effect. Enchanted creature has '[LICID_GRANT_BLUE]'.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Return target nonland permanent to its owner's hand. Buyback [BUYBACK_U].",
+          3,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. Buyback [BUYBACK_GENERIC_LOW].",
+          2,
+          2,
+          5
+        ],
+        [
+          "Draw a card. Buyback [BUYBACK_5].",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards. Buyback [BUYBACK_U_HIGH].",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures with shadow you control can't be blocked except by creatures with shadow. (They already can't be.) Whenever one of them deals combat damage to a player, scry 1.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{SELF} has shadow. [SHADOW_REMINDER]",
+          2,
+          1,
+          4
+        ],
+        [
+          "Other Sliver creatures you control have 'Pay 2 life: Return this creature to its owner's hand.'",
+          1,
+          3,
+          5
+        ],
+        [
+          "Whenever {SELF} deals combat damage to a player, that player discards a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Licid — {LICID_ACTIVATE_B}: {SELF} becomes an Aura with enchant creature. Attach it to target creature. {LICID_END}: End this effect. Enchanted creature gets -2/-2.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{SELF} enters the battlefield with {X} +1/+1 counters on it. {MV_SCALED_REMOVE_COUNTER}: Remove a +1/+1 counter from {SELF}: Target player loses 1 life and you gain 1 life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. Buyback [BUYBACK_B].",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target nonblack creature. It can't be regenerated. Buyback [BUYBACK_B_HIGH].",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to your hand. Buyback [BUYBACK_3].",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target player discards two cards. Buyback [BUYBACK_B_HIGH].",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sliver creatures you control get +1/+0 and have menace.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Flowstone — {R}: {SELF} gets +1/-1 until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Other Sliver creatures you control get +1/+0.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever {SELF} blocks or becomes blocked, it deals 1 damage to target creature or player.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Licid — {LICID_ACTIVATE_R}: {SELF} becomes an Aura with enchant creature. Attach it to target creature. {LICID_END}: End this effect. Enchanted creature has haste and 'At the beginning of the end step, sacrifice this creature.'",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "{SELF_REF}: {R}: {SELF} deals 1 damage to any target. Activate only once each turn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{X} damage divided as you choose among any number of targets. Buyback [BUYBACK_R_HIGH].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets +3/+0 until end of turn. Buyback [BUYBACK_3R].",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens. Buyback [BUYBACK_GENERIC_MED].",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature blocks {SELF} or becomes blocked by it, {SELF} deals 1 damage to that creature.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Spike — {SELF} enters the battlefield with {X} +1/+1 counters on it. {MV_SCALED_REMOVE_COUNTER}: Remove a +1/+1 counter from {SELF}: Put a +1/+1 counter on target creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Spike — {SELF} enters the battlefield with {X} +1/+1 counters on it. Remove a +1/+1 counter from {SELF}: You gain 2 life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other Sliver creatures you control get +1/+1.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{SELF} has reach and trample.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Licid — {LICID_ACTIVATE_G}: {SELF} becomes an Aura with enchant creature. Attach it to target creature. {LICID_END}: End this effect. Enchanted creature gets +2/+2 and has trample.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Buyback [BUYBACK_GENERIC_LOW].",
+          2,
+          1,
+          4
+        ],
+        [
+          "Regenerate target creature. Buyback [BUYBACK_3].",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Buyback [BUYBACK_G].",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +0/+2.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "M": {
+      "Creature": [
+        [
+          "Sliver creatures you control have hexproof.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have 'Pay 2 life: Return this creature to its owner's hand.'",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever a Sliver you control becomes blocked, it gets +1/+1 until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target nonland permanent with mana value {X} or less. Buyback [BUYBACK_WB].",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add {C}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice {SELF}: Draw a card.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{1}{B}, {T}: Put target creature card from your graveyard on top of your library.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{2}, {T}: Target creature gains shadow until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kor",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Wall",
+      "Soltari",
+      "Sliver"
+    ],
+    "U": [
+      "Wizard",
+      "Thalakos",
+      "Illusion",
+      "Merfolk",
+      "Wall",
+      "Licid",
+      "Sliver"
+    ],
+    "B": [
+      "Dauthi",
+      "Zombie",
+      "Rat",
+      "Cleric",
+      "Shade",
+      "Wall",
+      "Sliver",
+      "Licid"
+    ],
+    "R": [
+      "Goblin",
+      "Mogg",
+      "Warrior",
+      "Barbarian",
+      "Wall",
+      "Sliver",
+      "Kavu"
+    ],
+    "G": [
+      "Beast",
+      "Spider",
+      "Elf",
+      "Druid",
+      "Spike",
+      "Wall",
+      "Sliver",
+      "Licid"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Drone",
+      "Wall"
+    ],
+    "M": [
+      "Sliver",
+      "Advisor",
+      "Mutant"
+    ]
+  },
+  "string_pools": {
+    "SHADOW_REMINDER": [
+      "(This creature can block or be blocked only by creatures with shadow.)",
+      "(Creatures with shadow can block or be blocked only by creatures with shadow.)"
+    ],
+    "BUYBACK_GENERIC_LOW": [
+      "{2}",
+      "{3}"
+    ],
+    "BUYBACK_GENERIC_MED": [
+      "{3}",
+      "{4}",
+      "{2}{C}"
+    ],
+    "BUYBACK_5": [
+      "{5}"
+    ],
+    "BUYBACK_U": [
+      "{2}{U}",
+      "{3}{U}"
+    ],
+    "BUYBACK_U_HIGH": [
+      "{4}{U}",
+      "{5}{U}"
+    ],
+    "BUYBACK_W": [
+      "{2}{W}",
+      "{3}{W}"
+    ],
+    "BUYBACK_B": [
+      "{2}{B}",
+      "{3}{B}"
+    ],
+    "BUYBACK_B_HIGH": [
+      "{4}{B}",
+      "{5}{B}"
+    ],
+    "BUYBACK_R_HIGH": [
+      "{3}{R}{R}",
+      "{4}{R}{R}"
+    ],
+    "BUYBACK_3": [
+      "{3}"
+    ],
+    "BUYBACK_3R": [
+      "{3}{R}"
+    ],
+    "BUYBACK_G": [
+      "{2}{G}",
+      "{3}{G}"
+    ],
+    "BUYBACK_WB": [
+      "{2}{W}{B}",
+      "{3}{W}{B}"
+    ],
+    "LICID_ACTIVATE_U": [
+      "{1}{U}",
+      "{2}{U}"
+    ],
+    "LICID_ACTIVATE_B": [
+      "{1}{B}",
+      "{2}{B}"
+    ],
+    "LICID_ACTIVATE_R": [
+      "{1}{R}",
+      "{2}{R}"
+    ],
+    "LICID_ACTIVATE_G": [
+      "{1}{G}",
+      "{2}{G}"
+    ],
+    "LICID_END": [
+      "{1}:"
+    ],
+    "LICID_GRANT_BLUE": [
+      "shroud",
+      "hexproof",
+      "flying",
+      "ward {2}"
+    ],
+    "TRIGGER_INTRO": [
+      "When {SELF} enters the battlefield, ",
+      "Whenever {SELF} attacks, ",
+      "Whenever {SELF} deals combat damage to a player, "
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Sliver",
+      "Soldier",
+      "Goblin",
+      "Saproling",
+      "Spike"
+    ],
+    "MV_SCALED_REMOVE_COUNTER": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ]
+  }
+}

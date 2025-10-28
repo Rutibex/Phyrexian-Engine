@@ -1,0 +1,814 @@
+{
+  "name": "Zendikar Mega Pack",
+  "version": "1.0",
+  "description": "A huge, comprehensive package capturing Zendikar's mechanics: Landfall, Kicker, Traps, Quests (quest counters), Allies, Vampire/Kor/Merfolk/Goblin tribes, Equipment themes, ETB lands, and land-matters synergies. Includes broad string pools and weighted effects per color and type.",
+  "creature_subtypes": {
+    "W": [
+      "Kor",
+      "Human",
+      "Soldier",
+      "Ally",
+      "Cleric",
+      "Cat"
+    ],
+    "U": [
+      "Merfolk",
+      "Human",
+      "Wizard",
+      "Ally",
+      "Illusion"
+    ],
+    "B": [
+      "Vampire",
+      "Human",
+      "Warrior",
+      "Ally",
+      "Shade"
+    ],
+    "R": [
+      "Goblin",
+      "Human",
+      "Warrior",
+      "Ally",
+      "Elemental"
+    ],
+    "G": [
+      "Elf",
+      "Human",
+      "Warrior",
+      "Ally",
+      "Beast"
+    ],
+    "C": [
+      "Construct",
+      "Scarecrow",
+      "Golem",
+      "Ally"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "flying",
+      "shroud"
+    ],
+    "B": [
+      "lifelink",
+      "intimidate",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "hexproof from {TOKEN_COLOR}"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "attacks",
+      "blocks",
+      "enters the battlefield"
+    ],
+    "ACTIVATED_COST": [
+      "{C}",
+      "{N}, {T}",
+      "{N}, Sacrifice a creature",
+      "{N}, Discard a card",
+      "{N}, Sacrifice this"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card",
+      "Create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "Target creature gets +{N}/+{N} until end of turn",
+      "Destroy target artifact",
+      "Return target creature card from your graveyard to your hand",
+      "Add {C}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Kor",
+      "Merfolk",
+      "Vampire",
+      "Goblin",
+      "Elf",
+      "Elemental",
+      "Beast",
+      "Snake"
+    ],
+    "ALLY_ETB_EFFECT": [
+      "put a +1/+1 counter on {THIS}",
+      "target creature you control gets +{N}/+{N} until end of turn",
+      "you gain {N} life",
+      "each opponent loses {N} life",
+      "tap target creature an opponent controls",
+      "scry {N}",
+      "add {C}",
+      "create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token"
+    ],
+    "LANDFALL_SMALL": [
+      "Target creature gets +{N}/+0 until end of turn",
+      "Gain {N} life",
+      "Add {C}",
+      "Put a +1/+1 counter on target creature",
+      "Scry {N}"
+    ],
+    "LANDFALL_MED": [
+      "Target creature gets +{N}/+{N} until end of turn",
+      "Draw a card",
+      "Create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "Target creature can’t block this turn",
+      "Exile target card from a graveyard"
+    ],
+    "LANDFALL_BIG": [
+      "Destroy target artifact or enchantment",
+      "Target creature you control gains trample and gets +{N}/+{N} until end of turn",
+      "Return target creature card from your graveyard to the battlefield tapped",
+      "Deal {N} damage to any target",
+      "Each opponent loses {N} life and you gain {N} life"
+    ],
+    "QUEST_COND": [
+      "you gain life",
+      "a creature you control deals combat damage to a player",
+      "a creature dies",
+      "you cast a creature spell",
+      "you cast an instant or sorcery spell",
+      "a land enters the battlefield under your control"
+    ],
+    "QUEST_PAY": [
+      "Remove {N} quest counters from {THIS}"
+    ],
+    "KICKER_COST": [
+      "{N}",
+      "{X}",
+      "{C}{C}",
+      "{N} and/or {N}"
+    ],
+    "TRAP_COND": [
+      "if an opponent cast two or more spells this turn",
+      "if a creature an opponent controls attacked this turn",
+      "if a spell or ability an opponent controls countered a spell this turn",
+      "if a creature you control was dealt damage this turn",
+      "if an opponent had a land enter the battlefield under their control this turn"
+    ],
+    "EQUIP_COST": [
+      "{N}",
+      "{C}",
+      "{N}"
+    ],
+    "KOR_EQUIP_BONUS": [
+      "As long as {THIS} is equipped, it has vigilance and first strike",
+      "Equipped creature gets +{N}/+{N}. If it’s a Kor, it has vigilance"
+    ],
+    "VAMPIRE_PAYOFF": [
+      "Whenever an opponent loses life, put a +1/+1 counter on {THIS}",
+      "At the beginning of your end step, if an opponent lost life this turn, create a {N}/{N} black Vampire creature token with lifelink"
+    ],
+    "MERFOLK_LAND_SYNERGY": [
+      "Whenever a land enters the battlefield under your control, tap target creature an opponent controls",
+      "Whenever you play an Island, scry {N}"
+    ],
+    "GOBLIN_AGGRO": [
+      "{THIS} attacks each combat if able",
+      "Whenever {THIS} attacks, it deals {N} damage to target creature defending player controls"
+    ],
+    "ELF_RAMP": [
+      "{T}: Add {C}",
+      "Whenever {THIS} attacks, untap up to {N} lands"
+    ],
+    "LAND_ETB_TRIGGERED": [
+      "When {THIS} enters the battlefield, target creature gets +{N}/+0 until end of turn",
+      "When {THIS} enters the battlefield, scry {N}",
+      "When {THIS} enters the battlefield, target creature you control gets +{N}/+{N} and gains trample until end of turn",
+      "When {THIS} enters the battlefield, you gain {N} life",
+      "When {THIS} enters the battlefield, tap target creature an opponent controls"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Ally — {TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "Landfall — {TRIGGER_INTRO} a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Landfall — {TRIGGER_INTRO} a land enters the battlefield under your control, {LANDFALL_MED}.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Kicker {KICKER_COST}. {TRIGGER_INTRO} {THIS} enters the battlefield, if it was kicked, put {N} +1/+1 counters on it.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{KOR_EQUIP_BONUS}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {THIS} enters the battlefield, tap up to {N} target creatures an opponent controls.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Vigilance",
+          3,
+          2,
+          6
+        ],
+        [
+          "First strike",
+          3,
+          1,
+          6
+        ],
+        [
+          "Shroud",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. Prevent all damage that would be dealt this turn by target attacking creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{N}/+{N} and gains first strike until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Exile target tapped creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create {N} {N}/{N} white {TOKEN_SUBTYPE} creature tokens.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {N} +1/+1 counters on up to {N} target creatures you control.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Kicker {KICKER_COST}. Create {N} {N}/{N} white {TOKEN_SUBTYPE} creature tokens. If this spell was kicked, creatures you control gain vigilance until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy all tapped creatures.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: Creatures you control get +{N}/+{N} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N} and has vigilance.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Ally — {TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Landfall — {TRIGGER_INTRO} a land enters the battlefield under your control, {MERFOLK_LAND_SYNERGY}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker {KICKER_COST}. {TRIGGER_INTRO} {THIS} enters the battlefield, if it was kicked, draw {N} cards.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Flying",
+          4,
+          2,
+          6
+        ],
+        [
+          "Shroud",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. Counter target spell unless its controller pays {N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Return target creature to its owner’s hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Draw {N} cards.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}. Draw {N} cards. If this spell was kicked, instead scry {N} then draw {N} cards.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Gain control of target creature with mana value {N} or less until end of turn. Untap it. It gains flying until end of turn.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: Tap up to {N} target permanents. They don’t untap during their controllers’ next untap steps.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has shroud and 'This creature can’t attack or block.'",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature has '{T}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Ally — {TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Kicker {KICKER_COST}. {TRIGGER_INTRO} {THIS} enters the battlefield, if it was kicked, each opponent loses {N} life and you gain {N} life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Deathtouch",
+          3,
+          2,
+          6
+        ],
+        [
+          "Lifelink",
+          3,
+          2,
+          6
+        ],
+        [
+          "Intimidate",
+          2,
+          2,
+          6
+        ],
+        [
+          "{VAMPIRE_PAYOFF}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. Target creature gets -{N}/-{N} until end of turn. You gain {N} life.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target player discards {N} cards.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target nonblack creature.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}. Destroy target creature. If this spell was kicked, instead destroy up to {N} target creatures.",
+          4,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped. You lose {N} life.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: Each opponent sacrifices a creature. You gain {N} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nAt the beginning of enchanted creature’s controller’s upkeep, that player loses {N} life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +{N}/+{N} and has lifelink. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Ally — {TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Landfall — {TRIGGER_INTRO} a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Haste",
+          4,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker {KICKER_COST}. {TRIGGER_INTRO} {THIS} enters the battlefield, if it was kicked, it deals {N} damage to any target.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GOBLIN_AGGRO}.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. This spell deals {N} damage to any target.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Target creature can’t block this turn. Draw a card.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Kicker {KICKER_COST}. This spell deals {N} damage to each creature. If this spell was kicked, it deals {N} damage to each opponent.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}. Create {N} {N}/{N} red {TOKEN_SUBTYPE} creature tokens. If this spell was kicked, creatures you control gain haste until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or land.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: {THIS} deals {N} damage to any target.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+0 and has haste.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +{N}/+0 and has first strike. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Ally — {TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Landfall — {TRIGGER_INTRO} a land enters the battlefield under your control, {LANDFALL_MED}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Trample",
+          4,
+          3,
+          6
+        ],
+        [
+          "Reach",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker {KICKER_COST}. {TRIGGER_INTRO} {THIS} enters the battlefield, if it was kicked, search your library for up to {N} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{ELF_RAMP}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. Target creature you control gets +{N}/+{N} and gains trample until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature you control fights target creature you don’t control.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}. Create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token. If this spell was kicked, create {N} of those tokens instead.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Search your library for up to {N} basic land cards, put them onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: Create a {N}/{N} {TOKEN_COLOR} Beast creature token, then creatures you control get +{N}/+{N} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N} and has trample.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +{N}/+{N}. Whenever a land enters the battlefield under your control, untap equipped creature. Equip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {THIS} or another Ally enters the battlefield under your control, {ALLY_ETB_EFFECT}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Trap — {TRAP_COND}, you may pay {C} rather than pay this spell’s mana cost. Counter target activated or triggered ability.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Kicker {KICKER_COST}. Create a {N}/{N} colorless Golem artifact creature token. If this spell was kicked, create {N} of those tokens instead.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {QUEST_COND}, you may put a quest counter on {THIS}. {QUEST_PAY}: Draw {N} cards.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature has '{ACTIVATED_COST}: {ACTIVATED_EFFECT}.' Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{LAND_ETB_TRIGGERED}\n{T}: Add {C}.",
+          4,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1142 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow.)",
+          6,
+          1,
+          4
+        ],
+        [
+          "Flanking (Whenever this creature becomes blocked by a creature, that creature gets -1/-1 until end of turn.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Vigilance",
+          6,
+          2,
+          6
+        ],
+        [
+          "Lifelink",
+          5,
+          2,
+          6
+        ],
+        [
+          "Shroud (This creature can't be the target of spells or abilities.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Rebelcraft \u2014 {ACTIVATED_COST}: Search your library for a Rebel permanent card with mana value {N} or less, put it onto the battlefield, then shuffle.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you gain {N} life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Suspend {SUSPEND_COST} (Rather than cast this card from your hand, pay {SUSPEND_COST} and exile it with {SUSPEND_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost. It has haste.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, exile target tapped creature an opponent controls until {SELF} leaves the battlefield.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Vanishing {VANISHING_N} (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Frenzy {FRENZY_N} (Whenever this creature attacks and isn't blocked, it gets +{FRENZY_N}/+{FRENZY_N} until end of turn.)",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Prevent the next {N} damage that would be dealt to any target this turn. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +{N}/+{N} until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Buyback {BUYBACK_COST} (You may pay an additional {BUYBACK_COST} as you cast this spell. If you do, put this card into your hand as it resolves.)",
+          4,
+          2,
+          5
+        ],
+        [
+          "Choose a color. Creatures the chosen color can't attack this turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {N} 1/1 white Soldier creature tokens.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy all tapped creatures.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Suspend {SUSPEND_COST} \u2014 Create two 1/1 white Kor creature tokens. (They gain haste when cast this way.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target creature card with mana value {N} or less from your graveyard to the battlefield tapped.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have vigilance and get +{N}/+{N}.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may gain {N} life. If you do, scry {N}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has shadow.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has shroud.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST} (Attach to target land you control. Fortify only as a sorcery.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +{N}/+{N}.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          1,
+          0,
+          0
+        ],
+        [
+          "Fortified land has '{T}: Add {W}{W}.'",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow.)",
+          6,
+          1,
+          4
+        ],
+        [
+          "Flash",
+          6,
+          2,
+          6
+        ],
+        [
+          "Shroud",
+          4,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, draw a card.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Morph {MORPH_COST} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Sliver creatures you control have 'Whenever this creature becomes tapped, scry 1.'",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Counter target spell.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Split second",
+          5,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Buyback {BUYBACK_COST}",
+          4,
+          2,
+          5
+        ],
+        [
+          "Target player mills {N} cards. Draw a card.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {SUSPEND_COST} \u2014 Draw {N} cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell.",
+          1,
+          6,
+          6
+        ],
+        [
+          "Gravestorm \u2014 When you cast this spell, copy it for each permanent put into a graveyard this turn. (You may choose new targets for the copies.)",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has shadow.",
+          3,
+          1,
+          4
+        ],
+        [
+          "At the beginning of your upkeep, scry {N}, then draw a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast a spell, you may untap target permanent.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Fortify {FORTIFY_COST}",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "{2}, {T}: Draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Shadow",
+          6,
+          1,
+          4
+        ],
+        [
+          "Wither (This deals damage to creatures in the form of -1/-1 counters.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Madness {MADNESS_COST} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Sliver creatures you control have deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you lose {N} life and draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Echo {ECHO_COST} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {ECHO_COST}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Split second",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -{N}/-{N} until end of turn. You gain {N} life.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Destroy target nonblack creature.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Buyback {BUYBACK_COST}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Draw a card.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards {N} cards at random.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Gravestorm",
+          2,
+          5,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          2,
+          5,
+          6
+        ],
+        [
+          "Each opponent loses {N} life. You gain life equal to the life lost this way.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Suspend {SUSPEND_COST} \u2014 Destroy target creature.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses {N} life and you scry {N}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has shadow and 'At the beginning of your upkeep, you lose 1 life.'",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice a creature: Draw a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature dies, you may put a charge counter on {SELF}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "{B}, {T}, Pay 1 life: Target creature gets -1/-1 until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste",
+          6,
+          2,
+          6
+        ],
+        [
+          "Frenzy {FRENZY_N}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Echo {ECHO_COST}",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have haste.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, it deals {N} damage to any target.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Madness {MADNESS_COST}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Split second",
+          6,
+          2,
+          5
+        ],
+        [
+          "{N} damage divided as you choose among up to {N} targets.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Buyback {BUYBACK_COST}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target spell gains storm. (When you cast it, copy it for each spell cast before it this turn.)",
+          2,
+          4,
+          6
+        ],
+        [
+          "Untap all creatures that attacked this turn. They gain first strike until end of turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {SUSPEND_COST} \u2014 {N} damage to any target.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Storm (When you cast this spell, copy it for each spell cast before it this turn.)",
+          3,
+          4,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy target land.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has menace and echo {ECHO_COST}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a spell with storm, {SELF} deals 1 damage to any target.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "{R}, {T}: Target creature gains haste until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Reach",
+          5,
+          2,
+          6
+        ],
+        [
+          "Shroud",
+          3,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control get +1/+1.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Thallid \u2014 At the beginning of your upkeep, put a spore counter on {SELF}. Remove three spore counters from {SELF}: Create a 1/1 green Saproling creature token.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          5
+        ],
+        [
+          "When {SELF} enters the battlefield, you may destroy target artifact or enchantment.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Morph {MORPH_COST}",
+          3,
+          3,
+          6
+        ],
+        [
+          "Echo {ECHO_COST}",
+          2,
+          3,
+          6
+        ],
+        [
+          "Poisonous {POISONOUS_N} (Whenever this creature deals combat damage to a player, that player gets {POISONOUS_N} poison counters.)",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Split second",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{N}/+{N} until end of turn. It gains trample until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Buyback {BUYBACK_COST}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {SUSPEND_COST} \u2014 Create two 1/1 green Saproling creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. Draw a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Delve",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, put a +1/+1 counter on target creature you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has shroud and 'This creature gets +{N}/+{N}.'",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Creatures you control have '{T}: Add one mana of any color.'",
+          2,
+          4,
+          6
+        ],
+        [
+          "Fortify {FORTIFY_COST}",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "{G}, {T}: Create a 1/1 green Saproling creature token. Activate only as a sorcery.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Sliver creatures you control have '{T}: Add one mana of any color.'",
+          2,
+          3,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Split second",
+          2,
+          2,
+          6
+        ],
+        [
+          "Tap or untap up to {N} target permanents.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {SUSPEND_COST} \u2014 Draw {N} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Search your library for a card, then shuffle. You may put that card on top of your library.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Vanishing {VANISHING_N}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Buyback {BUYBACK_COST}",
+          1,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Delve",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          8,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Sliver spells.",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Rebel",
+      "Knight",
+      "Sliver",
+      "Cleric",
+      "Soldier",
+      "Kor"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Sliver",
+      "Illusion",
+      "Merfolk",
+      "Spellshaper"
+    ],
+    "B": [
+      "Human",
+      "Cleric",
+      "Zombie",
+      "Sliver",
+      "Assassin",
+      "Fungus"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Sliver",
+      "Goblin",
+      "Spellshaper",
+      "Elemental"
+    ],
+    "G": [
+      "Human",
+      "Druid",
+      "Beast",
+      "Fungus",
+      "Saproling",
+      "Sliver",
+      "Spider"
+    ],
+    "any": [
+      "Sliver",
+      "Rebel",
+      "Mercenary",
+      "Spellshaper",
+      "Shapeshifter",
+      "Fungus",
+      "Saproling"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "enters the battlefield",
+      "attacks"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Sliver",
+      "Saproling",
+      "Rebel",
+      "Soldier",
+      "Goblin",
+      "Illusion"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}, {T}",
+      "{3}, {T}"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card",
+      "create a 1/1 colorless Sliver creature token",
+      "scry 1",
+      "gain 2 life",
+      "add one mana of any color"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "SUSPEND_COST": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}",
+      "{3}",
+      "{X}"
+    ],
+    "SUSPEND_N": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "BUYBACK_COST": [
+      "{2}",
+      "{3}",
+      "{4}",
+      "{1}{U}",
+      "{2}{B}",
+      "{2}{G}",
+      "{3}{R}"
+    ],
+    "ECHO_COST": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}",
+      "{3}"
+    ],
+    "MORPH_COST": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}",
+      "{4}"
+    ],
+    "FRENZY_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "POISONOUS_N": [
+      "1",
+      "2"
+    ],
+    "VANISHING_N": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "MADNESS_COST": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{U}"
+    ],
+    "FORTIFY_COST": [
+      "{2}",
+      "{3}",
+      "{4}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "flanking",
+      "shadow",
+      "shroud"
+    ],
+    "U": [
+      "flash",
+      "shadow",
+      "shroud"
+    ],
+    "B": [
+      "deathtouch",
+      "shadow",
+      "fear"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "frenzy {FRENZY_N}"
+    ],
+    "G": [
+      "reach",
+      "trample",
+      "shroud"
+    ],
+    "C": [
+      "vanishing {VANISHING_N}"
+    ]
+  }
+}

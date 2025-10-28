@@ -1,0 +1,1159 @@
+{
+  "name": "shadows_over_innistrad",
+  "version": "1.0",
+  "description": "A HUGE Shadows over Innistrad–inspired package including investigate, delirium, madness, skulk, werewolves, spirits, self-mill, discard matters, and graveyard interactions.",
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "When {THIS} attacks,",
+      "When {THIS} dies,",
+      "At the beginning of your upkeep,",
+      "At the beginning of each end step,",
+      "Whenever you sacrifice a Clue,",
+      "Whenever one or more cards are put into your graveyard from your library,",
+      "Whenever you discard a card,"
+    ],
+    "INVESTIGATE_LINE": [
+      "Investigate. (Create a Clue token. It has \"{2}, Sacrifice this artifact: Draw a card.\")"
+    ],
+    "DELIRIUM_COND": [
+      "Delirium — {EFFECT} if there are four or more card types among cards in your graveyard."
+    ],
+    "MADNESS_COST": [
+      "{1}{C}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{2}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "AURA_COST": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "Sacrifice a Clue",
+      "Discard a card"
+    ],
+    "SMALL_NUMBER": [
+      "1",
+      "2"
+    ],
+    "MED_NUMBER": [
+      "2",
+      "3",
+      "4"
+    ],
+    "LARGE_NUMBER": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "MILL_N": [
+      "2",
+      "3",
+      "4"
+    ],
+    "POWER_PUMP": [
+      "+1/+1",
+      "+2/+2"
+    ],
+    "TOUGHNESS_PUMP": [
+      "+0/+1",
+      "+0/+2",
+      "+1/+2"
+    ],
+    "PT_PAIR_SMALL": [
+      "+1/+1",
+      "+2/+0",
+      "+1/+2"
+    ],
+    "PT_PAIR_MED": [
+      "+2/+2",
+      "+3/+1",
+      "+2/+3"
+    ],
+    "PT_PAIR_LARGE": [
+      "+4/+4",
+      "+5/+5"
+    ],
+    "SKULK_KW": [
+      "Skulk (This creature can't be blocked by creatures with greater power.)"
+    ],
+    "FLY_EVERGREEN": [
+      "flying"
+    ],
+    "LIFELINK_EVERGREEN": [
+      "lifelink"
+    ],
+    "VIGILANCE_EVERGREEN": [
+      "vigilance"
+    ],
+    "DEATHTOUCH_EVERGREEN": [
+      "deathtouch"
+    ],
+    "MENACE_EVERGREEN": [
+      "menace"
+    ],
+    "HEXPROOF_FROM": [
+      "hexproof from black",
+      "hexproof from red",
+      "hexproof from instants and sorceries"
+    ],
+    "SPELLS_MATTER": [
+      "Whenever you cast an instant or sorcery spell, {EFFECT}.",
+      "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
+    ],
+    "TRANSFORM_WEREWOLF": [
+      "At the beginning of each upkeep, if no spells were cast last turn, transform {THIS}.",
+      "At the beginning of each upkeep, if a player cast two or more spells last turn, transform {THIS}."
+    ],
+    "CLUE_SYNERGY": [
+      "Whenever you sacrifice a Clue, {EFFECT}.",
+      "{2}, Sacrifice a Clue: {EFFECT}"
+    ],
+    "DISCARD_PAYOFF": [
+      "Whenever you discard a card, {EFFECT}.",
+      "Madness {MADNESS_COST} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)"
+    ],
+    "GY_EXILE_COST": [
+      "Exile a card from your graveyard",
+      "Exile two cards from your graveyard"
+    ],
+    "GY_HATE": [
+      "Exile up to one target card from a graveyard.",
+      "Exile target card from a graveyard."
+    ],
+    "COUNT_TYPES": [
+      "artifact",
+      "creature",
+      "enchantment",
+      "instant",
+      "land",
+      "planeswalker",
+      "sorcery",
+      "battle"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Spirit",
+      "Cleric",
+      "Hound",
+      "Angel",
+      "Knight"
+    ],
+    "U": [
+      "Spirit",
+      "Homunculus",
+      "Horror",
+      "Zombie",
+      "Wizard",
+      "Moonfolk",
+      "Faerie"
+    ],
+    "B": [
+      "Vampire",
+      "Zombie",
+      "Horror",
+      "Shade",
+      "Imp",
+      "Cleric",
+      "Rat"
+    ],
+    "R": [
+      "Devil",
+      "Vampire",
+      "Wolf",
+      "Werewolf",
+      "Human",
+      "Berserker",
+      "Warrior"
+    ],
+    "G": [
+      "Human",
+      "Wolf",
+      "Werewolf",
+      "Spider",
+      "Treefolk",
+      "Horror",
+      "Beast"
+    ],
+    "C": [
+      "Construct",
+      "Scarecrow",
+      "Golem",
+      "Horror"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "skulk"
+    ],
+    "U": [
+      "flying",
+      "skulk"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "skulk"
+    ],
+    "R": [
+      "menace",
+      "haste"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{SKULK_KW}",
+          6,
+          1,
+          6
+        ],
+        [
+          "Other Humans you control get +1/+1.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Spirits you control have vigilance.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you gain {SMALL_NUMBER} life.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} tap target creature an opponent controls.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Delirium — {EFFECT} (Activate only if there are four or more card types among cards in your graveyard.)",
+          4,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} exile target card from a graveyard.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} creatures you control get +1/+1 until end of turn.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking creature if its power is 4 or greater.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{SMALL_NUMBER}/+{SMALL_NUMBER} and gains vigilance until end of turn. Investigate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Prevent all damage that would be dealt this turn by target creature. Investigate.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Destroy target enchantment. Investigate.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Human tokens. Investigate.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Exile target tapped creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Return target creature card with mana value {SMALL_NUMBER} or less from your graveyard to the battlefield tapped.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Destroy all creatures with power 4 or greater.",
+          3,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Whenever you sacrifice a Clue, scry 1.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature enters the battlefield under your control, Investigate.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Delirium — At the beginning of combat on your turn, creatures you control get +1/+0 and gain vigilance until end of turn.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}, {T}: Investigate.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard. You gain 1 life.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +0/+1 until end of turn. Investigate.",
+          5,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets {PT_PAIR_SMALL}. Investigate.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has vigilance and \"Whenever this creature deals combat damage to a player, Investigate.\"",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Whenever equipped creature attacks, Investigate. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control cost {1} less to activate.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue, create a 1/1 white Human token.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}. {2}{W}, {T}: Investigate.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{SKULK_KW}",
+          8,
+          1,
+          6
+        ],
+        [
+          "Spirits you control get +1/+1.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} mill {MILL_N}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Delirium — {EFFECT} as long as there are four or more card types among cards in your graveyard.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, target creature can't be blocked this turn.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. Investigate.",
+          9,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Investigate.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures. Investigate.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Investigate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Look at the top three cards of your library. Put one into your hand and the rest into your graveyard. Investigate.",
+          6,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. Then discard a card. Investigate.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Mill {MILL_N}, then draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Delirium — Draw two cards. If there are four or more card types among cards in your graveyard, instead draw three cards.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you draw your second card each turn, Investigate.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0. Whenever you sacrifice a Clue, scry 1.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{U}, {T}: Investigate twice.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains skulk until end of turn.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has skulk and \"Whenever this creature deals combat damage to a player, Investigate.\"",
+          7,
+          3,
+          6
+        ],
+        [
+          "Enchant creature. When {THIS} enters the battlefield, Investigate. Enchanted creature gets +1/+1 and has flying.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card.\" Equip {EQUIP_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast an instant or sorcery spell, Investigate.",
+          7,
+          3,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card, then discard a card.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}. {2}{U}, {T}: Investigate.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} each opponent loses 1 life and you gain 1 life.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you discard a card, put a +1/+1 counter on {THIS}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Delirium — {THIS} gets +2/+2 as long as there are four or more card types among cards in your graveyard.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Madness {MADNESS_COST} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} exile target card from a graveyard. If a creature card was exiled this way, Investigate.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. Investigate.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature with mana value {MED_NUMBER} or less. Investigate.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target opponent discards a card. Investigate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          6,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards two cards. Delirium — If you have delirium, Investigate.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Investigate.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose 2 life.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, Investigate.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you discard a card, each opponent loses 1 life and you gain 1 life.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard. If a creature card is exiled this way, each opponent loses 1 life.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{B}, Discard a card: {THIS} gets +2/+2 until end of turn. Activate only once each turn.",
+          6,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+1 and has menace. Madness {MADNESS_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace. Whenever you discard a card, attach {THIS} to up to one target creature you control. Equip {EQUIP_COST}.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, Sacrifice this artifact: Each opponent loses 1 life.\"",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}. {2}{B}, {T}: Return target creature card from your graveyard to your hand.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you discard a card, {THIS} deals 1 damage to any target.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Madness {MADNESS_COST} (If you discard this card, you may cast it for its madness cost instead of putting it into your graveyard.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Werewolf and Wolf creatures you control get +1/+0.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRANSFORM_WEREWOLF}",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals 2 damage to any target. Investigate.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. Investigate.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Discard a card, then draw a card. Investigate.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{THIS} deals 3 damage divided as you choose among one, two, or three targets.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 red Devil creature tokens with \"When this creature dies, it deals 1 damage to any target.\" Investigate.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you discard a card, {THIS} deals 1 damage to any target.",
+          6,
+          3,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +2/+0 and gains haste until end of turn. Delirium — If you have delirium, Investigate.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Discard a card, then draw a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{2}{R}, {T}: {THIS} deals 2 damage to any target. Activate only as a sorcery.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has haste. Madness {MADNESS_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Whenever you discard a card, equipped creature gains first strike until end of turn. Equip {EQUIP_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you sacrifice a Clue, {THIS} deals 1 damage to any target.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}. {2}{R}, {T}: Discard a card, then draw a card.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample",
+          6,
+          3,
+          6
+        ],
+        [
+          "Werewolf and Wolf creatures you control get +1/+1.",
+          7,
+          3,
+          6
+        ],
+        [
+          "{TRANSFORM_WEREWOLF}",
+          7,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Delirium — {THIS} gets +2/+2 as long as there are four or more card types among cards in your graveyard.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, Investigate.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{SMALL_NUMBER}/+{SMALL_NUMBER} until end of turn. Investigate.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Target creature fights up to one target creature you don't control.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put two +1/+1 counters on target creature. You may have it fight target creature you don't control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Investigate.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a land enters the battlefield under your control, you gain 1 life and Investigate.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1. Delirium — They get an additional +1/+0 as long as there are four or more card types among cards in your graveyard.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature you control fights target creature you don't control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{2}{G}, {T}: Investigate twice.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +3/+3 and has trample. Delirium — It also has \"{G}: Regenerate this creature\" as long as there are four or more card types among cards in your graveyard.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2 and has trample. Whenever a land enters the battlefield under your control, you may attach {THIS} to target creature you control. Equip {EQUIP_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Lands you control have \"{T}: Add one mana of any color to activate abilities of Clues.\"",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}. {2}{G}, {T}: Investigate.",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Defender",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} Investigate.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} mill {MILL_N}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Delirium — {THIS} gets +2/+2 and has menace as long as there are four or more card types among cards in your graveyard.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Investigate.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Sacrifice a Clue: Draw a card.",
+          6,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two Clue tokens.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Delirium — Draw a card for each different card type among cards in your graveyard, up to four.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Clues you control have \"{T}: Add {C}.\"",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}, {T}: Create a Clue token.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control cost {1} less to sacrifice.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}. {3}, {T}: Create a Clue token.",
+          7,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color\" and \"{2}, {T}: Investigate.\"",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clue — \"{2}, Sacrifice this artifact: Draw a card.\"",
+          50,
+          0,
+          0
+        ],
+        [
+          "Equipment — Investigators you control get +1/+0.",
+          5,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

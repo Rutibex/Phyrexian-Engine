@@ -1,0 +1,763 @@
+{
+  "name": "Outlaws of Thunder Junction (Comprehensive)",
+  "code": "otj_comprehensive",
+  "version": 1,
+  "description": "Huge OTJ package covering Crimes, Outlaws typal (Assassin, Mercenary, Pirate, Rogue, Warlock), Plot, Spree, Mounts & Saddle, plus Commander bounty-flavored hooks. Includes Auras/Equipment variants, token makers, removal, card draw, treasure, and color-appropriate effects.",
+  "pools": {
+    "OUTLAW_TYPES": [
+      "Assassin",
+      "Mercenary",
+      "Pirate",
+      "Rogue",
+      "Warlock"
+    ],
+    "MOUNT_SUBTYPES": [
+      "Arynx",
+      "Camel",
+      "Horror",
+      "Lizard",
+      "Beast",
+      "Dinosaur",
+      "Insect",
+      "Construct"
+    ],
+    "CRIME_TARGETS": [
+      "opponent",
+      "creature an opponent controls",
+      "permanent an opponent controls",
+      "spell an opponent controls",
+      "card in an opponent's graveyard"
+    ],
+    "GUNSLINGER_SUBTYPES": [
+      "Human",
+      "Viashino",
+      "Orc",
+      "Goblin",
+      "Aetherborn",
+      "Vampire",
+      "Zombie",
+      "Spirit"
+    ],
+    "DESERT_NAMES": [
+      "Dune Flats",
+      "Cactus Ridge",
+      "Sun-Scorched Basin",
+      "Thunder Wastes",
+      "Spine Dunes",
+      "Pricklerock Badlands"
+    ],
+    "TOKEN_OUTLAWS": [
+      "Assassin",
+      "Mercenary",
+      "Pirate",
+      "Rogue",
+      "Warlock"
+    ],
+    "MOUNT_ATTACK_TRIGGERS": [
+      "it deals 1 damage to each opponent",
+      "create a Treasure token",
+      "it gets +2/+0 until end of turn",
+      "tap up to one target creature",
+      "create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token tapped and attacking",
+      "draw a card then discard a card",
+      "exile up to one target card from a graveyard",
+      "target creature an opponent controls blocks this combat if able"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance\nWhenever you commit a crime, put a +1/+1 counter on this creature.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Saddle 2 (Tap other creatures you control with total power 2 or more: This creature becomes saddled until end of turn. Activate only as a sorcery.)\nWhenever [THIS] attacks while saddled, create a 1/1 white Outlaw creature token.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Other Outlaws you control get +1/+0.",
+          2,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, exile up to one target tapped creature an opponent controls until this leaves the battlefield.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you cast an outlaw spell, create a 1/1 white Outlaw creature token.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Plot {2}{W} (Pay {2}{W} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (You may plot this from your hand.)",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking creature.",
+          3,
+          2,
+          4
+        ],
+        [
+          "If you committed a crime this turn, create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Otherwise, create one.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you control an outlaw, they gain vigilance until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target creatures. If you committed a crime this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target creature with power 4 or greater. If you committed a crime this turn, instead exile that creature.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Outlaw creature tokens. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)",
+          3,
+          2,
+          4
+        ],
+        [
+          "Exile target tapped creature. You gain 2 life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Plot {1}{W} (Pay {1}{W} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "Spree (Choose one or more. Pay the additional costs of each chosen mode.)\n\u2022 [+{1}{W}] Destroy target tapped creature\n\u2022 [+{1}{W}] Exile target enchantment\n\u2022 [+{2}] Create two 1/1 white Outlaw creature tokens",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you committed a crime this turn, create a 1/1 white Outlaw creature token.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control have \"Whenever you commit a crime, this creature gets +1/+1 until end of turn.\"",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+2 and has vigilance.\nWhenever you commit a crime, scry 1.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Enchant creature an opponent controls\nWhen this Aura enters, tap enchanted creature. It doesn't untap during its controller's next untap step.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has \"Whenever you commit a crime, you gain 1 life.\"\nEquip {1}",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}.\n{1}{W}, {T}: Target creature gets +1/+1 until end of turn. If you committed a crime this turn, it also gains vigilance until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Plot {3} (Pay {3} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (Plot this land only as a sorcery.)\n{T}: Add one mana of any color. Activate only if this was plotted this game.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Scry 1. If you committed a crime this turn, instead draw a card, then discard a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flash\nWhen this enters the battlefield, counter target activated or triggered ability. (Mana abilities can't be targeted.)",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you commit a crime, look at the top two cards of your library. Put one into your hand and the other into your graveyard.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Saddle 1 (Tap other creatures you control with total power 1 or more: This creature becomes saddled until end of turn. Activate only as a sorcery.)\nWhenever [THIS] becomes saddled, draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you cast an outlaw spell, surveil 1.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Plot {2}{U} (Pay {2}{U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (You may plot this from your hand.)",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. If you committed a crime this turn, instead counter that spell.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If you committed a crime this turn, scry 2.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target permanents. They don't untap during their controller's next untap step.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Draw two cards. If you committed a crime this turn, create a Treasure token.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw three cards, then discard a card.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Plot {U} (Pay {U} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "Spree (Choose one or more. Pay the additional costs of each chosen mode.)\n\u2022 [+{1}] Scry 3, then draw a card\n\u2022 [+{1}{U}] Return target creature to its owner's hand\n\u2022 [+{2}] Create a tapped Treasure token and a 1/1 blue Rogue creature token",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you committed a crime this turn, draw a card, then discard a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever an outlaw you control deals combat damage to a player, you may draw a card.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you commit a crime, untap target artifact or creature you control.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{2}, {T}: Draw a card. Activate only if you committed a crime this turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this Aura enters, tap enchanted creature. If you committed a crime this turn, draw a card.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "Plot {3} (Pay {3} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (Plot this land only as a sorcery.)\n{T}: Add one mana of any color. Activate only if this was plotted this game.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Scry 1. If you committed a crime this turn, instead draw a card, then discard a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace\nWhenever you commit a crime, each opponent loses 1 life and you gain 1 life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Saddle 2 (Tap other creatures you control with total power 2 or more: This creature becomes saddled until end of turn. Activate only as a sorcery.)\nWhenever [THIS] attacks while saddled, target creature an opponent controls gets -2/-2 until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target outlaw card from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Other Outlaws you control get +1/+1 and have menace.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Plot {2}{B} (Pay {2}{B} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (You may plot this from your hand.)",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn. If you committed a crime this turn, you gain 2 life.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Destroy target creature. If you committed a crime this turn, you may surveil 2.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card. (Targeting a card in an opponent's graveyard commits a crime.)",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.",
+          3,
+          2,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses 2 life and you gain 2 life. If you committed a crime this turn, create a Treasure token.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Plot {1}{B} (Pay {1}{B} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "Spree (Choose one or more. Pay the additional costs of each chosen mode.)\n\u2022 [+{1}{B}] Target opponent discards two cards\n\u2022 [+{1}{B}] Return target creature card from your graveyard to your hand\n\u2022 [+{2}] Create two 1/1 black Rogue creature tokens",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you commit a crime, put a +1/+1 counter on target creature you control. It gains menace until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you committed a crime last turn, each opponent loses 2 life and you scry 1.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{1}, {T}, Sacrifice this: Return target outlaw card from your graveyard to your hand. Activate only if you committed a crime this turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets -2/-2.\nWhen this Aura enters, if you committed a crime this turn, each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "Plot {3} (Pay {3} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (Plot this land only as a sorcery.)\n{T}: Add one mana of any color. Activate only if this was plotted this game.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Scry 1. If you committed a crime this turn, instead draw a card, then discard a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste\nWhenever you commit a crime, this gets +1/+0 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Saddle 2 (Tap other creatures you control with total power 2 or more: This creature becomes saddled until end of turn. Activate only as a sorcery.)\nWhenever [THIS] attacks while saddled, create a Treasure token.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Other Outlaws you control have haste.",
+          2,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, it deals damage equal to the number of Outlaws you control to any target.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Plot {2}{R} (Pay {2}{R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (You may plot this from your hand.)",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals 3 damage to any target. If you committed a crime this turn, it deals 4 damage instead.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Create a Treasure token. If you committed a crime this turn, create two of those tokens instead.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. If you control an outlaw, draw a card, then discard a card.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Gain control of target artifact or creature an opponent controls until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Mercenary creature tokens with haste.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Plot {R} (Pay {R} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "Spree (Choose one or more. Pay the additional costs of each chosen mode.)\n\u2022 [+{1}] Create a Treasure token\n\u2022 [+{1}{R}] This spell deals 2 damage to each opponent\n\u2022 [+{2}{R}] Create two 1/1 red Rogue creature tokens with haste",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, if you committed a crime this turn, target creature you control gets +2/+0 and gains menace until end of turn.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you commit a crime, create a Treasure token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "{2}, {T}, Sacrifice this: It deals 2 damage to any target. Activate only if you committed a crime this turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has haste.\nWhenever you commit a crime, put a +1/+1 counter on enchanted creature.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "Plot {3} (Pay {3} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (Plot this land only as a sorcery.)\n{T}: Add one mana of any color. Activate only if this was plotted this game.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Scry 1. If you committed a crime this turn, instead draw a card, then discard a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample\nWhenever you commit a crime, put a +1/+1 counter on this creature.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Saddle 3 (Tap other creatures you control with total power 3 or more: This creature becomes saddled until end of turn. Activate only as a sorcery.)\nWhenever [THIS] attacks while saddled, you may have it fight target creature you don't control.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Other Outlaws you control get +1/+1 and have trample.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Plot {2}{G} (Pay {2}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (You may plot this from your hand.)",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control gets +2/+2 until end of turn. If you control an outlaw, it also gains trample until end of turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment. If you committed a crime this turn, scry 2.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Put two +1/+1 counters on target creature. It fights up to one target creature you don't control.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If you committed a crime this turn, untap that land.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Plot {1}{G} (Pay {1}{G} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "Spree (Choose one or more. Pay the additional costs of each chosen mode.)\n\u2022 [+{1}] Create a 2/2 green Beast creature token\n\u2022 [+{2}{G}] Put two +1/+1 counters on target creature\n\u2022 [+{2}] You may have target creature you control fight target creature you don't control",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have \"Whenever you commit a crime, put a +1/+1 counter on this creature.\"",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nWhenever you commit a crime, untap enchanted creature.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "Plot {3} (Pay {3} and exile this card from your hand. Cast it on a later turn without paying its mana cost. Plot only as a sorcery.) (Plot this land only as a sorcery.)\n{T}: Add one mana of any color. Activate only if this was plotted this game.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Scry 1. If you committed a crime this turn, instead draw a card, then discard a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast outlaw spells or activate abilities of outlaw sources.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "commander_extras": {
+    "colorless_commander_hooks": [
+      [
+        "At the beginning of your upkeep, put a bounty counter on up to one target creature an opponent controls.\nWhenever a creature with a bounty counter on it dies this turn, create a Treasure token and draw a card.",
+        1,
+        4,
+        6
+      ],
+      [
+        "Whenever an opponent casts their second spell each turn, you may create a Treasure token. If that spell targeted a permanent you control, scry 1.",
+        1,
+        3,
+        5
+      ]
+    ]
+  }
+}

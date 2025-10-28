@@ -1,0 +1,966 @@
+{
+  "name": "nemesis",
+  "description": "A HUGE Nemesis-themed content pack capturing the block’s signature mechanics: Fading, Parallax-style fade-counter activations, Seals (sacrifice enchantments), Rebels & Mercenaries (library chainers), Spellshapers (discard-to-cast), Laccolith combat replacement, Saproling/Myr tokens, and set-flavored utility.",
+  "version": "1.0.0",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{1}{W}, {T}: {LIB_VERB}. for a Rebel permanent card with mana value 2 or less and put it onto the battlefield. Then shuffle.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{2}{W}, {T}: {LIB_VERB}. for a Rebel permanent card with mana value 3 or less and put it onto the battlefield. Then shuffle.",
+          4,
+          3,
+          5
+        ],
+        [
+          "{3}{W}, {T}: {LIB_VERB}. for a Rebel permanent card with mana value 4 or less and put it onto the battlefield. Then shuffle.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Fading 3 (This permanent enters with three fade counters on it. At the beginning of your upkeep, remove a fade counter from it. When you can't, sacrifice it.)",
+          3,
+          3,
+          5
+        ],
+        [
+          "Fading 4\nWhen {THIS} enters the battlefield, create two 1/1 white Rebel creature tokens.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Other Rebels you control get +1/+1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, creatures you control gain vigilance until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Sacrifice {THIS}: Prevent all damage that would be dealt to target creature this turn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Seal — Sacrifice {THIS}: Destroy target artifact or enchantment.\n{SEAL_TAGLINE}",
+          6,
+          2,
+          4
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Target creature gains protection from {C} until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Exile target attacking creature until {THIS} leaves the battlefield.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Creatures can't attack you unless their controller pays {1} for each creature they control that's attacking you.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If it's a Rebel, it gains first strike until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Exile target tapped creature.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creatures you control gain indestructible until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Until end of turn, Rebel creatures you control get +1/+1 and have lifelink.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Rebel creature tokens.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Destroy all tapped creatures.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {2}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Add {C}{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add two mana of different colors.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Rebel or Mercenary spells.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a fade counter on target permanent.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Return target nonland permanent to its owner's hand.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Counter target spell unless its controller pays {X}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Draw two cards, then discard a card.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Flying\nFading 3",
+          3,
+          2,
+          4
+        ],
+        [
+          "{2}{U}, {T}: {LIB_VERB}. for a Rebel permanent card with mana value 2 or less and put it onto the battlefield. Then shuffle.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Exile target land. When {THIS} leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
+          6,
+          4,
+          6
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Tap target permanent. It doesn't untap during its controller's next untap step.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Draw two cards.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Scry {X}, then draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Gain control of target creature with mana value {X} or less until {THIS} leaves the battlefield.",
+          2,
+          5,
+          7
+        ],
+        [
+          "Draw a card for each card you've discarded this turn.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {2}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Add {C}{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add two mana of different colors.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Rebel or Mercenary spells.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a fade counter on target permanent.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{1}{B}, {T}: {LIB_VERB}. for a Mercenary permanent card with mana value 2 or less and put it onto the battlefield. Then shuffle.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{2}{B}, {T}: {LIB_VERB}. for a Mercenary permanent card with mana value 3 or less and put it onto the battlefield. Then shuffle.",
+          4,
+          3,
+          5
+        ],
+        [
+          "{3}{B}, {T}: {LIB_VERB}. for a Mercenary permanent card with mana value 4 or less and put it onto the battlefield. Then shuffle.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Fading 3\nWhen {THIS} enters the battlefield, each opponent loses 2 life and you gain 2 life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Sacrifice another creature: Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever a creature an opponent controls dies, you may pay {B}. If you do, create a 2/2 black Zombie creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Seal — Sacrifice {THIS}: Destroy target nonblack creature.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Exile target creature. When {THIS} leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
+          5,
+          4,
+          6
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Target opponent loses 1 life and you gain 1 life.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Destroy target creature. You lose 2 life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Mercenary creatures you control get +1/+0 and menace until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards two cards.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {2}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Add {C}{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add two mana of different colors.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Rebel or Mercenary spells.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a fade counter on target permanent.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Whenever {THIS} becomes blocked or blocks, you may have it deal damage equal to its power to target creature it's blocking or being blocked by. If you do, {THIS} assigns no combat damage this combat.\n{LACCOLITH_TAGLINE}",
+          6,
+          3,
+          6
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: {THIS} deals 2 damage to any target.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Create two 1/1 red Goblin creature tokens.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Haste\nFading 3",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Seal — Sacrifice {THIS}: {THIS} deals 2 damage to any target.",
+          7,
+          1,
+          3
+        ],
+        [
+          "Fading 4\nAt the beginning of each player's upkeep, that player taps an untapped artifact, creature, or land they control for each fade counter on {THIS}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: {THIS} deals 1 damage to any target for each fade counter on {THIS}.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {X} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact. {THIS} deals 2 damage to that artifact's controller.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens.",
+          3,
+          2,
+          4
+        ],
+        [
+          "{THIS} deals damage to any target equal to the number of cards you've discarded this turn.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {2}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Add {C}{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add two mana of different colors.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Rebel or Mercenary spells.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a fade counter on target permanent.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample\nFading 3",
+          5,
+          4,
+          6
+        ],
+        [
+          "Fading 4\nWhen {THIS} enters the battlefield, create two 1/1 green Saproling creature tokens.",
+          3,
+          4,
+          6
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Target creature gets +3/+3 until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{SPELLSHAPER_COST}, {T}, Discard a card: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{2}{G}, {T}: {LIB_VERB}. for a Rebel permanent card with mana value 2 or less and put it onto the battlefield. Then shuffle.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Seal — Sacrifice {THIS}: Target creature gets +3/+3 until end of turn.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Put a +1/+1 counter on target creature.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Fading 5\nRemove a fade counter from {THIS}: Target creature you control fights up to one target creature you don't control.",
+          2,
+          4,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, create a 1/1 green Saproling creature token. Sacrifice a creature: Put a fade counter on {THIS}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. It gains trample until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create three 1/1 green Saproling creature tokens.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {2}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Fading 4\nRemove a fade counter from {THIS}: Add {C}{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{3}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have ward {1}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add two mana of different colors.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Rebel or Mercenary spells.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a fade counter on target permanent.",
+          2,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Rebel",
+      "Cleric",
+      "Human",
+      "Kor",
+      "Spirit",
+      "Soldier"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Shapeshifter",
+      "Bird",
+      "Cephalid"
+    ],
+    "B": [
+      "Mercenary",
+      "Zombie",
+      "Horror",
+      "Thrull",
+      "Shade",
+      "Human"
+    ],
+    "R": [
+      "Laccolith",
+      "Goblin",
+      "Barbarian",
+      "Elemental",
+      "Ogre",
+      "Human"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Saproling",
+      "Insect",
+      "Fungus",
+      "Wurm"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash",
+      "shroud"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "fear",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof",
+      "shroud"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "At the beginning of your upkeep,",
+      "Whenever {THIS} attacks,",
+      "Whenever a creature you control dies,",
+      "Whenever you cast a spell,",
+      "Whenever {THIS} becomes blocked,",
+      "At the beginning of each player's upkeep,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "your opponents control",
+      "you don't control"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Saproling",
+      "Myr",
+      "Rebel",
+      "Mercenary",
+      "Sliver",
+      "Thrull",
+      "Zombie",
+      "Goblin"
+    ],
+    "TOKEN_COLOR": [
+      "green",
+      "colorless",
+      "white",
+      "black",
+      "red"
+    ],
+    "SPELLSHAPER_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{X}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "PARALLAX_TARGET": [
+      "target creature",
+      "target artifact",
+      "target enchantment",
+      "target nonland permanent",
+      "target tapped creature",
+      "target attacking creature",
+      "target blocking creature"
+    ],
+    "SEAL_TAGLINE": [
+      "It waits and watches, ready to shatter fate.",
+      "A promise etched in aether.",
+      "The power is in the breaking."
+    ],
+    "LACCOLITH_TAGLINE": [
+      "The mountain strikes where it wishes.",
+      "It erupts not from the earth, but from battle itself."
+    ],
+    "LIB_VERB": [
+      "search your library",
+      "recruit from your library",
+      "rally from your library"
+    ],
+    "SMALL_NUMBER": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  }
+}

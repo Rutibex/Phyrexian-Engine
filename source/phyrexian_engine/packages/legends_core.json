@@ -1,0 +1,874 @@
+{
+  "name": "core_legends",
+  "version": "1.0.0",
+  "description": "Comprehensive Core package capturing mechanics and themes from Magic's Legends (1994): bands with other, banding, rampage, poison, world enchantments, gold/legend focus, and iconic global effects.",
+  "credits": {
+    "source_set": "Legends (1994)",
+    "created": "2025-10-26T18:36:46"
+  },
+  "effects_by_color": {
+    "C": {
+      "Creature": [
+        [
+          "Banding (This creature can attack or block in a band with other creatures with banding and up to one without.)",
+          1,
+          2,
+          5
+        ],
+        [
+          "Bands with other {C} legends (Any number of legendary creatures that share a color with this creature can attack or block in a band. You choose how combat damage is assigned to creatures in the band.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "Rampage {N} (Whenever this creature becomes blocked, it gets +{N}/+{N} until end of turn for each creature blocking it beyond the first.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, that player gets a poison counter. (A player with ten or more poison counters loses the game.)",
+          1,
+          2,
+          6
+        ],
+        [
+          "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "Islandwalk (This creature can't be blocked as long as defending player controls an Island.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "Plainswalk (This creature can't be blocked as long as defending player controls a Plains.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)",
+          1,
+          3,
+          6
+        ],
+        [
+          "This spell costs {X} less to cast if you control a legendary permanent.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Other legendary creatures you control get +1/+1.",
+          1,
+          4,
+          6
+        ],
+        [
+          "First strike",
+          1,
+          2,
+          6
+        ],
+        [
+          "Trample",
+          1,
+          4,
+          6
+        ],
+        [
+          "Vigilance",
+          1,
+          3,
+          6
+        ],
+        [
+          "Reach",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent all combat damage that would be dealt this turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Target creature gains banding until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Destroy target nonartifact, nonblack creature. It can't be regenerated.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Tap up to {N} target creatures. They don't untap during their controller's next untap step.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each player may put any number of creature cards from their hand onto the battlefield.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Reveal your hand. Target opponent chooses a nonland card from it. Discard that card. Draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy all enchantments.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Destroy all artifacts.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Search your library for up to {X} basic land cards, reveal them, and put them into your hand. Then shuffle.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — As another world enters the battlefield, sacrifice this. [WORLD_RULE_TEXT]",
+          2,
+          3,
+          6
+        ],
+        [
+          "World — At the beginning of each player's upkeep, that player sacrifices a nonartifact creature.",
+          1,
+          4,
+          6
+        ],
+        [
+          "World — Creatures with flying can't attack.",
+          1,
+          4,
+          6
+        ],
+        [
+          "World — Creatures have haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, instead that player discards a card. If the player does, they draw a card.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Create a 1/1 colorless Snake artifact creature token with \"Whenever this creature deals combat damage to a player, that player gets a poison counter.\"",
+          2,
+          4,
+          7
+        ],
+        [
+          "{T}: Add {MANA_ONE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Put a charge counter on this artifact.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{T}, Remove any number of charge counters from this artifact: Add that much mana in any combination of colors.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Equipped creature has banding and \"Rampage 1\".",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has forestwalk.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has banding.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature can't attack unless its controller pays {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature can't block.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Legendary Land — {LEGEND_GUILDHOUSE_TEXT}",
+          4,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add {MANA_ONE}. {2}, {T}: Target legendary creature gains banding until end of turn.",
+          2,
+          0,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}: Regenerate this creature.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Target creature can't be regenerated this turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Sacrifice this: Destroy target enchantment.",
+          1,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} This creature gains rampage 1 until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "W": {
+      "Creature": [
+        [
+          "Bands with other white legends",
+          2,
+          3,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature attacks, you may tap target creature.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to any number of targets this turn, divided as you choose.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature unless its controller pays {X}.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all black creatures. They can't be regenerated.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Search your library for up to {X} Plains cards, reveal them, and put them into your hand, then shuffle.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — Nonflying creatures can't attack.",
+          1,
+          4,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if an opponent controls more lands than you, you may search your library for up to three basic land cards, reveal them, put them into your hand, then shuffle.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has vigilance.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature has protection from black.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Bands with other blue legends",
+          1,
+          3,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, draw a card, then discard a card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Tap up to {N} target creatures. They don't untap during their controller's next untap step.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each player reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — Players play with the top card of their libraries revealed.",
+          1,
+          3,
+          6
+        ],
+        [
+          "World — Whenever a player casts a creature spell, counter it unless that player pays {2}.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{T}: Tap target creature.\"",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Bands with other black legends",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, that player gets a poison counter.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Rampage 1",
+          1,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, target creature gets -{X}/-{X} until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Destroy target nonartifact creature. It can't be regenerated. You lose {X} life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each player sacrifices a creature.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Search your library for a card, then shuffle and put that card on top.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — At the beginning of each player's upkeep, that player sacrifices a creature.",
+          2,
+          4,
+          7
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, instead that player discards a card. If the player does, they draw a card.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has swampwalk.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature can't block.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Bands with other red legends",
+          1,
+          3,
+          6
+        ],
+        [
+          "First strike",
+          1,
+          2,
+          6
+        ],
+        [
+          "Rampage 2",
+          1,
+          4,
+          7
+        ],
+        [
+          "Whenever this creature attacks, it deals 1 damage to any target.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {X} damage divided as you choose among up to {N} targets.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — Creatures have haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Creatures can't block.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+0 and has first strike.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature attacks each combat if able.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Bands with other green legends",
+          1,
+          3,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          3,
+          7
+        ],
+        [
+          "Rampage 1",
+          1,
+          3,
+          7
+        ],
+        [
+          "This creature can't be blocked by more than one creature.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Reveal cards from the top of your library until you reveal {X} creature cards. Put all creature cards revealed this way into your hand and the rest into your graveyard.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — Creatures with flying lose flying.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has trample.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "WU": {
+      "Creature": [
+        [
+          "Legendary (This creature is legendary in addition to its other types.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "Flying, vigilance",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a legendary spell, scry 1.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World — Players can't cast spells during combat.",
+          1,
+          4,
+          7
+        ]
+      ]
+    },
+    "WB": {
+      "Creature": [
+        [
+          "Legendary",
+          2,
+          3,
+          6
+        ],
+        [
+          "Lifelink",
+          1,
+          3,
+          6
+        ],
+        [
+          "Other legendary creatures you control have vigilance.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "UR": {
+      "Creature": [
+        [
+          "Legendary",
+          1,
+          3,
+          6
+        ],
+        [
+          "Prowess",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, this deals 1 damage to any target.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "BG": {
+      "Creature": [
+        [
+          "Legendary",
+          1,
+          3,
+          6
+        ],
+        [
+          "Deathtouch",
+          1,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, that player gets a poison counter.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "RG": {
+      "Creature": [
+        [
+          "Legendary",
+          1,
+          4,
+          7
+        ],
+        [
+          "Trample, rampage 1",
+          1,
+          4,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Legend",
+      "Angel",
+      "Spirit"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Legend",
+      "Djinn",
+      "Spirit"
+    ],
+    "B": [
+      "Assassin",
+      "Zombie",
+      "Vampire",
+      "Legend",
+      "Demon",
+      "Scorpion"
+    ],
+    "R": [
+      "Barbarian",
+      "Warrior",
+      "Legend",
+      "Dwarf",
+      "Goblin",
+      "Dragon"
+    ],
+    "G": [
+      "Legend",
+      "Beast",
+      "Warrior",
+      "Elf",
+      "Troll",
+      "Cobra"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Snake",
+      "Kobold",
+      "Cleric"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance",
+      "banding"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "menace"
+    ],
+    "R": [
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample"
+    ]
+  },
+  "string_pools": {
+    "WORLD_RULE_TEXT": [
+      "If another world would enter the battlefield, sacrifice this. (Only the most recent world remains.)"
+    ],
+    "ACTIVATED_COST": [
+      "{4}, {T}:",
+      "{3}, {T}:",
+      "{2}, {T}:",
+      "{5}, {T}:"
+    ],
+    "MANA_ONE": [
+      "{C}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "LEGEND_GUILDHOUSE_TEXT": [
+      "{T}: Add {W}. {2}, {T}: White legendary creatures you control gain \"bands with other legends\" until end of turn.",
+      "{T}: Add {U}. {2}, {T}: Blue legendary creatures you control gain \"bands with other legends\" until end of turn.",
+      "{T}: Add {B}. {2}, {T}: Black legendary creatures you control gain \"bands with other legends\" until end of turn.",
+      "{T}: Add {R}. {2}, {T}: Red legendary creatures you control gain \"bands with other legends\" until end of turn.",
+      "{T}: Add {G}. {2}, {T}: Green legendary creatures you control gain \"bands with other legends\" until end of turn."
+    ],
+    "BANDING_REMINDER": [
+      "(Any number of creatures with banding and up to one without can attack in a band. You choose how combat damage is assigned to creatures in the band.)"
+    ]
+  }
+}

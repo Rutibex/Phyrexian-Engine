@@ -1,0 +1,1097 @@
+{
+  "package_name": "torment_superpack",
+  "package_version": "1.0",
+  "package_description": "A very large Torment-themed package emphasising black cards and graveyard/discard mechanics. Includes Madness, Threshold, Flashback, Swamp-matters, -X/-X and life-loss patterns, Cephalids, Zombies, punisher-style choices, and graveyard-as-resource effects. Designed to be mixed with your core pack or used alone.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Threshold — As long as seven or more cards are in your graveyard, this creature gets +{X}/+{X}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, you gain {X} life.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Protection from black.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Swamp.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature blocks or becomes blocked by a black creature, destroy that creature at end of combat.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Madness — You may cast this spell for its madness cost of {X} if you discarded it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature dies, return another target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature can't be blocked by black creatures.",
+          1,
+          2,
+          5
+        ],
+        [
+          "As long as you control another Cleric, this creature has lifelink.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Whenever you gain life, put a +1/+1 counter on this creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of each end step, if you discarded a card this turn, create a 1/1 white Spirit creature token with flying.",
+          1,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, exile target card from a graveyard. If a creature card is exiled this way, you gain {X} life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Threshold — As long as seven or more cards are in your graveyard, this creature has vigilance and lifelink.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking black creature.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If it’s black, you gain {X}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn. Draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Destroy target enchantment.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target player sacrifices an attacking creature unless they pay {X}. If they do, you gain {X} life.",
+          1,
+          2,
+          5
+        ],
+        [
+          "If seven or more cards are in your graveyard, exile target nonland permanent instead.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You gain {X} life and draw a card. Madness {X}.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Spirit creature tokens with flying.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target black creature. You gain {X} life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Threshold — Exile target creature. Its controller creates a 1/1 white Spirit creature token with flying.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Flashback {X} — You may cast this card from your graveyard for its flashback cost. Then exile it.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 as long as you control a Swamp.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever you gain life, each opponent loses 1 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Threshold — At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you discarded a card this turn, create a 1/1 white Spirit creature token with flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever a black creature attacks you, tap it. It doesn’t untap during its controller’s next untap step.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature has vigilance and gets +{X}/+{X}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: You gain 1 life. If seven or more cards are in your graveyard, you gain 2 life instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, {TAP}: Exile target card from a graveyard. Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipment — Equipped creature has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {W}. Threshold — {TAP}: Add {W}{W} instead. Activate only if seven or more cards are in your graveyard.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever this creature deals combat damage to a player, that player mills {X} cards.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Cephalid syphon — Whenever you discard a card, target player mills two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature can’t be blocked as long as defending player has {X} or more cards in their graveyard.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Madness — You may cast this spell for its madness cost of {X} if you discarded it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, draw a card, then discard a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Threshold — This creature has flying and hexproof as long as seven or more cards are in your graveyard.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a spell from your graveyard, scry 2.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap target creature. It doesn’t untap during its controller’s next untap step.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If a card was discarded this turn, counter that spell instead.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target creature to its owner’s hand. If that creature is black, draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to two target creatures. Those creatures don’t untap during their controller’s next untap step.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target player mills {X} cards. Madness {X}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Draw two cards, then discard a card. If seven or more cards are in your graveyard, instead draw three cards, then discard a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards, then discard a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell. Flashback {X}.",
+          1,
+          6,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner’s hand. Flashback {X}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Threshold — Until your next turn, creatures can’t attack you unless their controller pays {X} for each creature.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you discard one or more cards, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, mill two cards, then you may return target instant or sorcery card from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0. If a player discarded a card this turn, those creatures get -2/-0 instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature has “Whenever this creature deals combat damage to a player, draw a card.”",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {TAP}: Draw a card, then discard a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a spell from your graveyard, put a charge counter on this artifact. {TAP}, Remove three counters: Draw two cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipment — Equipped creature has “Whenever this creature deals combat damage to a player, that player mills {X}.” Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {U}. {2}, {TAP}: Mill two cards, then draw a card, then discard a card.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "When this creature enters the battlefield, each opponent loses {X} life and you gain {X} life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Madness — You may cast this spell for its madness cost of {X} if you discarded it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you discard a card, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Threshold — This creature gets +2/+2 and has “{TAP}: Target player loses 1 life.” as long as seven or more cards are in your graveyard.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, target player sacrifices a creature.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, Discard a card: Target creature gets -2/-2 until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "This creature can’t be blocked except by artifact creatures and/or black creatures.",
+          3,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may return target creature card from your graveyard to your hand.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, each opponent loses 1 life and you gain 1 life.",
+          4,
+          2,
+          6
+        ],
+        [
+          "If you control a Swamp, this creature gets +{X}/+{X}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a spell from your graveyard, create a 2/2 black Zombie creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When this creature dies, return it to the battlefield tapped with a -1/-1 counter on it.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Destroy target nonblack creature. You lose {X} life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Target player sacrifices a creature. Madness {X}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          3,
+          1,
+          4
+        ],
+        [
+          "If seven or more cards are in your graveyard, return target creature card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Until end of turn, whenever a creature dies, its controller loses 1 life and you gain 1 life. Draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature. Flashback {X}.",
+          5,
+          4,
+          6
+        ],
+        [
+          "Target creature gets -X/-X until end of turn. You draw a card.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          3,
+          5,
+          6
+        ],
+        [
+          "Search your library for a Swamp card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target player discards two cards. Madness {X}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Threshold — Each opponent loses 2 life and you gain 2 life. Draw a card.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an opponent discards a card, that player loses 1 life and you gain 1 life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-1 as long as you control a Swamp.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may pay {X}. If you do, return target creature card with mana value {X} or less from your graveyard to the battlefield.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +2/+1 and has “This creature can’t be blocked except by artifact creatures and/or black creatures.”",
+          3,
+          2,
+          6
+        ],
+        [
+          "Threshold — At the beginning of each end step, if a creature died this turn, each opponent loses 1 life and you gain 1 life.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {TAP}: Target player discards a card. Activate only as a sorcery.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever you discard a card, put a charge counter on this artifact. Remove three counters: Target player sacrifices a creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +1/+0 and has menace. Whenever it deals combat damage to a player, that player discards a card. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {B}. {2}, {TAP}: Target player loses 1 life and you gain 1 life. If seven or more cards are in your graveyard, that player loses 2 life instead.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Madness — You may cast this spell for its madness cost of {X} if you discarded it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Haste",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, it deals {X} damage to any target.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you discard a card, this creature deals 1 damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Threshold — This creature gets +2/+0 and has first strike as long as seven or more cards are in your graveyard.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, Discard a card: Draw a card, then this creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature can’t block.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever you cast a spell from your graveyard, this creature gets +1/+0 until end of turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Target creature can’t block this turn. Draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Discard a card: This spell deals 2 damage to any target. Madness {X}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact. Flashback {X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Until end of turn, whenever a player discards a card, this spell deals 1 damage to any target.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {X} damage divided as you choose among up to {X} targets.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Each player discards a card at random, then this spell deals damage to each creature without flying.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Target player sacrifices an artifact or takes {X} damage.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 red Devil creature tokens with “When this creature dies, it deals 1 damage to any target.”",
+          2,
+          3,
+          6
+        ],
+        [
+          "Flashback {X} — You may cast this card from your graveyard for its flashback cost. Then exile it.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you discard a card, this enchantment deals 1 damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have haste as long as you have seven or more cards in your graveyard.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, discard a card, then draw a card. Whenever you discard a card this way, this enchantment deals 1 damage to any target.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +2/+0 and has “Discard a card: This creature deals 1 damage to any target.”",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {TAP}: Discard a card, then draw a card. This artifact deals 1 damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +2/+0 and haste. Whenever you discard a card, put a +1/+1 counter on equipped creature. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This artifact deals 1 damage to any target. If seven or more cards are in your graveyard, it deals 2 damage instead.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {R}. {R}, {TAP}: This land deals 1 damage to any target. Activate only if you discarded a card this turn.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Threshold — This creature gets +3/+3 as long as seven or more cards are in your graveyard.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature card is put into your graveyard from anywhere, you gain 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, mill three cards, then return a land card from your graveyard to your hand.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Madness — You may cast this spell for its madness cost of {X} if you discarded it.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has reach as long as seven or more cards are in your graveyard.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Sacrifice another creature: This creature gets +2/+2 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a creature spell from your graveyard, put a +1/+1 counter on this creature.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If seven or more cards are in your graveyard, that creature gains trample until end of turn.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. Flashback {X}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target player mills three cards. You may put a land card from your graveyard onto the battlefield tapped.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put {X} +1/+1 counters on target creature. That creature fights up to one target creature you don’t control if you have seven or more cards in your graveyard.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Create a 4/4 green Beast creature token. Flashback {X}.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature or land card from your graveyard to the battlefield.",
+          2,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, mill a card, then you may return a creature card from your graveyard to your hand.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 as long as there are seven or more cards in your graveyard.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +3/+3 and has trample. When enchanted creature dies, return it to its owner’s hand.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {TAP}: Add one mana of any color. If a creature card was put into your graveyard this turn, add two mana of any one color instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +1/+1 and has trample. Whenever a creature card enters your graveyard from anywhere, put a +1/+1 counter on equipped creature. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {G}. Threshold — Creatures you control have trample as long as seven or more cards are in your graveyard.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {TAP}: Mill a card, then add one mana of any color.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, {TAP}: Exile target card from a graveyard. If a creature card is exiled this way, draw a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you discard a card, put a charge counter on this artifact. Remove three counters: Add {B}{B}{B}.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +1/+0 and has “Discard a card: This creature gets +1/+0 until end of turn.” Equip {EQUIP_COST}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {C}. {2}, {TAP}: Mill two cards. If seven or more cards are in your graveyard, instead draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{TAP}: Add {C}. {2}, {TAP}: Exile target card from a graveyard. Each opponent loses 1 life.",
+          1,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Angel",
+      "Nomad",
+      "Spirit",
+      "Soldier",
+      "Kithkin"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Cephalid",
+      "Spirit",
+      "Illusion",
+      "Merfolk",
+      "Horror"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Minion",
+      "Horror",
+      "Nightmare",
+      "Cleric",
+      "Vampire"
+    ],
+    "R": [
+      "Human",
+      "Barbarian",
+      "Devil",
+      "Goblin",
+      "Beast",
+      "Shaman",
+      "Elemental"
+    ],
+    "G": [
+      "Human",
+      "Druid",
+      "Centaur",
+      "Beast",
+      "Wurm",
+      "Spider",
+      "Treefolk"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When this creature enters the battlefield, ",
+      "At the beginning of your upkeep, ",
+      "Whenever you discard a card, ",
+      "Whenever a creature dies, "
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own"
+    ],
+    "CREATURE_TRIGGER": [
+      "this creature gets +1/+1 until end of turn.",
+      "draw a card.",
+      "target player loses 1 life and you gain 1 life."
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{1}, Pay 1 life",
+      "{B}",
+      "{U}",
+      "{R}",
+      "{G}",
+      "{3}",
+      "{2}, Discard a card"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{B}",
+      "{2}{B}",
+      "{3}"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Zombie",
+      "Spirit",
+      "Cephalid",
+      "Beast",
+      "Insect",
+      "Horror",
+      "Devil"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "SAC_CHOICE": [
+      "sacrifices a creature",
+      "discards a card",
+      "loses 3 life"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward 1"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "color_theme_weights": {
+    "W": 0.9,
+    "U": 1.0,
+    "B": 1.5,
+    "R": 1.1,
+    "G": 1.0
+  }
+}

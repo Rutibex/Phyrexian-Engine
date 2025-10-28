@@ -1,0 +1,1720 @@
+{
+  "name": "planeshift",
+  "version": "1.0.0",
+  "description": "A HUGE Planeshift-themed package with Kicker, Gating, Battlemages, Volvers, Slivers, Lairs, Charms, Domain, Familiars, and color-matters.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} return a [GATING_COLOR_WORD] creature {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return another [GATING_COLOR_WORD] permanent {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\n{TRIGGER_INTRO} if the first kicker was paid, destroy target tapped creature.\n{TRIGGER_INTRO} if the second kicker was paid, you gain 4 life and draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\nIf the first kicker was paid, {SELF} enters with two [COUNTER_KIND] counters on it and gains lifelink.\nIf the second kicker was paid, {SELF} enters with a [COUNTER_KIND] counter on it and gains trample and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have haste.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: Add one mana of any color.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: This creature deals 1 damage to any target.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Whenever a Sliver enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Sliver creatures you control have hexproof.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spells you cast that are blue or green cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creature spells you cast that are blue or green cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Kavu that gets +1/+1 as long as you control a [PROTECTED_COLOR] permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to two target creatures.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} CARDNAME deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flying. {TRIGGER_INTRO} return target creature to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Domain \u2014 Target creature gets +{X}/+{X} until end of turn, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 CARDNAME deals X damage to any target, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, it gains trample until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_W].\nCARDNAME deals 3 damage to any target. If this spell was kicked, CARDNAME deals 5 damage instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from [PROTECTED_COLOR] until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "CARDNAME deals 2 damage to each [PROTECTED_COLOR] creature.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Domain \u2014 Draw X cards, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 You gain X life, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 Create X 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_LOW].\nDestroy target artifact. If this spell was kicked, destroy target enchantment.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_W].\nExile target tapped creature. If this spell was kicked, exile up to one untapped creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker \u2014 Sacrifice a creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, search for up to two basic land cards instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Destroy target [PROTECTED_COLOR] permanent.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} get +1/+1 as long as you control a permanent of each of two colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control five or more basic land types, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, you gain 1 life.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Spells you cast with kicker cost {1} less to cast.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice CARDNAME: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {U}, {B}, or {R}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {B}, {R}, or {G}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {R}, {G}, or {W}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {G}, {W}, or {U}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "CARDNAME doesn't untap during your untap step.\nAt the beginning of your upkeep, you may exile a card from your hand. If you do, untap CARDNAME.\n{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Choose a color of a permanent you control. Add one mana of that color.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} return a [GATING_COLOR_WORD] creature {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return another [GATING_COLOR_WORD] permanent {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\n{TRIGGER_INTRO} if the first kicker was paid, counter target spell unless its controller pays {2}.\n{TRIGGER_INTRO} if the second kicker was paid, draw two cards, then discard a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\nIf the first kicker was paid, {SELF} enters with two [COUNTER_KIND] counters on it and gains lifelink.\nIf the second kicker was paid, {SELF} enters with a [COUNTER_KIND] counter on it and gains trample and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have haste.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: Add one mana of any color.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: This creature deals 1 damage to any target.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Whenever a Sliver enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Sliver creatures you control have hexproof.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spells you cast that are white or black cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creature spells you cast that are white or black cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Kavu that gets +1/+1 as long as you control a [PROTECTED_COLOR] permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to two target creatures.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} CARDNAME deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flying. {TRIGGER_INTRO} return target creature to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Domain \u2014 Target creature gets +{X}/+{X} until end of turn, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 CARDNAME deals X damage to any target, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, it gains trample until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_U].\nCARDNAME deals 3 damage to any target. If this spell was kicked, CARDNAME deals 5 damage instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from [PROTECTED_COLOR] until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "CARDNAME deals 2 damage to each [PROTECTED_COLOR] creature.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Domain \u2014 Draw X cards, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 You gain X life, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 Create X 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_LOW].\nDestroy target artifact. If this spell was kicked, destroy target enchantment.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_U].\nExile target tapped creature. If this spell was kicked, exile up to one untapped creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker \u2014 Sacrifice a creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, search for up to two basic land cards instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Destroy target [PROTECTED_COLOR] permanent.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} get +1/+1 as long as you control a permanent of each of two colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control five or more basic land types, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, scry 1.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Spells you cast with kicker cost {1} less to cast.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice CARDNAME: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {U}, {B}, or {R}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {B}, {R}, or {G}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {R}, {G}, or {W}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {G}, {W}, or {U}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "CARDNAME doesn't untap during your untap step.\nAt the beginning of your upkeep, you may exile a card from your hand. If you do, untap CARDNAME.\n{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Choose a color of a permanent you control. Add one mana of that color.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} return a [GATING_COLOR_WORD] creature {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return another [GATING_COLOR_WORD] permanent {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\n{TRIGGER_INTRO} if the first kicker was paid, target player discards two cards.\n{TRIGGER_INTRO} if the second kicker was paid, destroy target nonblack creature.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\nIf the first kicker was paid, {SELF} enters with two [COUNTER_KIND] counters on it and gains lifelink.\nIf the second kicker was paid, {SELF} enters with a [COUNTER_KIND] counter on it and gains trample and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have haste.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: Add one mana of any color.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: This creature deals 1 damage to any target.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Whenever a Sliver enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Sliver creatures you control have hexproof.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spells you cast that are blue or red cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creature spells you cast that are blue or red cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Kavu that gets +1/+1 as long as you control a [PROTECTED_COLOR] permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to two target creatures.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} CARDNAME deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flying. {TRIGGER_INTRO} return target creature to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Domain \u2014 Target creature gets +{X}/+{X} until end of turn, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 CARDNAME deals X damage to any target, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, it gains trample until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_B].\nCARDNAME deals 3 damage to any target. If this spell was kicked, CARDNAME deals 5 damage instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from [PROTECTED_COLOR] until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "CARDNAME deals 2 damage to each [PROTECTED_COLOR] creature.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Domain \u2014 Draw X cards, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 You gain X life, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 Create X 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_LOW].\nDestroy target artifact. If this spell was kicked, destroy target enchantment.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_B].\nExile target tapped creature. If this spell was kicked, exile up to one untapped creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker \u2014 Sacrifice a creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, search for up to two basic land cards instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Destroy target [PROTECTED_COLOR] permanent.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} get +1/+1 as long as you control a permanent of each of two colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control five or more basic land types, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, CARDNAME deals 1 damage to any target.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Spells you cast with kicker cost {1} less to cast.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice CARDNAME: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {U}, {B}, or {R}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {B}, {R}, or {G}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {R}, {G}, or {W}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {G}, {W}, or {U}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "CARDNAME doesn't untap during your untap step.\nAt the beginning of your upkeep, you may exile a card from your hand. If you do, untap CARDNAME.\n{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Choose a color of a permanent you control. Add one mana of that color.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} return a [GATING_COLOR_WORD] creature {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return another [GATING_COLOR_WORD] permanent {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\n{TRIGGER_INTRO} if the first kicker was paid, CARDNAME deals 3 damage to any target.\n{TRIGGER_INTRO} if the second kicker was paid, create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\nIf the first kicker was paid, {SELF} enters with two [COUNTER_KIND] counters on it and gains lifelink.\nIf the second kicker was paid, {SELF} enters with a [COUNTER_KIND] counter on it and gains trample and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have haste.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: Add one mana of any color.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: This creature deals 1 damage to any target.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Whenever a Sliver enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Sliver creatures you control have hexproof.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spells you cast that are black or green cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creature spells you cast that are black or green cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Kavu that gets +1/+1 as long as you control a [PROTECTED_COLOR] permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to two target creatures.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} CARDNAME deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flying. {TRIGGER_INTRO} return target creature to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Domain \u2014 Target creature gets +{X}/+{X} until end of turn, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 CARDNAME deals X damage to any target, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, it gains trample until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_R].\nCARDNAME deals 3 damage to any target. If this spell was kicked, CARDNAME deals 5 damage instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from [PROTECTED_COLOR] until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "CARDNAME deals 2 damage to each [PROTECTED_COLOR] creature.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Domain \u2014 Draw X cards, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 You gain X life, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 Create X 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_LOW].\nDestroy target artifact. If this spell was kicked, destroy target enchantment.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_R].\nExile target tapped creature. If this spell was kicked, exile up to one untapped creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker \u2014 Sacrifice a creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, search for up to two basic land cards instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Destroy target [PROTECTED_COLOR] permanent.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} get +1/+1 as long as you control a permanent of each of two colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control five or more basic land types, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, draw a card, then discard a card.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Spells you cast with kicker cost {1} less to cast.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice CARDNAME: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {U}, {B}, or {R}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {B}, {R}, or {G}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {R}, {G}, or {W}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {G}, {W}, or {U}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "CARDNAME doesn't untap during your untap step.\nAt the beginning of your upkeep, you may exile a card from your hand. If you do, untap CARDNAME.\n{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Choose a color of a permanent you control. Add one mana of that color.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} return a [GATING_COLOR_WORD] creature {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return another [GATING_COLOR_WORD] permanent {CREATURE_CONTROLLER} to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\n{TRIGGER_INTRO} if the first kicker was paid, destroy target artifact or enchantment.\n{TRIGGER_INTRO} if the second kicker was paid, tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Kicker [KICKER_COST_OFFCOLOR_A] and/or [KICKER_COST_OFFCOLOR_B].\nIf the first kicker was paid, {SELF} enters with two [COUNTER_KIND] counters on it and gains lifelink.\nIf the second kicker was paid, {SELF} enters with a [COUNTER_KIND] counter on it and gains trample and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have flying.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have haste.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have vigilance.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: Add one mana of any color.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers have \"{T}: This creature deals 1 damage to any target.\"",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: All Slivers get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Whenever a Sliver enters the battlefield under your control, draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Sliver creatures you control and other Slivers get: Sliver creatures you control have hexproof.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spells you cast that are red or white cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creature spells you cast that are red or white cost {1} less to cast.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Kavu that gets +1/+1 as long as you control a [PROTECTED_COLOR] permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} tap up to two target creatures.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} CARDNAME deals 2 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flying. {TRIGGER_INTRO} return target creature to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Domain \u2014 Target creature gets +{X}/+{X} until end of turn, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 CARDNAME deals X damage to any target, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nReturn target nonland permanent to its owner's hand. If this spell was kicked, draw a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_MID].\nTarget creature gets +3/+3 until end of turn. If this spell was kicked, it gains trample until end of turn.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_G].\nCARDNAME deals 3 damage to any target. If this spell was kicked, CARDNAME deals 5 damage instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from [PROTECTED_COLOR] until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "CARDNAME deals 2 damage to each [PROTECTED_COLOR] creature.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Domain \u2014 Draw X cards, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 You gain X life, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain \u2014 Create X 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, where X is the number of basic land types among lands you control.. (Count the basic land types among lands you control.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_GENERIC_LOW].\nDestroy target artifact. If this spell was kicked, destroy target enchantment.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker [KICKER_COST_G].\nExile target tapped creature. If this spell was kicked, exile up to one untapped creature.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Kicker \u2014 Sacrifice a creature.\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle. If this spell was kicked, search for up to two basic land cards instead.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Destroy target [PROTECTED_COLOR] permanent.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} get +1/+1 as long as you control a permanent of each of two colors.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control five or more basic land types, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a kicked spell, scry 1.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Spells you cast with kicker cost {1} less to cast.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice CARDNAME: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {W}, {U}, or {B}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {U}, {B}, or {R}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {B}, {R}, or {G}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {R}, {G}, or {W}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "When {SELF} enters the battlefield, sacrifice it unless you return a non-Lair land you control to its owner's hand.\n{T}: Add {G}, {W}, or {U}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "CARDNAME doesn't untap during your untap step.\nAt the beginning of your upkeep, you may exile a card from your hand. If you do, untap CARDNAME.\n{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Choose a color of a permanent you control. Add one mana of that color.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "string_pools": {
+    "KICKER_COST_GENERIC_LOW": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "KICKER_COST_GENERIC_MID": [
+      "{2}",
+      "{3}",
+      "{4}",
+      "{5}"
+    ],
+    "KICKER_COST_GENERIC_HIGH": [
+      "{4}",
+      "{5}",
+      "{6}"
+    ],
+    "KICKER_COST_W": [
+      "{W}",
+      "{1}{W}",
+      "{W}{W}"
+    ],
+    "KICKER_COST_U": [
+      "{U}",
+      "{1}{U}",
+      "{U}{U}"
+    ],
+    "KICKER_COST_B": [
+      "{B}",
+      "{1}{B}",
+      "{B}{B}"
+    ],
+    "KICKER_COST_R": [
+      "{R}",
+      "{1}{R}",
+      "{R}{R}"
+    ],
+    "KICKER_COST_G": [
+      "{G}",
+      "{1}{G}",
+      "{G}{G}"
+    ],
+    "KICKER_COST_OFFCOLOR_A": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "KICKER_COST_OFFCOLOR_B": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "GATING_COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "MODE_SEP": [
+      "\n\u2014 ",
+      "\n\u2022 ",
+      "\n\u2014 "
+    ],
+    "CHARM_OPEN": [
+      "Choose one \u2014",
+      "Choose one. \u2014",
+      "Choose one \u2014"
+    ],
+    "TRIGGER_INTRO": [
+      "When {SELF} enters the battlefield,",
+      "When {SELF} enters,",
+      "When {SELF} ETBs,"
+    ],
+    "ETB_VERB": [
+      "return",
+      "bounce",
+      "put"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "under your control"
+    ],
+    "OTHER_CREATURE_REF": [
+      "another target creature",
+      "target creature"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Saproling",
+      "Kavu",
+      "Soldier",
+      "Illusion",
+      "Zombie",
+      "Drake"
+    ],
+    "TOKEN_COLOR": [
+      "green",
+      "white",
+      "blue",
+      "black",
+      "red"
+    ],
+    "COUNTER_KIND": [
+      "+1/+1",
+      "+1/+1",
+      "+1/+1"
+    ],
+    "PROTECTED_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Knight",
+      "Soldier",
+      "Cleric",
+      "Bird",
+      "Cat",
+      "Kavu",
+      "Sliver",
+      "Human"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Drake",
+      "Bird",
+      "Kavu",
+      "Sliver",
+      "Human"
+    ],
+    "B": [
+      "Zombie",
+      "Imp",
+      "Cleric",
+      "Minion",
+      "Sliver",
+      "Kavu",
+      "Human"
+    ],
+    "R": [
+      "Kavu",
+      "Goblin",
+      "Barbarian",
+      "Shaman",
+      "Sliver",
+      "Dragon",
+      "Human"
+    ],
+    "G": [
+      "Kavu",
+      "Elf",
+      "Druid",
+      "Beast",
+      "Insect",
+      "Sliver",
+      "Human"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "protection from [PROTECTED_COLOR]"
+    ],
+    "U": [
+      "flying",
+      "hexproof (from spells)"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "notes": "This package focuses on Planeshift (2001) mechanics and themes. Charms are represented as modal-style effects. Domain appears as non-keyworded scaling. Lairs and a few iconic lands are included."
+}

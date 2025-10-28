@@ -1,0 +1,751 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "{HAUNT_ON_CAST}\nEach opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          1,
+          5
+        ],
+        [
+          "{HAUNT_ON_CAST}\nCreate a 1/1 white Spirit creature token with flying.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{HAUNT_ON_CAST}\nEach opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          1,
+          5
+        ],
+        [
+          "{HAUNT_ON_CAST}\nCreate a 1/1 white Spirit creature token with flying.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{HAUNT_ON_DIE}\nWhen {this} enters the battlefield, Each opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          3,
+          2,
+          5
+        ],
+        [
+          "{HAUNT_ON_DIE}\nWhen {this} enters the battlefield, Return target creature card with mana value 2 or less from your graveyard to your hand.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever {this} attacks, create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token tapped and attacking for each creature defending player controls.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a spell, draw a card, then discard a card.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} deals combat damage to a player, you may return target nonland permanent to its owner's hand.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on {this}.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} becomes blocked, it deals 1 damage to each creature blocking it.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature {CREATURE_CONTROLLER} dies, Each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": []
+    },
+    "U": {
+      "Instant": [
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nCounter target spell unless its controller pays {2}.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nTap up to two target creatures. They don't untap during their controller's next untap step.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nReturn target nonland permanent to its owner's hand.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nScry 2, then draw a card.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDraw a card.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nChoose one \u2014\n\u2022 Counter target noncreature spell unless its controller pays {2}.\n\u2022 Return target creature to its owner's hand.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nCounter target spell unless its controller pays {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nTap up to two target creatures. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nReturn target nonland permanent to its owner's hand.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nScry 2, then draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDraw a card.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever {this} attacks, create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token tapped and attacking for each creature defending player controls.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a spell, draw a card, then discard a card.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} deals combat damage to a player, you may return target nonland permanent to its owner's hand.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on {this}.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} becomes blocked, it deals 1 damage to each creature blocking it.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an instant or sorcery spell, you may draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has prowess and \"{ACTIVATED_COST} {ACTIVATED_EFFECT}\"",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": []
+    },
+    "B": {
+      "Instant": [
+        [
+          "{HAUNT_ON_CAST}\nEach opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          1,
+          5
+        ],
+        [
+          "{HAUNT_ON_CAST}\nCreate a 1/1 white Spirit creature token with flying.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{HAUNT_ON_CAST}\nEach opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          1,
+          5
+        ],
+        [
+          "{HAUNT_ON_CAST}\nCreate a 1/1 white Spirit creature token with flying.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{HAUNT_ON_DIE}\nWhen {this} enters the battlefield, Each opponent loses 1 life and you gain 1 life.\n{HAUNT_DEATH_EFFECT}",
+          3,
+          2,
+          5
+        ],
+        [
+          "{HAUNT_ON_DIE}\nWhen {this} enters the battlefield, Return target creature card with mana value 2 or less from your graveyard to your hand.\n{HAUNT_DEATH_EFFECT}",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever {this} attacks, create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token tapped and attacking for each creature defending player controls.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a spell, draw a card, then discard a card.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} deals combat damage to a player, you may return target nonland permanent to its owner's hand.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on {this}.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} becomes blocked, it deals 1 damage to each creature blocking it.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a nontoken creature {CREATURE_CONTROLLER} dies, return target creature card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has menace.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": []
+    },
+    "R": {
+      "Instant": [
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDestroy target artifact.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\n{this} deals 2 damage to any target.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nTarget creature can't block this turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nCreate a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token. It gains haste until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDiscard a card, then draw a card.",
+          2,
+          1,
+          5
+        ],
+        [
+          "{this} deals 1 damage to any target.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDestroy target artifact.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\n{this} deals 2 damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nTarget creature can't block this turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nCreate a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token. It gains haste until end of turn.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nDiscard a card, then draw a card.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Replicate {REPLICATE_COST} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)\nChoose one \u2014\n\u2022 {this} deals 2 damage to any target.\n\u2022 Destroy target artifact.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 and gain haste until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with 1 +1/+1 counter(s) on it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with 2 +1/+1 counter(s) on it.)",
+          1,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with 3 +1/+1 counter(s) on it.)",
+          0,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the total damage your opponents have been dealt this turn.)",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} attacks, create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token tapped and attacking for each creature defending player controls.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a spell, draw a card, then discard a card.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} deals combat damage to a player, you may return target nonland permanent to its owner's hand.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on {this}.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} becomes blocked, it deals 1 damage to each creature blocking it.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an instant or sorcery spell, {this} deals 1 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+0.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has haste.\nEquip {EQUIP_COST}",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": []
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [],
+      "Creature": [
+        [
+          "Bloodthirst 1 (If an opponent was dealt damage this turn, this creature enters the battlefield with 1 +1/+1 counter(s) on it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst 2 (If an opponent was dealt damage this turn, this creature enters the battlefield with 2 +1/+1 counter(s) on it.)",
+          1,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst 3 (If an opponent was dealt damage this turn, this creature enters the battlefield with 3 +1/+1 counter(s) on it.)",
+          0,
+          2,
+          5
+        ],
+        [
+          "Bloodthirst X (This creature enters the battlefield with X +1/+1 counters on it, where X is the total damage your opponents have been dealt this turn.)",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} attacks, create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token tapped and attacking for each creature defending player controls.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a spell, draw a card, then discard a card.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} deals combat damage to a player, you may return target nonland permanent to its owner's hand.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on {this}.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Whenever {this} becomes blocked, it deals 1 damage to each creature blocking it.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have trample.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2 and has trample.\nEquip {EQUIP_COST}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Creature": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any of two different colors.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Add one mana of any color.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add {C}.\n{this} enters the battlefield tapped.\nWhen {this} enters the battlefield, scry 1.",
+          2,
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Spirit",
+      "Advisor",
+      "Cleric"
+    ],
+    "U": [
+      "Weird",
+      "Wizard"
+    ],
+    "B": [
+      "Spirit",
+      "Advisor",
+      "Thrull"
+    ],
+    "R": [
+      "Weird",
+      "Ogre",
+      "Shaman",
+      "Berserker"
+    ],
+    "G": [
+      "Warrior",
+      "Beast",
+      "Ogre"
+    ],
+    "any": [
+      "Nephilim",
+      "Elemental"
+    ]
+  },
+  "string_pools": {
+    "REPLICATE_COST": [
+      "{U}",
+      "{1}{U}",
+      "{2}{U}",
+      "{R}",
+      "{1}{R}",
+      "{2}{R}",
+      "{1}{U/R}",
+      "{U/R}"
+    ],
+    "BLOODTHIRST_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "HAUNT_ON_CAST": [
+      "Haunt (When this spell resolves, exile it haunting target creature.)"
+    ],
+    "HAUNT_ON_DIE": [
+      "Haunt (When this creature dies, exile it haunting target creature.)"
+    ],
+    "HAUNT_DEATH_EFFECT": [
+      "When the creature it haunts dies, [HAUNT_DEATH_PAYOFF]"
+    ],
+    "HAUNT_DEATH_PAYOFF": [
+      "target opponent loses 1 life and you gain 1 life.",
+      "return target creature card with mana value 2 or less from your graveyard to your hand.",
+      "create a 1/1 white Spirit creature token with flying.",
+      "exile target card from a graveyard."
+    ],
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "enters the battlefield",
+      "dies",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Spirit",
+      "Goblin",
+      "Elemental",
+      "Ogre",
+      "Weird",
+      "Homunculus",
+      "Saproling",
+      "Zombie"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{3}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{3}, {T}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "Discard a card, then draw a card.",
+      "Add {C}.",
+      "Target creature gets +1/+0 until end of turn.",
+      "Target creature gains haste until end of turn.",
+      "Target creature can't block this turn."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "prowess"
+    ],
+    "B": [
+      "deathtouch",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  }
+}

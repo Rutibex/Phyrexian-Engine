@@ -1,0 +1,938 @@
+{
+  "name": "kamigawa_neon_dynasty",
+  "display_name": "Kamigawa: Neon Dynasty (Comprehensive)",
+  "description": "Extensive templates covering NEO mechanics: Modified, Reconfigure, Ninjutsu, Channel, Sagas that transform, Vehicles & Pilots, Shrines, Artifact synergies, Samurai attack-alone rewards, and Ninja combat-damage triggers.",
+  "effects_by_color": {
+    "W": {
+      "Artifact": [
+        [
+          "Reconfigure {X} ({X}: Attach to target creature you control; or unattach this creature. Reconfigure only as a sorcery.)\nEquipped creature gets +{X}/+{X}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "This artifact is also a creature while it\u2019s reconfigured.\nReconfigure {X}\nEquipped creature has vigilance and \"{T}: Add {X}.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace and gets +{X}/+0.\nReconfigure {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach.\nReconfigure {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever this Vehicle attacks, it gets +{X}/+0 until end of turn for each modified creature you control.\nCrew {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhen this enters the battlefield, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew {X}",
+          5,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever one or more Vehicles you control attack, scry {X}.\nCrew {X}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Channel \u2014 Discard this card: Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Artifact Vehicle\nLifelink\nCrew {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\" This ability triggers only once each turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a Treasure token.\n{T}, Sacrifice an artifact: Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as this creature is modified, it gets +{X}/+{X}. (Equipment, Auras you control, and counters are modifications.)",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control attacks, {EFFECT_CHOICE}. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Whenever this or another Samurai or Warrior you control attacks alone, tap up to one target creature. It doesn\u2019t untap during its controller\u2019s next untap step.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Whenever a creature you control becomes modified, gain {X} life.",
+          5,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature you control. It gains trample until end of turn. It becomes modified. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Channel \u2014 Discard this card: Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create {X} 2/2 [TOKEN_COLOR] Samurai creature tokens with vigilance.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a Samurai or Warrior you control attacks alone, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"",
+          3,
+          3,
+          5
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 {SAGA_I}\nII \u2014 {SAGA_II}\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+          8,
+          3,
+          5
+        ],
+        [
+          "Legendary Enchantment Creature \u2014 Shrine\nAt the beginning of your end step, you may pay {X}. When you do, {SHRINE_EFFECT} for each Shrine you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1. Modified creatures you control get an additional +1/+1.",
+          4,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Channel \u2014 Discard this card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Exile target tapped creature. Scry {X}.",
+          5,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield untapped.\n{T}: Add {W}.\nChannel \u2014 {X}{W}: Create two 2/2 [TOKEN_COLOR] Samurai creature tokens with vigilance.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\n(This makes it modified.)",
+          6,
+          2,
+          4
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, put {X} +1/+1 counters on enchanted creature.\nEnchanted creature has trample.\n(This makes it modified.)",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {X}\" and \"{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.\"\n(This makes it modified.)",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Artifact": [
+        [
+          "Reconfigure {X} ({X}: Attach to target creature you control; or unattach this creature. Reconfigure only as a sorcery.)\nEquipped creature gets +{X}/+{X}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "This artifact is also a creature while it\u2019s reconfigured.\nReconfigure {X}\nEquipped creature has vigilance and \"{T}: Add {X}.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace and gets +{X}/+0.\nReconfigure {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach.\nReconfigure {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever this Vehicle attacks, it gets +{X}/+0 until end of turn for each modified creature you control.\nCrew {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhen this enters the battlefield, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew {X}",
+          5,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever one or more Vehicles you control attack, scry {X}.\nCrew {X}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Channel \u2014 Discard this card: Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, scry {X}.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\" This ability triggers only once each turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a Treasure token.\n{T}, Sacrifice an artifact: Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as this creature is modified, it gets +{X}/+{X}. (Equipment, Auras you control, and counters are modifications.)",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control attacks, {EFFECT_CHOICE}. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Ninjutsu {X}\nWhenever this deals combat damage to a player, draw a card.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Ninjutsu {X}\nWhenever this deals combat damage to a player, return up to one target nonland permanent to its owner\u2019s hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever a Ninja or Rogue you control deals combat damage to a player, draw a card.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature you control. It gains trample until end of turn. It becomes modified. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Channel \u2014 Discard this card: Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Look at the top {X} cards of your library. Put one into your hand and the rest on the bottom in any order.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Channel \u2014 Discard this card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a modified creature, draw a card.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Return target creature you control to its owner\u2019s hand. It gains \"This spell can\u2019t be blocked this turn.\" until end of turn.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield untapped.\n{T}: Add {U}.\nChannel \u2014 {X}{U}: Return target artifact, creature, enchantment, or planeswalker to its owner\u2019s hand. This ability costs {X} less to activate for each legendary creature you control.",
+          3,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 {SAGA_I}\nII \u2014 {SAGA_II}\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+          8,
+          3,
+          5
+        ],
+        [
+          "Legendary Enchantment Creature \u2014 Shrine\nAt the beginning of your end step, you may pay {X}. When you do, {SHRINE_EFFECT} for each Shrine you control.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\n(This makes it modified.)",
+          6,
+          2,
+          4
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, put {X} +1/+1 counters on enchanted creature.\nEnchanted creature has trample.\n(This makes it modified.)",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {X}\" and \"{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.\"\n(This makes it modified.)",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Artifact": [
+        [
+          "Reconfigure {X} ({X}: Attach to target creature you control; or unattach this creature. Reconfigure only as a sorcery.)\nEquipped creature gets +{X}/+{X}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "This artifact is also a creature while it\u2019s reconfigured.\nReconfigure {X}\nEquipped creature has vigilance and \"{T}: Add {X}.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace and gets +{X}/+0.\nReconfigure {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach.\nReconfigure {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever this Vehicle attacks, it gets +{X}/+0 until end of turn for each modified creature you control.\nCrew {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhen this enters the battlefield, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew {X}",
+          5,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever one or more Vehicles you control attack, scry {X}.\nCrew {X}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Channel \u2014 Discard this card: Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\" This ability triggers only once each turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a Treasure token.\n{T}, Sacrifice an artifact: Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as this creature is modified, it gets +{X}/+{X}. (Equipment, Auras you control, and counters are modifications.)",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control attacks, {EFFECT_CHOICE}. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Ninjutsu {X}\nWhenever this deals combat damage to a player, each opponent discards a card.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Ninjutsu {X}\nWhenever this deals combat damage to a player, you may put a +1/+1 counter on target creature you control.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control dies, each opponent loses {X} life and you gain {X} life.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature you control. It gains trample until end of turn. It becomes modified. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Channel \u2014 Discard this card: Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Each opponent discards a card. If you controlled a Ninja or Rogue, they discard two instead.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Target player reveals their hand. You choose a nonland card from it. That player discards that card.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Channel \u2014 Discard this card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{X}/-X until end of turn. If you controlled a modified creature, you gain {X} life.",
+          7,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield untapped.\n{T}: Add {B}.\nChannel \u2014 {X}{B}: Target opponent mills {X} cards, then you may return a creature card with mana value X or less from your graveyard to your hand.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 {SAGA_I}\nII \u2014 {SAGA_II}\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+          8,
+          3,
+          5
+        ],
+        [
+          "Legendary Enchantment Creature \u2014 Shrine\nAt the beginning of your end step, you may pay {X}. When you do, {SHRINE_EFFECT} for each Shrine you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, mill {X} cards. Then you may return a creature card from your graveyard to your hand.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\n(This makes it modified.)",
+          6,
+          2,
+          4
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, put {X} +1/+1 counters on enchanted creature.\nEnchanted creature has trample.\n(This makes it modified.)",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {X}\" and \"{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.\"\n(This makes it modified.)",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Artifact": [
+        [
+          "Reconfigure {X} ({X}: Attach to target creature you control; or unattach this creature. Reconfigure only as a sorcery.)\nEquipped creature gets +{X}/+{X}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "This artifact is also a creature while it\u2019s reconfigured.\nReconfigure {X}\nEquipped creature has vigilance and \"{T}: Add {X}.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace and gets +{X}/+0.\nReconfigure {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach.\nReconfigure {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever this Vehicle attacks, it gets +{X}/+0 until end of turn for each modified creature you control.\nCrew {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhen this enters the battlefield, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew {X}",
+          5,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever one or more Vehicles you control attack, scry {X}.\nCrew {X}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Channel \u2014 Discard this card: Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\" This ability triggers only once each turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a Treasure token.\n{T}, Sacrifice an artifact: Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as this creature is modified, it gets +{X}/+{X}. (Equipment, Auras you control, and counters are modifications.)",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control attacks, {EFFECT_CHOICE}. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Whenever this or another Samurai or Warrior you control attacks alone, it gets +{X}/+0 and gains first strike until end of turn.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Modified creatures you control have trample and haste.",
+          5,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature you control. It gains trample until end of turn. It becomes modified. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Channel \u2014 Discard this card: Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] Goblin Samurai creature tokens with haste.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Channel \u2014 Discard this card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "This spell deals {X} damage to any target. If a modified creature you control dealt damage this turn, it deals {X} damage to another target.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield untapped.\n{T}: Add {R}.\nChannel \u2014 {X}{R}: Deal {X} damage to target creature, planeswalker, or player.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 {SAGA_I}\nII \u2014 {SAGA_II}\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+          8,
+          3,
+          5
+        ],
+        [
+          "Legendary Enchantment Creature \u2014 Shrine\nAt the beginning of your end step, you may pay {X}. When you do, {SHRINE_EFFECT} for each Shrine you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an artifact or enchantment spell, this deals 1 damage to each opponent.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\n(This makes it modified.)",
+          6,
+          2,
+          4
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, put {X} +1/+1 counters on enchanted creature.\nEnchanted creature has trample.\n(This makes it modified.)",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {X}\" and \"{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.\"\n(This makes it modified.)",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Artifact": [
+        [
+          "Reconfigure {X} ({X}: Attach to target creature you control; or unattach this creature. Reconfigure only as a sorcery.)\nEquipped creature gets +{X}/+{X}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "This artifact is also a creature while it\u2019s reconfigured.\nReconfigure {X}\nEquipped creature has vigilance and \"{T}: Add {X}.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace and gets +{X}/+0.\nReconfigure {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach.\nReconfigure {X}",
+          3,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever this Vehicle attacks, it gets +{X}/+0 until end of turn for each modified creature you control.\nCrew {X}",
+          4,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhen this enters the battlefield, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\"\nCrew {X}",
+          5,
+          2,
+          4
+        ],
+        [
+          "Vehicle\nWhenever one or more Vehicles you control attack, scry {X}.\nCrew {X}",
+          2,
+          2,
+          4
+        ],
+        [
+          "Channel \u2014 Discard this card: Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a 1/1 colorless Pilot creature token with \"This creature crews Vehicles as though its power were 2 greater.\" This ability triggers only once each turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create a Treasure token.\n{T}, Sacrifice an artifact: Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as this creature is modified, it gets +{X}/+{X}. (Equipment, Auras you control, and counters are modifications.)",
+          8,
+          2,
+          4
+        ],
+        [
+          "Whenever a modified creature you control attacks, {EFFECT_CHOICE}. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Whenever a modified creature you control attacks, put a +1/+1 counter on it.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature you control. It gains trample until end of turn. It becomes modified. (Equipment, Auras you control, and counters are modifications.)",
+          5,
+          2,
+          5
+        ],
+        [
+          "Channel \u2014 Discard this card: Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If you control a modified creature, untap that land.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Channel \u2014 Discard this card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Target creature you control gets +{X}/+{X} and gains trample until end of turn. If it\u2019s modified, it also gains hexproof until end of turn.",
+          7,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield untapped.\n{T}: Add {G}.\nChannel \u2014 {X}{G}: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.)\nI \u2014 {SAGA_I}\nII \u2014 {SAGA_II}\nIII \u2014 Exile this Saga, then return it to the battlefield transformed under your control.",
+          8,
+          3,
+          5
+        ],
+        [
+          "Legendary Enchantment Creature \u2014 Shrine\nAt the beginning of your end step, you may pay {X}. When you do, {SHRINE_EFFECT} for each Shrine you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          5,
+          4,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\n(This makes it modified.)",
+          6,
+          2,
+          4
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters the battlefield, put {X} +1/+1 counters on enchanted creature.\nEnchanted creature has trample.\n(This makes it modified.)",
+          6,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {X}\" and \"{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.\"\n(This makes it modified.)",
+          4,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "string_macros": {
+    "SAGA_I": [
+      "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens",
+      "Tap up to two target creatures. They don\u2019t untap during their controller\u2019s next untap step",
+      "Return target nonland permanent to its owner\u2019s hand",
+      "Each opponent discards a card and loses 1 life",
+      "Create a Treasure token",
+      "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle"
+    ],
+    "SAGA_II": [
+      "Put a +1/+1 counter on up to two target creatures",
+      "Draw two cards",
+      "Exile target artifact or enchantment",
+      "Target creature you control fights target creature you don\u2019t control",
+      "Create a 2/2 [TOKEN_COLOR] Samurai creature token with vigilance",
+      "Each opponent sacrifices a creature"
+    ],
+    "SHRINE_EFFECT": [
+      "create a 1/1 colorless Spirit creature token with vigilance",
+      "deal 1 damage to target player or planeswalker",
+      "target creature gets -1/-1 until end of turn",
+      "scry 1, then draw a card",
+      "target creature gets +1/+1 and gains trample until end of turn"
+    ],
+    "EFFECT_CHOICE": [
+      "draw a card",
+      "create a Treasure token",
+      "put a +1/+1 counter on target creature you control",
+      "this deals 1 damage to each opponent"
+    ]
+  }
+}

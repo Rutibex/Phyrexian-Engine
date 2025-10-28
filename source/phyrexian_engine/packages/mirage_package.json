@@ -1,0 +1,716 @@
+{
+  "name": "mirage",
+  "version": "1.0",
+  "description": "Comprehensive Mirage (Oct 1996) mechanics: flanking, phasing, charms (three-mode instants), tutors-to-top, insta-enchantments (flash Auras), poison counters (pre-keyword), regeneration themes, phase-out tricks, and classic narrow answers. Includes color-appropriate subtypes & pools.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)",
+          6,
+          2,
+          5
+        ],
+        [
+          "First strike",
+          2,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Regenerate {THIS}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "When {THIS} enters the battlefield, tap up to {N} target creatures.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever {THIS} attacks, creatures you control get +1/+1 until end of turn.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — {W_CHARM_MODE1}; or {W_CHARM_MODE2}; or {W_CHARM_MODE3}.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Tap up to {N} target creatures. Draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature if it's black or red.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Target creature phases out. (Treat it and anything attached to it as though they don't exist until its controller's next untap step.)",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all enchantments.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Search your library for an Aura card, reveal it, then shuffle and put that card on top.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have flanking.",
+          1,
+          3,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, tap up to one target creature an opponent controls.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Flash (You may cast this spell any time you could cast an instant.)\nEnchant creature\nEnchanted creature gets +{N}/+{N} and has first strike.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has flanking.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nPrevent the next {X} damage that would be dealt to enchanted creature each turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "Phasing (This phases in or out before you untap during each of your untap steps.)\n{T}: Add {W}.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Phasing (This phases in or out before you untap during each of your untap steps.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever {THIS} phases in, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Phase out target creature you control.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — {U_CHARM_MODE1}; or {U_CHARM_MODE2}; or {U_CHARM_MODE3}.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. Draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target permanent phases out. (It phases in before its controller's next untap step.)",
+          3,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, you may phase out target creature you control.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature without flying attacks you, you may tap it.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Flash\nEnchant creature\nEnchanted creature gets +{N}/+{N} and has flying.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has phasing.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash\nEnchant creature\nWhenever enchanted creature deals combat damage to a player, you may draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Phasing\n{T}: Add {U}{U}. Spend this mana only to cast instant or sorcery spells.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Flanking",
+          3,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Regenerate {THIS}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} deals combat damage to a player, that player gets a poison counter.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{T}, Sacrifice a creature: Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — {B_CHARM_MODE1}; or {B_CHARM_MODE2}; or {B_CHARM_MODE3}.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Destroy target nonblack creature. It can't be regenerated.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Regenerate target creature.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a creature card, reveal it, then shuffle and put that card on top.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target player discards {N} cards at random.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures your opponents control get -1/-0.",
+          1,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may pay {X}. If you do, return target creature card with mana value {X} from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Flash\nEnchant creature\nEnchanted creature gets +{N}/+{N} and has menace.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has \"Whenever this creature deals damage to a player, that player gets a poison counter.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has \"{B}: Regenerate this creature.\"",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}. {2}, {T}: Target creature gets -1/-1 until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Flanking",
+          4,
+          2,
+          5
+        ],
+        [
+          "Haste",
+          3,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: {THIS} deals 1 damage to any target.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — {R_CHARM_MODE1}; or {R_CHARM_MODE2}; or {R_CHARM_MODE3}.",
+          5,
+          1,
+          5
+        ],
+        [
+          "{THIS} deals {X} damage to any target. Draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature can't block this turn. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for an instant card, reveal it, then shuffle and put that card on top.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy target land.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste.",
+          1,
+          3,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, {THIS} deals 1 damage to any target.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Flash\nEnchant creature\nEnchanted creature gets +{N}/+0 and has first strike.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has flanking and haste.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}. {R}, {T}: Target creature gains first strike until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Flanking",
+          1,
+          3,
+          5
+        ],
+        [
+          "Trample",
+          3,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Regenerate {THIS}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} deals combat damage to a player, you may destroy target artifact that player controls.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — {G_CHARM_MODE1}; or {G_CHARM_MODE2}; or {G_CHARM_MODE3}.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment. Draw a card.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a creature card, reveal it, then shuffle and put that card on top.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create a 3/3 green [BEAST] creature token.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.",
+          1,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may return target land card from your graveyard to your hand.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Flash\nEnchant creature\nEnchanted creature gets +{N}/+{N} and has trample.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Flash\nEnchant creature\nEnchanted creature has \"{G}: Regenerate this creature.\"",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}. {1}, {T}: Add one mana of any color. Spend this mana only to cast creature spells.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Target creature phases out. Activate only as a sorcery.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}, Sacrifice {THIS}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{3}, {T}: Add {C}{C}.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Phasing\n{T}: Add one mana of any color. {THIS} doesn't untap during your next untap step.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Put a storage counter on {THIS}. {T}, Remove any number of storage counters from {THIS}: Add that much {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Soldier",
+      "Cleric",
+      "Griffin",
+      "Cat",
+      "Pegasus"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Bird",
+      "Djinn",
+      "Illusion",
+      "Spirit"
+    ],
+    "B": [
+      "Human",
+      "Assassin",
+      "Zombie",
+      "Vampire",
+      "Shade",
+      "Nightstalker",
+      "Scorpion"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Barbarian",
+      "Lizard",
+      "Viashino",
+      "Goblin",
+      "Shaman"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Scout",
+      "Cat",
+      "Beast",
+      "Cobra",
+      "Snake"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "flanking",
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "phasing",
+      "flying"
+    ],
+    "B": [
+      "flanking",
+      "regenerate"
+    ],
+    "R": [
+      "flanking",
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "regenerate"
+    ]
+  },
+  "string_pools": {
+    "W_CHARM_MODE1": [
+      "Tap target creature"
+    ],
+    "W_CHARM_MODE2": [
+      "Destroy target enchantment"
+    ],
+    "W_CHARM_MODE3": [
+      "Creatures you control get +1/+1 until end of turn"
+    ],
+    "U_CHARM_MODE1": [
+      "Counter target spell unless its controller pays {X}"
+    ],
+    "U_CHARM_MODE2": [
+      "Return target nonland permanent to its owner's hand"
+    ],
+    "U_CHARM_MODE3": [
+      "Phase out target creature"
+    ],
+    "B_CHARM_MODE1": [
+      "Target creature gets -2/-2 until end of turn"
+    ],
+    "B_CHARM_MODE2": [
+      "Target opponent discards a card"
+    ],
+    "B_CHARM_MODE3": [
+      "Regenerate target creature"
+    ],
+    "R_CHARM_MODE1": [
+      "{THIS} deals 1 damage to any target"
+    ],
+    "R_CHARM_MODE2": [
+      "Destroy target artifact"
+    ],
+    "R_CHARM_MODE3": [
+      "Target creature can't block this turn"
+    ],
+    "G_CHARM_MODE1": [
+      "Target creature gets +2/+2 until end of turn"
+    ],
+    "G_CHARM_MODE2": [
+      "Destroy target artifact or enchantment"
+    ],
+    "G_CHARM_MODE3": [
+      "Untap target creature"
+    ],
+    "BEAST": [
+      "Elephant",
+      "Rhino",
+      "Beast",
+      "Cat"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Bird",
+      "Zombie",
+      "Goblin",
+      "Saproling"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  }
+}

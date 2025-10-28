@@ -1,0 +1,1725 @@
+{
+  "package_name": "mercadian_masques_mega",
+  "package_version": "1.0.0",
+  "package_description": "HUGE Mercadian Masques–style package that models the set’s core mechanics: Rebels & Mercenaries (recruit chains), Spellshapers (tap + discard to mimic spells), alternate casting costs (free spells, life/return lands/exile a [C] card/opponent gains life), Rishadan-style taxation enters-the-battlefield triggers, depletion lands, and storage lands. Includes broad ad‑lib pools for names/tokens/phrases and big effect template catalogs for each color.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          4,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          6,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          5,
+          3,
+          5
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Creatures you control get +{X}/+0 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to target creature or player this turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature if its mana value is {X} or less.",
+          2,
+          3,
+          5
+        ],
+        [
+          "[TRIGGER_INTRO] tap up to {X} target creatures.",
+          2,
+          3,
+          5
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {2}, {T}, Discard a card: Exile target attacking creature.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}{W}, {T}, Discard a card: Creatures you control gain vigilance until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}, {T}, Discard a card: Prevent the next {X} damage that would be dealt this turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "When this enters the battlefield, {TAX_EFFECT_INTRO}",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          2,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create {X} 1/1 [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other creatures you control get +{X}/+{X}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "This can't be blocked by creatures with power {X} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Exile target artifact or enchantment.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Exile target artifact or enchantment.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -{X}/-{X}.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {B}{B}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each counter removed.",
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}{U}, {T}, Discard a card: Counter target spell unless its controller pays {X}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {2}{U}, {T}, Discard a card: Return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {U}, {T}, Discard a card: Target creature gains flying until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, {TAX_EFFECT_INTRO}",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          2,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create {X} 1/1 [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other creatures you control get +{X}/+{X}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "This can't be blocked by creatures with power {X} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Counter target spell.",
+          1,
+          4,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Return up to {X} target permanents you control to their owner's hand, then draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Counter target spell.",
+          1,
+          4,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Return up to {X} target permanents you control to their owner's hand, then draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -{X}/-{X}.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {B}{B}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each counter removed.",
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          4,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          6,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          5,
+          3,
+          5
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Target player discards {X} cards at random.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Destroy target creature with mana value {X} or less.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          2,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}{B}, {T}, Discard a card: Target creature gets -{X}/-{X} until end of turn.",
+          4,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {2}{B}, {T}, Discard a card: Destroy target nonblack creature. It can't be regenerated.",
+          3,
+          4,
+          6
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {B}, {T}, Discard a card: Each opponent loses {X} life and you gain {X} life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this enters the battlefield, {TAX_EFFECT_INTRO}",
+          1,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          1,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create {X} 1/1 [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other creatures you control get +{X}/+{X}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "This can't be blocked by creatures with power {X} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Destroy target non[COLOR_WORD] creature.",
+          1,
+          4,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Target player reveals their hand. You choose a nonland card from it. That player discards that card.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Destroy target non[COLOR_WORD] creature.",
+          1,
+          4,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Target player reveals their hand. You choose a nonland card from it. That player discards that card.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"",
+          1,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -{X}/-{X}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {B}{B}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each counter removed.",
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {R}, {T}, Discard a card: This creature deals {X} damage to any target.",
+          5,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}{R}, {T}, Discard a card: Gain control of target creature until end of turn. Untap it. It gains haste.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {2}{R}, {T}, Discard a card: Destroy target artifact.",
+          3,
+          2,
+          5
+        ],
+        [
+          "When this enters the battlefield, {TAX_EFFECT_INTRO}",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          2,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create {X} 1/1 [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other creatures you control get +{X}/+{X}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "This can't be blocked by creatures with power {X} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. This spell deals {X} damage to any target.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"",
+          1,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -{X}/-{X}.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {B}{B}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each counter removed.",
+          3,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_REBEL} with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          2
+        ],
+        [
+          "[RECRUIT_VOICE] {ACTIVATED_COST}, {T}: Search your library for {RECRUIT_TARGET_MERCENARY} with mana value {X} or less, put it onto the battlefield tapped, then shuffle.",
+          1,
+          2,
+          3
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {G}, {T}, Discard a card: Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {1}{G}, {T}, Discard a card: Destroy target artifact or enchantment.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[SPELLSHAPER_TITLE] {2}{G}, {T}, Discard a card: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, {TAX_EFFECT_INTRO}",
+          1,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] {TAX_EFFECT_INTRO}",
+          1,
+          3,
+          6
+        ],
+        [
+          "When this enters the battlefield, create {X} 1/1 [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Other creatures you control get +{X}/+{X}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "This can't be blocked by creatures with power {X} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Target creature gets +{X}/+{X} until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Exile target artifact or enchantment.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Draw {X} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Target creature gets +{X}/+{X} until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "You may pay [ALT_COST] rather than pay this spell's mana cost. Exile target artifact or enchantment.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Tap up to {X} target creatures.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exile target creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"",
+          1,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -{X}/-{X}.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {1}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {U}{U}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {B}{B}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {R}{R}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped with two depletion counters on it.\n{T}, Remove a depletion counter from this land: Add {G}{G}. If there are no depletion counters on it, sacrifice it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {C}.\n{1}, {T}: Put a storage counter on this land.\n{T}, Remove any number of storage counters from this land: Add {C} for each counter removed.",
+          3,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Rebel",
+      "Soldier",
+      "Cleric",
+      "Human",
+      "Aven",
+      "Knight",
+      "Archer"
+    ],
+    "U": [
+      "Spellshaper",
+      "Wizard",
+      "Merfolk",
+      "Vedalken",
+      "Human",
+      "Pirate"
+    ],
+    "B": [
+      "Mercenary",
+      "Assassin",
+      "Cleric",
+      "Human",
+      "Ogre",
+      "Zombie"
+    ],
+    "R": [
+      "Spellshaper",
+      "Goblin",
+      "Pirate",
+      "Human",
+      "Rogue",
+      "Barbarian"
+    ],
+    "G": [
+      "Spellshaper",
+      "Beast",
+      "Elf",
+      "Druid",
+      "Human",
+      "Ranger",
+      "Spider"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When this enters the battlefield,",
+      "When {CREATURE_CONTROLLER} casts this spell,",
+      "At the beginning of your upkeep,",
+      "When this becomes tapped,",
+      "When this becomes blocked,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you",
+      "its controller"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "ALT_COST": [
+      "4 life",
+      "exile a [C] card from your hand",
+      "return two lands you control to their owner's hand",
+      "have an opponent gain 3 life",
+      "reveal your hand and have no land cards in it"
+    ],
+    "RECRUIT_TARGET_REBEL": [
+      "a Rebel creature card",
+      "a Rebel permanent card"
+    ],
+    "RECRUIT_TARGET_MERCENARY": [
+      "a Mercenary creature card",
+      "a Mercenary permanent card"
+    ],
+    "RECRUIT_VOICE": [
+      "Recruit —",
+      "Call for Aid —",
+      "Raise the Banner —"
+    ],
+    "SPELLSHAPER_TITLE": [
+      "Spellshape —",
+      "Imprint of Power —",
+      "Shaped Magic —"
+    ],
+    "SPELLSHAPER_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{C}",
+      "{2}{C}"
+    ],
+    "SPELLSHAPER_AFTERCOST": [
+      "Discard a card",
+      "Discard a card at random",
+      "Discard two cards"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Rebel",
+      "Mercenary",
+      "Soldier",
+      "Pirate",
+      "Saproling",
+      "Goblin",
+      "Faerie",
+      "Bird",
+      "Beast",
+      "Elemental"
+    ],
+    "REBEL_NAMES": [
+      "Defiant",
+      "Lin Sivvi's",
+      "Dawning",
+      "Call to Arms",
+      "Stand Against",
+      "Freewind",
+      "Aven Vanguard",
+      "Cho-Arrim"
+    ],
+    "MERCENARY_NAMES": [
+      "Rishadan",
+      "Duskwalker",
+      "Bog Raiders",
+      "Cabal Hireling",
+      "Duskmantle",
+      "Night-Runner",
+      "Ogre Tasker"
+    ],
+    "PIRATE_WORDS": [
+      "Rishadan",
+      "Dockside",
+      "Port-Cutpurse",
+      "Marauder",
+      "Footpad",
+      "Brigand"
+    ],
+    "LAND_WORDS": [
+      "Tinder Farm",
+      "Peat Bog",
+      "Sandstone Needle",
+      "Saprazzan Skerry",
+      "Remote Farm",
+      "Subterranean Hangar"
+    ],
+    "TAX_EFFECT_INTRO": [
+      "Each opponent sacrifices a permanent unless they pay {1}.",
+      "Each opponent sacrifices a creature unless they pay {1}.",
+      "Each opponent sacrifices an artifact or enchantment unless they pay {1}."
+    ],
+    "TAPPER_LINES": [
+      "{T}: Tap target creature.",
+      "{1}, {T}: Tap target permanent.",
+      "{2}, {T}: Target creature doesn't untap during its controller's next untap step."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "ward {1}"
+    ],
+    "B": [
+      "deathtouch",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  }
+}

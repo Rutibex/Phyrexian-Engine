@@ -1,0 +1,615 @@
+{
+  "package_name": "spiderman",
+  "version": "1.0.0",
+  "description": "Marvel's Spider-Man inspired mechanics for the MTG set generator: Web-slinging, Mayhem, Connive, Modified, MDFC flavor hooks, Sinister Six, Symbiotes, Spider-Verse, Infinity Stone hooks.",
+  "thematic_tags": [
+    "Spider-Verse",
+    "Sinister Six",
+    "Symbiote",
+    "Daily Bugle",
+    "Street-Level Heroes",
+    "Gadgets",
+    "Multiverse"
+  ],
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance\nWhen {this} enters the battlefield, if it connived this turn, put a +1/+1 counter on up to {X} target creatures.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Lifelink\nModified creatures you control get +{X}/+0.",
+          2,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, create a 1/1 [TOKEN_COLOR] Citizen creature token, then you may web-sling {this}.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Web-guard — Whenever you cast a spell using web-slinging, tap up to {X} target creatures an opponent controls. Those creatures don't untap during their controller's next untap step.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Team-up — Whenever {this} attacks with another legendary creature, creatures you control get +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever {this} or another modified creature you control becomes tapped, you gain {X} life.",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking creature with mana value {X} or less.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Creatures you control get +{X}/+{X} and gain vigilance until end of turn. If this spell was cast using web-slinging, instead put a +1/+1 counter on each of them and they gain indestructible until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Tap up to {X} target creatures. If a Spider you control is tapped, those creatures don't untap during their controller's next untap step.",
+          2,
+          2,
+          3
+        ],
+        [
+          "You gain {X} life. Draw a card. If you discarded a card this turn, you may cast this spell from your graveyard for its mayhem cost.",
+          1,
+          3,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] Reporter creature tokens. If you cast this spell using web-slinging, those tokens gain vigilance until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target tapped creature. Investigate {X} times.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Return up to {X} target creature cards with mana value 3 or less from your graveyard to the battlefield tapped.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Static — Creatures you control with vigilance are modified.\nWhenever a creature you control becomes modified, you gain {X} life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "At the beginning of combat on your turn, tap up to one target creature an opponent controls. If {this} modified a creature you control this turn, put a +1/+1 counter on it.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance. When enchanted creature becomes tapped, you gain {X} life.",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X} and has lifelink. As long as equipped creature is legendary, it has \"Prevent the next {X} damage that would be dealt to target creature or planeswalker you control each turn.\"\nEquip {X}",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}.\nWeb Dock — {1}{W}, {T}, Return a tapped creature you control to its owner's hand: Create a 1/1 [TOKEN_COLOR] Citizen token.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flash\nWhen {this} enters the battlefield, connive {X}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell using web-slinging, scry {X}. Then, if you returned a Spider this way, draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Illusioncraft — Whenever you discard one or more cards, create a tapped 1/1 blue Illusion creature token with \"When this creature becomes the target of a spell, sacrifice it.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you cast this using web-slinging, instead scry 2, then draw a card.",
+          3,
+          2,
+          3
+        ],
+        [
+          "Return target tapped creature to its owner's hand. If you discarded a card this turn, you may cast this from your graveyard for its mayhem cost.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Target creature gets -{X}/0 until end of turn. Tap it. Investigate.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top {X} cards of your library. Put one into your hand and the rest into your graveyard. If you discarded a card this turn, connive 1.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create a 0/2 blue Drone artifact creature token with flying and \"When this becomes tapped, draw a card, then discard a card.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever one or more cards are discarded, connive 1. Then, if a card with mayhem was discarded, you may cast it by paying its mayhem cost.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Modified creatures you control have flying. Whenever a modified creature you control deals combat damage to a player, draw a card.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has \"Whenever this creature deals combat damage to a player, connive {X}.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has \"{T}: Tap target creature. It doesn't untap during its controller's next untap step\" and gets +0/+{X}.\nEquip {X}",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}.\nHideout — {1}{U}, {T}, Return a tapped creature you control to its owner's hand: Scry 2.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace\nWhenever you discard a card, put a +1/+1 counter on {this}. If the discarded card has mayhem, you may cast it from your graveyard this turn.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Symbiosis — As long as {this} is modified, it has lifelink and deathtouch.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, each opponent discards a card, then you may return a creature card with mana value {X} or less from your graveyard to your hand.",
+          2,
+          2,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn. If a Spider you control is tapped, that creature gets an additional -1/-1.",
+          3,
+          2,
+          4
+        ],
+        [
+          "As an additional cost to cast this spell, discard a card.\nDestroy target creature or planeswalker. Mayhem {X}{B}.",
+          2,
+          2,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield with a -1/-1 counter on it. If it was modified, remove up to {X} counters from it instead.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Search your library for a card, then discard a card. If the discarded card had mayhem, you may cast it this turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if one or more cards were discarded this turn, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Creatures you control have menace as long as they are modified.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has menace and \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has \"Whenever this creature becomes blocked, defending player discards a card.\"\nEquip {X}",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}.\nBack Alley — {1}{B}, {T}, Return a tapped creature you control to its owner's hand: Each opponent loses 1 life and you gain 1 life.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste\nWhen {this} enters the battlefield, if you discarded a card this turn, it deals {X} damage to any target.",
+          3,
+          2,
+          3
+        ],
+        [
+          "Goblin Crew — Whenever you cast a spell from your graveyard, create a 1/1 red Goblin creature token. Those tokens attack this turn if able.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Mayhem {X}{R} (If you discarded this card this turn, you may cast it from your graveyard for its mayhem cost.)",
+          2,
+          2,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "{this} deals {X} damage to any target. If you cast this spell using web-slinging, {this} deals that much damage plus 1 to a creature and you may return another tapped creature you control to your hand.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn. If a creature you control left the battlefield this turn, draw a card.",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Discard up to {X} cards, then draw that many cards plus one. Then {this} deals {X} damage to each opponent.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens. They gain haste until end of turn. Mayhem {X}{R}.",
+          2,
+          2,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a spell from your graveyard, {this} deals 1 damage to any target. Then, if you cast a card for its mayhem cost, create a Treasure token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Modified creatures you control have first strike.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has haste and \"Whenever this creature attacks, connive 1, then you may discard a card.\"",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has \"{T}: This creature deals 1 damage to any target.\" If equipped creature is legendary, it has menace.\nEquip {X}",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}.\nRooftop Run — {1}{R}, {T}, Return a tapped creature you control to its owner's hand: {this} deals 1 damage to any target.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Reach, trample\nWhenever you return a creature you control to your hand, put {X} +1/+1 counters on {this}.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Whenever a modified creature you control attacks, it gets +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Web Wrangler — Whenever you cast a spell using web-slinging, create a 1/1 green Spider creature token with reach.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains reach until end of turn. If you cast this spell using web-slinging, untap that creature.",
+          3,
+          2,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment. If you discarded a card this turn, you may cast this spell from your graveyard for its mayhem cost.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 3/3 green Spider creature token with reach for each modified creature you control with mana value {X} or greater.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then connive 1.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +{X}/+{X} as long as they are modified.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever a creature you control becomes tapped, you may put a +1/+1 counter on it. If it was already modified, instead put two +1/+1 counters on it.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has reach and trample. Whenever enchanted creature becomes tapped, put a +1/+1 counter on it.",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever equipped creature becomes tapped, it fights up to one target creature you don't control.\nEquip {X}",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}.\nWarehouse — {1}{G}, {T}, Return a tapped creature you control to its owner's hand: Put a +1/+1 counter on target creature.",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "colorless_effects": {
+    "Artifact": [
+      [
+        "The Soul Stone\n{T}: Add one mana of any color.\nHarness — {X}, {T}, Exile another target creature you control: Harness The Soul Stone.\n∞ — At the beginning of your upkeep, return target creature card exiled with {this} to the battlefield under your control.",
+        1,
+        2,
+        3
+      ],
+      [
+        "Web-Shooters\nEquipped creature has \"{T}: Tap target creature. It doesn't untap during its controller's next untap step.\" and gets +1/+0 for each modified creature you control.\nEquip {X}",
+        2,
+        1,
+        2
+      ],
+      [
+        "Glider Rig\nEquipped creature has flying and haste. Whenever equipped creature deals combat damage to a player, connive 1.\nEquip {X}",
+        2,
+        1,
+        2
+      ],
+      [
+        "Octobots\nWhen {this} enters the battlefield, create {X} 1/1 colorless Thopter artifact creature tokens with flying.",
+        2,
+        2,
+        3
+      ]
+    ],
+    "Enchantment": [
+      [
+        "Sinister Six — At the beginning of combat on your turn, if you control six or more creatures, each gets +{X}/+0 and gains menace until end of turn.",
+        2,
+        1,
+        1
+      ],
+      [
+        "Daily Bugle — Whenever one or more creatures you control deal combat damage to a player, investigate.",
+        2,
+        0,
+        0
+      ],
+      [
+        "Spider-Verse — Whenever one or more legendary Spiders enter the battlefield under your control, put a +1/+1 counter on each modified creature you control.",
+        2,
+        0,
+        0
+      ]
+    ],
+    "Land": [
+      [
+        "Sanctum Rooftops\nLand — Lair\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color. Spend this mana only to cast a spell using web-slinging or to activate a transform ability.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "flavor_keywords": [
+    "Web-slinging",
+    "Mayhem",
+    "Connive",
+    "Modified",
+    "Spider-Verse",
+    "Sinister Six",
+    "Glider",
+    "Pumpkin Bomb",
+    "Daily Bugle",
+    "Symbiote",
+    "Spider-Sense",
+    "Thwip",
+    "Wall-crawl",
+    "Oscorp",
+    "Clone Saga",
+    "Mysterio",
+    "Doc Ock",
+    "Green Goblin",
+    "Venom",
+    "Miles Morales",
+    "Gwen Stacy"
+  ],
+  "creature_subtype_bias": {
+    "W": [
+      "Citizen",
+      "Soldier",
+      "Reporter",
+      "Legend"
+    ],
+    "U": [
+      "Illusion",
+      "Rogue",
+      "Scientist",
+      "Spider"
+    ],
+    "B": [
+      "Rogue",
+      "Assassin",
+      "Symbiote",
+      "Zombie"
+    ],
+    "R": [
+      "Goblin",
+      "Rogue",
+      "Mercenary"
+    ],
+    "G": [
+      "Spider",
+      "Mutant",
+      "Beast"
+    ]
+  },
+  "art_prompts": [
+    "Nighttime skyline swing, motion-blur webs, neon reflections",
+    "Underground lab with crackling coils, mechanical tendrils",
+    "Pumpkin-bomb explosion midair above Queensboro Bridge",
+    "Symbiote tendrils coiling around a crumbling billboard",
+    "Daily Bugle newsroom bustle, papers flying, camera flashes",
+    "Rooftop water tower silhouette at sunrise"
+  ]
+}

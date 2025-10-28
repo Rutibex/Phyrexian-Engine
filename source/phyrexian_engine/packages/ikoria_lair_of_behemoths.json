@@ -1,0 +1,1318 @@
+{
+  "name": "ikoria_lair_of_behemoths",
+  "version": "1.0",
+  "description": "Huge Ikoria: Lair of Behemoths mechanics pack with mutate, companion, cycling synergies, and keyword counters.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}. (If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.)\nWhenever this creature mutates, put a +1/+1 counter on each of up to two target creatures.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, create a 1/1 white Human Soldier creature token.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, exile target creature an opponent controls until this creature leaves the battlefield.",
+          6,
+          4,
+          7
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, you gain 4 life.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever this creature mutates, put a vigilance counter on it. (It has vigilance.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a first strike counter on up to one target creature you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a +1/+1 counter on this creature.",
+          7,
+          2,
+          5
+        ],
+        [
+          "This spell has companion \u2014 {COMPANION_CONDITION_W}. (If this is your chosen companion, you may cast it once from outside the game.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Put a lifelink counter on target creature. Activate only as a sorcery.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature mutates, return target creature card with mana value {MV_OR_LESS} from your graveyard to the battlefield tapped.",
+          3,
+          5,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, put a lifelink counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a lifelink counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a lifelink counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a vigilance counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a vigilance counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a vigilance counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a first strike counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a first strike counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a first strike counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. Put a vigilance counter on it.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Exile target tapped creature. Cycling {CYCLING_COST}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you cycled a card this turn, those creatures gain lifelink until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose up to two target creatures. Put a first strike counter on one of them and a vigilance counter on the other.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Human creature tokens. Put a lifelink counter on up to one of them. Cycling {CYCLING_COST}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Destroy all tapped creatures. Cycling {CYCLING_COST}.",
+          3,
+          5,
+          8
+        ],
+        [
+          "Return up to two target creature cards with mana value {MV_OR_LESS} from your graveyard to your hand. If you cycled a card this turn, you may return three instead.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "When this enchantment enters the battlefield, put a vigilance counter on target creature you control.\nWhenever you cycle a card, you may put a +1/+1 counter on enchanted creature.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Creatures you control with counters on them have vigilance.\nAt the beginning of combat on your turn, put a +1/+1 counter on target creature you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control. That creature gains {RANDOM_KEYWORD} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cycled two or more cards this turn, draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {CARDNAME} enters the battlefield, put a first strike counter on enchanted creature.\nEnchanted creature gets +1/+1 for each counter on it.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Tap target creature.\"\nCycling {CYCLING_COST}.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{CARDNAME} enters the battlefield with a vigilance counter on target creature you control.\n{T}: Add {W}.\n{2}, {T}, Sacrifice {CARDNAME}: You gain 4 life.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{W}: Put a vigilance counter on target creature. Activate only as a sorcery.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, return target creature an opponent controls to its owner's hand.",
+          10,
+          3,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, draw a card.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, tap up to two target permanents. They don't untap during their controller's next untap step.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Whenever you cycle another card, put a +1/+1 counter on this creature.",
+          7,
+          2,
+          5
+        ],
+        [
+          "This spell has companion \u2014 {COMPANION_CONDITION_U}. (If this is your chosen companion, you may cast it once from outside the game.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever this creature mutates, put a hexproof counter on it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, create a 1/1 blue Shark creature token with flying if you cycled a card this turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a flying counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a flying counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a flying counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a hexproof counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a hexproof counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a hexproof counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. If you cycled a card this turn, counter that spell instead.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Return target nonland permanent and all Auras attached to it to their owners' hands. Cycling {CYCLING_COST}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. Put a hexproof counter on up to one target creature you control.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Draw two cards. If you cycled a card this turn, instead scry 2, then draw two cards.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw three cards. Cycling {CYCLING_COST}. When you cycle {CARDNAME}, scry 1.",
+          5,
+          5,
+          8
+        ],
+        [
+          "Look at the top five cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, you may tap target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with flying or hexproof counters have \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          5,
+          4,
+          7
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control. That creature gains {RANDOM_KEYWORD} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cycled two or more cards this turn, draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has flying.\nWhen {CARDNAME} enters the battlefield, put a hexproof counter on enchanted creature.\nCycling {CYCLING_COST}.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {U}.\n{2}, {T}, Sacrifice {CARDNAME}: Draw a card. Put a hexproof counter on up to one target creature you control.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{U}: Put a flying counter on target creature.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, each opponent loses 2 life and you gain 2 life.",
+          12,
+          3,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, return target creature card from your graveyard to your hand.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, target creature an opponent controls gets -2/-2 until end of turn.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle another card, each opponent loses 1 life and you gain 1 life.",
+          7,
+          2,
+          5
+        ],
+        [
+          "This spell has companion \u2014 {COMPANION_CONDITION_B}. (If this is your chosen companion, you may cast it once from outside the game.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever this creature mutates, put a menace counter on it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a lifelink counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a lifelink counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a lifelink counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a deathtouch counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a deathtouch counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a deathtouch counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a menace counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Destroy target creature with mana value {MV_OR_LESS}. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -3/-3 until end of turn. If you cycled a card this turn, that creature gets -5/-5 until end of turn instead.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Put a deathtouch counter on target creature. Draw a card.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return up to two target creature cards from your graveyard to your hand. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. If you cycled a card this turn, you choose the creatures instead.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you cycled a card this turn, each opponent loses 2 life and you gain 2 life.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with menace or deathtouch counters get +1/+0.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control. That creature gains {RANDOM_KEYWORD} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cycled two or more cards this turn, draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {CARDNAME} enters the battlefield, put a menace counter on enchanted creature and you lose 2 life.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {B}.\n{2}, {T}, Sacrifice {CARDNAME}: Return target creature card from your graveyard to your hand.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{B}: Put a menace counter on target creature. Each opponent loses 1 life.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, it deals 3 damage to any target.",
+          12,
+          3,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, create a 1/1 red Elemental creature token with haste.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, this creature gets +2/+0 until end of turn.",
+          7,
+          2,
+          5
+        ],
+        [
+          "This spell has companion \u2014 {COMPANION_CONDITION_R}. (If this is your chosen companion, you may cast it once from outside the game.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever this creature mutates, put a first strike counter on it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a trample counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a haste counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a haste counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a haste counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a menace counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a first strike counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a first strike counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a first strike counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{CARDNAME} deals 3 damage to any target. If you cycled a card this turn, {CARDNAME} deals 4 damage to that permanent or player instead.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +3/+0 and gains trample until end of turn. Put a first strike counter on it.",
+          7,
+          1,
+          4
+        ],
+        [
+          "{CARDNAME} deals 2 damage to each creature. Cycling {CYCLING_COST}. When you cycle {CARDNAME}, it deals 1 damage to each creature.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact. Cycling {CYCLING_COST}. When you cycle {CARDNAME}, it deals 2 damage to target creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. If you cycled a card this turn, put a +1/+1 counter on that creature.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, {CARDNAME} deals 1 damage to each opponent.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with first strike or trample counters get +1/+0 and have haste.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control. That creature gains {RANDOM_KEYWORD} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cycled two or more cards this turn, draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has menace.\nCycling {CYCLING_COST}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}.\n{2}, {T}, Sacrifice {CARDNAME}: {CARDNAME} deals 2 damage to any target.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{R}: Put a first strike counter on target creature. {CARDNAME} deals 1 damage to any target.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put two +1/+1 counters on it.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, you may have it fight target creature you don't control.",
+          10,
+          3,
+          7
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle another card, you may put a +1/+1 counter on this creature.",
+          7,
+          2,
+          5
+        ],
+        [
+          "This spell has companion \u2014 {COMPANION_CONDITION_G}. (If this is your chosen companion, you may cast it once from outside the game.)",
+          2,
+          3,
+          7
+        ],
+        [
+          "Whenever this creature mutates, put a trample counter on it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a hexproof counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a hexproof counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a hexproof counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a trample counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a reach counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a reach counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a reach counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control fights target creature you don't control. Put a trample counter on the creature you control.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Put two +1/+1 counters on target creature. If you cycled a card this turn, that creature gains hexproof until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. Cycling {CYCLING_COST}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Create a 3/3 green Beast creature token. If you cycled a card this turn, create two of those tokens instead.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with trample or reach counters get +1/+1.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control. That creature gains {RANDOM_KEYWORD} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cycled two or more cards this turn, draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {CARDNAME} enters the battlefield, put a trample counter on enchanted creature. Then put a +1/+1 counter on it for each counter on it.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}.\n{2}, {T}, Sacrifice {CARDNAME}: Put a +1/+1 counter on each of up to two target creatures.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{G}: Put a reach counter on target creature. Draw a card if it already had a counter on it.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, choose one \u2014\n\u2022 Put a +1/+1 counter on this creature.\n\u2022 Create a 1/1 colorless Nightmare creature token.\n\u2022 Draw a card, then discard a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, you may return target nonland permanent you control to its owner's hand.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a flying counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a flying counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a flying counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a reach counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a reach counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a reach counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a trample counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a trample counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Mutate {MUTATE_COST}.\nWhenever this creature mutates, put a menace counter on it.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle another card, put a menace counter on target creature you control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Cycling {CYCLING_COST}. When you cycle {CARDNAME}, scry 2, then draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a card, reveal it, then shuffle and put that card on top. Cycling {CYCLING_COST}.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.\n{2}, {T}, Sacrifice {CARDNAME}: Put a +1/+1 counter on up to one target creature and a keyword counter from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance on up to one other target creature.",
+          10,
+          3,
+          6
+        ],
+        [
+          "{T}: Add {W}, {U}, or {B}. Cycling {2}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {U}, {B}, or {R}. Cycling {2}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {B}, {R}, or {G}. Cycling {2}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {R}, {G}, or {W}. Cycling {2}.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{T}: Add {G}, {W}, or {U}. Cycling {2}.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{CARDNAME} enters the battlefield tapped.\n{CARDNAME} is a {TRIOME_TYPES}.\n{T}: Add {TRIOME_MANA}.\nCycling {3}.",
+          18,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}, Sacrifice {CARDNAME}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Cycling {2}.",
+          8,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control mutates, put a +1/+1 counter on it and you may put a keyword counter on it from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{3}: Put a keyword counter on target creature from among flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, vigilance.",
+          8,
+          2,
+          7
+        ],
+        [
+          "{3}: Target creature you control gains \"Whenever this creature mutates, draw a card\" until end of turn.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{2}: Target creature gains \"{T}: Add one mana of any color. Spend this mana only to cast a creature spell for its mutate cost\" until end of turn.",
+          3,
+          3,
+          7
+        ]
+      ]
+    },
+    "any": {
+      "Equipment": [
+        [
+          "Equipped creature has \"Whenever this creature mutates, it deals 2 damage to any target.\"\nEquip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has menace.\nWhenever you cycle a card, attach {CARDNAME} to up to one target creature you control.\nEquip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nCycling {2}.",
+          6,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Cat",
+      "Elemental",
+      "Bird",
+      "Fox"
+    ],
+    "U": [
+      "Shark",
+      "Elemental",
+      "Leviathan",
+      "Mutant",
+      "Turtle"
+    ],
+    "B": [
+      "Nightmare",
+      "Bat",
+      "Rat",
+      "Zombie",
+      "Human",
+      "Demon"
+    ],
+    "R": [
+      "Dinosaur",
+      "Elemental",
+      "Devil",
+      "Human",
+      "Lizard",
+      "Phoenix"
+    ],
+    "G": [
+      "Beast",
+      "Dinosaur",
+      "Hydra",
+      "Insect",
+      "Ape",
+      "Elk"
+    ],
+    "C": [
+      "Construct",
+      "Mutant",
+      "Shapeshifter",
+      "Beast"
+    ]
+  },
+  "string_pools": {
+    "MUTATE_COST": [
+      "{2}{COLOR}",
+      "{3}{COLOR}{COLOR}",
+      "{1}{HYBRID}{HYBRID}",
+      "{4}{COLOR}"
+    ],
+    "CYCLING_COST": [
+      "{2}",
+      "{1}",
+      "{3}",
+      "{2}{COLOR}",
+      "{1}{HYBRID}"
+    ],
+    "COMPANION_CONDITION_W": [
+      "Your starting deck contains only permanent cards with mana value 2 or less"
+    ],
+    "COMPANION_CONDITION_U": [
+      "Your starting deck contains no card with the same name as any other card"
+    ],
+    "COMPANION_CONDITION_B": [
+      "Each permanent card in your starting deck has mana value 3 or greater"
+    ],
+    "COMPANION_CONDITION_R": [
+      "Your starting deck contains no nonbasic lands"
+    ],
+    "COMPANION_CONDITION_G": [
+      "Your starting deck contains at least twenty creatures"
+    ],
+    "MV_OR_LESS": [
+      "2 or less",
+      "3 or less",
+      "4 or less"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever this creature mutates,",
+      "Whenever you cycle a card,",
+      "When this creature enters the battlefield,"
+    ],
+    "TRIOME_TYPES": [
+      "Forest Plains Island",
+      "Plains Island Swamp",
+      "Island Swamp Mountain",
+      "Swamp Mountain Forest",
+      "Mountain Forest Plains"
+    ],
+    "TRIOME_MANA": [
+      "{G}, {W}, or {U}",
+      "{W}, {U}, or {B}",
+      "{U}, {B}, or {R}",
+      "{B}, {R}, or {G}",
+      "{R}, {G}, or {W}"
+    ],
+    "COLOR": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "HYBRID": [
+      "{W/U}",
+      "{U/B}",
+      "{B/R}",
+      "{R/G}",
+      "{G/W}"
+    ],
+    "RANDOM_KEYWORD": [
+      "flying",
+      "first strike",
+      "deathtouch",
+      "hexproof",
+      "lifelink",
+      "menace",
+      "reach",
+      "trample",
+      "vigilance"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "first strike",
+      "menace",
+      "trample",
+      "haste"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "menace",
+      "reach",
+      "trample",
+      "flying"
+    ]
+  }
+}

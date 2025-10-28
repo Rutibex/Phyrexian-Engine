@@ -1,0 +1,922 @@
+{
+  "name": "kaladesh_max",
+  "version": "1.0",
+  "description": "A very large Kaladesh-themed package featuring Energy, Vehicles (Crew), and Fabricate, plus servo/thopter token support and artifact synergies.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "You gain 3 life. If you spent {E}{E} to cast this, you gain 6 life instead.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Exile target tapped creature. If you spent {E}{E}{E}, scry 2.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. You get {E}{E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 and gains vigilance until end of turn. You get {E}.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Create two 1/1 colorless Servo artifact creature tokens.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one — {MODE_A_OR_B}\n• Creatures you control get +1/+1 until end of turn.\n• You get {E}{E}{E}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. You get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target attacking creature gets +1/+1 until end of turn for each artifact you control.",
+          5,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Fabricate {FABRICATE_N}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Return target artifact or creature card with mana value {MV_OR_LESS} from your graveyard to the battlefield tapped. You get {E}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Create X 1/1 colorless Servo artifact creature tokens, where X is the number of artifacts you control.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Exile target artifact or creature with mana value 4 or less.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "When {THIS} enters the battlefield, fabricate {FABRICATE_N}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control three or more artifacts.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, you gain 1 life and you get {E}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, create a 1/1 colorless Servo artifact creature token.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\nWhenever {THIS} becomes crewed, you gain {GAIN_LIFE}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, fabricate {FABRICATE_N}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a creature spell, you get {E}. Then you may pay {E}{E}. If you do, that creature gains vigilance until end of turn.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1 and has vigilance.\nWhenever enchanted creature attacks, you get {E}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nWhen {THIS} enters the battlefield, fabricate {FABRICATE_N}. Enchanted creature gets +1/+1.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant artifact or creature\nWhenever enchanted permanent becomes tapped, you gain 1 life and you get {E}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}, Pay {E}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 colorless Servo artifact creature token. Activate only if you control three or more artifacts.",
+          6,
+          3,
+          7
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {GENERIC_2}. You get {E}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Return target tapped creature to its owner's hand. You get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target artifact becomes a 0/3 artifact creature until end of turn. Scry 1.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Target creature gets -4/-0 until end of turn. You get {E}{E}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Draw two cards. Then discard a card unless you pay {E}.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Scry 2, then draw two cards. You get {E}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Create a 1/1 colorless Thopter artifact creature token with flying. You get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Fabricate {FABRICATE_N}. Then if you control an artifact with flying, draw a card.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you spend {E}, scry 1.",
+          6,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you got {E} this turn, draw a card, then discard a card.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Artifact creatures you control get +1/+1 and have flying as long as you have {E}{E}{E} or more.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\nWhenever {THIS} attacks, you may pay {E}. If you do, draw a card.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{T}: You get {E}. Spend this energy only to activate abilities of artifacts.",
+          6,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, scry 1. Then you may pay {E}. If you do, draw a card and discard a card.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant artifact or creature\nWhen {THIS} enters the battlefield, tap enchanted permanent and scry 1. It doesn't untap during its controller's next untap step.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Scry 1\" and \"Pay {E}: This creature can't be blocked this turn except by artifact creatures and/or creatures with flying.\"",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Draw a card. Activate only if you have {E}{E} or more.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, Pay {E}: Return target artifact you control to its owner's hand.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn. You get {E}.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Destroy target creature with mana value 3 or less. You get {E}{E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target opponent loses 2 life and you gain 2 life. You get {E}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Exile target creature card from a graveyard. You get {E}. Draw a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target artifact or creature card from your graveyard to your hand. You get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Each opponent loses X life, where X is the number of artifacts you control. You gain that much life.",
+          5,
+          4,
+          7
+        ],
+        [
+          "Fabricate {FABRICATE_N}. Then you may sacrifice a creature. If you do, draw a card and you get {E}{E}.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an artifact you control dies, you get {E}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may pay {E}{E}. If you do, each opponent loses 2 life and you gain 2 life.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Creatures you control have menace as long as you control an artifact creature.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\nWhenever {THIS} becomes crewed, target creature an opponent controls gets -2/-2 until end of turn.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{T}, Pay {E}: Target opponent discards a card. Activate only as a sorcery.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, return target creature card with mana value {MV_OR_LESS} from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has menace.\nWhenever enchanted creature deals combat damage to a player, you get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has \"Whenever this permanent becomes tapped, each opponent loses 1 life and you gain 1 life.\"",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: You get {E}. Then you may pay {E}{E}. If you do, return target creature card with mana value {MV_OR_LESS} from your graveyard to the battlefield tapped.",
+          6,
+          4,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}, Sacrifice an artifact: Target creature gets -2/-2 until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{THIS} deals 3 damage to any target. You get {E}.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +3/+0 and gains first strike until end of turn. Create a tapped Treasure token.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Create a 1/1 colorless Servo artifact creature token. It gains haste until end of turn. Scry 1.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Choose one — {MODE_A_OR_B}\n• {THIS} deals 2 damage to any target and you get {E}.\n• Destroy target artifact.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 colorless Servo artifact creature tokens. They gain haste until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Fabricate {FABRICATE_N}. Then {THIS} deals 1 damage to each creature.",
+          5,
+          3,
+          6
+        ],
+        [
+          "You get {E}{E}. Then {THIS} deals X damage to any target, where X is the amount of {E} you spent to cast this spell.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, target artifact you control becomes a 3/3 artifact creature until end of turn.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you spend {E}, {THIS} deals 1 damage to any target.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Vehicles you control have haste.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\nWhenever {THIS} attacks, it deals 1 damage to any target. If you spent {E} to crew it, it deals 2 damage instead.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{T}: You get {E}{E}. Spend this energy only to activate abilities of creatures and Vehicles.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, create a 1/1 colorless Servo artifact creature token, then you may pay {E}. If you do, {THIS} deals 1 damage to any target.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant artifact or creature\nEnchanted permanent has \"{T}: {THIS} deals 1 damage to any target\" and \"Whenever this permanent becomes tapped, you get {E}.\"",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has haste.\nWhenever enchanted creature attacks, you may pay {E}. If you do, it gets +1/+0 until end of turn.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}, Pay {E}: {THIS} deals 2 damage to any target.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target Vehicle you control becomes an artifact creature until end of turn. Scry 1.",
+          5,
+          3,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. You get {E}.",
+          7,
+          2,
+          4
+        ],
+        [
+          "Put two +1/+1 counters on target creature. You may pay {E}{E}. If you do, that creature gains trample until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. You get {E}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. You get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Create a 1/1 colorless Servo artifact creature token, then fabricate {FABRICATE_N}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Distribute two +1/+1 counters among one or two target creatures. You get {E}.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you get {E}, put a +1/+1 counter on target creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control three or more artifacts.",
+          5,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, create a 1/1 colorless Servo artifact creature token if you control an artifact creature.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\nWhenever {THIS} becomes crewed, put a +1/+1 counter on target creature you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever you spend {E}, put a +1/+1 counter on {THIS}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has trample.\nWhenever enchanted creature becomes tapped, you get {E}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has \"Pay {E}: Add one mana of any color.\"",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: You get {E}{E}. Then you may pay {E}{E}. If you do, create a 1/1 colorless Servo artifact creature token.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Put a +1/+1 counter on target creature. Activate only if you control an artifact.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "You get {E}{E}. Draw a card.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on up to one target creature. Scry 1.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Target artifact becomes a creature with base power and toughness 3/3 until end of turn.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Fabricate {FABRICATE_N}. If you control an artifact with flying, create a 1/1 colorless Thopter artifact creature token with flying.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Return target artifact card from your graveyard to the battlefield.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an artifact spell, you get {E}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Artifact creatures you control get +1/+1.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you spend {E}, scry 1, then you may have target artifact become a 3/3 artifact creature until end of turn.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_N}\n{THIS} has flying as long as you have {E}{E} or more.",
+          7,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, you get {E}{E}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{T}: Add {MANA_FIX}. {THIS} enters the battlefield tapped unless you pay {E}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{T}, Pay {E}: Add one mana of any color.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Equipment — Equipped creature gets +2/+0 and has first strike.\nEquip {EQUIP_COST}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{T}: Create a 1/1 colorless Servo artifact creature token.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{T}: Create a 1/1 colorless Thopter artifact creature token with flying. Activate only if you have {E}{E}.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant artifact or creature\nEnchanted permanent has \"Whenever this becomes tapped, you get {E}.\"",
+          7,
+          1,
+          5
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent is a Vehicle in addition to its other types and has crew {CREW_N}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color\" and \"Whenever this land becomes tapped for mana, you get {E}.\"",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{GENERIC_3}: You get {E}{E}{E}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{GENERIC_2}, {T}: Target Vehicle you control gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{GENERIC_1}, Pay {E}: Untap target artifact.",
+          6,
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Dwarf",
+      "Human",
+      "Artificer",
+      "Pilot",
+      "Soldier",
+      "Servo"
+    ],
+    "U": [
+      "Vedalken",
+      "Human",
+      "Artificer",
+      "Pilot",
+      "Thopter",
+      "Construct"
+    ],
+    "B": [
+      "Aetherborn",
+      "Human",
+      "Artificer",
+      "Rogue",
+      "Gremlin"
+    ],
+    "R": [
+      "Dwarf",
+      "Human",
+      "Artificer",
+      "Pilot",
+      "Gremlin",
+      "Pirate"
+    ],
+    "G": [
+      "Elf",
+      "Human",
+      "Artificer",
+      "Scout",
+      "Beast",
+      "Cat"
+    ],
+    "C": [
+      "Construct",
+      "Thopter",
+      "Servo",
+      "Assembly-Worker"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{GENERIC_1}",
+      "{GENERIC_2}",
+      "{GENERIC_3}",
+      "{GENERIC_2}, {T}",
+      "{T}"
+    ],
+    "EQUIP_COST": [
+      "{GENERIC_1}",
+      "{GENERIC_2}",
+      "{GENERIC_1}"
+    ],
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever"
+    ],
+    "MODE_A_OR_B": [
+      "choose one",
+      "choose one or both"
+    ],
+    "GENERIC_1": [
+      "{1}"
+    ],
+    "GENERIC_2": [
+      "{2}"
+    ],
+    "GENERIC_3": [
+      "{3}"
+    ],
+    "MANA_FIX": [
+      "{C}",
+      "{1}",
+      "{2}",
+      "{C}{C}"
+    ],
+    "FABRICATE_N": [
+      "1",
+      "2"
+    ],
+    "CREW_N": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "GAIN_LIFE": [
+      "2 life",
+      "3 life",
+      "4 life"
+    ],
+    "MV_OR_LESS": [
+      "2 or less",
+      "3 or less",
+      "4 or less"
+    ],
+    "{E}": [
+      "{E}"
+    ],
+    "SERVO_TOKEN": [
+      "Create a 1/1 colorless Servo artifact creature token"
+    ],
+    "THOPTER_TOKEN": [
+      "Create a 1/1 colorless Thopter artifact creature token with flying"
+    ],
+    "COUNTER_P1P1": [
+      "put a +1/+1 counter on target creature"
+    ],
+    "ENERGY_GAIN": [
+      "You get {E}.",
+      "You get {E}{E}.",
+      "You get {E}{E}{E}."
+    ],
+    "ENERGY_PAY_EFFECT": [
+      "Pay {E}: Target creature gets +1/+0 until end of turn.",
+      "Pay {E}: Scry 1.",
+      "Pay {E}{E}: Draw a card, then discard a card.",
+      "Pay {E}{E}: Target creature gains flying until end of turn.",
+      "Pay {E}{E}: {THIS} deals 2 damage to any target."
+    ]
+  }
+}

@@ -1,0 +1,810 @@
+{
+  "name": "March of the Machine Mega",
+  "id": "mom_mega",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Exile target tapped creature. If you controlled a battle as you cast this spell, incubate {X} where X is that creature's mana value.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control get +{X}/+{X} and vigilance until end of turn. If a creature you control with backup targeted another creature this turn, draw a card.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Untap up to {X} target creatures. Prevent all damage that would be dealt to target battle this turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature gains lifelink and indestructible until end of turn. Transform up to one target Incubator token you control.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Put a stun counter on up to one target creature. You gain {X} life. If you control a Siege, scry 2.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Incubate {X}. Then you may transform an Incubator token you control. If you do, you gain {X} life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Destroy all creatures with power {X} or greater. For each creature destroyed this way, incubate 1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create {X} 2/2 Knight creature tokens with vigilance. If a battle was dealt damage this turn, those tokens get +1/+1 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose up to two target creatures. Put a +1/+1 counter on each. Then those creatures gain \"Whenever this creature deals combat damage to a battle, remove that many defense counters from it.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield. It gains backup 1 until end of turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have vigilance. Whenever a creature you control with vigilance attacks a battle, incubate 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Spells you cast have convoke.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever a creature enters the battlefield under your control, if it has backup, you gain 1 life and scry 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "At the beginning of combat on your turn, up to one target creature gets +{X}/+{X} until end of turn. If it targets another creature with backup this turn, you may transform an Incubator you control.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Incubator Matrix — {2}, {T}: Incubate 1. {2}: Transform an Incubator you control.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Battle Standard — Equipped creature gets +{X}/+{X}. Whenever equipped creature deals combat damage to a battle, you gain that much life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Incubator Core — {2}: Transform target Incubator you control. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siege Map — {T}: Add one mana of any color. Whenever you spend this mana to cast a battle spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Phyrexian Reprocessor — {3}, {T}, Exile a creature card from your graveyard: Incubate 2.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has vigilance and \"Backup 1\". Whenever this creature attacks a battle, put a +1/+1 counter on it. Equip {X}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+{X} and has lifelink. When this Aura enters, incubate 1.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters, transform up to one target Incubator you control.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Backup {X} (When this creature enters, put {X} +1/+1 counters on target creature. If that's another creature, it gains the following abilities until end of turn.)\nLifelink",
+          3,
+          1,
+          3
+        ],
+        [
+          "Backup 1\nWhenever this creature or a creature you control it backs up deals combat damage to a battle, you gain 2 life.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever this creature attacks, incubate 1. When you transform an Incubator you control, put a +1/+1 counter on this creature.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Legendary (This card is legendary in addition to its other types.)\nWhen this creature enters the battlefield, choose another creature you control. It gains all abilities of this creature until end of turn. If that creature shares a color with this one, incubate 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, this creature gets +2/+2 and gains vigilance until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Convoke\nCounter target spell unless its controller pays {X}. If that spell targets a battle, draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If you returned an Incubator token you control this way, you may transform it first.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Tap up to two target creatures. Put a stun counter on up to one of them. If a battle was dealt damage this turn, scry {X}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Transform target Incubator you control. Draw a card.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Incubate {X}. Then look at the top {X} cards of your library. Put one into your hand and the rest on the bottom in any order.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Gain control of target creature or Incubator token with mana value {X} or less until end of turn. Untap it. It gains haste.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Look at the top five cards of your library. You may reveal a battle or instant card from among them and put it into your hand. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a noncreature spell, incubate 1. Whenever you transform an Incubator, scry 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Creatures you control have \"This creature can't be blocked as long as defending player controls a battle.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if you defeated a battle this turn, draw a card.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Siege Siphon — {2}, {T}: Draw a card. Activate only if a battle was dealt damage this turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Scriptorium of Completion — {3}, {T}: Transform target Incubator you control. If you do, untap it.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Incubator Core — {2}: Transform target Incubator you control. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siege Map — {T}: Add one mana of any color. Whenever you spend this mana to cast a battle spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Phyrexian Reprocessor — {3}, {T}, Exile a creature card from your graveyard: Incubate 2.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player or battle, draw a card, then discard a card.\" Equip {X}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has \"{T}: Tap target creature or battle.\" When this Aura enters, incubate 1.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {U}{U}. Spend this mana only to cast spells with convoke or to transform Incubators.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Backup 1\nWhenever this creature or a creature it backs up deals combat damage to a player, you may return up to one target nonland permanent that player controls to its owner's hand.",
+          3,
+          1,
+          1
+        ],
+        [
+          "When this creature enters the battlefield, incubate {X}. Whenever you cast a spell with convoke, you may transform an Incubator you control.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you defeat a battle, draw a card. Other Phyrexians you control have ward {1}.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Legendary (This card is legendary in addition to its other types.)\nWhen this creature enters the battlefield, choose another creature you control. It gains all abilities of this creature until end of turn. If that creature shares a color with this one, incubate 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, this creature gets +2/+2 and gains vigilance until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn. If that creature would die this turn, incubate 1.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Destroy target creature or battle with mana value {X} or less. You lose 2 life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Convoke\nEach opponent loses {X} life and you gain that much life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Transform up to one target Incubator you control. Creatures you control gain deathtouch until end of turn.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Incubate {X}, then you may sacrifice an artifact or creature. When you do, draw cards equal to that permanent's mana value.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. It becomes a Phyrexian in addition to its other types. Incubate 2.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Each opponent sacrifices a creature or Incubator they control. If you control a battle, each opponent sacrifices two instead.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a Phyrexian you control dies, incubate 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if you transformed an Incubator this turn, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Non-Phyrexian creatures your opponents control get -1/-1.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Spawning Vat — {2}, {T}, Sacrifice a creature or Incubator: Incubate 2.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siegebreaker's Blade — Equipped creature gets +2/+0 and has menace. Whenever it deals combat damage to a battle, remove two defense counters from that battle. Equip {X}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Incubator Core — {2}: Transform target Incubator you control. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siege Map — {T}: Add one mana of any color. Whenever you spend this mana to cast a battle spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Phyrexian Reprocessor — {3}, {T}, Exile a creature card from your graveyard: Incubate 2.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has deathtouch and \"Whenever this creature deals combat damage to a player or battle, incubate 1.\" Equip {2}.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 and has \"When this creature dies, incubate {X}.\" ",
+          2,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {B}. When this land becomes tapped, you lose 1 life unless you transformed an Incubator this turn.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Backup {X}\nMenace",
+          3,
+          1,
+          3
+        ],
+        [
+          "When this creature enters the battlefield, incubate 2. Whenever another Phyrexian you control transforms, put a +1/+1 counter on this creature.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Legendary (This card is legendary in addition to its other types.)\nWhen this creature enters the battlefield, choose another creature you control. It gains all abilities of this creature until end of turn. If that creature shares a color with this one, incubate 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, this creature gets +2/+2 and gains vigilance until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Convoke\nThis spell deals {X} damage divided as you choose among up to three targets.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This spell deals {X} damage to target creature or battle. If a permanent dealt damage this way would die this turn, exile it instead.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Target creature gains first strike and \"Whenever this creature deals combat damage to a battle, create a Treasure token.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "Transform up to one target Incubator you control. Create a 1/1 red Phyrexian Goblin creature token. That token gains haste until end of turn.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Incubate {X}, then this spell deals {X} damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 red Phyrexian creature tokens with haste. If you control a battle, those tokens gain \"Sacrifice this creature: This creature deals 1 damage to any target.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste and \"When this creature deals combat damage to a battle, remove all defense counters from it.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control becomes tapped to convoke a spell, this enchantment deals 1 damage to each opponent.",
+          3,
+          1,
+          1
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +2/+0 and gains \"When this creature dies, incubate 1.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, create a Treasure token, then incubate 1.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Siege Ram — {T}, Sacrifice an artifact: Target battle loses {X} defense counters. Activate only as a sorcery.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Phyrexian Forge — {3}, {T}: Incubate 1. Whenever an artifact you control dies, this deals 1 damage to each opponent.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Incubator Core — {2}: Transform target Incubator you control. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siege Map — {T}: Add one mana of any color. Whenever you spend this mana to cast a battle spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Phyrexian Reprocessor — {3}, {T}, Exile a creature card from your graveyard: Incubate 2.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has trample and haste. Whenever it deals combat damage to a battle, exile the top card of your library. You may play it this turn. Equip {2}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and has \"When this creature attacks a battle, it deals 1 damage to each of up to two target creatures that could block it.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {R}{R}. Spend this mana only to cast spells with convoke or activate abilities of artifacts.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Backup {X}\nFirst strike",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you cast a spell with convoke, this creature deals 1 damage to each opponent.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Haste\nWhenever this creature or another creature you control deals combat damage to a battle, incubate 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Legendary (This card is legendary in addition to its other types.)\nWhen this creature enters the battlefield, choose another creature you control. It gains all abilities of this creature until end of turn. If that creature shares a color with this one, incubate 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, this creature gets +2/+2 and gains vigilance until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Convoke\nTarget creature you control gets +{X}/+{X} until end of turn. Then it fights up to one target creature you don't control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Put {X} +1/+1 counters on target creature. If that creature has backup, it gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target creature you control gets hexproof until end of turn. Transform up to one target Incubator you control.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Incubate 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a 3/3 green Phyrexian Beast creature token, then incubate {X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to three target creatures. Then if you control a battle, those creatures gain trample until end of turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have \"Backup 1.\" (As each enters, you may put a +1/+1 counter on target creature; if it isn't this creature, it gains this creature's abilities until end of turn.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more +1/+1 counters are put on a creature you control, incubate 1.",
+          3,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if you transformed an Incubator this turn, put a +1/+1 counter on each creature you control.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Hatchery Engine — {2}, {T}: Add {G}. Spend this mana only to cast creature spells or activate abilities that transform Incubators.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Siege-Scaler Harness — {3}, {T}: Target creature you control gets +2/+2 until end of turn. It deals damage to target battle equal to its power.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Incubator Core — {2}: Transform target Incubator you control. Activate only as a sorcery.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Siege Map — {T}: Add one mana of any color. Whenever you spend this mana to cast a battle spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Phyrexian Reprocessor — {3}, {T}, Exile a creature card from your graveyard: Incubate 2.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has \"Whenever this creature backs up another creature, put a +1/+1 counter on each of them.\" Equip {2}.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. When this Aura enters, put {X} +1/+1 counters on enchanted creature. It has trample as long as you control a battle.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {G}{G}. Spend this mana only on creature spells or to transform Incubators.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Backup {X}\nTrample",
+          3,
+          1,
+          3
+        ],
+        [
+          "When this creature enters the battlefield, incubate 2. Other creatures you control with +1/+1 counters on them have trample.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell with convoke, put a +1/+1 counter on target creature. Then if you control a battle, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Legendary (This card is legendary in addition to its other types.)\nWhen this creature enters the battlefield, choose another creature you control. It gains all abilities of this creature until end of turn. If that creature shares a color with this one, incubate 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you defeat a battle, this creature gets +2/+2 and gains vigilance until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ]
+    }
+  }
+}

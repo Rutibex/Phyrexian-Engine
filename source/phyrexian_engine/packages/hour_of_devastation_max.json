@@ -1,0 +1,923 @@
+{
+  "name": "hour_of_devastation_max",
+  "description": "Comprehensive package inspired by Hour of Devastation (HOU): Afflict, Eternalize, Exert, Deserts, -1/-1 counters, Cycling, and more. Includes broad effect templates across colors and types.",
+  "version": "1.0.0",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{EXERT_CLAUSE}",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} creatures you control get +1/+1 until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {LIFE_GAIN}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} tap target creature an opponent controls.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever {SELF} becomes exerted, {EMBLEMISH}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DESERT_RIDER}",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} exile target creature with power 3 or less until {SELF} leaves the battlefield.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +2/+2 and gains vigilance until end of turn.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Exile target attacking or blocking creature with power 3 or less.",
+          9,
+          1,
+          6
+        ],
+        [
+          "{DESERT_SNIPPET}: Prevent all damage that would be dealt this turn by target non-Desert source.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Warrior creature tokens.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Exile target tapped creature.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Destroy all creatures with power 4 or greater.",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+0.",
+          7,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gains vigilance until end of turn.",
+          7,
+          2,
+          6
+        ],
+        [
+          "As long as you control a Desert, creatures you control get +0/+1.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} scry 2.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DRAW_N}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{EXERT_CLAUSE}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever {SELF} becomes exerted, tap up to one target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} return up to one target creature to its owner's hand.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DESERT_RIDER}",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. {EMBLEMISH}.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Target player mills four cards. If {DESERT_SNIPPET}, draw a card.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you cycled a card this turn, {DRAW_N}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} each opponent loses 1 life and you gain 1 life.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {COUNTER_CHUNK}.",
+          11,
+          2,
+          6
+        ],
+        [
+          "Whenever another creature you control dies, {TARGET_OPP} loses 1 life.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DESERT_RIDER}",
+          11,
+          2,
+          6
+        ],
+        [
+          "{EMBALM_OR_ETERNALIZE}",
+          11,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Exile target creature card from a graveyard. If {DESERT_SNIPPET}, you gain 2 life.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Destroy target creature with mana value 3 or less.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "All creatures get -1/-1 until end of turn.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If {DESERT_SNIPPET}, create a 2/2 black Zombie creature token.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures your opponents control get -1/-0.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you put one or more -1/-1 counters on a creature, each opponent loses 1 life.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {PING}.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} target creature can't block this turn.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{EXERT_CLAUSE}",
+          11,
+          2,
+          6
+        ],
+        [
+          "Whenever {SELF} becomes exerted, it deals 1 damage to each of up to two targets.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DESERT_RIDER}",
+          11,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{SELF} deals 3 damage to any target.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Target creature can't block this turn. {DRAW_N}.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{SELF} deals 4 damage to target creature.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Each creature can't block this turn.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you cycle or discard a card, {SELF} deals 1 damage to each opponent.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} put a +1/+1 counter on up to one target creature.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you gain 3 life.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you may destroy target artifact or enchantment.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {DESERT_RIDER}",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control fights target creature you don't control.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          10,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 2/2 green Beast creature tokens.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Until end of turn, lands you control become 2/2 creatures that are still lands.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +0/+1.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever a Desert enters the battlefield under your control, you gain 1 life.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: {PING}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: {DRAW_N}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{1}, {T}: Add one mana of any color. Spend this mana only to cast creature spells.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has afflict {AFFLICT_VALUE}. Equip {EQUIP_COST}.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1. Whenever it becomes exerted, scry 1. Equip {EQUIP_COST}.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample. Equip {EQUIP_COST}.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert\n{DESERT_LAND_LINE}\n{DESERT_ACTIVATED}",
+          10,
+          0,
+          0
+        ],
+        [
+          "Desert\n{DESERT_LAND_LINE}\nCycling {CYCLING_COST}",
+          10,
+          0,
+          0
+        ],
+        [
+          "{DESERT_LAND_LINE}\nAs long as you control a Desert, {EMBLEMISH}.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 and has afflict {AFFLICT_VALUE}.",
+          9,
+          1,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature has \"{T}: Add one mana of any color.\"",
+          9,
+          1,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and can't block.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\"",
+          7,
+          1,
+          6
+        ],
+        [
+          "Enchant land. Whenever enchanted land is tapped for mana, its controller gains 1 life.",
+          7,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle or discard a card, {EMBLEMISH}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control a Desert, scry 1.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets +1/+0 and gains first strike until end of turn. {AFTERMATH_HELPER}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. {AFTERMATH_HELPER}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{SELF} deals 2 damage divided as you choose among one or two targets. {AFTERMATH_HELPER}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Draw two cards, then discard a card. {AFTERMATH_HELPER}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Choose one — {BOLAS_FLAVOR_SWITCH}",
+          5,
+          4,
+          7
+        ],
+        [
+          "Draw two cards. Each opponent discards a card.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {DRAW_N}.",
+          7,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: {PING}.",
+          7,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: {TARGET_OPP} discards a card. Activate only as a sorcery.",
+          7,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Put a -1/-1 counter on target creature.",
+          7,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Zombie\n{TRIGGER_INTRO} {COUNTER_CHUNK}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Zombie\n{EMBALM_OR_ETERNALIZE}",
+          8,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} If {DESERT_SNIPPET}, {DRAW_N}.",
+          8,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Warrior",
+      "Cleric",
+      "Soldier",
+      "Cat",
+      "Human",
+      "Angel",
+      "Bird"
+    ],
+    "U": [
+      "Wizard",
+      "Naga",
+      "Bird",
+      "Illusion",
+      "Sphinx",
+      "Human"
+    ],
+    "B": [
+      "Zombie",
+      "Jackal",
+      "Minotaur",
+      "Scorpion",
+      "Cleric",
+      "Horror",
+      "Human"
+    ],
+    "R": [
+      "Minotaur",
+      "Warrior",
+      "Jackal",
+      "Lizard",
+      "Devil",
+      "Human"
+    ],
+    "G": [
+      "Naga",
+      "Crocodile",
+      "Beast",
+      "Wurm",
+      "Insect",
+      "Warrior",
+      "Human"
+    ],
+    "C": [
+      "Golem",
+      "Scorpion",
+      "Construct"
+    ],
+    "any": [
+      "Warrior",
+      "Wizard",
+      "Assassin",
+      "Archer",
+      "Jackal",
+      "Minotaur",
+      "Naga",
+      "Zombie",
+      "Cleric",
+      "Beast"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "Tap an untapped creature you control",
+      "Tap this creature"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{2}{W}",
+      "{2}{R}"
+    ],
+    "CYCLING_COST": [
+      "{2}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}"
+    ],
+    "DESERT_SNIPPET": [
+      "If you control a Desert",
+      "If there is a Desert card in your graveyard",
+      "If you control a Desert or there is a Desert card in your graveyard"
+    ],
+    "AFFLICT_VALUE": [
+      "1",
+      "2",
+      "3"
+    ],
+    "COUNTER_CHUNK": [
+      "put a -1/-1 counter on up to one target creature",
+      "put two -1/-1 counters on target creature",
+      "move a -1/-1 counter from target creature onto another target creature",
+      "distribute two -1/-1 counters among one or two target creatures"
+    ],
+    "EXERT_CLAUSE": [
+      "You may exert this creature as it attacks. When you do, {EXERT_EFFECT}.",
+      "Exert this creature as it attacks. When you do, {EXERT_EFFECT}."
+    ],
+    "EXERT_EFFECT": [
+      "it gets +1/+1 and gains first strike until end of turn",
+      "tap up to one target creature",
+      "creatures defending player controls get -1/-0 until end of turn",
+      "it deals 1 damage to each of up to two target creatures",
+      "target creature can't block this turn",
+      "draw a card"
+    ],
+    "ZOMBIFY_SNIPPET": [
+      "Create a token that's a copy of it, except it's a 4/4 black Zombie in addition to its other types and has no mana cost."
+    ],
+    "ETERNALIZE_COST": [
+      "{4}{B}{B}",
+      "{5}{B}{B}",
+      "{4}{U}{B}",
+      "{3}{B}{B}",
+      "{5}{U}{B}"
+    ],
+    "EMBALM_OR_ETERNALIZE": [
+      "Eternalize {ETERNALIZE_COST} ({ETERNALIZE_HELPER})"
+    ],
+    "ETERNALIZE_HELPER": [
+      "Exile this card from your graveyard: {ZOMBIFY_SNIPPET} Eternalize only as a sorcery."
+    ],
+    "TRIGGER_INTRO": [
+      "When {SELF} enters the battlefield,",
+      "When {SELF} attacks,",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "TARGET_OPP": [
+      "target opponent",
+      "each opponent"
+    ],
+    "DRAW_N": [
+      "draw a card",
+      "draw two cards"
+    ],
+    "DISCARD_N": [
+      "discard a card",
+      "discard two cards"
+    ],
+    "PING": [
+      "it deals 1 damage to any target",
+      "it deals 2 damage to any target"
+    ],
+    "LIFE_GAIN": [
+      "you gain 3 life",
+      "you gain 4 life",
+      "you gain 5 life"
+    ],
+    "LIFE_LOSS": [
+      "each opponent loses 1 life",
+      "each opponent loses 2 life"
+    ],
+    "EMBLEMISH": [
+      "Creatures you control get +1/+0 until end of turn",
+      "You may cast spells as though they had flash until end of turn",
+      "Scry 2"
+    ],
+    "DESERT_RIDER": [
+      "If you control a Desert, {EMBLEMISH}.",
+      "If there is a Desert card in your graveyard, {EMBLEMISH}.",
+      "If you control a Desert or there is a Desert card in your graveyard, {EMBLEMISH}."
+    ],
+    "AFTERMATH_HELPER": [
+      "(Cast this spell only from your graveyard. Then exile it.)"
+    ],
+    "MUMMY_TYPES": [
+      "Zombie",
+      "Zombie Jackal",
+      "Zombie Minotaur",
+      "Zombie Naga",
+      "Zombie Human"
+    ],
+    "DESERT_LAND_LINE": [
+      "{T}: Add {C}.",
+      "{T}: Add {R}.",
+      "{T}: Add {W}.",
+      "{T}: Add {U}.",
+      "{T}: Add {B}.",
+      "{T}: Add {G}."
+    ],
+    "DESERT_ACTIVATED": [
+      "{1}, {T}, Sacrifice a Desert: {PING}.",
+      "{2}, {T}, Sacrifice a Desert: {DRAW_N}.",
+      "{1}, {T}: {TARGET_OPP} loses 1 life. Activate only if you control a Desert."
+    ],
+    "REMOVAL_SMALL": [
+      "destroy target creature with power 3 or less",
+      "exile target tapped creature",
+      "target creature gets -3/-3 until end of turn"
+    ],
+    "BOLAS_FLAVOR_SWITCH": [
+      "If you cast a noncreature spell this turn, {DRAW_N}.",
+      "If you cast a creature spell this turn, {LIFE_LOSS}."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "Exert"
+    ],
+    "U": [
+      "Flying",
+      "Prowess"
+    ],
+    "B": [
+      "Afflict {AFFLICT_VALUE}",
+      "Menace",
+      "Lifelink"
+    ],
+    "R": [
+      "Afflict {AFFLICT_VALUE}",
+      "Haste"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ],
+    "C": [
+      "Deathtouch"
+    ],
+    "any": [
+      "Afflict {AFFLICT_VALUE}"
+    ]
+  }
+}

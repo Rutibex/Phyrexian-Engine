@@ -1,0 +1,1913 @@
+{
+  "name": "Karlov Mystery (MKM-sized)",
+  "version": "1.0",
+  "notes": "Comprehensive package for Murders at Karlov Manor mechanics: Disguise, Cloak, Suspect, Collect evidence, Cases, Investigate.",
+  "tokens": {
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Detective",
+      "Spirit",
+      "Thopter",
+      "Construct",
+      "Citizen",
+      "Horror",
+      "Homunculus",
+      "Bird"
+    ],
+    "DETECTIVE_SUBTYPE": [
+      "Detective"
+    ],
+    "ARTIFACT_SUBTYPE": [
+      "Clue",
+      "Food",
+      "Treasure"
+    ],
+    "COUNTER_TYPE": [
+      "+1/+1",
+      "stun",
+      "evidence",
+      "solve"
+    ]
+  },
+  "mechanic_snippets": {
+    "DISGUISE": [
+      "Disguise {X} (You may cast this card face down as a 2/2 colorless creature with ward {2} for {3}. Turn it face up any time for its disguise cost.)"
+    ],
+    "CLOAK_HAND": [
+      "Cloak a card from your hand. (Put it onto the battlefield face down as a 2/2 colorless creature with ward {2}. Turn it face up any time by paying its mana cost if it's a creature.)"
+    ],
+    "CLOAK_LIBRARY": [
+      "Cloak the top card of your library. (Put it onto the battlefield face down as a 2/2 colorless creature with ward {2}. Turn it face up any time by paying its mana cost if it's a creature.)"
+    ],
+    "SUSPECT": [
+      "Suspect target creature. (It becomes suspected. A suspected creature has menace and can't block.)"
+    ],
+    "COLLECT_EVIDENCE": [
+      "Collect evidence {X}. (Exile cards from your graveyard with total mana value {X} or more.)",
+      "Collect evidence {X} as an additional cost."
+    ],
+    "INVESTIGATE": [
+      "Investigate. (Create a Clue token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+      "Investigate {X}. (Create {X} Clue tokens.)"
+    ],
+    "CASE_SOLVE_HEADER": [
+      "To solve — {CONDITION}. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)",
+      "Solved — {EFFECT}"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "DISGUISE|{3}|ETB — Investigate.",
+          3,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{2}{W}|ETB — Tap up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{U}|When turned face up, draw {X} cards.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{B}|When turned face up, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{R}|When turned face up, it deals {X} damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{G}|When turned face up, distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — COLLECT_EVIDENCE|{4}. If evidence was collected, this enters with two +1/+1 counters.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Attack trigger — If you control a Clue, this gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — SUSPECT target creature you don't control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Activated — Sacrifice a Clue: Put a +1/+1 counter on this. Activate only as a sorcery.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice an artifact, this gets +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this is suspected, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+0 and have vigilance.",
+          1,
+          1,
+          6
+        ],
+        [
+          "When this becomes blocked, you may COLLECT_EVIDENCE|{3}. When you do, SUSPECT target creature defending player controls.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this deals combat damage to a player, Investigate {X}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "As long as you have solved a Case, this has flying and lifelink.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a Clue as you cast this spell, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "SUSPECT target creature. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If you COLLECT_EVIDENCE|{2}, put a +1/+1 counter on your creature first.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deal {X} damage to any target. If you investigated this turn, this spell deals 2 more damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. If you solved a Case this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn. COLLECT_EVIDENCE|{3}. When you do, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target attacking creature. If that creature was suspected, its controller Investigates.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X}. Then you may Suspect up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 white and blue Detective creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. COLLECT_EVIDENCE|{6}. If evidence was collected, return two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile up to one target creature or planeswalker with mana value {X} or less.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library. You may cloak one of them. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target tapped creature. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Each opponent discards a card. If evidence was collected this turn, each discards two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. COLLECT_EVIDENCE|{4}. If evidence was collected, create two Clue tokens.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Case — At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn.\nTo solve — Control three or more artifacts. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)\nSolved — Creatures you control have vigilance.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you sacrifice an artifact, put an evidence counter on this.\nTo solve — Remove three evidence counters.\nSolved — At the beginning of your end step, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you draw your second card each turn, put a +1/+1 counter on target creature.\nTo solve — You drew three or more cards this turn.\nSolved — Creatures you control get +1/+1.",
+          2,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you suspected a creature this turn, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more creatures you control become suspected, they get +1/+0 and gain haste until end of turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, {T}, Sacrifice this artifact: Draw a card.\"",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue or Treasure, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — Investigate {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}, COLLECT_EVIDENCE|{4}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}, {T}: Cloak the top card of your library.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{3}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.\nWhenever enchanted creature deals combat damage to a player, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, SUSPECT enchanted creature you don't control.\nEnchanted creature gets -2/-0 and can't block.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"When this creature becomes suspected, draw a card.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhen this Aura enters, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast spells face down or to turn permanents face up.\"",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, Investigate.\nEquip {X}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Ward — COLLECT_EVIDENCE|{2}.\"\nEquip {2}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever equipped creature becomes suspected, draw a card.\nEquip {1}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell face down or to activate an ability to turn a permanent face up.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Investigate {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}: Cloak a card from your hand.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "DISGUISE|{3}|ETB — Investigate.",
+          3,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{2}{W}|ETB — Tap up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{U}|When turned face up, draw {X} cards.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{B}|When turned face up, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{R}|When turned face up, it deals {X} damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{G}|When turned face up, distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — COLLECT_EVIDENCE|{4}. If evidence was collected, this enters with two +1/+1 counters.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Attack trigger — If you control a Clue, this gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — SUSPECT target creature you don't control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Activated — Sacrifice a Clue: Put a +1/+1 counter on this. Activate only as a sorcery.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice an artifact, this gets +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this is suspected, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+0 and have vigilance.",
+          1,
+          1,
+          6
+        ],
+        [
+          "When this becomes blocked, you may COLLECT_EVIDENCE|{3}. When you do, SUSPECT target creature defending player controls.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this deals combat damage to a player, Investigate {X}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "As long as you have solved a Case, this has flying and lifelink.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a Clue as you cast this spell, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "SUSPECT target creature. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If you COLLECT_EVIDENCE|{2}, put a +1/+1 counter on your creature first.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deal {X} damage to any target. If you investigated this turn, this spell deals 2 more damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. If you solved a Case this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn. COLLECT_EVIDENCE|{3}. When you do, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand. If it was suspected, draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Look at the top three cards of your library. You may cloak one of them.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X}. Then you may Suspect up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 white and blue Detective creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. COLLECT_EVIDENCE|{6}. If evidence was collected, return two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile up to one target creature or planeswalker with mana value {X} or less.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library. You may cloak one of them. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target tapped creature. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Each opponent discards a card. If evidence was collected this turn, each discards two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. COLLECT_EVIDENCE|{4}. If evidence was collected, create two Clue tokens.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Case — At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn.\nTo solve — Control three or more artifacts. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)\nSolved — Creatures you control have vigilance.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you sacrifice an artifact, put an evidence counter on this.\nTo solve — Remove three evidence counters.\nSolved — At the beginning of your end step, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you draw your second card each turn, put a +1/+1 counter on target creature.\nTo solve — You drew three or more cards this turn.\nSolved — Creatures you control get +1/+1.",
+          2,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you suspected a creature this turn, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more creatures you control become suspected, they get +1/+0 and gain haste until end of turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, {T}, Sacrifice this artifact: Draw a card.\"",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue or Treasure, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — Investigate {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}, COLLECT_EVIDENCE|{4}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}, {T}: Cloak the top card of your library.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{3}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.\nWhenever enchanted creature deals combat damage to a player, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, SUSPECT enchanted creature you don't control.\nEnchanted creature gets -2/-0 and can't block.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"When this creature becomes suspected, draw a card.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhen this Aura enters, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast spells face down or to turn permanents face up.\"",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, Investigate.\nEquip {X}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Ward — COLLECT_EVIDENCE|{2}.\"\nEquip {2}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever equipped creature becomes suspected, draw a card.\nEquip {1}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell face down or to activate an ability to turn a permanent face up.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Investigate {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}: Cloak a card from your hand.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "DISGUISE|{3}|ETB — Investigate.",
+          3,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{2}{W}|ETB — Tap up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{U}|When turned face up, draw {X} cards.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{B}|When turned face up, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{R}|When turned face up, it deals {X} damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{G}|When turned face up, distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — COLLECT_EVIDENCE|{4}. If evidence was collected, this enters with two +1/+1 counters.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Attack trigger — If you control a Clue, this gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — SUSPECT target creature you don't control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Activated — Sacrifice a Clue: Put a +1/+1 counter on this. Activate only as a sorcery.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice an artifact, this gets +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this is suspected, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+0 and have vigilance.",
+          1,
+          1,
+          6
+        ],
+        [
+          "When this becomes blocked, you may COLLECT_EVIDENCE|{3}. When you do, SUSPECT target creature defending player controls.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this deals combat damage to a player, Investigate {X}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "As long as you have solved a Case, this has flying and lifelink.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a Clue as you cast this spell, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "SUSPECT target creature. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If you COLLECT_EVIDENCE|{2}, put a +1/+1 counter on your creature first.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deal {X} damage to any target. If you investigated this turn, this spell deals 2 more damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. If you solved a Case this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn. COLLECT_EVIDENCE|{3}. When you do, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X}. Then you may Suspect up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 white and blue Detective creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. COLLECT_EVIDENCE|{6}. If evidence was collected, return two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile up to one target creature or planeswalker with mana value {X} or less.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library. You may cloak one of them. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target tapped creature. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Each opponent discards a card. If evidence was collected this turn, each discards two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. COLLECT_EVIDENCE|{4}. If evidence was collected, create two Clue tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. COLLECT_EVIDENCE|{4}: You may choose a noncreature, nonland card instead.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Case — At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn.\nTo solve — Control three or more artifacts. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)\nSolved — Creatures you control have vigilance.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you sacrifice an artifact, put an evidence counter on this.\nTo solve — Remove three evidence counters.\nSolved — At the beginning of your end step, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you draw your second card each turn, put a +1/+1 counter on target creature.\nTo solve — You drew three or more cards this turn.\nSolved — Creatures you control get +1/+1.",
+          2,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you suspected a creature this turn, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more creatures you control become suspected, they get +1/+0 and gain haste until end of turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, {T}, Sacrifice this artifact: Draw a card.\"",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue or Treasure, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — Investigate {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}, COLLECT_EVIDENCE|{4}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}, {T}: Cloak the top card of your library.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{3}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.\nWhenever enchanted creature deals combat damage to a player, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, SUSPECT enchanted creature you don't control.\nEnchanted creature gets -2/-0 and can't block.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"When this creature becomes suspected, draw a card.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhen this Aura enters, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast spells face down or to turn permanents face up.\"",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, Investigate.\nEquip {X}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Ward — COLLECT_EVIDENCE|{2}.\"\nEquip {2}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever equipped creature becomes suspected, draw a card.\nEquip {1}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell face down or to activate an ability to turn a permanent face up.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Investigate {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}: Cloak a card from your hand.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "DISGUISE|{3}|ETB — Investigate.",
+          3,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{2}{W}|ETB — Tap up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{U}|When turned face up, draw {X} cards.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{B}|When turned face up, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{R}|When turned face up, it deals {X} damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{G}|When turned face up, distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — COLLECT_EVIDENCE|{4}. If evidence was collected, this enters with two +1/+1 counters.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Attack trigger — If you control a Clue, this gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — SUSPECT target creature you don't control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Activated — Sacrifice a Clue: Put a +1/+1 counter on this. Activate only as a sorcery.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice an artifact, this gets +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this is suspected, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+0 and have vigilance.",
+          1,
+          1,
+          6
+        ],
+        [
+          "When this becomes blocked, you may COLLECT_EVIDENCE|{3}. When you do, SUSPECT target creature defending player controls.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this deals combat damage to a player, Investigate {X}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "As long as you have solved a Case, this has flying and lifelink.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a Clue as you cast this spell, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "SUSPECT target creature. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If you COLLECT_EVIDENCE|{2}, put a +1/+1 counter on your creature first.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deal {X} damage to any target. If you investigated this turn, this spell deals 2 more damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. If you solved a Case this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn. COLLECT_EVIDENCE|{3}. When you do, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X}. Then you may Suspect up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 white and blue Detective creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. COLLECT_EVIDENCE|{6}. If evidence was collected, return two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile up to one target creature or planeswalker with mana value {X} or less.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library. You may cloak one of them. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target tapped creature. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Each opponent discards a card. If evidence was collected this turn, each discards two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. COLLECT_EVIDENCE|{4}. If evidence was collected, create two Clue tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "This spell deals {X} damage divided as you choose among up to three targets. If evidence was collected, it deals that much damage plus 1 instead.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Case — At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn.\nTo solve — Control three or more artifacts. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)\nSolved — Creatures you control have vigilance.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you sacrifice an artifact, put an evidence counter on this.\nTo solve — Remove three evidence counters.\nSolved — At the beginning of your end step, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you draw your second card each turn, put a +1/+1 counter on target creature.\nTo solve — You drew three or more cards this turn.\nSolved — Creatures you control get +1/+1.",
+          2,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you suspected a creature this turn, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more creatures you control become suspected, they get +1/+0 and gain haste until end of turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, {T}, Sacrifice this artifact: Draw a card.\"",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue or Treasure, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — Investigate {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}, COLLECT_EVIDENCE|{4}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}, {T}: Cloak the top card of your library.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{3}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.\nWhenever enchanted creature deals combat damage to a player, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, SUSPECT enchanted creature you don't control.\nEnchanted creature gets -2/-0 and can't block.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"When this creature becomes suspected, draw a card.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhen this Aura enters, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast spells face down or to turn permanents face up.\"",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, Investigate.\nEquip {X}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Ward — COLLECT_EVIDENCE|{2}.\"\nEquip {2}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever equipped creature becomes suspected, draw a card.\nEquip {1}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell face down or to activate an ability to turn a permanent face up.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Investigate {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}: Cloak a card from your hand.",
+          1,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "DISGUISE|{3}|ETB — Investigate.",
+          3,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{2}{W}|ETB — Tap up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{U}|When turned face up, draw {X} cards.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{B}|When turned face up, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{4}{R}|When turned face up, it deals {X} damage to any target.",
+          2,
+          1,
+          6
+        ],
+        [
+          "DISGUISE|{3}{G}|When turned face up, distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — COLLECT_EVIDENCE|{4}. If evidence was collected, this enters with two +1/+1 counters.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Attack trigger — If you control a Clue, this gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — SUSPECT target creature you don't control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Activated — Sacrifice a Clue: Put a +1/+1 counter on this. Activate only as a sorcery.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice an artifact, this gets +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this is suspected, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+0 and have vigilance.",
+          1,
+          1,
+          6
+        ],
+        [
+          "When this becomes blocked, you may COLLECT_EVIDENCE|{3}. When you do, SUSPECT target creature defending player controls.",
+          2,
+          1,
+          6
+        ],
+        [
+          "When this deals combat damage to a player, Investigate {X}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "As long as you have solved a Case, this has flying and lifelink.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Other Detectives you control get +1/+1. Whenever a Detective you control becomes suspected, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled a Clue as you cast this spell, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "SUSPECT target creature. Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control. If you COLLECT_EVIDENCE|{2}, put a +1/+1 counter on your creature first.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deal {X} damage to any target. If you investigated this turn, this spell deals 2 more damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Tap up to two target creatures. If you solved a Case this turn, those creatures don't untap during their controller's next untap step.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Target creature gains indestructible until end of turn. COLLECT_EVIDENCE|{3}. When you do, put a +1/+1 counter on it.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X}. Then you may Suspect up to one target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Create {X} 1/1 white and blue Detective creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target card from your graveyard to your hand. COLLECT_EVIDENCE|{6}. If evidence was collected, return two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile up to one target creature or planeswalker with mana value {X} or less.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library. You may cloak one of them. Put the rest on the bottom in a random order.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target tapped creature. Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Each opponent discards a card. If evidence was collected this turn, each discards two cards instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. COLLECT_EVIDENCE|{4}. If evidence was collected, create two Clue tokens.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Case — At the beginning of combat on your turn, target creature you control gets +1/+1 until end of turn.\nTo solve — Control three or more artifacts. (At the beginning of your end step, if unsolved and the condition is still true, this Case becomes solved.)\nSolved — Creatures you control have vigilance.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you sacrifice an artifact, put an evidence counter on this.\nTo solve — Remove three evidence counters.\nSolved — At the beginning of your end step, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Case — Whenever you draw your second card each turn, put a +1/+1 counter on target creature.\nTo solve — You drew three or more cards this turn.\nSolved — Creatures you control get +1/+1.",
+          2,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you suspected a creature this turn, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have ward — COLLECT_EVIDENCE|{2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more creatures you control become suspected, they get +1/+0 and gain haste until end of turn.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, {T}, Sacrifice this artifact: Draw a card.\"",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue or Treasure, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          6
+        ],
+        [
+          "ETB — Investigate {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}, COLLECT_EVIDENCE|{4}: Draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}, {T}: Cloak the top card of your library.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward — COLLECT_EVIDENCE|{3}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X}.\nWhenever enchanted creature deals combat damage to a player, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, SUSPECT enchanted creature you don't control.\nEnchanted creature gets -2/-0 and can't block.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"When this creature becomes suspected, draw a card.\"",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhen this Aura enters, Investigate.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast spells face down or to turn permanents face up.\"",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, Investigate.\nEquip {X}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +1/+1 and has \"Ward — COLLECT_EVIDENCE|{2}.\"\nEquip {2}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever equipped creature becomes suspected, draw a card.\nEquip {1}",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a spell face down or to activate an ability to turn a permanent face up.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{3}, {T}, Sacrifice this land: Investigate {2}.",
+          1,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.\n{2}, {T}: Cloak a card from your hand.",
+          1,
+          1,
+          6
+        ]
+      ]
+    }
+  }
+}

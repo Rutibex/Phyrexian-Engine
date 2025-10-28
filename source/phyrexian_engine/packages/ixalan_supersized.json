@@ -1,0 +1,780 @@
+{
+  "name": "ixalan_supersized",
+  "version": "1.0",
+  "description": "Comprehensive Ixalan + Rivals of Ixalan mechanics: Dinosaurs (Enrage), Merfolk (+1/+1 counters & explore), Pirates (Raid & Treasures), Vampires (lifelink & go-wide), Vehicles (crew), Transforming double-faced quests, Ascend (city's blessing).",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} you gain {NUM_MED} life.",
+          6,
+          3,
+          8
+        ],
+        [
+          "Raid — Whenever {CARD_NICK} enters the battlefield, if you attacked this turn, create a 1/1 white Vampire creature token with lifelink.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nAs long as you have the city's blessing, {CARD_NICK} gets +1/+1 and has vigilance.",
+          7,
+          3,
+          7
+        ],
+        [
+          "When {CARD_NICK} enters the battlefield, {EXPLORE_ACTION}. If a +1/+1 counter is put on it this way, you gain 2 life.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "{RAID_COND} creatures you control get +1/+1 until end of turn. Create a Treasure token.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +2/+2 and gains lifelink until end of turn. If it’s a Vampire, put a +1/+1 counter on it.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Exile target tapped creature. If you have the city's blessing, create a Treasure token.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{RAID_COND} exile target artifact or enchantment. Create a 1/1 Vampire with lifelink.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{VAMPIRE_GO_WIDE}",
+          8,
+          3,
+          7
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nCreate two 1/1 white Vampire creature tokens with lifelink. {ASCEND_PAYOFF}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you gained life this turn, create a 1/1 white Vampire creature token with lifelink.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nCreatures you control get +1/+1. As long as you have the city's blessing, they also have vigilance.",
+          5,
+          4,
+          8
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1. Whenever it attacks, create a Treasure token. Equip {EQUIP_COST}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_PUMP_VAMPIRE}",
+          8,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {W}.\n{W},{T}: Target Vampire you control gains lifelink until end of turn.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "When {CARD_NICK} enters the battlefield, {EXPLORE_ACTION}. If a card was put into your graveyard this way, draw a card then discard a card.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever {CARD_NICK} deals combat damage to a player, create a Treasure token.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nAs long as you have the city's blessing, Merfolk you control have hexproof.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {NUM_MED}. If you attacked this turn, instead counter that spell unless its controller pays {NUM_LARGE}.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Return target creature to its owner's hand. {TREASURE_CLAUSE}",
+          8,
+          1,
+          5
+        ],
+        [
+          "Target creature explores. If it puts a +1/+1 counter on itself this way, untap it.",
+          6,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. If you attacked with a Pirate this turn, create a Treasure token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{EXPLORE_SORCERY}",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures your opponents control get -1/-0 as long as you have the city's blessing.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Whenever you create one or more Treasure tokens, scry 1, then draw a card. This ability triggers only once each turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever a Merfolk you control deals combat damage to a player, {EXPLORE_ACTION}.",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_COST}\nWhenever this Vehicle deals combat damage to a player, draw a card and create a Treasure token.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "{AURA_MERFOLK_EVASION}",
+          7,
+          1,
+          6
+        ]
+      ],
+      "Activated": [],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {U}.\n{U},{T}: Target Merfolk gets +1/+1 and can't be blocked this turn.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{ENRAGE_INTRO} each opponent loses 1 life and you gain 1 life.",
+          8,
+          3,
+          8
+        ],
+        [
+          "Whenever another Vampire you control enters the battlefield, create a Treasure token.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nAs long as you have the city's blessing, {CARD_NICK} gets +2/+2 and has menace.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{RAID_COND} destroy target creature. Create a Treasure token.",
+          8,
+          2,
+          7
+        ],
+        [
+          "Target creature gets -3/-3 until end of turn. If you sacrificed a Treasure this turn, that creature gets -5/-5 until end of turn instead.",
+          7,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Vampire creature tokens with lifelink, then each opponent loses 2 life and you gain 2 life.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nReturn target creature card from your graveyard to your hand. {ASCEND_PAYOFF}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Raid — If you attacked this turn, destroy target creature. Otherwise, {TREASURE_CLAUSE}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you sacrifice a Treasure, each opponent loses 1 life and you gain 1 life.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Treasure, target opponent loses 1 life and you scry 1.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 and has \"Sacrifice a Treasure: Regenerate this creature.\"",
+          6,
+          1,
+          6
+        ]
+      ],
+      "Activated": [],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {B}.\n{B},{T}, Sacrifice a Treasure: Draw a card and lose 1 life.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Raid — When {CARD_NICK} enters the battlefield, it deals {PINGS} to any target.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{ENRAGE_INTRO} {PINGS} to each opponent.",
+          8,
+          4,
+          8
+        ],
+        [
+          "Whenever {CARD_NICK} attacks, create a Treasure token.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{RAID_COND} create {NUM_MED} Treasure tokens. {DINOSAUR_FIGHT}",
+          7,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. If it's a Pirate, it also gains menace until end of turn.",
+          6,
+          1,
+          4
+        ],
+        [
+          "{DINOSAUR_FIGHT}",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {NUM_MED} Treasure tokens, then you may sacrifice any number of Treasures. For each Treasure sacrificed this way, {CARD_NICK} deals 1 damage to any target.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, if you sacrificed a Treasure this turn, target creature you control gets +2/+0 and gains haste until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {CREW_COST}\nWhenever this Vehicle becomes crewed, it gains first strike until end of turn. Whenever it deals combat damage to a player, {TREASURE_CLAUSE}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Whenever it attacks, {TREASURE_CLAUSE}\nEquip {EQUIP_COST}.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Activated": [],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {R}.\n{R},{T}: Target Pirate you control gets +1/+0 and gains menace until end of turn.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "When {CARD_NICK} enters the battlefield, {EXPLORE_ACTION}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "{ENRAGE_INTRO} put a +1/+1 counter on {CARD_NICK}.",
+          9,
+          3,
+          8
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nAs long as you have the city's blessing, Dinosaurs you control have trample.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. If it explored this turn, it also gains trample until end of turn.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. Create a Treasure token.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{EXPLORE_SORCERY}",
+          8,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then create a Treasure token.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Target Dinosaur you control fights up to one target creature you don't control. Then {CARD_NICK} deals 1 damage to that Dinosaur.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control explores, put a +1/+1 counter on that creature.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "AuraCreature": [
+        [
+          "{AURA_DINO_RAMPAGE}",
+          6,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {G}.\n{G},{T}: Target creature you control explores.",
+          5,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "Artifact": [
+        [
+          "When {CARD_NICK} enters the battlefield, scry 1.\n{T}: Put a landmark counter on {CARD_NICK}. Then if there are three or more landmark counters on it, {DFLIP_RESULT_LAND}",
+          9,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice a Treasure: Draw a card. When you sacrifice your third Treasure this turn, {DFLIP_RESULT_LAND}",
+          8,
+          2,
+          7
+        ],
+        [
+          "{T}: Add {C}. When you spend this mana to cast a Pirate spell, {TREASURE_CLAUSE}",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Create a Treasure token. Activate only if you attacked with a creature this turn.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Vehicle — Crew {CREW_COST}\nWhenever this Vehicle attacks, up to one target creature you control explores.",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you gained 3 or more life this turn, {DFLIP_RESULT_LAND}",
+          6,
+          2,
+          7
+        ],
+        [
+          "Ascend {ASCEND_REMINDER}\nWhen you get the city's blessing, {DFLIP_RESULT_LAND}",
+          6,
+          3,
+          8
+        ],
+        [
+          "Whenever a Pirate you control deals combat damage to a player, {TREASURE_CLAUSE}",
+          8,
+          2,
+          6
+        ],
+        [
+          "Whenever a Merfolk you control explores, draw a card, then discard a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever a Vampire you control gains you life, put a +1/+1 counter on that creature.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever a Dinosaur you control is dealt damage, it deals that much damage to target creature an opponent controls.",
+          8,
+          3,
+          8
+        ]
+      ],
+      "Sorcery": [],
+      "Instant": [],
+      "Creature": [
+        [
+          "When {CARD_NICK} enters the battlefield, create a Treasure token.\nSacrifice a Treasure: {CARD_NICK} gets +2/+0 until end of turn.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Whenever {CARD_NICK} attacks, it explores.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\"\nWhenever you create a Treasure, untap enchanted land.",
+          6,
+          1,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{NUM_MED}: Target creature you control explores. Activate only as a sorcery.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Sacrifice a Treasure: Add one mana of any color. Draw a card. Activate only if you attacked this turn.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.\n{2},{T}: Create a Treasure token. Activate only if you control a Pirate.",
+          7,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{T}, Sacrifice a Treasure: Draw a card.",
+          7,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Vampire",
+      "Soldier",
+      "Knight",
+      "Human",
+      "Dinosaur",
+      "Spirit",
+      "Merfolk"
+    ],
+    "U": [
+      "Merfolk",
+      "Pirate",
+      "Human",
+      "Wizard",
+      "Illusion",
+      "Shapeshifter"
+    ],
+    "B": [
+      "Vampire",
+      "Pirate",
+      "Human",
+      "Shaman",
+      "Skeleton",
+      "Dinosaur"
+    ],
+    "R": [
+      "Pirate",
+      "Human",
+      "Dinosaur",
+      "Shaman",
+      "Goblin",
+      "Elemental"
+    ],
+    "G": [
+      "Dinosaur",
+      "Merfolk",
+      "Shaman",
+      "Human",
+      "Beast",
+      "Plant"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Pirate",
+      "Dinosaur",
+      "Vampire",
+      "Merfolk"
+    ]
+  },
+  "string_pools": {
+    "NUM_SMALL": [
+      "1",
+      "2"
+    ],
+    "NUM_MED": [
+      "2",
+      "3",
+      "4"
+    ],
+    "NUM_LARGE": [
+      "5",
+      "6",
+      "7"
+    ],
+    "TOKEN_COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "PINGS": [
+      "1 damage",
+      "2 damage"
+    ],
+    "CARD_NICK": [
+      "this creature",
+      "this permanent",
+      "this Vehicle",
+      "this enchantment"
+    ],
+    "ASCEND_REMINDER": [
+      "(If you control ten or more permanents, you get the city's blessing for the rest of the game.)"
+    ],
+    "RAID_COND": [
+      "Raid — If you attacked with a creature this turn, ",
+      "Raid — This spell has an additional effect if you attacked with a creature this turn. "
+    ],
+    "EXPLORE_ACTION": [
+      "it explores",
+      "that creature explores",
+      "each of them explores"
+    ],
+    "ENRAGE_INTRO": [
+      "Enrage — Whenever {CARD_NICK} is dealt damage, "
+    ],
+    "TREASURE_CLAUSE": [
+      "Create a Treasure token. (It's an artifact with \"{T}: Sacrifice this artifact: Add one mana of any color.\")"
+    ],
+    "TREASURE_MULTI": [
+      "Create {NUM_MED} Treasure tokens. (They're artifacts with \"{T}: Sacrifice this artifact: Add one mana of any color.\")"
+    ],
+    "CREW_COST": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "TRANSFORM_COND": [
+      "When you control {NUM_MED} or more artifacts, transform {CARD_NICK}.",
+      "When you have {NUM_MED} or more Treasure, transform {CARD_NICK}.",
+      "At the beginning of your end step, if you attacked with {NUM_SMALL} or more creatures this turn, transform {CARD_NICK}.",
+      "When you ascend, transform {CARD_NICK}."
+    ],
+    "DFLIP_RESULT_LAND": [
+      "Transform it into a legendary land with \"{T}: Add one mana of any color\" and \"{T}, Sacrifice a Treasure: Draw a card.\"",
+      "Transform it into a land named Treasure Cove with \"{T}: Add {C}\" and \"{T}, Sacrifice a Treasure: Draw a card.\""
+    ],
+    "MERFOLK_COUNTERS": [
+      "Put a +1/+1 counter on up to one target Merfolk.",
+      "Put a +1/+1 counter on each of up to {NUM_SMALL} target Merfolk."
+    ],
+    "DINOSAUR_FIGHT": [
+      "Target Dinosaur you control fights up to one target creature you don't control.",
+      "Creatures you control get +1/+1 until end of turn. Dinosaurs you control gain trample until end of turn."
+    ],
+    "VAMPIRE_GO_WIDE": [
+      "Create {NUM_SMALL} 1/1 white Vampire creature tokens with lifelink.",
+      "Vampires you control get +1/+1 until end of turn. Create a 1/1 white Vampire creature token with lifelink."
+    ],
+    "PIRATE_TRICKS": [
+      "Target creature can't block this turn. Create a Treasure token.",
+      "Return target tapped creature to its owner's hand. Scry 1. Create a Treasure token."
+    ],
+    "EXPLORE_SORCERY": [
+      "Target creature you control explores.",
+      "Up to {NUM_SMALL} target creatures you control each explore."
+    ],
+    "ASCEND_PAYOFF": [
+      "If you have the city's blessing, draw a card.",
+      "If you have the city's blessing, put a +1/+1 counter on each creature you control.",
+      "If you have the city's blessing, create {NUM_SMALL} Treasure tokens."
+    ],
+    "AURA_PUMP_VAMPIRE": [
+      "Enchanted creature gets +1/+1 and has lifelink.",
+      "Enchanted Vampire gets +2/+2 and has lifelink."
+    ],
+    "AURA_MERFOLK_EVASION": [
+      "Enchanted creature gets +1/+1 and can't be blocked by creatures with power 2 or less.",
+      "Enchanted Merfolk gets +2/+2 and has hexproof as long as it's untapped."
+    ],
+    "AURA_DINO_RAMPAGE": [
+      "Enchanted creature gets +2/+2 and trample.",
+      "Enchanted Dinosaur gets +3/+3 and has \"{ENRAGE_INTRO} {TREASURE_CLAUSE}\""
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "lifelink",
+      "vigilance"
+    ],
+    "U": [
+      "hexproof (as long as it's untapped)",
+      "flying"
+    ],
+    "B": [
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      ""
+    ]
+  }
+}

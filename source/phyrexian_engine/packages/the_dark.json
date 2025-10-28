@@ -1,0 +1,561 @@
+{
+  "name": "the_dark",
+  "version": "1.0",
+  "description": "Content pack inspired by Magic: The Gathering — The Dark (1994). Includes iconic effects like Blood Moon, Maze of Ith, Tormod's Crypt, Marsh Viper poison counters, Mana Clash coin flips, Preacher-style tap-to-steal, Season of the Witch attack pressure, City of Shadows storage land, Ashes to Ashes life-taxed exile, Skull of Orm enchantment recursion, Fellwar Stone opponent-color fixing, Elves of Deep Shadow pain-mana, Gaea's Touch extra Forest drops, Dust to Dust artifact exile.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Until end of turn, if damage would be dealt to target creature, you may have that damage dealt to you instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Exile target attacking creature if it's {C}-aligned or {TOKEN_COLOR}.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Tap up to {N} target creatures. They don't untap during their controller's next untap step.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target artifact or enchantment.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Exile up to two target attacking or blocking creatures you don't control. You lose {N} life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures can't attack you unless their controller pays {N} life for each of those creatures.",
+          1,
+          3,
+          6
+        ],
+        [
+          "At the beginning of each opponent's end step, destroy all untapped creatures that didn't attack this turn.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Whenever a creature would deal damage to you, prevent 1 of that damage.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Enchanted creature has vigilance and \"Prevent the next 1 damage that would be dealt to this creature each turn.\"",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Vigilance",
+          2,
+          2,
+          6
+        ],
+        [
+          "Protection from {TOKEN_COLOR}",
+          1,
+          2,
+          5
+        ],
+        [
+          "{T}: Tap target creature. Activate only as a sorcery.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Until end of turn, if a player would draw a card except the first one they draw in each of their draw steps, instead they discard a card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {N} cards, then discard a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target player mills {X} cards.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures don't untap during their controllers' untap steps.",
+          1,
+          5,
+          7
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player returns a nonland permanent they control to its owner's hand unless they pay {N}.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "{T}: Tap target creature. It doesn't untap during its controller's next untap step.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, that player mills {N}.",
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Exile up to two target nonartifact creatures. You lose 5 life.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Until end of turn, if damage would be dealt to a creature you control, you may pay 1 life. If you do, prevent that damage.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent sacrifices a creature. You gain {N} life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. You lose {X} life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Each opponent loses {N} life unless they sacrifice a nonland permanent.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, sacrifice this enchantment unless you pay 2 life. At the beginning of each end step, destroy all untapped creatures that didn't attack this turn, except for creatures that couldn't attack.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Players can't gain life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{T}: Gain control of target creature for as long as this creature remains tapped.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters, target player discards a card at random.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Pay 1 life: {ACTIVATED_EFFECT}",
+          1,
+          2,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Flip a coin. If you lose the flip, this spell deals 1 damage to you. Repeat this process until you win a flip.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each player flips a coin. This spell deals 1 damage to each player whose coin comes up tails. Repeat this process until both players' coins come up heads on the same flip.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Destroy target land. If that land was nonbasic, this spell deals {N} damage to that land's controller.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Nonbasic lands are Mountains.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever a player taps a nonbasic land for mana, this enchantment deals 1 damage to that player.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste, trample. At the beginning of the end step, sacrifice this creature.",
+          3,
+          4,
+          7
+        ],
+        [
+          "When this creature enters, it deals {N} damage to any target.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "You may play an additional Forest this turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic Forest card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sacrifice a Forest: You gain 3 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "You may play an additional Forest on each of your turns. Sacrifice this enchantment: Add {G}{G}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever this creature deals combat damage to a player, that player gets two poison counters.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{T}: Add {B}. This creature deals 1 damage to you.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Trample",
+          2,
+          3,
+          7
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}, Sacrifice this artifact: Exile target player's graveyard.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{X}, {T}: Return target enchantment card with mana value {X} or less from your graveyard to your hand.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{T}: Add one mana of any color that a land an opponent controls could produce.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Activated abilities of artifacts cost {N} more to activate unless they're mana abilities.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Spells cost {N} less to cast.",
+          1,
+          5,
+          7
+        ],
+        [
+          "{T}, Sacrifice this artifact: Target creature can't attack this turn.",
+          1,
+          1,
+          4
+        ],
+        [
+          "{T}: Add {C} for each charge counter on this artifact.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{T}, Exile a creature you control: Put a storage counter on this land.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{T}: Add {C} for each storage counter on this land.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{T}: Add {C}. Sacrifice this land: Target attacking creature gets -{N}/-0 until end of turn.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Lands can't enter the battlefield. At the beginning of each player's upkeep, that player may sacrifice two lands or this land deals 5 damage to that player.",
+          2,
+          5,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Cleric",
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Advisor"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Homunculus"
+    ],
+    "B": [
+      "Cleric",
+      "Assassin",
+      "Zombie",
+      "Shade",
+      "Horror"
+    ],
+    "R": [
+      "Goblin",
+      "Barbarian",
+      "Shaman",
+      "Elemental"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Snake",
+      "Beast",
+      "Spider"
+    ],
+    "C": [
+      "Construct",
+      "Golem"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of each end step,"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T}, Discard a card—",
+      "{2}, {T}—",
+      "{3}, {T}—"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Return target creature card from your graveyard to your hand.",
+      "Draw a card, then discard a card.",
+      "Target creature gets +1/+0 and gains haste until end of turn."
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Cleric",
+      "Soldier",
+      "Zombie",
+      "Goblin",
+      "Saproling"
+    ],
+    "LOCATION": [
+      "crypt",
+      "catacomb",
+      "ruins",
+      "warren",
+      "thicket"
+    ]
+  }
+}

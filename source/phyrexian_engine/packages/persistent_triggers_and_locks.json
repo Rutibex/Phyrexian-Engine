@@ -1,0 +1,2128 @@
+{
+  "name": "Persistent Triggers & Locks (HUGE)",
+  "description": "A massive package emphasizing persistent static effects and triggered abilities across creatures, artifacts, and enchantments, including Winter Orb-style locks and popular resource engines like Treasure/Clue/Food/Powerstone.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Whenever this creature ou draw a card, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  nontoken creature enters the battlefield under your control, create a clue token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Artifacts and enchantments you control have hexproof.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this enters the battlefield or attacks, tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, tap target permanent that player controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          2,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Lifelink",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deathtouch",
+          2,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward {1}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a nontoken creature enters the battlefield under your control, create a Clue token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Artifacts and enchantments you control have hexproof.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Artifacts and enchantments you control have hexproof.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, creatures you control gain lifelink until end of turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control enter the battlefield tapped.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each opponent can't cast more than one noncreature spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast during your turn cost {2} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls attacks, you gain 1 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each player can't cast more than one spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Opponents can't untap more than one nonland permanent during their untap steps.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a nonland permanent.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a nontoken creature enters the battlefield under your control, create a Clue token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Artifacts and enchantments you control have hexproof.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control enter the battlefield tapped.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Creatures enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Nonbasic lands enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Activated abilities of artifacts can't be activated unless they're mana abilities.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Each opponent's first spell each turn costs {X} more to cast.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't untap more than one land during their controllers' untap steps.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't gain life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't search libraries.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't sacrifice permanents.",
+          5,
+          1,
+          6
+        ],
+        [
+          "As long as this is untapped, creatures can't attack.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Whenever a permanent becomes untapped, its controller loses 1 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, that player mills a card instead.",
+          5,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, tap up to one target creature defending player controls. It doesn't untap during its controller's next untap step.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add two mana of any one color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted land becomes tapped, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted land untaps during its controller's untap step and an additional time during that step.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever this creature ou draw a card, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou cast a noncreature spell, scry 1, then draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature n artifact enters the battlefield under your control, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  creature you control with power 4 or greater attacks, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, look at the top card of your library. You may reveal it. If it's a noncreature, nonland card, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature his enters the battlefield or attacks, tap up to one target creature. it doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, tap target permanent that player controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou cast an instant or sorcery spell, tap up to one target nonland permanent an opponent controls. it doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this enters the battlefield or attacks, tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, tap target permanent that player controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, tap up to one target nonland permanent an opponent controls. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          2,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Lifelink",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deathtouch",
+          2,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward {1}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1, then draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with power 4 or greater attacks, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, look at the top card of your library. You may reveal it. If it's a noncreature, nonland card, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this enters the battlefield or attacks, tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, tap target permanent that player controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, tap up to one target nonland permanent an opponent controls. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "You may cast noncreature spells as though they had flash.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you draw your second card each turn, create a 1/1 blue Faerie creature token with flying.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Nonland permanents your opponents control enter the battlefield tapped.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, mill two cards, then you may return target instant or sorcery card from your graveyard to your hand.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1, then draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with power 4 or greater attacks, draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, look at the top card of your library. You may reveal it. If it's a noncreature, nonland card, draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each player can't cast more than one spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Opponents can't untap more than one nonland permanent during their untap steps.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a nonland permanent.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1, then draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with power 4 or greater attacks, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, look at the top card of your library. You may reveal it. If it's a noncreature, nonland card, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this enters the battlefield or attacks, tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, tap target permanent that player controls.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, tap up to one target nonland permanent an opponent controls. It doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Creatures enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Nonbasic lands enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Activated abilities of artifacts can't be activated unless they're mana abilities.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Each opponent's first spell each turn costs {X} more to cast.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't untap more than one land during their controllers' untap steps.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't gain life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't search libraries.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't sacrifice permanents.",
+          5,
+          1,
+          6
+        ],
+        [
+          "As long as this is untapped, creatures can't attack.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Whenever a permanent becomes untapped, its controller loses 1 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, that player mills a card instead.",
+          5,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, tap up to one target creature defending player controls. It doesn't untap during its controller's next untap step.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add two mana of any one color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted land becomes tapped, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted land untaps during its controller's untap step and an additional time during that step.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Whenever this creature nother creature dies, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, you may sacrifice another creature. If you do, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  creature you control dies, create a 2/2 black zombie creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou discard a card, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou draw a card, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          2,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Lifelink",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deathtouch",
+          2,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward {1}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever another creature dies, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, you may sacrifice another creature. If you do, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, create a 2/2 black Zombie creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you discard a card, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life and you scry 1.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a nontoken creature you control dies, return another target creature card with mana value {X} or less from your graveyard to your hand.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if a creature died this turn, create a 2/2 black Zombie creature token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you draw your second card each turn, each opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever another creature dies, each opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, you may sacrifice another creature. If you do, draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, create a 2/2 black Zombie creature token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you discard a card, each opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each player can't cast more than one spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Opponents can't untap more than one nonland permanent during their untap steps.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a nonland permanent.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever another creature dies, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, you may sacrifice another creature. If you do, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, create a 2/2 black Zombie creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you discard a card, each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact or creature an opponent controls is put into a graveyard from the battlefield, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Creatures enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Nonbasic lands enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Activated abilities of artifacts can't be activated unless they're mana abilities.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Each opponent's first spell each turn costs {X} more to cast.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't untap more than one land during their controllers' untap steps.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't gain life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't search libraries.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't sacrifice permanents.",
+          5,
+          1,
+          6
+        ],
+        [
+          "As long as this is untapped, creatures can't attack.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Whenever a permanent becomes untapped, its controller loses 1 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, that player mills a card instead.",
+          5,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, tap up to one target creature defending player controls. It doesn't untap during its controller's next untap step.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add two mana of any one color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted land becomes tapped, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted land untaps during its controller's untap step and an additional time during that step.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Whenever this creature ou draw a card, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ne or more artifacts enter the battlefield under your control, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature his deals combat damage to a player, create a treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cast two or more spells this turn, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou cast a noncreature spell, this deals 1 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  creature you control becomes blocked, this deals 1 damage to the defending player.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature n artifact you control is put into a graveyard from the battlefield, this deals 2 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou sacrifice a permanent, this deals 1 damage to each opponent.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Prowess",
+          2,
+          1,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          2,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Lifelink",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deathtouch",
+          2,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward {1}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this deals combat damage to a player, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cast two or more spells this turn, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, this deals 1 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control becomes blocked, this deals 1 damage to the defending player.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, this deals 2 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a permanent, this deals 1 damage to each opponent.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Haste creatures you control get +1/+0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast your second spell each turn, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +2/+0 and gains haste until end of turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, this deals 1 damage to each opponent.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, this deals 1 damage to any target.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control becomes blocked, this deals 1 damage to the defending player.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, this deals 2 damage to any target.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a permanent, this deals 1 damage to each opponent.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever this deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cast two or more spells this turn, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each player can't cast more than one spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Opponents can't untap more than one nonland permanent during their untap steps.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a nonland permanent.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you draw a card, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this deals combat damage to a player, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you cast two or more spells this turn, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, this deals 1 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control becomes blocked, this deals 1 damage to the defending player.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, this deals 2 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you sacrifice a permanent, this deals 1 damage to each opponent.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, create a Treasure token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Creatures enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Nonbasic lands enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Activated abilities of artifacts can't be activated unless they're mana abilities.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Each opponent's first spell each turn costs {X} more to cast.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't untap more than one land during their controllers' untap steps.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't gain life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't search libraries.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't sacrifice permanents.",
+          5,
+          1,
+          6
+        ],
+        [
+          "As long as this is untapped, creatures can't attack.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Whenever a permanent becomes untapped, its controller loses 1 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, that player mills a card instead.",
+          5,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, tap up to one target creature defending player controls. It doesn't untap during its controller's next untap step.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add two mana of any one color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted land becomes tapped, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted land untaps during its controller's untap step and an additional time during that step.",
+          3,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  land enters the battlefield under your control, create a 1/1 green saproling creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, untap up to one target creature you control. If its power is 4 or greater, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  creature you control with a counter on it attacks, add {g}. until end of turn, you don't lose this mana as steps and phases end.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature nother creature you control enters the battlefield, put a +1/+1 counter on this creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature ou cast a creature spell, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  land enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Lands you control have \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever this creature  land enters the battlefield under your control, untap it.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have vigilance and \"{T}: Add {G}.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "You may play an additional land on each of your turns.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Flying",
+          2,
+          1,
+          6
+        ],
+        [
+          "Vigilance",
+          2,
+          1,
+          6
+        ],
+        [
+          "Menace",
+          2,
+          1,
+          6
+        ],
+        [
+          "Lifelink",
+          2,
+          1,
+          6
+        ],
+        [
+          "Deathtouch",
+          2,
+          1,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          1,
+          6
+        ],
+        [
+          "Ward {1}",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, untap up to one target creature you control. If its power is 4 or greater, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with a counter on it attacks, add {G}. Until end of turn, you don't lose this mana as steps and phases end.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever another creature you control enters the battlefield, put a +1/+1 counter on this creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a creature spell, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Lands you control have \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, untap it.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have vigilance and \"{T}: Add {G}.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "You may play an additional land on each of your turns.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, untap up to one target creature you control. If its power is 4 or greater, draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with a counter on it attacks, add {G}. Until end of turn, you don't lose this mana as steps and phases end.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever another creature you control enters the battlefield, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a creature spell, put a +1/+1 counter on target creature you control.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Lands you control have \"{T}: Add one mana of any color.\"",
+          4,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, untap it.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have vigilance and \"{T}: Add {G}.\"",
+          4,
+          1,
+          6
+        ],
+        [
+          "You may play an additional land on each of your turns.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Each player can't cast more than one spell each turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Creatures your opponents control get -1/-0.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Opponents can't untap more than one nonland permanent during their untap steps.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Spells your opponents cast cost {1} more to cast.",
+          4,
+          1,
+          6
+        ],
+        [
+          "At the beginning of each opponent's upkeep, that player sacrifices a nonland permanent.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your end step, untap up to one target creature you control. If its power is 4 or greater, draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control with a counter on it attacks, add {G}. Until end of turn, you don't lose this mana as steps and phases end.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever another creature you control enters the battlefield, put a +1/+1 counter on this creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you cast a creature spell, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Lands you control have \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, untap it.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have vigilance and \"{T}: Add {G}.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "You may play an additional land on each of your turns.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Creatures you control have \"{T}: Add {G}.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Creatures enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Nonbasic lands enter the battlefield tapped.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Activated abilities of artifacts can't be activated unless they're mana abilities.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Each opponent's first spell each turn costs {X} more to cast.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't untap more than one land during their controllers' untap steps.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't gain life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't search libraries.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Players can't sacrifice permanents.",
+          5,
+          1,
+          6
+        ],
+        [
+          "As long as this is untapped, creatures can't attack.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Whenever a permanent becomes untapped, its controller loses 1 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "If a player would draw a card except the first one they draw in each of their draw steps, that player mills a card instead.",
+          5,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, tap up to one target creature defending player controls. It doesn't untap during its controller's next untap step.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has haste.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has trample and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a Treasure token.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add two mana of any one color.\"",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever enchanted land becomes tapped, create a Treasure token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted land untaps during its controller's untap step and an additional time during that step.",
+          3,
+          1,
+          6
+        ]
+      ]
+    }
+  }
+}

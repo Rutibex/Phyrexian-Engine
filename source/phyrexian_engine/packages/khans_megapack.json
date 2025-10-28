@@ -1,0 +1,1461 @@
+{
+  "name": "Khans of Tarkir Mega-Pack",
+  "version": "1.0",
+  "description": "A very large package capturing the feel and mechanics of Khans of Tarkir: Outlast (Abzan), Prowess (Jeskai), Delve (Sultai), Raid (Mardu), Ferocious (Temur), and Morph. Includes clan-flavored effects, wedge synergies, tri-lands, banners, and modal charms. Designed for a huge set.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Outlast {OUTLAST_COST}. ({OUTLAST_REMINDER})",
+          12,
+          2,
+          6
+        ],
+        [
+          "{ETB_INTRO} put a +1/+1 counter on {SELF_PRONOUN}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{ATTACK_INTRO} if you attacked with a creature this turn, {RAID_BONUS}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Prowess. ({PROWESS_REMINDER})",
+          5,
+          2,
+          4
+        ],
+        [
+          "{STATIC_INTRO} creatures you control get +1/+0 if you control a creature with power {FEROCIOUS_POWER} or greater.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever {SELF_NAME} blocks, you gain {SMALL_N} life.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Vigilance.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          2,
+          6
+        ],
+        [
+          "First strike.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "{REVEAL_INTRO} when {SELF_NAME} is turned face up, {TURNUP_WHITE}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever a creature you control with a +1/+1 counter on it attacks, {COUNTER_SYNERGY}.",
+          7,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever you gain life, tap target creature an opponent controls.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{STATIC_INTRO} other Warriors you control get +1/+1.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{SMALL_N}/+{SMALL_N} until end of turn. If you attacked with a creature this turn, it gains first strike until end of turn. ({RAID_LABEL})",
+          8,
+          1,
+          5
+        ],
+        [
+          "Exile target tapped creature.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you control a creature with power {FEROCIOUS_POWER} or greater, those creatures also gain lifelink until end of turn. ({FEROCIOUS_LABEL})",
+          6,
+          3,
+          7
+        ],
+        [
+          "Counter target spell unless its controller pays {SMALL_X}. If you control a Monk, scry 1.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Tap up to two target creatures. You gain {SMALL_N} life.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Destroy target attacking or blocking creature.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {TOK_COUNT} 1/1 white Warrior creature tokens.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {TOK_COUNT} target creatures you control. Creatures with counters you control gain vigilance until end of turn.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Exile target creature with power {FEROCIOUS_POWER} or greater.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Return target creature card with mana value {MV_OR_LESS} or less from your graveyard to the battlefield tapped.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control with +1/+1 counters on them have vigilance and lifelink.",
+          6,
+          3,
+          7
+        ],
+        [
+          "At the beginning of combat on your turn, if you attacked with a creature last turn, create a 1/1 white Warrior creature token. ({RAID_LABEL})",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever a face-down creature you control is turned face up, you gain {SMALL_N} life and scry 1.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{SMALL_N}/+{SMALL_N} and has vigilance.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has '{ACTIVATED_COST}: Put a +1/+1 counter on this creature.'",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast a noncreature spell, you gain 1 life. ({JESKAI_HINT})",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TAP}: Add {W}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, {TAP}, sacrifice {SELF_NAME}: Creatures you control get +1/+1 until end of turn.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, if you attacked with a creature this turn, tap target creature defending player controls. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {W}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {W} or {U}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {W}, {B}, or {G}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}, pay 1 life, sacrifice {SELF_NAME}: Search your library for a Plains or Swamp card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Prowess. ({PROWESS_REMINDER})",
+          14,
+          2,
+          6
+        ],
+        [
+          "Flying.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "{REVEAL_INTRO} when {SELF_NAME} is turned face up, {TURNUP_BLUE}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever you cast a noncreature spell, {JESKAI_PAYOFF}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{STATIC_INTRO} face-down creatures you control have hexproof.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever you mill one or more cards, scry 1.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {SMALL_X}. Delve. ({DELVE_REMINDER})",
+          7,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If you control a creature with power {FEROCIOUS_POWER} or greater, draw a card. ({FEROCIOUS_LABEL})",
+          6,
+          3,
+          6
+        ],
+        [
+          "Draw two cards. If you attacked with a creature this turn, scry 2. ({RAID_LABEL})",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{SMALL_N}/0 until end of turn. If it has power {FEROCIOUS_POWER} or greater, draw a card.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step if you cast a noncreature spell this turn.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Mill {TOK_COUNT}. Delve. ({DELVE_REMINDER})",
+          7,
+          3,
+          7
+        ],
+        [
+          "Scry 2, then draw two cards.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target face-down creature you control.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a noncreature spell, scry 1, then target creature can't be blocked this turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Face-down creatures you control get +0/+2 and have hexproof as long as they are face down.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has prowess and 'Whenever this creature deals combat damage to a player, draw a card.'",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you exile one or more cards from your graveyard, draw a card, then discard a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TAP}: Add {U}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TAP}: Add one mana of any color. Spend this mana only to cast noncreature spells.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has 'Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.' Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {U}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {U} or {R}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {U}, {W}, or {R}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}, pay 1 life, sacrifice {SELF_NAME}: Search your library for an Island or Mountain card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Delve. ({DELVE_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "Deathtouch.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "{REVEAL_INTRO} when {SELF_NAME} is turned face up, {TURNUP_BLACK}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Raid — {RAID_BONUS}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Outlast {OUTLAST_COST}. ({OUTLAST_REMINDER})",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} whenever a creature an opponent controls dies, each opponent loses 1 life and you gain 1 life.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{SMALL_N}/-{SMALL_N} until end of turn. If you attacked with a creature this turn, that creature also loses indestructible until end of turn. ({RAID_LABEL})",
+          6,
+          2,
+          5
+        ],
+        [
+          "Destroy target creature with mana value {MV_OR_LESS} or less. Delve. ({DELVE_REMINDER})",
+          6,
+          3,
+          6
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Each opponent loses {SMALL_N} life. You gain that much life.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards two cards. Delve. ({DELVE_REMINDER})",
+          6,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          5,
+          4,
+          7
+        ],
+        [
+          "Destroy target tapped creature. You gain {SMALL_N} life.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if a creature died this turn, create a tapped 2/2 black Zombie creature token.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you exile one or more cards from your graveyard, each opponent loses 1 life and you gain 1 life.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1 and has deathtouch.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has 'Delve (Each card you exile from your graveyard while casting this spell pays for {1}).'",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{TAP}: Add {B}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, {TAP}, exile up to two target cards from a single graveyard: Draw a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has deathtouch. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {B}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {B} or {G}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {B}, {U}, or {G}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}, pay 1 life, sacrifice {SELF_NAME}: Search your library for a Swamp or Forest card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Raid — {RAID_BONUS}.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Prowess. ({PROWESS_REMINDER})",
+          8,
+          2,
+          5
+        ],
+        [
+          "Haste.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "{REVEAL_INTRO} when {SELF_NAME} is turned face up, {TURNUP_RED}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever a creature you control with power {FEROCIOUS_POWER} or greater attacks, {FEROCIOUS_PAYOFF}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever you cast a noncreature spell, target creature gains first strike until end of turn.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "{SMALL_N} damage to any target. If you attacked with a creature this turn, {RAID_BURN_BONUS}. ({RAID_LABEL})",
+          10,
+          1,
+          5
+        ],
+        [
+          "Target creature can't block this turn. If you control a creature with power {FEROCIOUS_POWER} or greater, draw a card. ({FEROCIOUS_LABEL})",
+          6,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. If you cast a noncreature spell this turn, untap those creatures.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{SMALL_N} damage divided as you choose among up to {TOK_COUNT} targets.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you attack with one or more creatures, create a tapped Treasure token.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have 'Raid — This creature gets +1/+0 until end of turn.'",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has haste.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{TAP}: Add {R}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you attack with a creature, you may sacrifice {SELF_NAME}. If you do, {SMALL_N} damage to any target.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature attacks, create a tapped Treasure token. Equip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {R}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {R} or {W}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {R}, {G}, or {U}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}, pay 1 life, sacrifice {SELF_NAME}: Search your library for a Mountain or Forest card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Ferocious — {FEROCIOUS_PAYOFF}.",
+          12,
+          3,
+          7
+        ],
+        [
+          "Trample.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Outlast {OUTLAST_COST}. ({OUTLAST_REMINDER})",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          10,
+          3,
+          7
+        ],
+        [
+          "{REVEAL_INTRO} when {SELF_NAME} is turned face up, {TURNUP_GREEN}.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever one or more cards are exiled from your graveyard, put a +1/+1 counter on target creature you control.",
+          5,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} whenever a noncreature spell is cast, this creature gets +1/+1 until end of turn.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control fights up to one target creature you don't control. If you control a creature with power {FEROCIOUS_POWER} or greater, that creature gains indestructible until end of turn. ({FEROCIOUS_LABEL})",
+          7,
+          3,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures. Those creatures gain trample until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Add {G}{G}. If you attacked with a creature this turn, add {G}{G} again. ({RAID_LABEL})",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Delve. ({DELVE_REMINDER})",
+          5,
+          3,
+          6
+        ],
+        [
+          "Create a 4/4 green Elemental creature token. If you control a creature with power {FEROCIOUS_POWER} or greater, create two of those tokens instead. ({FEROCIOUS_LABEL})",
+          6,
+          4,
+          7
+        ],
+        [
+          "Return up to two target creature cards from your graveyard to your hand.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 as long as you control a creature with power {FEROCIOUS_POWER} or greater.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Whenever a creature you control with a +1/+1 counter on it attacks, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{SMALL_N}/+{SMALL_N} and has trample.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has '{ACTIVATED_COST}: Put a +1/+1 counter on this creature.'",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{TAP}: Add {G}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TAP}, exile a card from your graveyard: Add one mana of any color.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {G}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {G} or {U}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {G}, {R}, or {B}. {ENTRY_TAPPED}",
+          8,
+          0,
+          0
+        ],
+        [
+          "{TAP}, pay 1 life, sacrifice {SELF_NAME}: Search your library for a Forest or Island card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{TAP}: Add one mana of any color. ({BANNER_HINT})",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a multicolored spell, {SMALL_VALUE} to any target.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, {TAP}, sacrifice {SELF_NAME}: Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TAP}: Target face-down creature becomes a 2/2 artifact creature until end of turn.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1. Equip {EQUIP_COST}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Equipped creature gets +3/+0 and has trample. Equip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {C}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add one mana of any color. {ENTRY_TAPPED}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {W}, {U}, or {B}. {ENTRY_TAPPED}",
+          4,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {U}, {R}, or {G}. {ENTRY_TAPPED}",
+          4,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add {B}, {R}, or {W}. {ENTRY_TAPPED}",
+          4,
+          0,
+          0
+        ],
+        [
+          "{TAP}, sacrifice {SELF_NAME}: Add two mana of different colors.",
+          3,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Add {C}{C}. Spend this mana only to cast colorless spells or activate abilities of colorless permanents.",
+          4,
+          2,
+          5
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "Choose one — • {JESKAI_MODE}; • {JESKAI_MODE_ALT}; • {JESKAI_MODE_2}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Choose one — • {ABZAN_MODE}; • {ABZAN_MODE_ALT}; • {ABZAN_MODE_2}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Choose one — • {SULTAI_MODE}; • {SULTAI_MODE_ALT}; • {SULTAI_MODE_2}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Choose one — • {MARDU_MODE}; • {MARDU_MODE_ALT}; • {MARDU_MODE_2}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Choose one — • {TEMUR_MODE}; • {TEMUR_MODE_ALT}; • {TEMUR_MODE_2}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Turn target face-down creature you control face up. If that creature has mana value {MV_OR_LESS} or less, draw a card.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 2/2 colorless face-down creature token with 'You may turn this creature face up any time for its morph cost.'",
+          6,
+          3,
+          6
+        ],
+        [
+          "Reveal the top {TOK_COUNT} cards of your library. Put one into your hand and the rest into your graveyard. Delve. ({DELVE_REMINDER})",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you turn a creature you control face up, {TURNUP_GLOBAL}.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          4,
+          3,
+          7
+        ],
+        [
+          "{TAP}: Add one mana of any of {WEDGE_COLORS}. {BANNER_HINT}",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph {MORPH_COST}. ({MORPH_REMINDER})",
+          14,
+          3,
+          7
+        ],
+        [
+          "Prowess. ({PROWESS_REMINDER})",
+          6,
+          2,
+          6
+        ],
+        [
+          "Delve. ({DELVE_REMINDER})",
+          6,
+          3,
+          7
+        ],
+        [
+          "Raid — {RAID_BONUS}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Ferocious — {FEROCIOUS_PAYOFF}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Outlast {OUTLAST_COST}. ({OUTLAST_REMINDER})",
+          6,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Warrior",
+      "Soldier",
+      "Cleric",
+      "Scout",
+      "Hound",
+      "Bird",
+      "Angel",
+      "Spirit"
+    ],
+    "U": [
+      "Human",
+      "Monk",
+      "Djinn",
+      "Vedalken",
+      "Illusion",
+      "Elemental",
+      "Sage",
+      "Naga"
+    ],
+    "B": [
+      "Human",
+      "Assassin",
+      "Warrior",
+      "Zombie",
+      "Naga",
+      "Rogue",
+      "Shaman",
+      "Rat",
+      "Orc"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Berserker",
+      "Goblin",
+      "Orc",
+      "Efreet",
+      "Shaman",
+      "Elemental"
+    ],
+    "G": [
+      "Human",
+      "Warrior",
+      "Barbarian",
+      "Shaman",
+      "Beast",
+      "Bear",
+      "Wolf",
+      "Elemental"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Drone",
+      "Scarecrow",
+      "Shapeshifter"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "First strike"
+    ],
+    "U": [
+      "Flying",
+      "Flash"
+    ],
+    "B": [
+      "Deathtouch",
+      "Lifelink"
+    ],
+    "R": [
+      "Haste",
+      "First strike"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ]
+  },
+  "string_pools": {
+    "ENTRY_TAPPED": [
+      "This enters the battlefield tapped.",
+      "It enters the battlefield tapped."
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,"
+    ],
+    "ATTACK_INTRO": [
+      "Whenever {SELF_NAME} attacks,",
+      "At the beginning of combat on your turn,"
+    ],
+    "ETB_INTRO": [
+      "When {SELF_NAME} enters the battlefield,",
+      "As {SELF_NAME} enters the battlefield,"
+    ],
+    "STATIC_INTRO": [
+      "{SELF_NAME} has",
+      "{SELF_NAME} grants",
+      "As long as you control {SELF_NAME},"
+    ],
+    "REVEAL_INTRO": [
+      "Reveal",
+      "Turn up —"
+    ],
+    "SELF_PRONOUN": [
+      "it",
+      "this creature"
+    ],
+    "WEDGE_COLORS": [
+      "{W}{B}{G}",
+      "{W}{U}{R}",
+      "{U}{B}{G}",
+      "{W}{B}{R}",
+      "{U}{R}{G}"
+    ],
+    "MV_OR_LESS": [
+      "2",
+      "3",
+      "4"
+    ],
+    "SMALL_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "TOK_COUNT": [
+      "2",
+      "3",
+      "4"
+    ],
+    "SMALL_X": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "SMALL_VALUE": [
+      "1 damage",
+      "2 damage"
+    ],
+    "MORPH_REMINDER": [
+      "You may cast this face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost."
+    ],
+    "PROWESS_REMINDER": [
+      "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn."
+    ],
+    "DELVE_REMINDER": [
+      "Each card you exile from your graveyard while casting this spell pays for {1}."
+    ],
+    "OUTLAST_REMINDER": [
+      "{OUTLAST_TAP} Put a +1/+1 counter on this creature. Activate only as a sorcery."
+    ],
+    "OUTLAST_TAP": [
+      "{TAP},",
+      ""
+    ],
+    "FEROCIOUS_LABEL": [
+      "Ferocious —",
+      "Ferocious —"
+    ],
+    "RAID_LABEL": [
+      "Raid —",
+      "Raid —"
+    ],
+    "JESKAI_HINT": [
+      "Jeskai spells care about noncreature spells.",
+      "Monks love cantrips."
+    ],
+    "BANNER_HINT": [
+      "Clan banners help fix wedge colors.",
+      "Banner mana can be used for anything."
+    ],
+    "ACTIVATED_COST": [
+      "{2}",
+      "{3}",
+      "{1}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "MORPH_COST": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}",
+      "{4}"
+    ],
+    "OUTLAST_COST": [
+      "{W}",
+      "{1}{W}",
+      "{U}",
+      "{1}{U}",
+      "{B}",
+      "{1}{B}",
+      "{R}",
+      "{1}{R}",
+      "{G}",
+      "{1}{G}"
+    ],
+    "FEROCIOUS_POWER": [
+      "4",
+      "5"
+    ],
+    "FEROCIOUS_PAYOFF": [
+      "draw a card",
+      "put a +1/+1 counter on target creature you control",
+      "creatures you control gain trample until end of turn",
+      "target creature you control gets +2/+2 until end of turn"
+    ],
+    "RAID_BONUS": [
+      "put a +1/+1 counter on {SELF_PRONOUN}",
+      "create a 1/1 white Warrior creature token",
+      "{SMALL_N} damage to any target",
+      "target creature can't block this turn",
+      "draw a card"
+    ],
+    "RAID_BURN_BONUS": [
+      "that spell deals 1 damage to each of up to two targets",
+      "it deals 1 damage to each creature that blocked this turn",
+      "scry 1"
+    ],
+    "TURNUP_WHITE": [
+      "tap up to two target creatures",
+      "put a +1/+1 counter on each of up to two target creatures",
+      "you gain {SMALL_N} life"
+    ],
+    "TURNUP_BLUE": [
+      "draw a card",
+      "counter target spell unless its controller pays {SMALL_X}",
+      "return another target creature to its owner's hand"
+    ],
+    "TURNUP_BLACK": [
+      "target opponent discards a card",
+      "each opponent loses 1 life and you gain 1 life",
+      "destroy target creature with mana value {MV_OR_LESS} or less"
+    ],
+    "TURNUP_RED": [
+      "{SMALL_N} damage to any target",
+      "up to one target creature can't block this turn",
+      "create a tapped Treasure token"
+    ],
+    "TURNUP_GREEN": [
+      "target creature you control fights up to one target creature you don't control",
+      "put two +1/+1 counters on target creature",
+      "search your library for a basic land card, reveal it, put it into your hand, then shuffle"
+    ],
+    "TURNUP_GLOBAL": [
+      "creatures you control get +1/+0 until end of turn",
+      "scry 2",
+      "draw a card",
+      "add {C}{C}"
+    ],
+    "COUNTER_SYNERGY": [
+      "that creature gains vigilance until end of turn",
+      "untap that creature",
+      "draw a card"
+    ],
+    "JESKAI_PAYOFF": [
+      "draw a card",
+      "tap target creature an opponent controls",
+      "target creature can't be blocked this turn"
+    ],
+    "JESKAI_MODE": [
+      "target creature gets +1/+1 and gains flying until end of turn",
+      "counter target activated or triggered ability",
+      "tap target creature. It doesn't untap during its controller's next untap step"
+    ],
+    "JESKAI_MODE_ALT": [
+      "deal 2 damage to any target",
+      "scry 2",
+      "return target nonland permanent to its owner's hand"
+    ],
+    "JESKAI_MODE_2": [
+      "creatures you control gain prowess until end of turn",
+      "draw two cards, then discard a card"
+    ],
+    "ABZAN_MODE": [
+      "put a +1/+1 counter on target creature",
+      "creatures you control gain vigilance until end of turn",
+      "exile target card from a graveyard"
+    ],
+    "ABZAN_MODE_ALT": [
+      "return target creature card from your graveyard to your hand",
+      "destroy target enchantment",
+      "gain 5 life"
+    ],
+    "ABZAN_MODE_2": [
+      "distribute two +1/+1 counters among one or two target creatures",
+      "creatures you control with counters gain lifelink until end of turn"
+    ],
+    "SULTAI_MODE": [
+      "mill three cards",
+      "exile up to two target cards from graveyards",
+      "target creature gets -2/-2 until end of turn"
+    ],
+    "SULTAI_MODE_ALT": [
+      "draw a card, then discard a card",
+      "return target nonland permanent to its owner's hand",
+      "create a tapped 2/2 Zombie creature token"
+    ],
+    "SULTAI_MODE_2": [
+      "target player sacrifices a creature",
+      "search your library for a land card, reveal it, put it into your hand, then shuffle"
+    ],
+    "MARDU_MODE": [
+      "create two 1/1 red Goblin creature tokens with haste",
+      "target creature can't block this turn",
+      "deal 3 damage to any target"
+    ],
+    "MARDU_MODE_ALT": [
+      "creatures you control get +1/+0 until end of turn",
+      "destroy target artifact",
+      "exile target card from a graveyard; draw a card"
+    ],
+    "MARDU_MODE_2": [
+      "if you attacked this turn, draw two cards",
+      "untap all creatures you control"
+    ],
+    "TEMUR_MODE": [
+      "target creature you control gets +3/+3 until end of turn",
+      "counter target spell unless its controller pays {SMALL_X}",
+      "draw a card"
+    ],
+    "TEMUR_MODE_ALT": [
+      "search your library for a basic land card, put it onto the battlefield tapped, then shuffle",
+      "target creature you control fights target creature you don't control"
+    ],
+    "TEMUR_MODE_2": [
+      "creatures you control gain trample until end of turn",
+      "create a 4/4 green Elemental creature token"
+    ]
+  }
+}

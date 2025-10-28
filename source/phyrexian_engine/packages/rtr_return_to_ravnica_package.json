@@ -1,0 +1,1194 @@
+{
+  "name": "return_to_ravnica_guilds_max",
+  "version": 1,
+  "description": "A large Return to Ravnica inspired package covering detain, overload, unleash, scavenge, populate, Gates, Keyrunes, charms and token synergies.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Detain {TARGET_NONLAND_PERMANENT}.",
+          14,
+          1,
+          6
+        ],
+        [
+          "Exile {TARGET_CREATURE} with mana value {MV_THRESHOLD} or less.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Creatures you control gain vigilance until end of turn.",
+          8,
+          1,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Creatures you control gain lifelink until end of turn.\n\u2022 Put {TARGET_ATTACKING_OR_BLOCKING_CREATURE} on top of its owner's library.\n\u2022 Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Counter {TARGET_NONCREATURE_SPELL} unless its controller pays {TAX_SMALL}.\n\u2022 Deal {DAMAGE_SMALL} damage to {TARGET_CREATURE}.\n\u2022 Draw two cards, then discard two cards.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile all cards from {TARGET_PLAYER}'s graveyard.\n\u2022 Destroy {TARGET_ARTIFACT}.\n\u2022 {TARGET_PLAYER} loses 1 life for each creature they control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 All creatures get -1/-1 until end of turn.\n\u2022 Destroy {TARGET_ENCHANTMENT}.\n\u2022 Regenerate each creature you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile {TARGET_CREATURE} with power {POWER_THRESHOLD} or greater.\n\u2022 {TARGET_CREATURE} gets +2/+2 and gains vigilance until end of turn.\n\u2022 Create a 2/2 Knight creature token with vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Create a 1/1 white Bird creature token with flying.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Exile {TARGET_ATTACKING_OR_BLOCKING_CREATURE}.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Detain up to two {TARGET_NONLAND_PERMANENT}s.",
+          8,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Populate. (Create a token that's a copy of a creature token you control.)",
+          12,
+          2,
+          6
+        ],
+        [
+          "Create a 3/3 green Centaur creature token. Populate.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Whenever one or more creature tokens enter the battlefield under your control, gain {LIFE_SMALL} life.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever you detain a permanent, draw a card.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Creature tokens you control get +1/+1.",
+          7,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, if you detained a permanent this turn, create a 1/1 white Soldier creature token.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1 and has 'Prevent the next 1 damage that would be dealt to this creature each turn.'",
+          6,
+          1,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "vigilance",
+          10,
+          1,
+          7
+        ],
+        [
+          "Whenever this enters the battlefield, {TARGET_YOUR_CREATURE} gets +{N_SMALL}/+{N_SMALL} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, {TARGET_OPPONENT} loses {LIFE_SMALL} life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "When this enters, detain {TARGET_CREATURE_AN_OPPONENT_CONTROLS}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Populate when this enters the battlefield.",
+          6,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Detain {TARGET_NONLAND_PERMANENT}. Draw a card.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Return {TARGET_SPELL_OR_PERMANENT} to its owner's hand.\nOverload {OVERLOAD_COST}.",
+          12,
+          1,
+          6
+        ],
+        [
+          "Counter {TARGET_SPELL} unless its controller pays {TAX_SMALL}.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Scry 2, then draw a card.",
+          9,
+          1,
+          4
+        ],
+        [
+          "Choose one \u2014\n\u2022 Creatures you control gain lifelink until end of turn.\n\u2022 Put {TARGET_ATTACKING_OR_BLOCKING_CREATURE} on top of its owner's library.\n\u2022 Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Counter {TARGET_NONCREATURE_SPELL} unless its controller pays {TAX_SMALL}.\n\u2022 Deal {DAMAGE_SMALL} damage to {TARGET_CREATURE}.\n\u2022 Draw two cards, then discard two cards.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile all cards from {TARGET_PLAYER}'s graveyard.\n\u2022 Destroy {TARGET_ARTIFACT}.\n\u2022 {TARGET_PLAYER} loses 1 life for each creature they control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 All creatures get -1/-1 until end of turn.\n\u2022 Destroy {TARGET_ENCHANTMENT}.\n\u2022 Regenerate each creature you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile {TARGET_CREATURE} with power {POWER_THRESHOLD} or greater.\n\u2022 {TARGET_CREATURE} gets +2/+2 and gains vigilance until end of turn.\n\u2022 Create a 2/2 Knight creature token with vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Copy {TARGET_INSTANT_OR_SORCERY_SPELL}. You may choose new targets for the copy.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Return up to two target creatures to their owners' hands.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TARGET_NONLAND_PERMANENT} loses all abilities while it is detained.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a noncreature spell, {TARGET_YOUR_CREATURE} gets +1/+1 until end of turn.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Creatures you control with flying get +1/+1.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast an instant, untap up to one target creature.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Tap {TARGET_CREATURES_PLURAL}. They don't untap during their controller's next untap step.\nOverload {OVERLOAD_COST}.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has flying and 'Whenever this deals combat damage to a player, draw a card.'",
+          7,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature has hexproof and 'Whenever this attacks, scry 1.'",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "flying",
+          10,
+          1,
+          7
+        ],
+        [
+          "Whenever this enters the battlefield, {TARGET_YOUR_CREATURE} gets +{N_SMALL}/+{N_SMALL} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, {TARGET_OPPONENT} loses {LIFE_SMALL} life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "When this enters, detain {TARGET_NONLAND_PERMANENT_AN_OPPONENT_CONTROLS}.",
+          8,
+          3,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Unleash (You may have this enter with a +1/+1 counter. If you do, it can't block.)",
+          14,
+          1,
+          7
+        ],
+        [
+          "Scavenge {SCAVENGE_COST}",
+          8,
+          2,
+          7
+        ],
+        [
+          "deathtouch",
+          10,
+          1,
+          7
+        ],
+        [
+          "Whenever this enters the battlefield, {TARGET_YOUR_CREATURE} gets +{N_SMALL}/+{N_SMALL} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, {TARGET_OPPONENT} loses {LIFE_SMALL} life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Unleash",
+          8,
+          1,
+          7
+        ],
+        [
+          "Scavenge {SCAVENGE_COST}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{TARGET_CREATURE} gets -{N_SMALL}/-{N_SMALL} until end of turn.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Choose one \u2014\n\u2022 Creatures you control gain lifelink until end of turn.\n\u2022 Put {TARGET_ATTACKING_OR_BLOCKING_CREATURE} on top of its owner's library.\n\u2022 Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Counter {TARGET_NONCREATURE_SPELL} unless its controller pays {TAX_SMALL}.\n\u2022 Deal {DAMAGE_SMALL} damage to {TARGET_CREATURE}.\n\u2022 Draw two cards, then discard two cards.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile all cards from {TARGET_PLAYER}'s graveyard.\n\u2022 Destroy {TARGET_ARTIFACT}.\n\u2022 {TARGET_PLAYER} loses 1 life for each creature they control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 All creatures get -1/-1 until end of turn.\n\u2022 Destroy {TARGET_ENCHANTMENT}.\n\u2022 Regenerate each creature you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile {TARGET_CREATURE} with power {POWER_THRESHOLD} or greater.\n\u2022 {TARGET_CREATURE} gets +2/+2 and gains vigilance until end of turn.\n\u2022 Create a 2/2 Knight creature token with vigilance.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy {TARGET_CREATURE}. You lose {LIFE_SMALL} life.",
+          9,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Mill {MILL_SMALL} cards. Then you may return a creature card from your graveyard to your hand.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Destroy {TARGET_CREATURE}. Populate.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever a creature with +1/+1 counters you control dies, each opponent loses 1 life.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Creatures you control with +1/+1 counters have menace.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+1 and can't block.",
+          6,
+          1,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{TARGET_CREATURE} can't block this turn.\nOverload {OVERLOAD_COST}.",
+          10,
+          1,
+          4
+        ],
+        [
+          "{TARGET_CREATURE} takes {DAMAGE_SMALL} damage.",
+          12,
+          1,
+          4
+        ],
+        [
+          "Choose one \u2014\n\u2022 Creatures you control gain lifelink until end of turn.\n\u2022 Put {TARGET_ATTACKING_OR_BLOCKING_CREATURE} on top of its owner's library.\n\u2022 Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Counter {TARGET_NONCREATURE_SPELL} unless its controller pays {TAX_SMALL}.\n\u2022 Deal {DAMAGE_SMALL} damage to {TARGET_CREATURE}.\n\u2022 Draw two cards, then discard two cards.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile all cards from {TARGET_PLAYER}'s graveyard.\n\u2022 Destroy {TARGET_ARTIFACT}.\n\u2022 {TARGET_PLAYER} loses 1 life for each creature they control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 All creatures get -1/-1 until end of turn.\n\u2022 Destroy {TARGET_ENCHANTMENT}.\n\u2022 Regenerate each creature you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile {TARGET_CREATURE} with power {POWER_THRESHOLD} or greater.\n\u2022 {TARGET_CREATURE} gets +2/+2 and gains vigilance until end of turn.\n\u2022 Create a 2/2 Knight creature token with vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "This deals {DAMAGE_MED} damage to any target.",
+          9,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Unleash",
+          12,
+          1,
+          7
+        ],
+        [
+          "haste",
+          10,
+          1,
+          7
+        ],
+        [
+          "Whenever this enters the battlefield, {TARGET_YOUR_CREATURE} gets +{N_SMALL}/+{N_SMALL} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, {TARGET_OPPONENT} loses {LIFE_SMALL} life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Unleash",
+          8,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Goblin creature tokens with haste.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control attacks, it gets +1/+0 until end of turn.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, this deals 1 damage to any target.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Creatures you control with +1/+1 counters have haste.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast an instant or sorcery, this gets a charge counter. {ACTIVATED_COST}: This deals {DAMAGE_SMALL} damage to any target.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and can't block.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Enchant creature\nEnchanted creature has menace and 'Whenever this becomes blocked, it deals 1 damage to defending player.'",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Sorcery": [
+        [
+          "Create a 3/3 green Centaur creature token.",
+          9,
+          2,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          9,
+          2,
+          5
+        ],
+        [
+          "Create a 3/3 green Centaur creature token. Populate.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Destroy {TARGET_ARTIFACT} or {TARGET_ENCHANTMENT}.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Populate.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Choose one \u2014\n\u2022 Creatures you control gain lifelink until end of turn.\n\u2022 Put {TARGET_ATTACKING_OR_BLOCKING_CREATURE} on top of its owner's library.\n\u2022 Draw a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Counter {TARGET_NONCREATURE_SPELL} unless its controller pays {TAX_SMALL}.\n\u2022 Deal {DAMAGE_SMALL} damage to {TARGET_CREATURE}.\n\u2022 Draw two cards, then discard two cards.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile all cards from {TARGET_PLAYER}'s graveyard.\n\u2022 Destroy {TARGET_ARTIFACT}.\n\u2022 {TARGET_PLAYER} loses 1 life for each creature they control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 All creatures get -1/-1 until end of turn.\n\u2022 Destroy {TARGET_ENCHANTMENT}.\n\u2022 Regenerate each creature you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Exile {TARGET_CREATURE} with power {POWER_THRESHOLD} or greater.\n\u2022 {TARGET_CREATURE} gets +2/+2 and gains vigilance until end of turn.\n\u2022 Create a 2/2 Knight creature token with vigilance.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Create a 1/1 white Bird creature token with flying.",
+          6,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Scavenge {SCAVENGE_COST}",
+          10,
+          2,
+          7
+        ],
+        [
+          "trample",
+          10,
+          1,
+          7
+        ],
+        [
+          "Whenever this enters the battlefield, {TARGET_YOUR_CREATURE} gets +{N_SMALL}/+{N_SMALL} until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, {TARGET_OPPONENT} loses {LIFE_SMALL} life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Scavenge {SCAVENGE_COST}",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever a token enters the battlefield under your control, this gets +1/+1 until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "Exile this card from your graveyard: Put +1/+1 counters on {TARGET_CREATURE} equal to this card's power.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have trample.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever a creature you control dies, put a +1/+1 counter on {TARGET_CREATURE_YOU_CONTROL}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "At end of combat, if you attacked with a token this turn, populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "At the beginning of combat on your turn, populate.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +3/+3 and has trample.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and 'When this dies, draw a card.'",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Azorius Keyrune\n{MANA_ROCK_LINE_AZORIUS}\n{ACTIVATED_COST}: Artifact you control becomes a 2/2 flying creature until end of turn. It's still an artifact.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Izzet Keyrune\n{MANA_ROCK_LINE_IZZET}\n{ACTIVATED_COST}: Artifact you control becomes a 2/1 first strike creature until end of turn. It's still an artifact.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Rakdos Keyrune\n{MANA_ROCK_LINE_RAKDOS}\n{ACTIVATED_COST}: Artifact you control becomes a 3/1 menace creature until end of turn. It's still an artifact.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Golgari Keyrune\n{MANA_ROCK_LINE_GOLGARI}\n{ACTIVATED_COST}: Artifact you control becomes a 2/2 deathtouch creature until end of turn. It's still an artifact.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Selesnya Keyrune\n{MANA_ROCK_LINE_SELESNYA}\n{ACTIVATED_COST}: Artifact you control becomes a 3/3 vigilance creature until end of turn. It's still an artifact.",
+          7,
+          2,
+          5
+        ],
+        [
+          "{TAP_SYMBOL}: Add {GUILD_MANA}.",
+          12,
+          2,
+          5
+        ],
+        [
+          "{TAP_SYMBOL}, {PAY_1}: Add {ALLY_MANA}{ALLY_MANA_2}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, you may pay {PAY_1}. If you do, draw a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{TAP_SYMBOL}: Add {COLORLESS_MANA}.\n{ACTIVATED_COST}: Put a +1/+1 counter on {TARGET_CREATURE}. Activate only as a sorcery.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {EQUIP_COST}.",
+          9,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has first strike.\nEquip {EQUIP_COST}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, it gets +1/+1 until end of turn.\nEquip {EQUIP_COST}.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Gate\n{GATE_ETB_TAPPED}\n{TAP_SYMBOL}: Add {ALLY_MANA} or {ALLY_MANA_2}.",
+          20,
+          0,
+          0
+        ],
+        [
+          "{TAP_SYMBOL}: Add {COLORLESS_MANA}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "{GATE_ETB_TAPPED}\n{TAP_SYMBOL}: Add {ALLY_MANA}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{TAP_SYMBOL}: Add {COLORLESS_MANA}.\n{PAY_2}, {TAP_SYMBOL}: Draw a card. Activate only if you control a Gate.",
+          7,
+          0,
+          0
+        ],
+        [
+          "{TAP_SYMBOL}: Add {COLORLESS_MANA}.\n{TAP_SYMBOL}, Sacrifice this: Search your library for a Gate card, reveal it, put it into your hand, then shuffle.",
+          7,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has '{TAP_SYMBOL}: Add two mana in any combination of colors.'",
+          6,
+          3,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life.",
+          5,
+          2,
+          5
+        ]
+      ]
+    },
+    "any": {
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Draw a card, then discard a card.",
+          8,
+          0,
+          9
+        ],
+        [
+          "{ACTIVATED_COST}: {TARGET_CREATURE} gets +1/+0 until end of turn.",
+          8,
+          0,
+          9
+        ],
+        [
+          "{ACTIVATED_COST}: Add {ALLY_MANA}.",
+          8,
+          0,
+          9
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 colorless artifact creature token.",
+          7,
+          0,
+          9
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Angel",
+      "Spirit",
+      "Cleric",
+      "Griffin",
+      "Bird"
+    ],
+    "U": [
+      "Vedalken",
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Faerie",
+      "Drake",
+      "Homunculus"
+    ],
+    "B": [
+      "Human",
+      "Vampire",
+      "Zombie",
+      "Thrull",
+      "Imp",
+      "Horror",
+      "Bat"
+    ],
+    "R": [
+      "Human",
+      "Devil",
+      "Goblin",
+      "Ogre",
+      "Elemental",
+      "Viashino",
+      "Dragon"
+    ],
+    "G": [
+      "Elf",
+      "Centaur",
+      "Wolf",
+      "Beast",
+      "Insect",
+      "Spider",
+      "Troll",
+      "Saproling"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Scarecrow"
+    ],
+    "any": [
+      "Advisor",
+      "Rogue",
+      "Shaman",
+      "Knight",
+      "Scout",
+      "Warrior"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{PAY_1}",
+      "{PAY_2}",
+      "{PAY_3}",
+      "{PAY_1}, {TAP_SYMBOL}",
+      "{PAY_2}, {TAP_SYMBOL}",
+      "{PAY_1}, Discard a card",
+      "{SACRIFICE_THIS}"
+    ],
+    "EQUIP_COST": [
+      "{PAY_2}",
+      "{PAY_3}",
+      "{PAY_1}",
+      "{PAY_1}{PAY_1}"
+    ],
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever",
+      "At the beginning of your end step,"
+    ],
+    "TAX_SMALL": [
+      "{PAY_2}",
+      "{PAY_1}",
+      "{PAY_3}"
+    ],
+    "DAMAGE_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "DAMAGE_MED": [
+      "3",
+      "4",
+      "5"
+    ],
+    "LIFE_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "N_SMALL": [
+      "1",
+      "2"
+    ],
+    "MILL_SMALL": [
+      "2",
+      "3",
+      "4"
+    ],
+    "POWER_THRESHOLD": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "MV_THRESHOLD": [
+      "3",
+      "4",
+      "5"
+    ],
+    "TAP_SYMBOL": [
+      "{T}"
+    ],
+    "PAY_1": [
+      "{1}"
+    ],
+    "PAY_2": [
+      "{2}"
+    ],
+    "PAY_3": [
+      "{3}"
+    ],
+    "COLORLESS_MANA": [
+      "{C}"
+    ],
+    "ALLY_MANA": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "ALLY_MANA_2": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "GUILD_MANA": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "SACRIFICE_THIS": [
+      "Sacrifice this"
+    ],
+    "OVERLOAD_COST": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}{U}",
+      "{3}{R}",
+      "{4}{U}",
+      "{4}{R}"
+    ],
+    "SCAVENGE_COST": [
+      "{2}{B}",
+      "{2}{G}",
+      "{3}{B}",
+      "{3}{G}",
+      "{4}{B}",
+      "{4}{G}"
+    ],
+    "TARGET_SPELL": [
+      "target spell"
+    ],
+    "TARGET_SPELL_OR_PERMANENT": [
+      "target spell or permanent"
+    ],
+    "TARGET_INSTANT_OR_SORCERY_SPELL": [
+      "target instant or sorcery spell"
+    ],
+    "TARGET_NONCREATURE_SPELL": [
+      "target noncreature spell"
+    ],
+    "TARGET_PERMANENT": [
+      "target permanent"
+    ],
+    "TARGET_NONLAND_PERMANENT": [
+      "target nonland permanent"
+    ],
+    "TARGET_NONLAND_PERMANENT_AN_OPPONENT_CONTROLS": [
+      "target nonland permanent an opponent controls"
+    ],
+    "TARGET_CREATURE": [
+      "target creature"
+    ],
+    "TARGET_CREATURES_PLURAL": [
+      "up to two target creatures",
+      "each creature you don't control"
+    ],
+    "TARGET_CREATURE_YOU_CONTROL": [
+      "target creature you control"
+    ],
+    "TARGET_YOUR_CREATURE": [
+      "target creature you control"
+    ],
+    "TARGET_PLAYER": [
+      "target player"
+    ],
+    "TARGET_OPPONENT": [
+      "target opponent"
+    ],
+    "TARGET_ARTIFACT": [
+      "target artifact"
+    ],
+    "TARGET_ENCHANTMENT": [
+      "target enchantment"
+    ],
+    "TARGET_LAND": [
+      "target land"
+    ],
+    "TARGET_ATTACKING_OR_BLOCKING_CREATURE": [
+      "target attacking or blocking creature"
+    ],
+    "TARGET_GATE": [
+      "target Gate you control"
+    ],
+    "GATE_ETB_TAPPED": [
+      "This land enters the battlefield tapped."
+    ],
+    "MANA_ROCK_LINE_AZORIUS": [
+      "{T}: Add {W} or {U}."
+    ],
+    "MANA_ROCK_LINE_IZZET": [
+      "{T}: Add {U} or {R}."
+    ],
+    "MANA_ROCK_LINE_RAKDOS": [
+      "{T}: Add {B} or {R}."
+    ],
+    "MANA_ROCK_LINE_GOLGARI": [
+      "{T}: Add {B} or {G}."
+    ],
+    "MANA_ROCK_LINE_SELESNYA": [
+      "{T}: Add {G} or {W}."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "menace",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "ward {2}",
+      "vigilance"
+    ],
+    "any": [
+      ""
+    ]
+  }
+}

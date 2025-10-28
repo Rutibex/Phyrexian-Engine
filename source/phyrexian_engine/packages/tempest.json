@@ -1,0 +1,534 @@
+{
+  "name": "tempest",
+  "version": "1.0.0",
+  "description": "Comprehensive package covering Tempest (1997) mechanics: Buyback, Shadow, Slivers, Licids, Flowstone pumps, En-Kor redirection, plus set-flavored ad-libs/subtypes/keywords.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow).",
+          6,
+          1,
+          3
+        ],
+        [
+          "{TRIGGER_INTRO} {EFFECT_SMALL_BUFF}. Shadow.",
+          3,
+          2,
+          3
+        ],
+        [
+          "0: The next 1 damage that would be dealt to {SELF} this turn is dealt to another target creature you control instead.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{ACTIVATED_COST}: The next {X} damage that would be dealt to {SELF} this turn is dealt to another target creature you control instead.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Sliver creatures you control have vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Other Sliver creatures you control get +1/+1.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{LICID_SWITCH_W}: {SELF} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. {AURA_LINE_W}. {LICID_REVERT}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Buyback—{BUYBACK_W}. Target creature gets +{X}/+{X} and gains first strike until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Buyback—{BUYBACK_W}. Prevent the next {X} damage that would be dealt to any target this turn.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature. Enchanted creature can't attack or block.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Enchant creature. Enchanted creature has protection from {C_WORD}.",
+          2,
+          2,
+          4
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow).",
+          7,
+          1,
+          3
+        ],
+        [
+          "Whenever {SELF} deals combat damage to a player, {CARD_DRAW_1}. Shadow.",
+          4,
+          2,
+          3
+        ],
+        [
+          "Sliver creatures you control have flying.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver spells you cast cost {SLIVER_COST_REDUCTION} less to cast.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{LICID_SWITCH_U}: {SELF} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. {AURA_LINE_U}. {LICID_REVERT}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Buyback—{BUYBACK_U}. Return target nonland permanent to its owner's hand.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Buyback—{BUYBACK_U}. Draw a card.",
+          4,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Buyback—{BUYBACK_U}. Look at the top {X} cards of your library, then put them back in any order. You may draw a card.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature. Enchanted creature can't be blocked.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow).",
+          7,
+          1,
+          3
+        ],
+        [
+          "Shadow. {ACTIVATED_COST}: {SELF} gains deathtouch until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Sliver creatures you control have menace.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control get +1/+0.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{LICID_SWITCH_B}: {SELF} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. {AURA_LINE_B}. {LICID_REVERT}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Buyback—{BUYBACK_B}. Target creature gets -{X}/-{X} until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Buyback—{BUYBACK_B}. Target player discards a card.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Buyback—{BUYBACK_B}. Destroy target creature that was dealt damage this turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature. Enchanted creature gets -2/-2.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{ACTIVATED_COST}: {SELF} gets +1/-1 until end of turn.",
+          7,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: {SELF} gets +{X}/-{X} until end of turn.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have first strike.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control get +1/+0 and have haste.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{LICID_SWITCH_R}: {SELF} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. {AURA_LINE_R}. {LICID_REVERT}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Buyback—{BUYBACK_R}. {DAMAGE_X} to any target.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Buyback—{BUYBACK_R}. {DAMAGE_FIXED} to up to one target creature or player.",
+          3,
+          2,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Buyback—{BUYBACK_R}. Destroy target artifact.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{SELF} can block creatures with shadow as though they didn't have shadow.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Reach. {SELF} can block creatures with shadow as though they didn't have shadow.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have trample.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control get +1/+1.",
+          3,
+          4,
+          6
+        ],
+        [
+          "{LICID_SWITCH_G}: {SELF} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. {AURA_LINE_G}. {LICID_REVERT}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Buyback—{BUYBACK_G}. Target creature gets +{X}/+{X} until end of turn.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Buyback—{BUYBACK_G}. Create a 1/1 green Saproling creature token.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Buyback—{BUYBACK_G}. Destroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Sliver creatures you control have {HIVE_GRANT}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if you control a Sliver, {EFFECT_SMALL_BUFF_TEAM}.",
+          2,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "string_pools": {
+    "BUYBACK_W": [
+      "{3}",
+      "{2}{W}",
+      "{W}"
+    ],
+    "BUYBACK_U": [
+      "{3}",
+      "{2}{U}",
+      "{1}{U}"
+    ],
+    "BUYBACK_B": [
+      "{3}",
+      "{2}{B}",
+      "{1}{B}"
+    ],
+    "BUYBACK_R": [
+      "{3}",
+      "{2}{R}",
+      "{1}{R}"
+    ],
+    "BUYBACK_G": [
+      "{3}",
+      "{2}{G}",
+      "{1}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{1}{R}",
+      "{1}{W}",
+      "{1}{B}",
+      "{1}{U}",
+      "{1}{G}"
+    ],
+    "SLIVER_COST_REDUCTION": [
+      "{1}",
+      "{1}",
+      "{2}"
+    ],
+    "LICID_SWITCH_W": [
+      "{1}{W}, {T}"
+    ],
+    "LICID_SWITCH_U": [
+      "{1}{U}, {T}"
+    ],
+    "LICID_SWITCH_B": [
+      "{1}{B}, {T}"
+    ],
+    "LICID_SWITCH_R": [
+      "{1}{R}, {T}"
+    ],
+    "LICID_SWITCH_G": [
+      "{1}{G}, {T}"
+    ],
+    "LICID_REVERT": [
+      "{REVERT_COST}: End this effect."
+    ],
+    "REVERT_COST": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}"
+    ],
+    "AURA_LINE_W": [
+      "Enchanted creature can't attack or block",
+      "Enchanted creature has protection from {C_WORD}"
+    ],
+    "AURA_LINE_U": [
+      "Enchanted creature can't be blocked",
+      "Enchanted creature has hexproof until your next turn"
+    ],
+    "AURA_LINE_B": [
+      "Enchanted creature gets -2/-2",
+      "Whenever enchanted creature deals combat damage to a player, that player discards a card"
+    ],
+    "AURA_LINE_R": [
+      "Enchanted creature gets +2/+0 and attacks each combat if able",
+      "Enchanted creature can't block"
+    ],
+    "AURA_LINE_G": [
+      "Enchanted creature gets +2/+2",
+      "Enchanted creature can block creatures with shadow as though they didn't have shadow"
+    ],
+    "EFFECT_SMALL_BUFF": [
+      "Target creature gets +1/+1 until end of turn",
+      "Put a +1/+1 counter on target creature"
+    ],
+    "EFFECT_SMALL_BUFF_TEAM": [
+      "creatures you control get +1/+0 until end of turn",
+      "put a +1/+1 counter on up to one target creature you control"
+    ],
+    "CARD_DRAW_1": [
+      "draw a card",
+      "scry 2, then draw a card"
+    ],
+    "DAMAGE_X": [
+      "It deals {X} damage",
+      "{SELF} deals {X} damage"
+    ],
+    "DAMAGE_FIXED": [
+      "{SELF} deals 2 damage",
+      "It deals 2 damage"
+    ],
+    "HIVE_GRANT": [
+      "ward {2}",
+      "vigilance",
+      "flying",
+      "first strike",
+      "menace",
+      "trample"
+    ],
+    "C_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soltari",
+      "Kor",
+      "Human",
+      "Cleric",
+      "Soldier",
+      "Licid",
+      "Sliver"
+    ],
+    "U": [
+      "Thalakos",
+      "Merfolk",
+      "Human",
+      "Wizard",
+      "Licid",
+      "Sliver"
+    ],
+    "B": [
+      "Dauthi",
+      "Human",
+      "Horror",
+      "Zombie",
+      "Assassin",
+      "Licid",
+      "Sliver"
+    ],
+    "R": [
+      "Goblin",
+      "Viashino",
+      "Human",
+      "Warrior",
+      "Minotaur",
+      "Slith",
+      "Sliver"
+    ],
+    "G": [
+      "Elf",
+      "Beast",
+      "Spider",
+      "Cat",
+      "Wurm",
+      "Sliver"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance",
+      "lifelink",
+      "protection from black"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "ward {1}",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from blue"
+    ]
+  },
+  "notes": "Coverage goals:\n- Buyback (instants/sorceries) — all five colors include buyback spell templates.\n- Shadow — white/blue/black creatures receive shadow templates; green gets anti-shadow blocking lines; red focuses elsewhere (flowstone).\n- Slivers — cross-color passive auras granting classic evergreen abilities and stat bumps.\n- Licids — all five colors include a 'creature that can become an Aura' pattern with attach/revert text.\n- Flowstone — red creatures with +X/-X activated pumps.\n- En-Kor — white 'damage redirection' shield-setting activations.\nDesign notes:\n- Costs are drawn from string pools so your generator can vary them per card.\n- {SELF} stands in for the card's own name in your system; {X} scales off MV (your engine's numeric resolver).\n- If any bucket is missing in your runtime, your engine's defaults should keep text valid, but all buckets referenced here are provided.\n"
+}

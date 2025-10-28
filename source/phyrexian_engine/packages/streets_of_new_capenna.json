@@ -1,0 +1,900 @@
+{
+  "name": "streets_of_new_capenna",
+  "description": "Huge package capturing Streets of New Capenna mechanics: Connive, Blitz, Casualty, Shield counters, Alliance, Hideaway 5, plus SNC token types and family-flavored effects.",
+  "creature_subtypes": {
+    "W": [
+      "Citizen",
+      "Advisor",
+      "Cleric",
+      "Angel",
+      "Cat",
+      "Dog",
+      "Rogue",
+      "Lawmage",
+      "Sphinx"
+    ],
+    "U": [
+      "Rogue",
+      "Advisor",
+      "Cephalid",
+      "Sphinx",
+      "Illusion",
+      "Spirit",
+      "Bird",
+      "Fish"
+    ],
+    "B": [
+      "Assassin",
+      "Rogue",
+      "Vampire",
+      "Warlock",
+      "Devil",
+      "Demon",
+      "Zombie",
+      "Rogue"
+    ],
+    "R": [
+      "Warrior",
+      "Devil",
+      "Viashino",
+      "Ogre",
+      "Rogue",
+      "Shaman",
+      "Dwarf",
+      "Assassin"
+    ],
+    "G": [
+      "Citizen",
+      "Druid",
+      "Warrior",
+      "Rhino",
+      "Cat",
+      "Beast",
+      "Elf",
+      "Dryad"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "enters the battlefield",
+      "dies",
+      "attacks",
+      "blocks",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "{C}"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Citizen",
+      "Treasure",
+      "Fish",
+      "Rhino",
+      "Angel",
+      "Devil",
+      "Cat",
+      "Dog"
+    ],
+    "CITIZEN_SIZE": [
+      "1/1"
+    ],
+    "FISH_SIZE": [
+      "1/1"
+    ],
+    "FISH_CANT_BLOCKED_CLAUSE": [
+      "Those tokens can't be blocked."
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{3}:",
+      "{1}, {T}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "Create a Treasure token.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "CASUALTY_N": [
+      "Casualty {X} (As an additional cost to cast this spell, you may sacrifice a creature with power {X} or greater. When you cast this spell, if the casualty cost was paid, copy it. You may choose new targets for the copy.)"
+    ],
+    "BLITZ_COST": [
+      "{X}{C}",
+      "{X}{C}{C}",
+      "{C}{C}{C}"
+    ],
+    "BLITZ_REMINDER": [
+      "Blitz {COST} (If you cast this spell for its blitz cost, it gains haste and \"When this creature dies, draw a card.\" Sacrifice it at the beginning of the next end step.)"
+    ],
+    "CONNIVE_N": [
+      "Connive {X} (Draw {X} cards, then discard {X} cards. Put a +1/+1 counter on this creature for each nonland card discarded this way.)"
+    ],
+    "SHIELD_COUNTER_ETB": [
+      "This creature enters the battlefield with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)"
+    ],
+    "PUT_SHIELD_COUNTER": [
+      "Put a shield counter on target creature."
+    ],
+    "ALLIANCE_INTRO": [
+      "Alliance \u2014 Whenever another creature enters the battlefield under your control,"
+    ],
+    "ALLIANCE_EFFECT": [
+      "put a +1/+1 counter on target creature.",
+      "target creature gains vigilance until end of turn.",
+      "scry 1.",
+      "create a 1/1 green and white Citizen creature token."
+    ],
+    "HIDEAWAY_NUMBER": [
+      "5"
+    ],
+    "HIDEAWAY_REMINDER": [
+      "Hideaway {X} (When this permanent enters the battlefield, look at the top {X} cards of your library, exile one face down, then put the rest on the bottom of your library in a random order.)"
+    ],
+    "HIDEAWAY_CONDITION": [
+      "You may play the exiled card without paying its mana cost if you attacked with three or more creatures this turn.",
+      "You may play the exiled card without paying its mana cost if you cast a spell with mana value 5 or greater this turn.",
+      "You may play the exiled card without paying its mana cost if you have at least three different mana values among spells you cast this turn."
+    ],
+    "MAKE_TREASURE": [
+      "Create a Treasure token.",
+      "Create two Treasure tokens.",
+      "Create X Treasure tokens."
+    ],
+    "TREASURE_REMINDER": [
+      "(They're artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color.\")"
+    ],
+    "MAKE_CITIZEN": [
+      "Create a 1/1 green and white Citizen creature token.",
+      "Create two 1/1 green and white Citizen creature tokens."
+    ],
+    "MAKE_FISH": [
+      "Create a 1/1 blue Fish creature token."
+    ],
+    "MAKE_FISH_PLURAL": [
+      "Create two 1/1 blue Fish creature tokens.",
+      "Create three 1/1 blue Fish creature tokens."
+    ],
+    "FISH_UNBLOCKABLE": [
+      "Those tokens can't be blocked."
+    ],
+    "SMALL_PUMP": [
+      "Target creature gets +{X}/+{Y} until end of turn."
+    ],
+    "REMOVAL_SMALL": [
+      "Destroy target creature with mana value {X} or less.",
+      "Exile target tapped creature."
+    ],
+    "CARD_DRAW": [
+      "Draw a card.",
+      "Draw two cards."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "ward {X}",
+      "vigilance"
+    ],
+    "U": [
+      "ward {X}",
+      "flying"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{SHIELD_COUNTER_ETB}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Ward {X}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{ALLIANCE_INTRO} {ALLIANCE_EFFECT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_TRIGGER}, {PUT_SHIELD_COUNTER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains vigilance until end of turn.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Exile target attacking creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Put a shield counter on up to one target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. Scry 1.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{MAKE_CITIZEN}",
+          5,
+          2,
+          6
+        ],
+        [
+          "Create {X} 1/1 green and white Citizen creature tokens.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Exile target creature with power {X} or greater.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, put a shield counter on target creature you control.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Alliance \u2014 Whenever another creature enters the battlefield under your control, {ALLIANCE_EFFECT}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{Y} and has vigilance.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has \"{ACTIVATED_COST} {PUT_SHIELD_COUNTER}\"",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{Y} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has ward {X}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token. {TREASURE_REMINDER}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ],
+        [
+          "Enchanted land has \"{ACTIVATED_COST} {MAKE_TREASURE}\"",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "Hideaway {HIDEAWAY_NUMBER}. {HIDEAWAY_REMINDER} {HIDEAWAY_CONDITION}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{CONNIVE_N}",
+          7,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, {CONNIVE_N}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} {CONNIVE_N}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_TRIGGER}, scry 1.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand. {CARD_DRAW}",
+          3,
+          1,
+          6
+        ],
+        [
+          "{MAKE_FISH} {FISH_UNBLOCKABLE}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{MAKE_FISH_PLURAL} {FISH_UNBLOCKABLE}",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Look at the top {X} cards of your library. Put one into your hand and the rest on the bottom in a random order.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Connive {X}.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have \"{ACTIVATED_COST} this creature connives.\"",
+          2,
+          3,
+          7
+        ],
+        [
+          "Alliance \u2014 Whenever another creature enters the battlefield under your control, connive 1.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{ACTIVATED_COST} {CARD_DRAW}\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature deals combat damage to a player, connive 1.\"",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token. {TREASURE_REMINDER}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ],
+        [
+          "Enchanted land has \"{ACTIVATED_COST} {MAKE_TREASURE}\"",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "Hideaway {HIDEAWAY_NUMBER}. {HIDEAWAY_REMINDER} {HIDEAWAY_CONDITION}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_TRIGGER}, each opponent loses {X} life and you gain {X} life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature enters the battlefield, target creature an opponent controls gets -{X}/-{X} until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Each opponent sacrifices a creature.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{REMOVAL_SMALL}",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. You gain {X} life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Casualty {X}. ({CASUALTY_N})",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target creature or planeswalker. Casualty {X}. ({CASUALTY_N})",
+          4,
+          3,
+          7
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Each opponent discards a card. Casualty {X}. ({CASUALTY_N})",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Alliance \u2014 Whenever another creature enters the battlefield under your control, target opponent loses 1 life and you gain 1 life.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token. {TREASURE_REMINDER}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ],
+        [
+          "Enchanted land has \"{ACTIVATED_COST} {MAKE_TREASURE}\"",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "Hideaway {HIDEAWAY_NUMBER}. {HIDEAWAY_REMINDER} {HIDEAWAY_CONDITION}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{BLITZ_REMINDER}",
+          7,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, create a Treasure token. {TREASURE_REMINDER}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Haste",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Create two Treasure tokens. {TREASURE_REMINDER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Target creature gains first strike until end of turn. {CARD_DRAW}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Casualty {X}. ({CASUALTY_N})",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {X} damage divided as you choose among up to {X} targets.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Create {X} Treasure tokens. {TREASURE_REMINDER}",
+          3,
+          3,
+          7
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Casualty {X}. ({CASUALTY_N})",
+          3,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token. {TREASURE_REMINDER}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ],
+        [
+          "Enchanted land has \"{ACTIVATED_COST} {MAKE_TREASURE}\"",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "Hideaway {HIDEAWAY_NUMBER}. {HIDEAWAY_REMINDER} {HIDEAWAY_CONDITION}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{ALLIANCE_INTRO} {ALLIANCE_EFFECT}",
+          7,
+          2,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_TRIGGER}, put a +1/+1 counter on this creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Create a Treasure token. {TREASURE_REMINDER}",
+          2,
+          1,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on up to {X} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature you control fights target creature you don't control.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{MAKE_CITIZEN}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. You gain {X} life.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to {X} target creatures.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Alliance \u2014 Whenever another creature enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Creatures you control have trample.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a Treasure token. {TREASURE_REMINDER}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ],
+        [
+          "Enchanted land has \"{ACTIVATED_COST} {MAKE_TREASURE}\"",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "Hideaway {HIDEAWAY_NUMBER}. {HIDEAWAY_REMINDER} {HIDEAWAY_CONDITION}",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

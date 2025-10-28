@@ -1,0 +1,866 @@
+{
+  "name": "rise_of_the_eldrazi",
+  "display_name": "Rise of the Eldrazi (HUGE)",
+  "description": "A very large package capturing Rise of the Eldrazi mechanics: Eldrazi titans, Annihilator, Eldrazi Spawn, Level up, Rebound, Totem armor (Umbras), Defender-matters, colorless-matters, big-mana battlecruiser effects.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Level up {W} ({W}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 1–3 • {P/T}: {LEVEL_BUFF}\nLEVEL 4+ • {P/T2}: {LEVEL_BUFF2}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Vigilance",
+          15,
+          2,
+          6
+        ],
+        [
+          "Lifelink",
+          10,
+          2,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, you gain {N*2} life.",
+          10,
+          2,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, create {N} 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+          6,
+          4,
+          7
+        ],
+        [
+          "Creatures you control with defender can attack as though they didn't have defender.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever another creature you control attacks, it gets +1/+1 until end of turn.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever you cast a colorless spell, you gain {N} life.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{W}: Target creature gains protection from the color of your choice until end of turn.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)\nTarget creature gets +3/+3 and gains vigilance until end of turn.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Prevent all damage that would be dealt this turn by target nonwhite creature.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Tap up to {N} target creatures. Those creatures don't untap during their controller's next untap step.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Destroy target Aura.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {N} 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+          7,
+          3,
+          6
+        ],
+        [
+          "Rebound\nYou gain {N*3} life.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Put two +1/+1 counters on up to {N} target creatures with defender.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Return target creature card with mana value {N} or less from your graveyard to the battlefield.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Enchantment-Aura": [
+        [
+          "Enchant creature\nTotem armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)\nEnchanted creature gets +1/+1 and has first strike.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +0/+2 and has vigilance.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Enchant creature with defender\nEnchanted creature can attack as though it didn't have defender.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.\nWhenever you cast a colorless spell, put a 0/1 colorless Eldrazi Spawn creature token onto the battlefield. It has \"Sacrifice this creature: Add {C}.\"",
+          3,
+          4,
+          7
+        ],
+        [
+          "At the beginning of your end step, if you gained {N} or more life this turn, create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice: Add {C}.\"",
+          3,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Level up {1}{U} ({1}{U}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 2–3 • {P/T}: {LEVEL_BUFF}\nLEVEL 4+ • {P/T2}: {LEVEL_BUFF2}",
+          4,
+          2,
+          5
+        ],
+        [
+          "Flying",
+          12,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, draw a card.",
+          10,
+          2,
+          5
+        ],
+        [
+          "When you cast a colorless spell, scry {N}.",
+          5,
+          3,
+          7
+        ],
+        [
+          "{U}, {T}: Tap target creature. It doesn't untap during its controller's next untap step.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, create {N} 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Rebound\nCounter target spell unless its controller pays {N}.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Counter target spell with mana value {N} or less.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Return target creature to its owner's hand.\nRebound",
+          5,
+          2,
+          4
+        ],
+        [
+          "Draw two cards.\nRebound",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {N} cards.",
+          6,
+          4,
+          7
+        ],
+        [
+          "Target player mills {N*2} cards.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Take an extra turn after this one. Exile this spell.",
+          1,
+          8,
+          11
+        ],
+        [
+          "Create {N} 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment-Aura": [
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +2/+2 and has flying.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature has \"{U}: Return this creature to its owner's hand.\"",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a spell with rebound, scry 2, then draw a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may return target creature to its owner's hand. If you do, create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice: Add {C}.\"",
+          2,
+          4,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Level up {1}{B} ({1}{B}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 2–3 • {P/T}: {LEVEL_BUFF}\nLEVEL 4+ • {P/T2}: {LEVEL_BUFF2}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Deathtouch",
+          10,
+          2,
+          5
+        ],
+        [
+          "Whenever another nontoken creature dies, create a 0/1 colorless Eldrazi Spawn creature token with \"Sacrifice: Add {C}.\"",
+          6,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, target opponent sacrifices a creature.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{2}{B}, Sacrifice a creature: Target creature gets -{N}/-{N} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a colorless spell, each opponent loses {N} life and you gain {N} life.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn. You gain {N} life.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Destroy target nonblack creature. You lose life equal to that creature's toughness.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Target opponent sacrifices a creature.\nRebound",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent sacrifices two creatures.",
+          4,
+          5,
+          7
+        ],
+        [
+          "Create {N} 0/1 colorless Eldrazi Spawn creature tokens. They have \"Sacrifice this creature: Add {C}.\"",
+          5,
+          3,
+          6
+        ],
+        [
+          "Rebound\nEach opponent loses {N*2} life and you gain that much life.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Enchantment-Aura": [
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +3/+1 and has lifelink.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature has deathtouch.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life.\nWhenever you sacrifice an Eldrazi Spawn, you gain 1 life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, create a 0/1 Eldrazi Spawn with \"Sacrifice: Add {C}.\"",
+          4,
+          4,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Level up {1}{R} ({1}{R}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 1–2 • {P/T}: {LEVEL_BUFF}\nLEVEL 3+ • {P/T2}: {LEVEL_BUFF2}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Haste",
+          10,
+          2,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, it deals {N} damage to any target.",
+          7,
+          3,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, create {N} 0/1 Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          6,
+          3,
+          6
+        ],
+        [
+          "{R}, Sacrifice an Eldrazi Spawn: {THIS} gets +2/+0 until end of turn.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a colorless spell, {THIS} gets +1/+0 until end of turn.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Rebound\n{THIS} deals {N} damage to any target.",
+          10,
+          2,
+          4
+        ],
+        [
+          "{THIS} deals {N} damage to each creature without flying.",
+          4,
+          4,
+          7
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {N} Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          6,
+          3,
+          6
+        ],
+        [
+          "Rebound\n{THIS} deals {N*2} damage to target player or planeswalker.",
+          5,
+          4,
+          6
+        ],
+        [
+          "Gain control of up to {N} target creatures until end of turn. Untap them. They gain haste until end of turn.",
+          4,
+          5,
+          7
+        ]
+      ],
+      "Enchantment-Aura": [
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +3/+0 and has first strike.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\"",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control attacks, you may sacrifice an Eldrazi Spawn. If you do, this creature gets +2/+0 until end of turn and {THIS} deals 1 damage to any target.",
+          4,
+          4,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Level up {2}{G} ({2}{G}: Put a level counter on this. Level up only as a sorcery.)\nLEVEL 2–3 • {P/T}: {LEVEL_BUFF}\nLEVEL 4+ • {P/T2}: {LEVEL_BUFF2}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Trample",
+          12,
+          3,
+          7
+        ],
+        [
+          "Reach",
+          8,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          6,
+          3,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, create {N} 0/1 Eldrazi Spawn with \"Sacrifice: Add {C}.\"",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever you sacrifice an Eldrazi Spawn, put a +1/+1 counter on target creature.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} and gains trample until end of turn.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Rebound\nPut {N} +1/+1 counters on target creature.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Create {N*2} Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          7,
+          4,
+          7
+        ],
+        [
+          "Put a +1/+1 counter on each creature you control with defender.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment-Aura": [
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +3/+3 and has trample.",
+          10,
+          3,
+          6
+        ],
+        [
+          "Enchant creature\nTotem armor\nEnchanted creature gets +0/+4 and has reach.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 for each Aura attached to them.\nTotem armor Auras you control cost {1} less to cast.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Whenever you cast a creature spell with mana value 7 or greater, create two Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          4,
+          4,
+          8
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Annihilator {N} (Whenever this creature attacks, defending player sacrifices {N} permanents.)",
+          30,
+          7,
+          12
+        ],
+        [
+          "When you cast this spell, target player sacrifices two permanents.",
+          6,
+          9,
+          12
+        ],
+        [
+          "When you cast this spell, draw four cards.",
+          6,
+          9,
+          12
+        ],
+        [
+          "When you cast this spell, take an extra turn after this one.",
+          3,
+          10,
+          12
+        ],
+        [
+          "This spell can't be countered.",
+          4,
+          8,
+          12
+        ],
+        [
+          "Protection from colored spells.",
+          4,
+          9,
+          12
+        ],
+        [
+          "When {THIS} enters the battlefield, create {N} Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          5,
+          6,
+          9
+        ],
+        [
+          "{1}, Sacrifice a creature: Add {C}{C}.",
+          4,
+          5,
+          8
+        ],
+        [
+          "Whenever a creature you control attacks, defending player sacrifices a permanent.",
+          3,
+          8,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}.",
+          10,
+          2,
+          4
+        ],
+        [
+          "Creatures you control have \"Sacrifice this creature: Add {C}.\"",
+          3,
+          4,
+          7
+        ],
+        [
+          "{3}, {T}, Sacrifice a creature: Draw a card.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Eldrazi spells you cast cost {1} less to cast.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a colorless spell, create a 0/1 Eldrazi Spawn with \"Sacrifice: Add {C}.\"",
+          8,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you sacrificed a creature this turn, draw a card.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {N*2} Eldrazi Spawn tokens with \"Sacrifice: Add {C}.\"",
+          10,
+          4,
+          7
+        ],
+        [
+          "Target player sacrifices {N} permanents.",
+          4,
+          7,
+          10
+        ]
+      ]
+    }
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "Whenever you cast a colorless spell,",
+      "Whenever an Eldrazi Spawn you control is sacrificed,",
+      "When you cast this spell,"
+    ],
+    "LEVEL_BUFF": [
+      "Flying",
+      "Vigilance",
+      "Deathtouch",
+      "{THIS} gets +1/+1"
+    ],
+    "LEVEL_BUFF2": [
+      "{THIS} gets +2/+2 and has flying",
+      "{THIS} gets +2/+2 and has trample",
+      "{THIS} gets +3/+3 and has first strike",
+      "{THIS} gets +3/+3 and has vigilance"
+    ],
+    "P/T": [
+      "2/2",
+      "3/3",
+      "2/3",
+      "3/2",
+      "1/4"
+    ],
+    "P/T2": [
+      "4/4",
+      "5/5",
+      "6/6"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "becomes blocked",
+      "attacks"
+    ],
+    "TOKEN_COLOR": [
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Eldrazi Spawn"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card",
+      "Create a 0/1 Eldrazi Spawn token with \"Sacrifice: Add {C}.\"",
+      "Tap target creature",
+      "Target creature gets +2/+2 until end of turn"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "C": [
+      "{C}"
+    ],
+    "AURA_BONUS": [
+      "+1/+1 and has first strike",
+      "+2/+2 and has flying",
+      "+3/+3 and has trample",
+      "+0/+4 and has reach",
+      "+3/+1 and has lifelink"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kor",
+      "Human",
+      "Angel",
+      "Wall",
+      "Cleric",
+      "Knight"
+    ],
+    "U": [
+      "Merfolk",
+      "Human",
+      "Sphinx",
+      "Wall",
+      "Wizard"
+    ],
+    "B": [
+      "Vampire",
+      "Human",
+      "Zombie",
+      "Eldrazi Drone",
+      "Shaman",
+      "Cleric"
+    ],
+    "R": [
+      "Goblin",
+      "Human",
+      "Eldrazi Drone",
+      "Warrior",
+      "Shaman"
+    ],
+    "G": [
+      "Elf",
+      "Human",
+      "Beast",
+      "Spider",
+      "Wall",
+      "Druid"
+    ],
+    "C": [
+      "Eldrazi",
+      "Construct",
+      "Drone"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "First strike",
+      "Lifelink"
+    ],
+    "U": [
+      "Flying",
+      "Hexproof"
+    ],
+    "B": [
+      "Deathtouch",
+      "Lifelink"
+    ],
+    "R": [
+      "Haste",
+      "First strike"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ],
+    "C": [
+      "Annihilator"
+    ]
+  }
+}

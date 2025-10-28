@@ -1,0 +1,1515 @@
+{
+  "name": "future_sight",
+  "display_name": "Future Sight \u2014 Mega Package",
+  "description": "A huge package covering Future Sight\u2019s futureshifted mechanics and evergreen keywordings: Absorb, Aura swap, Delve, Fateseal, Fortify/Fortification, Frenzy, Grandeur, Gravestorm, Poisonous, Transfigure, plus keyworded Deathtouch, Lifelink, Reach, Shroud and friends. Includes Suspend/Vanishing support, typecycling variants, Sliver and Wizard nods, and colorless-spell previews.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Absorb {N}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Put two +1/+1 counters on {THIS}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: {THIS} gains lifelink and deathtouch until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Create two tapped Treasure tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Return {THIS} from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Typecycling \u2014 {TYPE_CYCLING_TYPE}cycling {TYPE_CYCLING_COST}. ({TYPE_CYCLING_COST}, Discard this card: Search your library for a {TYPE_CYCLING_TYPE} card, reveal it, put it into your hand, then shuffle.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}. (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent the next {N} damage that would be dealt to any target this turn.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST}. (Attach to target land you control. Fortify only as a sorcery.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Add {N} mana of any one color.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Target creature gets +{N}/+{N} until end of turn.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever fortified land becomes tapped, {TRIGGER}: {THIS} deals {N} damage to any target.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature",
+          10,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has lifelink.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has shroud.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Put two +1/+1 counters on {THIS}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: {THIS} gains lifelink and deathtouch until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Create two tapped Treasure tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Return {THIS} from your graveyard to your hand.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "All Slivers have \"Whenever this creature deals combat damage to a player, that player fateseals 1.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Typecycling \u2014 {TYPE_CYCLING_TYPE}cycling {TYPE_CYCLING_COST}. ({TYPE_CYCLING_COST}, Discard this card: Search your library for a {TYPE_CYCLING_TYPE} card, reveal it, put it into your hand, then shuffle.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}. (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "Fateseal {FATESEAL_N}. (To fateseal {FATESEAL_N}, look at the top {FATESEAL_N} cards of target player's library, then put any number of them on the bottom of that player's library and the rest on top in any order.)",
+          10,
+          2,
+          6
+        ],
+        [
+          "Target player fateseals {FATESEAL_N}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays {N}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target player mills {N}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "Gravestorm.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Target player fateseals {FATESEAL_N}, then you scry {FATESEAL_N}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Suspend 4\u2014{SUSPEND_COST}.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST}. (Attach to target land you control. Fortify only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Add {N} mana of any one color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Target creature gets +{N}/+{N} until end of turn.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever fortified land becomes tapped, {TRIGGER}: {THIS} deals {N} damage to any target.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Aura swap {AURA_SWAP_COST}. ({AURA_SWAP_COST}: Exchange this Aura with an Aura card in your hand.)",
+          9,
+          2,
+          6
+        ],
+        [
+          "Enchant creature",
+          10,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has lifelink.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has shroud.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Poisonous {POISONOUS_N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Put two +1/+1 counters on {THIS}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: {THIS} gains lifelink and deathtouch until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Create two tapped Treasure tokens.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Return {THIS} from your graveyard to your hand.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRANSFIGURE_COST}, Sacrifice this creature: Search your library for a creature card with the same mana value as this creature, put it onto the battlefield, then shuffle. Activate only as a sorcery.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "Vanishing {VANISHING_N}. (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {N}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target player mills {N}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delve. (Each card you exile from your graveyard while casting this spell pays for {C}.)",
+          7,
+          3,
+          8
+        ],
+        [
+          "Gravestorm. (When you cast this spell, copy it for each permanent put into a graveyard this turn. You may choose new targets for the copies.)",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST}. (Attach to target land you control. Fortify only as a sorcery.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Add {N} mana of any one color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Target creature gets +{N}/+{N} until end of turn.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever fortified land becomes tapped, {TRIGGER}: {THIS} deals {N} damage to any target.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature",
+          10,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has lifelink.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has shroud.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Frenzy {FRENZY_N}. (Whenever this creature attacks and isn't blocked, it gets +{FRENZY_N}/+0 until end of turn.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Put two +1/+1 counters on {THIS}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: {THIS} gains lifelink and deathtouch until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Create two tapped Treasure tokens.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Return {THIS} from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}. (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {N} damage to any target.",
+          6,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Delve.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Suspend 3\u2014{SUSPEND_COST}. (Rather than cast this card from your hand, you may pay {SUSPEND_COST} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST}. (Attach to target land you control. Fortify only as a sorcery.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Add {N} mana of any one color.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Target creature gets +{N}/+{N} until end of turn.\"",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever fortified land becomes tapped, {TRIGGER}: {THIS} deals {N} damage to any target.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature",
+          10,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has lifelink.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has shroud.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Absorb {N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Poisonous {POISONOUS_N}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Put two +1/+1 counters on {THIS}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: {THIS} gains lifelink and deathtouch until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Create two tapped Treasure tokens.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Grandeur \u2014 Discard another card with the same name as this card: Return {THIS} from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Delve.",
+          2,
+          4,
+          8
+        ],
+        [
+          "Typecycling \u2014 {TYPE_CYCLING_TYPE}cycling {TYPE_CYCLING_COST}. ({TYPE_CYCLING_COST}, Discard this card: Search your library for a {TYPE_CYCLING_TYPE} card, reveal it, put it into your hand, then shuffle.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Vanishing {VANISHING_N}. (This permanent enters with {VANISHING_N} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, sacrifice it.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Fortify {FORTIFY_COST}. (Attach to target land you control. Fortify only as a sorcery.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Add {N} mana of any one color.\"",
+          5,
+          2,
+          6
+        ],
+        [
+          "Fortified land has \"{T}: Target creature gets +{N}/+{N} until end of turn.\"",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever fortified land becomes tapped, {TRIGGER}: {THIS} deals {N} damage to any target.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature",
+          10,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has deathtouch.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has lifelink.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchanted creature has shroud.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Lifelink.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Reach.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Shroud.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flash.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Frenzy {FRENZY_N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Typecycling \u2014 {TYPE_CYCLING_TYPE}cycling {TYPE_CYCLING_COST}. ({TYPE_CYCLING_COST}, Discard this card: Search your library for a {TYPE_CYCLING_TYPE} card, reveal it, put it into your hand, then shuffle.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "First strike, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vigilance, lifelink.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Menace, deathtouch.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowess, flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Hexproof, reach.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell is colorless.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell is colorless.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Aura": [],
+      "Equipment": [],
+      "Land": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {N}.",
+          6,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast spells with delve.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Target player fateseals 1.",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "Whenever {THIS} attacks,",
+      "Whenever {THIS} deals combat damage to a player,",
+      "At the beginning of your end step,",
+      "Whenever you cast a noncreature spell,",
+      "Whenever a creature you control dies,",
+      "Whenever a permanent is put into a graveyard from the battlefield,"
+    ],
+    "CREATURE_TRIGGER": [
+      "you control",
+      "an opponent controls",
+      "with power {N} or greater",
+      "with power {N} or less",
+      "that\u2019s tapped",
+      "that entered the battlefield this turn"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{5}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{W}{U}",
+      "{U}{B}",
+      "{B}{R}",
+      "{R}{G}",
+      "{G}{W}"
+    ],
+    "SMALL_COST": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}",
+      "{3}"
+    ],
+    "MEDIUM_COST": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}{W}",
+      "{3}{U}",
+      "{3}{B}",
+      "{3}{R}",
+      "{3}{G}",
+      "{4}"
+    ],
+    "LARGE_COST": [
+      "{4}{W}",
+      "{4}{U}",
+      "{4}{B}",
+      "{4}{R}",
+      "{4}{G}",
+      "{5}",
+      "{6}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Sliver",
+      "Wizard",
+      "Rebel",
+      "Saproling",
+      "Spider",
+      "Germ",
+      "Zombie",
+      "Assassin",
+      "Illusion",
+      "Elemental",
+      "Knight",
+      "Faerie",
+      "Shapeshifter",
+      "Thrull",
+      "Wurm",
+      "Insect"
+    ],
+    "COUNTER_TYPE": [
+      "+1/+1",
+      "time",
+      "lore",
+      "-1/-1"
+    ],
+    "PERMANENT_TYPE": [
+      "artifact",
+      "creature",
+      "enchantment",
+      "land",
+      "planeswalker"
+    ],
+    "AURA_SWAP_COST": [
+      "{2}{U}",
+      "{1}{U}{U}",
+      "{3}{U}"
+    ],
+    "TRANSFIGURE_COST": [
+      "{1}{B}{B}",
+      "{2}{B}{B}",
+      "{3}{B}"
+    ],
+    "FORTIFY_COST": [
+      "{2}",
+      "{3}",
+      "{2}{W}",
+      "{3}{W}"
+    ],
+    "TYPE_CYCLING_TYPE": [
+      "Wizard",
+      "Sliver",
+      "Rebel",
+      "Snake",
+      "Treefolk",
+      "Faerie"
+    ],
+    "TYPE_CYCLING_COST": [
+      "{2}",
+      "{1}{U}",
+      "{2}{G}",
+      "{1}{W}",
+      "{2}{B}"
+    ],
+    "SUSPEND_COST": [
+      "{1}{R}",
+      "{2}{U}",
+      "{3}{B}",
+      "{1}{G}",
+      "{1}{W}"
+    ],
+    "VANISHING_N": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "FATESEAL_N": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "FRENZY_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "POISONOUS_N": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Knight",
+      "Rebel",
+      "Cleric",
+      "Soldier",
+      "Kithkin",
+      "Spirit"
+    ],
+    "U": [
+      "Wizard",
+      "Faerie",
+      "Illusion",
+      "Merfolk",
+      "Shapeshifter"
+    ],
+    "B": [
+      "Zombie",
+      "Assassin",
+      "Horror",
+      "Thrull",
+      "Skeleton"
+    ],
+    "R": [
+      "Warrior",
+      "Shaman",
+      "Elemental",
+      "Goblin",
+      "Hellion"
+    ],
+    "G": [
+      "Spider",
+      "Archer",
+      "Beast",
+      "Treefolk",
+      "Wurm"
+    ],
+    "C": [
+      "Sliver",
+      "Avatar",
+      "Construct"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "lifelink",
+      "vigilance",
+      "absorb 1",
+      "shroud"
+    ],
+    "U": [
+      "flash",
+      "shroud",
+      "flying"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "frenzy {N}",
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "reach",
+      "deathtouch"
+    ],
+    "C": [
+      "deathtouch",
+      "lifelink",
+      "reach"
+    ]
+  }
+}

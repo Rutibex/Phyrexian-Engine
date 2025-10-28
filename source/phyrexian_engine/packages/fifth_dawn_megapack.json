@@ -1,0 +1,762 @@
+{
+  "package_name": "fifth_dawn_megapack",
+  "package_version": "1.0.0",
+  "last_updated": "2025-10-26",
+  "description": "HUGE Fifth Dawn-inspired package: Sunburst, Scry, Stations, Beacons, Bringers, Cogs (1 MV artifacts) recursion, charge counters, color-matters (WUBRG), equipment synergies, and more. Designed for the ad‑lib/template generator.",
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Auriok",
+      "Cat",
+      "Leonin",
+      "Soldier",
+      "Cleric",
+      "Elephant",
+      "Fox",
+      "Kithkin"
+    ],
+    "U": [
+      "Human",
+      "Vedalken",
+      "Moonfolk",
+      "Wizard",
+      "Bird",
+      "Faerie",
+      "Illusion",
+      "Leviathan"
+    ],
+    "B": [
+      "Human",
+      "Nim",
+      "Zombie",
+      "Cleric",
+      "Horror",
+      "Imp",
+      "Rat",
+      "Shade"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Dwarf",
+      "Warrior",
+      "Shaman",
+      "Ogre",
+      "Elemental",
+      "Phoenix"
+    ],
+    "G": [
+      "Elf",
+      "Troll",
+      "Beast",
+      "Druid",
+      "Frog",
+      "Insect",
+      "Spider",
+      "Treefolk"
+    ],
+    "C": [
+      "Myr",
+      "Construct",
+      "Golem",
+      "Thopter",
+      "Drone"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike",
+      "protection from [C]"
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "modular {X}",
+      "menace"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "At the beginning of your upkeep,",
+      "Whenever you cast an artifact spell,",
+      "Whenever a creature you control dies,",
+      "Whenever a creature enters the battlefield under your control,",
+      "Whenever you sacrifice an artifact,"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{X}",
+      "{2}[C]",
+      "{3}[C]"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T}",
+      "{2}, {T}",
+      "{3}, {T}",
+      "Pay {X}. {T}",
+      "Sacrifice an artifact:, {T}"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own",
+      "an opponent controls"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Myr",
+      "Thopter",
+      "Servo",
+      "Construct",
+      "Germ"
+    ],
+    "TOKEN_COLOR": [
+      "colorless",
+      "[C]",
+      "artifact",
+      "golden"
+    ],
+    "COUNTER_TYPE": [
+      "charge",
+      "plus-one/+1",
+      "ability",
+      "sunburst"
+    ],
+    "UPKEEP_INTRO": [
+      "At the beginning of your upkeep,",
+      "At the beginning of each end step,"
+    ],
+    "BEACON_EFFECT_END": [
+      "Shuffle {this} into its owner's library.",
+      "Shuffle {this} into its owner's library after it resolves."
+    ],
+    "SCRY_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "TAP_TARGET": [
+      "target artifact",
+      "target creature",
+      "target artifact or creature",
+      "target permanent",
+      "target nonland permanent"
+    ],
+    "COG_DESC": [
+      "an artifact card with mana value 1 or less",
+      "a 'cog' (an artifact card with mana value 1 or less)",
+      "a 1-mana artifact card"
+    ],
+    "COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "STATION_VERB": [
+      "untap",
+      "ready",
+      "reprime",
+      "recalibrate"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Sunburst (This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.)",
+          6,
+          2,
+          6
+        ],
+        [
+          "Vigilance. Sunburst. When {this} enters, you gain {X} life, where X is the number of counters on it.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When {this} enters, if {X} or more colors of mana were spent to cast it, exile target tapped creature an opponent controls until {this} leaves the battlefield.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {this} enters, choose up to X target artifacts, where X is the number of colors of mana spent to cast it. Those permanents gain indestructible until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Prevent the next {X} damage that would be dealt to target creature this turn. {X} is the number of colors among permanents you control.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Scry [SCRY_N], then creatures you control get +1/+1 until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. Scry [SCRY_N].",
+          2,
+          2,
+          5
+        ],
+        [
+          "Tap up to {X} target creatures. They don't untap during their controller's next untap step. Scry [SCRY_N].",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn, where X is the number of colors among permanents you control.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. If {X} or more colors of mana were spent to cast this spell, you gain 4 life. Scry [SCRY_N].",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create X 1/1 [TOKEN_COLOR] Myr artifact creature tokens, where X is the number of colors of mana spent to cast this spell. Scry [SCRY_N].",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target {COG_DESC} from your graveyard to the battlefield. If {X} or more colors of mana were spent to cast this spell, create a 1/1 colorless Myr artifact creature token.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy all artifacts. For each artifact destroyed this way, you gain 1 life.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have vigilance as long as you control three or more colors of permanents.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Sunburst (This enters with a charge counter on it for each color of mana spent to cast it.) Remove a charge counter from {this}: Prevent the next 1 damage that would be dealt to any target this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.) {T}, Remove a charge counter from {this}: You gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Equipment — Equipped creature has vigilance. Equip {EQUIP_COST}.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying. Sunburst.",
+          5,
+          2,
+          6
+        ],
+        [
+          "When {this} enters, draw a card for each color of mana spent to cast it, then discard that many cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{U}: Return target {COG_DESC} from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, scry 1.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}, where X is the number of colors among permanents you control. Scry [SCRY_N].",
+          5,
+          1,
+          4
+        ],
+        [
+          "Tap up to two target permanents. Scry [SCRY_N].",
+          3,
+          1,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If {X} or more colors of mana were spent to cast this spell, draw a card. Scry [SCRY_N].",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw X cards, where X is the number of colors among permanents you control. Scry [SCRY_N].",
+          3,
+          3,
+          6
+        ],
+        [
+          "Search your library for an artifact card with mana value 1, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Sunburst. {T}: Add one mana of any color among colors of counters on {this}.",
+          4,
+          1,
+          3
+        ],
+        [
+          "{T}, Sacrifice {this}: Draw a card. If {X} or more colors of mana were spent to cast {this}, scry [SCRY_N].",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you scry, you may tap or untap target artifact or creature.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace. Sunburst.",
+          4,
+          2,
+          6
+        ],
+        [
+          "When {this} enters, target opponent loses X life and you gain X life, where X is the number of colors of mana spent to cast it.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{B}, Sacrifice an artifact: Target creature gets -2/-2 until end of turn.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn, where X is the number of colors among permanents you control. Scry [SCRY_N].",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature or planeswalker. If {X} or more colors of mana were spent to cast this spell, exile it instead. Scry [SCRY_N].",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target {COG_DESC} from your graveyard to the battlefield tapped. Scry [SCRY_N].",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature. If three or more colors of mana were spent to cast this spell, each opponent sacrifices an artifact as well.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target creature card with mana value X or less from your graveyard to the battlefield, where X is the number of colors among permanents you control.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, you lose 1 life and draw a card if you control three or more colors of permanents.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Sunburst. When {this} enters, you may return target creature card with mana value X or less from your graveyard to your hand, where X is the number of counters on {this}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. Sunburst.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{R}, Sacrifice an artifact: {this} deals 2 damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, {this} gets +1/+0 until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "{this} deals X damage to any target, where X is the number of colors among permanents you control. Scry [SCRY_N].",
+          5,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact. If {X} or more colors of mana were spent to cast this spell, {this} deals 2 damage to that artifact's controller. Scry [SCRY_N].",
+          3,
+          1,
+          4
+        ],
+        [
+          "Gain control of target artifact until end of turn. Untap it. It gains haste until end of turn. Scry [SCRY_N].",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create X 1/1 colorless Thopter artifact creature tokens with flying, where X is the number of colors among permanents you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Until end of turn, creatures you control gain \"{T}: This creature deals 1 damage to any target.\" If you control three or more colors of permanents, they also gain first strike.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Sunburst. {T}, Remove a charge counter from {this}: Add {R} or {2}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +2/+0 and has haste. Equip {EQUIP_COST}.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, {STATION_VERB} target artifact. If it's a Station, untap each other Station you control.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. Sunburst.",
+          5,
+          2,
+          6
+        ],
+        [
+          "When {this} enters, distribute X +1/+1 counters among up to X target creatures you control, where X is the number of colors of mana spent to cast it.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{G}, Sacrifice {this}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn, where X is the number of colors among permanents you control. Scry [SCRY_N].",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. Scry [SCRY_N]. If three or more colors of mana were spent to cast this spell, draw a card.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to X basic land cards with different names, where X is the number of colors among permanents you control, put them onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create an X/X green Beast creature token, where X is the number of colors of mana spent to cast this spell.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Sunburst. When {this} enters, put a +1/+1 counter on up to X target creatures, where X is the number of counters on {this}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 as long as you control three or more colors of permanents.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}, Sacrifice {this}: Draw a card.",
+          5,
+          1,
+          2
+        ],
+        [
+          "{1}, {T}, Sacrifice {this}: Add two mana of different colors. Spend this mana only to cast artifact spells.",
+          3,
+          1,
+          2
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Sunburst. {T}: Move a charge counter from target permanent you control to another target permanent you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Sunburst. {T}, Remove a charge counter from {this}: Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{3}, {T}, Sacrifice {this}: Search your library for an artifact card with mana value 1, put it onto the battlefield, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Blasting Station — {T}, Sacrifice a creature: {this} deals 1 damage to any target. Whenever a creature enters the battlefield, you may untap {this}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Summoning Station — {T}: Create a 2/2 colorless Pincher artifact creature token. Whenever an artifact is put into a graveyard from the battlefield, you may untap {this}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Salvaging Station — {T}: Return target {COG_DESC} from your graveyard to the battlefield. Whenever a creature dies, you may untap {this}.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Grinding Station — {T}, Sacrifice an artifact: Target player mills three cards. Whenever an artifact enters the battlefield, you may untap {this}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Phyrexian Altar — {T}, Sacrifice an artifact: Add one mana of any color.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Sunburst. {T}, Remove a +1/+1 counter from {this}: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Sunburst. When {this} has no counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Sunburst. {T}, Remove a charge counter from {this}: Add one mana of any color.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Construct — Sunburst.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Golem — Sunburst. {T}, Remove a +1/+1 counter from {this}: Target creature gains protection from [C] until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Myr — {T}: Add one mana of any color. Activate only if you control a permanent of each of two different colors.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 4/4 colorless Golem artifact creature token, then {BEACON_EFFECT_END}",
+          2,
+          4,
+          6
+        ],
+        [
+          "Target player shuffles their graveyard into their library, then draw a card. {BEACON_EFFECT_END}",
+          1,
+          4,
+          6
+        ],
+        [
+          "Target player gains 5 life and you may put a +1/+1 counter on up to each of X target creatures, where X is the number of colors among permanents you control. {BEACON_EFFECT_END}",
+          1,
+          4,
+          6
+        ],
+        [
+          "{this} deals 5 damage to any target and 5 damage to that permanent's or player's controller. {BEACON_EFFECT_END}",
+          1,
+          4,
+          6
+        ],
+        [
+          "Return target artifact or creature card from your graveyard to the battlefield. {BEACON_EFFECT_END}",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Domain of Colors — As long as you control permanents of three or more colors, artifact spells you cast cost {1} less to cast.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Sunburst. Remove a charge counter from {this}: Untap target artifact.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — • Untap target artifact. • Counter target activated or triggered ability from an artifact source. • Scry [SCRY_N].",
+          3,
+          1,
+          6
+        ]
+      ]
+    }
+  }
+}

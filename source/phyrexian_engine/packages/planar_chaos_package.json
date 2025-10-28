@@ -1,0 +1,1199 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Enchantment": [
+        [
+          "Vanishing {X} (This enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo {C}",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures can't attack you unless their controller pays {X} for each creature they control that's attacking you.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{SLIVER_LINE}",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Vanishing {X} (This creature enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, {THIS} gets +{X}/+{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Suspend {X}\u2014{C}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo {C} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {C}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow.)",
+          3,
+          2,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {THIS} deals combat damage to a player, that player discards a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Kicker {C}. {WHEN_ETB} if it was kicked, put {N} +1/+1 counters on it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Morph {C} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "When {THIS} is turned face up, {TURNFACE_EFFECT}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Sliver creatures you control have {KEYWORD}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{C}, {T}: Search your library for a Rebel permanent card with mana value {X} or less, put it onto the battlefield, then shuffle.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of each player's upkeep, that player sacrifices a creature unless they pay {C}.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {X}\u2014{C}. (Rather than cast this card from your hand, you may pay {C} and exile it with {X} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "Kicker {C}. If this spell was kicked, {THIS_EFFECT_PLUS}.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{THIS} deals {N} damage to target nonwhite creature.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Create {N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s). Suspend {X}\u2014{C}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target spell gains suspend {X}. Its controller may exile it with {X} time counters on it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nCounter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Buyback {C}. Prevent the next {N} damage that would be dealt to any target this turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Counter target spell that targets a permanent you control.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking or blocking red or black creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target permanent gains shroud until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose one \u2014\n\u2022 Add a time counter to target permanent or suspended card;\n\u2022 Remove a time counter from target permanent or suspended card.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has '{ACTIVATED_COST} {ACTIVATED_EFFECT}'",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen {THIS} is put into a graveyard from the battlefield, return {THIS} to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Enchantment": [
+        [
+          "Vanishing {X} (This enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo {C}",
+          1,
+          3,
+          6
+        ],
+        [
+          "{SLIVER_LINE}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Red spells you cast cost {1} less to cast.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have shroud.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Vanishing {X} (This creature enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, {THIS} gets +{X}/+{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Suspend {X}\u2014{C}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo {C} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {C}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow.)",
+          3,
+          2,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {THIS} deals combat damage to a player, that player discards a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Kicker {C}. {WHEN_ETB} if it was kicked, put {N} +1/+1 counters on it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Madness {C}",
+          2,
+          2,
+          5
+        ],
+        [
+          "Morph {C} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "When {THIS} is turned face up, {TURNFACE_EFFECT}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Sliver creatures you control have {KEYWORD}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}: Target player puts the top {N} cards of their library into their graveyard.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {X}\u2014{C}. (Rather than cast this card from your hand, you may pay {C} and exile it with {X} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "Kicker {C}. If this spell was kicked, {THIS_EFFECT_PLUS}.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Create {N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s). Suspend {X}\u2014{C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures with shadow you control get +{X}/+{X} until end of turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target spell gains suspend {X}. Its controller may exile it with {X} time counters on it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nCounter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Madness {C} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n{THIS_EFFECT}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Buyback {C}. Counter target spell unless its controller pays {X}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Target creature gets +{X}/-{X} until end of turn;\n\u2022 Target creature gains islandwalk until end of turn;\n\u2022 Target player discards a card.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Return target creature to its owner's hand. Its controller discards a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Add a time counter to target permanent or suspended card;\n\u2022 Remove a time counter from target permanent or suspended card.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has '{ACTIVATED_COST} {ACTIVATED_EFFECT}'",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen {THIS} is put into a graveyard from the battlefield, return {THIS} to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "B": {
+      "Enchantment": [
+        [
+          "Vanishing {X} (This enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo {C}",
+          1,
+          3,
+          6
+        ],
+        [
+          "{SLIVER_LINE}",
+          1,
+          2,
+          6
+        ],
+        [
+          "White creatures get -{X}/-{X}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Vanishing {X} (This creature enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, {THIS} gets +{X}/+{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Suspend {X}\u2014{C}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo {C} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {C}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Flanking (Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "Shadow (This creature can block or be blocked only by creatures with shadow.)",
+          3,
+          2,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} {THIS} deals combat damage to a player, that player discards a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Kicker {C}. {WHEN_ETB} if it was kicked, put {N} +1/+1 counters on it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Madness {C}",
+          2,
+          2,
+          5
+        ],
+        [
+          "Morph {C} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "When {THIS} is turned face up, {TURNFACE_EFFECT}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Sliver creatures you control have {KEYWORD}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}: Add {B} for each Swamp you control.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {X}\u2014{C}. (Rather than cast this card from your hand, you may pay {C} and exile it with {X} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "Kicker {C}. If this spell was kicked, {THIS_EFFECT_PLUS}.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Buyback {C}. Target player discards {N} card(s).",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy target enchantment. You lose {X} life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create {N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s). Suspend {X}\u2014{C}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target spell gains suspend {X}. Its controller may exile it with {X} time counters on it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nDestroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Madness {C} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n{THIS_EFFECT}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X} life.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Change the target of target spell with a single target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target creature gains shadow until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose one \u2014\n\u2022 Add a time counter to target permanent or suspended card;\n\u2022 Remove a time counter from target permanent or suspended card.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has '{ACTIVATED_COST} {ACTIVATED_EFFECT}'",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen {THIS} is put into a graveyard from the battlefield, return {THIS} to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Enchantment": [
+        [
+          "Vanishing {X} (This enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo {C}",
+          1,
+          3,
+          6
+        ],
+        [
+          "{SLIVER_LINE}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Blue creatures can't block red creatures.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Vanishing {X} (This creature enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, {THIS} gets +{X}/+{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Suspend {X}\u2014{C}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo {C} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {C}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Kicker {C}. {WHEN_ETB} if it was kicked, put {N} +1/+1 counters on it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Madness {C}",
+          2,
+          2,
+          5
+        ],
+        [
+          "Morph {C} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "When {THIS} is turned face up, {TURNFACE_EFFECT}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "When {THIS} enters the battlefield, return target creature to its owner's hand. Echo {C}.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver creatures you control have {KEYWORD}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{3}, {T}: {THIS} deals {N} damage to target attacking or blocking creature.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {X}\u2014{C}. (Rather than cast this card from your hand, you may pay {C} and exile it with {X} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "Kicker {C}. If this spell was kicked, {THIS_EFFECT_PLUS}.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Create {N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s). Suspend {X}\u2014{C}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target spell gains suspend {X}. Its controller may exile it with {X} time counters on it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nCounter target activated or triggered ability.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nDestroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Madness {C} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)\n{THIS_EFFECT}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Buyback {C}. {THIS} deals {N} damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Counter target blue spell unless its controller pays {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Gain control of target permanent until end of turn. Untap it. It gains haste. Suspend {X}\u2014{C}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Choose one \u2014\n\u2022 Add a time counter to target permanent or suspended card;\n\u2022 Remove a time counter from target permanent or suspended card.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has '{ACTIVATED_COST} {ACTIVATED_EFFECT}'",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen {THIS} is put into a graveyard from the battlefield, return {THIS} to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "G": {
+      "Enchantment": [
+        [
+          "Vanishing {X} (This enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Echo {C}",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have shroud as long as they have a +1/+1 counter on them.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{SLIVER_LINE}",
+          1,
+          2,
+          6
+        ],
+        [
+          "Artifacts your opponents control enter the battlefield tapped.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Vanishing {X} (This creature enters with {X} time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, {THIS} gets +{X}/+{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you remove a time counter from {THIS}, draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Suspend {X}\u2014{C}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Echo {C} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay {C}.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Kicker {C}. {WHEN_ETB} if it was kicked, put {N} +1/+1 counters on it.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Morph {C} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "When {THIS} is turned face up, {TURNFACE_EFFECT}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Sliver creatures you control have {KEYWORD}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}: Add {G} for each creature you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Shroud (This creature can't be the target of spells or abilities.)",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Suspend {X}\u2014{C}. (Rather than cast this card from your hand, you may pay {C} and exile it with {X} time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)",
+          3,
+          3,
+          7
+        ],
+        [
+          "Kicker {C}. If this spell was kicked, {THIS_EFFECT_PLUS}.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Buyback {C}. Put {N} +1/+1 counters on target creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Draw three cards.",
+          5,
+          4,
+          6
+        ],
+        [
+          "Create {N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token(s). Suspend {X}\u2014{C}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target spell gains suspend {X}. Its controller may exile it with {X} time counters on it.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Split second (As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)\nDestroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one \u2014\n\u2022 Add a time counter to target permanent or suspended card;\n\u2022 Remove a time counter from target permanent or suspended card.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has '{ACTIVATED_COST} {ACTIVATED_EFFECT}'",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nWhen {THIS} is put into a graveyard from the battlefield, return {THIS} to its owner's hand.",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "C": {}
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Rebel",
+      "Cleric",
+      "Soldier",
+      "Pegasus",
+      "Cat",
+      "Monk",
+      "Kor"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Illusion",
+      "Shapeshifter",
+      "Drake",
+      "Faerie",
+      "Homunculus",
+      "Serpent"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Shade",
+      "Assassin",
+      "Imp",
+      "Horror",
+      "Graveborn",
+      "Human"
+    ],
+    "R": [
+      "Goblin",
+      "Warrior",
+      "Elemental",
+      "Shaman",
+      "Efreet",
+      "Barbarian",
+      "Viashino",
+      "Dragon"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Spider",
+      "Beast",
+      "Wurm",
+      "Treefolk",
+      "Cat",
+      "Human"
+    ],
+    "any": [
+      "Sliver",
+      "Slith",
+      "Gargoyle",
+      "Golem",
+      "Spirit",
+      "Avatar"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of combat on your turn,",
+      "Whenever you cast a spell,",
+      "When {THIS} enters the battlefield,",
+      "When {THIS} dies,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "PERMANENT_TYPE": [
+      "creature",
+      "artifact",
+      "enchantment",
+      "land",
+      "planeswalker",
+      "nonland permanent"
+    ],
+    "SPELL_TYPE": [
+      "instant or sorcery spell",
+      "noncreature spell",
+      "creature spell"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "X": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "C": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Sliver",
+      "Rebel",
+      "Saproling",
+      "Soldier",
+      "Knight",
+      "Goblin",
+      "Drake",
+      "Zombie",
+      "Beast",
+      "Illusion"
+    ],
+    "SLIVER_LINE": [
+      "Sliver creatures you control get +{X}/+{X}.",
+      "All Slivers have haste.",
+      "All Slivers have deathtouch.",
+      "All Slivers have absorb {X}.",
+      "All Slivers have flanking."
+    ],
+    "CHARM_MODE_INTRO": [
+      "\u2022",
+      "\u2014",
+      "\u2014"
+    ],
+    "ZONE": [
+      "graveyard",
+      "hand",
+      "library",
+      "battlefield",
+      "exile"
+    ],
+    "WHEN_ETB": [
+      "When {THIS} enters the battlefield,",
+      "When {THIS} enters the battlefield,",
+      ""
+    ],
+    "THIS_EFFECT_PLUS": [
+      "create two {TOKEN_COLOR} {TOKEN_SUBTYPE} creature tokens",
+      "draw {N} cards",
+      "destroy up to {N} target artifact(s)",
+      "search your library for a basic land card, put it onto the battlefield tapped, then shuffle",
+      "counter target spell"
+    ],
+    "TURNFACE_EFFECT": [
+      "counter target spell unless its controller pays {X}",
+      "destroy target artifact or enchantment",
+      "return target creature to its owner's hand",
+      "target creature gets +{X}/+{X} until end of turn",
+      "draw {N} cards"
+    ],
+    "ACTIVATED_COST": [
+      "{C}:",
+      "{C}, {T}:",
+      "{2}, {T}:",
+      "{T}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains first strike until end of turn.",
+      "Target creature gets +{X}/+{X} until end of turn.",
+      "Add {W}{U}{B}{R}{G}.",
+      "Exile target card from a graveyard.",
+      "Each opponent loses 1 life and you gain 1 life."
+    ],
+    "KEYWORD": [
+      "flying",
+      "first strike",
+      "deathtouch",
+      "absorb {X}",
+      "flanking",
+      "shroud",
+      "haste",
+      "trample",
+      "menace"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "flanking",
+      "absorb {X}"
+    ],
+    "U": [
+      "shroud",
+      "vanishing {X}",
+      "shadow"
+    ],
+    "B": [
+      "madness {C}",
+      "fear",
+      "shadow"
+    ],
+    "R": [
+      "echo {C}",
+      "haste",
+      "frenzy {X}"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "shroud"
+    ],
+    "C": [
+      "devoid"
+    ]
+  }
+}

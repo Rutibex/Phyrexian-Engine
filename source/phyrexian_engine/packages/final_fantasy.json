@@ -1,0 +1,784 @@
+{
+  "name": "final_fantasy",
+  "version": "1.0.0",
+  "updated": "2025-10-27",
+  "description": "A large Final Fantasy-themed package of rules-text templates and ad-lib pools for the mtg_set_gen system. Includes Summons-like saga creatures, Job Select, Towns, Tiered spells, Jump, Darkness/Protect, Limit Breaks, Equipment and Materia hooks, and Sidequest-flavored effects. Designed to be thematically rich without requiring DFCs.",
+  "pools": {
+    "JOB": [
+      "Warrior",
+      "Knight",
+      "Monk",
+      "Thief",
+      "Dragoon",
+      "Black Mage",
+      "White Mage",
+      "Red Mage",
+      "Blue Mage",
+      "Summoner",
+      "Time Mage",
+      "Ninja",
+      "Paladin",
+      "Dark Knight",
+      "Samurai",
+      "Bard",
+      "Dancer",
+      "Geomancer",
+      "Machinist",
+      "Gunbreaker",
+      "Sage",
+      "Scholar",
+      "Astrologian",
+      "Beastmaster"
+    ],
+    "ESPER": [
+      "Ifrit",
+      "Shiva",
+      "Ramuh",
+      "Titan",
+      "Leviathan",
+      "Bahamut",
+      "Odin",
+      "Alexander",
+      "Phoenix",
+      "Diabolos",
+      "Carbuncle",
+      "Valefor",
+      "Garuda",
+      "Quetzalcoatl",
+      "Zalera",
+      "Mateus",
+      "Cúchulainn",
+      "Belias"
+    ],
+    "WEAPON": [
+      "Buster Sword",
+      "Masamune",
+      "Excalibur",
+      "Ultima Weapon",
+      "Gunblade",
+      "Zantetsuken",
+      "Gungnir",
+      "Butterfly Edge",
+      "Crystal Sword",
+      "Save the Queen"
+    ],
+    "PLACE": [
+      "Narshe",
+      "Midgar",
+      "Balamb Garden",
+      "Alexandria",
+      "Besaid",
+      "Rabanastre",
+      "Eorzea",
+      "Gridania",
+      "Limsa Lominsa",
+      "Ul'dah",
+      "Nibelheim",
+      "Cosmo Canyon",
+      "Lindblum",
+      "Gold Saucer"
+    ],
+    "MATERIA": [
+      "Fire",
+      "Ice",
+      "Bolt",
+      "Cure",
+      "Barrier",
+      "Time",
+      "Gravity",
+      "Poison",
+      "Wind",
+      "Earth",
+      "Water",
+      "Ultima",
+      "Comet"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Mooglet",
+      "Chocobo",
+      "Tonberry",
+      "Cactuar",
+      "Avalanche",
+      "SeeD",
+      "Shinra",
+      "Magitek",
+      "Moogle",
+      "Turtle",
+      "Goblin",
+      "Witch",
+      "Bandit",
+      "Engineer",
+      "Monk",
+      "Samurai",
+      "Ninja"
+    ],
+    "CREATURE_SUBTYPE": [
+      "Human",
+      "Moogle",
+      "Chocobo",
+      "Tonberry",
+      "Cactuar",
+      "Soldier",
+      "Dragoon",
+      "Mage",
+      "Summoner",
+      "Esper",
+      "Eidolon",
+      "Elemental",
+      "Construct",
+      "Spirit",
+      "Beast",
+      "Demon",
+      "Angel",
+      "Turtle",
+      "Goblin"
+    ],
+    "ARTIFACT_NAME": [
+      "Airship",
+      "Magitek Armor",
+      "Materia Blade",
+      "Automaton",
+      "Clockwork Moomba",
+      "Pocket Chocobo",
+      "Gunblade Frame",
+      "Sphere Grid Node",
+      "Relic Ring",
+      "Mythril Engine"
+    ],
+    "COUNTER_NAME": [
+      "limit",
+      "charge",
+      "job",
+      "quest",
+      "materia",
+      "time",
+      "ice",
+      "fire",
+      "lightning",
+      "dark"
+    ],
+    "QUEST": [
+      "Rescue the princess",
+      "Fix the airship",
+      "Defeat the Weapon",
+      "Seize the crystal",
+      "Stop the empire",
+      "Find the lost esper",
+      "Scale the tower",
+      "Traverse the desert",
+      "Guard the caravan",
+      "Protect the village"
+    ],
+    "TOWN_ACTION": [
+      "rest at the inn",
+      "shop for gear",
+      "hear rumors",
+      "accept a hunt",
+      "hire a guide",
+      "challenge the coliseum",
+      "pray at the shrine",
+      "upgrade materia",
+      "visit the tavern",
+      "repair the airship"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance.\nAs this enters, choose a job — [JOB]. It gets an additional ability based on the chosen job.\n• Warrior — This gets +{X}/+{X}.\n• White Mage — Whenever another creature you control would be dealt damage, prevent {X} of that damage.\n• Knight — Other creatures you control get +1/+1.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Protect — At the beginning of combat on your turn, up to {X} target creatures you control gain indestructible until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "When this enters the battlefield, create a 1/1 white [TOKEN_SUBTYPE] creature token, then choose a job — [JOB]. Creatures you control with that job get +1/+1.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Summoner’s Aegis — When this enters, if you spent {MV} or more mana to cast it, create a 2/2 white Esper token with \"Sacrifice this: Prevent all damage that would be dealt to target creature or planeswalker this turn.\"",
+          2,
+          2,
+          5
+        ],
+        [
+          "Limit — If you gained {X} or more life this turn, this enters with two +1/+1 counters and has lifelink.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Town Guard — Whenever a Land with \"Town\" in its name enters the battlefield under your control, tap up to one target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Cast this spell only during combat.\nPrevent all damage that would be dealt this turn.\nTiered — If at least {X} mana was spent to cast this, also create {N} 1/1 white [TOKEN_SUBTYPE] creature tokens.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Choose one —\n• Cure {N} — You gain {N} life.\n• Esuna — Remove up to {X} counters from target permanent.\n• Protect — Target creature gets +{X}/+{X} and gains vigilance until end of turn.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Counter target spell that targets a permanent you control.\nIf a [JOB] you control was targeted this turn, draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Town — Create a colorless Town token with \"When this land enters the battlefield, you may [TOWN_ACTION].\" Then you gain {N} life.\nIf {MV} or more mana was spent to cast this, create two of those tokens instead.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return up to one target creature card with mana value {X} or less from your graveyard to the battlefield. It gains \"If this would leave the battlefield, exile it instead of putting it anywhere else.\"",
+          3,
+          1,
+          4
+        ],
+        [
+          "Search your library for an Equipment card, reveal it, put it into your hand, then shuffle. If you control an equipped creature, you may put that Equipment onto the battlefield instead.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature.\nEnchanted creature has \"Prevent the next {X} damage that would be dealt to this creature each turn.\"",
+          3,
+          1,
+          4
+        ],
+        [
+          "Saga of the Crystal — (At your precombat main phase, add a lore counter.)\nI — Create a 1/1 white [TOKEN_SUBTYPE] token.\nII — Creatures you control get +1/+1 until end of turn.\nIII — Exile this, then return it to the battlefield as a {X}/{X} white Esper creature token with flying.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Equipment you control have \"Equipped creature has vigilance.\" and \"Whenever this becomes attached, draw a card.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "[ARTIFACT_NAME]\nEquipment — Equipped creature gets +{X}/+{X} and has vigilance.\nMateria — When this enters, choose a color. Equipped creature is the chosen color in addition to its other colors.\nEquip {N}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Airship — Vehicles you control have crew 1 and \"Whenever this becomes crewed, scry 1.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Aura — Enchant creature you control.\nWhen this Aura enters, choose a job — [JOB]. Enchanted creature has the chosen job and gets a +1/+1 counter.\nAs long as it has two or more jobs, it has indestructible.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}.\nJob Select — As this becomes attached, choose [JOB]. Equipped creature has the chosen job and gains vigilance.\nEquip {N}.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever you cast a noncreature spell, put a quest counter on this. Then if there are three or more quest counters on it, draw a card and remove all quest counters from it.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Blue Mage — Whenever an instant or sorcery spell an opponent controls targets you or a permanent you control, you may copy that spell. You may choose new targets for the copy.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Jump {N} — {N}: Exile this creature. Return it to the battlefield tapped and attacking at the beginning of the next combat. When it returns, it deals {X} damage to up to one target creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this enters the battlefield, choose a job — [JOB].\n• Time Mage — At the beginning of each opponent’s upkeep, you may tap target permanent that player controls.\n• Scholar — Spells you cast with mana value {X} or less cost {1} less to cast.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.\nTiered — If {MV} was {3} or more, scry 2. If it was {5} or more, draw a card.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Return up to {X} target nonland permanents to their owners’ hands. Then investigate.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Choose one —\n• Slow — Tap up to {X} target permanents. They don't untap during their controllers' next untap steps.\n• Hastega — Untap up to {X} target creatures. They gain hexproof until end of turn.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top {X} cards of your library. Put up to one card into your hand and the rest into your graveyard. If {MV} was {5} or more, instead put two into your hand.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Search your library for a card named [ARTIFACT_NAME], reveal it, put it onto the battlefield tapped, then shuffle.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Town — When this enchantment enters the battlefield, create a colorless Town land token with \"{T}: Add {U}.\" and \"{2}, {T}: Draw a card, then discard a card.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Sidequest — Whenever you cast your second spell each turn, put a quest counter on this. Then if there are three or more quest counters on it, exile the top three cards of your library. Until the end of your next turn, you may play those cards.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "[ARTIFACT_NAME]\nWhen this enters the battlefield, put a charge counter on each of up to {X} target artifacts you control.\nRemove three charge counters from among artifacts you control: Draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Materia Matrix — {1}, {T}: Add one mana of any color. Whenever you spend this mana to cast an instant or sorcery spell, copy that spell.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Aura — Enchant creature.\nEnchanted creature has \"Whenever this deals combat damage to a player, investigate.\" and \"{U}: Phase out this creature.\"",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has \"{U}: This creature phases out.\"\nMateria — When this becomes attached, choose [MATERIA]. Spells of that name you cast cost {1} less to cast.\nEquip {N}.",
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Dark Knight — As this enters the battlefield, you may pay {X} life. It enters with that many +1/+1 counters.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Whenever a creature you control dies, each opponent loses 1 life and you scry 1.\nLimit — If {X} or more creatures died this turn, create a 4/4 black [CREATURE_SUBTYPE] creature token with menace.",
+          3,
+          1,
+          4
+        ],
+        [
+          "When this enters, choose a job — [JOB].\n• Ninja — Whenever this becomes blocked, defending player loses {X} life.\n• Summoner — When you cast your next sorcery spell this turn, copy it.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Jump Scythe — {N}: Exile this creature. Return it to the battlefield at the beginning of the next end step. When it returns, each opponent sacrifices a creature.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one —\n• Darkness — Target creature gets +{X}/+{X} and gains lifelink until end of turn. You lose {N} life.\n• Doom — Destroy target creature with mana value {X} or less.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Target player discards {N} cards. If {MV} was {5} or more, instead that player discards two cards at random.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If that card is named [ESPER], you may return it to the battlefield instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Tiered — Choose one or more. If {MV} was {3}+ choose two. If {5}+ choose three —\n• Each opponent loses {N} life and you gain {N} life.\n• Destroy target creature with power {X} or less.\n• Create a tapped 2/2 black [TOKEN_SUBTYPE] creature token with deathtouch.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Reanimate target creature card with mana value {X} or less from a graveyard. It gains \"If this creature would die, exile it instead.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sidequest — Whenever a creature an opponent controls dies, put a quest counter on this.\nRemove three quest counters: Create a Treasure token and draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Job Board — As this enters, choose a job — [JOB]. Spells you cast of the chosen job cost {1} less to cast. Whenever a creature of the chosen job dies, each opponent loses 1 life.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Zantetsuken — Equipment\nEquipped creature gets +{X}/+0 and has deathtouch and \"Whenever this deals combat damage to a player, that player sacrifices a creature.\"\nEquip {N}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Materia — When this enters, you may put a materia counter on target creature. Creatures you control with materia counters have \"{1}, Remove a materia counter from this creature: Draw a card, then lose 1 life.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Aura — Enchant creature an opponent controls.\nAt the beginning of enchanted creature’s controller’s upkeep, that player loses 1 life and discards a card unless they sacrifice that creature.",
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste.\nLimit — If you dealt {X} or more combat damage to players this turn, this enters the battlefield with two +1/+1 counters and has first strike.",
+          3,
+          1,
+          4
+        ],
+        [
+          "When this enters the battlefield, choose a job — [JOB].\n• Dragoon — It has \"Jump {N} — {N}: Exile this creature. Return it to the battlefield tapped and attacking at the beginning of the next combat. When it returns, it deals {X} damage to any target.\"\n• Monk — Whenever this attacks, it deals {N} damage to target creature defending player controls.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a spell with mana value {X} or greater, this deals {N} damage to any target.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one —\n• Fire — This deals {N} damage to any target.\n• Fira — This deals {N} damage divided as you choose among up to {X} targets.\n• Firaga — This deals {N} damage to each of up to {X} targets. Tiered — If {MV} was {5}+ it also deals {N} to each creature.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Target attacking creature gets +{X}/+0 and gains trample until end of turn. Create a Treasure token.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Supernova — If you cast this during your postcombat main phase and you attacked with three or more creatures this turn, this deals {N} damage to each opponent and each planeswalker they control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a {X}/{X} red [TOKEN_SUBTYPE] creature token with haste. Sacrifice it at the beginning of the next end step.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or land. If {MV} was {5} or more, destroy both.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Town — Create a colorless Town land token with \"{T}: Add {R}.\" and \"{1}, {T}, Sacrifice this: It deals {N} damage to any target.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sidequest — Whenever you attack with two or more creatures, put a quest counter on this. Remove three quest counters: Create a Treasure token and this deals {N} damage to any target.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Job Board — As this enters, choose a job — [JOB]. Creatures you control of the chosen job get +1/+0 and have haste.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Gunblade Frame — Equipment\nEquipped creature gets +{X}/+0 and has \"Whenever this attacks, you may sacrifice an artifact. If you do, this deals {N} damage to any target.\"\nEquip {N}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Magitek Armor — Vehicle\nWhenever this becomes crewed, create a 1/1 colorless Construct artifact creature token. Crew 2.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Aura — Enchant creature.\nEnchanted creature gets +{X}/+0 and has \"Whenever this creature attacks, it deals {N} damage to any target.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has first strike.\nMateria — When this becomes attached, choose [MATERIA]. Whenever you cast a spell with that name, this deals {N} damage to any target.\nEquip {N}.",
+          2,
+          1,
+          4
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample.\nWhenever a land enters the battlefield under your control, put a +1/+1 counter on this.\nChocobo Handler — Whenever a land enters under your control, you may have up to one target creature you control gain vigilance until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "When this enters the battlefield, choose a job — [JOB].\n• Beastmaster — When this enters, create a 2/2 green Beast creature token.\n• Geomancer — Landfall — Whenever a land enters under your control, this gains your choice of reach or trample until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Limit — If you control a creature with power {X} or greater, this enters with two +1/+1 counters and has hexproof as long as it has a +1/+1 counter on it.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one —\n• Protect — Target creature gets +{X}/+{X} until end of turn.\n• Shell — Prevent the next {N} damage that would be dealt to any target this turn.\n• Hastega — Untap all creatures you control. They gain trample until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Target creature you control fights up to one target creature you don’t control. If you controlled a creature with power {X} or greater, draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle. If {MV} was {5} or more, also create a 3/3 green [TOKEN_SUBTYPE] creature token.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Town — Create a colorless Town land token with \"{T}: Add {G}.\" and \"Creatures you control get +1/+1 as long as you completed a sidequest this turn.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Sidequest — Whenever a land enters the battlefield under your control, put a quest counter on this. Remove three quest counters: Create a Food token and a 3/3 green [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Bonded Materia — Whenever an Equipment becomes attached to a creature you control, put a +1/+1 counter on that creature and you gain 1 life.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Gysahl Greens — Whenever one or more creatures you control attack, you may pay {1}. If you do, create a 1/1 green Chocobo creature token tapped and attacking.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Sphere Grid Node — {2}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Aura — Enchant land you control.\nEnchanted land has \"{T}: Add two mana of any one color. Spend this mana only to cast creature spells.\" and \"{G}, {T}: Create a 3/3 green Beast creature token.\"",
+          2,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "colorless": {
+    "Artifact": [
+      [
+        "[ARTIFACT_NAME]\nWhen this enters the battlefield, put a charge counter on it for each different job among creatures you control.\n{T}, Remove a charge counter from this: Add one mana of any color.",
+        2,
+        1,
+        4
+      ],
+      [
+        "Airship — Vehicle\nFlying\nWhenever this attacks, exile up to one target nonland permanent. Return it to the battlefield under its owner's control at the beginning of the next end step.\nCrew 3.",
+        2,
+        2,
+        5
+      ],
+      [
+        "Materia Forge — {2}, {T}: Put a materia counter on target creature or Equipment you control.\nCreatures and Equipment you control with materia counters have \"{1}: Add one mana of any color.\"",
+        2,
+        1,
+        4
+      ]
+    ],
+    "Enchantment": [
+      [
+        "Summon — [ESPER]\nAs this enchantment enters, it becomes a 0/0 black and colored Esper creature with flying in addition to its other types.\nIt enters the battlefield with {X} lore counters on it.\nI — This deals {N} damage to any target.\nII — Create a 2/2 Elemental creature token.\nIII — Sacrifice this.",
+        3,
+        2,
+        5
+      ],
+      [
+        "Limit Break — At the beginning of combat on your turn, if you dealt {X} or more noncombat damage this turn, put a +1/+1 counter on each creature you control. Then if you put five or more counters on creatures this way, draw a card.",
+        2,
+        2,
+        5
+      ],
+      [
+        "Tiered — As you cast this spell, you may pay an additional {3} any number of times. For each time you did, choose one —\n• Create a Treasure token.\n• Create a tapped 2/2 colorless Construct artifact creature token.\n• Draw a card, then discard a card.",
+        2,
+        2,
+        5
+      ]
+    ],
+    "Sorcery": [
+      [
+        "Ultima — This spell costs {1} less to cast for each different job among creatures you control.\nIt deals {N} damage to each creature and each planeswalker.",
+        2,
+        2,
+        5
+      ],
+      [
+        "Job Select — Choose up to two —\n• Search your library for a [JOB] creature card and put it into your hand.\n• Put a +1/+1 counter on each creature you control with a job.\n• Until end of turn, creatures you control gain \"{T}: Add one mana of any color.\"",
+        2,
+        1,
+        4
+      ]
+    ],
+    "Land": [
+      [
+        "Town of [PLACE]\nLand — Town\n{T}: Add {C}.\n{1}, {T}: Put a quest counter on target enchantment or creature you control. Activate only as a sorcery.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Gold Saucer\nLand — Town\n{T}: Add one mana of any color.\n{3}, {T}: Draw a card, then discard a card. If you discarded a creature card this way, create a Treasure token.",
+        1,
+        1,
+        3
+      ]
+    ]
+  }
+}

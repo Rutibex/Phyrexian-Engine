@@ -1,0 +1,648 @@
+{
+  "package_name": "legions",
+  "package_version": "1.0.0",
+  "package_description": "HUGE Legions-themed package: all-creature vibe, Morph, Amplify, Provoke, tribal synergies (Clerics, Soldiers, Wizards, Elves, Goblins, Zombies, Beasts, Slivers), cycling triggers, and first-ever Double Strike.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{AMPLIFY_INTRO} {ETB_INTRO} creatures you control gain vigilance until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{PROVOKE_LINE} {TRIGGER_INTRO} {TARGET_CREATURE} gets -{X}/-{X} until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{MORPH_INTRO}\n{ETB_INTRO} {CLASS_TRIBAL_BOOST}",
+          6,
+          3,
+          6
+        ],
+        [
+          "{CYCLING_LINE}\n{CYCLE_TRIGGER}",
+          4,
+          2,
+          5
+        ],
+        [
+          "{ETB_INTRO} you gain {X} life and tap up to {X} target creatures an opponent controls.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Other {C} creatures {CREATURE_CONTROLLER} get +{X}/+{X}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Double strike",
+          3,
+          3,
+          6
+        ],
+        [
+          "{ETB_INTRO} exile target tapped creature an opponent controls until {THIS} leaves the battlefield.",
+          3,
+          4,
+          6
+        ],
+        [
+          "{AMPLIFY_INTRO} As long as {THIS} has three or more +1/+1 counters on it, it has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When {THIS} dies, return another target {C} creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Sliver \u2014 {SLIVER_AURA}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{ETB_INTRO} prevent the next {X} damage that would be dealt to any target this turn.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target attacking or blocking creature gets +{X}/+{X} and gains first strike until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature with power {X} or greater.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white {TOKEN_SUBTYPE} creature tokens.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has double strike.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{MORPH_INTRO}\n{ETB_INTRO} draw {X} cards, then discard a card.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ETB_INTRO} tap up to {X} target creatures. They don\u2019t untap during their controller\u2019s next untap step.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{CYCLING_LINE}\n{CYCLE_TRIGGER}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Flash\nWhen {THIS} enters the battlefield, return target creature to its owner\u2019s hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another Wizard, {THIS} has hexproof.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Provoke\n{TRIGGER_INTRO} {TARGET_CREATURE} gets -{X}/0 and loses flying until end of turn.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{AMPLIFY_INTRO} Whenever you reveal a Wizard card as you amplify {THIS}, scry 1.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver \u2014 {SLIVER_AURA}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} draw a card, then discard a card.",
+          3,
+          2,
+          4
+        ],
+        [
+          "{ETB_INTRO} gain control of target creature with mana value {X} or less for as long as you control {THIS}.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell with mana value {X} or less.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gets -{X}/0 and loses flying until end of turn. Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Scry {X}, then draw two cards.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nYou control enchanted creature as long as you control an Island.",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{MORPH_INTRO}\n{ETB_INTRO} destroy target nonblack creature. It can\u2019t be regenerated.",
+          6,
+          4,
+          6
+        ],
+        [
+          "{ETB_INTRO} each opponent loses {X} life and you gain {X} life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{CYCLING_LINE}\n{CYCLE_TRIGGER}",
+          4,
+          2,
+          5
+        ],
+        [
+          "{AMPLIFY_INTRO} Zombies you control have menace as long as {THIS} has three or more +1/+1 counters on it.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Fear (This creature can\u2019t be blocked except by artifact creatures and/or black creatures.)",
+          4,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} you may return target creature card from your graveyard to your hand.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Provoke\nWhenever {THIS} becomes blocked, defending player sacrifices a creature.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Sliver \u2014 {SLIVER_AURA}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{ETB_INTRO} target opponent discards {X} cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When {THIS} dies, return another target {C} creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. You gain {X} life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Exile target card from a graveyard. If it was a creature card, create a 2/2 black Zombie creature token.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield with a -1/-1 counter on it.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature gets +{X}/+{X} and has fear.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste\nDouble strike",
+          6,
+          3,
+          6
+        ],
+        [
+          "{PROVOKE_LINE} When {THIS} becomes blocked, it deals {X} damage divided as you choose among up to {X} targets.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{MORPH_INTRO}\n{ETB_INTRO} {THIS} deals {X} damage to any target.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{CYCLING_LINE}\n{CYCLE_TRIGGER}",
+          4,
+          2,
+          5
+        ],
+        [
+          "{AMPLIFY_INTRO} As long as {THIS} has four or more +1/+1 counters on it, it has trample and haste.",
+          4,
+          4,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another target creature gains double strike until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Sliver \u2014 {SLIVER_AURA}",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, create two 1/1 red Goblin creature tokens.",
+          4,
+          2,
+          4
+        ],
+        [
+          "{ETB_INTRO} exile the top {X} cards of your library. Until end of turn, you may play those cards.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {X} damage to any target.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 red Goblin creature tokens.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature has double strike.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{AMPLIFY_INTRO} Beasts you control get +1/+1 for each +1/+1 counter on {THIS}.",
+          6,
+          4,
+          6
+        ],
+        [
+          "{PROVOKE_LINE} Whenever {THIS} wins a fight in combat, put {X} +1/+1 counters on it.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{MORPH_INTRO}\n{ETB_INTRO} search your library for up to {X} basic land cards, reveal them, put one into your hand and the rest on the bottom of your library in a random order.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{CYCLING_LINE}\n{CYCLE_TRIGGER}",
+          4,
+          3,
+          6
+        ],
+        [
+          "{ETB_INTRO} destroy target artifact or enchantment.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Sliver \u2014 {SLIVER_AURA}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} target creature you control gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "{AMPLIFY_INTRO} As long as {THIS} has three or more +1/+1 counters on it, it has hexproof.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put one into your hand and the rest on the bottom of your library in a random order.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura \u2014 Enchant creature\nEnchanted creature gets +{X}/+{X} and has trample.",
+          2,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Cleric",
+      "Soldier",
+      "Angel",
+      "Cat",
+      "Human",
+      "Bird",
+      "Knight",
+      "Spirit",
+      "Sliver"
+    ],
+    "U": [
+      "Wizard",
+      "Illusion",
+      "Spawn",
+      "Beast",
+      "Bird",
+      "Human",
+      "Cephalid",
+      "Serpent",
+      "Sliver"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Demon",
+      "Human",
+      "Horror",
+      "Shade",
+      "Wraith",
+      "Sliver"
+    ],
+    "R": [
+      "Goblin",
+      "Barbarian",
+      "Beast",
+      "Elemental",
+      "Human",
+      "Shaman",
+      "Sliver",
+      "Raptor"
+    ],
+    "G": [
+      "Elf",
+      "Beast",
+      "Druid",
+      "Insect",
+      "Wurm",
+      "Human",
+      "Spider",
+      "Sliver"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever {THIS} attacks,",
+      "Whenever {THIS} blocks,",
+      "Whenever {THIS} becomes blocked,",
+      "Whenever {THIS} or another {C} creature enters the battlefield under your control,",
+      "At the beginning of combat on your turn,",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "your team controls"
+    ],
+    "TARGET_CREATURE": [
+      "target creature",
+      "target {C} creature",
+      "target tapped creature",
+      "target attacking creature",
+      "target blocking creature"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Cleric",
+      "Wizard",
+      "Elf",
+      "Goblin",
+      "Zombie",
+      "Beast",
+      "Sliver",
+      "Cat",
+      "Saproling",
+      "Bird"
+    ],
+    "MORPH_INTRO": [
+      "Morph {C}{X} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)",
+      "Morph {X}{C}",
+      "Morph {3}{C}"
+    ],
+    "PROVOKE_LINE": [
+      "Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)"
+    ],
+    "AMPLIFY_INTRO": [
+      "Amplify {N} (As this creature enters the battlefield, put {N} +1/+1 counters on it for each creature card you reveal in your hand that shares a creature type with it.)"
+    ],
+    "CYCLING_LINE": [
+      "Cycling {2} ({2}, Discard this card: Draw a card.)",
+      "Cycling {C}",
+      "Cycling {1}{C}"
+    ],
+    "CYCLE_TRIGGER": [
+      "When you cycle {THIS}, {EFFECT}.",
+      "Whenever you cycle {THIS} or another {C} card, {EFFECT}."
+    ],
+    "EFFECT_SMALL_BUFF": [
+      "target creature gets +{X}/+{X} until end of turn",
+      "put a +1/+1 counter on up to {X} target creatures",
+      "scry {X}",
+      "tap up to {X} target creatures",
+      "that creature loses fear and can be blocked by artifact creatures this turn"
+    ],
+    "EFFECT_REMOVAL_LIGHT": [
+      "destroy target creature with power {X} or less",
+      "exile target creature card from a graveyard",
+      "return target creature card with mana value {X} or less from your graveyard to your hand",
+      "deal {X} damage to any target",
+      "that creature can\u2019t block this turn"
+    ],
+    "SLIVER_AURA": [
+      "Sliver creatures you control get +{X}/+{X}.",
+      "Sliver creatures you control have first strike.",
+      "Sliver creatures you control have \u201c{T}: Add {C}.\u201d",
+      "All Slivers have provoke."
+    ],
+    "CLASS_TRIBAL_BOOST": [
+      "{CLASS} creatures you control get +{X}/+{X}.",
+      "Whenever a {CLASS} enters the battlefield under your control, {EFFECT}.",
+      "At the beginning of combat on your turn, target {CLASS} you control gets +{X}/+0 and gains first strike until end of turn."
+    ],
+    "CLASSES": [
+      "Cleric",
+      "Soldier",
+      "Wizard",
+      "Druid",
+      "Shaman",
+      "Barbarian",
+      "Rogue",
+      "Assassin"
+    ],
+    "ETB_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "When {THIS} is turned face up,"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "hexproof from red"
+    ],
+    "B": [
+      "deathtouch",
+      "fear",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "double strike"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from blue"
+    ]
+  }
+}

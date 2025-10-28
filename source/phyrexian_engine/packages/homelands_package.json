@@ -1,0 +1,424 @@
+{
+  "name": "homelands",
+  "description": "A comprehensive content pack inspired by MTG Homelands (1995), covering slowtrip cantrips, tribal themes (Faeries, Minotaurs, Wizards, Vampires), poison counters and removal, world enchantments (Koskun Falls, Mystic Decree), anti-tribal suppression (An-Zerrin Ruins), and set-specific curios (Apocalypse Chime, Didgeridoo, Serrated Arrows).",
+  "string_pools": {
+    "SLOWTRIP": [
+      "Draw a card at the beginning of the next turn's upkeep."
+    ],
+    "PROTECTION_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TRIBES": [
+      "Faerie",
+      "Minotaur",
+      "Wizard",
+      "Vampire",
+      "Merfolk",
+      "Cleric",
+      "Soldier",
+      "Spirit",
+      "Archer"
+    ],
+    "SMALL_NUMBER": [
+      "1",
+      "2"
+    ],
+    "FAERIE_TRICKS": [
+      "Target Faerie gains protection from {PROTECTION_COLOR} until end of turn.",
+      "Create a 1/1 blue Faerie creature token with flying."
+    ],
+    "MINOTAUR_THINGS": [
+      "Minotaurs you control get +1/+0.",
+      "Create a 2/3 red Minotaur creature token."
+    ],
+    "VAMPIRE_STUFF": [
+      "Whenever a creature dealt damage by this creature dies this turn, put a +1/+1 counter on this creature.",
+      "Target creature gets -1/-1 until end of turn."
+    ],
+    "SET_NAME": [
+      "Homelands"
+    ],
+    "ARROW_EFFECT": [
+      "Remove an arrowhead counter from this artifact: Put a -1/-1 counter on target creature."
+    ],
+    "WORLD_RULE": [
+      "(This is a world enchantment. When a world permanent enters the battlefield, if another world permanent is on the battlefield, that permanent's controller sacrifices the older one.)"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Soldier",
+      "Spirit"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Faerie"
+    ],
+    "B": [
+      "Vampire",
+      "Bat",
+      "Assassin",
+      "Zombie"
+    ],
+    "R": [
+      "Minotaur",
+      "Rogue",
+      "Barbarian",
+      "Shaman"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Faerie"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "fear"
+    ],
+    "R": [
+      "haste"
+    ],
+    "G": [
+      "trample",
+      "shroud"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Reveal the top card of target opponent's library. If it's a land, you gain 1 life. {SLOWTRIP}",
+          4,
+          1,
+          3
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn. {SLOWTRIP}",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature gains protection from {PROTECTION_COLOR} until end of turn. {SLOWTRIP}",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player loses all poison counters. This spell deals that much damage to that player.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has vigilance.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "CreatureKeyword": [
+        [
+          "lifelink",
+          2,
+          2,
+          6
+        ],
+        [
+          "protection from {PROTECTION_COLOR}",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Target land becomes the basic land type of your choice until end of turn. {SLOWTRIP}",
+          4,
+          1,
+          3
+        ],
+        [
+          "Tap up to {SMALL_NUMBER} target creatures. Those creatures don't untap during their controller's next untap step. {SLOWTRIP}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target creature to its owner's hand. {SLOWTRIP}",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a blue instant card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "All creatures lose flying and islandwalk. [WORLD_RULE]",
+          1,
+          3,
+          6
+        ]
+      ],
+      "CreatureKeyword": [
+        [
+          "flying",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} {T}: Tap target creature. It doesn't untap during its controller's next untap step.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST} {T}: This creature deals 1 damage to any target. It doesn't untap during your next untap step.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Sorcery": [
+        [
+          "This spell deals 1 damage to each creature and each player.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target player sacrifices a creature.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{B}: Put a -1/-1 counter on this creature.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +4/+0.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, sacrifice this enchantment unless you tap an untapped creature you control. Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you. [WORLD_RULE]",
+          1,
+          3,
+          6
+        ]
+      ],
+      "CreatureKeyword": [
+        [
+          "protection from white",
+          1,
+          5,
+          6
+        ],
+        [
+          "regenerate",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {N} damage to any target.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "As this enchantment enters the battlefield, choose a creature type. Creatures of the chosen type don't untap during their controllers' untap steps.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} {T}: Destroy target artifact.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "CreatureKeyword": [
+        [
+          "haste",
+          2,
+          3,
+          6
+        ],
+        [
+          "first strike",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. {SLOWTRIP}",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As an additional cost to cast this spell, sacrifice a land. Search your library for a basic land card, put that card onto the battlefield, then shuffle. {SLOWTRIP}",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{T}: You may put a Faerie permanent card from your hand onto the battlefield.",
+          1,
+          4,
+          6
+        ],
+        [
+          "{2}{G}: Target green creature gains protection from black until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "CreatureKeyword": [
+        [
+          "shroud",
+          1,
+          4,
+          6
+        ],
+        [
+          "reach",
+          2,
+          2,
+          6
+        ],
+        [
+          "trample",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{2}, {T}, Sacrifice this artifact: Destroy all nontoken permanents with a name originally printed in [SET_NAME]. They can't be regenerated.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{3}: You may put a Minotaur permanent card from your hand onto the battlefield.",
+          1,
+          2,
+          6
+        ],
+        [
+          "This artifact enters the battlefield with three arrowhead counters on it. [ARROW_EFFECT]",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {R}.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. You lose 1 life.",
+          1,
+          3,
+          6
+        ]
+      ]
+    }
+  }
+}

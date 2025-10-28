@@ -1,0 +1,1035 @@
+{
+  "name": "journey_into_nyx_gigantic",
+  "version": "1.0",
+  "description": "A very large Journey into Nyx (Theros block) package featuring Constellation, Strive, Bestow-style Aura Creatures, Heroic, Devotion, Monstrosity, Inspired, Tribute, Scry, enchantment-matters, and God-style templates.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, put a +1/+1 counter on it and {HEROIC_W}.",
+          7,
+          1,
+          7
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, {THIS} gains lifelink until end of turn and {GAIN_LIFE_SMALL}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Vigilance. {CONSTELLATION_W_TRIGGER}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Monstrosity {X3} — {MONSTROSITY_X} When {THIS} becomes monstrous, {TAP_TWO} Creatures your opponents control.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Inspired — Whenever {THIS} becomes untapped, {GAIN_LIFE_SMALL} then you may exile target creature you control, then return it to the battlefield under its owner’s control.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Tribute 2 (As this creature enters, an opponent may put two +1/+1 counters on it.) When {THIS} enters the battlefield, if tribute wasn’t paid, destroy target tapped creature.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Devotion — {STATIC_DEVOTION_W}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Aura spell, put a +1/+1 counter on {THIS}.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, tap up to one target creature. That creature doesn’t untap during its controller’s next untap step.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_W} (This spell costs {STRIVE_W} more to cast for each target beyond the first.) Any number of target creatures each get +2/+2 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Prevent all damage that would be dealt to target creature this turn. Scry 1.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking or blocking creature with power {MV_OR_LESS}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures. You gain 2 life.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target enchantment card from your graveyard to the battlefield.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy all tapped creatures.",
+          3,
+          5,
+          7
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens. Constellation — If an enchantment entered under your control this turn, create two more.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Constellation — Whenever {AN_ENCH enters}, you gain 1 life.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Flash. {DICTATE_W} (You may cast this spell any time you could cast an instant.)",
+          3,
+          4,
+          7
+        ],
+        [
+          "Legendary Enchantment Creature — God\nIndestructible\nAs long as your devotion to white is less than five, {THIS} isn’t a creature.\nOther creatures you control get +1/+1.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_W}\nEnchanted creature gets +2/+2 and has vigilance.\nConstellation — Whenever {AN_ENCH enters}, enchanted creature gains lifelink until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Bestow {BESTOW_W}\nEnchanted creature has \"Whenever this creature becomes the target of a spell you control, tap up to one target creature.\"",
+          4,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {W}.\" and \"Constellation — Whenever an enchantment enters the battlefield under your control, you gain 1 life.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance.\nWhenever an enchantment enters the battlefield under your control, attach {THIS} to target creature you control.\nEquip {EQUIP_COST}",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast an Aura spell, scry 1.\n{2}, {T}: You gain 2 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{W}: Target creature gains protection from the color of your choice until end of turn.",
+          4,
+          1,
+          7
+        ],
+        [
+          "{2}{W}: Exile target enchantment you control, then return it to the battlefield under its owner’s control.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, draw a card, then discard a card.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, scry 1.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever {THIS} becomes untapped, you may gain control of target creature with power less than or equal to {MV}. If you do, untap it. It gains haste until end of turn.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Monstrosity {X2} — {MONSTROSITY_X} When {THIS} becomes monstrous, return up to one target nonland permanent to its owner’s hand.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Tribute 2 — When {THIS} enters, if tribute wasn’t paid, gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Devotion — {STATIC_DEVOTION_U}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Aura spell, draw a card.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_U} Any number of target creatures each get -4/-0 until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. Constellation — If an enchantment entered under your control this turn, counter that spell instead.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target enchantment you control to its owner's hand. Draw a card.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. If you control an enchantment, draw an additional card.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Look at the top X cards of your library, where X is your devotion to blue. Put one into your hand and the rest on the bottom of your library in any order.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Flash. {DICTATE_U}\nWhenever you cast an instant or sorcery spell, scry 1.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Legendary Enchantment Creature — God\nIndestructible\nAs long as your devotion to blue is less than five, {THIS} isn’t a creature.\nCreatures you control have flying.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_U}\nEnchanted creature gets +1/+1 and has flying.\nWhenever you cast a spell that targets enchanted creature, scry 1.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Bestow {BESTOW_U}\nEnchanted creature has \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {U}.\" and \"Whenever you cast an Aura spell, untap this land.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has \"{T}: Tap target creature.\"\nWhenever an enchantment enters the battlefield under your control, untap equipped creature.\nEquip {EQUIP_COST}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}. Spend this mana only to cast enchantment spells.\nWhenever you cast an enchantment spell, scry 1.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{U}: Return target enchanted permanent you control to its owner's hand.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, each opponent loses 1 life and you gain 1 life.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, target opponent loses 1 life and you gain 1 life.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever {THIS} becomes untapped, exile target creature card from a graveyard. Create a Gold token. (It’s an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+          3,
+          3,
+          7
+        ],
+        [
+          "Monstrosity {X2} — {MONSTROSITY_X} When {THIS} becomes monstrous, destroy target creature an opponent controls.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Tribute 2 — When {THIS} enters, if tribute wasn’t paid, each opponent sacrifices a creature.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Devotion — {STATIC_DEVOTION_B}",
+          4,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast an Aura spell, you may return target creature card from your graveyard to your hand.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_B} Any number of target creatures each get -2/-2 until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Destroy target creature with power {MV_OR_GREATER}. You gain 2 life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Exile target enchantment from a graveyard. Scry 1. Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Constellation — If an enchantment entered under your control this turn, that player loses 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target enchantment or creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          3,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Flash. {DICTATE_B}\nWhenever a creature an opponent controls dies, you gain 1 life and scry 1.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Legendary Enchantment Creature — God\nIndestructible\nAs long as your devotion to black is less than five, {THIS} isn’t a creature.\nAt the beginning of your end step, each opponent loses 1 life and you gain 1 life.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_B}\nEnchanted creature gets +2/+1 and has menace.\nWhenever enchanted creature dies, return this card to the battlefield as a creature under its owner's control.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Bestow {BESTOW_B}\nEnchanted creature has lifelink and \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {B}.\" and \"Constellation — Whenever an enchantment enters under your control, each opponent loses 1 life.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and deathtouch.\nWhenever an enchantment enters the battlefield under your control, target opponent loses 1 life.\nEquip {EQUIP_COST}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}, Sacrifice an enchantment: Draw two cards. You lose 2 life.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{B}: Target creature gets -1/-1 until end of turn. If it’s enchanted, it gets -3/-3 until end of turn instead.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, {THIS} gets +2/+0 until end of turn. If that spell is an Aura, {THIS} gains first strike until end of turn.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, {THIS} deals 1 damage to each opponent.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever {THIS} becomes untapped, you may exile the top card of your library. Until end of turn, you may play that card.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Monstrosity {X2} — {MONSTROSITY_X} When {THIS} becomes monstrous, it deals 2 damage to each creature your opponents control.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Tribute 2 — When {THIS} enters, if tribute wasn’t paid, {THIS} fights target creature you don’t control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Devotion — {STATIC_DEVOTION_R}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Aura spell, creatures you control get +1/+0 until end of turn.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_R} {THIS_SPELL} deals 2 damage to any number of targets.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Target creature you control gains double strike until end of turn. Scry 1.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact. If you control an enchantment, {THIS_SPELL} deals 2 damage to that artifact’s controller.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Constellation — If an enchantment entered under your control this turn, scry 2.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target creature you control. It fights up to one target creature you don’t control.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Flash. {DICTATE_R}\nAt the beginning of combat on your turn, target creature you control gets +2/+0 and gains haste until end of turn.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Legendary Enchantment Creature — God\nIndestructible\nAs long as your devotion to red is less than five, {THIS} isn’t a creature.\nCreatures you control have haste.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_R}\nEnchanted creature gets +2/+0 and has trample.\nHeroic — Whenever you cast a spell that targets enchanted creature, it deals 1 damage to any target.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Bestow {BESTOW_R}\nEnchanted creature has \"Whenever this creature attacks, it deals 1 damage to each opponent.\"",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {R}.\" and \"Whenever you cast an Aura spell, this land deals 1 damage to each opponent.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.\nWhenever an enchantment enters the battlefield under your control, equipped creature gains first strike until end of turn.\nEquip {EQUIP_COST}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}: {THIS} deals 1 damage to any target. Activate only if you control an enchantment.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{R}: Target creature can’t block this turn. If it’s enchanted, {THIS} deals 1 damage to that creature.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, put two +1/+1 counters on it.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on {THIS}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever {THIS} becomes untapped, add {G}{G}. Until end of turn, you don’t lose this mana as steps and phases end.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Monstrosity {X3} — {MONSTROSITY_X} When {THIS} becomes monstrous, destroy target artifact or enchantment an opponent controls.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Tribute 2 — When {THIS} enters, if tribute wasn’t paid, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Devotion — {STATIC_DEVOTION_G}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an Aura spell, draw a card.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_G} Any number of target creatures each get a +1/+1 counter and trample until end of turn.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature you control fights up to one target creature you don’t control. Scry 1.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. If you control an enchantment, you gain 3 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a creature or enchantment card with mana value {MV_OR_LESS}, reveal it, put it into your hand, then shuffle.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create two 2/2 green Wolf creature tokens. Constellation — If an enchantment entered under your control this turn, those tokens enter with a +1/+1 counter.",
+          3,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Flash. {DICTATE_G}\nAt the beginning of combat on your turn, target creature you control gets +2/+2 and gains trample until end of turn.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Legendary Enchantment Creature — God\nIndestructible\nAs long as your devotion to green is less than five, {THIS} isn’t a creature.\nWhenever a creature enters the battlefield under your control, you may have it fight target creature you don’t control.",
+          2,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_G}\nEnchanted creature gets +3/+3.\nConstellation — Whenever {AN_ENCH enters}, untap enchanted creature.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Bestow {BESTOW_G}\nEnchanted creature has \"Whenever this creature becomes the target of a spell you control, put a +1/+1 counter on it.\"",
+          4,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add {G}.\" and \"Whenever an enchantment enters under your control, untap this land.\"",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2.\nWhenever an enchantment enters under your control, you may have equipped creature fight up to one target creature you don’t control.\nEquip {EQUIP_COST}",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast creature or enchantment spells.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{G}: Target creature you control gains hexproof until end of turn. If it’s enchanted, put a +1/+1 counter on it.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Scry 2, then draw a card.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{3}, {T}: Create a 2/2 colorless enchantment creature token.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Constellation — Whenever {AN_ENCH enters}, scry 1, then you may draw a card if this is the second time this ability resolved this turn.",
+          3,
+          3,
+          7
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Constellation — Whenever an enchantment enters the battlefield under your control, {GENERIC_CONSTELLATION_EFFECT}.",
+          4,
+          1,
+          7
+        ],
+        [
+          "Heroic — Whenever you cast a spell that targets {THIS}, {GENERIC_HEROIC_EFFECT}.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Strive — {STRIVE_GENERIC} Choose any number of target creatures. {GENERIC_STRIVE_PUMP}.",
+          3,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Spirit",
+      "Archon",
+      "Griffin",
+      "Leonin",
+      "Pegasus",
+      "Cleric",
+      "Scout",
+      "Cat",
+      "Gorgon Slayer",
+      "Nyxborn"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Siren",
+      "Chimera",
+      "Sphinx",
+      "Merfolk",
+      "Naiad",
+      "Horror",
+      "Faerie",
+      "Nyxborn"
+    ],
+    "B": [
+      "Human",
+      "Warrior",
+      "Zombie",
+      "Gorgon",
+      "Lamia",
+      "Minotaur",
+      "Harpy",
+      "Demon",
+      "Nyxborn"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Satyr",
+      "Cyclops",
+      "Minotaur",
+      "Phoenix",
+      "Efreet",
+      "Nyxborn"
+    ],
+    "G": [
+      "Human",
+      "Warrior",
+      "Centaur",
+      "Dryad",
+      "Best",
+      "Hydra",
+      "Archer",
+      "Wolf",
+      "Nyxborn"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Scarecrow",
+      "Spirit",
+      "Nyxborn"
+    ],
+    "any": [
+      "Nyxborn",
+      "Avatar",
+      "Elemental",
+      "God"
+    ]
+  },
+  "string_pools": {
+    "HEROIC_W": [
+      "tap target creature an opponent controls",
+      "gain 2 life",
+      "put a +1/+1 counter on up to one target creature you control"
+    ],
+    "GAIN_LIFE_SMALL": [
+      "you gain 2 life",
+      "you gain 3 life"
+    ],
+    "CONSTELLATION_W_TRIGGER": [
+      "Constellation — Whenever an enchantment enters the battlefield under your control, creatures you control get +0/+1 until end of turn"
+    ],
+    "TAP_TWO": [
+      "tap up to two target"
+    ],
+    "X3": [
+      "{3}{W}{W}",
+      "{4}{W}{W}"
+    ],
+    "MONSTROSITY_X": [
+      "If this creature isn’t monstrous, put X +1/+1 counters on it and it becomes monstrous."
+    ],
+    "MV_OR_LESS": [
+      "with mana value 3 or less",
+      "with mana value {MV} or less"
+    ],
+    "DICTATE_W": [
+      "Whenever a creature attacks, creatures you control get +1/+1 until end of turn"
+    ],
+    "BESTOW_W": [
+      "{3}{W}",
+      "{2}{W}{W}"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}"
+    ],
+    "STRIVE_W": [
+      "{1}{W}",
+      "{W}"
+    ],
+    "STRIVE_U": [
+      "{1}{U}",
+      "{U}"
+    ],
+    "STRIVE_B": [
+      "{1}{B}",
+      "{B}"
+    ],
+    "STRIVE_R": [
+      "{1}{R}",
+      "{R}"
+    ],
+    "STRIVE_G": [
+      "{1}{G}",
+      "{G}"
+    ],
+    "STRIVE_GENERIC": [
+      "{1}",
+      "{2}"
+    ],
+    "DICTATE_U": [
+      "Whenever you draw a card, each opponent mills a card",
+      "Whenever you cast a noncreature spell, scry 1"
+    ],
+    "BESTOW_U": [
+      "{3}{U}",
+      "{2}{U}{U}"
+    ],
+    "DICTATE_B": [
+      "Creatures your opponents control get -1/-0",
+      "Whenever a creature an opponent controls dies, each opponent loses 1 life"
+    ],
+    "BESTOW_B": [
+      "{3}{B}",
+      "{2}{B}{B}"
+    ],
+    "DICTATE_R": [
+      "Creatures you control get +1/+0",
+      "Whenever a creature you control attacks, it deals 1 damage to the player or planeswalker it’s attacking"
+    ],
+    "BESTOW_R": [
+      "{3}{R}",
+      "{2}{R}{R}"
+    ],
+    "DICTATE_G": [
+      "Creatures you control get +2/+2 as long as it’s your turn",
+      "At the beginning of combat on your turn, target creature you control gets +2/+2 and gains trample until end of turn"
+    ],
+    "BESTOW_G": [
+      "{3}{G}",
+      "{2}{G}{G}"
+    ],
+    "STATIC_DEVOTION_W": [
+      "Each other enchantment you control gets +1/+1 as long as your devotion to white is five or more."
+    ],
+    "STATIC_DEVOTION_U": [
+      "Noncreature spells you cast cost {1} less to cast as long as your devotion to blue is five or more."
+    ],
+    "STATIC_DEVOTION_B": [
+      "Creatures you control have lifelink as long as your devotion to black is five or more."
+    ],
+    "STATIC_DEVOTION_R": [
+      "Creatures you control have haste as long as your devotion to red is five or more."
+    ],
+    "STATIC_DEVOTION_G": [
+      "Creatures you control get +1/+1 as long as your devotion to green is five or more."
+    ],
+    "AN_ENCH": [
+      "an enchantment",
+      "another enchantment"
+    ],
+    "GENERIC_CONSTELLATION_EFFECT": [
+      "scry 1",
+      "you gain 1 life",
+      "target creature gets +1/+1 until end of turn",
+      "add {C}",
+      "draw a card, then discard a card"
+    ],
+    "GENERIC_HEROIC_EFFECT": [
+      "put a +1/+1 counter on {THIS}",
+      "scry 1",
+      "it gains hexproof until end of turn"
+    ],
+    "GENERIC_STRIVE_PUMP": [
+      "each of those creatures gets +1/+1 until end of turn",
+      "put a +1/+1 counter on each of those creatures",
+      "those creatures gain trample until end of turn"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "vigilance"
+    ],
+    "any": [
+      "scry 1"
+    ]
+  }
+}

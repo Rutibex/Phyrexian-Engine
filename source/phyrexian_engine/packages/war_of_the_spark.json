@@ -1,0 +1,955 @@
+{
+  "name": "war_of_the_spark",
+  "version": "1.0",
+  "description": "Huge package capturing War of the Spark themes: amass, proliferate, planeswalker-centric text, Army tokens, and spells that reference creatures or planeswalkers.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Exile target {PW_OR_CREATURE}. If it was a creature, its controller creates a 1/1 white Soldier creature token.",
+          50,
+          1,
+          5
+        ],
+        [
+          "Tap up to two target creatures. You gain 2 life.",
+          40,
+          1,
+          4
+        ],
+        [
+          "{BOLAS_CALL}create two 1/1 white Soldier creature tokens.",
+          25,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. {PROLIFERATE_LINE}",
+          35,
+          2,
+          5
+        ],
+        [
+          "Prevent all damage that would be dealt to {PLANESWALKER_PROTECT} this turn.",
+          40,
+          1,
+          5
+        ],
+        [
+          "Destroy target attacking or blocking creature.",
+          45,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{PROLIFERATE_LINE} Then create a 2/2 white Knight creature token with vigilance.",
+          35,
+          2,
+          6
+        ],
+        [
+          "Exile target tapped creature.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Return target creature card with mana value 3 or less from your graveyard to the battlefield.",
+          35,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +2/+1 until end of turn. If you control a planeswalker, they also gain vigilance until end of turn.",
+          30,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO}{PROLIFERATE_LINE}",
+          35,
+          2,
+          6
+        ],
+        [
+          "As long as you control a planeswalker, creatures you control get +1/+1.",
+          40,
+          3,
+          7
+        ],
+        [
+          "At the beginning of combat on your turn, create a 1/1 white Soldier creature token.",
+          30,
+          2,
+          6
+        ],
+        [
+          "If a source would deal damage to {PLANESWALKER_PROTECT}, prevent 1 of that damage.",
+          30,
+          2,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+2 and has vigilance.",
+          40,
+          1,
+          4
+        ],
+        [
+          "Enchant creature you control\nEnchanted creature has \"{ACTIVATED_COST}: {PROLIFERATE_LINE}\"",
+          25,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nPrevent all noncombat damage that would be dealt to enchanted creature and {PLANESWALKER_PROTECT}.",
+          25,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}{PROLIFERATE_LINE}",
+          40,
+          2,
+          6
+        ],
+        [
+          "Other creatures you control get +1/+0. As long as you control a planeswalker, they also have vigilance.",
+          35,
+          3,
+          7
+        ],
+        [
+          "{THIS} has lifelink as long as you control a planeswalker.",
+          35,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target {NONCREATURE_SPELL}.\nDraw a card.",
+          40,
+          2,
+          4
+        ],
+        [
+          "Return target {PW_OR_CREATURE} to its owner's hand.",
+          50,
+          1,
+          5
+        ],
+        [
+          "Draw two cards. Then discard a card unless you proliferate.",
+          35,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target permanents. They don't untap during their controller's next untap step if you control a planeswalker.",
+          35,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{PROLIFERATE_LINE} Draw a card.",
+          60,
+          2,
+          5
+        ],
+        [
+          "Amass 2.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Gain control of target nonland permanent with mana value 3 or less until {THIS} leaves the battlefield.",
+          25,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a {NONCREATURE_SPELL}, {PROLIFERATE_LINE}",
+          45,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have \"{ACTIVATED_COST}: Scry 1, then proliferate.\"",
+          35,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, amass 1.",
+          35,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has \"{ACTIVATED_COST}: Return another target creature to its owner's hand.\"",
+          35,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets -2/-0 and can't block while you control a planeswalker.",
+          35,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}scry 2, then proliferate.",
+          45,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a {NONCREATURE_SPELL}, amass 1.",
+          40,
+          3,
+          7
+        ],
+        [
+          "When {THIS} dies, draw a card and amass 1.",
+          40,
+          2,
+          5
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn. If you control a planeswalker, destroy that creature instead.",
+          45,
+          2,
+          5
+        ],
+        [
+          "Each opponent sacrifices a {PW_OR_CREATURE}.",
+          45,
+          2,
+          5
+        ],
+        [
+          "Amass 2. You gain 2 life.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Destroy target {PW_OR_CREATURE}. You lose 2 life.",
+          40,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards two cards. Amass 1.",
+          35,
+          2,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
+          35,
+          4,
+          7
+        ],
+        [
+          "All creatures get -2/-2 until end of turn. If a creature would die this turn, exile it instead.",
+          30,
+          4,
+          7
+        ],
+        [
+          "Each opponent loses 2 life and you gain 2 life. {PROLIFERATE_LINE}",
+          35,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO}amass 1.",
+          40,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, proliferate.",
+          35,
+          3,
+          6
+        ],
+        [
+          "As long as you control a planeswalker, creatures you control have menace.",
+          35,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has lifelink.",
+          35,
+          1,
+          4
+        ],
+        [
+          "Enchant creature an opponent controls\nAt the beginning of enchanted creature's controller's upkeep, that player sacrifices it unless they pay 3 life.",
+          35,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}each opponent sacrifices a {PW_OR_CREATURE}.",
+          40,
+          4,
+          7
+        ],
+        [
+          "Whenever a Zombie you control deals combat damage to a player, proliferate.",
+          35,
+          3,
+          7
+        ],
+        [
+          "Other Zombies you control get +1/+0.",
+          35,
+          3,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{THIS} deals 3 damage to {ANY_TARGET_OR_PW}.",
+          55,
+          1,
+          4
+        ],
+        [
+          "Creatures you control get +1/+0 and gain haste until end of turn.",
+          40,
+          1,
+          4
+        ],
+        [
+          "Amass 1, then {THIS} deals 2 damage to each opponent.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact. If you control a planeswalker, {THIS} deals 2 damage to that artifact's controller.",
+          35,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target {PW_OR_CREATURE} until end of turn. Untap it. It gains haste until end of turn.",
+          40,
+          3,
+          6
+        ],
+        [
+          "{THIS} deals 4 damage divided as you choose among up to two targets.",
+          35,
+          3,
+          6
+        ],
+        [
+          "Creatures target player controls can't block this turn. Amass 2.",
+          35,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a {NONCREATURE_SPELL}, {THIS} deals 1 damage to any target. Then proliferate.",
+          35,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO}create a 1/1 red Devil creature token with \"When this creature dies, it deals 1 damage to any target.\"",
+          35,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has haste.",
+          40,
+          1,
+          4
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{ACTIVATED_COST}: {THIS} deals 1 damage to any target.\"",
+          35,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}{THIS} deals 1 damage to each opponent, then amass 1.",
+          40,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a {NONCREATURE_SPELL}, {THIS} gets +1/+0 until end of turn.",
+          35,
+          2,
+          5
+        ],
+        [
+          "Whenever a creature or planeswalker an opponent controls is dealt damage, proliferate.",
+          30,
+          4,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. {PROLIFERATE_LINE}",
+          45,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. You gain 3 life.",
+          40,
+          2,
+          5
+        ],
+        [
+          "Target {PW_OR_CREATURE} you control fights target creature you don't control.",
+          40,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{PROLIFERATE_LINE} Then create a 3/3 green Beast creature token.",
+          45,
+          3,
+          6
+        ],
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. If you control a planeswalker, untap those lands.",
+          35,
+          3,
+          6
+        ],
+        [
+          "Distribute three +1/+1 counters among up to three target creatures you control.",
+          40,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          40,
+          3,
+          7
+        ],
+        [
+          "Whenever one or more +1/+1 counters are put on a creature you control, proliferate.",
+          35,
+          3,
+          7
+        ],
+        [
+          "As long as you control a planeswalker, creatures you control have trample.",
+          35,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has trample.",
+          40,
+          1,
+          4
+        ],
+        [
+          "Enchant creature you control\nEnchanted creature has \"{ACTIVATED_COST}: {PROLIFERATE_LINE}\"",
+          35,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on up to one target creature you control.",
+          45,
+          2,
+          6
+        ],
+        [
+          "Other creatures you control with +1/+1 counters on them have trample.",
+          40,
+          3,
+          7
+        ],
+        [
+          "Whenever one or more counters are put on a permanent you control, you gain 1 life.",
+          35,
+          3,
+          7
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{TRIGGER_INTRO}draw a card, then proliferate.",
+          40,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO}amass 1.",
+          40,
+          2,
+          6
+        ],
+        [
+          "{THIS} enters the battlefield with two charge counters on it.\n{ACTIVATED_COST}: Remove a charge counter from {THIS}: Add one mana of any color.",
+          35,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: {PROLIFERATE_LINE}",
+          45,
+          2,
+          7
+        ],
+        [
+          "Players can't activate abilities of artifacts unless they're mana abilities.",
+          30,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has \"{ACTIVATED_COST}: {PROLIFERATE_LINE}\"\nEquip {EQUIP_COST}",
+          40,
+          2,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0 and has menace.\nWhenever equipped creature deals combat damage to a player, amass 1.\nEquip {EQUIP_COST}",
+          35,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {PROLIFERATE_LINE}",
+          60,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Amass 1.",
+          50,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Add {C} for each counter on {THIS}.",
+          40,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you proliferate, you may draw a card.",
+          40,
+          3,
+          6
+        ],
+        [
+          "If a counter would be put on a permanent you control, put an additional one of that kind on that permanent instead.",
+          30,
+          5,
+          7
+        ],
+        [
+          "Static abilities of artifacts your opponents control don't function.",
+          25,
+          4,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" and \"{1}, {T}: {PROLIFERATE_LINE}\"",
+          40,
+          2,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller amasses 1.",
+          35,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{TRIGGER_INTRO}amass 1.",
+          40,
+          2,
+          6
+        ],
+        [
+          "Other artifact creatures you control get +1/+1.",
+          35,
+          3,
+          7
+        ],
+        [
+          "When {THIS} dies, proliferate.",
+          35,
+          2,
+          6
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "{AMASS_LINE}",
+          40,
+          1,
+          6
+        ],
+        [
+          "{PROLIFERATE_LINE}",
+          50,
+          1,
+          6
+        ],
+        [
+          "Choose one —\n• {PROLIFERATE_LINE}\n• Amass 2.",
+          40,
+          2,
+          6
+        ],
+        [
+          "Until end of turn, {PLANESWALKER_PROTECT} gain hexproof.",
+          35,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{PROLIFERATE_LINE} Then {AMASS_LINE}",
+          45,
+          2,
+          6
+        ],
+        [
+          "Amass X, where X is the number of planeswalkers you control.",
+          35,
+          3,
+          7
+        ],
+        [
+          "Choose up to two —\n• Destroy target artifact.\n• {PROLIFERATE_LINE}\n• Return target creature card with mana value 2 or less from your graveyard to the battlefield.",
+          30,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{THIS} enters the battlefield with three charge counters on it.\n{ACTIVATED_COST}: Remove a charge counter from {THIS}: Draw a card, then proliferate.",
+          40,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO}you gain 1 life and amass 1.",
+          35,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "If you would draw a card, instead you may proliferate. If you do, draw a card.",
+          25,
+          4,
+          7
+        ],
+        [
+          "Whenever you put one or more counters on a permanent you control, you may have target opponent lose 1 life.",
+          35,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1.\nWhenever equipped creature deals combat damage to a player, proliferate.\nEquip {EQUIP_COST}",
+          40,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land you control\nEnchanted land has \"{T}: Add one mana of any color.\" and \"{1}, {T}: Prevent the next 1 damage that would be dealt to {PLANESWALKER_PROTECT} this turn.\"",
+          35,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Angel",
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Spirit",
+      "Pegasus",
+      "Advisor",
+      "Cat",
+      "Giant"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Bird",
+      "Illusion",
+      "Vedalken",
+      "Spirit",
+      "Sphinx",
+      "Homunculus"
+    ],
+    "B": [
+      "Zombie",
+      "Warlock",
+      "Assassin",
+      "Vampire",
+      "Skeleton",
+      "Thrull",
+      "Rat",
+      "Shade"
+    ],
+    "R": [
+      "Warrior",
+      "Devil",
+      "Goblin",
+      "Shaman",
+      "Dragon",
+      "Minotaur",
+      "Elemental",
+      "Cyclops"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Spider",
+      "Hydra",
+      "Warrior",
+      "Wolf",
+      "Rhino"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Scarecrow",
+      "Myr",
+      "Drone",
+      "Servo",
+      "Thopter",
+      "Spirit"
+    ],
+    "any": [
+      "Zombie Army",
+      "Horror",
+      "Mutant",
+      "Zombie Warrior",
+      "Zombie Wizard",
+      "Elemental"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "vigilance"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield, ",
+      "Whenever {THIS} attacks, ",
+      "Whenever a creature you control dies, ",
+      "At the beginning of your end step, ",
+      "Whenever you cast a noncreature spell, ",
+      "Whenever you proliferate, "
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{T}",
+      "{2}, {T}",
+      "{3}, {T}",
+      "Sacrifice a creature",
+      "Pay 2 life",
+      "Discard a card"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card",
+      "proliferate",
+      "amass 1",
+      "gain 2 life",
+      "deal {N=2} damage to any target",
+      "target creature gets +2/+0 until end of turn",
+      "add one mana of any color",
+      "create a 1/1 white Soldier creature token",
+      "scry 2"
+    ],
+    "ARMY_TOKEN": [
+      "a 0/0 black Zombie Army creature token"
+    ],
+    "AMASS_LINE": [
+      "Amass {K=1}. (Put {K} +1/+1 counters on an Army you control. If you don't control one, create {ARMY_TOKEN} first.)"
+    ],
+    "PROLIFERATE_LINE": [
+      "Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)"
+    ],
+    "PLANESWALKER_PROTECT": [
+      "planeswalkers you control",
+      "target planeswalker you control",
+      "each planeswalker you control"
+    ],
+    "PW_OR_CREATURE": [
+      "creature or planeswalker",
+      "creature or planeswalker you don't control",
+      "creature or planeswalker an opponent controls"
+    ],
+    "ANY_TARGET_OR_PW": [
+      "any target",
+      "target creature, player, or planeswalker",
+      "target opponent or planeswalker they control"
+    ],
+    "NONCREATURE_SPELL": [
+      "noncreature spell",
+      "instant or sorcery spell",
+      "artifact or enchantment spell"
+    ],
+    "BOLAS_CALL": [
+      "If you control a Bolas planeswalker, ",
+      "If you control a legendary planeswalker, ",
+      "If you control a planeswalker, "
+    ],
+    "SHIELD_PLANESWALKER": [
+      "{THIS} assigns combat damage as though it weren't blocked while you control a planeswalker.",
+      "Prevent all noncombat damage that would be dealt to {PLANESWALKER_PROTECT}."
+    ],
+    "STATIC_TAX": [
+      "Activated abilities of artifacts your opponents control can't be activated.",
+      "Spells your opponents cast that target {PLANESWALKER_PROTECT} cost {1} more to cast."
+    ],
+    "X_THRESHOLD": [
+      "If X is 10 or more, also {BONUS}"
+    ],
+    "BONUS": [
+      "take an extra turn after this one",
+      "create three 2/2 Zombie creature tokens",
+      "draw three cards",
+      "destroy up to three target permanents",
+      "deal 10 damage to each opponent"
+    ]
+  }
+}

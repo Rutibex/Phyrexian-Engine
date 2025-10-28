@@ -1,0 +1,899 @@
+{
+  "name": "Onslaught Mega Pack",
+  "code": "onslaught_mega",
+  "version": "1.0",
+  "last_updated": "2025-10-26",
+  "description": "A comprehensive Onslaught (2002) themed package: Morph, Cycling + cycling triggers, tribal synergies (Cleric, Soldier, Wizard, Goblin, Beast, Zombie, Elf, Bird), fetchlands, type-changing ‘Mistform’-style effects, and the 'Words' replacement enchantment cycle. Includes fear and other era-relevant evergreen ability distributions.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Creatures of a type of your choice get +1/+1 until end of turn. Draw a card.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Prevent all damage that would be dealt this turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Cycling [CYCLING_COST_SMALL]\nWhen you cycle CARD, [CYCLE_TRIGGER_SMALL].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ],
+        [
+          "Choose a creature type. Target creature becomes that type [TYPECHANGE_DURATION]. Draw a card.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all artifacts, creatures, and enchantments.",
+          1,
+          6,
+          7
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Return all enchantments to their owners’ hands.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{1}: The next time you would draw a card this turn, [WORDS_REPLACEMENT].",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nEach creature of [CHOSEN_TYPE] you control gets +1/+1 and has vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, tap target creature an opponent controls.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Creatures of [TRIBE_W] you control get +1/+1 until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "{3}, {T}: Create a 1/1 white Soldier creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph [MORPH_COST_CHEAP]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph [MORPH_COST_MED]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          3,
+          3,
+          7
+        ],
+        [
+          "Other [TRIBE_W] you control get +1/+1.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever another [TRIBE_W] you control dies, you gain 1 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on target creature you control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "As long as you control another [TRIBE_W], CARD has vigilance.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\n[TRIGGER_INTRO] CARD or another creature of [CHOSEN_TYPE] enters the battlefield under your control, [TRIBAL_TRIGGER].\nCreatures of [CHOSEN_TYPE] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have [TRIBAL_GRANTED_KEYWORD].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}, Pay 1 life, Sacrifice CARD: Search your library for a [BASIC_TYPE_A] or [BASIC_TYPE_B] card, put it onto the battlefield, then shuffle.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {3}.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner’s hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Choose a creature type. Target creature becomes that type [TYPECHANGE_DURATION]. Draw a card.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Cycling [CYCLING_COST_SMALL]\nWhen you cycle CARD, [CYCLE_TRIGGER_SMALL].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw three cards.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Each player returns a creature they control to its owner’s hand.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, you may tap or untap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control have flying.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}: The next time you would draw a card this turn, [WORDS_REPLACEMENT].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{3}, {T}: Draw a card. Activate only if you control a [TRIBE_U].",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph [MORPH_COST_CHEAP]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph [MORPH_COST_MED]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          3,
+          3,
+          7
+        ],
+        [
+          "Other [TRIBE_U] you control get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cycle a card, draw a card, then discard a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{U}: Target creature becomes the creature type of your choice [TYPECHANGE_DURATION].",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\n[TRIGGER_INTRO] CARD or another creature of [CHOSEN_TYPE] enters the battlefield under your control, [TRIBAL_TRIGGER].\nCreatures of [CHOSEN_TYPE] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have [TRIBAL_GRANTED_KEYWORD].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}, Pay 1 life, Sacrifice CARD: Search your library for a [BASIC_TYPE_A] or [BASIC_TYPE_B] card, put it onto the battlefield, then shuffle.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Destroy target nonblack creature.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Cycling [CYCLING_COST_SMALL]\nWhen you cycle CARD, [CYCLE_TRIGGER_SMALL].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Return up to two target creature cards from your graveyard to your hand.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control have fear.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}: The next time you would draw a card this turn, [WORDS_REPLACEMENT].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}, Sacrifice a creature: Draw a card.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph [MORPH_COST_CHEAP]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph [MORPH_COST_MED]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          3,
+          3,
+          7
+        ],
+        [
+          "Other [TRIBE_B] you control get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever another [TRIBE_B] you control dies, each opponent loses 1 life and you gain 1 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As long as you control another [TRIBE_B], CARD has fear.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\n[TRIGGER_INTRO] CARD or another creature of [CHOSEN_TYPE] enters the battlefield under your control, [TRIBAL_TRIGGER].\nCreatures of [CHOSEN_TYPE] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have [TRIBAL_GRANTED_KEYWORD].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}, Pay 1 life, Sacrifice CARD: Search your library for a [BASIC_TYPE_A] or [BASIC_TYPE_B] card, put it onto the battlefield, then shuffle.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "CARD deals 3 damage to any target.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Cycling [CYCLING_COST_SMALL]\nWhen you cycle CARD, [CYCLE_TRIGGER_SMALL].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "CARD deals 4 damage divided as you choose among up to two targets.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "CARD deals 2 damage to each creature without flying.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, CARD deals 1 damage to any target.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+0 and have haste.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}: The next time you would draw a card this turn, [WORDS_REPLACEMENT].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}: CARD deals 1 damage to any target.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph [MORPH_COST_CHEAP]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph [MORPH_COST_MED]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          3,
+          3,
+          7
+        ],
+        [
+          "Other [TRIBE_R] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever another [TRIBE_R] you control dies, CARD deals 1 damage to any target.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As long as you control another [TRIBE_R], CARD has haste.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\n[TRIGGER_INTRO] CARD or another creature of [CHOSEN_TYPE] enters the battlefield under your control, [TRIBAL_TRIGGER].\nCreatures of [CHOSEN_TYPE] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have [TRIBAL_GRANTED_KEYWORD].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}, Pay 1 life, Sacrifice CARD: Search your library for a [BASIC_TYPE_A] or [BASIC_TYPE_B] card, put it onto the battlefield, then shuffle.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Cycling [CYCLING_COST_SMALL]\nWhen you cycle CARD, [CYCLE_TRIGGER_SMALL].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create a 3/3 green Beast creature token.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Cycling [CYCLING_COST_MED]\nWhen you cycle CARD, [CYCLE_TRIGGER_MED].",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cycle a card, put a +1/+1 counter on up to one target creature.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have trample.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{1}: The next time you would draw a card this turn, [WORDS_REPLACEMENT].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{3}, {T}: Create a 1/1 green Saproling creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Morph [MORPH_COST_CHEAP]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          6,
+          2,
+          6
+        ],
+        [
+          "Morph [MORPH_COST_MED]\nWhen CARD is turned face up, [MORPH_TURNUP_EFFECT].",
+          3,
+          3,
+          7
+        ],
+        [
+          "Other [TRIBE_G] you control get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever another [TRIBE_G] you control dies, you gain 2 life.",
+          2,
+          2,
+          5
+        ],
+        [
+          "As long as you control another [TRIBE_G], CARD has trample.",
+          2,
+          2,
+          5
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\n[TRIGGER_INTRO] CARD or another creature of [CHOSEN_TYPE] enters the battlefield under your control, [TRIBAL_TRIGGER].\nCreatures of [CHOSEN_TYPE] you control get +1/+1.",
+          2,
+          3,
+          6
+        ],
+        [
+          "[CHOOSE_TYPE_LINE]\nCreatures of [CHOSEN_TYPE] you control get +1/+1 and have [TRIBAL_GRANTED_KEYWORD].",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}, Pay 1 life, Sacrifice CARD: Search your library for a [BASIC_TYPE_A] or [BASIC_TYPE_B] card, put it onto the battlefield, then shuffle.",
+          10,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Cleric",
+      "Bird",
+      "Knight",
+      "Angel",
+      "Human",
+      "Cat",
+      "Kavu"
+    ],
+    "U": [
+      "Wizard",
+      "Bird",
+      "Illusion",
+      "Shapeshifter",
+      "Merfolk",
+      "Human"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Imp",
+      "Shade",
+      "Human",
+      "Rat"
+    ],
+    "R": [
+      "Goblin",
+      "Barbarian",
+      "Beast",
+      "Elemental",
+      "Human"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Druid",
+      "Insect",
+      "Treefolk",
+      "Cat"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "target opponent controls"
+    ],
+    "TARGET_CREATURE": [
+      "target creature",
+      "target creature an opponent controls",
+      "target [TRIBE]"
+    ],
+    "TARGET_PLAYER": [
+      "any target",
+      "target player",
+      "target opponent"
+    ],
+    "CHOOSE_TYPE_LINE": [
+      "As this enters the battlefield, choose a creature type.",
+      "As CARD enters the battlefield, choose a creature type."
+    ],
+    "CHOSEN_TYPE": [
+      "the chosen type",
+      "the chosen creature type"
+    ],
+    "TYPECHANGE_DURATION": [
+      "until end of turn",
+      "this turn only"
+    ],
+    "CYCLING_COST_SMALL": [
+      "{2}",
+      "{1}{R}",
+      "{1}{U}",
+      "{2}{W}",
+      "{2}{B}",
+      "{2}{G}"
+    ],
+    "CYCLING_COST_MED": [
+      "{2}{R}",
+      "{2}{U}",
+      "{2}{W}",
+      "{2}{B}",
+      "{2}{G}",
+      "{3}"
+    ],
+    "MORPH_COST_CHEAP": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "MORPH_COST_MED": [
+      "{3}{W}",
+      "{3}{U}",
+      "{3}{B}",
+      "{3}{R}",
+      "{3}{G}"
+    ],
+    "WORDS_NOUN": [
+      "damage",
+      "life",
+      "beasts",
+      "cards",
+      "tokens",
+      "wind"
+    ],
+    "TRIBE_W": [
+      "Soldier",
+      "Cleric",
+      "Bird",
+      "Knight",
+      "Angel",
+      "Human",
+      "Cat",
+      "Kavu"
+    ],
+    "TRIBE_U": [
+      "Wizard",
+      "Bird",
+      "Illusion",
+      "Shapeshifter",
+      "Merfolk",
+      "Human"
+    ],
+    "TRIBE_B": [
+      "Zombie",
+      "Cleric",
+      "Imp",
+      "Shade",
+      "Human",
+      "Rat"
+    ],
+    "TRIBE_R": [
+      "Goblin",
+      "Barbarian",
+      "Beast",
+      "Elemental",
+      "Human"
+    ],
+    "TRIBE_G": [
+      "Beast",
+      "Elf",
+      "Druid",
+      "Insect",
+      "Treefolk",
+      "Cat"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Goblin",
+      "Beast",
+      "Saproling",
+      "Zombie",
+      "Bird",
+      "Elf",
+      "Cleric",
+      "Wizard",
+      "Cat"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "WORDS_REPLACEMENT": [
+      "[It] deals 2 damage to any target instead",
+      "you gain 5 life instead",
+      "create a 2/2 green Bear creature token instead",
+      "each player returns a permanent they control to its owner’s hand instead",
+      "target player discards a card instead"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward 1"
+    ],
+    "B": [
+      "fear",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "weights": {
+    "morph_weight_bonus": 2,
+    "cycling_weight_bonus": 2,
+    "tribal_weight_bonus": 2
+  }
+}

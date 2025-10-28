@@ -1,0 +1,825 @@
+{
+  "package_name": "kaldheim",
+  "package_version": "1.0",
+  "package_description": "A large, Kaldheim-inspired package covering Foretell, Boast, Sagas, Snow, Vehicles, Runes, Changelings, and modal-style patterns.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Lifelink.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Flying.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Whenever this creature attacks, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token tapped and attacking.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Boast — {1}{W}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token. Activate only if this creature attacked this turn and only once each turn.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          2,
+          4
+        ],
+        [
+          "This creature enters the battlefield with {X} +1/+1 counters on it. If any of that mana was snow, it gains vigilance.",
+          1,
+          2,
+          4
+        ],
+        [
+          "When this creature enters the battlefield, exile target tapped creature an opponent controls until this creature leaves the battlefield.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Changeling. (This card is every creature type.)",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking creature.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Target creature gets +{X}/+{X} and gains lifelink until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose one —\n• Tap up to {X} target creatures.\n• Creatures you control get +1/+1 until end of turn.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Prevent all damage that would be dealt to target permanent this turn. If {S} was spent to cast this spell, you gain {X} life.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all tapped creatures.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target Aura or Equipment card from your graveyard to the battlefield.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Snow creatures you control get an additional +1/+1.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Saga — (As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\nII — Exile target tapped creature an opponent controls.\nIII — Creatures you control gain vigilance until end of turn.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Runed Blessing — Enchant permanent.\nWhen this Aura enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+1 and has lifelink.\nAs long as enchanted permanent is an Equipment, it has 'Equipped creature gets +1/+1 and has lifelink.'",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature.\nEnchanted creature gets +{X}/+{X} and has vigilance.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature.\nWhen this Aura enters the battlefield, you gain {X} life.\nEnchanted creature has lifelink.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and vigilance.\nEquip {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever equipped creature attacks, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token tapped and attacking.\nEquip {X}.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {X}. As long as this Vehicle is crewed, it has vigilance.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Snow Artifact — {T}: Add {W}. Spend this mana only to cast an Angel, Cleric, or Saga spell.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land.\nEnchanted land has \"{T}: Add {W}{W}. If this mana is spent on a creature spell, it gains vigilance until end of turn.\"",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, scry {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Boast — {X}: Tap target creature. It doesn't untap during its controller's next untap step. Activate only if this creature attacked this turn and only once each turn.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          1,
+          3
+        ],
+        [
+          "Changeling. (This card is every creature type.)",
+          2,
+          0,
+          0
+        ],
+        [
+          "When this creature enters the battlefield, draw a card, then discard a card. If {S} was spent to cast it, instead draw two cards, then discard a card.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          1,
+          3
+        ],
+        [
+          "Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Draw two cards. If {S} was spent to cast this spell, instead scry 2, then draw two cards.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Scry 2, then draw two cards.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Look at the top {X} cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create an X/X blue [TOKEN_SUBTYPE] creature token with flying.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga —\nI — Scry 2.\nII — Tap up to one target creature. It doesn't untap during its controller's next untap step.\nIII — Draw two cards.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Runed Insight — Enchant permanent.\nWhen this Aura enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it has flying.\nAs long as enchanted permanent is an Equipment, it has 'Equipped creature has flying.'",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature.\nEnchanted creature gets +{X}/+0 and has flying.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Enchant creature.\nWhen this Aura enters the battlefield, draw a card.\nEnchanted creature has \"{T}: Draw a card, then discard a card.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has flying.\nEquip {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {X}. Whenever this Vehicle deals combat damage to a player, draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Snow Artifact — {T}: Add {U}. Spend this mana only to cast an Instant or Foretell spell.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land.\nEnchanted land has \"{T}: Add {U}{U}. Spend this mana only to cast instant or sorcery spells.\"",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Deathtouch.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Lifelink.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Boast — {X}: Each opponent loses {N} life and you gain {N} life. Activate only if this creature attacked this turn and only once each turn.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever another nontoken creature you control dies, each opponent loses 1 life.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Changeling. (This card is every creature type.)",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile target creature card from a graveyard. Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create two 2/2 black Zombie Berserker creature tokens.",
+          1,
+          0,
+          0
+        ],
+        [
+          "If {S} was spent to cast this spell, each opponent sacrifices a creature.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga —\nI — Target opponent loses 2 life and you gain 2 life.\nII — Each opponent discards a card.\nIII — Create a 4/4 black [TOKEN_SUBTYPE] creature token with deathtouch.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Runed Malice — Enchant permanent.\nWhen this Aura enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+0 and has deathtouch.\nAs long as enchanted permanent is an Equipment, it has 'Equipped creature gets +1/+0 and has deathtouch.'",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature.\nEnchanted creature gets +{X}/+0 and has deathtouch.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Enchant creature.\nWhen enchanted creature dies, return that card to the battlefield tapped under your control.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace.\nEquip {X}.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {X}. Whenever this Vehicle becomes crewed, each opponent loses 1 life and you gain 1 life.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Snow Artifact — {T}: Add {B}. Spend this mana only to cast a creature or Saga spell.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land.\nEnchanted land has \"{T}: Add {B}{B}. Whenever mana produced by this land is spent to cast a creature spell, that creature gains deathtouch until end of turn.\"",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Boast — {X}: This creature deals {N} damage to any target. Activate only if this creature attacked this turn and only once each turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Changeling. (This card is every creature type.)",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          1,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Dwarf Berserker creature tokens. They gain haste until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create a Treasure token for each creature you control that attacked this turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga —\nI — Create a Treasure token.\nII — This Saga deals 2 damage to any target.\nIII — Creatures you control get +1/+0 and gain haste until end of turn.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Runed Fury — Enchant permanent.\nWhen this Aura enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+0 and has haste.\nAs long as enchanted permanent is an Equipment, it has 'Equipped creature gets +1/+0 and has haste.'",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature.\nEnchanted creature gets +{X}/+0 and has haste.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature.\nEnchanted creature has \"{T}: This creature deals 1 damage to any target.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.\nWhenever equipped creature attacks, scry 1, then this Equipment deals 1 damage to any target.\nEquip {X}.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {X}. Whenever this Vehicle attacks, it deals 1 damage to any target.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Snow Artifact — {T}: Add {R}. Spend this mana only to cast a Boast spell or to activate a Boast ability.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land.\nEnchanted land has \"{T}: Add {R}{R}. This mana can't be spent to cast spells that deal noncombat damage to players.\"",
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Foretell {X}. (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
+          1,
+          1,
+          3
+        ],
+        [
+          "As long as you control three or more snow permanents, this creature gets +2/+2 and has trample.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When this creature enters the battlefield, you may have it fight target creature you don't control.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Changeling. (This card is every creature type.)",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control gets +{X}/+{X} and gains trample until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          0,
+          0
+        ],
+        [
+          "If {S} was spent to cast this spell, create a 1/1 green [TOKEN_SUBTYPE] creature token for each snow permanent you control.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Create an X/X green [TOKEN_SUBTYPE] creature token.\nIf {S} was spent to cast this spell, that token gains trample.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target creature. If {S} was spent to cast this spell, then scry 1.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Saga —\nI — Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nII — Put a +1/+1 counter on up to two target creatures.\nIII — Creatures you control gain trample until end of turn.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Runed Vigor — Enchant permanent.\nWhen this Aura enters the battlefield, draw a card.\nAs long as enchanted permanent is a creature, it gets +1/+1 and has trample.\nAs long as enchanted permanent is an Equipment, it has 'Equipped creature gets +1/+1 and has trample.'",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature.\nEnchanted creature gets +{X}/+{X} and has trample.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Enchant creature.\nWhen this Aura enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2 and has trample.\nEquip {X}.",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew {X}. Whenever this Vehicle becomes crewed, untap up to one target land.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Snow Artifact — {T}: Add {G}. Spend this mana only to cast creature spells or activate abilities of creatures.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land.\nEnchanted land has \"{T}: Add {G}{G}. If this mana is spent on a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.\"",
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "generic": {
+    "Creature": [
+      [
+        "Legendary Creature — God",
+        1,
+        0,
+        0
+      ],
+      [
+        "Whenever you foretell a card, put a +1/+1 counter on this creature.",
+        1,
+        0,
+        0
+      ],
+      [
+        "As long as you control three or more snow permanents, this creature gets +1/+1 and has hexproof.",
+        1,
+        0,
+        0
+      ]
+    ],
+    "Artifact": [
+      [
+        "Equipment — Equipped creature gets +{X}/+{X}.\nWhenever you cast a spell from exile, put a +1/+1 counter on equipped creature.\nEquip {X}.",
+        1,
+        1,
+        3
+      ],
+      [
+        "Vehicle — Crew {X}. As long as you control a Dwarf, this Vehicle gets +1/+0 and has first strike.",
+        1,
+        2,
+        3
+      ]
+    ],
+    "Enchantment": [
+      [
+        "Snow Enchantment — Creatures you control get +1/+1. If you control five or more snow permanents, creatures you control also have vigilance.",
+        1,
+        0,
+        0
+      ]
+    ],
+    "Land": [
+      [
+        "Snow Land — {T}: Add one mana of any color. Spend this mana only to cast a snow spell.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "metadata": {
+    "created": "2025-10-27T15:28:16.254502Z",
+    "notes": "Designed for broad coverage of Kaldheim mechanics. Includes Foretell, Boast, Sagas (as subtype), Snow synergies, Vehicles, Runes (Auras), and Changeling. Some MDFC-like concepts are modeled as single-faced cards."
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "name": "mirrodin_core",
+  "description": "Mirrodin block package — artifacts, Equipment, Affinity, Imprint, charge counters, spellbombs, and artifact synergies.",
+  "effects_by_color": {
+    "C": {
+      "Artifact": [
+        [
+          "Equipped creature gets +{X}/+{X}. Equip {EQUIP_COST}.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Equipped creature has vigilance and lifelink. Equip {EQUIP_COST}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Equipped creature gets +{X}/+0 and has first strike. Equip {EQUIP_COST}.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Equipped creature gets +0/+{X} and has reach. Equip {EQUIP_COST}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has '{T}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)",
+          10,
+          3,
+          7
+        ],
+        [
+          "Affinity for artifacts — and when {SOURCE} enters, draw a card.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Affinity for artifacts — when {SOURCE} enters, create two 1/1 colorless Myr artifact creature tokens.",
+          5,
+          4,
+          7
+        ],
+        [
+          "{SOURCE} enters the battlefield with {X} charge counters on it.",
+          10,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Put a charge counter on {SOURCE}.",
+          8,
+          1,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO}put a charge counter on {SOURCE}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "As long as {SOURCE} has three or more charge counters on it, it is a 4/4 artifact creature in addition to its other types.",
+          5,
+          3,
+          7
+        ],
+        [
+          "{CHARGE_COUNTER_EFFECT}",
+          8,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: {SPELLBOMB_EFFECT}",
+          9,
+          1,
+          5
+        ],
+        [
+          "{T}, Sacrifice {SOURCE}: Draw a card.",
+          7,
+          1,
+          5
+        ],
+        [
+          "{T}, Sacrifice {SOURCE}: Add two mana of any one color.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Imprint — When {SOURCE} enters the battlefield, you may exile an {IMPRINT_NOUN} {IMPRINT_ZONE}. {IMPRINT_EFFECT}",
+          10,
+          3,
+          7
+        ],
+        [
+          "Imprint — {ACTIVATED_COST}: Exile a card from your hand. Spells that share a color with the imprinted card cost {1} less to cast.",
+          7,
+          3,
+          7
+        ],
+        [
+          "{T}: Add {C}. {SOURCE} is an artifact in addition to its other types.",
+          5,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Modular {X} (This creature enters the battlefield with {X} +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)",
+          7,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO}{SOURCE} gets +1/+1 until end of turn for each artifact you control.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Other artifact creatures you control get +1/+1.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target artifact becomes a 0/0 Construct artifact creature. Put {X} +1/+1 counters on it.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifact creatures you control get +1/+1.",
+          6,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you may put a charge counter on target artifact.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, draw a card.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}. {1}, {T}: Add one mana of any color. {SOURCE} is an artifact in addition to its other types.",
+          6,
+          1,
+          1
+        ]
+      ]
+    },
+    "W": {
+      "Instant": [
+        [
+          "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.) Target creature gets +{X}/+{X} until end of turn.",
+          8,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking or blocking creature. You gain {X} life.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 colorless Myr artifact creature tokens.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Scry 1.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "AURA — {AURA_VERB}.",
+          8,
+          1,
+          5
+        ],
+        [
+          "Whenever an Equipment enters the battlefield under your control, you may attach it to target creature you control.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has protection from artifacts. Equip {EQUIP_COST}.",
+          6,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Metalcraft — As long as you control three or more artifacts, {SOURCE} has lifelink.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO}you gain {X} life, where X is the number of artifacts you control.",
+          6,
+          2,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. Affinity for artifacts.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Return target artifact or creature to its owner's hand. Draw a card.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards, then discard a card.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Gain control of target artifact.",
+          6,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When {SOURCE} enters the battlefield, you may exile an instant card from your hand. You may copy the imprinted card when you cast your next instant or sorcery spell this turn.",
+          7,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target artifact becomes an artifact creature with base power and toughness {X}/{X} until end of turn.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Affinity for artifacts. Flying.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an artifact spell, scry 1.",
+          7,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. You gain {X} life.",
+          7,
+          1,
+          4
+        ],
+        [
+          "Destroy target nonartifact creature. You lose 2 life.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target artifact or creature card from your graveyard to your hand. Affinity for artifacts.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. If you control an artifact, each opponent sacrifices a creature and loses 2 life.",
+          6,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When {SOURCE} enters the battlefield, you may exile a creature card from your graveyard. {SOURCE} gets +{X}/+{X}, where X is the exiled card's mana value.",
+          7,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets -1/-1 until end of turn.",
+          6,
+          1,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Affinity for artifacts. Menace.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO}each opponent loses 1 life and you gain 1 life.",
+          7,
+          2,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{SOURCE} deals {X} damage to any target.",
+          8,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. They gain haste until end of turn.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Gain control of target artifact until end of turn. Untap it. It gains haste until end of turn.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +2/+0 and has haste. Equip {EQUIP_COST}.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Imprint — When {SOURCE} enters the battlefield, you may exile an instant or sorcery card from your hand. {T}: Copy the imprinted card. You may choose new targets for the copy.",
+          7,
+          4,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Affinity for artifacts. First strike.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, {SOURCE} deals 1 damage to any target.",
+          7,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If you control an artifact, that creature gains trample until end of turn.",
+          7,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for an artifact card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Create a 3/3 colorless Golem artifact creature token.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — When {SOURCE} enters the battlefield, you may exile a land card from your graveyard. {SOURCE} has '{T}: Add one mana of any of the exiled card's colors.'",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Affinity for artifacts. Trample.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO}put a +1/+1 counter on {SOURCE} for each artifact you control.",
+          6,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Myr"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Vedalken",
+      "Myr",
+      "Construct",
+      "Thopter"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Cleric",
+      "Horror",
+      "Vampire",
+      "Myr"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Shaman",
+      "Warrior",
+      "Myr",
+      "Construct"
+    ],
+    "G": [
+      "Elf",
+      "Shaman",
+      "Beast",
+      "Druid",
+      "Myr",
+      "Insect"
+    ],
+    "C": [
+      "Myr",
+      "Golem",
+      "Construct",
+      "Thopter",
+      "Drone"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof from artifacts"
+    ],
+    "C": [
+      "menace",
+      "reach",
+      "trample"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {SOURCE} enters the battlefield, ",
+      "Whenever {SOURCE} attacks, ",
+      "Whenever {SOURCE} becomes tapped, ",
+      "At the beginning of your end step, "
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "TARGET_NOUN": [
+      "target creature",
+      "target artifact",
+      "target artifact or creature",
+      "target player",
+      "target opponent",
+      "target land",
+      "target nonartifact creature"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{X}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T}",
+      "{2}, {T}",
+      "{3}, {T}",
+      "Sacrifice {SOURCE}, {T}",
+      "{T}, Pay 1 life",
+      "{T}, Discard a card"
+    ],
+    "COUNTER_TYPE": [
+      "charge",
+      "+1/+1",
+      "-1/-1"
+    ],
+    "ARTIFACT_SUBTYPE": [
+      "Equipment",
+      "Cleric",
+      "Golem",
+      "Myr",
+      "Construct",
+      "Insect",
+      "Wizard",
+      "Soldier",
+      "Beast",
+      "Shaman"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Myr",
+      "Golem",
+      "Thopter",
+      "Construct",
+      "Insect",
+      "Beast",
+      "Horror",
+      "Goblin",
+      "Soldier",
+      "Saproling"
+    ],
+    "IMPRINT_NOUN": [
+      "artifact card",
+      "instant card",
+      "sorcery card",
+      "creature card",
+      "nonland card",
+      "card"
+    ],
+    "IMPRINT_ZONE": [
+      "from your hand",
+      "from your graveyard",
+      "you own from exile"
+    ],
+    "IMPRINT_EFFECT": [
+      "You may play the imprinted card as long as it remains exiled.",
+      "Spells you cast that share a card type with the imprinted card cost {1} less to cast.",
+      "{SOURCE} has the imprinted card's activated abilities.",
+      "{SOURCE} gets +2/+2 as long as the imprinted card is a creature card.",
+      "You may copy the imprinted card's text box. If you do, you may choose new targets for the copy."
+    ],
+    "CHARGE_COUNTER_EFFECT": [
+      "{SOURCE} has '{T}, Remove a charge counter from this: Add one mana of any color.'",
+      "Remove a charge counter from {SOURCE}: Draw a card.",
+      "Remove a charge counter from {SOURCE}: It deals 1 damage to any target.",
+      "Remove a charge counter from {SOURCE}: Target creature gets +1/+1 until end of turn.",
+      "Remove a charge counter from {SOURCE}: Scry 1."
+    ],
+    "SPELLBOMB_EFFECT": [
+      "Sacrifice {SOURCE}: Draw a card.",
+      "Sacrifice {SOURCE}: Target creature gets -3/-3 until end of turn.",
+      "Sacrifice {SOURCE}: Return target creature to its owner's hand.",
+      "Sacrifice {SOURCE}: Creatures you control get +1/+0 until end of turn.",
+      "Sacrifice {SOURCE}: Exile target artifact or enchantment."
+    ],
+    "AURA_VERB": [
+      "enchanted creature gets +2/+2",
+      "enchanted creature has flying",
+      "enchanted creature has vigilance",
+      "enchanted creature has first strike",
+      "enchanted creature can't block",
+      "enchanted permanent is an artifact in addition to its other types"
+    ]
+  }
+}

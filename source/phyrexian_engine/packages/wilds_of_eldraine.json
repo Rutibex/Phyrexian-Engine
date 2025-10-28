@@ -1,0 +1,761 @@
+{
+  "name": "wilds_of_eldraine",
+  "version": "1.0",
+  "description": "Huge package capturing Wilds of Eldraine mechanics: Roles, Bargain, Adventure, Celebration, Food/Faerie support, Auras/Equipment.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target tapped creature. If this spell was bargained, you gain {X} life.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Create a Royal Role token attached to it. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy target enchantment. Celebration — Create a 1/1 white Human creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration — Draw a card for each permanent that entered the battlefield under your control this turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target artifact or enchantment. If this spell was bargained, scry {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Human creature tokens. Celebration — Creatures you control get +1/+1 until end of turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Return target creature card with mana value {X} or less from your graveyard to the battlefield. If bargained, put a Young Hero Role token on it.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you gained {X} or more life this turn, Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Young Hero Role token attached to target creature you control. (Enchanted creature has \"When this creature attacks, if its power is 2 or less, put a +1/+1 counter on it.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create a Cursed Role token attached to target creature you control. (Enchanted creature has base power and toughness 1/1.)",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. When this Aura enters the battlefield, Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.) Enchanted creature gets +{X}/+{X}.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X} and has vigilance. Celebration — Attach this to target creature you control. Equip {X}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Vigilance. When this creature enters the battlefield, Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.) Celebration — Put a +1/+1 counter on each of up to {X} target creatures.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Flying. Celebration — Tap up to {X} target creatures an opponent controls. They don't untap during that player's next untap step.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Whenever an Aura enters the battlefield under your control, scry 1. Whenever you scry, you gain 1 life.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food Factory — Whenever one or more Auras you control are put into a graveyard from the battlefield, create a Food token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Bargain Bauble — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) When you cast your next spell this turn, if it was bargained, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration Engine — At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rolemaker — {T}, Sacrifice this artifact: Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters the battlefield, scry 1.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you controlled an enchanted creature or an Aura entered the battlefield under your control this turn, draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Return target creature to its owner's hand. If this spell was bargained, scry {X} then draw a card.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Celebration — Creatures you control gain hexproof until end of turn. Create a 1/1 blue Faerie creature token with flying.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration — Draw a card for each permanent that entered the battlefield under your control this turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target artifact or enchantment. If this spell was bargained, scry {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 blue Faerie creature tokens with flying. Celebration — Tap up to one target creature an opponent controls.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an instant or sorcery spell, scry 1. Celebration — Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Young Hero Role token attached to target creature you control. (Enchanted creature has \"When this creature attacks, if its power is 2 or less, put a +1/+1 counter on it.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create a Cursed Role token attached to target creature you control. (Enchanted creature has base power and toughness 1/1.)",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has \"Whenever this creature attacks, scry 1.\" When this Aura enters the battlefield, draw a card.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Flash. Flying. When this creature enters the battlefield, Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you create one or more tokens, draw a card. This ability triggers only once each turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Adventure — Scan the Clouds {X}{U}: Scry {X}, then draw a card. (Then exile this card. You may cast the creature later from exile.)",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food Factory — Whenever one or more Auras you control are put into a graveyard from the battlefield, create a Food token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Bargain Bauble — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) When you cast your next spell this turn, if it was bargained, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration Engine — At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rolemaker — {T}, Sacrifice this artifact: Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters the battlefield, scry 1.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Target creature gets -{X}/-{X} until end of turn. If this spell was bargained, that creature's controller loses 1 life and you gain 1 life.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Celebration — Target creature you control gains deathtouch until end of turn. Create a Wicked Role token attached to it.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration — Draw a card for each permanent that entered the battlefield under your control this turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target artifact or enchantment. If this spell was bargained, scry {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards {X} cards. If you bargained this spell, they lose 2 life and you gain 2 life.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\") Create a Food token.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Menace. When this creature enters the battlefield, Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Adventure — Tempt the Night {X}{B}: Target opponent loses {X} life and you gain {X} life. (Then exile this card. You may cast the creature later from exile.)",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an enchantment you control is put into a graveyard from the battlefield, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Young Hero Role token attached to target creature you control. (Enchanted creature has \"When this creature attacks, if its power is 2 or less, put a +1/+1 counter on it.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create a Cursed Role token attached to target creature you control. (Enchanted creature has base power and toughness 1/1.)",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+0 and has menace. When this Aura is put into a graveyard from the battlefield, each opponent loses {X} life.",
+          2,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food Factory — Whenever one or more Auras you control are put into a graveyard from the battlefield, create a Food token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Bargain Bauble — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) When you cast your next spell this turn, if it was bargained, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration Engine — At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rolemaker — {T}, Sacrifice this artifact: Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters the battlefield, scry 1.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Celebration — This spell deals {X} damage divided as you choose among up to {X} targets. If bargained, scry 1.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Twisted bargain — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) If this spell was bargained, create a Treasure token. This spell deals {X} damage to target creature.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Celebration — Draw a card for each permanent that entered the battlefield under your control this turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target artifact or enchantment. If this spell was bargained, scry {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 red Dwarf creature tokens. Celebration — Creatures you control get +1/+0 and gain haste until end of turn.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a spell that targets a creature you control, Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Young Hero Role token attached to target creature you control. (Enchanted creature has \"When this creature attacks, if its power is 2 or less, put a +1/+1 counter on it.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create a Cursed Role token attached to target creature you control. (Enchanted creature has base power and toughness 1/1.)",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+0 and has trample. When this Aura enters the battlefield, it deals {X} damage to any target.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste. When this creature enters the battlefield, if two or more nonland permanents entered under your control this turn, discard a card, then draw two cards.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Adventure — Steal the Apple {2}{R}: Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. (Then exile this card. You may cast the creature later from exile.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food Factory — Whenever one or more Auras you control are put into a graveyard from the battlefield, create a Food token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Bargain Bauble — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) When you cast your next spell this turn, if it was bargained, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration Engine — At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rolemaker — {T}, Sacrifice this artifact: Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters the battlefield, scry 1.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Target creature gets +{X}/+{X} until end of turn. If this spell was bargained, that creature gains trample until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Celebration — Draw a card for each permanent that entered the battlefield under your control this turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.) Exile target artifact or enchantment. If this spell was bargained, scry {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Celebration — Untap that land.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample. When this creature enters the battlefield, Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Adventure — Forage for Crumbs {X}{G}: Create {X} Food tokens. (Then exile this card. You may cast the creature later from exile.)",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, put {X} +1/+1 counters on up to one target creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Sorcerer Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, scry 1.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Wicked Role token attached to target creature you control. (Enchanted creature gets +1/+1 and \"When this Aura is put into a graveyard from the battlefield, each opponent loses 1 life.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Monster Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has trample.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Young Hero Role token attached to target creature you control. (Enchanted creature has \"When this creature attacks, if its power is 2 or less, put a +1/+1 counter on it.\")",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create a Virtuous Role token attached to target creature you control. (Enchanted creature gets +1/+1 for each enchantment you control.)",
+          1,
+          1,
+          1
+        ],
+        [
+          "Create a Cursed Role token attached to target creature you control. (Enchanted creature has base power and toughness 1/1.)",
+          1,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+{X} and has \"Whenever this creature deals combat damage to a player, create a Food token.\"",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food Factory — Whenever one or more Auras you control are put into a graveyard from the battlefield, create a Food token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Bargain Bauble — (You may sacrifice an artifact, enchantment, or token as you cast this spell.) When you cast your next spell this turn, if it was bargained, draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Celebration Engine — At the beginning of combat on your turn, if two or more nonland permanents entered under your control this turn, creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Rolemaker — {T}, Sacrifice this artifact: Create a Royal Role token attached to target creature you control. (Enchanted creature gets +1/+1 and has ward {1}.)",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\" When this Aura enters the battlefield, scry 1.",
+          2,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Role tokens supported: Cursed, Monster, Royal, Sorcerer, Wicked, Young Hero, Virtuous.",
+    "Bargain reminder text: (You may sacrifice an artifact, enchantment, or token as you cast this spell.)",
+    "Celebration ability word: Celebration — [effect] if two or more nonland permanents entered under your control this turn.",
+    "Adventure templating is included inline; the generator will treat it as rules text."
+  ]
+}

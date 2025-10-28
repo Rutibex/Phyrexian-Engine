@@ -1,0 +1,1155 @@
+{
+  "package_name": "throne_of_eldraine_megapack",
+  "version": "1.0.0",
+  "description": "A very large Eldraine-inspired package featuring Adventure, Food, Adamant, Knights/Faeries tribal, monocolor bonuses, and fairytale motifs. No card text is copied; all rules are fresh templates.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{TRIGGER_INTRO} creatures you control get +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Other Knights you control get +1/+1.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_W}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adventure — {ADVENTURE_NAMES_W} • {ADVENTURE_EFFECTS_W}",
+          10,
+          0,
+          9
+        ],
+        [
+          "{SELF_WORDS} has protection from red as long as you control a Food.",
+          10,
+          0,
+          9
+        ],
+        [
+          "When you cast an Aura spell that targets {SELF}, create a 1/1 white Human creature token.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever a Knight you control attacks, {SELF_WORDS} gets +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. If it's a Knight, it gains first strike until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Exile target tapped creature.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_W}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Create two 1/1 white Human creature tokens.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Human creature tokens.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_W}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{KNIGHT_PAYOFF}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Food.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FOOD_SAC_PAYOFF}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "{EQUIP_BONUS}. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature attacks, create a 1/1 white Human creature token. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Equipped creature gets +1/+1 for each Equipment you control. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_BONUS}. When {SELF} enters the battlefield, {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{AURA_BONUS}. Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_W}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "{T}: Add {W}. {W},{T}: Target attacking creature gets +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{T}: Add {W}. {2}{W},{T}: Create a 1/1 white Human creature token.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever you cast an instant or sorcery spell, {SELF_WORDS} gets +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{TRIGGER_INTRO} scry 1, then {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_U}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adventure — {ADVENTURE_NAMES_U} • {ADVENTURE_EFFECTS_U}",
+          10,
+          0,
+          9
+        ],
+        [
+          "Other Faeries you control get +1/+1.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{SELF_WORDS} can't be blocked as long as you control a Food.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {3}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Draw two cards. Adamant — {ADAMANT_COND} scry 2 first.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target nonland permanent to its owner's hand. {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Draw two cards. Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_U}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{FAERIE_PAYOFF}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever you sacrifice a Food, draw a card, then discard a card.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Spells your opponents cast that target your creatures cost {1} more to cast.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature has flying and +1/+1. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, draw a card. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_BONUS}. When {SELF} enters the battlefield, draw a card.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{AURA_BONUS}. As long as you control a Food, enchanted creature has hexproof.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "{T}: Add {U}. {2}{U},{T}: Draw a card, then discard a card.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} each opponent loses 1 life and you gain 1 life.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_B}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adventure — {ADVENTURE_NAMES_B} • {ADVENTURE_EFFECTS_B}",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever you sacrifice a Food, put a +1/+1 counter on {SELF}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Rats you control get +1/+0 and have menace.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -3/-3 until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Destroy target tapped creature. You create a Food token.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Adamant — {ADAMANT_COND} return two instead.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses 2 life and you gain 2 life. {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Return target creature card with mana value 3 or less from your graveyard to the battlefield.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, create a Food token.",
+          10,
+          0,
+          9
+        ],
+        [
+          "At the beginning of your end step, if you sacrificed a Food this turn, each opponent loses 2 life.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Warlocks you control have menace.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature deals combat damage to a player, that player discards a card. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 and deathtouch.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Enchanted creature gets +2/+0 and \"Whenever this creature dies, create a Food token.\"",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "{T}: Add {B}. {2}{B},{T}: Return target creature card from your graveyard to your hand.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {SELF} deals 1 damage to each opponent.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_R}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adventure — {ADVENTURE_NAMES_R} • {ADVENTURE_EFFECTS_R}",
+          10,
+          0,
+          9
+        ],
+        [
+          "Dwarves and Knights you control have haste.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever you sacrifice a Food, {SELF_WORDS} gets +2/+0 until end of turn.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "{SELF} deals 3 damage to any target.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Target creature gets +3/+0 and gains first strike until end of turn.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Create two 1/1 red Dwarf creature tokens.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{SELF} deals 4 damage to target creature. {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Create a 3/1 red Elemental creature token with haste. Sacrifice it at the beginning of the next end step.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{DWARF_PAYOFF}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever an Equipment enters the battlefield under your control, {SELF_WORDS} deals 1 damage to any target.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has first strike. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Equipped creature gets +1/+0 for each Equipment you control. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has menace.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Enchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\"",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "{T}: Add {R}. {1}{R},{T}: Create a 1/1 red Dwarf creature token. Activate only as a sorcery.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} put a +1/+1 counter on {TARGET_C}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} {ADAMANT_EFFECT_G}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adventure — {ADVENTURE_NAMES_G} • {ADVENTURE_EFFECTS_G}",
+          10,
+          0,
+          9
+        ],
+        [
+          "Wolves you control get +1/+1 and have trample.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever you sacrifice a Food, untap {SELF_WORDS}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Put two +1/+1 counters on target creature you control. It gains hexproof until end of turn.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FOOD_CREATION}. Draw a card.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Whenever you create a Food, put a +1/+1 counter on target creature you control.",
+          10,
+          0,
+          9
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +X/+X until end of turn, where X is the number of Foods you control.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2 and trample. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature attacks, create a Food token. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+2 and has trample.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Enchanted creature gets +1/+1 for each Food you control.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [],
+      "Land": [
+        [
+          "{T}: Add {G}. {2}{G},{T}: Create a Food token.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        [
+          "Whenever you cast a creature spell, {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} If {ADAMANT_COLOR} was spent, {EFFECT_SMALL}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [
+        [
+          "{FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FOOD_SAC_PAYOFF}",
+          10,
+          0,
+          9
+        ],
+        [
+          "{KNIGHT_PAYOFF}",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FAERIE_PAYOFF}",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Equipment": [
+        [
+          "{EQUIP_BONUS}. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature attacks, {FOOD_CREATION}. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {COUNTER_MODS}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{ACTIVATED_COST}: {SELF_WORDS} gets +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}. {2},{T}, Sacrifice a Food: Draw a card.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{T}: Add {C}. {3},{T}: Create a Food token.",
+          10,
+          0,
+          9
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        [
+          "Whenever you cast a creature spell, {FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Adamant — {ADAMANT_COND} If {ADAMANT_COLOR} was spent, {EFFECT_SMALL}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Artifact": [
+        [
+          "{FOOD_CREATION}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FOOD_SAC_PAYOFF}",
+          10,
+          0,
+          9
+        ],
+        [
+          "{KNIGHT_PAYOFF}",
+          10,
+          0,
+          9
+        ],
+        [
+          "{FAERIE_PAYOFF}",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Equipment": [
+        [
+          "{EQUIP_BONUS}. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "Whenever equipped creature attacks, {FOOD_CREATION}. Equip {EQUIP_COST}.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {COUNTER_MODS}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{ACTIVATED_COST}: {SELF_WORDS} gets +1/+1 until end of turn.",
+          10,
+          0,
+          9
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}. {2},{T}, Sacrifice a Food: Draw a card.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{T}: Add {C}. {3},{T}: Create a Food token.",
+          10,
+          0,
+          9
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Archer",
+      "Cleric",
+      "Spirit",
+      "Giant",
+      "Mouse"
+    ],
+    "U": [
+      "Faerie",
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Rogue",
+      "Shapeshifter"
+    ],
+    "B": [
+      "Human",
+      "Warlock",
+      "Knight",
+      "Rogue",
+      "Rat",
+      "Zombie",
+      "Hag"
+    ],
+    "R": [
+      "Human",
+      "Knight",
+      "Dwarf",
+      "Barbarian",
+      "Giant",
+      "Warrior",
+      "Goblin"
+    ],
+    "G": [
+      "Human",
+      "Wolf",
+      "Elf",
+      "Knight",
+      "Beast",
+      "Giant",
+      "Druid"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Scarecrow",
+      "Wall",
+      "Food"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "Sacrifice a Food",
+      "Discard a card",
+      "Tap this creature",
+      "Pay 2 life"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{2}{W}",
+      "{2}{R}",
+      "{3}"
+    ],
+    "SAGA_VERSE_INTRO": [
+      "I —",
+      "II —",
+      "III —"
+    ],
+    "TRIGGER_INTRO": [
+      "When {SELF} enters the battlefield,",
+      "When {SELF} attacks,",
+      "When {SELF} dies,",
+      "At the beginning of your upkeep,",
+      "At the beginning of combat on your turn,"
+    ],
+    "ADAMANT_COND": [
+      "if at least three {COLOR_WORD} mana was spent to cast this spell,",
+      "if {ADAMANT_COLOR} was the majority of mana spent to cast this,",
+      "if {ADAMANT_COLOR} mana fueled this spell in abundance,"
+    ],
+    "ADAMANT_EFFECT_W": [
+      "put a +1/+1 counter on up to two target creatures you control",
+      "create a 1/1 white Human creature token",
+      "you gain 4 life"
+    ],
+    "ADAMANT_EFFECT_U": [
+      "scry 3, then draw a card",
+      "tap up to two target creatures an opponent controls. Those creatures don't untap during their controller's next untap step",
+      "return up to one target nonland permanent you control to its owner's hand"
+    ],
+    "ADAMANT_EFFECT_B": [
+      "each opponent loses 3 life and you gain 3 life",
+      "return target creature card with mana value 3 or less from your graveyard to the battlefield",
+      "put two +1/+1 counters on target creature you control and it gains menace until end of turn"
+    ],
+    "ADAMANT_EFFECT_R": [
+      "this spell deals 3 damage divided as you choose among one, two, or three targets",
+      "create a 1/1 red Dwarf creature token with \"This creature can't block\"",
+      "discard a card, then draw two cards"
+    ],
+    "ADAMANT_EFFECT_G": [
+      "search your library for a basic land card, put it onto the battlefield tapped, then shuffle",
+      "put a +1/+1 counter on each of up to two target creatures",
+      "create a Food token"
+    ],
+    "ADVENTURE_NAMES_W": [
+      "Mend the Tale",
+      "Chase the White Hart",
+      "Knight's Vow",
+      "Bless the Protagonist",
+      "Cottage Rescue"
+    ],
+    "ADVENTURE_NAMES_U": [
+      "Spin Straw to Logic",
+      "Borrow a Moment",
+      "Beguile the Guard",
+      "Into the Mirror",
+      "Faerie Trick"
+    ],
+    "ADVENTURE_NAMES_B": [
+      "Curse the Prince",
+      "Midnight Hex",
+      "Into the Woods",
+      "Hag's Offer",
+      "Shadows at the Hearth"
+    ],
+    "ADVENTURE_NAMES_R": [
+      "Light the Bonfire",
+      "Slay the Giant",
+      "Trail of Sparks",
+      "Forge the Blade",
+      "Dragon's Breath"
+    ],
+    "ADVENTURE_NAMES_G": [
+      "Befriend the Wolf",
+      "Follow the Breadcrumbs",
+      "Hedgewitch's Brew",
+      "A Giant's Step",
+      "Grow Like Ivy"
+    ],
+    "ADVENTURE_EFFECTS_W": [
+      "Exile target tapped creature until {SELF} leaves the battlefield",
+      "Creatures you control get +1/+1 until end of turn",
+      "Create two 1/1 white Human creature tokens"
+    ],
+    "ADVENTURE_EFFECTS_U": [
+      "Counter target spell unless its controller pays {3}",
+      "Draw two cards",
+      "Return target nonland permanent to its owner's hand"
+    ],
+    "ADVENTURE_EFFECTS_B": [
+      "Target creature gets -3/-3 until end of turn",
+      "Each opponent loses 2 life and you gain 2 life",
+      "Destroy target creature with mana value 3 or less"
+    ],
+    "ADVENTURE_EFFECTS_R": [
+      "{SELF} deals 3 damage to any target",
+      "Create two 1/1 red Dwarf creature tokens",
+      "Target creature gets +3/+0 and gains first strike until end of turn"
+    ],
+    "ADVENTURE_EFFECTS_G": [
+      "Search your library for a basic land card, reveal it, put it into your hand, then shuffle",
+      "Target creature you control fights up to one target creature you don't control",
+      "Create a Food token and draw a card"
+    ],
+    "FOOD_CREATION": [
+      "Create a Food token",
+      "Create two Food tokens",
+      "Create a Food token. You gain 3 life"
+    ],
+    "FOOD_SAC_PAYOFF": [
+      "Whenever you sacrifice a Food, {EFFECT_SMALL}.",
+      "Whenever a Food enters the battlefield under your control, {EFFECT_SMALL}."
+    ],
+    "EFFECT_SMALL": [
+      "you gain 1 life",
+      "each opponent loses 1 life",
+      "put a +1/+1 counter on target creature you control",
+      "scry 1",
+      "add {C}"
+    ],
+    "KNIGHT_PAYOFF": [
+      "Knights you control get +1/+1",
+      "Whenever a Knight you control attacks, it gains first strike until end of turn",
+      "Whenever a Knight enters the battlefield under your control, {EFFECT_SMALL}"
+    ],
+    "FAERIE_PAYOFF": [
+      "Faeries you control get +1/+1",
+      "Whenever a Faerie you control deals combat damage to a player, draw a card",
+      "Whenever you cast an instant or sorcery, create a 1/1 blue Faerie creature token with flying"
+    ],
+    "HUMAN_PAYOFF": [
+      "Humans you control get +1/+1",
+      "Whenever a Human enters the battlefield under your control, {EFFECT_SMALL}"
+    ],
+    "DWARF_PAYOFF": [
+      "Dwarves you control get +1/+0",
+      "Whenever an Equipment enters the battlefield under your control, create a 1/1 red Dwarf creature token"
+    ],
+    "AURA_BONUS": [
+      "enchanted creature gets +2/+2",
+      "enchanted creature gets +1/+1 and has vigilance",
+      "enchanted creature has flying",
+      "enchanted creature gets +2/+0 and has first strike",
+      "enchanted creature gets +0/+2 and has hexproof"
+    ],
+    "EQUIP_BONUS": [
+      "equipped creature gets +2/+2",
+      "equipped creature has first strike and trample",
+      "equipped creature gets +3/+0",
+      "equipped creature gets +0/+3 and has vigilance"
+    ],
+    "TOKEN_TYPES": [
+      "1/1 white Human",
+      "1/1 blue Faerie with flying",
+      "1/1 black Rat",
+      "1/1 red Dwarf",
+      "2/2 green Wolf",
+      "0/1 colorless Wall with defender",
+      "Food artifact token"
+    ],
+    "COUNTER_MODS": [
+      "put a +1/+1 counter on {TARGET_C}",
+      "put two +1/+1 counters on {TARGET_C}",
+      "move a +1/+1 counter from {TARGET_C} to {TARGET_C2}",
+      "proliferate"
+    ],
+    "TARGET_C": [
+      "target creature you control",
+      "up to one target creature you control"
+    ],
+    "TARGET_C2": [
+      "another target creature you control",
+      "target creature you control"
+    ],
+    "SELF_WORDS": [
+      "this creature",
+      "it",
+      "this permanent"
+    ],
+    "COLOR_WORDS": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "ADAMANT_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "R": [
+      "first strike",
+      "haste",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "C": [
+      "defender"
+    ]
+  }
+}

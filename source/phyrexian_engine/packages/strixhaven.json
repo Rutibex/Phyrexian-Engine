@@ -1,0 +1,837 @@
+{
+  "name": "Strixhaven Comprehensive",
+  "version": "1.0",
+  "created": "2025-10-27T16:25:46.126510Z",
+  "theme": "Colleges of Strixhaven (Lorehold, Prismari, Quandrix, Silverquill, Witherbloom). Focus on spells, 'magecraft', 'learn/lesson', wards, tokens (Pest/Inkling/Fractal/Elemental/Spirit), counters and copying.",
+  "notes": [
+    "This package emphasizes Instants and Sorceries plus creatures that care about them.",
+    "Includes Learn and Lesson patterns; reminder text omitted or paraphrased to keep templates compact.",
+    "Ward appears on creatures and permanents with variable cost expressions.",
+    "Fractals use +1/+1 counters; Inklings fly; Pests refund life when they die; Elementals skew Prismari; Spirits skew Lorehold.",
+    "Modal DFCs are not emitted because the app does not model double-faced cards."
+  ],
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Exile target tapped creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, creatures you control get +{X}/+{X}. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create {X} 1/1 white and black Inkling creature tokens with flying.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Put a +1/+1 counter on up to {X} target creatures. They gain vigilance until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Choose one \u2014 \u2022 Target attacking creature gets +{X}/+{X} \u2022 Destroy target attacking creature with mana value {X} or less.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile target enchantment with mana value {X} or less.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Tap up to {X} target creatures. They don't untap during their controller's next untap step.",
+          2,
+          1,
+          3
+        ],
+        [
+          "You gain {X} life and draw a card. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Counter target spell that targets a permanent you control unless its controller pays {X}.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 2/1 white and black Inkling creature tokens with flying.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy all tapped creatures.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Learn. Then create a 2/1 white and black Inkling creature token with flying.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Put a +1/+1 counter on each of up to {X} target creatures. Learn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on this creature.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Other creatures you control get +{X}/+0.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever a creature you control with counters on it attacks, create a 2/1 white and black Inkling creature token with flying tapped and attacking.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "At the beginning of your end step, if you gained {X} or more life this turn, draw a card.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +{X}/+{X}. Magecraft \u2014 Scry 1.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ],
+        [
+          "At the beginning of combat on your turn, create a 2/1 white and black Inkling creature token with flying.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has ward {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchanted creature has vigilance and \"Magecraft \u2014 This creature gets +1/+1 until end of turn.\"",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this Aura enters the battlefield, learn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice this artifact: Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Spells you cast that target your creatures cost {X} less to cast.",
+          1,
+          1,
+          3
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target noncreature spell unless its controller pays {X}. Magecraft \u2014 Scry 1.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Draw {X} cards.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Copy target instant or sorcery spell with mana value {X} or less. You may choose new targets for the copy.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Tap up to {X} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Conjure a 0/0 green and blue Fractal creature token, then put {X} +1/+1 counters on it.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Learn. Draw {X} cards.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create an X/X blue Elemental creature token.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Look at the top {X} cards of your library. Put up to one of them into your hand and the rest on the bottom in a random order.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Gain control of target nonland permanent with mana value {X} or less.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, scry 1.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever you draw your second card each turn, put a +1/+1 counter on this creature.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{U}, {T}: Copy target instant or sorcery spell you control with mana value {X} or less.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Instant and sorcery spells you cast cost {X} less to cast.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, create a 0/0 green and blue Fractal creature token, then put a +1/+1 counter on it.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{T}: Draw a card\" and ward {X}.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this Aura enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {X}. Spend this mana only to cast instant or sorcery spells.",
+          2,
+          1,
+          3
+        ],
+        [
+          "{T}, Sacrifice this: Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+          1,
+          1,
+          3
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target creature or planeswalker with mana value {X} or less.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target opponent discards {X} cards.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create {X} 1/1 black and green Pest creature tokens with \"When this dies, you gain 1 life.\"",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Learn. Return up to one target creature card from your graveyard to your hand.",
+          2,
+          1,
+          3
+        ],
+        [
+          "All creatures get -{X}/-0 until end of turn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Create a 2/1 white and black Inkling creature token with flying, then each opponent sacrifices a creature.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward\u2014Pay {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Sacrifice another creature: This gets +{X}/+{X} until end of turn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever a Pest you control dies, put a +1/+1 counter on this creature.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses {X} life and you gain {X} life.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Whenever one or more creatures you control die, learn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature deals combat damage to a player, that player discards a card\" and ward\u2014pay {X} life.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this Aura enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice a creature: Draw a card. Learn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{T}: Add {X}. Spend this mana only to cast spells from your graveyard.",
+          1,
+          1,
+          3
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target. Magecraft \u2014 Scry 1.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create {X} 4/4 red and blue Elemental creature tokens with haste. Sacrifice them at the beginning of the next end step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains trample until end of turn. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Gain control of target creature with mana value {X} or less until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile the top {X} cards of your library. Until the end of your next turn, you may play those cards.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create a 4/4 red and blue Elemental creature token with haste.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Learn. This spell deals {X} damage to target creature or planeswalker.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Copy target spell you control with mana value {X} or less.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, this deals 1 damage to any target.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{R}, Sacrifice an artifact: Copy target instant or sorcery spell you control.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Prowess",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Instant and sorcery spells you control have rebound.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, exile the top card of your library. You may play it this turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+0 and has haste and ward {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When this Aura enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {X}. Spend this mana only to cast instant or sorcery spells or to activate abilities of them.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{T}, Sacrifice this: This deals {X} damage to any target. Learn.",
+          1,
+          1,
+          3
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Conjure a 0/0 green and blue Fractal creature token, then put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target creature you control fights up to one target creature you don't control.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Put {X} +1/+1 counters on up to one target creature. It gains trample until end of turn.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 0/0 green and blue Fractal creature tokens. Put a +1/+1 counter on each of them.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Learn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to {X} target creatures.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. Put {X} +1/+1 counters on it.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Creature": [
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, put a +1/+1 counter on target creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ],
+        [
+          "When one or more +1/+1 counters would be placed on a creature you control, that many plus {X} are placed instead.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Fractal creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control enter the battlefield with an additional +1/+1 counter on them.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Magecraft \u2014 Whenever you cast or copy an instant or sorcery spell, you may put a +1/+1 counter on target creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Ward {X}.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has trample and ward {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When this Aura enters the battlefield, learn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {X}. Spend this mana only to cast creature spells or Lessons.",
+          1,
+          1,
+          3
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          1,
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  "cross_color_themes": {
+    "Lorehold_RW": [
+      "Reanimate or recur small creatures; reward sacrificing or exiling your own graveyard; Spirits and historic vibes.",
+      "Token: 3/2 red and white Spirit with haste."
+    ],
+    "Prismari_UR": [
+      "Big spells, copying, impulse draw, Elemental tokens, treasure-like ramp for spells."
+    ],
+    "Quandrix_UG": [
+      "Mathy counters, Fractal tokens, ramp tied to spells, card draw and tempo."
+    ],
+    "Silverquill_WB": [
+      "Pumping your team, flying Inklings, discard and targeted buffs/debuffs, words-as-weapons flavor."
+    ],
+    "Witherbloom_BG": [
+      "Life drain and gain, Pests, sacrifice, graveyard value."
+    ]
+  },
+  "lesson_hooks": {
+    "notes": [
+      "Cards with Learn appear across all colors via Instant/Sorcery and ETB on some creatures.",
+      "Lessons are represented by generic Sorcery templates; the system does not force the 'Lesson' subtype, but these are tuned to feel like Lessons."
+    ],
+    "Sorcery": [
+      [
+        "Learn. Create a 0/0 green and blue Fractal creature token, then put {X} +1/+1 counters on it.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Learn. Destroy target artifact or enchantment.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Learn. Return target creature card with mana value {X} or less from your graveyard to your hand.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Learn. Create a 1/1 black and green Pest creature token with a death trigger that gains 1 life.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Learn. Scry {X}, then draw a card.",
+        2,
+        1,
+        3
+      ],
+      [
+        "Learn. Create a 2/1 white and black Inkling creature token with flying.",
+        2,
+        1,
+        3
+      ]
+    ]
+  }
+}

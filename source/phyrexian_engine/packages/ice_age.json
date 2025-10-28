@@ -1,0 +1,835 @@
+{
+  "name": "ice_age",
+  "version": "1.0.0",
+  "description": "Comprehensive Ice Age mechanics pack: cumulative upkeep, snow-covered land interactions (pre-snow mana symbol), slowtrip cantrips, world enchantments, depletion lands, allied painlands, color hosers, banding, rampage, and era-appropriate effects.",
+  "string_pools": {
+    "WORLD_RULE": [
+      "World — (If another permanent with World is on the battlefield, sacrifice this.)"
+    ],
+    "SLOWTRIP": [
+      "Draw a card at the beginning of the next turn's upkeep."
+    ],
+    "AGE_COUNTER_RULE": [
+      "At the beginning of your upkeep, put an age counter on this permanent. Then you may pay its cumulative upkeep cost for each age counter on it. If you don't, sacrifice it."
+    ],
+    "CUMUP_COST_W": [
+      "{1}",
+      "{2}",
+      "{W}",
+      "{1}{W}",
+      "Pay 2 life",
+      "Sacrifice a creature",
+      "Sacrifice an enchantment"
+    ],
+    "CUMUP_COST_U": [
+      "{1}",
+      "{2}",
+      "{U}",
+      "{1}{U}",
+      "Discard a card",
+      "Exile the top card of your library"
+    ],
+    "CUMUP_COST_B": [
+      "{1}",
+      "{2}",
+      "{B}",
+      "{1}{B}",
+      "Pay 1 life",
+      "Sacrifice a creature",
+      "Exile a card from your graveyard"
+    ],
+    "CUMUP_COST_R": [
+      "{1}",
+      "{2}",
+      "{R}",
+      "{1}{R}",
+      "Discard a card at random",
+      "Sacrifice a land"
+    ],
+    "CUMUP_COST_G": [
+      "{1}",
+      "{2}",
+      "{G}",
+      "{1}{G}",
+      "Sacrifice a Forest",
+      "Exile the top card of your library"
+    ],
+    "TOKEN_SUBTYPE_W": [
+      "Soldier",
+      "Spirit",
+      "Knight"
+    ],
+    "TOKEN_SUBTYPE_U": [
+      "Bird",
+      "Illusion"
+    ],
+    "TOKEN_SUBTYPE_B": [
+      "Zombie",
+      "Skeleton"
+    ],
+    "TOKEN_SUBTYPE_R": [
+      "Goblin",
+      "Elemental"
+    ],
+    "TOKEN_SUBTYPE_G": [
+      "Wolf",
+      "Bear",
+      "Saproling"
+    ],
+    "BASIC_TYPE": [
+      "Plains",
+      "Island",
+      "Swamp",
+      "Mountain",
+      "Forest"
+    ],
+    "SNOW_REFERENCE": [
+      "If you control a Snow-Covered land, {SNOW_BONUS}.",
+      "This spell costs {1} less to cast if you control a Snow-Covered land.",
+      "As long as you control a Snow-Covered land, {SNOW_BONUS}"
+    ],
+    "SNOW_BONUS": [
+      "create a 1/1 Snow [TOKEN_SUBTYPE_G] creature token",
+      "this creature gets +1/+1",
+      "scry 1",
+      "draw a card",
+      "that permanent doesn't untap during its controller's next untap step"
+    ],
+    "HOSER_RED_FROM_BLUE": [
+      "Choose one — Counter target spell if it's red; or destroy target permanent if it's red."
+    ],
+    "HOSER_BLUE_FROM_RED": [
+      "Choose one — Counter target spell if it's blue; or destroy target permanent if it's blue."
+    ],
+    "HOSER_GREEN_FROM_BLACK": [
+      "Destroy target green creature. It can't be regenerated."
+    ],
+    "HOSER_BLACK_FROM_WHITE": [
+      "Exile target black permanent."
+    ],
+    "HOSER_WHITE_FROM_BLACK": [
+      "Target white creature gets -X/-X until end of turn, where X is {N}."
+    ],
+    "BANDING_HELPER": [
+      "Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. You divide combat damage among creatures in a band.)"
+    ],
+    "RAMPAGE_HELPER": [
+      "Rampage {1} (Whenever this creature becomes blocked, it gets +1/+1 until end of turn for each creature blocking it beyond the first.)"
+    ],
+    "ACTIVATED_COST": [
+      "{T}, Pay {1}",
+      "{T}, Sacrifice a creature",
+      "{T}, Discard a card",
+      "{1}, {T}",
+      "{2}, {T}"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Tap target creature",
+      "Target player mills two cards",
+      "Target creature gets +1/+1 until end of turn",
+      "Add {C}{C}",
+      "Add one mana of any color"
+    ],
+    "LOCATION": [
+      "Kjeldor",
+      "Stromgald",
+      "Balduvia",
+      "Krov",
+      "Soldev",
+      "Freyalïs's Realm"
+    ]
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Spirit",
+      "Human"
+    ],
+    "U": [
+      "Wizard",
+      "Bird",
+      "Illusion",
+      "Merfolk",
+      "Human"
+    ],
+    "B": [
+      "Zombie",
+      "Skeleton",
+      "Shade",
+      "Cleric",
+      "Human"
+    ],
+    "R": [
+      "Barbarian",
+      "Goblin",
+      "Giant",
+      "Yeti",
+      "Human"
+    ],
+    "G": [
+      "Druid",
+      "Bear",
+      "Wolf",
+      "Elf",
+      "Beast"
+    ],
+    "C": [
+      "Wall",
+      "Construct",
+      "Golem"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "banding",
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "flying",
+      "shroud"
+    ],
+    "B": [
+      "deathtouch",
+      "regenerate"
+    ],
+    "R": [
+      "haste",
+      "rampage 1"
+    ],
+    "G": [
+      "trample",
+      "rampage 1"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Destroy target attacking creature.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Exile target black permanent. [HOSER_BLACK_FROM_WHITE]",
+          1,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures. If you control a Snow-Covered land, {SNOW_BONUS}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. [SLOWTRIP]",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all enchantments.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Create {X} 1/1 white [TOKEN_SUBTYPE_W] creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Search your library for a Snow-Covered [BASIC_TYPE] card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Target player gains {X} life. [SLOWTRIP]",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[WORLD_RULE]\nCumulative upkeep — [CUMUP_COST_W]\nCreatures can't attack you unless their controller pays {1} for each creature they control that's attacking you.\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_W]\nNoncreature spells cost {1} more to cast.\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has protection from black.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N} and has banding.\n[SLOWTRIP]",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target attacking creature gets -1/-0 until end of turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Vigilance",
+          3,
+          2,
+          5
+        ],
+        [
+          "Banding\n[BANDING_HELPER]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_W]\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Tap target permanent. It doesn't untap during its controller's next untap step.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Return target creature to its owner's hand. [SLOWTRIP]",
+          3,
+          2,
+          4
+        ],
+        [
+          "[HOSER_RED_FROM_BLUE]",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Look at the top {X} cards of your library, put one of them into your hand and the rest on the bottom of your library in any order.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Target player mills {X} cards. If you control a Snow-Covered land, scry 2.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep — {1}\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.\n[AGE_COUNTER_RULE]",
+          2,
+          2,
+          4
+        ],
+        [
+          "[WORLD_RULE]\nCreatures with power 3 or greater don't untap during their controllers' untap steps.\nAt the beginning of each upkeep, that player may pay {2} for each of those creatures to untap them.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature doesn't untap during its controller's untap step.\nAt the beginning of the upkeep of enchanted creature's controller, that player may pay {2}. If the player does, untap that creature.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Scry 1.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Flying",
+          4,
+          2,
+          6
+        ],
+        [
+          "Shroud (This creature can't be the target of spells or abilities.)",
+          1,
+          3,
+          5
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_U]\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target nonblack creature. It can't be regenerated.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target player discards two cards at random.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target creature card from a graveyard. You gain 2 life. [SLOWTRIP]",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each player sacrifices a creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. [SLOWTRIP]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Search your library for a card, then shuffle and put that card on top.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep — [CUMUP_COST_B]\nCreatures get -1/-0.\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ],
+        [
+          "[WORLD_RULE]\nWhenever a creature dies, its controller loses 1 life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets -{N}/-{N}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: Target player discards a card.\" and \"Activate only as a sorcery.\"",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target player loses 1 life and you gain 1 life.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever this creature deals combat damage to a player, that player discards a card at random.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Regenerate this creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_B]\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact.",
+          3,
+          2,
+          5
+        ],
+        [
+          "[HOSER_BLUE_FROM_RED]",
+          2,
+          1,
+          3
+        ],
+        [
+          "Target creature can't block this turn. [SLOWTRIP]",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target land.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 red [TOKEN_SUBTYPE_R] creature tokens. [SLOWTRIP]",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep — [CUMUP_COST_R]\nCreatures can't block.\n[AGE_COUNTER_RULE]",
+          1,
+          4,
+          6
+        ],
+        [
+          "Whenever a player taps a land for mana, this enchantment deals 1 damage to that player unless that land is Snow-Covered.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has \"{T}: This creature deals 1 damage to any target.\"",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste",
+          3,
+          2,
+          5
+        ],
+        [
+          "Rampage 1\n[RAMPAGE_HELPER]",
+          2,
+          3,
+          6
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_R]\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target creature you control fights target creature you don't control. [SLOWTRIP]",
+          2,
+          3,
+          6
+        ],
+        [
+          "Destroy target flying creature. It can't be regenerated.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a [BASIC_TYPE] card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Create a 3/3 green [TOKEN_SUBTYPE_G] creature token. If you control a Snow-Covered land, create two of those tokens instead.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on each creature you control.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep — [CUMUP_COST_G]\nCreatures you control get +1/+1.\n[AGE_COUNTER_RULE]",
+          2,
+          4,
+          6
+        ],
+        [
+          "[WORLD_RULE]\nWhenever a creature becomes tapped, untap it at the beginning of the next end step.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N} and has trample.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Add one mana of any color. Spend this mana only to cast creature spells.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample",
+          3,
+          2,
+          5
+        ],
+        [
+          "Rampage 1\n[RAMPAGE_HELPER]",
+          2,
+          3,
+          6
+        ],
+        [
+          "Cumulative upkeep — [CUMUP_COST_G]\n[AGE_COUNTER_RULE]",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add {C}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Cumulative upkeep — {1}\n[AGE_COUNTER_RULE]\n{T}: Add one mana of any color.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equip {1}\nEquipped creature gets +1/+0 and has first strike.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[WORLD_RULE]\nAt the beginning of each player's upkeep, that player sacrifices a nonbasic land.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.\n{T}: Add {W} or {U}. This land deals 1 damage to you.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{T}: Add {B} or {R}. This land deals 1 damage to you.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{T}: Add {G} or {W}. This land deals 1 damage to you.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {W} or {U}. Put a depletion counter on it.\nThis land doesn't untap during your untap step if it has a depletion counter on it.\nAt the beginning of your upkeep, remove a depletion counter from it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {U} or {B}. Put a depletion counter on it.\nThis land doesn't untap during your untap step if it has a depletion counter on it.\nAt the beginning of your upkeep, remove a depletion counter from it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {B} or {R}. Put a depletion counter on it.\nThis land doesn't untap during your untap step if it has a depletion counter on it.\nAt the beginning of your upkeep, remove a depletion counter from it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {R} or {G}. Put a depletion counter on it.\nThis land doesn't untap during your untap step if it has a depletion counter on it.\nAt the beginning of your upkeep, remove a depletion counter from it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {G} or {W}. Put a depletion counter on it.\nThis land doesn't untap during your untap step if it has a depletion counter on it.\nAt the beginning of your upkeep, remove a depletion counter from it.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}.\n{1}, {T}: Add one mana of any color. Activate only if you control a Snow-Covered land.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

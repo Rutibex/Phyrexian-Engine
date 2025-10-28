@@ -1,0 +1,1878 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Kithkin (When this enters the battlefield, sacrifice it unless you exile another Kithkin you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Giant (When this enters the battlefield, sacrifice it unless you exile another Giant you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          6,
+          1,
+          3
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, clash with an opponent. If you win, {CLASH_REWARD}.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap up to two target creatures. Clash with an opponent. If you win, those creatures don't untap during their controllers' next untap steps.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Clash with an opponent. If you win, create a 1/1 Kithkin creature token.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Tap up to two target creatures. Clash with an opponent. If you win, those creatures don't untap during their controllers' next untap steps.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Clash with an opponent. If you win, create a 1/1 Kithkin creature token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Create two 1/1 Kithkin creature tokens.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Tap up to two target creatures.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Other Kithkin you control get +1/+1 and have vigilance.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Land": [],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2. As long as you control another Kithkin, it has vigilance.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Enchant Kithkin or Shapeshifter\nEnchanted creature gets +2/+2 and has '{TRIGGER_INTRO} this attacks, {CLASH_REWARD}.'",
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Merfolk (When this enters the battlefield, sacrifice it unless you exile another Merfolk you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Faerie (When this enters the battlefield, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          6,
+          1,
+          3
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, clash with an opponent. If you win, {CLASH_REWARD}.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Merfolk you control get +1/+1 and have islandwalk.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Faeries you control get +1/+1 and have flying.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Return target nonland permanent to its owner's hand. Clash with an opponent. If you win, draw a card.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {N}. Clash with an opponent. If you win, counter that spell.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Tap or untap target permanent.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Draw two cards, then discard a card.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {N}. If you control a Faerie, counter that spell instead.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Tap up to two target creatures. If you control a Merfolk, those creatures don't untap during their controllers' next untap steps.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target nonland permanent to its owner's hand. Clash with an opponent. If you win, draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {N}. Clash with an opponent. If you win, counter that spell.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Land": [],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2. As long as you control another Merfolk, it has vigilance.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Enchant Merfolk or Shapeshifter\nEnchanted creature gets +2/+2 and has '{TRIGGER_INTRO} this attacks, {CLASH_REWARD}.'",
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Faerie (When this enters the battlefield, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Elf (When this enters the battlefield, sacrifice it unless you exile another Elf you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          6,
+          1,
+          3
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, clash with an opponent. If you win, {CLASH_REWARD}.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Faeries you control get +1/+1 and have fear.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Elves you control get +1/+1. {TRIGGER_INTRO} an Elf enters the battlefield under your control, each opponent loses 1 life and you gain 1 life.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn. Clash with an opponent. If you win, destroy that creature.",
+          6,
+          1,
+          3
+        ],
+        [
+          "{OPPONENT_OR_PLAYER} discards a card. Clash with an opponent. If you win, they discard two cards instead.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Destroy target nonblack creature. If you control a Faerie, you gain 2 life.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn. Clash with an opponent. If you win, destroy that creature.",
+          5,
+          3,
+          5
+        ],
+        [
+          "{OPPONENT_OR_PLAYER} discards a card. Clash with an opponent. If you win, they discard two cards instead.",
+          5,
+          3,
+          5
+        ],
+        [
+          "{OPPONENT_OR_PLAYER} loses {N} life and you gain {N} life.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          6,
+          1,
+          3
+        ],
+        [
+          "{OPPONENT_OR_PLAYER} discards two cards.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Land": [],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2. As long as you control another Faerie, it has vigilance.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Enchant Faerie or Shapeshifter\nEnchanted creature gets +2/+2 and has '{TRIGGER_INTRO} this attacks, {CLASH_REWARD}.'",
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Goblin (When this enters the battlefield, sacrifice it unless you exile another Goblin you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Giant (When this enters the battlefield, sacrifice it unless you exile another Giant you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          6,
+          1,
+          3
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, clash with an opponent. If you win, {CLASH_REWARD}.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Goblins you control get +1/+1 and have haste.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Giants you control get +1/+1. {TRIGGER_INTRO} a Giant you control attacks, it deals 1 damage to each creature defending player controls.",
+          3,
+          5,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {N} damage to any target. Clash with an opponent. If you win, this deals {N} damage to another target.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Create two 1/1 Goblin creature tokens. Clash with an opponent. If you win, those tokens gain haste until end of turn.",
+          6,
+          1,
+          3
+        ],
+        [
+          "This spell deals {N} damage to any target. If you control a Goblin, it deals that much damage plus 1 instead.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {N} damage to any target. Clash with an opponent. If you win, this deals {N} damage to another target.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Create two 1/1 Goblin creature tokens. Clash with an opponent. If you win, those tokens gain haste until end of turn.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Create two 1/1 Goblin creature tokens with haste.",
+          6,
+          1,
+          3
+        ],
+        [
+          "This spell deals {N} damage to any target.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Land": [],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2. As long as you control another Goblin, it has vigilance.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Enchant Goblin or Shapeshifter\nEnchanted creature gets +2/+2 and has '{TRIGGER_INTRO} this attacks, {CLASH_REWARD}.'",
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Elf (When this enters the battlefield, sacrifice it unless you exile another Elf you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Treefolk (When this enters the battlefield, sacrifice it unless you exile another Treefolk you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          6,
+          1,
+          3
+        ],
+        [
+          "Evoke {EVOKE_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, you gain {N} life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, destroy target nonland permanent with mana value {N} or less.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, target creature gets -{N}/-{N} until end of turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, this deals {N} damage to any target.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          5,
+          1,
+          3
+        ],
+        [
+          "When this enters the battlefield, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, clash with an opponent. If you win, {CLASH_REWARD}.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Other Elves you control get +1/+1. {TRIGGER_INTRO} you cast an Elf spell, add {G}.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Treefolk you control have reach and get +0/+2.",
+          5,
+          5,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. Clash with an opponent. If you win, put a +1/+1 counter on it.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Clash with an opponent. If you win, untap that land.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +{N}/+{N} and gains trample until end of turn. If you control a Treefolk, put a +1/+1 counter on that creature.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. Clash with an opponent. If you win, put a +1/+1 counter on it.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Clash with an opponent. If you win, untap that land.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +{N}/+{N} until end of turn.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          6,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Other {TRIBE_PLURAL} you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever another {TRIBE_SINGULAR} enters the battlefield under your control, {CLASH_REWARD}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever this deals combat damage to a player, look at the top card of your library. If it is a {TRIBE_SINGULAR} card, you may reveal it and put it into your hand.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap an untapped {TRIBE_SINGULAR} you control: Add one mana of any color.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Tap three untapped {TRIBE_PLURAL} you control: Draw a card.",
+          3,
+          3,
+          5
+        ],
+        [
+          "As long as you control another {TRIBE_SINGULAR}, this gets +2/+2 and has vigilance.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control three or more {TRIBE_PLURAL}, create a 1/1 {TRIBE_SINGULAR} creature token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [],
+      "Land": [],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2. As long as you control another Elf, it has vigilance.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Enchant Elf or Shapeshifter\nEnchanted creature gets +2/+2 and has '{TRIGGER_INTRO} this attacks, {CLASH_REWARD}.'",
+          4,
+          3,
+          5
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          6,
+          1,
+          3
+        ],
+        [
+          "Changeling (This card is every creature type.)",
+          4,
+          3,
+          5
+        ],
+        [
+          "Champion a Elemental (When this enters the battlefield, sacrifice it unless you exile another Elemental you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ],
+        [
+          "Champion a Shapeshifter (When this enters the battlefield, sacrifice it unless you exile another Shapeshifter you control. When this leaves the battlefield, that card returns to the battlefield.)",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this attacks, return the creature it championed to the battlefield tapped and attacking. Sacrifice it at end of combat.",
+          2,
+          5,
+          8
+        ]
+      ],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +2/+0 and has haste. As long as you control another Goblin, it gets an additional +1/+0.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Equipment — Equipped creature gets +0/+2 and has vigilance. As long as you control another Kithkin, it has first strike.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This enters the battlefield tapped with two charge counters on it.\n{T}: Add {C}.\nRemove a charge counter from this: Add one mana of any color.",
+          8,
+          0,
+          0
+        ],
+        [
+          "Hideaway 4 (When this land enters the battlefield, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)\n{T}: Add {C}.\nYou may play the exiled card without paying its mana cost if {HIDEAWAY_COND}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "Kithkin Encampment — {T}: Add {W}. {W},{T}: Target Kithkin gets +1/+1 until end of turn.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Faerie Glen — {T}: Add {U}. {U},{T}: Target Faerie gains shroud until end of turn.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Elvish Grove — {T}: Add {G}. {G},{T}: Create a 1/1 Elf creature token. Activate only as a sorcery.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Giant's Steading — {T}: Add {R}. {R},{T}: Target Giant you control gains trample until end of turn.",
+          4,
+          0,
+          0
+        ],
+        [
+          "Merrow School — {T}: Add {U}. {1},{T}: Tap target creature. Activate only if you control a Merfolk.",
+          4,
+          0,
+          0
+        ]
+      ],
+      "Aura": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kithkin",
+      "Giant",
+      "Elemental",
+      "Shapeshifter",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Spirit"
+    ],
+    "U": [
+      "Merfolk",
+      "Faerie",
+      "Elemental",
+      "Shapeshifter",
+      "Wizard",
+      "Illusion",
+      "Rogue"
+    ],
+    "B": [
+      "Faerie",
+      "Elf",
+      "Goblin",
+      "Elemental",
+      "Shapeshifter",
+      "Assassin",
+      "Horror",
+      "Rogue",
+      "Shaman"
+    ],
+    "R": [
+      "Goblin",
+      "Giant",
+      "Elemental",
+      "Shapeshifter",
+      "Warrior",
+      "Shaman",
+      "Berserker"
+    ],
+    "G": [
+      "Elf",
+      "Treefolk",
+      "Elemental",
+      "Shapeshifter",
+      "Warrior",
+      "Shaman",
+      "Spider"
+    ],
+    "C": [
+      "Shapeshifter",
+      "Construct",
+      "Scarecrow",
+      "Golem"
+    ],
+    "any": [
+      "Kithkin",
+      "Merfolk",
+      "Faerie",
+      "Elf",
+      "Goblin",
+      "Giant",
+      "Treefolk",
+      "Elemental",
+      "Shapeshifter",
+      "Wizard",
+      "Warrior",
+      "Rogue",
+      "Shaman",
+      "Soldier",
+      "Assassin",
+      "Illusion",
+      "Horror",
+      "Spirit",
+      "Avatar",
+      "Spider"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When this enters the battlefield,",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "TRIBE_SINGULAR": [
+      "Kithkin",
+      "Merfolk",
+      "Faerie",
+      "Elf",
+      "Goblin",
+      "Giant",
+      "Treefolk",
+      "Elemental",
+      "Shapeshifter"
+    ],
+    "TRIBE_PLURAL": [
+      "Kithkin",
+      "Merfolk",
+      "Faeries",
+      "Elves",
+      "Goblins",
+      "Giants",
+      "Treefolk",
+      "Elementals",
+      "Shapeshifters"
+    ],
+    "CHAMPION_TYPE": [
+      "Kithkin",
+      "Merfolk",
+      "Faerie",
+      "Elf",
+      "Goblin",
+      "Giant",
+      "Treefolk",
+      "Elemental"
+    ],
+    "EVOKE_COST": [
+      "{1}{W}",
+      "{W}",
+      "{2}{W}",
+      "{1}{U}",
+      "{U}",
+      "{2}{U}",
+      "{1}{B}",
+      "{B}",
+      "{2}{B}",
+      "{1}{R}",
+      "{R}",
+      "{2}{R}",
+      "{1}{G}",
+      "{G}",
+      "{2}{G}",
+      "{3}",
+      "{2}",
+      "{4}"
+    ],
+    "CLASH_REWARD": [
+      "draw a card",
+      "scry 2, then draw a card",
+      "create a 1/1 Faerie creature token with flying",
+      "put a +1/+1 counter on each {TRIBE_SINGULAR} you control",
+      "return this card to its owner's hand",
+      "untap up to two target lands",
+      "this creature deals damage equal to its power to any target",
+      "tap up to two target permanents",
+      "exile target nonland permanent with mana value 3 or less"
+    ],
+    "HIDEAWAY_COND": [
+      "you attacked with three or more creatures this turn",
+      "an opponent was dealt 7 or more damage this turn",
+      "you control creatures with total power 10 or greater",
+      "a library has twenty or fewer cards in it",
+      "each player has no cards in hand"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Kithkin",
+      "Merfolk",
+      "Faerie",
+      "Elf",
+      "Goblin",
+      "Giant",
+      "Treefolk",
+      "Elemental",
+      "Shapeshifter",
+      "Warrior",
+      "Wizard",
+      "Rogue",
+      "Shaman",
+      "Soldier",
+      "Horror",
+      "Illusion",
+      "Avatar",
+      "Spider"
+    ],
+    "PERMANENT_TYPE": [
+      "creature",
+      "artifact",
+      "enchantment",
+      "land",
+      "nonland permanent",
+      "permanent"
+    ],
+    "OPPONENT_OR_PLAYER": [
+      "an opponent",
+      "target opponent",
+      "each opponent",
+      "target player"
+    ],
+    "COUNTER_TYPE": [
+      "+1/+1",
+      "charge",
+      "loyalty",
+      "time"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "shroud",
+      "islandwalk"
+    ],
+    "B": [
+      "fear",
+      "deathtouch",
+      "flying"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace",
+      "mountainwalk"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "forestwalk",
+      "shroud"
+    ],
+    "C": [
+      "changeling"
+    ]
+  }
+}

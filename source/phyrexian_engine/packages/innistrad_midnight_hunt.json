@@ -1,0 +1,1075 @@
+{
+  "name": "Innistrad: Midnight Hunt (Comprehensive)",
+  "code": "IMH",
+  "description": "A large ad-lib template pack inspired by Innistrad: Midnight Hunt. Includes daybound/nightbound, disturb, coven, decayed Zombies, Clues/investigate, flashback, curses, and werewolf synergies.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance. Coven — At the beginning of combat on your turn, if you control three or more creatures with different powers, {THIS} gets +{X}/+{X} until end of turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Daybound. When {THIS} enters the battlefield, create a 1/1 white Human creature token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever day becomes night or night becomes day, put a +1/+1 counter on each creature you control.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Coven — Whenever {THIS} attacks, if you control three or more creatures with different powers, tap target creature an opponent controls.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Disturb {X}{W} (You may cast this card from your graveyard transformed for its disturb cost.)",
+          3,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +1/+1. Coven — Those creatures also gain lifelink until end of turn if you control three or more creatures with different powers.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Flash. When {THIS} enters the battlefield, exile target attacking creature until {THIS} leaves the battlefield.",
+          3,
+          3,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, you gain {X} life.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Daybound. As long as it's night, {THIS} has first strike.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever another creature enters the battlefield under your control, if it's day, you may tap target creature an opponent controls.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Coven — {1}{W}, Sacrifice {THIS}: Exile target artifact or enchantment. Activate only if you control three or more creatures with different powers.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking creature. Coven — If you control three or more creatures with different powers, scry {X}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Creatures you control get +{X}/+{X} until end of turn.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Destroy target attacking or blocking creature.",
+          3,
+          3,
+          5
+        ],
+        [
+          "You gain {X} life. Draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. Untap it. Prevent all damage that would be dealt to it this turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{W}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "It becomes day. You may tap up to two target creatures.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target nonland permanent with mana value {X} or less.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Human creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Exile target creature with power {X} or greater.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Coven — Choose up to one target artifact, one target enchantment, and one target creature. Destroy those permanents if you control three or more creatures with different powers.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Search your library for a Plains card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          4
+        ],
+        [
+          "It becomes day. Put a +1/+1 counter on each of up to {X} target creatures.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Flashback {X}{W}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Coven — At the beginning of combat on your turn, if you control three or more creatures with different powers, creatures you control get +1/+0 until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever day becomes night or night becomes day, you gain {X} life.",
+          2,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, it becomes day. Then you may put a +1/+1 counter on target creature you control.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Curse — Enchant player. Creatures enchanted player controls enter the battlefield tapped.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Creatures you control have vigilance. Coven — They also have lifelink as long as you control three or more creatures with different powers.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+{X}. Coven — As long as you control three or more creatures with different powers, it has vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Enchant creature. When enchanted creature dies, return it to the battlefield tapped under its owner's control.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Enchant creature. Prevent all damage that would be dealt to enchanted creature.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipped creature gets +{X}/+{0}. Equip {X}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever day becomes night or night becomes day, put a charge counter on {THIS}. Remove three charge counters from {THIS}: Draw a card.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Whenever day becomes night or night becomes day, untap equipped creature. Equip {X}.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {W}. Daybound. As long as it's night, creatures you control have vigilance.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {W}. When {THIS} enters the battlefield, it becomes day.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flash. Disturb {X}{U}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, investigate. (Create a Clue token with \"{2}, Sacrifice this artifact: Draw a card.\")",
+          3,
+          2,
+          4
+        ],
+        [
+          "Prowess. Coven — Whenever you cast your second spell each turn, if you control three or more creatures with different powers, draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Daybound. When {THIS} becomes nightbound, tap up to one target creature. It doesn't untap during its controller's next untap step.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Disturb {X}{U}. This spell's disturb side is an Aura with enchant creature. Enchanted creature has flying and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          4,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Clue, Surveil 1, then draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Ward {X}.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Investigate.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Draw {X} cards.",
+          2,
+          4,
+          6
+        ],
+        [
+          "It becomes night. Look at the top {X} cards of your library, then put any number of them into your graveyard and the rest back in any order.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{U}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Counter target spell with mana value {X} or less. If it's night, draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Target creature gets -3/-0 until end of turn. Investigate.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Investigate {X} times.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Mill {X} cards, then you may return a creature card with disturb from your graveyard to your hand.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Exile target tapped creature. Its controller investigates.",
+          2,
+          3,
+          5
+        ],
+        [
+          "It becomes night. Draw two cards.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Flashback {X}{U}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast your second spell each turn, investigate.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Daybound. At the beginning of your end step, if it's night, draw a card, then discard a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Curse — Enchant player. Whenever enchanted player casts a spell, that player mills two cards.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Curse — Enchant player. Whenever enchanted player draws their second card each turn, they mill two cards.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has flying and \"Whenever this creature deals combat damage to a player, investigate.\"",
+          2,
+          3,
+          5
+        ],
+        [
+          "Enchant creature. When enchanted creature dies, return it to the battlefield under its owner's control with a -1/-1 counter on it.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Clues you control have \"{1}, Sacrifice this artifact: Draw a card.\" in addition to their other abilities.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever you sacrifice a Clue, put a +1/+1 counter on target creature you control.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {U}. Whenever day becomes night or night becomes day, surveil 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {U}. {2}{U}, {T}: Investigate.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace. When {THIS} enters the battlefield, create a 2/2 black Zombie creature token with decayed.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Sacrifice another creature: {THIS} gets +{X}/+{0} until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever a creature you control with decayed attacks, each opponent loses 1 life and you gain 1 life.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Disturb {X}{B}. When this permanent is put into a graveyard from the battlefield, exile it.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Daybound. As long as it's night, {THIS} has deathtouch.",
+          2,
+          3,
+          5
+        ],
+        [
+          "At the beginning of each end step, if a creature died this turn, put a +1/+1 counter on {THIS}.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn. You gain X life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target creature. You lose {X} life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token with decayed.",
+          3,
+          3,
+          5
+        ],
+        [
+          "It becomes night. Each opponent loses 2 life and you gain 2 life.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{B}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 2/2 black Zombie creature tokens with decayed.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. It becomes a Zombie in addition to its other types.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. If you sacrificed a decayed creature this turn, you draw a card and lose 1 life.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Target opponent discards two cards. You investigate.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{B}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Each opponent loses X life and you gain X life, where X is the number of creature cards in your graveyard.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return up to one target creature card with disturb from your graveyard to the battlefield transformed.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Curse — Enchant player. At the beginning of enchanted player's upkeep, that player loses {X} life unless they sacrifice a creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature you control dies, investigate.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Zombie creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Curse — Enchant player. Whenever a creature dies, enchanted player loses 1 life.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets -{X}/-0 and has decayed.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Enchant creature. When enchanted creature dies, return that card to the battlefield under your control. It’s a black Zombie in addition to its other types.",
+          3,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever one or more creature cards leave your graveyard, create a 2/2 black Zombie creature token with decayed.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {B}. {1}{B}, {T}, Pay 1 life: Create a 2/2 black Zombie creature token with decayed. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {B}. When {THIS} enters the battlefield, each opponent loses 1 life if it's night.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has menace. Whenever a creature you control dies, you may attach {THIS} to a creature you control. Equip {X}.",
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. Daybound. When {THIS} becomes nightbound, {THIS} gets +{X}/+0 until end of turn.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast an instant or sorcery spell, {THIS} deals 1 damage to each opponent.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Pack tactics — Whenever {THIS} attacks with creatures with total power 6 or greater, it deals {X} damage to any target.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever day becomes night or night becomes day, exile the top card of your library. You may play it this turn.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{R}. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {X} damage to any target.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 and gain trample until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. Daybound.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          4
+        ],
+        [
+          "It becomes day. {THIS} deals 2 damage to each creature without flying.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{R}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gains +X/+0 and gains \"When this creature dies, it deals damage equal to its power to any target\" until end of turn.",
+          2,
+          4,
+          6
+        ],
+        [
+          "It becomes day. Exile the top card of your library. You may play that card until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{THIS} deals {X} damage divided as you choose among up to three targets.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Exile the top two cards of your library. You may play those cards this turn. Nightbound.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Create two 2/2 black Zombie creature tokens with decayed.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Sacrifice a creature: {THIS} deals 3 damage to any target. If a Zombie was sacrificed this way, draw a card.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{R}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Curse — Enchant player. Whenever enchanted player is dealt damage, create a 2/2 black Zombie creature token with decayed.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Daybound. At the beginning of your upkeep, if it's night, {THIS} deals {X} damage to any target.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have haste. Whenever day becomes night or night becomes day, scry 1.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Curse — Enchant player. Creatures enchanted player controls attack each combat if able.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+0 and has haste.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature has \"{T}: {THIS} deals 1 damage to any target.\" If it's night, it deals 2 damage instead.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast an instant or sorcery spell with flashback, {THIS} deals 1 damage to each opponent.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {R}. Whenever it becomes day, add {R}{R} at the beginning of your precombat main phase.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {R}. {2}{R}, {T}: {THIS} deals 1 damage to any target. If it's night, it deals 2 damage instead.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Whenever day becomes night or night becomes day, equipped creature gains first strike until end of turn. Equip {X}.",
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. Coven — At the beginning of combat on your turn, if you control three or more creatures with different powers, {THIS} gets +{X}/+{X} until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Daybound. As long as it's night, {THIS} has hexproof.",
+          2,
+          3,
+          5
+        ],
+        [
+          "When {THIS} enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Disturb {X}{G}. When this permanent is put into a graveyard from the battlefield, exile it.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Whenever you sacrifice a Clue, put a +1/+1 counter on each creature you control.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Coven — Whenever {THIS} attacks, untap up to {X} target creatures you control.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever a creature you control with power 4 or greater enters the battlefield, investigate.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Daybound. Wolves and Werewolves you control have trample.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          4
+        ],
+        [
+          "It becomes day. Put a +1/+1 counter on target creature, then that creature fights up to one target creature you don't control.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Flashback {X}{G}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put them into your hand, then shuffle.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create a 2/2 green Wolf creature token. If it's night, create two of those tokens instead.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Put {X} +1/+1 counters on target creature. It gains reach until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Flashback {X}{G}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Daybound. Creatures you control get +1/+1 as long as it's night.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Coven — At the beginning of combat on your turn, if you control three or more creatures with different powers, creatures you control get +1/+1 until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you cast a creature spell, investigate.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Creatures you control have \"Sacrifice this creature: Add {G}. Activate only if it's night.\"",
+          2,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +{X}/+{X} and has trample.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature has hexproof as long as it's night.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Wolves and Werewolves you control get +1/+1.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Whenever day becomes night or night becomes day, add {G}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {G}. Wolves and Werewolves you control get +1/+0 as long as it's night.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {G}. {2}{G}, {T}: Create a 2/2 green Wolf creature token. Activate only if it's night.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Clue (It's an artifact with \"{2}, Sacrifice this artifact: Draw a card.\")",
+          2,
+          2,
+          4
+        ],
+        [
+          "Daybound. {T}: Add one mana of any color. If it's night, add two mana of any one color instead.",
+          2,
+          3,
+          5
+        ],
+        [
+          "{T}, Sacrifice {THIS}: It becomes day or night. Draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{3}, {T}: Create a 2/2 black Zombie creature token with decayed. Activate only if you control a Zombie.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you sacrifice a Clue, put a +1/+1 counter on up to one target creature and scry 1.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Daybound. Whenever you cast a spell with flashback, investigate.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever day becomes night or night becomes day, create a 1/1 white Human creature token.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever one or more Zombies you control attack, create a tapped 2/2 black Zombie creature token with decayed.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "It becomes night. Then investigate {X} times.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Exile up to one target artifact, one target enchantment, and one target graveyard card. Investigate.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Choose one — It becomes day; or it becomes night. Draw a card.",
+          3,
+          2,
+          4
+        ]
+      ]
+    }
+  }
+}

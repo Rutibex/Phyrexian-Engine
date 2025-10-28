@@ -1,0 +1,2356 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Changeling (This card is every creature type.)",
+          3,
+          1,
+          7
+        ],
+        [
+          "Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, {KINSHIP_EFFECT}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Other {CLASS_TYPE} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Whenever another {CLASS_TYPE} enters the battlefield under your control, put a +1/+1 counter on this creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "This creature has first strike as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has hexproof as long as you control another {WIZARD_TRIBE}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "This creature has menace as long as you control another {ROGUE_TRIBE}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature has trample as long as you control another {WARRIOR_TRIBE}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "This creature has lifelink as long as you control another {SOLDIER_TRIBE}.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} you tap an untapped {TRIBE} you control, {ACTIVATED_EFFECT}",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, {TRIBE} spells you cast this turn cost {1} less to cast.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When this creature enters the battlefield, create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {TRIBE} you control dies, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another {WARRIOR_TRIBE} enters the battlefield under your control, if that creature entered with a +1/+1 counter on it, that creature gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Each other {WARRIOR_TRIBE} creature you control enters the battlefield with an additional +1/+1 counter on it.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast an instant or sorcery spell, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cast a {WIZARD_TRIBE} spell, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a {ROGUE_TRIBE} you control deals combat damage to a player, that player mills {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature deals combat damage to a player, search that player's graveyard, hand, and library for up to {N} cards with the same name as a nonland card and exile them. Then that player shuffles.",
+          1,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a creature dies, untap this creature.",
+          1,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} this creature becomes tapped, it deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks with at least two other creatures, create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token tapped and attacking.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Choose a creature type. Draw a card for each permanent you control of that type.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Put two +1/+1 counters on target {TRIBE} you control. Creatures you control that share a creature type with it gain vigilance until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put {N} +1/+1 counters on target creature. If it shares a creature type with a creature you control, put an additional +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn. If it shares a creature type with a creature you control, it gains first strike until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control a {WIZARD_TRIBE}, scry {N}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 {TOKEN_COLOR} {ROGUE_TRIBE} creature tokens. If a {ROGUE_TRIBE} you control dealt combat damage to a player this turn, create three of those tokens instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this spell for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.) If this spell's prowl cost was paid, {PROWL_BONUS}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target {TRIBE} you control phases out. Draw a card.",
+          1,
+          1,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} you lose 1 life and create a 1/1 black Faerie Rogue creature token with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIBE} creatures you control get +1/+1.",
+          2,
+          3,
+          7
+        ],
+        [
+          "As this enters the battlefield, choose a creature type. {TRIBE} creatures you control have vigilance and '{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.'",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "As this enters the battlefield, choose a creature type. Equipped and enchanted creatures of the chosen type get +{N}/+{N}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} a {TRIBE} you control becomes tapped, this deals 1 damage to any target.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+1 and has haste. Whenever a {WARRIOR_TRIBE} enters the battlefield under your control, you may attach this to it. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has '{TRIGGER_INTRO} a creature dies, untap equipped creature.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {WIZARD_TRIBE} gets +1/+1 and has '{ACTIVATED_COST}: Draw a card, then discard a card.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipped {ROGUE_TRIBE} gets +1/+0 and has menace. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SOLDIER_TRIBE} gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipped {SHAMAN_TRIBE} has '{ACTIVATED_COST}: This creature deals 1 damage to any target.' Equip {EQUIP_COST}.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant {TRIBE} creature. Enchanted creature gets +{N}/+{N} and has vigilance.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is every creature type in addition to its other types.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 for each creature you control that shares a creature type with it.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "Reinforce {N}—{ACTIVATED_COST} (Discard this card: Put {N} +1/+1 counters on target creature.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "Prowl {ACTIVATED_COST} (You may cast this for its prowl cost if you dealt combat damage to a player this turn with a {ROGUE_TRIBE}.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WIZARD_TRIBE} you control gains hexproof until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: This creature deals 1 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target {WARRIOR_TRIBE} gets +1/+0 and gains first strike until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 {TOKEN_COLOR} {SOLDIER_TRIBE} creature token.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target {ROGUE_TRIBE} can't be blocked this turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As this enters the battlefield, you may reveal a Treefolk card from your hand. If you don't, this enters the battlefield tapped.",
+          3,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. {TRIBE} spells you cast cost {1} less to cast this turn. Activate only once each turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast a {TRIBE} spell or activate an ability of a {TRIBE}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kithkin",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Spirit",
+      "Giant",
+      "Human"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Faerie",
+      "Rogue",
+      "Shapeshifter",
+      "Human"
+    ],
+    "B": [
+      "Faerie",
+      "Rogue",
+      "Assassin",
+      "Shaman",
+      "Zombie",
+      "Human",
+      "Goblin"
+    ],
+    "R": [
+      "Goblin",
+      "Warrior",
+      "Shaman",
+      "Elemental",
+      "Giant",
+      "Human"
+    ],
+    "G": [
+      "Elf",
+      "Warrior",
+      "Shaman",
+      "Treefolk",
+      "Beast",
+      "Human"
+    ],
+    "any": [
+      "Advisor",
+      "Archer",
+      "Artificer",
+      "Assassin",
+      "Bear",
+      "Berserker",
+      "Bird",
+      "Cat",
+      "Cleric",
+      "Dragon",
+      "Druid",
+      "Elemental",
+      "Elf",
+      "Faerie",
+      "Fungus",
+      "Giant",
+      "Goblin",
+      "Kithkin",
+      "Knight",
+      "Merfolk",
+      "Monk",
+      "Ninja",
+      "Rebel",
+      "Rogue",
+      "Saproling",
+      "Scout",
+      "Shaman",
+      "Shapeshifter",
+      "Sliver",
+      "Soldier",
+      "Spirit",
+      "Treefolk",
+      "Warrior",
+      "Wizard",
+      "Zombie"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flash",
+      "flying"
+    ],
+    "B": [
+      "deathtouch",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "changeling"
+    ]
+  },
+  "string_pools": {
+    "CLASS_TYPE": [
+      "Warrior",
+      "Wizard",
+      "Rogue",
+      "Shaman",
+      "Soldier"
+    ],
+    "TRIBE": [
+      "Elf",
+      "Merfolk",
+      "Faerie",
+      "Giant",
+      "Elemental",
+      "Goblin",
+      "Kithkin",
+      "Treefolk",
+      "Shapeshifter",
+      "Goblin Rogue",
+      "Elf Warrior",
+      "Merfolk Wizard",
+      "Faerie Rogue",
+      "Giant Warrior",
+      "Elemental Shaman",
+      "Kithkin Soldier",
+      "Treefolk Shaman"
+    ],
+    "ROGUE_TRIBE": [
+      "Rogue",
+      "Faerie Rogue",
+      "Goblin Rogue",
+      "Merfolk Rogue",
+      "Human Rogue",
+      "Elf Rogue"
+    ],
+    "WARRIOR_TRIBE": [
+      "Warrior",
+      "Giant Warrior",
+      "Elf Warrior",
+      "Goblin Warrior",
+      "Human Warrior"
+    ],
+    "WIZARD_TRIBE": [
+      "Wizard",
+      "Merfolk Wizard",
+      "Elf Wizard",
+      "Faerie Wizard",
+      "Human Wizard"
+    ],
+    "SHAMAN_TRIBE": [
+      "Shaman",
+      "Elemental Shaman",
+      "Treefolk Shaman",
+      "Goblin Shaman",
+      "Human Shaman"
+    ],
+    "SOLDIER_TRIBE": [
+      "Soldier",
+      "Kithkin Soldier",
+      "Human Soldier",
+      "Merfolk Soldier",
+      "Elf Soldier"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "X": [
+      "1",
+      "2",
+      "3"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Warrior",
+      "Wizard",
+      "Rogue",
+      "Shaman",
+      "Soldier",
+      "Faerie",
+      "Elf",
+      "Merfolk",
+      "Goblin",
+      "Elemental",
+      "Treefolk",
+      "Kithkin",
+      "Construct",
+      "Illusion"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "deals combat damage to a player",
+      "dies",
+      "becomes tapped",
+      "attacks"
+    ],
+    "ACTIVATED_COST": [
+      "{1}{C}",
+      "{2}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}{C}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{2}{C}"
+    ],
+    "KINSHIP_EFFECT": [
+      "put a +1/+1 counter on this creature",
+      "draw a card",
+      "this creature gets +2/+2 until end of turn",
+      "tap target creature an opponent controls",
+      "this creature deals 1 damage to any target",
+      "create a 1/1 {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "scry 2"
+    ],
+    "PROWL_BONUS": [
+      "that player discards a card",
+      "create two 1/1 black Faerie Rogue creature tokens with flying",
+      "copy this spell. You may choose new targets for the copy",
+      "exile up to {N} target cards from that player's graveyard",
+      "draw two cards",
+      "creatures you control gain menace until end of turn"
+    ]
+  }
+}

@@ -1,0 +1,1343 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Creatures you control get +1/+0 until end of turn. {BATTLE_CRY_LINE}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Exile target tapped creature. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gains battle cry until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Return target Equipment card from your graveyard to the battlefield.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create a {N}/{N} white Soldier creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. {PROLIFERATE_TAG}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Creatures you control get +1/+0 until end of turn. {BATTLE_CRY_LINE}",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Exile target tapped creature. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gains battle cry until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Return target Equipment card from your graveyard to the battlefield.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Create a {N}/{N} white Soldier creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. {PROLIFERATE_TAG}",
+          2,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ],
+        [
+          "Create three 1/1 colorless Myr artifact creature tokens.",
+          1,
+          4,
+          3
+        ],
+        [
+          "Create three 1/1 colorless Myr artifact creature tokens.",
+          1,
+          4,
+          4
+        ],
+        [
+          "Create three 1/1 colorless Myr artifact creature tokens.",
+          1,
+          4,
+          5
+        ],
+        [
+          "Create three 1/1 colorless Myr artifact creature tokens.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Create three 1/1 colorless Myr artifact creature tokens.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have battle cry.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment you control have equip {1}.",
+          2,
+          2,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} has \"{T}: Create a 1/1 colorless Myr artifact creature token.\"",
+          2,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Target creature gains vigilance until end of turn.",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has battle cry.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} enchanted creature gets +2/+2 and has first strike.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has battle cry. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target artifact or creature to its owner's hand. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains infect until end of turn. Draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Counter target spell unless its controller pays {X}. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target artifact or creature to its owner's hand. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains infect until end of turn. Draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifacts you control have hexproof.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Proliferate.",
+          3,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, if you proliferated this turn, draw a card.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Proliferate.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"Whenever this creature deals combat damage to a player, proliferate.\"",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +1/+1 and flying. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target player gets a poison counter. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Destroy target creature. {POISONED_COND} proliferate.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 black Phyrexian Germ creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets -{X}/-X until end of turn. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target player gets a poison counter. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Destroy target creature. {POISONED_COND} proliferate.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 black Phyrexian Germ creature tokens.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have infect.",
+          3,
+          4,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0 and have menace.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+0 and has infect. Equip {EQUIP_COST}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} has \"{T}: Target player gets a poison counter.\"",
+          2,
+          4,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Target creature gains infect until end of turn.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has infect.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has \"{T}: Target player gets a poison counter.\"",
+          2,
+          3,
+          7
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has \"{T}: Target creature gets -1/-1 until end of turn.\" Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{this} deals {X} damage divided as you choose among up to three targets. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. {BATTLE_CRY_LINE}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains double strike until end of turn. {PROLIFERATE_TAG}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{this} deals 2 damage to any target. Proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{this} deals {X} damage divided as you choose among up to three targets. {METALCRAFT_INTRO} {METALCRAFT_COND} draw a card.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. {BATTLE_CRY_LINE}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains double strike until end of turn. {PROLIFERATE_TAG}",
+          2,
+          3,
+          6
+        ],
+        [
+          "{this} deals 2 damage to any target. Proliferate.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. Creatures you control gain haste until end of turn.",
+          1,
+          3,
+          3
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. Creatures you control gain haste until end of turn.",
+          1,
+          3,
+          4
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. Creatures you control gain haste until end of turn.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. Creatures you control gain haste until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens. Creatures you control gain haste until end of turn.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have battle cry.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice an artifact: {this} deals 2 damage to any target.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Create a 1/1 colorless Myr artifact creature token. It gains haste until end of turn.",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has battle cry and haste.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+0 and first strike. Equip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Put two +1/+1 counters on target creature. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains trample and infect until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create a 3/3 green Beast creature token. {PROLIFERATE_TAG}",
+          3,
+          3,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put two +1/+1 counters on target creature. {PROLIFERATE_TAG}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gains trample and infect until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then proliferate.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create a 3/3 green Beast creature token. {PROLIFERATE_TAG}",
+          3,
+          3,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have trample. {POISONED_COND} they also have infect.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} has \"{T}: Add one mana of any color.\"",
+          3,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Target creature gets +{N}/+{N} and gains trample until end of turn.",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has infect and trample.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +3/+3. {METALCRAFT_INTRO} {METALCRAFT_COND} it has trample. Equip {EQUIP_COST}.",
+          3,
+          3,
+          7
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Proliferate.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Target artifact gains indestructible until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          4
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          5
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          6
+        ],
+        [
+          "Proliferate.",
+          1,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Create two 1/1 colorless Myr artifact creature tokens.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Target artifact gains indestructible until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Proliferate, then draw a card.",
+          1,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifact creatures you control have infect.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{POISONED_COND} creatures you control get +1/+0.",
+          1,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +1/+1. Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{T}: Add {C}. {METALCRAFT_INTRO} {METALCRAFT_COND} add one mana of any color instead.",
+          4,
+          2,
+          7
+        ],
+        [
+          "{T}: Put a charge counter on {this}. {T}, Remove three charge counters from {this}: Proliferate.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Golem and Myr you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{METALCRAFT_INTRO} {METALCRAFT_COND} {this} is a 4/4 Construct artifact creature.",
+          1,
+          5,
+          7
+        ],
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Living weapon. {GERM_BLURB} Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST} Proliferate.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature is an artifact in addition to its other types and has infect.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1. {METALCRAFT_INTRO} {METALCRAFT_COND} equip abilities you activate cost {1} less to activate. Equip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cat",
+      "Angel",
+      "Cleric",
+      "Human",
+      "Myr"
+    ],
+    "U": [
+      "Vedalken",
+      "Wizard",
+      "Drake",
+      "Shapeshifter",
+      "Myr",
+      "Homunculus"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Horror",
+      "Imp",
+      "Vampire",
+      "Germ",
+      "Myr"
+    ],
+    "R": [
+      "Goblin",
+      "Berserker",
+      "Warrior",
+      "Elemental",
+      "Myr",
+      "Ogre"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Warrior",
+      "Wolf",
+      "Insect",
+      "Cat",
+      "Myr"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Myr",
+      "Juggernaut",
+      "Drone"
+    ]
+  },
+  "string_pools": {
+    "TOKEN_SUBTYPE": [
+      "Myr",
+      "Germ",
+      "Golem",
+      "Soldier",
+      "Wolf",
+      "Insect",
+      "Phyrexian Cleric",
+      "Cat Knight",
+      "Construct"
+    ],
+    "TOKEN_COLOR": [
+      "colorless",
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of combat on your turn,",
+      "At the beginning of your end step,"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{3}, {T}:",
+      "{T}, Sacrifice an artifact:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Add {C}.",
+      "Proliferate.",
+      "Target creature gains infect until end of turn.",
+      "Create a 1/1 colorless Myr artifact creature token.",
+      "Target creature gets +{N}/+{N} until end of turn."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "INFECT_LINE": [
+      "Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)"
+    ],
+    "BATTLE_CRY_LINE": [
+      "Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)"
+    ],
+    "PROLIFERATE_TAG": [
+      "Proliferate.",
+      "Then proliferate.",
+      "You may proliferate."
+    ],
+    "METALCRAFT_INTRO": [
+      "Metalcraft —",
+      "Metalcraft —"
+    ],
+    "METALCRAFT_COND": [
+      "as long as you control three or more artifacts,",
+      "if you control three or more artifacts,"
+    ],
+    "POISONED_COND": [
+      "as long as an opponent is poisoned,",
+      "if defending player is poisoned,"
+    ],
+    "GERM_BLURB": [
+      "Create a 0/0 black Phyrexian Germ creature token, then attach this to it."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "battle cry",
+      "metalcraft — {This} has first strike as long as you control three or more artifacts."
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "proliferate on-hit — Whenever {this} deals combat damage to a player, proliferate."
+    ],
+    "B": [
+      "deathtouch",
+      "infect",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "battle cry",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "infect",
+      "reach"
+    ],
+    "C": [
+      "infect",
+      "menace",
+      "trample"
+    ]
+  }
+}
