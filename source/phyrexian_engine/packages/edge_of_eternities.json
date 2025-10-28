@@ -1,0 +1,1573 @@
+{
+  "package_name": "Edge of Eternities",
+  "package_code": "EOE",
+  "version": "1.0.0",
+  "description": "Comprehensive templates for Edge of Eternities mechanics: Spacecraft with station, Planets with station, Warp, Void, and Lander tokens. Includes color and colorless entries with large variety.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Warp {X}W (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, create {N} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Warp {X}W (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, scry {N}, then draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When [SELF] enters, target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on that creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When [SELF] enters, each opponent loses {N} life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Warp {X}W (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\n[KEYWORD:menace]. When [SELF] enters, you may sacrifice another permanent. If you do, draw {N} cards.",
+          2,
+          1,
+          2
+        ],
+        [
+          "[KEYWORD:flying]. Whenever you warp a spell, put a +1/+1 counter on [SELF].",
+          2,
+          0,
+          0
+        ],
+        [
+          "Void \u2014 At the beginning of combat on your turn, if a nonland permanent left the battlefield this turn or a spell was warped this turn, [SELF] gains first strike and lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When [SELF] enters, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a creature you control becomes tapped to station a permanent, [SELF] deals {N} damage to each opponent.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you activate station, draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever a Planet you control reaches its station threshold, put {N} +1/+1 counters on [SELF].",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead exile target artifact or enchantment.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create {N} Lander tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, whenever you warp a spell, draw a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Tap up to {N} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gains your choice of flying, vigilance, or lifelink until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent card with mana value {X} or less from your graveyard to the battlefield. It gains warp {X}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Draw {N} cards.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead draw {N} cards and you may play an additional land this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal {X} damage divided as you choose among up to {N} targets.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead deal {X} damage to each of up to {N} targets.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Create {N} Lander tokens. Then you may sacrifice any number of lands. For each land sacrificed this way, search your library for a basic land card and put it onto the battlefield tapped.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Exile up to one target artifact or enchantment. Create a tapped Lander token.",
+          1,
+          0,
+          0
+        ],
+        [
+          "You get an emblem with \"Whenever you activate station, scry 1.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you warp a spell, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Spacecraft.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a nonland permanent leaves the battlefield, scry 1, then draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Planets you control have \"{T}: Add one mana of any color. Activate only if this Planet has {X} or more charge counters on it.\"",
+          1,
+          4,
+          8
+        ],
+        [
+          "At the beginning of your end step, if you activated station this turn, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has \"Whenever you warp a spell, this creature gains flying until end of turn.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature\nVoid \u2014 If a nonland permanent left the battlefield this turn, enchanted creature gets +{X}/+{X} instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Create a Lander token. Activate only as a sorcery.\"",
+          2,
+          0,
+          0
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. If a spell was warped this turn, add two mana of any one color instead.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever you activate station, attach [SELF] to up to one target creature you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Equipped creature has menace and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "When [SELF] enters, create {N} Lander tokens.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice [SELF]: Add {X} mana of any one color.",
+          1,
+          2,
+          4
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with flying and vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"Whenever this creature attacks, draw a card.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nWhenever you put one or more charge counters on [SELF], it deals {N} damage to any target.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you warp a spell, put a charge counter on [SELF]. Then if it has {X} or more charge counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"{T}: Add two mana of any one color.\"",
+          3,
+          5,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, create {N} Lander tokens.",
+          2,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, creatures you control get +1/+0.",
+          1,
+          6,
+          10
+        ],
+        [
+          "When [SELF] enters the battlefield, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. Void \u2014 If a nonland permanent left the battlefield this turn, add one mana of any color instead.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Warp {X}U (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, create {N} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Warp {X}U (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, scry {N}, then draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When [SELF] enters, target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on that creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When [SELF] enters, each opponent loses {N} life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Warp {X}U (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\n[KEYWORD:menace]. When [SELF] enters, you may sacrifice another permanent. If you do, draw {N} cards.",
+          2,
+          1,
+          2
+        ],
+        [
+          "[KEYWORD:flying]. Whenever you warp a spell, put a +1/+1 counter on [SELF].",
+          2,
+          0,
+          0
+        ],
+        [
+          "Void \u2014 At the beginning of combat on your turn, if a nonland permanent left the battlefield this turn or a spell was warped this turn, [SELF] gains first strike and lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When [SELF] enters, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a creature you control becomes tapped to station a permanent, [SELF] deals {N} damage to each opponent.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you activate station, draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever a Planet you control reaches its station threshold, put {N} +1/+1 counters on [SELF].",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead exile target artifact or enchantment.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create {N} Lander tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, whenever you warp a spell, draw a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Tap up to {N} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gains your choice of flying, vigilance, or lifelink until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent card with mana value {X} or less from your graveyard to the battlefield. It gains warp {X}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Draw {N} cards.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead draw {N} cards and you may play an additional land this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal {X} damage divided as you choose among up to {N} targets.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead deal {X} damage to each of up to {N} targets.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Create {N} Lander tokens. Then you may sacrifice any number of lands. For each land sacrificed this way, search your library for a basic land card and put it onto the battlefield tapped.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Exile up to one target artifact or enchantment. Create a tapped Lander token.",
+          1,
+          0,
+          0
+        ],
+        [
+          "You get an emblem with \"Whenever you activate station, scry 1.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you warp a spell, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Spacecraft.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a nonland permanent leaves the battlefield, scry 1, then draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Planets you control have \"{T}: Add one mana of any color. Activate only if this Planet has {X} or more charge counters on it.\"",
+          1,
+          4,
+          8
+        ],
+        [
+          "At the beginning of your end step, if you activated station this turn, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has \"Whenever you warp a spell, this creature gains flying until end of turn.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature\nVoid \u2014 If a nonland permanent left the battlefield this turn, enchanted creature gets +{X}/+{X} instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Create a Lander token. Activate only as a sorcery.\"",
+          2,
+          0,
+          0
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. If a spell was warped this turn, add two mana of any one color instead.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever you activate station, attach [SELF] to up to one target creature you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Equipped creature has menace and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "When [SELF] enters, create {N} Lander tokens.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice [SELF]: Add {X} mana of any one color.",
+          1,
+          2,
+          4
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with flying and vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"Whenever this creature attacks, draw a card.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nWhenever you put one or more charge counters on [SELF], it deals {N} damage to any target.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you warp a spell, put a charge counter on [SELF]. Then if it has {X} or more charge counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"{T}: Add two mana of any one color.\"",
+          3,
+          5,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, create {N} Lander tokens.",
+          2,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, creatures you control get +1/+0.",
+          1,
+          6,
+          10
+        ],
+        [
+          "When [SELF] enters the battlefield, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. Void \u2014 If a nonland permanent left the battlefield this turn, add one mana of any color instead.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Warp {X}B (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, create {N} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Warp {X}B (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, scry {N}, then draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When [SELF] enters, target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on that creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When [SELF] enters, each opponent loses {N} life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Warp {X}B (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\n[KEYWORD:menace]. When [SELF] enters, you may sacrifice another permanent. If you do, draw {N} cards.",
+          2,
+          1,
+          2
+        ],
+        [
+          "[KEYWORD:flying]. Whenever you warp a spell, put a +1/+1 counter on [SELF].",
+          2,
+          0,
+          0
+        ],
+        [
+          "Void \u2014 At the beginning of combat on your turn, if a nonland permanent left the battlefield this turn or a spell was warped this turn, [SELF] gains first strike and lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When [SELF] enters, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a creature you control becomes tapped to station a permanent, [SELF] deals {N} damage to each opponent.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you activate station, draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever a Planet you control reaches its station threshold, put {N} +1/+1 counters on [SELF].",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead exile target artifact or enchantment.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create {N} Lander tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, whenever you warp a spell, draw a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Tap up to {N} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gains your choice of flying, vigilance, or lifelink until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent card with mana value {X} or less from your graveyard to the battlefield. It gains warp {X}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Draw {N} cards.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead draw {N} cards and you may play an additional land this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal {X} damage divided as you choose among up to {N} targets.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead deal {X} damage to each of up to {N} targets.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Create {N} Lander tokens. Then you may sacrifice any number of lands. For each land sacrificed this way, search your library for a basic land card and put it onto the battlefield tapped.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Exile up to one target artifact or enchantment. Create a tapped Lander token.",
+          1,
+          0,
+          0
+        ],
+        [
+          "You get an emblem with \"Whenever you activate station, scry 1.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you warp a spell, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Spacecraft.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a nonland permanent leaves the battlefield, scry 1, then draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Planets you control have \"{T}: Add one mana of any color. Activate only if this Planet has {X} or more charge counters on it.\"",
+          1,
+          4,
+          8
+        ],
+        [
+          "At the beginning of your end step, if you activated station this turn, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has \"Whenever you warp a spell, this creature gains flying until end of turn.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature\nVoid \u2014 If a nonland permanent left the battlefield this turn, enchanted creature gets +{X}/+{X} instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Create a Lander token. Activate only as a sorcery.\"",
+          2,
+          0,
+          0
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. If a spell was warped this turn, add two mana of any one color instead.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever you activate station, attach [SELF] to up to one target creature you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Equipped creature has menace and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "When [SELF] enters, create {N} Lander tokens.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice [SELF]: Add {X} mana of any one color.",
+          1,
+          2,
+          4
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with flying and vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"Whenever this creature attacks, draw a card.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nWhenever you put one or more charge counters on [SELF], it deals {N} damage to any target.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you warp a spell, put a charge counter on [SELF]. Then if it has {X} or more charge counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"{T}: Add two mana of any one color.\"",
+          3,
+          5,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, create {N} Lander tokens.",
+          2,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, creatures you control get +1/+0.",
+          1,
+          6,
+          10
+        ],
+        [
+          "When [SELF] enters the battlefield, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. Void \u2014 If a nonland permanent left the battlefield this turn, add one mana of any color instead.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Warp {X}R (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, create {N} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Warp {X}R (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, scry {N}, then draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When [SELF] enters, target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on that creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When [SELF] enters, each opponent loses {N} life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Warp {X}R (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\n[KEYWORD:menace]. When [SELF] enters, you may sacrifice another permanent. If you do, draw {N} cards.",
+          2,
+          1,
+          2
+        ],
+        [
+          "[KEYWORD:flying]. Whenever you warp a spell, put a +1/+1 counter on [SELF].",
+          2,
+          0,
+          0
+        ],
+        [
+          "Void \u2014 At the beginning of combat on your turn, if a nonland permanent left the battlefield this turn or a spell was warped this turn, [SELF] gains first strike and lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When [SELF] enters, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a creature you control becomes tapped to station a permanent, [SELF] deals {N} damage to each opponent.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you activate station, draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever a Planet you control reaches its station threshold, put {N} +1/+1 counters on [SELF].",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead exile target artifact or enchantment.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create {N} Lander tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, whenever you warp a spell, draw a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Tap up to {N} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gains your choice of flying, vigilance, or lifelink until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent card with mana value {X} or less from your graveyard to the battlefield. It gains warp {X}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Draw {N} cards.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead draw {N} cards and you may play an additional land this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal {X} damage divided as you choose among up to {N} targets.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead deal {X} damage to each of up to {N} targets.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Create {N} Lander tokens. Then you may sacrifice any number of lands. For each land sacrificed this way, search your library for a basic land card and put it onto the battlefield tapped.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Exile up to one target artifact or enchantment. Create a tapped Lander token.",
+          1,
+          0,
+          0
+        ],
+        [
+          "You get an emblem with \"Whenever you activate station, scry 1.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you warp a spell, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Spacecraft.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a nonland permanent leaves the battlefield, scry 1, then draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Planets you control have \"{T}: Add one mana of any color. Activate only if this Planet has {X} or more charge counters on it.\"",
+          1,
+          4,
+          8
+        ],
+        [
+          "At the beginning of your end step, if you activated station this turn, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has \"Whenever you warp a spell, this creature gains flying until end of turn.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature\nVoid \u2014 If a nonland permanent left the battlefield this turn, enchanted creature gets +{X}/+{X} instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Create a Lander token. Activate only as a sorcery.\"",
+          2,
+          0,
+          0
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. If a spell was warped this turn, add two mana of any one color instead.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever you activate station, attach [SELF] to up to one target creature you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Equipped creature has menace and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "When [SELF] enters, create {N} Lander tokens.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice [SELF]: Add {X} mana of any one color.",
+          1,
+          2,
+          4
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with flying and vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"Whenever this creature attacks, draw a card.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nWhenever you put one or more charge counters on [SELF], it deals {N} damage to any target.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you warp a spell, put a charge counter on [SELF]. Then if it has {X} or more charge counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"{T}: Add two mana of any one color.\"",
+          3,
+          5,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, create {N} Lander tokens.",
+          2,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, creatures you control get +1/+0.",
+          1,
+          6,
+          10
+        ],
+        [
+          "When [SELF] enters the battlefield, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. Void \u2014 If a nonland permanent left the battlefield this turn, add one mana of any color instead.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Warp {X}G (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, create {N} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Warp {X}G (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\nWhen [SELF] enters, scry {N}, then draw a card.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When [SELF] enters, target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on that creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When [SELF] enters, each opponent loses {N} life.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead each opponent loses {N} life and you gain {N} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Warp {X}G (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile later.)\n[KEYWORD:menace]. When [SELF] enters, you may sacrifice another permanent. If you do, draw {N} cards.",
+          2,
+          1,
+          2
+        ],
+        [
+          "[KEYWORD:flying]. Whenever you warp a spell, put a +1/+1 counter on [SELF].",
+          2,
+          0,
+          0
+        ],
+        [
+          "Void \u2014 At the beginning of combat on your turn, if a nonland permanent left the battlefield this turn or a spell was warped this turn, [SELF] gains first strike and lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When [SELF] enters, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a creature you control becomes tapped to station a permanent, [SELF] deals {N} damage to each opponent.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you activate station, draw a card, then discard a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever a Planet you control reaches its station threshold, put {N} +1/+1 counters on [SELF].",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead put {X} +1/+1 counters on it.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead exile target artifact or enchantment.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Create {N} Lander tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Until end of turn, whenever you warp a spell, draw a card.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Tap up to {N} target permanents. They don't untap during their controller's next untap step.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Target creature gains your choice of flying, vigilance, or lifelink until end of turn.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return target nonland permanent card with mana value {X} or less from your graveyard to the battlefield. It gains warp {X}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Draw {N} cards.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead draw {N} cards and you may play an additional land this turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Deal {X} damage divided as you choose among up to {N} targets.\nVoid \u2014 If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead deal {X} damage to each of up to {N} targets.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Create {N} Lander tokens. Then you may sacrifice any number of lands. For each land sacrificed this way, search your library for a basic land card and put it onto the battlefield tapped.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Exile up to one target artifact or enchantment. Create a tapped Lander token.",
+          1,
+          0,
+          0
+        ],
+        [
+          "You get an emblem with \"Whenever you activate station, scry 1.\"",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you warp a spell, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Creatures you control get +1/+1 as long as you control a Spacecraft.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever a nonland permanent leaves the battlefield, scry 1, then draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Planets you control have \"{T}: Add one mana of any color. Activate only if this Planet has {X} or more charge counters on it.\"",
+          1,
+          4,
+          8
+        ],
+        [
+          "At the beginning of your end step, if you activated station this turn, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has \"Whenever you warp a spell, this creature gains flying until end of turn.\"",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchant creature\nVoid \u2014 If a nonland permanent left the battlefield this turn, enchanted creature gets +{X}/+{X} instead.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Create a Lander token. Activate only as a sorcery.\"",
+          2,
+          0,
+          0
+        ],
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color. If a spell was warped this turn, add two mana of any one color instead.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+{X}. Whenever you activate station, attach [SELF] to up to one target creature you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Equipped creature has menace and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "When [SELF] enters, create {N} Lander tokens.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice [SELF]: Add {X} mana of any one color.",
+          1,
+          2,
+          4
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with flying and vigilance.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"Whenever this creature attacks, draw a card.\"",
+          2,
+          3,
+          6
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nWhenever you put one or more charge counters on [SELF], it deals {N} damage to any target.",
+          1,
+          1,
+          2
+        ],
+        [
+          "Whenever you warp a spell, put a charge counter on [SELF]. Then if it has {X} or more charge counters on it, sacrifice it and draw three cards.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it has \"{T}: Add two mana of any one color.\"",
+          3,
+          5,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, create {N} Lander tokens.",
+          2,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, creatures you control get +1/+0.",
+          1,
+          6,
+          10
+        ],
+        [
+          "When [SELF] enters the battlefield, create a tapped Lander token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Add {C}. Void \u2014 If a nonland permanent left the battlefield this turn, add one mana of any color instead.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, it is a {X}/{X} artifact creature with trample and \"Whenever this creature deals combat damage to a player, create a Lander token.\"",
+          3,
+          6,
+          12
+        ],
+        [
+          "[SUBTYPE:Spacecraft] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put a number of charge counters on this Spacecraft equal to that creature's power.)\nCrew 3\nWhenever you activate station, untap [SELF].",
+          1,
+          4,
+          8
+        ],
+        [
+          "Whenever you warp a spell, add {C}{C}. Spend this mana only to activate abilities of Spacecraft and Planets.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{T}: Put a charge counter on target artifact or Planet. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Land": [
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nAs long as [SELF] has {X} or more charge counters on it, you may play an additional land on each of your turns.",
+          2,
+          8,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\nWhen [SELF] reaches its station threshold, [SELF] deals {N} damage to each creature.",
+          1,
+          8,
+          12
+        ],
+        [
+          "[SUBTYPE:Planet] Station {X} (Activate only as a sorcery. Tap an untapped creature you control: Put charge counters on this Planet equal to that creature's power.)\n{T}: Add {C}. If [SELF] has {X} or more charge counters on it, add two mana of any one color instead.",
+          2,
+          6,
+          12
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Spacecraft is an Artifact subtype; Planet is a Land type.",
+    "Station appears on Spacecraft and Planets and uses charge counters and thresholds.",
+    "Warp is an alternative cost with temporary ETB, then exile, then you may cast from exile later.",
+    "Void checks if a nonland permanent left the battlefield or a spell was warped this turn.",
+    "Lander tokens are artifact tokens that fetch basics tapped."
+  ]
+}

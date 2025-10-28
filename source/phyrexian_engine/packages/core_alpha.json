@@ -1,0 +1,973 @@
+{
+  "name": "Core Alpha (1993)",
+  "version": "1.0.0",
+  "description": "Comprehensive core package modeling mechanics/themes of MTG Alpha (1993).",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to {PREVENT_TARGET} this turn.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Exile target attacking or blocking creature. Its controller gains life equal to its toughness.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Target creature gains protection from {PROTECT_CHOICE} until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Tap up to {N} target creatures.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all creatures. They can't be regenerated.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Destroy all lands.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Each player sacrifices lands until they control the fewest a player controls.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "You gain {X} life.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "White creatures get +1/+1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever a source of your choice would deal damage to you, you may pay {1}. If you do, prevent that damage.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures can't attack you unless their controller pays {1} for each creature they control that's attacking you.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures with power 2 or less can't attack you.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+2.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has first strike.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has protection from {PROTECT_CHOICE}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Enchanted creature gets +1/+1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature doesn't tap to attack.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "First strike",
+          5,
+          2,
+          6
+        ],
+        [
+          "Banding",
+          2,
+          2,
+          6
+        ],
+        [
+          "Protection from {PROTECT_CHOICE}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flying",
+          4,
+          2,
+          6
+        ],
+        [
+          "This creature doesn't tap to attack.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Whenever this deals damage, you gain that much life.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Return target permanent to its owner's hand.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Tap or untap up to {N} target permanents.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{N}/0 until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Target attacking creature gets -{N}/-0 until end of turn.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Take an extra turn after this one.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Draw {X} cards.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target opponent puts the top {X} cards of their library into their graveyard.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Gain control of target creature until this enchantment leaves the battlefield.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature you control.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an opponent casts a spell, you may counter it unless they pay {1}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Players play with their hands revealed.",
+          1,
+          2,
+          6
+        ],
+        [
+          "At the beginning of each player's draw step, that player draws an additional card.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has flying.",
+          5,
+          1,
+          6
+        ],
+        [
+          "You control enchanted creature.",
+          4,
+          4,
+          6
+        ],
+        [
+          "Enchanted creature can't be blocked except by Walls.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Flying",
+          7,
+          2,
+          6
+        ],
+        [
+          "Islandwalk",
+          2,
+          2,
+          6
+        ],
+        [
+          "Banding",
+          1,
+          2,
+          6
+        ],
+        [
+          "This creature doesn't untap during your untap step. {UPKEEP_COST} Untap it.",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Destroy target nonartifact, nonblack creature. It can't be regenerated.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Add {B}{B}{B}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Regenerate target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "You gain {X} life and target creature gets -{X}/-{X} until end of turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield tapped. Attach this Aura to it. When this Aura leaves the battlefield, that creature's controller sacrifices it.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Target player discards {X} cards at random.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Search your library for a card, put it into your hand, then shuffle.",
+          2,
+          3,
+          6
+        ],
+        [
+          "All creatures get -{N}/-{N} until end of turn.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Each creature deals 1 damage to its controller.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Black creatures get +1/+1.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{B}: This deals 1 damage to each creature and each player. Sacrifice this if no creatures are on the battlefield.",
+          3,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you lose 1 life and draw a card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1.",
+          5,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature gets -2/-1.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature can't untap during its controller's untap step. That player may pay {3} to untap it.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has \"{B}: Regenerate this creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Swampwalk",
+          3,
+          2,
+          6
+        ],
+        [
+          "First strike",
+          2,
+          3,
+          6
+        ],
+        [
+          "Protection from white",
+          2,
+          3,
+          6
+        ],
+        [
+          "Regenerate {REGEN_COST}",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Lightning Bolt deals {N} damage to any target.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Fireball deals {X} damage divided as you choose among up to {N} targets.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Copy target instant or sorcery spell. You may choose new targets for the copy.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target land.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Earthquake deals {X} damage to each creature without flying and each player.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Each player discards their hand, then draws seven cards.",
+          1,
+          5,
+          6
+        ],
+        [
+          "Gain control of target artifact until end of turn. Untap it. It gains haste until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a player taps a land for mana, that player adds an additional one mana of that land's type.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Creatures without flying can't block creatures with power 2 or less.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has \"{R}: This creature gets +1/+0 until end of turn.\"",
+          6,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has first strike.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature can't block.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "First strike",
+          3,
+          2,
+          6
+        ],
+        [
+          "Mountainwalk",
+          2,
+          2,
+          6
+        ],
+        [
+          "This creature attacks each combat if able.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Trample",
+          2,
+          4,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn.",
+          7,
+          1,
+          6
+        ],
+        [
+          "Prevent all combat damage that would be dealt this turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Untap target creature. It can attack as though it had haste this turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Regenerate target creature.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all enchantments.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Until end of turn, you may pay 1 life to add {G}.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Hurricane deals {X} damage to each creature with flying and each player.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Search your library for up to {N} Forest cards, reveal them, put them into your hand, then shuffle.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures your opponents control must block if able.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Creatures you control have trample.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Whenever a creature you control becomes blocked, it gets +1/+1 until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +3/+3.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has \"{G}: Regenerate this creature.\"",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample",
+          5,
+          3,
+          6
+        ],
+        [
+          "Forestwalk",
+          2,
+          2,
+          6
+        ],
+        [
+          "Can block creatures with flying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Regenerate {REGEN_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add {C}{C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}: Target permanent doesn't untap during its controller's next untap step.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: Draw a card.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Whenever a land enters the battlefield, this deals 2 damage to that land's controller.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Creatures with power 2 or less can't be blocked.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Creatures can't attack you unless their controller pays {2} for each attacking creature.",
+          1,
+          4,
+          6
+        ],
+        [
+          "As long as this is untapped, players can't untap more than one land during their untap steps.",
+          1,
+          4,
+          6
+        ],
+        [
+          "{3}, {T}: Counter target activated ability.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "AuraArtifact": [
+        [
+          "Enchanted artifact doesn't untap during its controller's untap step.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Basic — Plains\n{T}: Add {W}.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Basic — Island\n{T}: Add {U}.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Basic — Swamp\n{T}: Add {B}.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Basic — Mountain\n{T}: Add {R}.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Basic — Forest\n{T}: Add {G}.",
+          5,
+          0,
+          0
+        ],
+        [
+          "Dual — Plains Island\n{T}: Add {W} or {U}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Dual — Island Swamp\n{T}: Add {U} or {B}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Dual — Swamp Mountain\n{T}: Add {B} or {R}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Dual — Mountain Forest\n{T}: Add {R} or {G}.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Dual — Forest Plains\n{T}: Add {G} or {W}.",
+          2,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Pegasus",
+      "Angel",
+      "Wall"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Wall",
+      "Bird"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Skeleton",
+      "Shade",
+      "Specter",
+      "Demon",
+      "Rat",
+      "Wall"
+    ],
+    "R": [
+      "Goblin",
+      "Dwarf",
+      "Ogre",
+      "Giant",
+      "Dragon",
+      "Elemental",
+      "Wall"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Spider",
+      "Beast",
+      "Wurm",
+      "Wall"
+    ],
+    "C": [
+      "Construct",
+      "Juggernaut",
+      "Golem",
+      "Wall"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "banding",
+      "protection from black",
+      "flying"
+    ],
+    "U": [
+      "flying",
+      "islandwalk"
+    ],
+    "B": [
+      "first strike",
+      "swampwalk",
+      "regenerate"
+    ],
+    "R": [
+      "first strike",
+      "mountainwalk",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "forestwalk",
+      "can block creatures with flying"
+    ]
+  },
+  "string_pools": {
+    "PREVENT_TARGET": [
+      "any target",
+      "you",
+      "target creature",
+      "target player",
+      "target creature you control"
+    ],
+    "PROTECT_CHOICE": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "artifacts",
+      "creatures",
+      "instants",
+      "sorceries"
+    ],
+    "REGEN_COST": [
+      "{G}",
+      "{B}",
+      "{1}{G}",
+      "{1}{B}"
+    ],
+    "UPKEEP_COST": [
+      "{1}.",
+      "{2}.",
+      "{1}{U}.",
+      "{1}{B}."
+    ],
+    "ACTIVATED_COST": [
+      "{W}:",
+      "{U}:",
+      "{B}:",
+      "{R}:",
+      "{G}:",
+      "{1}:",
+      "{2}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "This creature gets +1/+1 until end of turn.",
+      "Regenerate this creature.",
+      "Untap this creature.",
+      "This creature gains first strike until end of turn.",
+      "This creature gains trample until end of turn."
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Goblin",
+      "Wolf",
+      "Zombie",
+      "Pegasus",
+      "Bird"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "notes": {
+    "alpha_specifics": [
+      "No Equipment in Alpha; omitted.",
+      "Defender/vigilance/lifelink appear as full text lines rather than keywords.",
+      "Interrupts normalized to Instants.",
+      "Banding included sparingly."
+    ]
+  }
+}

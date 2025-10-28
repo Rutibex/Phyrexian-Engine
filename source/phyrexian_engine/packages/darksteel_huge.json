@@ -1,0 +1,815 @@
+{
+  "name": "darksteel_huge",
+  "version": "1.0",
+  "source": "Custom package built from Darksteel mechanics and themes (indestructible, modular, imprint, entwine, affinity, echoing, pulses, charge counters, powerful Equipment).",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{MODULAR_REMINDER}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you gain {X} life.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Other creatures you control have vigilance. {ACTIVATED_COST} creatures you control gain indestructible until end of turn.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gains indestructible until end of turn. Draw a card.",
+          4,
+          1,
+          4
+        ],
+        [
+          "{TRIGGER_INTRO} creatures you control get +{X}/+{X} until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{ECHOING_INTRO} loses all abilities until end of turn. Then {ECHOING_TYPE} lose all abilities until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy target attacking creature.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target artifact or enchantment. {PULSE_CONDITION}",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 white Soldier creature tokens.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Return all Equipment cards from your graveyard to your hand.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Choose one — Return target creature card with mana value {X} or less from your graveyard to the battlefield; or put two +1/+1 counters on up to two target creatures. Entwine {ENTWINE_PAY} (Choose both if you pay the entwine cost.)",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have vigilance. Equipment you control have equip {1}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} {IND_GRANT}",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{THIS} is {IND_DEFINITION}",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Prevent all damage that would be dealt to target creature this turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Equipment — {EQ_RIDER} Equip {EQUIP_COST}",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} you may return target nonland permanent to its owner's hand.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{MODULAR_REMINDER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Artifact spells you cast have affinity for artifacts. ({AFFINITY})",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{ECHOING_INTRO} is returned to its owner's hand. Then {ECHOING_TYPE} are returned to their owners' hands.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. Draw a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target artifacts or creatures. Those permanents don't untap during their controllers' next untap steps.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards. {PULSE_CONDITION}",
+          3,
+          3,
+          7
+        ],
+        [
+          "Choose one — Take an extra turn after this one; or return up to two target permanents to their owners' hands. Entwine {ENTWINE_PAY}",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, create a 1/1 colorless Myr artifact creature token if you control an artifact.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Imprint — When {THIS} enters the battlefield, you may {IMPRINT_VERB}. {THIS} has “Whenever you cast a spell that shares a card type with the imprinted card, draw a card.”",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Imprint — {ACTIVATED_COST} exile an instant card from your hand. At the beginning of your upkeep, you may copy the imprinted card and cast the copy without paying its mana cost.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{THIS} is {IND_DEFINITION}",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Scry {X}, then draw a card.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "B": {
+      "Creature": [
+        [
+          "{MODULAR_REMINDER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "This gets +1/+0 for each artifact you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{DECK_SIZE_BREAKER}",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{ECHOING_INTRO} gets -2/-2 until end of turn. Then {ECHOING_TYPE} get -2/-2 until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Target player discards {X} cards at random. {PULSE_CONDITION}",
+          3,
+          3,
+          7
+        ],
+        [
+          "Destroy target nonartifact creature. It can't be regenerated.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Choose one — Destroy target creature or planeswalker; or each opponent sacrifices a creature. Entwine {ENTWINE_PAY}",
+          2,
+          4,
+          7
+        ],
+        [
+          "Search your library for a card, put that card into your hand, then shuffle. You lose {X} life.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, draw a card and lose 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life for each artifact you control.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{THIS} is {IND_DEFINITION}",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Target creature gets -{X}/-{X} until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature dies, you may put a charge counter on {THIS}. Remove three charge counters from {THIS}: Draw a card.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "R": {
+      "Creature": [
+        [
+          "{MODULAR_REMINDER}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {THIS} deals 1 damage to any target for each artifact you control.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{ECHOING_INTRO} is destroyed. Then {ECHOING_TYPE} are destroyed.",
+          4,
+          1,
+          5
+        ],
+        [
+          "{THIS} deals 4 damage to any target. {PULSE_CONDITION}",
+          4,
+          3,
+          7
+        ],
+        [
+          "Target creature gains haste and +{X}/+0 until end of turn.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact. {THIS} deals {X} damage to that artifact's controller.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Choose one — Create two 1/1 colorless Myr artifact creature tokens; or {THIS} deals {X} damage divided as you choose among up to two targets. Entwine {ENTWINE_PAY}",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, {THIS} deals 1 damage to any target.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Creatures you control have haste. Equipment spells you cast cost {1} less to cast.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{THIS} is {IND_DEFINITION}",
+          2,
+          3,
+          7
+        ],
+        [
+          "Equipment — {EQ_RIDER} Equip {EQUIP_COST}",
+          4,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} {THIS} deals {X} damage to any target.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "{MODULAR_REMINDER}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you may destroy target artifact.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Affinity for artifacts ({AFFINITY})",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{ECHOING_INTRO} gets +2/+2 until end of turn. Then {ECHOING_TYPE} get +2/+2 until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. {PULSE_CONDITION}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Regenerate target creature. Put a +1/+1 counter on it.",
+          3,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create an X/X green Beast creature token. {PULSE_CONDITION}",
+          3,
+          3,
+          7
+        ],
+        [
+          "Search your library for up to two land cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Choose one — Put two +1/+1 counters on target creature; or destroy target artifact. Entwine {ENTWINE_PAY}",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifacts and enchantments your opponents control enter the battlefield tapped.",
+          2,
+          3,
+          7
+        ],
+        [
+          "At the beginning of your end step, if you had a creature enter the battlefield under your control this turn, put a +1/+1 counter on target creature you control.",
+          2,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{THIS} is {IND_DEFINITION}",
+          2,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Add {G}{G}. Spend this mana only to cast creature spells or activate abilities of creatures.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Land": []
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{THIS} is {IND_DEFINITION}",
+          5,
+          2,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, you may put a charge counter on {THIS}. When {THIS} has twenty or more charge counters on it, you win the game.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Artifacts you control have indestructible.",
+          2,
+          5,
+          7
+        ],
+        [
+          "Imprint — When {THIS} enters the battlefield, {IMPRINT_VERB}. {ACTIVATED_COST} You may play a copy of the imprinted card without paying its mana cost.",
+          2,
+          4,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Create a 1/1 colorless Myr artifact creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST} Put a charge counter on target artifact.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{ACTIVATED_COST} Remove up to {X} counters from target permanent. Exile all tokens.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Equipment — Equipped creature gets +1/-1. Whenever equipped creature dies, draw two cards. Equip {EQUIP_COST}",
+          3,
+          1,
+          3
+        ],
+        [
+          "Equipment — Equipped creature has protection from [C] and “Whenever this deals combat damage to a player, {THIS} deals 2 damage to any target and you draw a card.” Equip {EQUIP_COST}",
+          2,
+          4,
+          7
+        ],
+        [
+          "Affinity for artifacts ({AFFINITY})",
+          2,
+          3,
+          7
+        ],
+        [
+          "Artifact creatures you control have modular {X}.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{THIS} is an artifact in addition to its other types and is {IND_DEFINITION} {T}: Add {C}.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast artifact spells.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{IND_GRANT}",
+          2,
+          4,
+          7
+        ],
+        [
+          "Players can't gain life.",
+          1,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast an artifact spell, put a charge counter on {THIS}. Remove five charge counters from {THIS}: Draw three cards.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all artifacts. {THIS} deals {X} damage to each player.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Choose one — Return up to two target artifact cards from your graveyard to the battlefield; or each opponent sacrifices an artifact. Entwine {ENTWINE_PAY}",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target activated or triggered ability. (Mana abilities can’t be targeted.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "Untap up to two target artifacts. They gain indestructible until end of turn.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "{MODULAR_REMINDER}",
+          4,
+          2,
+          6
+        ],
+        [
+          "This spell costs {1} less to cast for each artifact you control. Trample.",
+          3,
+          4,
+          7
+        ],
+        [
+          "{TRIGGER_INTRO} put a charge counter on up to one target artifact.",
+          3,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cat",
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Leonin"
+    ],
+    "U": [
+      "Human",
+      "Vedalken",
+      "Wizard",
+      "Myr",
+      "Faerie",
+      "Horror"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Nim",
+      "Cleric",
+      "Rat",
+      "Vampire"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Warrior",
+      "Shaman",
+      "Elemental",
+      "Ox"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Beast",
+      "Insect",
+      "Shaman",
+      "Troll"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield, ",
+      "Whenever {THIS} attacks, ",
+      "Whenever {THIS} deals combat damage to a player, ",
+      "At the beginning of your upkeep, ",
+      "At the beginning of the end step, "
+    ],
+    "CREATURE_CONTROLLER": [
+      "you",
+      "its controller",
+      "that creature's controller"
+    ],
+    "TARGET_NOUN": [
+      "target creature",
+      "target artifact",
+      "target artifact or creature",
+      "target noncreature artifact",
+      "target creature you control",
+      "target creature an opponent controls",
+      "target player",
+      "each opponent",
+      "each creature",
+      "each artifact"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{2}",
+      "{1}",
+      "{4}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, {T}, Sacrifice an artifact:",
+      "{2}, {T}:",
+      "{3}, {T}:",
+      "{1}, Sacrifice a creature:"
+    ],
+    "COUNTER_KIND": [
+      "charge counter",
+      "+1/+1 counter"
+    ],
+    "IND_DEFINITION": [
+      "indestructible. (Damage and effects that say “destroy” don’t destroy it.)"
+    ],
+    "PULSE_CONDITION": [
+      "Then if an opponent has more life than you, return {THIS} to its owner's hand.",
+      "Then if an opponent has more cards in hand than you, return {THIS} to its owner's hand.",
+      "Then if a player was dealt damage this turn, return {THIS} to its owner's hand.",
+      "Then if an opponent controls more creatures than you, return {THIS} to its owner's hand.",
+      "Then if an opponent controls more lands than you, return {THIS} to its owner's hand."
+    ],
+    "ECHOING_TYPE": [
+      "creatures that share a name with it",
+      "artifacts that share a name with it",
+      "nonland permanents that share a name with it",
+      "enchantments that share a name with it",
+      "lands that share a name with it",
+      "tokens that share a name with it"
+    ],
+    "IMPRINT_VERB": [
+      "exile a nonland card from your hand",
+      "exile an instant or sorcery card from your hand",
+      "exile a creature card from your hand",
+      "exile a card from your graveyard",
+      "exile a card an opponent owns from the battlefield"
+    ],
+    "ENTWINE_PAY": [
+      "{2}",
+      "{3}",
+      "{4}",
+      "{1}{R}",
+      "{1}{G}",
+      "{1}{U}",
+      "{1}{W}",
+      "{1}{B}"
+    ],
+    "EQ_RIDER": [
+      "Equipped creature gets +{X}/+{N}.",
+      "Equipped creature has first strike.",
+      "Equipped creature has menace.",
+      "Equipped creature has vigilance.",
+      "Equipped creature gets +{X}/+{X} and has trample.",
+      "Whenever equipped creature deals combat damage to a player, draw a card.",
+      "Whenever equipped creature deals combat damage to a player, {THIS} deals 2 damage to any target and you draw a card.",
+      "Equipped creature has protection from [C] and from another color of your choice until end of turn."
+    ],
+    "MODULAR_REMINDER": [
+      "Modular {X} (This creature enters the battlefield with {X} +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)"
+    ],
+    "CHARGE_ACTION": [
+      "put a charge counter on {THIS}.",
+      "move a charge counter from target artifact onto {THIS}.",
+      "proliferate."
+    ],
+    "DECK_SIZE_BREAKER": [
+      "A deck can have any number of cards named {THIS}.",
+      "{THIS} gets +1/+1 for each other card named {THIS} on the battlefield."
+    ],
+    "IND_GRANT": [
+      "Artifacts you control are indestructible.",
+      "Artifact creatures you control are indestructible.",
+      "Creatures you control are indestructible until end of turn."
+    ],
+    "AFFINITY": [
+      "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)"
+    ],
+    "ECHOING_INTRO": [
+      "Choose target permanent. Each other permanent with the same name as that permanent ",
+      "Choose target creature. Each other creature with the same name as that creature ",
+      "Choose target artifact. Each other artifact with the same name as that artifact "
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "trample",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ]
+  }
+}

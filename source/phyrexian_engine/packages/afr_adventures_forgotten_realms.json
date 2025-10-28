@@ -1,0 +1,857 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Pack tactics — Whenever {this} attacks, if creatures you control have total power 6 or greater, creatures you control get +{X}/+{X} until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, venture into the dungeon.",
+          3,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          1,
+          3
+        ],
+        [
+          "At the beginning of your end step, if you ventured into the dungeon this turn, put a +1/+1 counter on target creature you control.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Other creatures you control get +1/+1. Whenever you complete a dungeon, creatures you control gain vigilance until end of turn.",
+          1,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, you gain {X} life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you gain life, venture into the dungeon.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Roll a d20.\n1–9 | Target creature gets +{X}/+{X} until end of turn.\n10–19 | Target creature gets +{X}/+{X} and gains first strike until end of turn.\n20 | Target creature gets +{X}/+{X} and gains double strike until end of turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature. Venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Choose one —\n• Destroy target attacking creature.\n• Exile target creature with power {X} or greater.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you completed a dungeon this turn, those creatures gain lifelink until end of turn.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Roll a d20.\n1–9 | Venture into the dungeon.\n10–19 | Venture into the dungeon twice.\n20 | Venture into the dungeon three times.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Venture into the dungeon. Then you may return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. You gain {X} life.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Search your library for up to {X} basic Plains cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          1,
+          1,
+          3
+        ],
+        [
+          "Exile up to one target tapped creature. Venture into the dungeon.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has vigilance.\nWhenever you complete a dungeon, put a +1/+1 counter on enchanted creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Class — [CLASS_NAME]\n(Gain the next level as a sorcery.)\nLevel 1 — At the beginning of your end step, venture into the dungeon.\nLevel 2 — Creatures you control get +1/+1.\nLevel 3 — Whenever you complete a dungeon, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you venture into the dungeon, scry 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, you may have target creature get +{X}/+{X} until end of turn.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {this} enters the battlefield, venture into the dungeon.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Equipment\nEquipped creature gets +{X}/+{X} and has vigilance.\nEquip {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "Treasure\n{T}, Sacrifice this artifact: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you roll one or more dice, put a charge counter on {this}. Remove three charge counters from {this}: Venture into the dungeon. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {this} enters the battlefield, venture into the dungeon.\nEnchanted creature gets +{X}/+{X} and has lifelink.",
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "When {this} enters the battlefield, scry {X}, then venture into the dungeon.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever you complete a dungeon, draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Pack tactics — Whenever {this} attacks, if creatures you control have total power 6 or greater, tap up to one target creature an opponent controls. It doesn’t untap during its controller’s next untap step.",
+          1,
+          0,
+          0
+        ],
+        [
+          "{T}: Venture into the dungeon. Activate only as a sorcery.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Ward {X} (Whenever this becomes the target of a spell or ability an opponent controls, counter it unless that player pays {X}.)",
+          1,
+          2,
+          3
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If you complete a dungeon this turn, draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Roll a d20.\n1–9 | Return target nonland permanent to its owner’s hand.\n10–19 | Return target nonland permanent to its owner’s hand. Scry 2.\n20 | Return two target nonland permanents to their owners’ hands.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Scry {X}, then draw a card.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Roll a d20.\n1–9 | Venture into the dungeon.\n10–19 | Venture into the dungeon twice.\n20 | Venture into the dungeon three times.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Venture into the dungeon. Draw {X} cards.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Search your library for an instant or sorcery card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Gain control of target creature with mana value {X} or less until end of turn. Untap that creature. It gains haste until end of turn.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Class — [CLASS_NAME]\nLevel 1 — Whenever you cast an instant or sorcery spell, venture into the dungeon.\nLevel 2 — Whenever you complete a dungeon, draw a card.\nLevel 3 — Spells you cast cost {X} less to cast.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Whenever you roll one or more dice, scry 1. Then if you rolled a 20, draw a card.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you venture into the dungeon, scry 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, you may have target creature get +{X}/+{X} until end of turn.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment\nEquipped creature gets +{X}/+{X} and has “Whenever this creature deals combat damage to a player, venture into the dungeon.”\nEquip {X}",
+          1,
+          1,
+          2
+        ],
+        [
+          "{T}: Add {C}. When you spend this mana to cast an instant or sorcery spell, venture into the dungeon.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Treasure\n{T}, Sacrifice this artifact: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you roll one or more dice, put a charge counter on {this}. Remove three charge counters from {this}: Venture into the dungeon. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen {this} enters the battlefield, draw a card, then venture into the dungeon.\nEnchanted creature has flying.",
+          2,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Pack tactics — Whenever {this} attacks, if creatures you control have total power 6 or greater, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          2
+        ],
+        [
+          "When {this} enters the battlefield, each opponent loses {X} life and you gain {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Whenever a creature you control dies, venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "At the beginning of your end step, if you completed a dungeon this turn, return up to one target creature card from your graveyard to your hand.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Roll a d20.\n1–9 | Put a +1/+1 counter on {this}.\n10–19 | Put two +1/+1 counters on {this}.\n20 | Create a Treasure token.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. Venture into the dungeon.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Roll a d20.\n1–9 | Target creature gets -{X}/-{X} until end of turn.\n10–19 | Destroy target creature with mana value {X} or less.\n20 | Destroy target creature.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Each opponent loses {X} life. You gain life equal to the life lost this way.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Roll a d20.\n1–9 | Venture into the dungeon.\n10–19 | Venture into the dungeon twice.\n20 | Venture into the dungeon three times.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature. Venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create {X} 2/2 [TOKEN_COLOR] Zombie creature tokens.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Class — [CLASS_NAME]\nLevel 1 — At the beginning of your end step, each opponent loses 1 life and you gain 1 life.\nLevel 2 — Whenever a creature you control dies, venture into the dungeon.\nLevel 3 — Whenever you complete a dungeon, create a 2/2 [TOKEN_COLOR] Zombie creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, each opponent loses 1 life and you gain 1 life.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever you venture into the dungeon, scry 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, you may have target creature get +{X}/+{X} until end of turn.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "When {this} enters the battlefield, create a Treasure token.\n{T}, Sacrifice another artifact: Venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Equipment\nEquipped creature gets +{X}/+{X} and has deathtouch.\nEquip {X}",
+          1,
+          1,
+          2
+        ],
+        [
+          "Treasure\n{T}, Sacrifice this artifact: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you roll one or more dice, put a charge counter on {this}. Remove three charge counters from {this}: Venture into the dungeon. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has deathtouch.\nWhenever enchanted creature dies, venture into the dungeon.",
+          2,
+          1,
+          2
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Pack tactics — Whenever {this} attacks, if creatures you control have total power 6 or greater, {this} deals {X} damage to each opponent.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Haste\nWhen {this} enters the battlefield, venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, {this} gets +{X}/+0 until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "When {this} dies, create a Treasure token.",
+          1,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Roll a d20.\n1–9 | {this} deals {X} damage to any target.\n10–19 | {this} deals {X} damage to any target and you create a Treasure token.\n20 | {this} deals {X} damage to any target and you may cast a card exiled with {this} this turn.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains first strike until end of turn. Venture into the dungeon.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create a Treasure token. Venture into the dungeon.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Roll a d20.\n1–9 | Venture into the dungeon.\n10–19 | Venture into the dungeon twice.\n20 | Venture into the dungeon three times.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Venture into the dungeon, then {this} deals {X} damage to each creature.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile the top {X} cards of your library. Until the end of your next turn, you may play those cards.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. Create a Treasure token.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Class — [CLASS_NAME]\nLevel 1 — Whenever you attack, venture into the dungeon.\nLevel 2 — Whenever you roll one or more dice, create a Treasure token.\nLevel 3 — Creatures you control get +1/+0 and have haste.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, {this} deals 1 damage to any target.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever you venture into the dungeon, scry 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, you may have target creature get +{X}/+{X} until end of turn.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment\nEquipped creature gets +{X}/+0 and has “Whenever this creature attacks, venture into the dungeon.”\nEquip {X}",
+          2,
+          1,
+          2
+        ],
+        [
+          "{T}, Sacrifice {this}: Add two mana of any one color.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Treasure\n{T}, Sacrifice this artifact: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you roll one or more dice, put a charge counter on {this}. Remove three charge counters from {this}: Venture into the dungeon. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+0 and has “Whenever this creature attacks, venture into the dungeon.”",
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Pack tactics — Whenever {this} attacks, if creatures you control have total power 6 or greater, put {X} +1/+1 counters on target creature you control.",
+          3,
+          1,
+          3
+        ],
+        [
+          "When {this} enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you complete a dungeon, create a 2/2 [TOKEN_COLOR] Wolf creature token.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Trample. When {this} enters the battlefield, venture into the dungeon.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Venture into the dungeon.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Roll a d20.\n1–9 | Put a +1/+1 counter on target creature.\n10–19 | Put two +1/+1 counters on target creature.\n20 | Put three +1/+1 counters on each of up to two target creatures.",
+          3,
+          0,
+          0
+        ],
+        [
+          "Roll a d20.\n1–9 | Venture into the dungeon.\n10–19 | Venture into the dungeon twice.\n20 | Venture into the dungeon three times.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle. Venture into the dungeon.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then creatures you control get +1/+1 until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Class — [CLASS_NAME]\nLevel 1 — At the beginning of combat on your turn, venture into the dungeon.\nLevel 2 — Creatures you control have trample.\nLevel 3 — Whenever you complete a dungeon, put a +1/+1 counter on each creature you control.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, put a +1/+1 counter on target creature you control.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Whenever you venture into the dungeon, scry 1.",
+          2,
+          0,
+          0
+        ],
+        [
+          "Whenever you roll one or more dice, you may have target creature get +{X}/+{X} until end of turn.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment\nEquipped creature gets +{X}/+{X} and has trample.\nEquip {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "{T}: Add {C}. Whenever you complete a dungeon, untap {this}.",
+          1,
+          0,
+          0
+        ],
+        [
+          "Treasure\n{T}, Sacrifice this artifact: Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "When {this} enters the battlefield, create {X} Treasure tokens.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever you roll one or more dice, put a charge counter on {this}. Remove three charge counters from {this}: Venture into the dungeon. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{X}/+{X} and has trample.\nWhen {this} enters the battlefield, venture into the dungeon.",
+          2,
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Dwarf",
+      "Halfling",
+      "Cleric",
+      "Paladin",
+      "Knight",
+      "Soldier",
+      "Angel"
+    ],
+    "U": [
+      "Human",
+      "Merfolk",
+      "Wizard",
+      "Rogue",
+      "Tiefling",
+      "Illusion",
+      "Djinn"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Skeleton",
+      "Warlock",
+      "Tiefling",
+      "Beholder",
+      "Vampire"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Barbarian",
+      "Berserker",
+      "Dragon",
+      "Dwarf",
+      "Tiefling"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Druid",
+      "Ranger",
+      "Beast",
+      "Wolf",
+      "Giant"
+    ]
+  },
+  "string_pools": {
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Wizard",
+      "Zombie",
+      "Goblin",
+      "Wolf",
+      "Beast",
+      "Faerie",
+      "Treasure"
+    ],
+    "DUNGEON_NAME": [
+      "Lost Mine of Phandelver",
+      "Dungeon of the Mad Mage",
+      "Tomb of Annihilation"
+    ],
+    "CLASS_NAME": [
+      "Barbarian",
+      "Bard",
+      "Cleric",
+      "Druid",
+      "Fighter",
+      "Monk",
+      "Paladin",
+      "Ranger",
+      "Rogue",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ],
+    "SKILL_WORD": [
+      "Stealth",
+      "Arcana",
+      "Animal Handling",
+      "Athletics",
+      "Deception",
+      "Insight",
+      "Intimidation",
+      "Investigation",
+      "Perception",
+      "Persuasion",
+      "Survival"
+    ],
+    "DIE": [
+      "d20"
+    ]
+  },
+  "monster_keywords": {
+    "evergreen": [
+      "flying",
+      "first strike",
+      "deathtouch",
+      "haste",
+      "trample",
+      "vigilance",
+      "menace",
+      "reach"
+    ],
+    "classy": [
+      "pack tactics",
+      "ward",
+      "proficiency"
+    ],
+    "dnd": [
+      "venture into the dungeon",
+      "roll a d20"
+    ]
+  }
+}

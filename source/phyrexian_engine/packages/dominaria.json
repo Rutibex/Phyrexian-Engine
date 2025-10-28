@@ -1,0 +1,1132 @@
+{
+  "name": "dominaria",
+  "version": "1.0",
+  "description": "Dominaria-sized theme pack: historic (artifacts, legendaries, Sagas), kicker/multikicker, legendary sorceries, Knights/Wizards/Saprolings, and classic Dominaria-flavored effects.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. If it's legendary, it gains vigilance until end of turn.",
+          8,
+          0,
+          7
+        ],
+        [
+          "Exile target tapped creature.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Tap up to two target creatures. Scry 1.",
+          6,
+          0,
+          7
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. If you cast this spell during your main phase, those creatures gain vigilance until end of turn.",
+          4,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Create a 2/2 white Knight creature token with vigilance. If this spell was kicked, create two of those tokens instead.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Counter target spell that targets a creature you control.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Return target Aura or Equipment card from your graveyard to your hand.",
+          3,
+          0,
+          7
+        ],
+        [
+          "Prevent all damage that would be dealt to target creature this turn. {HISTORIC_REMINDER} If it's historic, scry 1.",
+          4,
+          0,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Soldier creature tokens. If you control a legendary creature, create a 2/2 white Knight creature token with vigilance instead.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Exile target artifact or enchantment.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Legendary Sorcery — You may cast this spell only if you control a legendary creature. Creatures you control get +2/+1 until end of turn.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Create a 2/2 white Knight creature token with vigilance. If this spell was kicked, put a +1/+1 counter on each creature you control.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Return target creature card with mana value 2 or less from your graveyard to the battlefield. If it’s legendary, it gains lifelink until end of turn.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a historic spell, creatures you control get +1/+0 until end of turn. {HISTORIC_RULES}",
+          4,
+          2,
+          7
+        ],
+        [
+          "At the beginning of combat on your turn, if you control a legendary creature, put a +1/+1 counter on target creature you control.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I — Create a 1/1 white Soldier creature token. II — Creatures you control gain vigilance until end of turn. III — Exile target tapped creature an opponent controls.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Creatures you control have vigilance as long as you control a legendary permanent.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast a historic spell, you gain 1 life. {HISTORIC_RULES}",
+          6,
+          1,
+          7
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast legendary spells.",
+          5,
+          2,
+          7
+        ],
+        [
+          "{T}: Target legendary creature you control gets +1/+1 until end of turn.",
+          4,
+          1,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Equip {EQUIP_COST}. If equipped creature is legendary, equip {LEGENDARY_EQUIP_COST} instead.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever you cast a historic spell, attach {THIS} to target creature you control. Equip {EQUIP_COST}.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+2 and has vigilance. When {THIS} enters the battlefield, if enchanted creature is legendary, scry 2.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Enchant creature. Kicker {KICKER_COST}. Enchanted creature gets +2/+2. When {THIS} enters the battlefield, if it was kicked, create a 1/1 white Soldier creature token.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {W}{W}. If you control a legendary creature, add {W}{W}{W} instead.\"",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{W}: Target creature gains first strike until end of turn.",
+          4,
+          0,
+          7
+        ],
+        [
+          "{2}{W}: Exile target attacking creature that dealt damage to you this turn.",
+          3,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, create a 2/2 white Knight creature token with vigilance.",
+          6,
+          2,
+          7
+        ],
+        [
+          "As long as you control another legendary creature, {THIS} has lifelink.",
+          4,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on {THIS}. {HISTORIC_RULES}",
+          5,
+          2,
+          7
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. If that spell is historic, counter it unless its controller pays {4} instead.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If you control a legendary creature, scry 1.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Draw two cards. Then discard a card unless you control a Wizard.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Counter target spell. If this spell was kicked, draw a card.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Target creature gets -2/-0 until end of turn. If it's legendary, draw a card.",
+          3,
+          0,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. If you control a historic permanent, draw three cards instead. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Return up to two target creatures to their owners' hands. If this spell was kicked, create a 1/1 blue Wizard creature token.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Legendary Sorcery — You may cast this spell only if you control a legendary creature. Look at the top seven cards of your library. Put two into your hand and the rest on the bottom of your library in a random order.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an instant, sorcery, or historic spell, scry 1. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I, II — Draw a card, then discard a card. III — Create a 2/2 blue Wizard creature token with \"{T}: Draw a card, then discard a card.\"",
+          6,
+          3,
+          7
+        ],
+        [
+          "As long as you control a legendary creature, creatures you control have \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}. Whenever you cast a historic spell, untap {THIS}. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "{2}, {T}: Draw a card. Activate only if you control a Wizard or legendary creature.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has \"{T}: Draw a card, then discard a card.\" Equip {EQUIP_COST}. If equipped creature is a Wizard, it also has hexproof.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 and has flying. Whenever you cast a historic spell, untap enchanted creature.",
+          5,
+          1,
+          7
+        ],
+        [
+          "Enchant creature. Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, draw two cards.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {U}{U}.\" Whenever you cast a historic spell, you may untap enchanted land.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{U}: Target creature gains flying until end of turn.",
+          3,
+          0,
+          7
+        ],
+        [
+          "{2}{U}: Return target historic permanent you control to its owner's hand. {HISTORIC_RULES}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, return up to one target nonland permanent to its owner's hand.",
+          6,
+          2,
+          7
+        ],
+        [
+          "As long as you control another Wizard, {THIS} has \"When this creature enters the battlefield, scry 2.\"",
+          5,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on target creature you control.",
+          4,
+          2,
+          7
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. If it's legendary, you gain 2 life.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Destroy target nonlegendary creature.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Target player discards two cards. If this spell was kicked, you gain 2 life.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Exile target creature card from a graveyard. Create a 1/1 black Cleric creature token.",
+          4,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to your hand. If it’s historic, you may put it onto the battlefield tapped instead. {HISTORIC_RULES}",
+          5,
+          2,
+          7
+        ],
+        [
+          "Legendary Sorcery — You may cast this spell only if you control a legendary creature. Destroy target creature. You gain life equal to its toughness.",
+          5,
+          4,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Return target creature card from your graveyard to the battlefield with a +1/+1 counter on it. If this spell was kicked, each opponent loses 2 life and you gain 2 life.",
+          6,
+          4,
+          7
+        ],
+        [
+          "Each opponent sacrifices a creature. If you control a legendary creature, each opponent sacrifices a nonland permanent instead.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, if it was legendary, return it to your hand at the beginning of the next end step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I — Target opponent discards two cards. II — Each opponent loses 2 life and you gain 2 life. III — Return up to one target creature card from your graveyard to the battlefield.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Pay 1 life: Add {B}.",
+          5,
+          1,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, each opponent loses 1 life and you gain 1 life. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has \"Whenever this creature deals combat damage to a player, that player discards a card.\" Equip {EQUIP_COST}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Equipped creature gets +3/+1. Equip legendary {LEGENDARY_EQUIP_COST}. Equip {EQUIP_COST}.",
+          4,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 and has deathtouch.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Enchant creature. When {THIS} enters the battlefield, target player discards a card. If enchanted creature is legendary, that player discards two cards instead.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {B}{B}.\" When enchanted land becomes tapped, you lose 1 life.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}{B}: Target creature gets -1/-1 until end of turn. If that creature is legendary, it gets -3/-3 until end of turn instead.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, target opponent discards two cards.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, each opponent loses 1 life and you gain 1 life. {HISTORIC_RULES}",
+          5,
+          2,
+          7
+        ],
+        [
+          "When {THIS} dies, return another target creature card from your graveyard to your hand.",
+          5,
+          2,
+          7
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "{THIS} deals 3 damage to any target. If you control a Wizard, you may have it deal 4 damage instead.",
+          7,
+          1,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. {THIS} deals 2 damage to each of up to two targets. If this spell was kicked, it deals 3 damage to each of them instead.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Target creature gains first strike until end of turn. Draw a card if that creature is legendary.",
+          4,
+          0,
+          7
+        ],
+        [
+          "Copy target instant or sorcery spell you control. If it’s historic, you may choose new targets for the copy. {HISTORIC_RULES}",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{THIS} deals 4 damage to target creature. If you control an artifact or Goblin, {THIS} deals 5 damage to that creature instead.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Create two 1/1 red Goblin creature tokens. If this spell was kicked, create four of those tokens instead.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Legendary Sorcery — You may cast this spell only if you control a legendary creature. Exile the top five cards of your library. Until the end of your next turn, you may play those cards.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a historic spell, {THIS} deals 1 damage to any target. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I — Create two 1/1 red Goblin creature tokens. II — Creatures you control get +1/+0 until end of turn. III — {THIS} deals 3 damage to any target.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}. Whenever you cast a legendary spell, add an additional {R}.",
+          6,
+          2,
+          7
+        ],
+        [
+          "{1}, {T}, Sacrifice an artifact or Goblin: {THIS} deals 2 damage to any target.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has haste. Equip {EQUIP_COST}. If equipped creature is legendary, it also has first strike.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Equipped creature gets +1/+0 for each historic permanent you control. {HISTORIC_RULES} Equip {EQUIP_COST}.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and has menace. When {THIS} enters the battlefield, it deals 2 damage to any target.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Enchant creature. Kicker {KICKER_COST}. Enchanted creature gets +3/+0. When {THIS} enters the battlefield, if it was kicked, create a Treasure token.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {R}{R}.\" When enchanted land becomes tapped, {THIS} deals 1 damage to you.",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{R}: {THIS} gets +1/+0 until end of turn.",
+          4,
+          0,
+          7
+        ],
+        [
+          "{1}{R}, Discard a card: Draw a card.",
+          4,
+          1,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, it deals 2 damage to any target.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, {THIS} gets +1/+0 until end of turn. {HISTORIC_RULES}",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as you control a Wizard, {THIS} has \"{T}: {THIS} deals 1 damage to any target.\"",
+          4,
+          2,
+          7
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. If it’s legendary, it also gains trample until end of turn.",
+          7,
+          1,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Target creature you control fights target creature you don’t control. If this spell was kicked, put a +1/+1 counter on your creature before it fights.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If you control a legendary creature, you may put that card onto the battlefield tapped instead.",
+          5,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 green Saproling creature tokens. Kicker {KICKER_COST}. If this spell was kicked, create four of those tokens instead.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Put a +1/+1 counter on each of up to two target creatures. If you control a legendary permanent, those creatures gain trample until end of turn.",
+          5,
+          2,
+          7
+        ],
+        [
+          "Legendary Sorcery — You may cast this spell only if you control a legendary creature. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1 as long as you control a legendary permanent.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I — Create a 1/1 green Saproling creature token. II — Put a +1/+1 counter on each creature you control. III — Creatures you control gain trample until end of turn.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color among legendary permanents you control.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on target creature you control. {HISTORIC_RULES}",
+          6,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2. Whenever you cast a historic spell, put a +1/+1 counter on equipped creature. Equip {EQUIP_COST}.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has trample.",
+          6,
+          1,
+          7
+        ],
+        [
+          "Enchant creature. Kicker {KICKER_COST}. Enchanted creature gets +3/+3. When {THIS} enters the battlefield, if it was kicked, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add two mana of any one color.\" If you control a legendary creature, enchanted land has \"{T}: Add three mana of any one color\" instead.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{G}: Target creature you control gains hexproof until end of turn.",
+          4,
+          0,
+          7
+        ],
+        [
+          "{2}{G}: Create a 1/1 green Saproling creature token.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, create two 1/1 green Saproling creature tokens.",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on {THIS}. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "{THIS} gets +1/+1 for each legendary permanent you control.",
+          4,
+          3,
+          7
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Add {C}{C}. Spend this mana only to cast historic spells. {HISTORIC_RULES}",
+          4,
+          1,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. Create a Treasure token. If this spell was kicked, create two of those tokens instead.",
+          4,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle. {HISTORIC_RULES}",
+          5,
+          2,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Historic spells you cast cost {1} less to cast. {HISTORIC_RULES}",
+          6,
+          3,
+          7
+        ],
+        [
+          "Saga (As this Saga enters and after your draw step, add a lore counter.) I, II — Scry 2. III — You may cast a historic spell from your hand without paying its mana cost.",
+          5,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "Legendary spells you cast cost {1} less to cast.",
+          6,
+          2,
+          7
+        ],
+        [
+          "{T}: Add one mana of any color. If you spend this mana to cast a historic spell, scry 1. {HISTORIC_RULES}",
+          6,
+          2,
+          7
+        ],
+        [
+          "Whenever a Saga you control gains a lore counter, draw a card, then discard a card.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Legendary Equipment — Equipped creature gets +3/+3. Equip legendary {LEGENDARY_EQUIP_COST}. Equip {EQUIP_COST}.",
+          6,
+          4,
+          7
+        ],
+        [
+          "Equipped creature gets +1/+0 for each Saga you control. Equip {EQUIP_COST}.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant legendary creature. Enchanted creature gets +2/+2 and has hexproof from the colors of permanents you control.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land is legendary and has \"{T}: Add one mana of any color.\"",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{3}, {T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast historic spells. {HISTORIC_RULES}",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "As long as you control a Saga, {THIS} has vigilance and gets +1/+1.",
+          4,
+          2,
+          7
+        ],
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+          5,
+          3,
+          7
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "Kicker {KICKER_COST}. Draw a card. If this spell was kicked, draw two cards instead.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{THIS} deals 2 damage to target creature or planeswalker. If it's legendary, you may have {THIS} deal 3 damage instead.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Multikicker {MULTIKICKER_COST}. Create a 1/1 colorless Soldier artifact creature token for each time this spell was kicked.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a historic spell, scry 1. {HISTORIC_RULES}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}. Historic spells you cast cost {1} less to cast. {HISTORIC_RULES}",
+          3,
+          2,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1. Whenever you cast a historic spell, you may attach {THIS} to target creature you control. Equip {EQUIP_COST}.",
+          3,
+          2,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1. Whenever you cast a historic spell, put a +1/+1 counter on enchanted creature. {HISTORIC_RULES}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{2}: Scry 1.",
+          2,
+          0,
+          7
+        ]
+      ],
+      "Creature": [
+        [
+          "Kicker {KICKER_COST}. When {THIS} enters the battlefield, if it was kicked, draw a card.",
+          3,
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Angel",
+      "Knight",
+      "Soldier",
+      "Cleric",
+      "Cat",
+      "Human",
+      "Spirit"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Bird",
+      "Human",
+      "Djinn",
+      "Vedalken"
+    ],
+    "B": [
+      "Zombie",
+      "Cleric",
+      "Assassin",
+      "Human",
+      "Vampire",
+      "Rat"
+    ],
+    "R": [
+      "Goblin",
+      "Warrior",
+      "Shaman",
+      "Human",
+      "Dragon",
+      "Keldon"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Fungus",
+      "Bear",
+      "Human",
+      "Saproling",
+      "Spider"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Scarecrow",
+      "Assembly-Worker"
+    ]
+  },
+  "string_pools": {
+    "KICKER_COST": [
+      "{1}{W}",
+      "{2}{W}",
+      "{1}{U}",
+      "{2}{U}",
+      "{1}{B}",
+      "{2}{B}",
+      "{1}{R}",
+      "{2}{R}",
+      "{1}{G}",
+      "{2}{G}",
+      "{3}"
+    ],
+    "MULTIKICKER_COST": [
+      "{1}",
+      "{1}",
+      "{2}"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}",
+      "{2}"
+    ],
+    "LEGENDARY_EQUIP_COST": [
+      "{1}",
+      "{1}",
+      "{2}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,"
+    ],
+    "HISTORIC_REMINDER": [
+      "(A historic spell is an artifact, a legendary permanent, or a Saga.)"
+    ],
+    "HISTORIC_RULES": [
+      "(Artifacts, legendaries, and Sagas are historic.)"
+    ],
+    "TOKEN_POWER": [
+      "1",
+      "2"
+    ],
+    "TOKEN_TOUGHNESS": [
+      "1",
+      "2"
+    ],
+    "AURA_GRANT_KEYWORD": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "menace"
+    ],
+    "SAGA_CREATURE_TYPES": [
+      "Knight",
+      "Wizard",
+      "Cleric",
+      "Goblin",
+      "Elf",
+      "Saproling"
+    ],
+    "THIS_OR_ANOTHER": [
+      "{THIS}",
+      "another target creature"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "deathtouch",
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  }
+}

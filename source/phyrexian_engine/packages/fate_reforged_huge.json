@@ -1,0 +1,1534 @@
+{
+  "name": "Fate Reforged: Comprehensive",
+  "description": "A huge Fate Reforged–inspired package featuring Bolster, Dash, Manifest, Delve, Prowess, Ferocious, Siege-style modal enchantments, plus Dragon and Warrior tribal hooks.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +2/+2 until end of turn. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          9,
+          1,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ],
+        [
+          "Exile target tapped creature.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 until end of turn. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          3,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Bolster {BOLSTER_N}. Then you gain 3 life. {BOLSTER_REMINDER}",
+          9,
+          2,
+          7
+        ],
+        [
+          "Create two 1/1 white Warrior creature tokens. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          8,
+          2,
+          6
+        ],
+        [
+          "Distribute three +1/+1 counters among up to three target creatures. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          6,
+          3,
+          8
+        ],
+        [
+          "Create two 1/1 white Warrior creature tokens. {WARRIOR_HOOK}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{WARRIOR_HOOK}",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever a Warrior you control dies, bolster 1. {BOLSTER_REMINDER}",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Target creature you control gets +2/+2 until end of turn. {FEROCIOUS_INTRO} it also gains trample until end of turn.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Draw a card. {FEROCIOUS_INTRO} draw two cards instead.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays 3. {FEROCIOUS_INTRO} counter that spell instead.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand. Draw a card.",
+          9,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then scry 2. {MANIFEST_REMINDER}",
+          8,
+          3,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then you may put a +1/+1 counter on a creature you control. {MANIFEST_REMINDER}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{DELVE_REMINDER} Draw three cards.",
+          8,
+          4,
+          7
+        ],
+        [
+          "Manifest the top two cards of your library. {MANIFEST_REMINDER}",
+          10,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "{DELVE_REMINDER} Destroy target creature.",
+          9,
+          4,
+          8
+        ],
+        [
+          "Target creature gets -2/-2 until end of turn. {FEROCIOUS_INTRO} that creature gets -4/-4 until end of turn instead.",
+          7,
+          2,
+          5
+        ],
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{DELVE_REMINDER} Target opponent discards two cards.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{DELVE_REMINDER} Target creature gets -5/-5 until end of turn.",
+          9,
+          4,
+          8
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          7,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Whenever a nontoken creature you control dies, bolster 1. {BOLSTER_REMINDER}",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals 3 damage to any target.",
+          12,
+          2,
+          4
+        ],
+        [
+          "Creatures you control get +2/+0 until end of turn.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{DELVE_REMINDER} This spell deals 5 damage to target creature or planeswalker.",
+          7,
+          4,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Warrior creature tokens with haste.",
+          7,
+          3,
+          5
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{DRAGON_HOOK}",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast a Dragon spell, it deals 1 damage to any target.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gains haste until end of turn.",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature attacks, it deals 1 damage to any target.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} When this creature enters the battlefield, it gets +1/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Dash {DASH_COST} {DASH_REMINDER} Whenever this creature deals combat damage to a player, create a Treasure token.",
+          10,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature you control gets +2/+2 until end of turn. {FEROCIOUS_INTRO} it also gains trample until end of turn.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Draw a card. {FEROCIOUS_INTRO} draw two cards instead.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays 3. {FEROCIOUS_INTRO} counter that spell instead.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature you control gets +3/+3 until end of turn.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Creatures you control gain trample until end of turn.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put two +1/+1 counters on target creature. Then bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          3,
+          6
+        ],
+        [
+          "Create a 4/4 green Beast creature token.",
+          8,
+          3,
+          6
+        ],
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then scry 2. {MANIFEST_REMINDER}",
+          8,
+          3,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then you may put a +1/+1 counter on a creature you control. {MANIFEST_REMINDER}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have trample.",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Add {C}{C}. Spend this mana only to cast colorless spells.",
+          6,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Manifest the top card of your library. {MANIFEST_REMINDER}",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{DRAGON_HOOK}",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast a Dragon spell, it deals 1 damage to any target.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ]
+      ]
+    },
+    "any": {
+      "Instant": [
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then scry 2. {MANIFEST_REMINDER}",
+          8,
+          3,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then you may put a +1/+1 counter on a creature you control. {MANIFEST_REMINDER}",
+          7,
+          3,
+          7
+        ],
+        [
+          "Target creature you control gets +2/+2 until end of turn. {FEROCIOUS_INTRO} it also gains trample until end of turn.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Draw a card. {FEROCIOUS_INTRO} draw two cards instead.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays 3. {FEROCIOUS_INTRO} counter that spell instead.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Bolster {BOLSTER_N}. Then you gain 3 life. {BOLSTER_REMINDER}",
+          9,
+          2,
+          7
+        ],
+        [
+          "Create two 1/1 white Warrior creature tokens. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          8,
+          2,
+          6
+        ],
+        [
+          "Distribute three +1/+1 counters among up to three target creatures. Bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          6,
+          3,
+          8
+        ],
+        [
+          "{MANIFEST_INTRO}. {MANIFEST_REMINDER}",
+          14,
+          2,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then scry 2. {MANIFEST_REMINDER}",
+          8,
+          3,
+          7
+        ],
+        [
+          "{MANIFEST_INTRO}. Then you may put a +1/+1 counter on a creature you control. {MANIFEST_REMINDER}",
+          7,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{MODAL_SEIGE_INTRO} {KHANS_MODE} {DRAGONS_MODE}",
+          10,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Whenever a creature enters the battlefield under your control, scry 1. Dragons — Whenever a Dragon enters the battlefield under your control, draw a card.",
+          8,
+          3,
+          7
+        ],
+        [
+          "{KHANS_OR_DRAGONS} Khans — Creatures you control get +0/+1. Dragons — Creatures you control get +1/+0.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{DRAGON_HOOK}",
+          7,
+          3,
+          7
+        ],
+        [
+          "Whenever you cast a Dragon spell, it deals 1 damage to any target.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{WARRIOR_HOOK}",
+          7,
+          2,
+          6
+        ],
+        [
+          "Whenever a Warrior you control dies, bolster 1. {BOLSTER_REMINDER}",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this enters the battlefield, {GRAVE_FUEL}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Dragon or Warrior spells.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Sacrifice this: Draw a card.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0. Equip {EQUIP_COST}.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has first strike and haste. Equip {EQUIP_COST}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Whenever equipped creature attacks, {ATTACK_TRIGGER}. Equip {EQUIP_COST}.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has '{ACTIVATED_COST}: This creature gains first strike until end of turn.'",
+          8,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. When this Aura enters the battlefield, bolster {BOLSTER_N}. {BOLSTER_REMINDER}",
+          7,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Create a 1/1 white Warrior creature token.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Mill a card, then draw a card.",
+          7,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Warrior",
+      "Monk",
+      "Soldier",
+      "Spirit",
+      "Cleric",
+      "Scout"
+    ],
+    "U": [
+      "Djinn",
+      "Monk",
+      "Aven",
+      "Wizard",
+      "Rogue",
+      "Illusion"
+    ],
+    "B": [
+      "Warrior",
+      "Shaman",
+      "Zombie",
+      "Orc",
+      "Assassin",
+      "Spirit"
+    ],
+    "R": [
+      "Warrior",
+      "Shaman",
+      "Berserker",
+      "Orc",
+      "Goblin",
+      "Elemental"
+    ],
+    "G": [
+      "Warrior",
+      "Shaman",
+      "Naga",
+      "Scout",
+      "Archer",
+      "Beast"
+    ],
+    "C": [
+      "Dragon",
+      "Construct",
+      "Spirit",
+      "Shapeshifter"
+    ]
+  },
+  "string_pools": {
+    "BOLSTER_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "DASH_COST": [
+      "2R",
+      "3R",
+      "1U",
+      "3R",
+      "1G",
+      "1R",
+      "2G",
+      "3B",
+      "2G",
+      "2G",
+      "2W",
+      "1B",
+      "1B",
+      "1R",
+      "3W",
+      "1W",
+      "1G",
+      "2G",
+      "2W",
+      "3U",
+      "2W",
+      "1W",
+      "2B",
+      "1W",
+      "2U",
+      "3R",
+      "1B",
+      "1W",
+      "2W",
+      "1W",
+      "(R/B)",
+      "(R/W)"
+    ],
+    "MANIFEST_INTRO": [
+      "Manifest the top card of your library",
+      "Manifest a card from your hand",
+      "Manifest the top two cards of your library, then put one back on top"
+    ],
+    "FEROCIOUS_INTRO": [
+      "Ferocious — If you control a creature with power 4 or greater,",
+      "Ferocious — Then if you control a creature with power 4 or greater,"
+    ],
+    "PROWESS_REMINDER": [
+      "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)"
+    ],
+    "DELVE_REMINDER": [
+      "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)"
+    ],
+    "KHANS_OR_DRAGONS": [
+      "As this enters the battlefield, choose Khans or Dragons.",
+      "When this enters the battlefield, choose Khans or Dragons."
+    ],
+    "KHANS_MODE": [
+      "Khans — {KHANS_EFFECT}",
+      "Khans — {KHANS_EFFECT}"
+    ],
+    "DRAGONS_MODE": [
+      "Dragons — {DRAGONS_EFFECT}",
+      "Dragons — {DRAGONS_EFFECT}"
+    ],
+    "KHANS_EFFECT": [
+      "At the beginning of your upkeep, scry 2.",
+      "Creatures you control get +1/+0.",
+      "Whenever you cast a noncreature spell, draw a card. This ability triggers only once each turn.",
+      "At the beginning of combat on your turn, target creature you control gains first strike until end of turn."
+    ],
+    "DRAGONS_EFFECT": [
+      "At the beginning of your end step, this deals 2 damage to each opponent.",
+      "Creatures you control gain flying until end of turn.",
+      "Whenever a Dragon enters the battlefield under your control, draw a card.",
+      "At the beginning of combat on each opponent's turn, tap up to one target creature that player controls."
+    ],
+    "WARRIOR_HOOK": [
+      "Whenever a Warrior you control attacks, {ATTACK_TRIGGER}.",
+      "Warriors you control get +1/+0."
+    ],
+    "DRAGON_HOOK": [
+      "Whenever a Dragon enters the battlefield under your control, {DRAGON_TRIGGER}.",
+      "Dragons you control get +1/+1."
+    ],
+    "ATTACK_TRIGGER": [
+      "that creature gains first strike until end of turn",
+      "you may have it deal 1 damage to any target",
+      "scry 1"
+    ],
+    "DRAGON_TRIGGER": [
+      "it fights up to one target creature you don't control",
+      "it deals 2 damage to any target",
+      "draw a card"
+    ],
+    "MANIFEST_REMINDER": [
+      "(To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)"
+    ],
+    "DASH_REMINDER": [
+      "(You may cast this spell for its dash cost. If you do, it gains haste and is returned to its owner's hand at the beginning of the next end step.)"
+    ],
+    "BOLSTER_REMINDER": [
+      "(Choose a creature with the least toughness among creatures you control and put {BOLSTER_N} +1/+1 counters on it.)"
+    ],
+    "MODAL_SEIGE_INTRO": [
+      "Siege — {KHANS_OR_DRAGONS}",
+      "Enchantment — Siege"
+    ],
+    "GRAVE_FUEL": [
+      "mill three cards",
+      "mill four cards",
+      "each player mills two cards"
+    ],
+    "TEMUR_TOUGH": [
+      "target creature you control fights up to one target creature you don't control",
+      "creatures you control gain trample until end of turn",
+      "put two +1/+1 counters on target creature"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Prowess",
+      "Vigilance",
+      "Bolster"
+    ],
+    "U": [
+      "Prowess",
+      "Flying"
+    ],
+    "B": [
+      "Deathtouch",
+      "Delve"
+    ],
+    "R": [
+      "Haste",
+      "Prowess",
+      "Dash"
+    ],
+    "G": [
+      "Trample",
+      "Reach",
+      "Ferocious"
+    ],
+    "C": [
+      "Flying"
+    ]
+  }
+}

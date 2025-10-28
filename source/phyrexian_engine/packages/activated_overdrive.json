@@ -1,0 +1,1640 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{1}: {T}: Another target creature you control gets +1/+1 and gains vigilance until end of turn.",
+          4,
+          1,
+          5
+        ],
+        [
+          "{T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+          5,
+          1,
+          5
+        ],
+        [
+          "{2}: Creatures you control get +1/+0 until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] Soldier creature token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{3}: Exile target attacking creature with mana value {X} or less.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Untap another target creature.",
+          3,
+          1,
+          5
+        ],
+        [
+          "{1}: {T}: You gain 2 life.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Sacrifice ~: Create two 1/1 [TOKEN_COLOR] Soldier creature tokens.",
+          2,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Put a +1/+1 counter on ~.",
+          4,
+          2,
+          7
+        ],
+        [
+          "{X}: {T}: Creatures you control get +{X}/+{X} until end of turn.",
+          1,
+          4,
+          8
+        ],
+        [
+          "{T}: Target creature gains protection from [TOKEN_COLOR] until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{2}: Tap target creature.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{1}: {T}: Scry 1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Draw two cards.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Put two +1/+1 counters on ~.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature can't block this turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gains first strike until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Put a +1/+1 counter on another target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from ~: ~ gains hexproof until end of turn.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{1}: Tap target creature. Scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn. You gain 1 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}{T}: Exile target creature you control, then return it to the battlefield under its owner's control.",
+          3,
+          2,
+          8
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] Soldier creature tokens.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: Creatures you control gain vigilance until end of turn.",
+          2,
+          2,
+          7
+        ],
+        [
+          "{T}: Target attacking creature gets -2/-0 until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Exile target card from a graveyard.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{X}: {T}: Scry {X}.",
+          1,
+          2,
+          8
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from a creature you control: Scry 1.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {W}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: You gain 2 life.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] Soldier creature token.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{2}: {T}: Put a +1/+1 counter on target creature.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Sacrifice ~: Prevent all damage that would be dealt this turn by a source of your choice.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{T}: Untap target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Draw a card, then discard a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{3}: {T}: Exile target artifact or enchantment.",
+          1,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a charge counter on ~.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a charge counter from ~: Add one mana of any color.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Remove three charge counters from ~: Draw two cards.",
+          1,
+          3,
+          8
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{T}: Draw a card, then discard a card.",
+          5,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Scry 2.",
+          5,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Target creature gains flying until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Return target creature you control to its owner's hand.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{3}: Counter target spell unless its controller pays {2}.",
+          2,
+          3,
+          7
+        ],
+        [
+          "Discard a card: Scry 2, then draw a card.",
+          2,
+          2,
+          7
+        ],
+        [
+          "{T}: Target creature gets -2/-0 until end of turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{X}: {T}: Look at the top {X} cards of your library, then put any number back and the rest on the bottom in any order.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{1}{T}: Untap another target creature.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{1}: {T}: Scry 1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Draw two cards.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Put two +1/+1 counters on ~.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature can't block this turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gains first strike until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Put a +1/+1 counter on another target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from ~: ~ gains hexproof until end of turn.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{2}: Draw a card.",
+          5,
+          2,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature can't be blocked this turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Return target nonland permanent to its owner's hand.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{3}: Creatures you control gain flying until end of turn.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Mill two cards.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Exile target card from a graveyard.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{X}: {T}: Scry {X}.",
+          1,
+          2,
+          8
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from a creature you control: Scry 1.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {U}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          6,
+          1,
+          7
+        ],
+        [
+          "{2}{T}: Untap target artifact or creature.",
+          4,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Counter target activated or triggered ability.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{T}: Target creature gets -2/-0 until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Draw a card, then discard a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{3}: {T}: Exile target artifact or enchantment.",
+          1,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a charge counter on ~.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a charge counter from ~: Add one mana of any color.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Remove three charge counters from ~: Draw two cards.",
+          1,
+          3,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{1}: {T}: Target opponent loses 1 life and you gain 1 life.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Sacrifice ~: Each opponent loses 2 life.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Exile a card from your graveyard: Target creature gets -2/-2 until end of turn.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{2}: {T}: Return target creature card with mana value {X} or less from your graveyard to your hand.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Create a 2/2 [TOKEN_COLOR] Zombie creature token.",
+          3,
+          3,
+          8
+        ],
+        [
+          "{X}: {T}: Target creature gets -{X}/-{X} until end of turn.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: Each opponent discards a card.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Discard a card: Draw a card.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{1}: {T}: Scry 1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Draw two cards.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Put two +1/+1 counters on ~.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature can't block this turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gains first strike until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Put a +1/+1 counter on another target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from ~: ~ gains hexproof until end of turn.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{2}: Target creature gets -1/-1 until end of turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{3}: Return target creature card from your graveyard to your hand.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{2}: Each opponent loses 1 life and you gain 1 life.",
+          4,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Each opponent sacrifices a creature.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{T}: Mill two cards.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{2}: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Exile target card from a graveyard.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{X}: {T}: Scry {X}.",
+          1,
+          2,
+          8
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from a creature you control: Scry 1.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {B}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Target opponent loses 2 life.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Return target creature card from your graveyard to your hand.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Sacrifice ~: Exile target card from a graveyard. Draw a card.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature. You lose 1 life.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Draw a card, then discard a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{3}: {T}: Exile target artifact or enchantment.",
+          1,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a charge counter on ~.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a charge counter from ~: Add one mana of any color.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Remove three charge counters from ~: Draw two cards.",
+          1,
+          3,
+          8
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{T}: ~ deals 1 damage to any target.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: ~ deals 2 damage to target player or planeswalker.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: ~ deals 2 damage to target creature.",
+          3,
+          2,
+          7
+        ],
+        [
+          "Discard a card: ~ gets +2/+0 until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{X}: {T}: ~ deals {X} damage to any target.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{1}{T}: Target creature gains haste until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Sacrifice ~: ~ deals 3 damage to any target.",
+          2,
+          2,
+          7
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{1}: {T}: Scry 1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Draw two cards.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Put two +1/+1 counters on ~.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature can't block this turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gains first strike until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Put a +1/+1 counter on another target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from ~: ~ gains hexproof until end of turn.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{1}: Target creature can't block this turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: ~ deals 2 damage to any target.",
+          4,
+          1,
+          7
+        ],
+        [
+          "{3}: Creatures you control get +1/+0 until end of turn.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{T}: Discard a card, then draw a card.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Exile target card from a graveyard.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{X}: {T}: Scry {X}.",
+          1,
+          2,
+          8
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from a creature you control: Scry 1.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: ~ deals 1 damage to any target.",
+          5,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Create a Treasure token.",
+          4,
+          2,
+          7
+        ],
+        [
+          "Sacrifice ~: ~ deals 3 damage to any target.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Target creature gains first strike until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Draw a card, then discard a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{3}: {T}: Exile target artifact or enchantment.",
+          1,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a charge counter on ~.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a charge counter from ~: Add one mana of any color.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Remove three charge counters from ~: Draw two cards.",
+          1,
+          3,
+          8
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{T}: Add one mana of any color.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Put a +1/+1 counter on target creature.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Target creature you control fights target creature you don't control.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{X}: {T}: Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Target creature gains trample until end of turn.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Draw a card.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{1}: {T}: Scry 1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Draw two cards.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{3}: {T}: Put two +1/+1 counters on ~.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature can't block this turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gains first strike until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{1}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{T}: Put a +1/+1 counter on another target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from ~: ~ gains hexproof until end of turn.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{2}: {T}: Create a 2/2 [TOKEN_COLOR] Bear creature token.",
+          3,
+          2,
+          7
+        ],
+        [
+          "{X}: Creatures you control get +{X}/+{X} until end of turn.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Untap target creature.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{3}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{2}: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{1}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          7
+        ],
+        [
+          "{3}: Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          1,
+          3,
+          8
+        ],
+        [
+          "{2}: {T}: Exile target card from a graveyard.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{X}: {T}: Scry {X}.",
+          1,
+          2,
+          8
+        ],
+        [
+          "{2}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a +1/+1 counter on target creature.",
+          2,
+          2,
+          8
+        ],
+        [
+          "Remove a +1/+1 counter from a creature you control: Scry 1.",
+          1,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{2}: {T}: Put a +1/+1 counter on target creature.",
+          5,
+          1,
+          7
+        ],
+        [
+          "{2}{T}: Target creature gains trample until end of turn.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Sacrifice ~: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          3,
+          8
+        ],
+        [
+          "{T}: Add {C}.",
+          8,
+          1,
+          6
+        ],
+        [
+          "{1}: {T}: Draw a card, then discard a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "{2}: {T}: Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{3}: {T}: Exile target artifact or enchantment.",
+          1,
+          3,
+          8
+        ],
+        [
+          "Sacrifice ~: Draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +1/+1 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +2/+2 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +3/+3 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{2}: {T}: Target creature gets +4/+4 until end of turn.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Put a charge counter on ~.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a charge counter from ~: Add one mana of any color.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Remove three charge counters from ~: Draw two cards.",
+          1,
+          3,
+          8
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,2145 @@
+{
+  "package_name": "battle_for_zendikar_superpack",
+  "description": "Comprehensive Battle for Zendikar mechanics: Devoid, Ingest, Processors, Awaken, Landfall, Rally (Allies), Converge, Eldrazi Scions, exile-matters, colorless matters.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, {ALLY_RALLY}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, target creature you control gains vigilance until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, creatures you control gain menace until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, put a +1/+1 counter on target Ally.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, draw a card, then discard a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_BIG}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, this gets +2/+2 until end of turn.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, it deals damage to any target equal to the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, exile up to X target cards from graveyards, where X is the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.)",
+          9,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target tapped creature.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, you may draw a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, target creature gets +2/+2 until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Equip {EQUIP_COST}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [],
+      "Land": [],
+      "Activated": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, {ALLY_RALLY}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, target creature you control gains vigilance until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, creatures you control gain menace until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, put a +1/+1 counter on target Ally.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, draw a card, then discard a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_BIG}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, this gets +2/+2 until end of turn.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, it deals damage to any target equal to the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, exile up to X target cards from graveyards, where X is the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.)",
+          9,
+          0,
+          12
+        ],
+        [
+          "Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)",
+          14,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Counter target spell unless its controller pays {3}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, you may draw a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, target creature gets +2/+2 until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Devoid (This card has no color.) Enchant creature. Enchanted creature has ingest.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {C}. Spend this mana only to cast colorless spells.\"",
+          9,
+          0,
+          12
+        ]
+      ],
+      "Land": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains ingest until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: {PROCESS_COST}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard.",
+          10,
+          0,
+          12
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, {ALLY_RALLY}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, target creature you control gains vigilance until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, creatures you control gain menace until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, put a +1/+1 counter on target Ally.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, draw a card, then discard a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_BIG}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, this gets +2/+2 until end of turn.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, it deals damage to any target equal to the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, exile up to X target cards from graveyards, where X is the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.)",
+          9,
+          0,
+          12
+        ],
+        [
+          "Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)",
+          14,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create three 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create a 3/3 colorless Eldrazi creature token.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Target creature gets -4/-4 until end of turn.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, you may draw a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, target creature gets +2/+2 until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +1/+1 and has deathtouch.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [],
+      "Land": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains ingest until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: {PROCESS_COST}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard.",
+          10,
+          0,
+          12
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, {ALLY_RALLY}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, target creature you control gains vigilance until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, creatures you control gain menace until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, put a +1/+1 counter on target Ally.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, draw a card, then discard a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_BIG}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, this gets +2/+2 until end of turn.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, it deals damage to any target equal to the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, exile up to X target cards from graveyards, where X is the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.)",
+          9,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create three 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create a 3/3 colorless Eldrazi creature token.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Deal 3 damage to any target. If a permanent dealt damage this way would die this turn, exile it instead.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, you may draw a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, target creature gets +2/+2 until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, equipped creature gets +2/+0 until end of turn. Equip {EQUIP_COST}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and has menace.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [],
+      "Land": [],
+      "Activated": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, {ALLY_RALLY}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, target creature you control gains vigilance until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever this or another Ally enters the battlefield under your control, creatures you control gain menace until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, put a +1/+1 counter on target Ally.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Rally — Whenever an Ally enters the battlefield under your control, draw a card, then discard a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_SMALL}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, {LANDFALL_BIG}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, this gets +2/+2 until end of turn.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — This enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, it deals damage to any target equal to the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — When this enters the battlefield, exile up to X target cards from graveyards, where X is the number of colors of mana spent to cast it.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.)",
+          9,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Target creature you control fights target creature you don't control. If a creature would die this turn, exile it instead.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control this turn, {LANDFALL_SMALL}.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Until end of turn, whenever a land enters the battlefield under your control, draw a card.",
+          7,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create three 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create a 3/3 colorless Eldrazi creature token.",
+          9,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, you may draw a card.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, target creature gets +2/+2 until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, tap target creature an opponent controls.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever a land enters the battlefield under your control, create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +3/+3.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has \"{T}: Add {C}{C}.\"",
+          9,
+          0,
+          12
+        ]
+      ],
+      "Land": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains ingest until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: {PROCESS_COST}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard.",
+          10,
+          0,
+          12
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Devoid (This card has no color.)",
+          12,
+          0,
+          12
+        ],
+        [
+          "Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)",
+          12,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SCION_TOKEN}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Whenever you process a card, put a +1/+1 counter on this creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}each opponent loses 1 life for each card they own in exile.",
+          12,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}exile up to one target creature an opponent controls with mana value 3 or less until this leaves the battlefield.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Sacrifice another creature: Add {C}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "When this enters the battlefield, you may {PROCESS_COST}. If you do, draw a card.",
+          16,
+          0,
+          12
+        ],
+        [
+          "When this enters the battlefield, you may {PROCESS_COST}. If you do, return target nonland permanent to its owner's hand.",
+          16,
+          0,
+          12
+        ],
+        [
+          "When this enters the battlefield, you may {PROCESS_COST}. If you do, target opponent discards a card.",
+          16,
+          0,
+          12
+        ],
+        [
+          "When this enters the battlefield, you may {PROCESS_COST}. If you do, put two +1/+1 counters on this creature.",
+          16,
+          0,
+          12
+        ],
+        [
+          "When this enters the battlefield, you may {PROCESS_COST}. If you do, create two 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          16,
+          0,
+          12
+        ],
+        [
+          "Ingest (Whenever this creature deals combat damage to a player, that player exiles the top card of their library.)",
+          14,
+          0,
+          12
+        ],
+        [
+          "{TRIGGER_INTRO}{SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Instant": [
+        [
+          "Devoid (This card has no color.)",
+          10,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.) {TRIGGER_INTRO}{SCION_TOKEN}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Devoid (This card has no color.)",
+          10,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.) {TRIGGER_INTRO}{SCION_TOKEN}.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Target player exiles the top two cards of their library.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Each opponent exiles a card from their graveyard.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Exile target creature with mana value 3 or less.",
+          10,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, draw two cards.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, return target nonland permanent to its owner's hand.",
+          12,
+          0,
+          12
+        ],
+        [
+          "As an additional cost to cast this spell, you may {PROCESS_COST}. When you do, each opponent sacrifices a creature.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Create two 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create three 1/1 colorless Eldrazi Scion creature tokens with \"Sacrifice this creature: Add {C}.\"",
+          9,
+          0,
+          12
+        ],
+        [
+          "Create a 3/3 colorless Eldrazi creature token.",
+          9,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Devoid (This card has no color.) Landfall — Whenever a land enters the battlefield under your control, each opponent exiles the top card of their library.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "Devoid (This card has no color.) {TRIGGER_INTRO}{SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Devoid (This card has no color.) At the beginning of your upkeep, you may {PROCESS_COST}. If you do, draw a card.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Equipment": [
+        [
+          "Devoid (This card has no color.) Equipped creature has menace and ingest. Equip {EQUIP_COST}.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          12,
+          0,
+          12
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast colorless spells.",
+          12,
+          0,
+          12
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: You may {PROCESS_COST}. If you do, draw a card.",
+          12,
+          0,
+          12
+        ],
+        [
+          "Landfall — Whenever this land enters the battlefield or another land enters under your control, scry 1.",
+          12,
+          0,
+          12
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: {SCION_TOKEN}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains ingest until end of turn.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: {PROCESS_COST}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "{ACTIVATED_COST}: Exile target card from a graveyard.",
+          10,
+          0,
+          12
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [],
+      "Instant": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Awaken 2 — Put two +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 3 — Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with vigilance. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 4 — Put four +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with flying. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Awaken 5 — Put five +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with trample. It's still a land.",
+          9,
+          0,
+          12
+        ],
+        [
+          "Converge — {CONVERGE_EFFECT}.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Destroy target artifact or enchantment with mana value X or less, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ],
+        [
+          "Converge — Target creature gets +X/+X until end of turn, where X is the number of colors of mana spent to cast this spell.",
+          10,
+          0,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Converge — At the beginning of your end step, draw X cards, where X is the number of colors among permanents you control, then discard a card.",
+          8,
+          0,
+          12
+        ],
+        [
+          "Converge — Creatures you control get +X/+0, where X is the number of colors of mana spent to cast this.",
+          8,
+          0,
+          12
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Land": [],
+      "Activated": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Ally",
+      "Kor",
+      "Human",
+      "Knight",
+      "Cleric",
+      "Angel",
+      "Spirit"
+    ],
+    "U": [
+      "Ally",
+      "Merfolk",
+      "Human",
+      "Wizard",
+      "Drone"
+    ],
+    "B": [
+      "Ally",
+      "Vampire",
+      "Human",
+      "Shaman",
+      "Assassin",
+      "Drone"
+    ],
+    "R": [
+      "Ally",
+      "Goblin",
+      "Human",
+      "Warrior",
+      "Berserker"
+    ],
+    "G": [
+      "Ally",
+      "Elf",
+      "Human",
+      "Warrior",
+      "Beast"
+    ],
+    "C": [
+      "Eldrazi",
+      "Eldrazi Drone",
+      "Eldrazi Processor"
+    ],
+    "any": [
+      "Scout",
+      "Elemental"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When this enters the battlefield, ",
+      "When this creature enters the battlefield, ",
+      "When a land enters the battlefield under your control, ",
+      "Whenever this attacks, ",
+      "Whenever you cast a spell, "
+    ],
+    "EQUIP_COST": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "ACTIVATED_COST": [
+      "{T}",
+      "{2}, {T}",
+      "{3}, {T}",
+      "Sacrifice a creature",
+      "{1}, {T}"
+    ],
+    "SCION_TOKEN": [
+      "Create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\""
+    ],
+    "EXILE_TARGET": [
+      "exile the top card of target opponent's library",
+      "exile target card from an opponent's graveyard",
+      "exile target creature an opponent controls until this leaves the battlefield"
+    ],
+    "PROCESS_COST": [
+      "Put a card an opponent owns from exile into that player's graveyard"
+    ],
+    "AWAKEN_X": [
+      "Awaken 2",
+      "Awaken 3",
+      "Awaken 4",
+      "Awaken 5",
+      "Awaken 6"
+    ],
+    "ALLY_RALLY": [
+      "creatures you control get +1/+0 until end of turn",
+      "put a +1/+1 counter on each Ally you control",
+      "you gain 2 life",
+      "scry 1, then draw a card",
+      "target creature gains indestructible until end of turn"
+    ],
+    "LANDFALL_SMALL": [
+      "target creature gets +1/+1 until end of turn",
+      "you gain 2 life",
+      "add {C}",
+      "scry 1",
+      "this creature gets +1/+0 until end of turn",
+      "target creature can't block this turn"
+    ],
+    "LANDFALL_BIG": [
+      "put a +1/+1 counter on target creature",
+      "draw a card",
+      "create a 1/1 colorless Eldrazi Scion creature token with \"Sacrifice this creature: Add {C}.\"",
+      "exile target creature until this leaves the battlefield",
+      "target creature you control gains flying until end of turn"
+    ],
+    "CONVERGE_EFFECT": [
+      "deal X damage divided as you choose among up to X targets, where X is the number of colors of mana spent to cast this spell",
+      "put X +1/+1 counters on target creature, where X is the number of colors of mana spent to cast this spell",
+      "you gain X life and draw X cards, where X is the number of colors of mana spent to cast this spell"
+    ],
+    "COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "First strike"
+    ],
+    "U": [
+      "Flying",
+      "Hexproof"
+    ],
+    "B": [
+      "Deathtouch",
+      "Menace"
+    ],
+    "R": [
+      "Trample",
+      "Haste",
+      "Menace"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ],
+    "C": [
+      "Menace"
+    ],
+    "any": [
+      "Prowess"
+    ]
+  }
+}

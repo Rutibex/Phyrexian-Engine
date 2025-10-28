@@ -1,0 +1,1220 @@
+{
+  "name": "born_of_the_gods",
+  "description": "Mechanics and themes from Magic: The Gathering — Born of the Gods (Theros block). Includes Heroic, Inspired, Tribute, Bestow Auras, Devotion (Gods), Scry, and Theros-flavored archetypes.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_W}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_W}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_W}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_W} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. {POSTSCRY}",
+          10,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target enchantment. {POSTSCRY}",
+          8,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens.",
+          8,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have first strike.\nCreatures your opponents control lose first strike and can't have or gain first strike.",
+          10,
+          3,
+          6
+        ],
+        [
+          "As long as your devotion to {DEVOTION_COLOR_WORD_W} is five or more, creatures you control get +1/+1.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Indestructible\nAs long as your devotion to {DEVOTION_COLOR_WORD_W} is less than five, {CARDNAME} isn't a creature.\nOther creatures you control get +1/+1.",
+          6,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_COST}\nEnchant creature\nEnchanted creature gets {AURA_PUMP} and has {AURA_ABILITY_W}.\nAs long as this Aura isn't attached to a creature, it's a creature in addition to its other types.",
+          14,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Temple — This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {W}.",
+          9,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_U}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_U}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_U}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_U} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {1}. {POSTSCRY}",
+          10,
+          1,
+          3
+        ],
+        [
+          "Return target creature to its owner's hand. {POSTSCRY}",
+          10,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. {POSTSCRY}",
+          9,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have flying.\nCreatures your opponents control lose flying and can't have or gain flying.",
+          10,
+          4,
+          6
+        ],
+        [
+          "Whenever you cast an Aura spell, scry 1.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Indestructible\nAs long as your devotion to {DEVOTION_COLOR_WORD_U} is less than five, {CARDNAME} isn't a creature.\nAt the beginning of your upkeep, scry 1.",
+          6,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{1}, {T}: Untap target creature.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_COST}\nEnchant creature\nEnchanted creature gets {AURA_PUMP} and has {AURA_ABILITY_U}.\nAs long as this Aura isn't attached to a creature, it's a creature in addition to its other types.",
+          14,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Temple — This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {U}.",
+          9,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_B}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_B}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_B}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_B} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. {POSTSCRY}",
+          10,
+          2,
+          4
+        ],
+        [
+          "Destroy target tapped creature. You gain 2 life.",
+          9,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards two cards. {POSTSCRY}",
+          9,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped.",
+          8,
+          5,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have deathtouch.\nCreatures your opponents control lose deathtouch and can't have or gain deathtouch.",
+          10,
+          4,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Indestructible\nAs long as your devotion to {DEVOTION_COLOR_WORD_B} is less than five, {CARDNAME} isn't a creature.\nWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          6,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{1}, {T}: Target creature gets -1/-1 until end of turn.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_COST}\nEnchant creature\nEnchanted creature gets {AURA_PUMP} and has {AURA_ABILITY_B}.\nAs long as this Aura isn't attached to a creature, it's a creature in addition to its other types.",
+          14,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Temple — This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {B}.",
+          9,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_R}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_R}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_R}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_R} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals 2 damage to any target. {POSTSCRY}",
+          10,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +3/+0 and gains first strike until end of turn.",
+          10,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals 3 damage to any target.",
+          10,
+          2,
+          4
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+          9,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have trample.\nCreatures your opponents control lose trample and can't have or gain trample.",
+          10,
+          4,
+          6
+        ],
+        [
+          "Whenever you cast a spell that targets a creature you control, that creature gets +1/+0 until end of turn.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Indestructible\nAs long as your devotion to {DEVOTION_COLOR_WORD_R} is less than five, {CARDNAME} isn't a creature.\nCreatures you control have haste.",
+          6,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{1}, {T}: This artifact deals 1 damage to any target.",
+          7,
+          2,
+          5
+        ]
+      ],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_COST}\nEnchant creature\nEnchanted creature gets {AURA_PUMP} and has {AURA_ABILITY_R}.\nAs long as this Aura isn't attached to a creature, it's a creature in addition to its other types.",
+          14,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Temple — This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {R}.",
+          9,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_G}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_G}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_G}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_G} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. {POSTSCRY}",
+          10,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. {POSTSCRY}",
+          10,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. {POSTSCRY}",
+          8,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have hexproof.\nCreatures your opponents control lose hexproof and can't have or gain hexproof.",
+          8,
+          5,
+          7
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +1/+1 and gains trample until end of turn.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Indestructible\nAs long as your devotion to {DEVOTION_COLOR_WORD_G} is less than five, {CARDNAME} isn't a creature.\nCreatures you control get +1/+1 and have trample.",
+          6,
+          5,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Equipment": [],
+      "AuraCreature": [
+        [
+          "Bestow {BESTOW_COST}\nEnchant creature\nEnchanted creature gets {AURA_PUMP} and has {AURA_ABILITY_G}.\nAs long as this Aura isn't attached to a creature, it's a creature in addition to its other types.",
+          14,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Temple — This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {G}.",
+          9,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_G}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_G}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_G}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_G} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {T}: Scry 1.",
+          10,
+          1,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Aura spells.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{2}, {T}: Tap target creature you control. It gains indestructible until end of turn.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {EQUIP_COST}",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace.\nEquip {EQUIP_COST}",
+          8,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" and \"{T}: Scry 1.\"",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {C}.",
+          10,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Heroic — Whenever you cast a spell that targets this creature, {HEROIC_G}",
+          12,
+          1,
+          6
+        ],
+        [
+          "Inspired — Whenever this creature becomes untapped, {INSPIRED_G}",
+          10,
+          2,
+          6
+        ],
+        [
+          "Tribute {TRIBUTE_NUMBER} (As this creature enters the battlefield, an opponent may put {TRIBUTE_NUMBER} +1/+1 counters on it.)\nWhen this creature enters the battlefield, if tribute wasn't paid, {TRIBUTE_PUNISH_G}",
+          9,
+          3,
+          7
+        ],
+        [
+          "This creature gets +1/+1 as long as your devotion to {DEVOTION_COLOR_WORD_G} is five or more.",
+          6,
+          2,
+          7
+        ],
+        [
+          "When this creature enters the battlefield, {POSTSCRY}",
+          7,
+          1,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, you may return target Aura card from your graveyard to your hand.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap this creature. It doesn't untap during your next untap step.",
+          5,
+          2,
+          7
+        ],
+        [
+          "As long as this creature is enchanted, it gets +1/+1 and has vigilance.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}, {T}: Scry 1.",
+          10,
+          1,
+          5
+        ],
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Aura spells.",
+          8,
+          2,
+          5
+        ],
+        [
+          "{2}, {T}: Tap target creature you control. It gains indestructible until end of turn.",
+          7,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0.\nEquip {EQUIP_COST}",
+          10,
+          2,
+          5
+        ],
+        [
+          "Equipped creature has menace.\nEquip {EQUIP_COST}",
+          8,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" and \"{T}: Scry 1.\"",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature gains vigilance until end of turn.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +1/+0 until end of turn.",
+          6,
+          1,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature you control gains \"Heroic — Whenever you cast a spell that targets this creature, scry 1\" until end of turn.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\nWhen this land enters the battlefield, scry 1.\n{T}: Add {C}.",
+          10,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Spirit",
+      "Nymph"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Sphinx",
+      "Bird",
+      "Nymph"
+    ],
+    "B": [
+      "Human",
+      "Warrior",
+      "Zombie",
+      "Gorgon",
+      "Harpy",
+      "Nymph"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Satyr",
+      "Minotaur",
+      "Cyclops",
+      "Nymph"
+    ],
+    "G": [
+      "Human",
+      "Warrior",
+      "Centaur",
+      "Satyr",
+      "Hydra",
+      "Nymph"
+    ],
+    "C": [
+      "Construct"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{4}",
+      "{5}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{W}{W}",
+      "{U}{U}",
+      "{B}{B}",
+      "{R}{R}",
+      "{G}{G}",
+      "{3}, {T}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "BESTOW_COST": [
+      "{2}{W}",
+      "{3}{W}",
+      "{4}{W}",
+      "{2}{U}",
+      "{3}{U}",
+      "{4}{U}",
+      "{2}{B}",
+      "{3}{B}",
+      "{4}{B}",
+      "{2}{R}",
+      "{3}{R}",
+      "{4}{R}",
+      "{2}{G}",
+      "{3}{G}",
+      "{4}{G}",
+      "{1}{W}{W}",
+      "{1}{U}{U}",
+      "{1}{B}{B}",
+      "{1}{R}{R}",
+      "{1}{G}{G}"
+    ],
+    "AURA_PUMP": [
+      "+1/+1",
+      "+2/+2",
+      "+3/+3",
+      "+2/+0",
+      "+0/+2",
+      "+1/+0 and first strike",
+      "+0/+1 and vigilance",
+      "+2/+1",
+      "+1/+2"
+    ],
+    "AURA_ABILITY_W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "AURA_ABILITY_U": [
+      "flying",
+      "hexproof",
+      "scry 1 when this creature attacks"
+    ],
+    "AURA_ABILITY_B": [
+      "deathtouch",
+      "menace",
+      "lifelink"
+    ],
+    "AURA_ABILITY_R": [
+      "haste",
+      "trample",
+      "menace"
+    ],
+    "AURA_ABILITY_G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ],
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of combat on your turn,"
+    ],
+    "SCRY_N": [
+      "1",
+      "2"
+    ],
+    "TRIBUTE_NUMBER": [
+      "1",
+      "2",
+      "3"
+    ],
+    "DEVOTION_COLOR_WORD_W": [
+      "white"
+    ],
+    "DEVOTION_COLOR_WORD_U": [
+      "blue"
+    ],
+    "DEVOTION_COLOR_WORD_B": [
+      "black"
+    ],
+    "DEVOTION_COLOR_WORD_R": [
+      "red"
+    ],
+    "DEVOTION_COLOR_WORD_G": [
+      "green"
+    ],
+    "HEROIC_W": [
+      "put a +1/+1 counter on this creature.",
+      "tap target creature an opponent controls.",
+      "this creature gains lifelink until end of turn."
+    ],
+    "HEROIC_U": [
+      "scry 1.",
+      "this creature can't be blocked this turn.",
+      "draw a card, then discard a card."
+    ],
+    "HEROIC_B": [
+      "each opponent loses 1 life and you gain 1 life.",
+      "put a +1/+1 counter on this creature.",
+      "target creature gets -1/-1 until end of turn."
+    ],
+    "HEROIC_R": [
+      "this creature gets +1/+0 and gains first strike until end of turn.",
+      "it deals 1 damage to any target.",
+      "create a tapped Treasure token."
+    ],
+    "HEROIC_G": [
+      "put a +1/+1 counter on this creature.",
+      "this creature gains trample until end of turn.",
+      "untap this creature."
+    ],
+    "INSPIRED_W": [
+      "gain 2 life.",
+      "tap up to one target creature."
+    ],
+    "INSPIRED_U": [
+      "draw a card.",
+      "scry 2."
+    ],
+    "INSPIRED_B": [
+      "each opponent loses 1 life and you gain 1 life.",
+      "return target creature card with mana value 2 or less from your graveyard to your hand."
+    ],
+    "INSPIRED_R": [
+      "add {R}{R}.",
+      "this creature deals 1 damage to any target."
+    ],
+    "INSPIRED_G": [
+      "add {G}{G}.",
+      "put a +1/+1 counter on target creature."
+    ],
+    "TRIBUTE_PUNISH_W": [
+      "exile target tapped creature an opponent controls until this creature leaves the battlefield."
+    ],
+    "TRIBUTE_PUNISH_U": [
+      "tap up to two target creatures. Those creatures don't untap during their controller's next untap step."
+    ],
+    "TRIBUTE_PUNISH_B": [
+      "target opponent sacrifices a creature."
+    ],
+    "TRIBUTE_PUNISH_R": [
+      "this creature deals 3 damage to any target."
+    ],
+    "TRIBUTE_PUNISH_G": [
+      "destroy target artifact or enchantment an opponent controls."
+    ],
+    "POSTSCRY": [
+      "Scry 1.",
+      "Scry 2."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  }
+}

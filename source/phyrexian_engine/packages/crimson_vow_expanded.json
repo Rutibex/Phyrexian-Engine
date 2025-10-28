@@ -1,0 +1,702 @@
+{
+  "name": "crimson_vow_expanded",
+  "display": "Innistrad: Crimson Vow (Expanded Paraphrase)",
+  "version": 1,
+  "mechanics": [
+    "Blood tokens",
+    "Cleave (bracketed text)",
+    "Disturb as Aura (UW Spirits)",
+    "Exploit (UB Zombies)",
+    "Training (GW Humans)",
+    "Daybound/Nightbound (Werewolves)",
+    "Vampire synergies",
+    "Wolf/Werewolf synergies",
+    "Spirit synergies",
+    "Zombie/Decayed hooks"
+  ],
+  "notes": "Templates are paraphrased and generalized; no verbatim card text. Brackets indicate cleave-removable text for flavor.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Training. (When this attacks with a creature with greater power, put a +1/+1 counter on this.) When one or more counters are put on this, you gain {X} life.",
+          3,
+          1,
+          5
+        ],
+        [
+          "ETB: create a 1/1 Human creature token for each Aura attached to creatures you control.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Other Humans you control get +1/+1.",
+          2,
+          2,
+          6
+        ],
+        [
+          "ETB: tap up to {X} target creatures. They don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever you gain life, create a 1/1 white Spirit creature token with flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Flash. ETB: exile target attacking creature until this leaves the battlefield.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Flying. Disturb {MV}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "ETB: creatures you control get +1/+1 until end of turn. Disturb {MV}. You may cast this from your graveyard as an Aura;                 return it to the battlefield attached to target creature.                 If it would go to a graveyard from anywhere, exile it instead.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target tapped creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} and gains lifelink until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target attacking or blocking creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 Spirit creature tokens with flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. [They don't untap during their controller's next untap step.] (Cleave {MV}).",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 Human creature tokens.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Return target creature card with mana value {MV} or less from your graveyard to the battlefield.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Exile target nonland permanent an opponent controls until this leaves the battlefield.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Whenever a creature you control with Training attacks, scry 1.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you gained 4 or more life this turn, create a 1/1 Spirit with flying.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "ETB: choose a creature type. Creatures you control of the chosen type get +1/+1.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create {X} Blood token(s). (Artifacts with '1, T, discard a card, sacrifice this: draw a card'.) Whenever you sacrifice a Blood, tap target creature an opponent controls.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+2 and has vigilance.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Enchant creature. When this enters, exile target creature an opponent controls until this leaves the battlefield.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land has 'T: Add one mana of any color.'",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has vigilance. Equip {MV}.",
+          2,
+          1,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying. Disturb {MV}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature has 'Whenever this deals combat damage to a player, draw a card.' Disturb {MV}. You may cast this from your graveyard as an Aura;                 return it to the battlefield attached to target creature.                 If it would go to a graveyard from anywhere, exile it instead.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Exploit. (When this enters, you may sacrifice a creature.)                When it exploits a creature, counter target spell unless its controller pays {MV}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Prowess. Whenever you cast a noncreature spell, scry 1.",
+          2,
+          1,
+          5
+        ],
+        [
+          "ETB: return up to one target nonland permanent to its owner's hand.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you sacrifice a Blood, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {MV}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Counter target creature spell.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Look at the top three cards of your library. [you may put one into your hand and the rest into your graveyard.] (Cleave {MV}).",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. Then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create a 2/2 blue Zombie creature token with decayed.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Mill {X} cards, then you may return a noncreature spell card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a noncreature spell, create a 1/1 blue Spirit creature token with flying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, tap up to one target creature an opponent controls.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "ETB: draw a card.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Create 1 Blood token(s). (Artifacts with '1, T, discard a card, sacrifice this: draw a card'.) Whenever you sacrifice a Blood, scry 2.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has 'When this becomes tapped, draw a card, then discard a card.'",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has ward {MV}. Equip {MV}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Exploit. (When this enters, you may sacrifice a creature.)                When it exploits a creature, each opponent discards a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Exploit. (When this enters, you may sacrifice a creature.)                When it exploits a creature, destroy target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Menace. Whenever you sacrifice a Blood, each opponent loses 1 life and you gain 1 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Deathtouch. ETB: create a 2/2 black Zombie creature token with decayed.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Flying. When this dies, you may pay {MV}. If you do, return it to the battlefield tapped.",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your end step, if an opponent lost 2 or more life this turn, return target creature card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Vampires you control get +1/+0.",
+          2,
+          1,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If it would die this turn, exile it instead.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Destroy target creature or planeswalker. You lose 2 life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. [Create a Blood token.] (Cleave {MV}).",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses {X} life and you gain {X} life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 2/2 black Zombie creature tokens with decayed.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Search your library for a Vampire card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, create a Blood token.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Whenever a nontoken creature you control dies, create a 2/2 black Zombie creature token with decayed.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Create {X} Blood token(s). (Artifacts with '1, T, discard a card, sacrifice this: draw a card'.) Whenever you sacrifice a Blood, each opponent loses 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, put a +1/+1 counter on target Vampire you control.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets -2/-2. When enchanted creature dies, create a Blood token.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has lifelink. Equip {MV}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. Whenever you sacrifice a Blood, put a +1/+1 counter on this.",
+          2,
+          2,
+          6
+        ],
+        [
+          "First strike. Other Vampires you control get +1/+0.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever this attacks, create a Blood token.",
+          3,
+          1,
+          5
+        ],
+        [
+          "This gets +2/+0 as long as it's night. Nightbound. (Day/Night: no spells -> night next turn; two or more -> day).",
+          2,
+          2,
+          6
+        ],
+        [
+          "ETB: it deals {X} damage to any target.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          4,
+          1,
+          5
+        ],
+        [
+          "This spell deals 2 damage to any target. [and 2 damage to another target.] (Cleave {MV}).",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn. Create a Blood token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact. Create a Blood token.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 until end of turn. If you control a Vampire, create a Blood token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. Create a Blood token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, target Vampire you control gets +2/+0 and gains menace until end of turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Create {X} Blood token(s). (Artifacts with '1, T, discard a card, sacrifice this: draw a card'.) Whenever you sacrifice a Blood, this deals 1 damage to any target.",
+          3,
+          2,
+          6
+        ],
+        [
+          "T, discard a card: Draw a card.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and has 'Whenever this creature attacks, create a Blood token.'",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has haste. Equip {MV}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. Training.",
+          2,
+          1,
+          5
+        ],
+        [
+          "When one or more +1/+1 counters are put on this, you may destroy target artifact or enchantment.",
+          2,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if you control another creature with greater power, put a +1/+1 counter on this.",
+          2,
+          1,
+          5
+        ],
+        [
+          "This gets +1/+1 and has trample as long as it's night. Daybound. (Day/Night: no spells -> night next turn; two or more -> day).",
+          2,
+          2,
+          6
+        ],
+        [
+          "ETB: search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Create a Blood token.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Target creature you control fights target creature you don't control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Prevent all combat damage that would be dealt this turn by creatures with power 2 or less. [Prevent all combat damage that would be dealt this turn.] (Cleave {MV}).",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put two +1/+1 counters on target creature. It gains trample until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create two 2/2 green Wolf creature tokens.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Whenever a creature you control with power 4 or greater attacks, create a 2/2 green Wolf creature token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "ETB: create a 1/1 white Human creature token and a 2/2 green Wolf creature token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +3/+3 and has trample.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2. Whenever equipped creature attacks with a creature of greater power, put a +1/+1 counter on it. Equip {MV}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "token_pools": {
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Human",
+      "Spirit",
+      "Zombie",
+      "Vampire",
+      "Wolf",
+      "Bat",
+      "Illusion"
+    ],
+    "CREATURE_SUBTYPE": [
+      "Human",
+      "Spirit",
+      "Zombie",
+      "Vampire",
+      "Wolf",
+      "Werewolf",
+      "Soldier",
+      "Cleric",
+      "Wizard",
+      "Rogue",
+      "Beast",
+      "Horror",
+      "Construct",
+      "Warrior",
+      "Scout",
+      "Knight"
+    ],
+    "AURA_KEYWORD": [
+      "flying",
+      "first strike",
+      "lifelink",
+      "menace",
+      "vigilance",
+      "deathtouch"
+    ]
+  }
+}

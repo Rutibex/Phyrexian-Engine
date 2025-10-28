@@ -1,0 +1,625 @@
+{
+  "name": "fallout_ultra",
+  "version": "1.0",
+  "description": "Comprehensive Fallout package: Radiation (rad counters), Junk tokens, Energy, Proliferate, Squad, and named counter tech (quest/charge/brain). Includes token creation, equipment/aura synergies, and wasteland-flavored rules text.",
+  "tags": [
+    "Fallout",
+    "Radiation",
+    "Junk",
+    "Energy",
+    "Proliferate",
+    "Squad",
+    "Quest counters",
+    "Artifact synergies",
+    "Equipment",
+    "Auras"
+  ],
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Proliferate.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature if its power is {X} or less.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Creatures you control get +{X}/+{X} until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. You gain {X} life.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create a Junk token.",
+          5,
+          1,
+          3
+        ],
+        [
+          "You get {X} energy counters.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Choose one \u2014\\n\u2022 Proliferate.\\n\u2022 You get {X} energy counters.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Proliferate, then you gain {X} life.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Exile target tapped creature. Create a Junk token.",
+          3,
+          3,
+          4
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then proliferate.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Put a quest counter on up to {X} target permanents you control. They gain \"Remove three quest counters from this permanent: Create a Junk token.\"",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you got one or more energy counters this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever you proliferate, create a Junk token.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Creatures you control have ward {1}.\\nWhenever you create one or more Junk tokens, gain {X} life.",
+          3,
+          2,
+          4
+        ],
+        [
+          "At the beginning of your precombat main phase, if an opponent has a rad counter, you gain {X} life.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.\\nWhenever enchanted creature attacks, create a Junk token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature deals combat damage to a player, proliferate.\"",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment \u2014 Equipped creature gets +{X}/+{0} and has vigilance.\\nWhenever equipped creature attacks, you get {X} energy counters.\\nEquip {X}.",
+          3,
+          2,
+          4
+        ],
+        [
+          "At the beginning of your end step, if you gained life this turn, create a Junk token.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. You get {X} energy counters.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Proliferate. Draw a card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Tap up to {X} target creatures. Those creatures don't untap during their controller's next untap step.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Create a Junk token. Scry {X}.",
+          4,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards, then discard a card. Create a Junk token.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Put a brain counter on target artifact or creature you control. It gains \"{T}: Add {C}. Spend this mana only to pay for abilities that cost energy or to activate abilities of artifacts.\"",
+          2,
+          3,
+          5
+        ],
+        [
+          "Proliferate, then you may return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you get one or more energy counters, surveil 1.",
+          3,
+          2,
+          4
+        ],
+        [
+          "At the beginning of your precombat main phase, if you have a rad counter, mill a card, then draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever you create a Junk token, you may tap or untap target artifact or creature.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast a noncreature spell, you get {X} energy counters.",
+          3,
+          2,
+          4
+        ],
+        [
+          "{T}, Sacrifice this artifact: Proliferate, then scry 1.",
+          4,
+          1,
+          3
+        ],
+        [
+          "{X}, {T}: Draw a card. Activate only if you have at least {X} energy counters.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Whenever this creature deals combat damage to a player, you may proliferate.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Squad {X} (As an additional cost to cast this spell, you may pay {X} any number of times. When this creature enters, create that many tokens that are copies of it.)",
+          2,
+          3,
+          5
+        ],
+        [
+          "When this enters the battlefield, create a Junk token. If you control three or more artifacts, draw a card.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target player gets {X} rad counters. You lose {1} life.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. Create a Junk token.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Proliferate. You lose 1 life.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent gets a rad counter. Proliferate.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Create a Junk token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Target opponent loses {X} life and you gain {X} life. If that player has a rad counter, create a Junk token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your precombat main phase, if you have a rad counter, mill a card. For each nonland card milled this way, you may pay {1}. If you do, you get an energy counter.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever a creature an opponent controls dies, proliferate.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever you sacrifice a Junk token, each opponent loses 1 life and you gain 1 life.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Menace. Whenever this deals combat damage to a player, that player gets a rad counter.",
+          5,
+          2,
+          4
+        ],
+        [
+          "When this enters the battlefield, return target creature card with mana value {X} or less from your graveyard to the battlefield tapped. You get {X} energy counters.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Squad {X}",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice another artifact: Create a Junk token and you get {1} energy counter.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever one or more cards are milled from a player with rad counters, you may pay {1}. If you do, each opponent loses 1 life and you gain 1 life.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Create a Junk token. Then exile the top card of your library. Until end of turn, you may play that card.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Target creature gets +{X}/+0 and gains trample and haste until end of turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Proliferate, then this spell deals 1 damage to any target.",
+          3,
+          1,
+          3
+        ],
+        [
+          "You get {X} energy counters. Add {R}{R}.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} Junk tokens.",
+          6,
+          3,
+          5
+        ],
+        [
+          "This spell deals {X} damage to any target. If that target\u2019s controller has a rad counter, scry {1}.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Each opponent gets a rad counter. Then this deals 1 damage to each creature they control.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you sacrifice a Junk token, this deals 1 damage to any target.",
+          5,
+          2,
+          4
+        ],
+        [
+          "At the beginning of your precombat main phase, if you have one or more energy counters, add {R}.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Whenever you cast a spell from exile, create a Junk token.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment \u2014 Equipped creature gets +{X}/+0 and has \"Whenever this creature attacks, create a Junk token.\"\\nEquip {X}.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: You get {1} energy counter.\\n{2}, {T}, Sacrifice this artifact: It deals 2 damage to any target.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste. Whenever this attacks, create a Junk token.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Squad {X}",
+          2,
+          3,
+          5
+        ],
+        [
+          "Whenever you get one or more energy counters, this gets +1/+0 until end of turn.",
+          3,
+          2,
+          4
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains trample until end of turn. Proliferate.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Proliferate, then you get {X} energy counters.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. Create a Junk token.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token, then proliferate.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to three target creatures. You get {1} energy counter.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then create a Junk token.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you proliferated this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Creatures you control have \"{T}: Add one mana of any color. Spend this mana only to cast spells from exile or to activate abilities of Junk.\"",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever you create one or more Junk tokens, put a +1/+1 counter on target creature you control.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample. Whenever this deals combat damage to a player, proliferate.",
+          4,
+          2,
+          4
+        ],
+        [
+          "When this enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then create a Junk token.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Squad {X}",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {C}. Spend this mana only to cast creature spells or to activate abilities of creatures. Whenever you cast a creature spell, you get {1} energy counter.",
+          3,
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  "colorless": {
+    "Artifact": [
+      [
+        "{T}: Add {C}. When you spend this mana to activate an ability, you get {1} energy counter.",
+        3,
+        2,
+        4
+      ],
+      [
+        "{T}, Sacrifice this artifact: Create a Junk token. Activate only as a sorcery.",
+        5,
+        1,
+        3
+      ],
+      [
+        "Whenever one or more players get one or more rad counters, proliferate.",
+        4,
+        3,
+        5
+      ],
+      [
+        "{2}, {T}: Each opponent gets a rad counter.",
+        4,
+        3,
+        5
+      ],
+      [
+        "{X}, {T}: Create {X} Junk tokens. Activate only as a sorcery.",
+        3,
+        4,
+        6
+      ],
+      [
+        "{3}, {T}: You get {2} energy counters. Draw a card.",
+        3,
+        4,
+        6
+      ],
+      [
+        "{T}, Sacrifice another artifact: Proliferate, then you may draw a card.",
+        3,
+        3,
+        5
+      ],
+      [
+        "At the beginning of your precombat main phase, if you have an energy counter, you may pay {1}. If you do, you get {1} energy counter.",
+        2,
+        2,
+        4
+      ]
+    ]
+  },
+  "named_counters": [
+    "quest",
+    "charge",
+    "brain"
+  ],
+  "token_support": {
+    "junk": true,
+    "food": true
+  },
+  "creature_keyword_pool": [
+    "Whenever this creature attacks, create a Junk token.",
+    "Whenever this creature deals combat damage to a player, that player gets a rad counter.",
+    "Whenever you proliferate, put a +1/+1 counter on this creature.",
+    "Whenever you get one or more energy counters, this creature gets +1/+0 until end of turn."
+  ],
+  "name_blacklist": [
+    "Radiation",
+    "Junk",
+    "Energy",
+    "Proliferate",
+    "Squad"
+  ],
+  "supports_pseudotypes": [
+    "AuraCreature",
+    "AuraLand",
+    "Equipment"
+  ],
+  "quest_patterns": [
+    "Whenever you cast a spell from exile, put a quest counter on this.",
+    "Remove three quest counters from this: Create a Junk token and you get {2} energy counters. Activate only as a sorcery.",
+    "At the beginning of your end step, if a player got a rad counter this turn, put a quest counter on this. Then, if it has five or more quest counters on it, sacrifice it and proliferate."
+  ]
+}

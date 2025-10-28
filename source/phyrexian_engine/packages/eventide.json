@@ -1,0 +1,1465 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Create two 1/1 white {TOKEN_SUBTYPE} creature tokens. {RETINTR}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Creatures you control get +1/+1 until end of turn for each {C} mana symbol among permanents you control.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to {N} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Exile target attacking or blocking creature.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Creatures you control gain indestructible until end of turn.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Tap up to {N} target creatures.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white {TOKEN_SUBTYPE} creature tokens. {RETINTR}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Distribute {N} -1/-1 counters among up to {N} target creatures.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Create {N} 1/1 white Kithkin Soldier creature tokens.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Destroy all tapped creatures.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} At the beginning of combat on your turn, target creature you control gets +X/+X until end of turn, where X is the number of {C} mana symbols among permanents you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{HYBRID_HINT}",
+          1,
+          1,
+          7
+        ],
+        [
+          "Creatures you control get +1/+1.",
+          3,
+          1,
+          7
+        ],
+        [
+          "At the beginning of your end step, you gain {N} life.",
+          3,
+          1,
+          7
+        ],
+        [
+          "This permanent enters the battlefield with a divinity counter on it. As long as it has a divinity counter on it, it has indestructible.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Remove a divinity counter from this permanent: Draw {N} cards.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Remove a divinity counter from this permanent: This deals {N} damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchant {AURA_ENCHANT}",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land",
+          8,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither. Equip {EQUIP_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. {RETINTR}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Counter target spell unless its controller pays X, where X is the number of {C} mana symbols among permanents you control.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Put a -1/-1 counter on up to {N} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Tap up to {N} target permanents.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Target creature gains flying until end of turn.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target nonland permanent to its owner's hand. {RETINTR}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Draw X cards, where X is the number of {C} mana symbols among permanents you control.",
+          4,
+          4,
+          7
+        ],
+        [
+          "Distribute {N} -1/-1 counters among up to {N} target creatures.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Scry {N}, then draw a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Draw {N} cards.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{HYBRID_HINT}",
+          1,
+          1,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, mill {N} cards.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Creatures you control have flying.",
+          3,
+          1,
+          7
+        ],
+        [
+          "This permanent enters the battlefield with a divinity counter on it. As long as it has a divinity counter on it, it has indestructible.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Remove a divinity counter from this permanent: Draw {N} cards.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Remove a divinity counter from this permanent: This deals {N} damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchant {AURA_ENCHANT}",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land",
+          8,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither. Equip {EQUIP_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gets -{N}/-{N} until end of turn. {RETINTR}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to {N} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Each opponent loses {N} life and you gain {N} life.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn. {RETINTR}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Target creature gets -X/-X until end of turn, where X is the number of {C} mana symbols among permanents you control.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Distribute {N} -1/-1 counters among up to {N} target creatures.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Destroy target creature.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Return target creature card from your graveyard to your hand.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} At the beginning of your end step, each opponent loses X life and you gain X life, where X is the number of {C} mana symbols among permanents you control.",
+          3,
+          4,
+          7
+        ],
+        [
+          "{HYBRID_HINT}",
+          1,
+          1,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, you lose 1 life and draw a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Whenever a creature an opponent controls dies, you may draw a card.",
+          3,
+          1,
+          7
+        ],
+        [
+          "This permanent enters the battlefield with a divinity counter on it. As long as it has a divinity counter on it, it has indestructible.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Remove a divinity counter from this permanent: Draw {N} cards.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Remove a divinity counter from this permanent: This deals {N} damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchant {AURA_ENCHANT}",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land",
+          8,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither. Equip {EQUIP_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "This spell deals {N} damage to any target. {RETINTR}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} This spell deals X damage to any target, where X is the number of {C} mana symbols among permanents you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to {N} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "This spell deals {N} damage to any target.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Target creature gets +{N}/+0 and gains first strike until end of turn.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {N} damage to any target. {RETINTR}",
+          6,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Gain control of target creature with mana value X or less until end of turn, where X is the number of {C} mana symbols among permanents you control. Untap it. It gains haste until end of turn.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Distribute {N} -1/-1 counters among up to {N} target creatures.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Creatures you control get +{N}/+0 and gain haste until end of turn.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Destroy target artifact.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{HYBRID_HINT}",
+          1,
+          1,
+          7
+        ],
+        [
+          "Whenever you cast a red spell, this deals {N} damage to any target.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Creatures you control have haste.",
+          3,
+          1,
+          7
+        ],
+        [
+          "This permanent enters the battlefield with a divinity counter on it. As long as it has a divinity counter on it, it has indestructible.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Remove a divinity counter from this permanent: Draw {N} cards.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Remove a divinity counter from this permanent: This deals {N} damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchant {AURA_ENCHANT}",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land",
+          8,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither. Equip {EQUIP_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +{N}/+{N} and gains trample until end of turn. {RETINTR}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Target creature gets +X/+X until end of turn, where X is the number of {C} mana symbols among permanents you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to {N} target creatures.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{N}/+{N} until end of turn.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets +{N}/+{N} and gains trample until end of turn. {RETINTR}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Distribute {N} -1/-1 counters among up to {N} target creatures.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          1,
+          7
+        ],
+        [
+          "Create a {TOKEN_PT} green Beast creature token.",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{CHROMA_INTRO} Creatures you control have trample as long as X is 4 or more, where X is the number of {C} mana symbols among permanents you control.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{HYBRID_HINT}",
+          1,
+          1,
+          7
+        ],
+        [
+          "Creatures you control have trample.",
+          3,
+          1,
+          7
+        ],
+        [
+          "At the beginning of your upkeep, put a +1/+1 counter on target creature you control.",
+          3,
+          1,
+          7
+        ],
+        [
+          "This permanent enters the battlefield with a divinity counter on it. As long as it has a divinity counter on it, it has indestructible.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Remove a divinity counter from this permanent: Draw {N} cards.",
+          1,
+          4,
+          7
+        ],
+        [
+          "Remove a divinity counter from this permanent: This deals {N} damage to any target.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature gets -{N}/-{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchant {AURA_ENCHANT}",
+          10,
+          1,
+          7
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has wither.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land",
+          8,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted land has \"{Q}: Untap target creature.\"",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Equip {EQUIP_COST}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has wither. Equip {EQUIP_COST}",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Target creature gains wither until end of turn.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [],
+      "Enchantment": [
+        [
+          "Creatures {CREATURE_CONTROLLER} have wither.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Creatures with -1/-1 counters on them get -1/-1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{T}: Add {C}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{2}, {T}: Add one mana of any color.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}{C}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a spell with a hybrid mana cost, draw a card.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{Q}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Tap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Add {C}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}, Discard a card: Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gains haste until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Target creature gets -1/-1 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{Q}: Put a -1/-1 counter on target creature.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has wither.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Kithkin",
+      "Knight",
+      "Cleric",
+      "Spirit",
+      "Kor",
+      "Soldier",
+      "Angel"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Faerie",
+      "Vedalken",
+      "Illusion",
+      "Rogue"
+    ],
+    "B": [
+      "Zombie",
+      "Horror",
+      "Shade",
+      "Scarecrow",
+      "Rogue",
+      "Assassin",
+      "Bat"
+    ],
+    "R": [
+      "Goblin",
+      "Elemental",
+      "Shaman",
+      "Warrior",
+      "Devil",
+      "Ogre"
+    ],
+    "G": [
+      "Treefolk",
+      "Elf",
+      "Beast",
+      "Ouphe",
+      "Warrior",
+      "Rhino",
+      "Wurm"
+    ],
+    "C": [
+      "Scarecrow",
+      "Construct"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of combat on your turn,",
+      "At the beginning of your end step,",
+      "At the beginning of each end step,",
+      "At the beginning of each upkeep,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "becomes tapped",
+      "becomes untapped",
+      "becomes the target of a spell",
+      "leaves the battlefield",
+      "deals combat damage to a player"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Spirit",
+      "Elemental",
+      "Zombie",
+      "Knight",
+      "Kithkin Soldier",
+      "Merfolk Wizard",
+      "Faerie Rogue",
+      "Goblin",
+      "Ouphe",
+      "Treefolk",
+      "Rhino",
+      "Wolf",
+      "Bat",
+      "Bird",
+      "Illusion"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3",
+      "4/4",
+      "0/1",
+      "1/2",
+      "2/1"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{X}",
+      "{2}, {T}",
+      "{1}, {T}",
+      "{Q}",
+      "{Q}, {1}",
+      "{Q}, Pay 1 life",
+      "Discard a card"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "Create a {TOKEN_PT} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token.",
+      "Target creature gets +{N}/+{N} until end of turn.",
+      "Target creature gets -{N}/-{N} until end of turn.",
+      "Add {C}{C}.",
+      "Tap target creature.",
+      "Untap target permanent.",
+      "Target creature gains wither until end of turn.",
+      "Exile target card from a graveyard.",
+      "This deals {N} damage to any target."
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{4}",
+      "{1}",
+      "{2}{2}"
+    ],
+    "LAND_TYPE": [
+      "Plains",
+      "Island",
+      "Swamp",
+      "Mountain",
+      "Forest"
+    ],
+    "BASIC_LAND_TYPE": [
+      "Plains",
+      "Island",
+      "Swamp",
+      "Mountain",
+      "Forest"
+    ],
+    "CHROMA_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "AURA_ENCHANT": [
+      "creature",
+      "creature you control",
+      "nonblack creature",
+      "nonred creature",
+      "nonartifact creature"
+    ],
+    "RETINTR": [
+      "Retrace \u2014 You may cast this card from your graveyard by discarding a land card."
+    ],
+    "CHROMA_INTRO": [
+      "Chroma \u2014"
+    ],
+    "HYBRID_HINT": [
+      "(This spell has a hybrid mana cost.)"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "wither",
+      "protection from black",
+      "protection from red"
+    ],
+    "U": [
+      "flash",
+      "flying",
+      "shroud",
+      "wither"
+    ],
+    "B": [
+      "wither",
+      "lifelink",
+      "deathtouch",
+      "fear"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "wither",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "wither",
+      "hexproof"
+    ],
+    "C": [
+      "wither"
+    ]
+  }
+}

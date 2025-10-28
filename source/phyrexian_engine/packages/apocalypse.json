@@ -1,0 +1,1142 @@
+{
+  "name": "apocalypse",
+  "description": "Enemy-color mega pack inspired by the Apocalypse set (2001): off-color kicker & activations, Volvers, Sanctuaries, Flagbearers, Penumbras, Bloodfires, Whirlpools, and Phyrexian-style syphon effects. Includes enemy-pair split-style modes and pain-lands.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If this spell was kicked with U, tap that creature. If it was kicked with B, it gains vigilance until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. If this spell was kicked with U, scry 2. If it was kicked with B, you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target spell with mana value {X} or less. • [MODE2: Tap up to two target creatures.]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent. • Draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn. • Scry 2.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard. • Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control. • Add {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target spell gets countered unless its controller pays {X}. If this was kicked with B, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature. You gain 2 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or enchantment. If this was kicked with U, also exile target card from a graveyard. If kicked with B, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Return target nonland permanent to its owner’s hand. • Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. If this was kicked with U, create two more. If kicked with B, put a +1/+1 counter on each token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. They gain haste until end of turn.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if you control a U permanent, [SANCTUARY_BONUS].",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 as long as you control a B permanent. Whenever you cast a spell that’s B, scry 1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you cast a B spell this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control a B permanent, [SANCTUARY_BONUS]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature is a Flagbearer. [FLAGBEARER_TEXT]",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "[FLAGBEARER_TEXT]",
+          5,
+          2,
+          4
+        ],
+        [
+          "Whenever another U creature enters the battlefield under your control, put a +1/+1 counter on this.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Kicker {1}{U} and/or {1}{B}. If the U kicker was paid, this enters with two +1/+1 counters and has vigilance. If the B kicker was paid, it enters with a +1/+1 counter and has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "U: Target creature can’t block this turn. Activate only if you control a U permanent.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "U, B: Draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "U: Add one mana of any color among permanents you control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Tap: Add {C}. Tap: Add one mana of {ENEMY1} or {ENEMY2}. This deals 1 damage to you.",
+          8,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If this spell was kicked with B, tap that creature. If it was kicked with R, it gains vigilance until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. If this spell was kicked with B, scry 2. If it was kicked with R, you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target spell with mana value {X} or less. • [MODE2: Tap up to two target creatures.]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent. • Draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn. • Scry 2.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard. • Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control. • Add {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target spell gets countered unless its controller pays {X}. If this was kicked with R, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "This deals 2 damage to any target. Draw a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Put target nonland permanent on top of its owner’s library.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or enchantment. If this was kicked with B, also exile target card from a graveyard. If kicked with R, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Return target nonland permanent to its owner’s hand. • Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. If this was kicked with B, create two more. If kicked with R, put a +1/+1 counter on each token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Each player may shuffle any number of cards from their hand into their library, then draws that many cards.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if you control a B permanent, [SANCTUARY_BONUS].",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 as long as you control a R permanent. Whenever you cast a spell that’s R, scry 1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you cast a R spell this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control a R permanent, [SANCTUARY_BONUS]",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "When this enters, you may shuffle any number of cards from your hand into your library, then draw that many cards.",
+          4,
+          2,
+          5
+        ],
+        [
+          "R: This gains flying until end of turn.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Kicker {1}{B} and/or {1}{R}. If the B kicker was paid, this enters with two +1/+1 counters and has vigilance. If the R kicker was paid, it enters with a +1/+1 counter and has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "B: Target creature can’t block this turn. Activate only if you control a B permanent.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "B, R: Draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "B: Add one mana of any color among permanents you control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Tap: Add {C}. Tap: Add one mana of {ENEMY1} or {ENEMY2}. This deals 1 damage to you.",
+          8,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If this spell was kicked with R, tap that creature. If it was kicked with G, it gains vigilance until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. If this spell was kicked with R, scry 2. If it was kicked with G, you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target spell with mana value {X} or less. • [MODE2: Tap up to two target creatures.]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent. • Draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn. • Scry 2.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard. • Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control. • Add {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target spell gets countered unless its controller pays {X}. If this was kicked with G, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature. You gain 2 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or enchantment. If this was kicked with R, also exile target card from a graveyard. If kicked with G, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Return target nonland permanent to its owner’s hand. • Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. If this was kicked with R, create two more. If kicked with G, put a +1/+1 counter on each token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target opponent sacrifices a creature. You gain 2 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if you control a R permanent, [SANCTUARY_BONUS].",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 as long as you control a G permanent. Whenever you cast a spell that’s G, scry 1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you cast a G spell this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control a G permanent, [SANCTUARY_BONUS]",
+          3,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, you draw a card and you lose 1 life.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "When this enters, draw two cards and you lose 2 life.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Whenever you pay a R kicker cost, each opponent loses 1 life and you gain 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Kicker {1}{R} and/or {1}{G}. If the R kicker was paid, this enters with two +1/+1 counters and has vigilance. If the G kicker was paid, it enters with a +1/+1 counter and has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "R: Target creature can’t block this turn. Activate only if you control a R permanent.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "R, G: Draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "R: Add one mana of any color among permanents you control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Tap: Add {C}. Tap: Add one mana of {ENEMY1} or {ENEMY2}. This deals 1 damage to you.",
+          8,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If this spell was kicked with G, tap that creature. If it was kicked with U, it gains vigilance until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. If this spell was kicked with G, scry 2. If it was kicked with U, you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target spell with mana value {X} or less. • [MODE2: Tap up to two target creatures.]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent. • Draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn. • Scry 2.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard. • Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control. • Add {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target spell gets countered unless its controller pays {X}. If this was kicked with U, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "This deals 2 damage to any target. Draw a card.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or enchantment. If this was kicked with G, also exile target card from a graveyard. If kicked with U, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Return target nonland permanent to its owner’s hand. • Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. If this was kicked with G, create two more. If kicked with U, put a +1/+1 counter on each token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. They gain haste until end of turn.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if you control a G permanent, [SANCTUARY_BONUS].",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 as long as you control a U permanent. Whenever you cast a spell that’s U, scry 1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you cast a U spell this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control a U permanent, [SANCTUARY_BONUS]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchant creature. Enchanted creature has “[BLOODFIRE_TEXT]”",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "{R}, Sacrifice this: It deals damage equal to its power to each creature.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a G spell, this gets +1/+0 until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Kicker {1}{G} and/or {1}{U}. If the G kicker was paid, this enters with two +1/+1 counters and has vigilance. If the U kicker was paid, it enters with a +1/+1 counter and has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "G: Target creature can’t block this turn. Activate only if you control a G permanent.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "G, U: Draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "G: Add one mana of any color among permanents you control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Tap: Add {C}. Tap: Add one mana of {ENEMY1} or {ENEMY2}. This deals 1 damage to you.",
+          8,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If this spell was kicked with W, tap that creature. If it was kicked with U, it gains vigilance until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Exile target attacking creature. If this spell was kicked with W, scry 2. If it was kicked with U, you gain 2 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target spell with mana value {X} or less. • [MODE2: Tap up to two target creatures.]",
+          2,
+          2,
+          4
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Deal 2 damage to any target. • Tap target permanent. • Draw a card.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Counter target activated or triggered ability. • Target creature gets -2/-0 until end of turn. • Scry 2.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Destroy target artifact. • Exile target card from a graveyard. • Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          1,
+          3,
+          6
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Creatures you control get +1/+0 until end of turn. • Target creature you control fights up to one target creature you don’t control. • Add {X}.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target spell gets countered unless its controller pays {X}. If this was kicked with U, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Put target nonland permanent on top of its owner’s library.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or enchantment. If this was kicked with W, also exile target card from a graveyard. If kicked with U, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "Choose one — • Return target nonland permanent to its owner’s hand. • Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] tokens. If this was kicked with W, create two more. If kicked with U, put a +1/+1 counter on each token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target opponent sacrifices a creature. You gain 2 life.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if you control a W permanent, [SANCTUARY_BONUS].",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+0 as long as you control a U permanent. Whenever you cast a spell that’s U, scry 1.",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you cast a U spell this turn, create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE].",
+          3,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if you control a U permanent, [SANCTUARY_BONUS]",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "When this dies, create a 2/2 black Cat creature token.",
+          5,
+          3,
+          6
+        ],
+        [
+          "This enters the battlefield with a +1/+1 counter for each U permanent you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Kicker {1}{W} and/or {1}{U}. If the W kicker was paid, this enters with two +1/+1 counters and has vigilance. If the U kicker was paid, it enters with a +1/+1 counter and has first strike.",
+          4,
+          3,
+          6
+        ],
+        [
+          "W: Target creature can’t block this turn. Activate only if you control a W permanent.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "W, U: Draw a card, then discard a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "W: Add one mana of any color among permanents you control.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "Tap: Add {C}. Tap: Add one mana of {ENEMY1} or {ENEMY2}. This deals 1 damage to you.",
+          8,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Flagbearer",
+      "Angel",
+      "Nomad"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Drake",
+      "Whirlpooler",
+      "Illusion"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Horror",
+      "Cleric",
+      "Minion",
+      "Phyrexian"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Barbarian",
+      "Shaman",
+      "Berserker",
+      "Bloodfire"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Beast",
+      "Cat",
+      "Insect",
+      "Penumbra"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "protection from [C]",
+      "first strike",
+      "lifelink"
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "flash",
+      "hexproof from [C]"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "lifeloss matters",
+      "intimidate"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample",
+      "cannot block"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof while attacking",
+      "ward {X}"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever this enters the battlefield,",
+      "When this dies,",
+      "At the beginning of your upkeep,",
+      "Whenever you cast a [C] spell,",
+      "Whenever this deals combat damage to a player,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you",
+      "its controller"
+    ],
+    "CREATURE_TRIGGER": [
+      "target creature",
+      "up to one target creature",
+      "each creature you control"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}, Tap",
+      "{2}, Tap",
+      "{1}, Discard a card"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}[C]",
+      "{2}[C]"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Goblin",
+      "Saproling",
+      "Zombie",
+      "Drake",
+      "Insect",
+      "Cat",
+      "Beast",
+      "Cleric"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "ENEMY_PAIR_WORD": [
+      "Azorius-opposed",
+      "Dimir-opposed",
+      "Rakdos-opposed",
+      "Gruul-opposed",
+      "Selesnya-opposed"
+    ],
+    "ENEMY_COLOR_WORD": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "VOLVER_ADDONS": [
+      "If its {ENEMY1} kicker was paid, it enters with two +1/+1 counters and has vigilance.",
+      "If its {ENEMY2} kicker was paid, it enters with a +1/+1 counter and has {ENEMY2_ABIL}.",
+      "If both kickers were paid, it enters with an additional +1/+1 counter."
+    ],
+    "ENEMY_ABILITIES": [
+      "first strike",
+      "flying",
+      "menace",
+      "trample",
+      "lifelink",
+      "ward {2}",
+      "deathtouch",
+      "haste"
+    ],
+    "SANCTUARY_BONUS": [
+      "Creatures you control of the chosen color get +1/+1.",
+      "At the beginning of combat on your turn, scry 1, then you may tap target creature.",
+      "Whenever you cast a spell of the chosen color, draw a card, then discard a card.",
+      "At the beginning of your upkeep, you gain 1 life and add {X}."
+    ],
+    "WHIRLPOOL_TEXT": [
+      "When this enters, you may shuffle any number of cards from your hand into your library, then draw that many cards.",
+      "When this dies, you may shuffle your hand into your library, then draw that many cards."
+    ],
+    "BLOODFIRE_TEXT": [
+      "{R}, Sacrifice this: It deals damage equal to its power to each creature.",
+      "{2}{R}, Sacrifice this: It deals 1 damage to each creature and each player."
+    ],
+    "SYPHON_TEXT": [
+      "When this enters, you draw a card and you lose 1 life.",
+      "When this enters, draw two cards and you lose 2 life."
+    ],
+    "FLAGBEARER_TEXT": [
+      "Spells and abilities your opponents control that could target a Flagbearer must choose a Flagbearer as one of their targets."
+    ],
+    "PENUMBRA_TEXT": [
+      "When this dies, create a {PWR}/{TGH} black [TOKEN_SUBTYPE] creature token."
+    ],
+    "ENEMY_KICKER_TEXT": [
+      "Kicker — pay {K1} in {ENEMY1} mana.",
+      "Kicker — pay {K2} in {ENEMY2} mana.",
+      "Kicker — pay {K1} in {ENEMY1} mana and/or {K2} in {ENEMY2} mana."
+    ],
+    "OFFCOLOR_ACTIVATION": [
+      "{ENEMY1}: Target creature gets +1/+0 until end of turn.",
+      "{ENEMY2}: Tap target creature.",
+      "{ENEMY1}{ENEMY2}: Exile target card from a graveyard."
+    ],
+    "ENEMY_REQUIREMENT": [
+      "Activate only if you control a permanent that’s {ENEMY1}.",
+      "This has +1/+1 as long as you control a {ENEMY2} permanent.",
+      "At the beginning of your upkeep, if you control a {ENEMY1} permanent, do X."
+    ],
+    "PAINLAND_TEXT": [
+      "Tap: Add {C}.",
+      "Tap: Add one mana of {ENEMY1} or {ENEMY2}. This land deals 1 damage to you."
+    ],
+    "SPLIT_EMULATION": [
+      "Choose one — • {MODE1} • {MODE2}",
+      "Choose one — • {MODE1} • {MODE2} • {MODE3}"
+    ]
+  }
+}

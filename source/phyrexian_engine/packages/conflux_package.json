@@ -1,0 +1,1213 @@
+{
+  "name": "Conflux Comprehensive",
+  "description": "A HUGE Conflux-flavored package: Domain, basic landcycling, exalted, devour, unearth, Naya 5-power, colored artifacts, and multicolor-matters. Includes panoramas-style lands and mythic-level exotic effects.",
+  "version": "1.0.0",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+          10,
+          2,
+          6
+        ],
+        [
+          "Other creatures you control get +1/+1 as long as {THIS} is tapped.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Domain — When {THIS} enters, you gain {N} life for each basic land type among lands you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "If you control a multicolored permanent, creatures you control get vigilance until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As long as you control a creature with power 5 or greater, creatures you control get +1/+1.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{THIS} has protection from red and from black.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters, exile target attacking creature if it's multicolored.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking or blocking creature.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Domain — You gain {N} life for each basic land type among lands you control.",
+          6,
+          1,
+          6
+        ],
+        [
+          "If you control a multicolored permanent, create a 1/1 white Soldier creature token.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {N} 1/1 white Soldier creature tokens.",
+          7,
+          3,
+          7
+        ],
+        [
+          "Domain — Exile up to one target tapped creature for each basic land type among lands you control.",
+          4,
+          3,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, Put a +1/+1 counter on each creature you control.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+          8,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have vigilance.",
+          6,
+          3,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, creatures you control get +1/+1.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Creatures you control get +0/+1.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{T}: You gain 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Multicolored spells you cast cost {1} less to cast.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Land": []
+    },
+    "U": {
+      "Creature": [
+        [
+          "Domain — {THIS} enters the battlefield with a +1/+1 counter on it for each basic land type among lands you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Whenever {THIS} deals combat damage to a player, draw a card.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Other artifact creatures you control get +1/+1 and have flying.",
+          3,
+          4,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, scry 2.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Basic landcycling {2} ({2}: Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          4,
+          7
+        ],
+        [
+          "When {THIS} enters, tap up to {N} target creatures. Those creatures don't untap during their controller's next untap step.",
+          3,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {N}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Domain — Target creature gets -{N}/0 until end of turn for each basic land type among lands you control.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Draw two cards.",
+          6,
+          3,
+          7
+        ],
+        [
+          "Tap up to {N} target permanents.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {N} cards.",
+          7,
+          3,
+          8
+        ],
+        [
+          "Domain — Scry 1, then draw a card for each basic land type among lands you control.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+          4,
+          4,
+          8
+        ],
+        [
+          "Basic landcycling {2} ({2}: Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          3,
+          4,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifacts you control have hexproof.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Whenever you cast a multicolored spell, scry 1, then draw a card.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Domain — At the beginning of your end step, draw a card for each basic land type among lands you control.",
+          4,
+          4,
+          8
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Draw a card, then discard a card.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{2}, {T}: Return target nonland permanent to its owner's hand.",
+          3,
+          4,
+          8
+        ],
+        [
+          "Artifact spells you cast have convoke. (Each creature you tap while casting an artifact spell pays for {1} or one mana of that creature's color.)",
+          2,
+          5,
+          9
+        ]
+      ],
+      "Land": []
+    },
+    "B": {
+      "Creature": [
+        [
+          "Unearth {2}{B} ({2}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+          10,
+          2,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, you gain {N} life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with 1 times that many +1/+1 counters on it.)",
+          4,
+          4,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, each opponent loses 1 life and you gain 1 life.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Domain — {THIS} gets +1/+0 for each basic land type among lands you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters, target player discards a card.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{N}/-{N} until end of turn.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Destroy target nonblack creature.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Domain — Target player loses 1 life and you gain 1 life for each basic land type among lands you control.",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent discards a card.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Domain — Return target creature card from your graveyard to your hand for each basic land type among lands you control.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Destroy target creature. You lose {N} life.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature an opponent controls dies, you may draw a card and lose 1 life.",
+          6,
+          4,
+          8
+        ],
+        [
+          "If you control a multicolored permanent, creatures you control get +1/+0 and have lifelink.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Domain — At the beginning of your upkeep, each opponent loses 1 life for each basic land type among lands you control.",
+          4,
+          4,
+          8
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Pay 1 life: Add {B}.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{2}, {T}, Sacrifice a creature: Draw a card.",
+          3,
+          4,
+          8
+        ],
+        [
+          "Whenever a creature you control dies, each opponent loses 1 life.",
+          3,
+          4,
+          8
+        ]
+      ],
+      "Land": []
+    },
+    "R": {
+      "Creature": [
+        [
+          "Devour 2 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with 2 times that many +1/+1 counters on it.)",
+          10,
+          4,
+          8
+        ],
+        [
+          "When {THIS} enters, it deals {N} damage to any target.",
+          5,
+          3,
+          6
+        ],
+        [
+          "As long as you control a creature with power 5 or greater, {THIS} has trample.",
+          3,
+          3,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, {THIS} gets +2/+0 and gains first strike until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Domain — {THIS} gets +1/+0 for each basic land type among lands you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Basic landcycling {2} ({2}: Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {N} damage to any target.",
+          10,
+          1,
+          5
+        ],
+        [
+          "Domain — {THIS} deals 1 damage to each creature target player controls for each basic land type among lands you control.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Target creature gets +{N}/+0 and gains first strike until end of turn.",
+          5,
+          1,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{THIS} deals {N} damage divided as you choose among up to {N} targets.",
+          7,
+          4,
+          8
+        ],
+        [
+          "Domain — {THIS} deals 2 damage to each creature for each basic land type among lands you control.",
+          4,
+          5,
+          9
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste.",
+          6,
+          3,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, whenever a creature you control attacks, it deals 1 damage to defending player.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Domain — At the beginning of combat on your turn, target creature gets +1/+0 until end of turn for each basic land type among lands you control.",
+          4,
+          3,
+          7
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}. {THIS} deals 1 damage to you.",
+          3,
+          3,
+          7
+        ],
+        [
+          "{2}, {T}: {THIS} deals 2 damage to any target.",
+          3,
+          4,
+          8
+        ],
+        [
+          "Creatures you control have first strike.",
+          3,
+          4,
+          8
+        ]
+      ],
+      "Land": []
+    },
+    "G": {
+      "Creature": [
+        [
+          "As long as you control a creature with power 5 or greater, {THIS} gets +2/+2.",
+          6,
+          3,
+          8
+        ],
+        [
+          "Domain — {THIS} enters with a +1/+1 counter on it for each basic land type among lands you control.",
+          5,
+          2,
+          6
+        ],
+        [
+          "When {THIS} enters, destroy target artifact or enchantment.",
+          5,
+          3,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, put a +1/+1 counter on {THIS}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Devour 1 (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with 1 times that many +1/+1 counters on it.)",
+          4,
+          3,
+          7
+        ],
+        [
+          "Protection from everything (This creature can't be blocked, targeted, dealt damage, or enchanted by anything.)",
+          1,
+          8,
+          9
+        ],
+        [
+          "Shroud (This creature can't be the target of spells or abilities.)",
+          2,
+          6,
+          9
+        ],
+        [
+          "This spell can't be countered.",
+          2,
+          6,
+          9
+        ],
+        [
+          "When {THIS} enters, destroy all nonland permanents other than {THIS}.",
+          1,
+          8,
+          9
+        ],
+        [
+          "Domain — Creatures you control get +1/+1 for each basic land type among lands you control.",
+          2,
+          6,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{N}/+{N} until end of turn.",
+          8,
+          1,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Domain — Put a +1/+1 counter on target creature for each basic land type among lands you control.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {N} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle.",
+          7,
+          3,
+          8
+        ],
+        [
+          "Domain — Create a {X/X} green Beast creature token for each basic land type among lands you control.",
+          5,
+          4,
+          8
+        ],
+        [
+          "As long as you control a creature with power 5 or greater, draw a card for each creature you control with power 5 or greater.",
+          3,
+          4,
+          9
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.",
+          6,
+          3,
+          7
+        ],
+        [
+          "As long as you control a creature with power 5 or greater, creatures you control get trample.",
+          4,
+          4,
+          8
+        ],
+        [
+          "Domain — At the beginning of your end step, create a 1/1 green Saproling creature token for each basic land type among lands you control.",
+          4,
+          4,
+          8
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{2}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          3,
+          4,
+          8
+        ],
+        [
+          "Creatures you control have trample.",
+          3,
+          4,
+          8
+        ]
+      ],
+      "Land": []
+    },
+    "C": {
+      "Creature": [
+        [
+          "Artifact creatures you control get +1/+1.",
+          4,
+          3,
+          7
+        ],
+        [
+          "When {THIS} enters, scry 2, then draw a card.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Basic landcycling {2} ({2}: Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+          2,
+          4,
+          7
+        ],
+        [
+          "If you control a multicolored permanent, {THIS} gains vigilance until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Colossus spells you cast cost {2} less to cast.",
+          1,
+          7,
+          9
+        ]
+      ],
+      "Instant": [
+        [
+          "Untap target artifact. It gains indestructible until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Create a 1/1 colorless Thopter artifact creature token with flying.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 colorless Thopter artifact creature tokens with flying.",
+          5,
+          3,
+          7
+        ],
+        [
+          "Search your library for a colorless card, reveal it, put it into your hand, then shuffle.",
+          4,
+          4,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifact creatures you control get +1/+1 and have vigilance.",
+          5,
+          4,
+          8
+        ]
+      ],
+      "Aura": [
+        [
+          "Enchant creature\nEnchanted creature gets +{N}/+{N}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Enchant creature\nEnchanted creature has '{TRIGGER_INTRO} draw a card.'",
+          4,
+          3,
+          6
+        ],
+        [
+          "Enchant artifact or creature\nEnchanted permanent has hexproof.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Enchant creature\nEnchanted creature has exalted.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Artifact spells you cast cost {1} less to cast.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{3}, {T}: Create a 1/1 colorless Thopter artifact creature token with flying.",
+          3,
+          4,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, target artifact creature you control gets +2/+0 and gains haste until end of turn.",
+          3,
+          4,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          10,
+          0,
+          9
+        ],
+        [
+          "{T}: Add one mana of any of {LANDTYPE_TRIO_W}.",
+          5,
+          0,
+          9
+        ],
+        [
+          "{T}: Add one mana of any of {LANDTYPE_TRIO_U}.",
+          5,
+          0,
+          9
+        ],
+        [
+          "{T}: Add one mana of any of {LANDTYPE_TRIO_B}.",
+          5,
+          0,
+          9
+        ],
+        [
+          "{T}: Add one mana of any of {LANDTYPE_TRIO_R}.",
+          5,
+          0,
+          9
+        ],
+        [
+          "{T}: Add one mana of any of {LANDTYPE_TRIO_G}.",
+          5,
+          0,
+          9
+        ],
+        [
+          "{1}, {T}, Sacrifice {THIS}: Search your library for a basic {SHARD_PANORAMA_TARGETS_W} card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          9
+        ],
+        [
+          "{1}, {T}, Sacrifice {THIS}: Search your library for a basic {SHARD_PANORAMA_TARGETS_U} card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          9
+        ],
+        [
+          "{1}, {T}, Sacrifice {THIS}: Search your library for a basic {SHARD_PANORAMA_TARGETS_B} card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          9
+        ],
+        [
+          "{1}, {T}, Sacrifice {THIS}: Search your library for a basic {SHARD_PANORAMA_TARGETS_R} card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          9
+        ],
+        [
+          "{1}, {T}, Sacrifice {THIS}: Search your library for a basic {SHARD_PANORAMA_TARGETS_G} card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          0,
+          9
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Angel",
+      "Soldier",
+      "Rhox"
+    ],
+    "U": [
+      "Vedalken",
+      "Sphinx",
+      "Homunculus",
+      "Wizard",
+      "Merfolk"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Thrull",
+      "Skeleton",
+      "Demon"
+    ],
+    "R": [
+      "Goblin",
+      "Dragon",
+      "Viashino",
+      "Ogre",
+      "Shaman"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Rhox",
+      "Cat",
+      "Elemental"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Thopter",
+      "Drone",
+      "Scarecrow"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "Whenever {THIS} attacks,",
+      "Whenever {THIS} becomes tapped,",
+      "At the beginning of your end step,",
+      "When {THIS} dies,"
+    ],
+    "CREATURE_TRIGGER": [
+      "you control enters the battlefield",
+      "you cast a creature spell",
+      "deals combat damage to a player",
+      "becomes blocked",
+      "leaves the battlefield"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you",
+      "an opponent"
+    ],
+    "OPPONENT": [
+      "an opponent",
+      "each opponent"
+    ],
+    "TARGET_NOUN": [
+      "target creature",
+      "target nonland permanent",
+      "target tapped creature",
+      "target attacking creature",
+      "target artifact or enchantment",
+      "target creature you control",
+      "target player"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Zombie",
+      "Goblin",
+      "Elf",
+      "Rhino",
+      "Spirit",
+      "Bird",
+      "Beast",
+      "Saproling",
+      "Elemental"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "X/X": [
+      "1/1",
+      "2/2",
+      "3/3",
+      "4/4",
+      "5/5"
+    ],
+    "C": [
+      "W",
+      "U",
+      "B",
+      "R",
+      "G"
+    ],
+    "SHARD_PANORAMA_TARGETS_W": [
+      "Plains",
+      "Island",
+      "Forest"
+    ],
+    "SHARD_PANORAMA_TARGETS_U": [
+      "Island",
+      "Swamp",
+      "Plains"
+    ],
+    "SHARD_PANORAMA_TARGETS_B": [
+      "Swamp",
+      "Mountain",
+      "Island"
+    ],
+    "SHARD_PANORAMA_TARGETS_R": [
+      "Mountain",
+      "Forest",
+      "Swamp"
+    ],
+    "SHARD_PANORAMA_TARGETS_G": [
+      "Forest",
+      "Plains",
+      "Mountain"
+    ],
+    "LANDTYPE_TRIO_W": [
+      "Plains",
+      "Island",
+      "Forest"
+    ],
+    "LANDTYPE_TRIO_U": [
+      "Island",
+      "Swamp",
+      "Plains"
+    ],
+    "LANDTYPE_TRIO_B": [
+      "Swamp",
+      "Mountain",
+      "Island"
+    ],
+    "LANDTYPE_TRIO_R": [
+      "Mountain",
+      "Forest",
+      "Swamp"
+    ],
+    "LANDTYPE_TRIO_G": [
+      "Forest",
+      "Plains",
+      "Mountain"
+    ],
+    "BANT_TITLE_NOUN": [
+      "Knight",
+      "Paladin",
+      "Sigiled",
+      "Seraph",
+      "Battlegrace",
+      "Courtier"
+    ],
+    "ESPER_TITLE_NOUN": [
+      "Sphinx",
+      "Adept",
+      "Homunculus",
+      "Filigree",
+      "Vedalken",
+      "Artificer"
+    ],
+    "GRIXIS_TITLE_NOUN": [
+      "Lich",
+      "Necromancer",
+      "Dreg",
+      "Thrall",
+      "Ghoul",
+      "Demon"
+    ],
+    "JUND_TITLE_NOUN": [
+      "Broodmother",
+      "Hellkite",
+      "Reaver",
+      "Shaman",
+      "Mangler",
+      "Scourge"
+    ],
+    "NAYA_TITLE_NOUN": [
+      "Behemoth",
+      "Rhox",
+      "Cerodon",
+      "Skyfisher",
+      "Herald",
+      "Warden"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "exalted"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "unblockable"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink",
+      "unearth {N}{B}"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "devour 2"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "devour 1"
+    ],
+    "C": [
+      "flying",
+      "vigilance"
+    ]
+  }
+}

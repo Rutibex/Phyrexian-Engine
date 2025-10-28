@@ -1,0 +1,1290 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Offspring {{N}} (You may pay an additional {{N}} as you cast this spell.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "When this creature enters, if you paid its offspring cost, create a token that's a copy of it, except the token is 1/1.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Valiant \u2014 Whenever this creature becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{{TRIGGER_INTRO}} this creature {{CREATURE_TRIGGER}}, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}",
+          4,
+          1,
+          8
+        ],
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {{N}}. If you foraged, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{{N}}/+{{N}} until end of turn. If it has valiant, it gains indestructible until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If you foraged, create a Food token.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}\nCreate a Food token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target creature or planeswalker until this leaves the battlefield. If you foraged, scry 2.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Choose one or more. Spend five pawprints among modes. (Pawprints are used only on this spell. You can choose modes any number of times as long as their total cost is 5 or less.)\n\u2022 [1 pawprint] Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\n\u2022 [2 pawprints] Return target nonland permanent to its owner's hand.\n\u2022 [3 pawprints] Draw two cards.\n\u2022 [2 pawprints] Creatures you control get +{N}/+{N} and gain trample until end of turn.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have valiant. Whenever a creature you control becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, if you foraged this turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food you control have \"{{T}}, Sacrifice this artifact: You gain 3 life.\"",
+          2,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice a Food, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, create a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{{ACTIVATED_COST}} Forage. (To forage, exile three cards from your graveyard or sacrifice a Food.)",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}} Activate only if you foraged this turn.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} Sacrifice a Food: {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{{N}}/+{{N}} and has \"Whenever you expend 4, put a +1/+1 counter on this creature.\"",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchant creature\nValiant \u2014 {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{{T}}: Add one mana of any color. When you spend this mana to cast a spell, you expend 1.\"",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{{N}}/+0 and has vigilance.\nEquip {{EQUIP_COST}}",
+          2,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}}\"\nEquip {{EQUIP_COST}}",
+          2,
+          2,
+          8
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Offspring {{N}} (You may pay an additional {{N}} as you cast this spell.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "When this creature enters, if you paid its offspring cost, create a token that's a copy of it, except the token is 1/1.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Valiant \u2014 Whenever this creature becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{{TRIGGER_INTRO}} this creature {{CREATURE_TRIGGER}}, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}",
+          4,
+          1,
+          8
+        ],
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {{N}}. If you foraged, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{{N}}/+{{N}} until end of turn. If it has valiant, it gains indestructible until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If you foraged, create a Food token.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}\nCreate a Food token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target creature or planeswalker until this leaves the battlefield. If you foraged, scry 2.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Choose one or more. Spend five pawprints among modes. (Pawprints are used only on this spell. You can choose modes any number of times as long as their total cost is 5 or less.)\n\u2022 [1 pawprint] Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\n\u2022 [2 pawprints] Return target nonland permanent to its owner's hand.\n\u2022 [3 pawprints] Draw two cards.\n\u2022 [2 pawprints] Creatures you control get +{N}/+{N} and gain trample until end of turn.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have valiant. Whenever a creature you control becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, if you foraged this turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food you control have \"{{T}}, Sacrifice this artifact: You gain 3 life.\"",
+          2,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice a Food, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, create a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{{ACTIVATED_COST}} Forage. (To forage, exile three cards from your graveyard or sacrifice a Food.)",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}} Activate only if you foraged this turn.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} Sacrifice a Food: {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{{N}}/+{{N}} and has \"Whenever you expend 4, put a +1/+1 counter on this creature.\"",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchant creature\nValiant \u2014 {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{{T}}: Add one mana of any color. When you spend this mana to cast a spell, you expend 1.\"",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{{N}}/+0 and has vigilance.\nEquip {{EQUIP_COST}}",
+          2,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}}\"\nEquip {{EQUIP_COST}}",
+          2,
+          2,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Offspring {{N}} (You may pay an additional {{N}} as you cast this spell.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "When this creature enters, if you paid its offspring cost, create a token that's a copy of it, except the token is 1/1.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Valiant \u2014 Whenever this creature becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{{TRIGGER_INTRO}} this creature {{CREATURE_TRIGGER}}, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}",
+          4,
+          1,
+          8
+        ],
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {{N}}. If you foraged, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{{N}}/+{{N}} until end of turn. If it has valiant, it gains indestructible until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If you foraged, create a Food token.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}\nCreate a Food token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target creature or planeswalker until this leaves the battlefield. If you foraged, scry 2.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Choose one or more. Spend five pawprints among modes. (Pawprints are used only on this spell. You can choose modes any number of times as long as their total cost is 5 or less.)\n\u2022 [1 pawprint] Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\n\u2022 [2 pawprints] Return target nonland permanent to its owner's hand.\n\u2022 [3 pawprints] Draw two cards.\n\u2022 [2 pawprints] Creatures you control get +{N}/+{N} and gain trample until end of turn.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have valiant. Whenever a creature you control becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, if you foraged this turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food you control have \"{{T}}, Sacrifice this artifact: You gain 3 life.\"",
+          2,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice a Food, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, create a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{{ACTIVATED_COST}} Forage. (To forage, exile three cards from your graveyard or sacrifice a Food.)",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}} Activate only if you foraged this turn.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} Sacrifice a Food: {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{{N}}/+{{N}} and has \"Whenever you expend 4, put a +1/+1 counter on this creature.\"",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchant creature\nValiant \u2014 {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{{T}}: Add one mana of any color. When you spend this mana to cast a spell, you expend 1.\"",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{{N}}/+0 and has vigilance.\nEquip {{EQUIP_COST}}",
+          2,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}}\"\nEquip {{EQUIP_COST}}",
+          2,
+          2,
+          8
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Offspring {{N}} (You may pay an additional {{N}} as you cast this spell.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "When this creature enters, if you paid its offspring cost, create a token that's a copy of it, except the token is 1/1.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Valiant \u2014 Whenever this creature becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{{TRIGGER_INTRO}} this creature {{CREATURE_TRIGGER}}, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}",
+          4,
+          1,
+          8
+        ],
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {{N}}. If you foraged, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{{N}}/+{{N}} until end of turn. If it has valiant, it gains indestructible until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If you foraged, create a Food token.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}\nCreate a Food token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target creature or planeswalker until this leaves the battlefield. If you foraged, scry 2.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Choose one or more. Spend five pawprints among modes. (Pawprints are used only on this spell. You can choose modes any number of times as long as their total cost is 5 or less.)\n\u2022 [1 pawprint] Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\n\u2022 [2 pawprints] Return target nonland permanent to its owner's hand.\n\u2022 [3 pawprints] Draw two cards.\n\u2022 [2 pawprints] Creatures you control get +{N}/+{N} and gain trample until end of turn.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have valiant. Whenever a creature you control becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, if you foraged this turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food you control have \"{{T}}, Sacrifice this artifact: You gain 3 life.\"",
+          2,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice a Food, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, create a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{{ACTIVATED_COST}} Forage. (To forage, exile three cards from your graveyard or sacrifice a Food.)",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}} Activate only if you foraged this turn.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} Sacrifice a Food: {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{{N}}/+{{N}} and has \"Whenever you expend 4, put a +1/+1 counter on this creature.\"",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchant creature\nValiant \u2014 {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{{T}}: Add one mana of any color. When you spend this mana to cast a spell, you expend 1.\"",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{{N}}/+0 and has vigilance.\nEquip {{EQUIP_COST}}",
+          2,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}}\"\nEquip {{EQUIP_COST}}",
+          2,
+          2,
+          8
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Offspring {{N}} (You may pay an additional {{N}} as you cast this spell.)",
+          2,
+          2,
+          7
+        ],
+        [
+          "When this creature enters, if you paid its offspring cost, create a token that's a copy of it, except the token is 1/1.",
+          2,
+          2,
+          7
+        ],
+        [
+          "Valiant \u2014 Whenever this creature becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "{{TRIGGER_INTRO}} this creature {{CREATURE_TRIGGER}}, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}",
+          4,
+          1,
+          8
+        ],
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Counter target spell unless its controller pays {{N}}. If you foraged, draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Target creature gets +{{N}}/+{{N}} until end of turn. If it has valiant, it gains indestructible until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If you foraged, create a Food token.",
+          2,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "As you cast this spell, you may promise to {{GIFT_VARIANT}} to an opponent. When this spell resolves, that player receives the gift, then \u2014 Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          7
+        ],
+        [
+          "As an additional cost to cast this spell, you may forage. (To forage, exile three cards from your graveyard or sacrifice a Food.) If you foraged, {{ACTIVATED_EFFECT}}\nCreate a Food token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target creature or planeswalker until this leaves the battlefield. If you foraged, scry 2.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Choose one or more. Spend five pawprints among modes. (Pawprints are used only on this spell. You can choose modes any number of times as long as their total cost is 5 or less.)\n\u2022 [1 pawprint] Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.\n\u2022 [2 pawprints] Return target nonland permanent to its owner's hand.\n\u2022 [3 pawprints] Draw two cards.\n\u2022 [2 pawprints] Creatures you control get +{N}/+{N} and gain trample until end of turn.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have valiant. Whenever a creature you control becomes the target of a spell or ability you control for the first time each turn, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, if you foraged this turn, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 4, {{ACTIVATED_EFFECT}}",
+          3,
+          2,
+          8
+        ],
+        [
+          "Whenever you expend 8, {{ACTIVATED_EFFECT}}",
+          2,
+          4,
+          8
+        ],
+        [
+          "Threshold \u2014 As long as you have seven or more cards in your graveyard, {{ACTIVATED_EFFECT}}",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Food you control have \"{{T}}, Sacrifice this artifact: You gain 3 life.\"",
+          2,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice a Food, {{ACTIVATED_EFFECT}}",
+          3,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, create a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{{ACTIVATED_COST}} Forage. (To forage, exile three cards from your graveyard or sacrifice a Food.)",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}} Activate only if you foraged this turn.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{ACTIVATED_COST}} Sacrifice a Food: {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +{{N}}/+{{N}} and has \"Whenever you expend 4, put a +1/+1 counter on this creature.\"",
+          3,
+          2,
+          7
+        ],
+        [
+          "Enchant creature\nValiant \u2014 {{ACTIVATED_EFFECT}}",
+          2,
+          2,
+          7
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{{T}}: Add one mana of any color. When you spend this mana to cast a spell, you expend 1.\"",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{{N}}/+0 and has vigilance.\nEquip {{EQUIP_COST}}",
+          2,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{{ACTIVATED_COST}} {{ACTIVATED_EFFECT}}\"\nEquip {{EQUIP_COST}}",
+          2,
+          2,
+          8
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [],
+      "Instant": [
+        [
+          "Create a Food token. Draw a card.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. If you foraged, you may put it onto the battlefield tapped instead.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you sacrifice a Food, scry 1, then {{ACTIVATED_EFFECT}}",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "When this artifact enters, {{GIFT_VARIANT}}. If you do, create a Treasure token.",
+          2,
+          2,
+          8
+        ],
+        [
+          "{{T}}, Sacrifice this artifact: Create a Food token.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Mouse",
+      "Rabbit",
+      "Bird",
+      "Hedgehog",
+      "Dog"
+    ],
+    "U": [
+      "Otter",
+      "Frog",
+      "Bird",
+      "Fish",
+      "Mouse"
+    ],
+    "B": [
+      "Bat",
+      "Rat",
+      "Mole",
+      "Opossum",
+      "Weasel"
+    ],
+    "R": [
+      "Raccoon",
+      "Squirrel",
+      "Fox",
+      "Rabbit",
+      "Otter"
+    ],
+    "G": [
+      "Squirrel",
+      "Rabbit",
+      "Bear",
+      "Beaver",
+      "Deer"
+    ],
+    "any": [
+      "Mouse",
+      "Otter",
+      "Squirrel",
+      "Raccoon",
+      "Bat",
+      "Frog",
+      "Rabbit",
+      "Bird",
+      "Mole",
+      "Weasel",
+      "Opossum",
+      "Beaver",
+      "Deer",
+      "Fox",
+      "Dog",
+      "Hedgehog"
+    ]
+  },
+  "string_pools": {
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Mouse",
+      "Otter",
+      "Squirrel",
+      "Raccoon",
+      "Rabbit",
+      "Frog",
+      "Bird",
+      "Fish",
+      "Bat"
+    ],
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "enters the battlefield",
+      "dies",
+      "attacks",
+      "blocks"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{G}:",
+      "{R}:",
+      "{1}{G}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Put a +1/+1 counter on this creature.",
+      "Scry 1.",
+      "This creature gains vigilance until end of turn.",
+      "Target creature you control gains trample until end of turn.",
+      "Draw a card, then discard a card."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "GIFT_VARIANT": [
+      "Gift a card",
+      "Gift a Food",
+      "Gift a Treasure",
+      "Gift a tapped Fish"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike",
+      "protection from red"
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "flash",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink",
+      "intimidate"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof",
+      "vigilance"
+    ],
+    "C": [
+      "menace",
+      "reach",
+      "ward {X}"
+    ]
+  }
+}

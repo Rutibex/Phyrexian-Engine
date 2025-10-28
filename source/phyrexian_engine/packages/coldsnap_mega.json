@@ -1,0 +1,730 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Tap up to two target creatures. If {S} was spent to cast this spell, those creatures don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create {X} 1/1 white Soldier creature tokens. If {S} was spent to cast this spell, those tokens have vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt this turn. If you control four or more {SNOW_NOUN}, you gain {X} life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Ripple 4. (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards named this card without paying their mana costs. Put the rest on the bottom of your library in any order.)",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Tap up to two target creatures. If {S} was spent to cast this spell, those creatures don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Create {X} 1/1 white Soldier creature tokens. If {S} was spent to cast this spell, those tokens have vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt this turn. If you control four or more {SNOW_NOUN}, you gain {X} life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Ripple 4. (When you cast this spell, you may reveal the top four cards of your library. You may cast any revealed cards named this card without paying their mana costs. Put the rest on the bottom of your library in any order.)",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{S}. (Put an age counter on this permanent, then pay its upkeep cost for each age counter on it.)",
+          2,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control four or more {SNOW_NOUN}, exile target tapped creature an opponent controls until {this} leaves the battlefield.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {ACTIVATED_EFFECT}",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}: Target creature you control gains protection from {COLOR_HOSER} until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +1/+2.\nIf enchanted creature is a snow creature, it has vigilance.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has first strike.\nEquip {EQUIP_COST}",
+          2,
+          2,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Tap target permanent. If {S} was spent to cast this spell, it doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control four or more {SNOW_NOUN}, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Draw two cards. Then discard a card. If {S} was spent to cast this spell, scry 2.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Tap target permanent. If {S} was spent to cast this spell, it doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If you control four or more {SNOW_NOUN}, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Draw two cards. Then discard a card. If {S} was spent to cast this spell, scry 2.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{1}. Whenever you pay this permanent's cumulative upkeep, {RIMEWIND_VERB}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Look at the top card of your library. You may put it on the bottom of your library.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}: Target creature gains hexproof from non-Snow until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has flying and \"{S}: Untap this creature.\"",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn, where X is the number of {SNOW_NOUN} you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Recover {2}{B}. (When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature. If {S} was spent to cast this spell, you gain 2 life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target creature gets -{X}/-X until end of turn, where X is the number of {SNOW_NOUN} you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. Recover {2}{B}. (When a creature is put into your graveyard from the battlefield, you may pay {2}{B}. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.)",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target tapped creature. If {S} was spent to cast this spell, you gain 2 life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—Pay 1 life. Whenever you pay this permanent's cumulative upkeep, each opponent loses 1 life.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}, Sacrifice a creature: Draw a card. Recover {1}{B}.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}: Target player discards a card. Activate only once each turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+1 and has snow landwalk.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [
+        [
+          "{this} deals damage to target creature equal to the number of {SNOW_NOUN} you control.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{this} deals {X} damage to any target. If {S} was spent to cast this spell, it deals {X}+1 damage instead.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Create a 3/1 red Elemental creature token with haste. Sacrifice it at the beginning of the next end step.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{this} deals damage to target creature equal to the number of {SNOW_NOUN} you control.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{this} deals {X} damage to any target. If {S} was spent to cast this spell, it deals {X}+1 damage instead.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ],
+        [
+          "Create a 3/1 red Elemental creature token with haste. Sacrifice it at the beginning of the next end step.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—Sacrifice a land. Whenever you pay this permanent's cumulative upkeep, {this} deals 2 damage to each opponent.",
+          1,
+          4,
+          7
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} {this} deals 1 damage to any target.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}: Target creature gains haste until end of turn.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Whenever another Aurochs attacks, this creature gets +1/+0 until end of turn.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has \"Whenever this creature attacks, it deals 1 damage to defending player.\" If enchanted creature is snow, it has first strike.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [
+        [
+          "Search your library for a snow land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If {S} was spent to cast this spell, it also gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create a {N}/{N} green Bear creature token. It enters the battlefield with an additional +1/+1 counter on it if you control four or more {SNOW_NOUN}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a snow land card, put it onto the battlefield tapped, then shuffle.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If {S} was spent to cast this spell, it also gains trample until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Create a {N}/{N} green Bear creature token. It enters the battlefield with an additional +1/+1 counter on it if you control four or more {SNOW_NOUN}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Ripple 4.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{S}. Creatures you control get +1/+1 as long as you control four or more {SNOW_NOUN}.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {S}. (Spend this mana only to pay {S} costs.)",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}: Regenerate target creature.",
+          2,
+          1,
+          5
+        ],
+        [
+          "Aurochs you control get {AURORCH_BONUS} until end of turn.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has \"This creature can't be blocked as long as defending player controls a snow land.\"",
+          2,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, put an ice counter on {this}. Then you may remove any number of ice counters from it. For each counter removed this way, {ICE_COUNTER_PAYOFF}",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{3}, {T}: Create a tapped Snow artifact token named Icicle with \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{S}: {RIMEWIND_VERB}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land is snow and has \"{T}: Add one mana of any color.\"",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Bird",
+      "Giant"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Bird",
+      "Illusion",
+      "Elemental",
+      "Yeti"
+    ],
+    "B": [
+      "Human",
+      "Zombie",
+      "Thrull",
+      "Cleric",
+      "Shade",
+      "Hag"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Berserker",
+      "Giant",
+      "Yeti",
+      "Aurochs"
+    ],
+    "G": [
+      "Human",
+      "Elf",
+      "Druid",
+      "Bear",
+      "Aurochs",
+      "Wolf"
+    ],
+    "any": [
+      "Aurochs",
+      "Yeti",
+      "Construct",
+      "Elemental",
+      "Giant",
+      "Hydra",
+      "Spirit",
+      "Warrior",
+      "Wizard",
+      "Cleric",
+      "Shaman"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped",
+      "becomes blocked"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Aurochs",
+      "Yeti",
+      "Spirit",
+      "Thrull",
+      "Zombie",
+      "Bear",
+      "Warrior",
+      "Cleric",
+      "Soldier",
+      "Wizard",
+      "Shaman",
+      "Elemental",
+      "Construct",
+      "Elf",
+      "Human",
+      "Giant",
+      "Bird",
+      "Wolf",
+      "Hydra",
+      "Reflection"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "3/3",
+      "4/4",
+      "5/5"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{3}, {T}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Tap target permanent.",
+      "Untap target permanent.",
+      "Target creature gets +1/+1 until end of turn.",
+      "Target creature gains first strike until end of turn.",
+      "Add {C}.",
+      "Draw a card, then discard a card."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{S}",
+      "{2}{S}"
+    ],
+    "SNOW_NOUN": [
+      "snow permanent",
+      "snow land",
+      "snow creature",
+      "snow artifact"
+    ],
+    "RIMEWIND_VERB": [
+      "tap target permanent",
+      "tap up to one target creature",
+      "tap up to one target artifact or creature"
+    ],
+    "ICE_COUNTER_PAYOFF": [
+      "Prevent all combat damage that would be dealt to you this turn.",
+      "Tap up to {N} target creatures.",
+      "Creatures your opponents control get -1/-0 until end of turn."
+    ],
+    "AURORCH_BONUS": [
+      "+1/+0 and trample",
+      "+1/+0",
+      "+0/+1 and trample"
+    ],
+    "COLOR_HOSER": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "protection from snow"
+    ],
+    "U": [
+      "flying",
+      "hexproof from non-Snow"
+    ],
+    "B": [
+      "deathtouch",
+      "snow landwalk"
+    ],
+    "R": [
+      "haste",
+      "snow landwalk"
+    ],
+    "G": [
+      "trample",
+      "snow landwalk"
+    ],
+    "C": [
+      "snow landwalk"
+    ]
+  }
+}

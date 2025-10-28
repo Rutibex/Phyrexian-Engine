@@ -1,0 +1,1191 @@
+{
+  "name": "Amonkhet Mega",
+  "version": "1.0",
+  "description": "A huge package covering Amonkhet-era mechanics: Embalm, Exert, Aftermath (split support via rules text), Cycling, -1/-1 counters, Cartouches & Trials, Deserts & desert-matters, Brick counters, and more. Includes broad color-weighted templates, adlib token pools, creature subtypes, and suggested evergreen keywords.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance. {TRIGGER_INTRO} you put one or more -1/-1 counters on a creature, {WHITE_PAYOFF}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "You may exert this creature as it attacks. {EXERT_REWARD_WHITE}. It doesn't untap during your next untap step.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, put a -1/-1 counter on up to one target creature an opponent controls.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Other creatures you control get +1/+1 as long as you control a Desert.",
+          3,
+          3,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, create a 1/1 white Warrior creature token with vigilance.",
+          4,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_WHITE}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Lifelink. {TRIGGER_INTRO} you cycle or discard a card, you gain 1 life.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} a Cartouche enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} {SELF} attacks, tap target creature defending player controls.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap up to two target creatures. Prevent all damage those creatures would deal this turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Exile target attacking or blocking creature with mana value {MV_OR_LESS}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+2 and gains lifelink until end of turn. If it was exerted, instead it gets +3/+3 and gains lifelink until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 white Warrior creature tokens. If you control a Desert, create three instead.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Cycling {CYCLING_COST}. {TRIGGER_INTRO} you cycle {SELF}, {WHITE_CYCLING_TRIGGER}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put a -1/-1 counter on up to two target creatures. Create a 1/1 white Warrior creature token for each counter put this way.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Exile target tapped creature. Investigate.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Return target Trial card you control to its owner's hand. Create a 1/1 white Warrior creature token, then Scry 1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Search your library for a basic Plains card, reveal it, put it into your hand, then shuffle. Cycling {CYCLING_COST}.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_WHITE_ETB}. {TRIAL_BOUNCE}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control gets +1/+1 and gains vigilance until end of turn.",
+          4,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you put one or more -1/-1 counters on creatures this turn, create a 1/1 white Warrior creature token.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_WHITE}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, if you control a Desert, you gain 3 life.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+2 and has vigilance. {EQUIP_TEXT}",
+          6,
+          2,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever you exert equipped creature, scry 1. {EQUIP_TEXT}",
+          5,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_WHITE_ETB}. {TRIAL_RETURN}. Enchanted creature gets +1/+1 and has vigilance.",
+          10,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_WHITE}",
+          6,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_W}. {DESERT_SAC_WHITE}",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying. You may exert this creature as it attacks. When you do, {EXERT_REWARD_BLUE}. It doesn't untap during your next untap step.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle or discard a card, scry 1.",
+          6,
+          2,
+          5
+        ],
+        [
+          "When {SELF} enters the battlefield, put a -1/-1 counter on up to one target creature. That creature doesn't untap during its controller's next untap step.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Prowess. {TRIGGER_INTRO} you cast a noncreature spell, {BLUE_PAYOFF}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_BLUE}.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {TAX}. Cycling {CYCLING_COST}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Return target tapped creature to its owner's hand. If that creature was exerted, draw a card.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Draw two cards. Then discard a card. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Aftermath — Cast this spell only from your graveyard, then exile it. {AFTERMATH_BLUE_TEXT}",
+          6,
+          3,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to two target creatures. Draw a card for each creature with a -1/-1 counter on it.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Search your library for up to two Desert cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if you cycled or discarded two or more cards this turn, draw a card.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_BLUE_ETB}. {TRIAL_BOUNCE}.",
+          7,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_BLUE}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "When {SELF} enters the battlefield, draw a card, then discard a card.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has 'Whenever this creature deals combat damage to a player, draw a card.' {EQUIP_TEXT}",
+          5,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_BLUE_ETB}. {TRIAL_RETURN}. Enchanted creature gets +1/+1 and has flying.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_BLUE}",
+          6,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_U}. {DESERT_SAC_BLUE}",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace. When {SELF} enters the battlefield, put a -1/-1 counter on another target creature you control.",
+          6,
+          2,
+          6
+        ],
+        [
+          "You may exert this creature as it attacks. When you do, {EXERT_REWARD_BLACK}. It doesn't untap during your next untap step.",
+          9,
+          2,
+          6
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle or discard a card, each opponent loses 1 life and you gain 1 life.",
+          6,
+          2,
+          5
+        ],
+        [
+          "{TRIGGER_INTRO} a creature with a -1/-1 counter on it dies, {BLACK_PAYOFF}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}, Sacrifice another creature: Put a brick counter on {SELF}. Then {BRICK_EFFECT_BLACK}.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. If it has a -1/-1 counter on it, destroy it instead.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Destroy target creature with mana value {MV_OR_LESS}. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If it has embalm, you may put it onto the battlefield tapped instead.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put two -1/-1 counters on target creature. You draw a card and you lose 1 life.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Aftermath — Cast this spell only from your graveyard, then exile it. {AFTERMATH_BLACK_TEXT}",
+          6,
+          3,
+          6
+        ],
+        [
+          "Each player discards a card. If a player discards a creature card this way, that player loses 2 life.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_BLACK_ETB}. {TRIAL_BOUNCE}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life if they control a creature with a -1/-1 counter on it.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_BLACK}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{TAP}, Sacrifice another creature: Draw a card.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has menace. Whenever equipped creature deals combat damage to a player, that player discards a card. {EQUIP_TEXT}",
+          5,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_BLACK_ETB}. {TRIAL_RETURN}. Enchanted creature gets +1/+1 and has menace.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_BLACK}",
+          6,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_B}. {DESERT_SAC_BLACK}",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste. You may exert this creature as it attacks. When you do, {EXERT_REWARD_RED}. It doesn't untap during your next untap step.",
+          11,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle or discard a card, {RED_CYCLING_TRIGGER}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "When {SELF} enters the battlefield, put a -1/-1 counter on up to one target creature you control. If you do, {RED_PAYOFF_MINUS}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_RED}.",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{SELF} deals 3 damage to any target. If a permanent dealt damage this way would die this turn, exile it instead.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Target attacking creature gets +2/+0 until end of turn. If it was exerted, it gains first strike until end of turn.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Cycling {CYCLING_COST}. {TRIGGER_INTRO} you cycle {SELF}, {RED_CYCLING_TRIGGER}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile the top two cards of your library. Until end of turn, you may play those cards. If you control a Desert, add {R}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Put two -1/-1 counters on target creature. {SELF} deals 2 damage to that creature's controller.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Aftermath — Cast this spell only from your graveyard, then exile it. {AFTERMATH_RED_TEXT}",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_RED_ETB}. {TRIAL_BOUNCE}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "At the beginning of combat on your turn, if you exerted a creature this turn, {RED_EXERT_PAYOFF}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_RED}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TAP}, Discard a card: Draw a card.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has first strike as long as it's attacking. {EQUIP_TEXT}",
+          5,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_RED_ETB}. {TRIAL_RETURN}. Enchanted creature gets +2/+0 and has first strike.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_RED}",
+          6,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_R}. {DESERT_SAC_RED}",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample. You may exert this creature as it attacks. When you do, {EXERT_REWARD_GREEN}. It doesn't untap during your next untap step.",
+          10,
+          3,
+          7
+        ],
+        [
+          "When {SELF} enters the battlefield, distribute two -1/-1 counters among one or two target creatures.",
+          6,
+          3,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle or discard a card, put a +1/+1 counter on target creature you control.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          5,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_GREEN}.",
+          5,
+          3,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. If you control a Desert, that creature also gains trample until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. Cycling {CYCLING_COST}.",
+          7,
+          2,
+          6
+        ],
+        [
+          "Put a -1/-1 counter on up to one target creature, then untap up to two lands.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to two basic land cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle. Cycling {CYCLING_COST}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Aftermath — Cast this spell only from your graveyard, then exile it. {AFTERMATH_GREEN_TEXT}",
+          6,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_GREEN_ETB}. {TRIAL_BOUNCE}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have 'Whenever this creature becomes exerted, it gets +1/+1 until end of turn.'",
+          5,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_GREEN}.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2. Whenever you cycle a card, put a +1/+1 counter on equipped creature. {EQUIP_TEXT}",
+          5,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_GREEN_ETB}. {TRIAL_RETURN}. Enchanted creature gets +2/+2 and has trample.",
+          9,
+          1,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_GREEN}",
+          6,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_G}. {DESERT_SAC_GREEN}",
+          6,
+          0,
+          0
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{ACTIVATED_COST}: Put a brick counter on {SELF}. Then {BRICK_EFFECT_COLORLESS}.",
+          7,
+          2,
+          7
+        ],
+        [
+          "Cycling {CYCLING_COST}. {TRIGGER_INTRO} you cycle {SELF}, {COLORLESS_CYCLING_TRIGGER}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "{TAP}: Add one mana of any color. Spend this mana only to cast embalm or Aftermath spells, or to activate embalm abilities.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_ABILITY_COLORLESS}",
+          8,
+          0,
+          0
+        ],
+        [
+          "Desert. {TAP_FOR_C}. {DESERT_SAC_COLORLESS}",
+          8,
+          0,
+          0
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "You may exert this creature as it attacks. When you do, {EXERT_GENERIC_REWARD}. It doesn't untap during your next untap step.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} you cycle or discard a card, {GENERIC_CYCLING_TRIGGER}.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Embalm {EMBALM_COST}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Cycling {CYCLING_COST}. {TRIGGER_INTRO} you cycle {SELF}, {GENERIC_CYCLING_TRIGGER}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Aftermath — Cast this spell only from your graveyard, then exile it. {AFTERMATH_GENERIC_TEXT}",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Trial — When {SELF} enters the battlefield, {TRIAL_GENERIC_ETB}. {TRIAL_BOUNCE}.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Cartouche — Enchant creature. When {SELF} enters the battlefield, {CARTOUCHE_GENERIC_ETB}. {TRIAL_RETURN}. Enchanted creature gets +1/+1.",
+          3,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Warrior",
+      "Cleric",
+      "Cat",
+      "Bird",
+      "Zombie",
+      "Mummy",
+      "Spirit",
+      "Angel",
+      "Soldier"
+    ],
+    "U": [
+      "Naga",
+      "Bird",
+      "Illusion",
+      "Merfolk",
+      "Djinn",
+      "Zombie",
+      "Wizard",
+      "Construct",
+      "Sphinx"
+    ],
+    "B": [
+      "Zombie",
+      "Mummy",
+      "Horror",
+      "Assassin",
+      "Shade",
+      "Acolyte",
+      "Scorpion",
+      "Jackal"
+    ],
+    "R": [
+      "Minotaur",
+      "Jackal",
+      "Human",
+      "Warrior",
+      "Devil",
+      "Shaman",
+      "Lizard",
+      "Minotaur Warrior"
+    ],
+    "G": [
+      "Naga",
+      "Beast",
+      "Crocodile",
+      "Wurm",
+      "Camel",
+      "Druid",
+      "Hippo",
+      "Scorpion"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Scarecrow",
+      "Scorpion Construct"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{2}",
+      "{3}",
+      "{1}, {TAP}",
+      "{1}, Discard a card",
+      "{2}, Sacrifice a creature",
+      "{1}, Pay 1 life"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "EQUIP_TEXT": [
+      "Equip {EQUIP_COST}"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "If"
+    ],
+    "MV_OR_LESS": [
+      "3 or less",
+      "4 or less",
+      "5 or less"
+    ],
+    "TAX": [
+      "2",
+      "3",
+      "4"
+    ],
+    "CYCLING_COST": [
+      "{2}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}",
+      "{3}"
+    ],
+    "EMBALM_COST": [
+      "{3}{W}",
+      "{4}{W}",
+      "{5}{W}",
+      "{2}{U}",
+      "{3}{U}",
+      "{4}{U}",
+      "{3}{B}",
+      "{4}{B}",
+      "{3}{R}",
+      "{4}{R}",
+      "{4}{G}",
+      "{5}{G}"
+    ],
+    "TAP_FOR_C": [
+      "{TAP}: Add {C}."
+    ],
+    "TAP_FOR_W": [
+      "{TAP}: Add {W}."
+    ],
+    "TAP_FOR_U": [
+      "{TAP}: Add {U}."
+    ],
+    "TAP_FOR_B": [
+      "{TAP}: Add {B}."
+    ],
+    "TAP_FOR_R": [
+      "{TAP}: Add {R}."
+    ],
+    "TAP_FOR_G": [
+      "{TAP}: Add {G}."
+    ],
+    "WHITE_PAYOFF": [
+      "you gain 2 life",
+      "create a 1/1 white Warrior creature token",
+      "tap target creature an opponent controls"
+    ],
+    "BLUE_PAYOFF": [
+      "untap up to one target creature",
+      "draw a card",
+      "target creature gains flying until end of turn"
+    ],
+    "BLACK_PAYOFF": [
+      "each opponent loses 1 life and you gain 1 life",
+      "return target creature card from your graveyard to your hand",
+      "create a 2/2 black Zombie creature token"
+    ],
+    "RED_PAYOFF_MINUS": [
+      "{SELF} deals 2 damage to any target",
+      "create a tapped Treasure token",
+      "target creature gains haste until end of turn"
+    ],
+    "WHITE_CYCLING_TRIGGER": [
+      "tap up to one target creature",
+      "you gain 2 life"
+    ],
+    "RED_CYCLING_TRIGGER": [
+      "{SELF} deals 1 damage to any target",
+      "target creature gets +1/+0 until end of turn"
+    ],
+    "COLORLESS_CYCLING_TRIGGER": [
+      "scry 1",
+      "add {C}"
+    ],
+    "GENERIC_CYCLING_TRIGGER": [
+      "draw a card",
+      "scry 1"
+    ],
+    "EXERT_REWARD_WHITE": [
+      "tap up to one target creature",
+      "it gets +1/+1 and gains lifelink until end of turn"
+    ],
+    "EXERT_REWARD_BLUE": [
+      "tap up to one target creature and it doesn't untap during its controller's next untap step",
+      "draw a card"
+    ],
+    "EXERT_REWARD_BLACK": [
+      "target opponent loses 2 life and you gain 2 life",
+      "destroy target creature with mana value 2 or less"
+    ],
+    "EXERT_REWARD_RED": [
+      "{SELF} gets +1/+0 until end of turn",
+      "{SELF} deals 1 damage to any target"
+    ],
+    "EXERT_REWARD_GREEN": [
+      "put a +1/+1 counter on {SELF}",
+      "target creature you control gains trample until end of turn"
+    ],
+    "EXERT_GENERIC_REWARD": [
+      "it gets +1/+1 until end of turn",
+      "it deals 1 damage to any target",
+      "scry 1"
+    ],
+    "AFTERMATH_BLUE_TEXT": [
+      "Return target nonland permanent to its owner's hand.",
+      "Draw two cards, then discard a card."
+    ],
+    "AFTERMATH_BLACK_TEXT": [
+      "Return target creature card from your graveyard to the battlefield tapped. You lose 2 life.",
+      "Target opponent discards two cards."
+    ],
+    "AFTERMATH_RED_TEXT": [
+      "{SELF} deals 3 damage to any target.",
+      "Exile the top card of your library. Until end of turn, you may play that card."
+    ],
+    "AFTERMATH_GREEN_TEXT": [
+      "Target creature you control fights target creature you don't control.",
+      "Put two +1/+1 counters on target creature."
+    ],
+    "AFTERMATH_GENERIC_TEXT": [
+      "Create two 1/1 creature tokens.",
+      "Destroy target artifact or enchantment."
+    ],
+    "TRIAL_BOUNCE": [
+      "When a Cartouche enters the battlefield under your control, return {SELF} to its owner's hand."
+    ],
+    "TRIAL_RETURN": [
+      "Return a Trial you control to its owner's hand."
+    ],
+    "TRIAL_WHITE_ETB": [
+      "tap up to two target creatures your opponents control",
+      "create two 1/1 white Warrior creature tokens"
+    ],
+    "TRIAL_BLUE_ETB": [
+      "draw two cards",
+      "return target creature to its owner's hand"
+    ],
+    "TRIAL_BLACK_ETB": [
+      "each opponent sacrifices a creature",
+      "target player discards two cards"
+    ],
+    "TRIAL_RED_ETB": [
+      "{SELF} deals 3 damage to any target",
+      "creatures you control get +1/+0 until end of turn"
+    ],
+    "TRIAL_GREEN_ETB": [
+      "search your library for a basic land card, put it onto the battlefield tapped, then shuffle",
+      "creatures you control get +1/+1 until end of turn"
+    ],
+    "TRIAL_GENERIC_ETB": [
+      "scry 2",
+      "draw a card"
+    ],
+    "CARTOUCHE_WHITE_ETB": [
+      "exile target creature an opponent controls until {SELF} leaves the battlefield",
+      "create a 1/1 white Warrior creature token"
+    ],
+    "CARTOUCHE_BLUE_ETB": [
+      "return target creature to its owner's hand",
+      "scry 2"
+    ],
+    "CARTOUCHE_BLACK_ETB": [
+      "target opponent discards a card",
+      "destroy target creature with mana value 2 or less"
+    ],
+    "CARTOUCHE_RED_ETB": [
+      "{SELF} deals 2 damage to any target",
+      "target creature gets +1/+0 and gains first strike until end of turn"
+    ],
+    "CARTOUCHE_GREEN_ETB": [
+      "target creature gets +2/+2 and gains trample until end of turn",
+      "create a 3/3 green Beast creature token"
+    ],
+    "CARTOUCHE_GENERIC_ETB": [
+      "draw a card",
+      "scry 1"
+    ],
+    "DESERT_ABILITY_WHITE": [
+      "{TAP}, Pay 1 life: Add {W}.",
+      "{TAP}: Target creature gains vigilance until end of turn."
+    ],
+    "DESERT_ABILITY_BLUE": [
+      "{TAP}: Scry 1.",
+      "{TAP}: Add {U}. Spend this mana only to cast spells with cycling."
+    ],
+    "DESERT_ABILITY_BLACK": [
+      "{TAP}: Each opponent loses 1 life. Activate only if you have a creature card in your graveyard.",
+      "{TAP}: Add {B}. Spend this mana only to cast embalm or Aftermath spells."
+    ],
+    "DESERT_ABILITY_RED": [
+      "{TAP}: {SELF} deals 1 damage to target player or planeswalker. Activate only as a sorcery.",
+      "{TAP}: Add {R}. Spend this mana only to cast creature spells."
+    ],
+    "DESERT_ABILITY_GREEN": [
+      "{TAP}: Target creature gets +1/+1 until end of turn. Activate only if you control a Desert.",
+      "{TAP}: Add {G}. Spend this mana only to cast creature spells."
+    ],
+    "DESERT_ABILITY_COLORLESS": [
+      "{TAP}: Add one mana of any color. Spend this mana only if you control a Desert.",
+      "{TAP}: Scry 1."
+    ],
+    "DESERT_SAC_WHITE": [
+      "{1}, {TAP}, Sacrifice a Desert: Tap up to two target creatures."
+    ],
+    "DESERT_SAC_BLUE": [
+      "{1}, {TAP}, Sacrifice a Desert: Draw a card."
+    ],
+    "DESERT_SAC_BLACK": [
+      "{1}, {TAP}, Sacrifice a Desert: Target opponent discards a card."
+    ],
+    "DESERT_SAC_RED": [
+      "{1}, {TAP}, Sacrifice a Desert: {SELF} deals 2 damage to any target."
+    ],
+    "DESERT_SAC_GREEN": [
+      "{1}, {TAP}, Sacrifice a Desert: Put a +1/+1 counter on up to two target creatures."
+    ],
+    "DESERT_SAC_COLORLESS": [
+      "{2}, {TAP}, Sacrifice a Desert: Scry 2."
+    ],
+    "BRICK_EFFECT_WHITE": [
+      "if there are three or more brick counters on {SELF}, create a 1/1 white Warrior creature token",
+      "gain 3 life. If there are three or more brick counters on {SELF}, gain 6 life instead"
+    ],
+    "BRICK_EFFECT_BLUE": [
+      "draw a card. If there are three or more brick counters on {SELF}, scry 2 first",
+      "if there are three or more brick counters on {SELF}, tap up to two target creatures"
+    ],
+    "BRICK_EFFECT_BLACK": [
+      "each opponent loses 1 life and you gain 1 life. If there are three or more brick counters on {SELF}, instead each opponent loses 2 life and you gain 2 life"
+    ],
+    "BRICK_EFFECT_RED": [
+      "{SELF} deals 1 damage to any target. If there are three or more brick counters on {SELF}, it deals 2 damage instead"
+    ],
+    "BRICK_EFFECT_GREEN": [
+      "target creature you control gets +1/+1 until end of turn. If there are three or more brick counters on {SELF}, put a +1/+1 counter on it instead"
+    ],
+    "BRICK_EFFECT_COLORLESS": [
+      "add {C}{C}. If there are three or more brick counters on {SELF}, add one mana of any color instead"
+    ],
+    "RED_EXERT_PAYOFF": [
+      "{SELF} deals 2 damage to any target",
+      "create a tapped Treasure token"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "First strike",
+      "Lifelink"
+    ],
+    "U": [
+      "Flying",
+      "Prowess"
+    ],
+    "B": [
+      "Menace",
+      "Deathtouch"
+    ],
+    "R": [
+      "Haste",
+      "First strike",
+      "Menace"
+    ],
+    "G": [
+      "Trample",
+      "Reach"
+    ],
+    "C": [
+      ""
+    ]
+  }
+}

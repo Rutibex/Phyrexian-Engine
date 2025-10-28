@@ -1,0 +1,906 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "{TRIGGER_INTRO} {PERMANENT_CONTROLLER} becomes tapped, {ACTIVATED_EFFECT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{TRIGGER_INTRO} {PERMANENT_CONTROLLER} becomes tapped, {ACTIVATED_EFFECT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{FORECAST_INTRO} {AZORIUS_TAX} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Players can't cast more than one spell each turn.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{TRIGGER_INTRO} {PERMANENT_CONTROLLER} becomes tapped, {ACTIVATED_EFFECT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{TRIGGER_INTRO} {PERMANENT_CONTROLLER} becomes tapped, {ACTIVATED_EFFECT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{TRIGGER_INTRO} {PERMANENT_CONTROLLER} becomes tapped, {ACTIVATED_EFFECT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Exile target attacking creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Create two 1/1 white Soldier creature tokens.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all creatures with power {X} or greater.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          3,
+          3,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "{FORECAST_INTRO} {AZORIUS_TAX} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, scry {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{GRAFT_GRANT}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{FORECAST_INTRO} {AZORIUS_TAX} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, scry {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{GRAFT_GRANT}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{FORECAST_INTRO} {AZORIUS_TAX} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, scry {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{GRAFT_LINE}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, scry {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{GRAFT_LINE}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{FORECAST_INTRO} {FORECAST_EFFECT} {FORECAST_LIMIT}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} {CREATURE_TRIGGER}, scry {N}.",
+          3,
+          1,
+          6
+        ],
+        [
+          "{GRAFT_GRANT}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Draw {N} cards.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{SIMIC_COUNTERS}",
+          3,
+          2,
+          6
+        ],
+        [
+          "Look at the top {N} cards of your library, put one into your hand and the rest on the bottom in a random order.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, {RAKDOS_PUNISH}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, {RAKDOS_PUNISH}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_STATIC}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, {RAKDOS_PUNISH}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, {RAKDOS_PUNISH}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} a creature {CREATURE_CONTROLLER} dies, {RAKDOS_PUNISH}",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature. You lose {N} life.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature or planeswalker.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {N} life.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, it deals {N} damage to target creature or player.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, it deals {N} damage to target creature or player.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, it deals {N} damage to target creature or player.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, it deals {N} damage to target creature or player.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{HELLBENT_STATIC}",
+          4,
+          2,
+          6
+        ],
+        [
+          "{HELLBENT_ACT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} this creature attacks, it deals {N} damage to target creature or player.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{RAKDOS_PUNISH}",
+          4,
+          1,
+          6
+        ],
+        [
+          "This spell can't be countered. It deals {X} damage to any target.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "{GRAFT_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GRAFT_LINE}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature enters the battlefield under your control, put a +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "{GRAFT_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GRAFT_GRANT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature enters the battlefield under your control, put a +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "{GRAFT_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GRAFT_GRANT}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature enters the battlefield under your control, put a +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{GRAFT_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GRAFT_LINE}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature enters the battlefield under your control, put a +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{GRAFT_LINE}",
+          5,
+          2,
+          6
+        ],
+        [
+          "{GRAFT_LINE}",
+          3,
+          2,
+          6
+        ],
+        [
+          "{TRIGGER_INTRO} another creature enters the battlefield under your control, put a +1/+1 counter on it.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains trample until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Distribute {N} +1/+1 counters among up to {N} target creatures you control.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{MODAL_CHOOSE}\n{MODE_A}\n{MODE_B}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {},
+    "any": {
+      "Land": [
+        [
+          "{ACTIVATED_COST} Add one mana of any color.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{ACTIVATED_COST} Tap target creature.",
+          2,
+          0,
+          0
+        ],
+        [
+          "{ACTIVATED_COST} Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          2,
+          0,
+          0
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "{AURA_GRANT}",
+          5,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "{EQUIP_GRANT}",
+          5,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Knight",
+      "Soldier",
+      "Spirit",
+      "Bird",
+      "Vedalken",
+      "Griffin"
+    ],
+    "U": [
+      "Vedalken",
+      "Wizard",
+      "Bird",
+      "Homunculus",
+      "Mutant",
+      "Illusion"
+    ],
+    "B": [
+      "Human",
+      "Shaman",
+      "Cleric",
+      "Demon",
+      "Imp",
+      "Horror",
+      "Thrull"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Berserker",
+      "Goblin",
+      "Ogre",
+      "Devil",
+      "Shaman"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Frog",
+      "Mutant",
+      "Insect"
+    ],
+    "C": [
+      "Construct",
+      "Golem"
+    ]
+  },
+  "string_pools": {
+    "FORECAST_INTRO": [
+      "Forecast \u2014 {FORECAST_COST} Reveal this card from your hand:",
+      "Forecast \u2014 {FORECAST_COST} Reveal this card from your hand as you upkeep:"
+    ],
+    "FORECAST_LIMIT": [
+      "Activate only during your upkeep and only once each turn.",
+      "Activate only during your upkeep."
+    ],
+    "FORECAST_COST": [
+      "{1}{W}:",
+      "{1}{U}:",
+      "{2}{W}:",
+      "{2}{U}:",
+      "{1}{W/U}:",
+      "{2}:"
+    ],
+    "FORECAST_EFFECT": [
+      "Create a 1/1 white and blue Bird creature token with flying.",
+      "Tap up to one target creature.",
+      "Return target creature you control to its owner's hand.",
+      "Scry {N}.",
+      "Create a 1/1 white Soldier creature token.",
+      "Target creature gains flying until end of turn."
+    ],
+    "HELLBENT_STATIC": [
+      "Hellbent \u2014 As long as you have no cards in hand, {HELLBENT_BONUS}."
+    ],
+    "HELLBENT_BONUS": [
+      "this creature gets +{N}/+{N} and has menace",
+      "this creature has haste and first strike",
+      "spells you cast cost {1} less to cast",
+      "this creature can't be blocked",
+      "creatures you control get +1/+0",
+      "whenever this creature deals combat damage to a player, it deals that much damage to any target"
+    ],
+    "HELLBENT_ACT": [
+      "Hellbent \u2014 {ACTIVATED_COST} Activate only if you have no cards in hand: {ACTIVATED_EFFECT}"
+    ],
+    "GRAFT_LINE": [
+      "Graft {N} (This creature enters the battlefield with {N} +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)"
+    ],
+    "GRAFT_GRANT": [
+      "Creatures you control with +1/+1 counters on them have trample.",
+      "Creatures you control with +1/+1 counters on them have flying.",
+      "Creatures you control with +1/+1 counters on them have vigilance.",
+      "Whenever a creature you control with a +1/+1 counter on it attacks, it gets +1/+0 until end of turn.",
+      "Whenever a creature you control with a +1/+1 counter on it becomes the target of a spell or ability you control, draw a card."
+    ],
+    "AZORIUS_TAX": [
+      "{TARGET_OPPONENT} can't cast more than one spell during their next turn.",
+      "Counter target spell unless its controller pays {2}.",
+      "Tap up to one target permanent."
+    ],
+    "RAKDOS_PUNISH": [
+      "{TARGET_OPPONENT} loses {N} life.",
+      "Target creature can't block this turn.",
+      "Destroy target creature with mana value {N} or less.",
+      "Target creature gets +{N}/+0 and gains haste until end of turn."
+    ],
+    "SIMIC_COUNTERS": [
+      "Move a +1/+1 counter from target creature you control onto another target creature you control.",
+      "Put a +1/+1 counter on up to one target creature.",
+      "Until end of turn, target creature becomes a blue Frog with base power and toughness {X}/{X}.",
+      "Put a +1/+1 counter on target creature, then you may move a +1/+1 counter from it onto another target creature.",
+      "Move any number of +1/+1 counters from among creatures you control onto another target creature."
+    ],
+    "MODAL_CHOOSE": [
+      "Choose one \u2014",
+      "Choose one or both \u2014"
+    ],
+    "MODE_A": [
+      "\u2022 Return target creature to its owner's hand.",
+      "\u2022 Draw {N} cards.",
+      "\u2022 Tap up to two target creatures.",
+      "\u2022 Destroy target artifact or enchantment."
+    ],
+    "MODE_B": [
+      "\u2022 {RAKDOS_PUNISH}",
+      "\u2022 {AZORIUS_TAX}",
+      "\u2022 {SIMIC_COUNTERS}"
+    ],
+    "AURA_GRANT": [
+      "Enchanted creature gets +{N}/+{N}.",
+      "Enchanted creature has flying.",
+      "Enchanted creature has menace.",
+      "Enchanted creature has trample.",
+      "Enchanted creature has vigilance.",
+      "Whenever enchanted creature attacks, {ACTIVATED_EFFECT}"
+    ],
+    "EQUIP_GRANT": [
+      "Equipped creature gets +{N}/+0 and has first strike.",
+      "Equipped creature has menace and haste.",
+      "Equipped creature gets +0/+{N} and has vigilance.",
+      "Whenever equipped creature attacks, {ACTIVATED_EFFECT}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "flying"
+    ],
+    "U": [
+      "graft {N}",
+      "flying"
+    ],
+    "B": [
+      "menace"
+    ],
+    "R": [
+      "haste"
+    ],
+    "G": [
+      "graft {N}",
+      "trample"
+    ],
+    "C": []
+  }
+}

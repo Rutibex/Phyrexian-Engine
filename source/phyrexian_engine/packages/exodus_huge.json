@@ -1,0 +1,768 @@
+{
+  "name": "exodus_huge",
+  "version": "1.0.0",
+  "description": "Tempest block — Exodus mega pack: Buyback, Shadow, Licids, Spikes, Oaths/Keepers catch-up.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Soltari {SUBTYPE} — shadow ({SHADOW_FLAVOR})",
+          4,
+          1,
+          3
+        ],
+        [
+          "Whenever {THIS} enters the battlefield, if {BEHIND_CHECKS}, create {X} 1/1 white {TOKEN_SUBTYPE_WHITE} creature tokens.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Other creatures you control get +1/+1 as long as you control fewer lands than an opponent.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, exile target tapped creature an opponent controls until {THIS} leaves the battlefield.",
+          3,
+          3,
+          5
+        ],
+        [
+          "{1}{W}: {THIS} gains protection from the color of your choice until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When {THIS} enters, you gain {X} life, where X is the greatest number of creatures a player controls.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Soltari Skirmisher — shadow ({SHADOW_FLAVOR})",
+          3,
+          1,
+          3
+        ],
+        [
+          "Soltari Stalker — shadow. Whenever this deals combat damage to a player, draw a card, then discard a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Soltari Champion — shadow. Soltari Champion gets +1/+0 for each other creature with shadow you control.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Buyback — {BUYBACK_COSTS_LOW}.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn. Buyback — {BUYBACK_COSTS_GENERIC}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Exile target attacking creature with power {X} or less.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Oath of Dawn — At the beginning of your upkeep, if {BEHIND_CHECKS}, you gain {X} life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have vigilance as long as an opponent has more life than you.",
+          2,
+          3,
+          6
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature has vigilance and '{1}{W}: Prevent the next 1 damage that would be dealt to this creature this turn.'",
+          2,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets {AURA_BONUS_SMALL}. Buyback — Sacrifice an enchantment.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Oath of Balance — At the beginning of your upkeep, if an opponent has more creatures than you, create a 1/1 white Soldier creature token for each creature you control less than the player with the most.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Oath of Grace — At the beginning of your upkeep, if an opponent has more life than you, you gain {X} life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Oath of Parity — At the beginning of your upkeep, if an opponent has more lands than you, you may search your library for a Plains card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Thalakos {SUBTYPE} — shadow ({SHADOW_FLAVOR})",
+          4,
+          1,
+          3
+        ],
+        [
+          "When {THIS} enters the battlefield, draw a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{U}, Sacrifice {THIS}: Counter target spell unless its controller pays {X}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature has '{U}: Return this creature to its owner's hand.'",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, if {BEHIND_CHECKS}, scry {X}, then draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Thalakos Skirmisher — shadow ({SHADOW_FLAVOR})",
+          3,
+          1,
+          3
+        ],
+        [
+          "Thalakos Stalker — shadow. Whenever this deals combat damage to a player, draw a card, then discard a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Thalakos Champion — shadow. Thalakos Champion gets +1/+0 for each other creature with shadow you control.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Return target creature to its owner's hand. Buyback — {BUYBACK_COSTS_GENERIC}.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. Buyback — Discard a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Tap up to {X} target permanents. They don't untap during their controller's next untap step.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. Buyback — {2}{U}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Draw two cards, then discard a card. Buyback — Discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Counter target activated or triggered ability. Buyback — Pay 3 life.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if {BEHIND_CHECKS}, you may return target nonland permanent to its owner's hand.",
+          3,
+          3,
+          6
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature has 'You control enchanted creature.' {LICID_ENDING}",
+          2,
+          4,
+          6
+        ],
+        [
+          "Creatures with shadow you control get +1/+0 and can't block.",
+          2,
+          2,
+          4
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} You control enchanted creature. When you pay {COST2}, it stops being an Aura. {LICID_ENDING}",
+          2,
+          4,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Dauthi {SUBTYPE} — shadow ({SHADOW_FLAVOR})",
+          5,
+          1,
+          3
+        ],
+        [
+          "When {THIS} enters the battlefield, each opponent loses {X} life and you gain {X} life.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{B}, Sacrifice another creature: Draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, if {BEHIND_CHECKS}, create a 1/1 black {TOKEN_SUBTYPE_BLACK} creature token.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Dauthi Skirmisher — shadow ({SHADOW_FLAVOR})",
+          3,
+          1,
+          3
+        ],
+        [
+          "Dauthi Stalker — shadow. Whenever this deals combat damage to a player, draw a card, then discard a card.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Dauthi Champion — shadow. Dauthi Champion gets +1/+0 for each other creature with shadow you control.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards {X} cards. Buyback — Pay 3 life.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Destroy target creature with mana value {X} or less. Buyback — Discard a card.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Buyback — {2}{B}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target nonblack creature. Buyback — Pay 3 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature. Buyback — Sacrifice a creature.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if {BEHIND_CHECKS}, each opponent loses 1 life and you gain 1 life.",
+          3,
+          2,
+          6
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature gets -2/-2. {LICID_ENDING}",
+          2,
+          2,
+          5
+        ],
+        [
+          "Creatures with shadow you control get +2/+0.",
+          2,
+          2,
+          4
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "{THIS} has haste.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} or another creature enters under your control, if {BEHIND_CHECKS}, {THIS} deals 1 damage to any target.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{R}, Sacrifice {THIS}: {THIS} deals 2 damage to any target.",
+          2,
+          1,
+          3
+        ],
+        [
+          "{R}: {THIS} gets +1/+0 until end of turn.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS} deals {X} damage to any target. Buyback — {BUYBACK_COSTS_GENERIC}.",
+          5,
+          1,
+          5
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Destroy target artifact. Buyback — Sacrifice a land.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if {BEHIND_CHECKS}, create a 1/1 red {TOKEN_SUBTYPE_RED} creature token with haste. Sacrifice it at end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Creatures with shadow can't block.",
+          2,
+          2,
+          5
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature has menace and '{R}: This creature gets +1/+0 until end of turn.'",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "{THIS} deals 3 damage to any target. Buyback — {3}{R}.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target land. Buyback — Sacrifice a land.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Creatures without shadow can't block this turn. Buyback — Discard a card.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Spike {SUBTYPE} — {THIS} enters the battlefield with {X} +1/+1 counters on it.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Remove a +1/+1 counter from {THIS}: Put a +1/+1 counter on target creature.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters the battlefield, if {BEHIND_CHECKS}, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Trample",
+          2,
+          3,
+          6
+        ],
+        [
+          "Spike Worker — {{THIS}} enters with two +1/+1 counters on it. {2}: Move a +1/+1 counter from {THIS} onto target creature.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Spike Drone — {{THIS}} enters with three +1/+1 counters on it. {G}: Remove a +1/+1 counter from {THIS}: Target creature gains trample until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Spike Feeder — {{THIS}} enters with two +1/+1 counters on it. Remove a +1/+1 counter from {THIS}: Put a +1/+1 counter on target creature.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {X} +1/+1 counters on target creature. Buyback — {BUYBACK_COSTS_GENERIC}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put one onto the battlefield tapped and the rest into your hand, then shuffle.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. Buyback — Discard a card.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, if {BEHIND_CHECKS}, put a +1/+1 counter on target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Creatures you control with counters on them have trample.",
+          2,
+          3,
+          6
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature gets +2/+2 and has trample. {LICID_ENDING}",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature has '{1}: This creature gets +1/+1 until end of turn.' {LICID_ENDING}",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Add {C}{C}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a spell, if {BEHIND_CHECKS}, draw a card, then discard a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "LICID — {LICID_ACTIVATE} Enchanted creature gets +1/+1 and has flying. {LICID_ENDING}",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          4,
+          1,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. {THIS} doesn't untap during your next untap step.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}, Pay 1 life: Add one mana of any color.",
+          2,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Cleric",
+      "Knight",
+      "Soldier",
+      "Rebel",
+      "Cat",
+      "Pegasus",
+      "Soltari",
+      "Spirit"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Merfolk",
+      "Thalakos",
+      "Illusion",
+      "Bird",
+      "Drake"
+    ],
+    "B": [
+      "Human",
+      "Cleric",
+      "Assassin",
+      "Dauthi",
+      "Zombie",
+      "Rat",
+      "Imp",
+      "Shade"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Goblin",
+      "Viashino",
+      "Barbarian",
+      "Elemental",
+      "Minotaur"
+    ],
+    "G": [
+      "Human",
+      "Druid",
+      "Elf",
+      "Beast",
+      "Spider",
+      "Spike",
+      "Cat",
+      "Snake",
+      "Wurm"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Wall"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike",
+      "protection from black",
+      "shadow"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "hexproof (from spells)",
+      "shadow"
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "lifelink",
+      "shadow"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "vigilance"
+    ],
+    "C": [
+      "defender"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "At the beginning of your upkeep,",
+      "Whenever {THIS} attacks,",
+      "Whenever a creature you control dies,",
+      "At the beginning of combat on your turn,"
+    ],
+    "BEHIND_CHECKS": [
+      "if an opponent controls more creatures than you",
+      "if an opponent has more cards in hand than you",
+      "if an opponent has more life than you",
+      "if an opponent controls more lands than you"
+    ],
+    "LICID_ACTIVATE": [
+      "{COST}: {THIS} loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {COST2} to end this effect."
+    ],
+    "LICID_ENDING": [
+      "{COST2}: End this effect."
+    ],
+    "TOKEN_SUBTYPE_WHITE": [
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Cat"
+    ],
+    "TOKEN_SUBTYPE_BLUE": [
+      "Illusion",
+      "Merfolk",
+      "Thalakos",
+      "Bird"
+    ],
+    "TOKEN_SUBTYPE_BLACK": [
+      "Zombie",
+      "Rat",
+      "Dauthi",
+      "Imp"
+    ],
+    "TOKEN_SUBTYPE_RED": [
+      "Goblin",
+      "Elemental",
+      "Warrior"
+    ],
+    "TOKEN_SUBTYPE_GREEN": [
+      "Saproling",
+      "Beast",
+      "Wolf",
+      "Spikelet"
+    ],
+    "AURA_BONUS_SMALL": [
+      "+1/+1",
+      "+1/+0 and first strike",
+      "+0/+2",
+      "+1/+0 and vigilance"
+    ],
+    "AURA_BONUS_MED": [
+      "+2/+1",
+      "+2/+2",
+      "+1/+2 and vigilance",
+      "+2/+0 and trample"
+    ],
+    "BUYBACK_COSTS_GENERIC": [
+      "{3}",
+      "{2}{C}",
+      "{1}{C}",
+      "Discard a card",
+      "Pay 3 life",
+      "Sacrifice a creature"
+    ],
+    "BUYBACK_COSTS_LOW": [
+      "{2}",
+      "{1}",
+      "Pay 2 life"
+    ],
+    "NUMBER_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "NUMBER_MED": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "NUMBER_BIG": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "SAC_SMALL": [
+      "sacrifice a creature",
+      "sacrifice an artifact",
+      "sacrifice a land"
+    ],
+    "COUNTER_VERBS": [
+      "put a +1/+1 counter on",
+      "move a +1/+1 counter from {THIS} onto",
+      "remove a +1/+1 counter from"
+    ],
+    "SHADOW_FLAVOR": [
+      "Creatures with shadow can block or be blocked only by creatures with shadow."
+    ]
+  }
+}

@@ -1,0 +1,2407 @@
+{
+  "name": "doctor_who",
+  "version": "1.0",
+  "description": "Doctor Who package: time travel, paradox, villainous choices, Doctors & Companions, Daleks & Cybermen, historic matters, tokens, vehicles, and suspend synergies.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, this creature gets +1/+1 until end of turn.",
+          4,
+          1,
+          8
+        ],
+        [
+          "When this creature enters the battlefield, time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever one or more artifact tokens enter the battlefield under your control, draw a card. This ability triggers only once each turn.",
+          4,
+          1,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. Time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If this spell was cast from exile, draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target card from a graveyard. Create a Clue token. Scry 1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Choose one \u2014 Time travel; or each opponent faces a villainous choice \u2014 They discard a card; or they sacrifice a creature.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 3/3 [TOKEN_COLOR] Dalek artifact creature tokens with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then draw two cards.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they lose {X} life. You gain {X} life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 If you cast this spell from your graveyard or exile, create two Treasure tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, each opponent faces a villainous choice \u2014 They lose 2 life; or you gain 2 life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your end step, time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a historic permanent enters the battlefield under your control, scry 1, then draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, you may create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Time travel. Activate only as a sorcery.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Sacrifice this artifact: Create a Food token and a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Target player faces a villainous choice \u2014 They sacrifice a creature; or you draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Tap: Add one mana of any color. When you spend this mana to cast a spell from exile, scry 1.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, each opponent faces a villainous choice \u2014 They lose 2 life; or you create a Treasure token.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on this creature.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast historic spells.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Scry 1. If this is the second time you've scryed this turn, draw a card.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has ward {X} and gets +1/+1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{T}: Scry 1, then surveil 1.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player, time travel.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST} Choose one \u2014 Draw a card; or create a Treasure token.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast historic spells.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Scry 1, then surveil 1.",
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, this creature gets +1/+1 until end of turn.",
+          4,
+          1,
+          8
+        ],
+        [
+          "When this creature enters the battlefield, time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever one or more artifact tokens enter the battlefield under your control, draw a card. This ability triggers only once each turn.",
+          4,
+          1,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. Time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If this spell was cast from exile, draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target card from a graveyard. Create a Clue token. Scry 1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Choose one \u2014 Time travel; or each opponent faces a villainous choice \u2014 They discard a card; or they sacrifice a creature.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 3/3 [TOKEN_COLOR] Dalek artifact creature tokens with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then draw two cards.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they lose {X} life. You gain {X} life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 If you cast this spell from your graveyard or exile, create two Treasure tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, each opponent faces a villainous choice \u2014 They lose 2 life; or you gain 2 life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your end step, time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a historic permanent enters the battlefield under your control, scry 1, then draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, you may create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Time travel. Activate only as a sorcery.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Sacrifice this artifact: Create a Food token and a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Target player faces a villainous choice \u2014 They sacrifice a creature; or you draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Tap: Add one mana of any color. When you spend this mana to cast a spell from exile, scry 1.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, each opponent faces a villainous choice \u2014 They lose 2 life; or you create a Treasure token.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on this creature.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast historic spells.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Scry 1. If this is the second time you've scryed this turn, draw a card.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has ward {X} and gets +1/+1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{T}: Scry 1, then surveil 1.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player, time travel.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST} Choose one \u2014 Draw a card; or create a Treasure token.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast historic spells.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Scry 1, then surveil 1.",
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, this creature gets +1/+1 until end of turn.",
+          4,
+          1,
+          8
+        ],
+        [
+          "When this creature enters the battlefield, time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever one or more artifact tokens enter the battlefield under your control, draw a card. This ability triggers only once each turn.",
+          4,
+          1,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. Time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If this spell was cast from exile, draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target card from a graveyard. Create a Clue token. Scry 1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Choose one \u2014 Time travel; or each opponent faces a villainous choice \u2014 They discard a card; or they sacrifice a creature.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 3/3 [TOKEN_COLOR] Dalek artifact creature tokens with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then draw two cards.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they lose {X} life. You gain {X} life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 If you cast this spell from your graveyard or exile, create two Treasure tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, each opponent faces a villainous choice \u2014 They lose 2 life; or you gain 2 life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your end step, time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a historic permanent enters the battlefield under your control, scry 1, then draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, you may create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Time travel. Activate only as a sorcery.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Sacrifice this artifact: Create a Food token and a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Target player faces a villainous choice \u2014 They sacrifice a creature; or you draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Tap: Add one mana of any color. When you spend this mana to cast a spell from exile, scry 1.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, each opponent faces a villainous choice \u2014 They lose 2 life; or you create a Treasure token.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on this creature.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast historic spells.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Scry 1. If this is the second time you've scryed this turn, draw a card.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has ward {X} and gets +1/+1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{T}: Scry 1, then surveil 1.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player, time travel.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST} Choose one \u2014 Draw a card; or create a Treasure token.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast historic spells.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Scry 1, then surveil 1.",
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, this creature gets +1/+1 until end of turn.",
+          4,
+          1,
+          8
+        ],
+        [
+          "When this creature enters the battlefield, time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever one or more artifact tokens enter the battlefield under your control, draw a card. This ability triggers only once each turn.",
+          4,
+          1,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. Time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If this spell was cast from exile, draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target card from a graveyard. Create a Clue token. Scry 1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Choose one \u2014 Time travel; or each opponent faces a villainous choice \u2014 They discard a card; or they sacrifice a creature.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 3/3 [TOKEN_COLOR] Dalek artifact creature tokens with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then draw two cards.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they lose {X} life. You gain {X} life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 If you cast this spell from your graveyard or exile, create two Treasure tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, each opponent faces a villainous choice \u2014 They lose 2 life; or you gain 2 life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your end step, time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a historic permanent enters the battlefield under your control, scry 1, then draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, you may create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Time travel. Activate only as a sorcery.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Sacrifice this artifact: Create a Food token and a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Target player faces a villainous choice \u2014 They sacrifice a creature; or you draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Tap: Add one mana of any color. When you spend this mana to cast a spell from exile, scry 1.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, each opponent faces a villainous choice \u2014 They lose 2 life; or you create a Treasure token.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on this creature.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast historic spells.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Scry 1. If this is the second time you've scryed this turn, draw a card.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has ward {X} and gets +1/+1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{T}: Scry 1, then surveil 1.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player, time travel.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST} Choose one \u2014 Draw a card; or create a Treasure token.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast historic spells.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Scry 1, then surveil 1.",
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, this creature gets +1/+1 until end of turn.",
+          4,
+          1,
+          8
+        ],
+        [
+          "When this creature enters the battlefield, time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever this creature deals combat damage to a player, create a Treasure token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, put a +1/+1 counter on this creature.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever one or more artifact tokens enter the battlefield under your control, draw a card. This ability triggers only once each turn.",
+          4,
+          1,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. Time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If this spell was cast from exile, draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If a creature died this turn, create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Exile target card from a graveyard. Create a Clue token. Scry 1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Choose one \u2014 Time travel; or each opponent faces a villainous choice \u2014 They discard a card; or they sacrifice a creature.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 3/3 [TOKEN_COLOR] Dalek artifact creature tokens with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then draw two cards.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they lose {X} life. You gain {X} life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 If you cast this spell from your graveyard or exile, create two Treasure tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Search your library for a historic card, reveal it, put it into your hand, then shuffle.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, each opponent faces a villainous choice \u2014 They lose 2 life; or you gain 2 life.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your end step, time travel.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a historic permanent enters the battlefield under your control, scry 1, then draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of combat on your turn, you may create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "{ACTIVATED_COST} Time travel. Activate only as a sorcery.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Sacrifice this artifact: Create a Food token and a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Target player faces a villainous choice \u2014 They sacrifice a creature; or you draw a card.",
+          3,
+          1,
+          8
+        ],
+        [
+          "{ACTIVATED_COST} Tap: Add one mana of any color. When you spend this mana to cast a spell from exile, scry 1.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature attacks, each opponent faces a villainous choice \u2014 They lose 2 life; or you create a Treasure token.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted creature has \"Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on this creature.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}{C}. Spend this mana only to cast historic spells.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Enchanted land has \"{T}: Scry 1. If this is the second time you've scryed this turn, draw a card.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has ward {X} and gets +1/+1.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{T}: Scry 1, then surveil 1.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"Whenever this creature deals combat damage to a player, time travel.\"",
+          3,
+          1,
+          8
+        ],
+        [
+          "Equipped creature has \"{ACTIVATED_COST} Choose one \u2014 Draw a card; or create a Treasure token.\"",
+          3,
+          1,
+          8
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast historic spells.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "{T}: Add {C}. {2}, {T}: Scry 1, then surveil 1.",
+          2,
+          1,
+          8
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from anywhere other than your hand, {ACTIVATED_EFFECT}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from exile or your graveyard, scry {X}.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast your second spell this turn from outside your hand, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Doctor's companion.",
+          2,
+          3,
+          8
+        ],
+        [
+          "As long as you control a legendary creature named [{DOCTOR_TITLE}], historic spells you cast cost {1} less to cast.",
+          2,
+          3,
+          8
+        ],
+        [
+          "Whenever a legendary creature enters the battlefield under your control, time travel.",
+          2,
+          3,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Time travel. (For each permanent you control and each suspended card you own, you may add or remove a time counter from it.)",
+          4,
+          1,
+          8
+        ],
+        [
+          "Choose up to one target permanent you control and/or one suspended card you own. Add or remove a time counter from it. Time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "For each of up to two target permanents you control with time counters on them, add or remove a time counter. Time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they discard a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 They lose {X} life; or you draw a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 You create a Treasure token; or they mill three cards.",
+          4,
+          1,
+          8
+        ],
+        [
+          "An opponent of your choice faces a villainous choice \u2014 They sacrifice a creature; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 Return a permanent they control to its owner's hand; or you scry 2 and draw a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 Exile a card from their graveyard; or you gain 3 life and create a Food token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you time travel.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Time travel. (For each permanent you control and each suspended card you own, you may add or remove a time counter from it.)",
+          4,
+          1,
+          8
+        ],
+        [
+          "Choose up to one target permanent you control and/or one suspended card you own. Add or remove a time counter from it. Time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "For each of up to two target permanents you control with time counters on them, add or remove a time counter. Time travel.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 They sacrifice a nonland permanent; or they discard a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 They lose {X} life; or you draw a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 You create a Treasure token; or they mill three cards.",
+          4,
+          1,
+          8
+        ],
+        [
+          "An opponent of your choice faces a villainous choice \u2014 They sacrifice a creature; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Each opponent faces a villainous choice \u2014 Return a permanent they control to its owner's hand; or you scry 2 and draw a card.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 Exile a card from their graveyard; or you gain 3 life and create a Food token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Create a 3/3 [TOKEN_COLOR] Dalek artifact creature token with menace.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Create two 2/2 colorless Cyberman artifact creature tokens.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Create a Clue token. Create a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Create a Food token and a Treasure token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a creature; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they sacrifice a nonland permanent; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they discard two cards; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they lose {X} life; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they exile a card from their graveyard; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create two Treasure tokens.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create a Clue token and a Food token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they return a permanent they control to its owner's hand; or you create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with menace.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you draw two cards.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you scry 2 then draw a card.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Target opponent faces a villainous choice \u2014 they create a 3/3 [TOKEN_COLOR] [TOKEN_SUBTYPE] artifact creature token with defender; or you time travel.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel, then create a Clue token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Time travel twice. (Then do it again.)",
+          2,
+          1,
+          8
+        ],
+        [
+          "Add a time counter to up to two target permanents you control. Then you may remove a time counter from a suspended card you own.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Paradox \u2014 Whenever you cast a spell from anywhere other than your hand, {ACTIVATED_EFFECT}",
+          4,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from exile or your graveyard, scry {X}.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast your second spell this turn from outside your hand, create a Clue token.",
+          4,
+          1,
+          8
+        ],
+        [
+          "Whenever you cast a historic spell, {ACTIVATED_EFFECT}",
+          3,
+          1,
+          8
+        ],
+        [
+          "Historic spells you cast cost {1} less to cast.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever a legendary permanent enters the battlefield under your control, put a +1/+1 counter on up to one target creature.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Whenever you sacrifice an artifact, create a Clue token.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, scry 1.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from outside your hand, put a +1/+1 counter on up to one target creature.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 Whenever you cast a spell from your graveyard, create a tapped Treasure token.",
+          2,
+          1,
+          8
+        ],
+        [
+          "Paradox \u2014 At the beginning of your end step, if you cast two or more spells from outside your hand this turn, draw a card.",
+          2,
+          1,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Put a time counter on target permanent you control.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Remove a time counter from up to one target suspended card you own.",
+          3,
+          1,
+          8
+        ],
+        [
+          "Until end of turn, if you would put one or more time counters on a permanent you control, put that many plus one of each instead.",
+          3,
+          1,
+          8
+        ],
+        [
+          "At the beginning of your upkeep, you may move a time counter from one permanent you control to another.",
+          3,
+          1,
+          8
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": []
+    },
+    "C": {
+      "Creature": [],
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [],
+      "Land": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Companion",
+      "Nurse",
+      "Soldier",
+      "Historian"
+    ],
+    "U": [
+      "Time Lord",
+      "Scientist",
+      "Advisor",
+      "Alien",
+      "Construct"
+    ],
+    "B": [
+      "Dalek",
+      "Cyberman",
+      "Cultist",
+      "Assassin",
+      "Rogue"
+    ],
+    "R": [
+      "Warrior",
+      "Renegade",
+      "Pirate",
+      "Smuggler",
+      "Rebel"
+    ],
+    "G": [
+      "Beast",
+      "Creature",
+      "Ranger",
+      "Druid",
+      "Gallifreyan"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "When",
+      "Whenever"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "enters the battlefield",
+      "dies",
+      "attacks",
+      "blocks"
+    ],
+    "TOKEN_COLOR": [
+      "{C}"
+    ],
+    "ACTIVATED_COST": [
+      "{2}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "Create a Treasure token.",
+      "Target player mills two cards."
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}"
+    ],
+    "DOCTOR_TITLE": [
+      "the First Doctor",
+      "the Second Doctor",
+      "the Third Doctor",
+      "the Fourth Doctor",
+      "the Fifth Doctor",
+      "the Sixth Doctor",
+      "the Seventh Doctor",
+      "the Eighth Doctor",
+      "the Ninth Doctor",
+      "the Tenth Doctor",
+      "the Eleventh Doctor",
+      "the Twelfth Doctor",
+      "the Thirteenth Doctor",
+      "the Fugitive Doctor",
+      "the War Doctor"
+    ],
+    "COMPANION_FIRSTNAME": [
+      "Rose",
+      "Martha",
+      "Donna",
+      "Amy",
+      "Rory",
+      "Clara",
+      "Bill",
+      "Yaz",
+      "River",
+      "Sarah",
+      "Leela",
+      "Tegan",
+      "Ace",
+      "Jamie",
+      "Susan",
+      "Graham",
+      "Ryan"
+    ],
+    "VILLAIN_FACTION": [
+      "Dalek",
+      "Cyberman",
+      "Weeping Angel",
+      "Auton",
+      "Sontaran",
+      "Silurian",
+      "Master"
+    ],
+    "GADGET": [
+      "sonic screwdriver",
+      "Vortex Manipulator",
+      "psychic paper",
+      "time rotor",
+      "chronal stabilizer"
+    ],
+    "LOCATION": [
+      "Gallifrey",
+      "the Medusa Cascade",
+      "Trenzalore",
+      "Bad Wolf Bay",
+      "Skaro",
+      "The Library",
+      "Stormcage"
+    ],
+    "ERA": [
+      "past",
+      "present",
+      "future"
+    ],
+    "DEVICE": [
+      "TARDIS",
+      "timeship",
+      "time capsule",
+      "temporal beacon",
+      "chronon array"
+    ],
+    "COUNTERED_PERMANENT": [
+      "suspended card",
+      "permanent with a time counter"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Dalek",
+      "Cyberman",
+      "Alien",
+      "Human"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "first strike"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "ward {X}"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "hexproof"
+    ]
+  }
+}

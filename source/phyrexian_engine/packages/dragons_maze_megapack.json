@@ -1,0 +1,1136 @@
+{
+  "name": "dragons_maze_megapack",
+  "version": "1.0",
+  "description": "A gigantic, guild-spanning package inspired by Dragon's Maze (RTR block): includes Detain, Overload, Unleash, Populate, Scavenge, Cipher, Battalion, Bloodrush, Evolve, Extort, Gate-matters, and a Maze's End–style alt win. Designed for very large sets with rich token pools and multicolor synergies.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Detain — When CARDNAME enters the battlefield, {TARGET_NONLAND_PERMANENT} is detained until your next turn. (A detained permanent can't attack or block, and its activated abilities can't be activated.)",
+          18,
+          2,
+          6
+        ],
+        [
+          "Whenever CARDNAME attacks, detain {TARGET_NONLAND_PERMANENT}.",
+          10,
+          3,
+          7
+        ],
+        [
+          "Battalion — Whenever CARDNAME and at least two other creatures attack, {BATTALION_EFFECT}.",
+          18,
+          2,
+          7
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {HYBRID_WB}. If you do, each opponent loses 1 life and you gain that much life.)",
+          18,
+          1,
+          7
+        ],
+        [
+          "When CARDNAME enters the battlefield, populate. (Create a token that's a copy of a creature token you control.)",
+          16,
+          3,
+          7
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Detain {TARGET_NONLAND_PERMANENT}. Draw a card.",
+          10,
+          2,
+          5
+        ],
+        [
+          "Populate. Creatures you control gain vigilance until end of turn.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Detain up to two target nonland permanents your opponents control.",
+          10,
+          3,
+          6
+        ],
+        [
+          "Search your library for a Gate card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Draw a card for each Gate you control.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "When CARDNAME enters the battlefield, detain target nonland permanent an opponent controls.",
+          12,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your end step, if you attacked with three or more creatures this turn, {BATTALION_EFFECT}.",
+          10,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature can't attack or block as long as you control a Gate.",
+          8,
+          1,
+          5
+        ],
+        [
+          "Enchant creature. When CARDNAME enters the battlefield, detain enchanted creature.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Detain — When CARDNAME enters the battlefield, {TARGET_NONLAND_PERMANENT} is detained until your next turn. (A detained permanent can't attack or block, and its activated abilities can't be activated.)",
+          18,
+          2,
+          6
+        ],
+        [
+          "Whenever CARDNAME attacks, detain {TARGET_NONLAND_PERMANENT}.",
+          10,
+          3,
+          7
+        ],
+        [
+          "When CARDNAME deals combat damage to a player, {CIPHER_ON_HIT}.",
+          12,
+          2,
+          6
+        ],
+        [
+          "When CARDNAME enters the battlefield, you may exile target instant or sorcery card with mana value {MV_LEQ_3} from your graveyard encoded onto CARDNAME. Whenever it deals combat damage to a player, copy the encoded card and you may cast the copy.",
+          6,
+          3,
+          6
+        ],
+        [
+          "When CARDNAME enters the battlefield, {IZZET_ETB}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step. Detain each of them.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Return target spell you don't control to its owner's hand. Overload {OVERLOAD_2}. (You may cast this spell for its overload cost. If you do, replace 'target' with 'each'.)",
+          10,
+          2,
+          6
+        ],
+        [
+          "Target creature can't block this turn. Draw a card. Overload {OVERLOAD_1}.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Draw a card. You may exile CARDNAME encoded on a creature you control. Whenever that creature deals combat damage to a player, copy this card and you may cast the copy.",
+          10,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. Overload {OVERLOAD_3}.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Create a token that's a copy of target creature token you control, then cipher CARDNAME onto a creature you control. (Exile this spell encoded on that creature...)",
+          8,
+          3,
+          6
+        ],
+        [
+          "Search your library for a Gate card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Draw a card for each Gate you control.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an instant or sorcery spell, you may copy it. If you do, the copy gains overload {OVERLOAD_1}.",
+          8,
+          4,
+          8
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has 'Whenever this creature deals combat damage to a player, {CIPHER_ON_HIT_SHORT}.'",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Whenever enchanted land becomes tapped, scry 1. If you control a Gate, draw a card.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Detain — When CARDNAME enters the battlefield, {TARGET_NONLAND_PERMANENT} is detained until your next turn. (A detained permanent can't attack or block, and its activated abilities can't be activated.)",
+          18,
+          2,
+          6
+        ],
+        [
+          "Whenever CARDNAME attacks, detain {TARGET_NONLAND_PERMANENT}.",
+          10,
+          3,
+          7
+        ],
+        [
+          "Battalion — Whenever CARDNAME and at least two other creatures attack, {BATTALION_EFFECT}.",
+          18,
+          2,
+          7
+        ],
+        [
+          "When CARDNAME deals combat damage to a player, {CIPHER_ON_HIT}.",
+          12,
+          2,
+          6
+        ],
+        [
+          "When CARDNAME enters the battlefield, you may exile target instant or sorcery card with mana value {MV_LEQ_3} from your graveyard encoded onto CARDNAME. Whenever it deals combat damage to a player, copy the encoded card and you may cast the copy.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Scavenge {SCAVENGE_COST} ({SCAVENGE_REMINDER})",
+          18,
+          2,
+          8
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard CARDNAME: Target attacking creature gets +{BR_P}/{BR_T} until end of turn and gains {BR_ABILITY}.",
+          16,
+          2,
+          8
+        ],
+        [
+          "When CARDNAME enters the battlefield, {IZZET_ETB}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {HYBRID_WB}. If you do, each opponent loses 1 life and you gain that much life.)",
+          18,
+          1,
+          7
+        ],
+        [
+          "Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "When CARDNAME enters the battlefield, populate. (Create a token that's a copy of a creature token you control.)",
+          16,
+          3,
+          7
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a Gate card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Draw a card for each Gate you control.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "CARDNAME is a Gate. CARDNAME enters the battlefield tapped. {TAP}: Add {GATE_MANA}.",
+          24,
+          0,
+          0
+        ],
+        [
+          "CARDNAME is a Gate. {TAP}: Add {GATE_MANA}. {2}, {TAP}, Sacrifice CARDNAME: Search your library for a Gate card, put it onto the battlefield tapped, then shuffle.",
+          10,
+          0,
+          0
+        ],
+        [
+          "CARDNAME enters the battlefield tapped. {TAP}: Add {GATE_MANA}. Whenever CARDNAME enters the battlefield, if you control two or more Gates, {GATE_TRIGGER_EFFECT}.",
+          10,
+          0,
+          0
+        ],
+        [
+          "CARDNAME enters the battlefield tapped. {TAP}: Add {C}. {3}, {TAP}, Return CARDNAME to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle. At the beginning of your upkeep, if you control ten Gates with different names, you win the game.",
+          4,
+          0,
+          0
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Battalion — Whenever CARDNAME and at least two other creatures attack, {BATTALION_EFFECT}.",
+          18,
+          2,
+          7
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard CARDNAME: Target attacking creature gets +{BR_P}/{BR_T} until end of turn and gains {BR_ABILITY}.",
+          16,
+          2,
+          8
+        ],
+        [
+          "When CARDNAME enters the battlefield, {IZZET_ETB}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "CARDNAME deals {DAMAGE_SMALL} damage to target creature or player. Overload {OVERLOAD_1}.",
+          12,
+          1,
+          4
+        ],
+        [
+          "Target attacking creature gets +{BR_P}/{BR_T} and gains first strike until end of turn.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "CARDNAME deals {DAMAGE_CONE} damage divided as you choose among up to three targets. Overload {OVERLOAD_3}.",
+          8,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have bloodrush — Discard this card: Target attacking creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature gets +2/+0 and has menace. If it has a +1/+1 counter on it, it can't block.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "When CARDNAME deals combat damage to a player, {CIPHER_ON_HIT}.",
+          12,
+          2,
+          6
+        ],
+        [
+          "When CARDNAME enters the battlefield, you may exile target instant or sorcery card with mana value {MV_LEQ_3} from your graveyard encoded onto CARDNAME. Whenever it deals combat damage to a player, copy the encoded card and you may cast the copy.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Scavenge {SCAVENGE_COST} ({SCAVENGE_REMINDER})",
+          18,
+          2,
+          8
+        ],
+        [
+          "Extort (Whenever you cast a spell, you may pay {HYBRID_WB}. If you do, each opponent loses 1 life and you gain that much life.)",
+          18,
+          1,
+          7
+        ],
+        [
+          "Unleash (You may have this creature enter the battlefield with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target opponent loses 2 life and you gain 2 life. If you cast this spell and paid {HYBRID_WB}, copy it.",
+          8,
+          2,
+          4
+        ],
+        [
+          "Exile target creature card from a graveyard. Create a 1/1 black Ooze creature token. If a card was exiled this way from your graveyard, create two of those tokens instead.",
+          8,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield with a +1/+1 counter on it. It gains 'It can't block.'",
+          10,
+          4,
+          7
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Extort (Whenever you cast a spell, you may pay {HYBRID_WB}. If you do, each opponent loses 1 life and you gain that much life.)",
+          16,
+          2,
+          7
+        ],
+        [
+          "Whenever a creature you control dies, scavenge {SCAVENGE_COST_SHORT}.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has scavenge {SCAVENGE_COST_SHORT}.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Scavenge {SCAVENGE_COST} ({SCAVENGE_REMINDER})",
+          18,
+          2,
+          8
+        ],
+        [
+          "Bloodrush — {BLOODRUSH_COST}, Discard CARDNAME: Target attacking creature gets +{BR_P}/{BR_T} until end of turn and gains {BR_ABILITY}.",
+          16,
+          2,
+          8
+        ],
+        [
+          "When CARDNAME enters the battlefield, populate. (Create a token that's a copy of a creature token you control.)",
+          16,
+          3,
+          7
+        ],
+        [
+          "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+          20,
+          1,
+          6
+        ],
+        [
+          "CARDNAME gets +1/+1 as long as you control a Gate.",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Gate enters the battlefield under your control, {GATE_TRIGGER_EFFECT}.",
+          8,
+          2,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          10,
+          1,
+          4
+        ],
+        [
+          "Populate, then untap all creature tokens you control.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Put a +1/+1 counter on up to two target creatures. Creatures with evolve you control gain hexproof until end of turn.",
+          8,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Populate, then search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          10,
+          3,
+          6
+        ],
+        [
+          "Scavenge target creature card in your graveyard. (Exile it: Put +1/+1 counters equal to its power on target creature. Activate only as a sorcery.)",
+          10,
+          3,
+          7
+        ],
+        [
+          "Search your library for a Gate card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          12,
+          2,
+          6
+        ],
+        [
+          "Draw a card for each Gate you control.",
+          6,
+          4,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, populate.",
+          12,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature. Enchanted creature has evolve.",
+          8,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land. Enchanted land is a Gate in addition to its other types and has '{TAP}: Add one mana of any color.'",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Gate-Key — {TAP}: Add one mana of any color that a Gate you control could produce.",
+          12,
+          2,
+          6
+        ],
+        [
+          "{2}, {TAP}, Sacrifice CARDNAME: Search your library for a Gate card, put it onto the battlefield tapped, then shuffle.",
+          10,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature has battalion — Whenever it and at least two other creatures attack, it gets +2/+0 and gains first strike until end of turn. Equip {EQUIP_COST}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has 'Unleash' and gets +1/+1 as long as it has a +1/+1 counter on it. Equip {EQUIP_COST}.",
+          10,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has 'Whenever this creature deals combat damage to a player, {CIPHER_ON_HIT_SHORT}.' Equip {EQUIP_COST}.",
+          8,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Detain target nonland permanent an opponent controls.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Populate.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Scavenge {SCAVENGE_COST_SHORT}.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gets +{BR_P}/{BR_T} and gains trample until end of turn.",
+          6,
+          3,
+          7
+        ],
+        [
+          "{ACTIVATED_COST}: CARDNAME gains 'Extort' until end of turn.",
+          6,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "CARDNAME is a Gate. CARDNAME enters the battlefield tapped. {TAP}: Add {GATE_MANA}.",
+          24,
+          0,
+          0
+        ],
+        [
+          "CARDNAME is a Gate. {TAP}: Add {GATE_MANA}. {2}, {TAP}, Sacrifice CARDNAME: Search your library for a Gate card, put it onto the battlefield tapped, then shuffle.",
+          10,
+          0,
+          0
+        ],
+        [
+          "CARDNAME enters the battlefield tapped. {TAP}: Add {GATE_MANA}. Whenever CARDNAME enters the battlefield, if you control two or more Gates, {GATE_TRIGGER_EFFECT}.",
+          10,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Angel",
+      "Griffin",
+      "Spirit",
+      "Cleric"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Vedalken",
+      "Bird",
+      "Weird",
+      "Illusion",
+      "Homunculus"
+    ],
+    "B": [
+      "Human",
+      "Rogue",
+      "Vampire",
+      "Zombie",
+      "Thrull",
+      "Horror",
+      "Shade"
+    ],
+    "R": [
+      "Human",
+      "Berserker",
+      "Devil",
+      "Ogre",
+      "Warrior",
+      "Shaman",
+      "Goblin"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Centaur",
+      "Wolf",
+      "Fungus",
+      "Ooze"
+    ],
+    "C": [
+      "Golem",
+      "Construct"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}, {TAP}",
+      "{2}, {TAP}",
+      "{3}, {TAP}"
+    ],
+    "EQUIP_COST": [
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{R}",
+      "{2}{W}",
+      "{2}{R}",
+      "{3}"
+    ],
+    "TRIGGER_INTRO": [
+      "when",
+      "whenever",
+      "at the beginning of your end step,"
+    ],
+    "TARGET_NONLAND_PERMANENT": [
+      "target nonland permanent",
+      "up to one target creature",
+      "target artifact or creature"
+    ],
+    "CIPHER_ON_HIT": [
+      "draw a card",
+      "return target creature to its owner's hand",
+      "target player mills four cards",
+      "create a 1/1 blue Rogue creature token that's unblockable until end of turn"
+    ],
+    "CIPHER_ON_HIT_SHORT": [
+      "draw a card",
+      "mill two cards",
+      "scry 2",
+      "create a 1/1 Rogue token"
+    ],
+    "BATTALION_EFFECT": [
+      "creatures you control get +1/+0 until end of turn",
+      "CARDNAME gets +2/+0 and gains first strike until end of turn",
+      "tap target creature an opponent controls",
+      "it deals 1 damage to each of up to two targets"
+    ],
+    "BR_P": [
+      "2",
+      "3",
+      "4"
+    ],
+    "BR_T": [
+      "0",
+      "1",
+      "2"
+    ],
+    "BR_ABILITY": [
+      "trample",
+      "first strike",
+      "menace"
+    ],
+    "IZZET_ETB": [
+      "CARDNAME deals {DAMAGE_SMALL} damage to any target",
+      "draw a card",
+      "return target nonland permanent to its owner's hand"
+    ],
+    "SCAVENGE_COST": [
+      "{2}{B}{G}",
+      "{3}{B}{G}",
+      "{4}{B}{G}",
+      "{X}{B}{G}"
+    ],
+    "SCAVENGE_COST_SHORT": [
+      "{2}{B}{G}",
+      "{3}{B}{G}"
+    ],
+    "SCAVENGE_REMINDER": "Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Activate only as a sorcery.",
+    "HYBRID_WB": [
+      "{W/B}"
+    ],
+    "OVERLOAD_1": [
+      "{1}{U}",
+      "{1}{R}"
+    ],
+    "OVERLOAD_2": [
+      "{2}{U}{U}",
+      "{2}{R}{R}",
+      "{3}{U}",
+      "{3}{R}"
+    ],
+    "OVERLOAD_3": [
+      "{3}{U}{U}",
+      "{3}{R}{R}",
+      "{4}{U}",
+      "{4}{R}"
+    ],
+    "DAMAGE_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "DAMAGE_CONE": [
+      "3",
+      "4",
+      "5"
+    ],
+    "MV_LEQ_3": [
+      "3 or less"
+    ],
+    "GATE_MANA": [
+      "{W} or {U}",
+      "{U} or {B}",
+      "{B} or {R}",
+      "{R} or {G}",
+      "{G} or {W}",
+      "{W} or {B}",
+      "{U} or {R}",
+      "{B} or {G}",
+      "{R} or {W}",
+      "{G} or {U}"
+    ],
+    "GATE_TRIGGER_EFFECT": [
+      "scry 1",
+      "create a 1/1 colorless Gatekeeper artifact creature token with '{TAP}: Add {C}'",
+      "you gain 1 life",
+      "target creature you control gets +1/+1 until end of turn"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "flying"
+    ],
+    "U": [
+      "flying",
+      "flash",
+      "hexproof"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": [
+      "defender"
+    ]
+  }
+}

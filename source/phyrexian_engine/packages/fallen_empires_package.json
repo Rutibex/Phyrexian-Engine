@@ -1,0 +1,403 @@
+{
+  "name": "fallen_empires",
+  "description": "Fallen Empires mechanical pack: Thrulls & sacrifice, Thallids & spore counters, Homarid tide cycle, Icatian Soldiers, Orders of Leitbur/Ebon Hand, Orc/Goblin warfare, token engines, and storage lands.",
+  "effects_by_color": {
+    "W": {
+      "CreatureStatic": [
+        [
+          "Banding (Any number of attacking creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group.)",
+          2,
+          2,
+          5
+        ],
+        [
+          "Other Soldiers you control get +1/+0.",
+          2,
+          3,
+          6
+        ],
+        [
+          "This creature has protection from black.",
+          2,
+          2,
+          4
+        ],
+        [
+          "As long as this creature is attacking, other attacking creatures you control get +1/+0.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{W}: This creature gains first strike until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{W}{W}: This creature gets +1/+0 until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{W}, {T}: Prevent the next 1 damage that would be dealt to any target this turn.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent all combat damage that would be dealt this turn. Each attacking creature and each blocking creature doesn't untap during its controller's next untap step.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Citizen creature tokens.",
+          1,
+          5,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has banding.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has protection from black.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "CreatureStatic": [
+        [
+          "This creature enters the battlefield with a tide counter on it. At the beginning of your upkeep, put a tide counter on it. As long as there is exactly one tide counter on it, it gets -1/-1. As long as there are exactly three tide counters on it, it gets +1/+1. Whenever there are four or more tide counters on it, remove all tide counters from it.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Islandwalk",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}{U}{U}, Sacrifice a blue creature: Create X 1/1 blue Camarid creature tokens, where X is the sacrificed creature's mana value.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{U}, {T}: Counter target activated ability unless its controller pays {1}.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap all blocking creatures. Prevent all combat damage that would be dealt this turn. Each attacking creature and each blocking creature doesn't untap during its controller's next untap step.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cast this spell only if no permanents named Tidal Influence are on the battlefield. This enters the battlefield with a tide counter on it. At the beginning of your upkeep, put a tide counter on this. As long as there is exactly one tide counter on this, blue creatures get -2/-0. As long as there are exactly three tide counters on this, blue creatures get +2/-0. Whenever there are four or more tide counters on this, remove all tide counters from it.",
+          2,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "CreatureStatic": [
+        [
+          "Whenever this creature attacks and isn't blocked, you may sacrifice it. If you do, defending player discards three cards at random.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Other Thrulls you control get +1/+1.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{T}, Sacrifice this creature: Add {B}{B}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Sacrifice a Thrull: Target creature gets +2/+2 until end of turn.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target player discards two cards at random.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Destroy target nonblack creature.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, sacrifice this enchantment unless you pay {B}{B}. At the beginning of your end step, create a 0/1 black Thrull creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+1. When enchanted creature dies, return that card to the battlefield under your control.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "CreatureStatic": [
+        [
+          "This creature can't block.",
+          1,
+          2,
+          4
+        ],
+        [
+          "Other Goblins you control get +1/+0.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{R}: This creature gets +1/+0 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{2}{R}, Sacrifice two Goblins: Create three 1/1 red Goblin creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{R}: Target Orc gets +1/+0 and gains first strike until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "As an additional cost to cast this spell, sacrifice a Goblin. This spell deals 5 damage to any target.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature can't block this turn.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This spell deals {X} damage divided as you choose among up to {X} targets.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "CreatureStatic": [
+        [
+          "At the beginning of your upkeep, put a spore counter on this creature. Remove three spore counters from it: Create a 1/1 green Saproling creature token.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Sacrifice a Saproling: This creature gets +1/+2 until end of turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{1}, Exile two creature cards from a single graveyard: Create a 1/1 green Saproling creature token.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{1}{G}, {T}, Sacrifice a creature: Forests you control become 2/3 creatures until end of turn. They're still lands.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap all blocking creatures. Prevent all combat damage that would be dealt this turn. Each attacking creature and each blocking creature doesn't untap during its controller's next untap step.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a player plays a Swamp, this enchantment deals 3 damage to that player unless they put a -1/-1 counter on a creature they control.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has '{T}: This creature deals 1 damage to any target' if it has three or more spore counters on it.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Land": [
+        [
+          "This land enters the battlefield tapped. You may choose not to untap it during your untap step. At the beginning of your upkeep, if it's tapped, put a storage counter on it. {T}, Remove any number of storage counters from it: Add one mana of any one color for each storage counter removed this way.",
+          3,
+          0,
+          0
+        ]
+      ],
+      "Artifact": [
+        [
+          "{2}, {T}, Sacrifice a creature: Draw a card, then discard a card at random.",
+          1,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Citizen"
+    ],
+    "U": [
+      "Merfolk",
+      "Homarid",
+      "Camarid",
+      "Wizard",
+      "Mage"
+    ],
+    "B": [
+      "Thrull",
+      "Cleric",
+      "Knight",
+      "Shade"
+    ],
+    "R": [
+      "Goblin",
+      "Orc",
+      "Barbarian",
+      "Shaman"
+    ],
+    "G": [
+      "Fungus",
+      "Saproling",
+      "Elf",
+      "Druid",
+      "Insect"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "banding",
+      "first strike"
+    ],
+    "U": [
+      "islandwalk"
+    ],
+    "B": [
+      "fear"
+    ],
+    "R": [
+      "haste"
+    ],
+    "G": [
+      "trample"
+    ]
+  },
+  "string_pools": {
+    "TOKEN_SUBTYPE": [
+      "Thrull",
+      "Saproling",
+      "Citizen",
+      "Goblin",
+      "Camarid",
+      "Homarid"
+    ],
+    "TRIGGER_INTRO": [
+      "When {THIS} enters the battlefield,",
+      "At the beginning of your upkeep,",
+      "Whenever {THIS} attacks,"
+    ],
+    "ACTIVATED_COST": [
+      "{1}{W}, {T}:",
+      "{1}{B}, {T}:",
+      "{1}{G}, {T}:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Prevent the next 1 damage that would be dealt to any target this turn.",
+      "Target creature gets +1/+0 until end of turn.",
+      "Return target creature card with mana value {MV} or less from your graveyard to your hand."
+    ]
+  }
+}

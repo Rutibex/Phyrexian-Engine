@@ -1,0 +1,455 @@
+{
+  "name": "Alliances Comprehensive",
+  "version": "1.0.0",
+  "author": "mtg_set_generator user + assistant",
+  "description": "A comprehensive package capturing the signature mechanics, patterns, and riffs of Alliances (1996): pitch alternate costs, cumulative upkeep (including unusual costs), slowtrip cantrips (draw at beginning of the next turn's upkeep), snow-land interactions, rampage and 'blocked by three or more' evasion, bands with other, world enchantments, ETB hate-on-subtype riders, '-0/-1' shield counters (Shield Sphere–style), and Spirit Guide–style from-hand mana abilities.",
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "You may {PITCH_COST_WHITE} rather than pay this spell's mana cost. Prevent the next {PREVENT_N} damage that would be dealt to any target this turn. If a creature is dealt damage this way, put a +0/+1 counter on it at the beginning of the next end step.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. {SLOWTRIP}",
+          2,
+          1,
+          4
+        ],
+        [
+          "Until end of turn, target creature you control gains \"{0}: The next 1 damage that would be dealt to any target this turn is dealt to this creature instead. Only you may activate this ability.\"",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white [SOLDIER_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "When {CARDNAME} enters the battlefield, choose a creature type. Creatures of the chosen type can't attack you unless their controller pays {2} for each of those creatures.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Cumulative upkeep—{CU_COST_WHITE}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "Bands with other [BANDS_QUALITY_WHITE].",
+          1,
+          2,
+          5
+        ],
+        [
+          "When {CARDNAME} enters the battlefield, destroy target [HATED_SUBTYPE] unless its controller pays {1}.",
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "You may {PITCH_COST_BLUE} rather than pay this spell's mana cost. Counter target spell.",
+          4,
+          4,
+          6
+        ],
+        [
+          "Tap up to two target permanents. {SLOWTRIP}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top {N} cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. {SLOWTRIP}",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{CU_COST_BLUE}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "When {CARDNAME} enters the battlefield, destroy target Knight unless its controller pays {1}.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{3}, {T}: Target player looks at the top three cards of their library, puts one of them back on top, then exiles the rest.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "You may {PITCH_COST_BLACK} rather than pay this spell's mana cost. Distribute two -2/-1 counters among one or two target creatures.",
+          4,
+          4,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{N} until end of turn. {SLOWTRIP}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target player discards two cards at random. {SLOWTRIP}",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{CU_COST_BLACK}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Creature": [
+        [
+          "At the beginning of the end step, if a creature died this turn, you may return {CARDNAME} from your graveyard to your hand.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "You may {PITCH_COST_RED} rather than pay this spell's mana cost. {CARDNAME} deals {PYRO_TOTAL} damage divided as you choose among one, two, or three targets.",
+          4,
+          4,
+          6
+        ],
+        [
+          "{CARDNAME} deals {X} damage to any target. {SLOWTRIP}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Creatures without flying can't block this turn. {SLOWTRIP}",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample; rampage {RAMPAGE_N}. This creature can't be blocked except by three or more creatures.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{CU_COST_RED}.",
+          1,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "You may {PITCH_COST_GREEN} rather than pay this spell's mana cost. Distribute three +1/+1 counters among one, two, or three target creatures. For each counter put this way, remove a +1/+1 counter from that creature at the beginning of the next cleanup step.",
+          4,
+          4,
+          6
+        ],
+        [
+          "Target creature gets +{N}/+{N} until end of turn. {SLOWTRIP}",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Creature": [
+        [
+          "Exile {CARDNAME} from your hand: Add {G}.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Bands with other [BANDS_QUALITY_GREEN].",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cumulative upkeep—{CU_COST_GREEN}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Defender. Whenever {CARDNAME} blocks, put a -0/-1 counter on it.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{1}, {T}: {CARDNAME} deals 1 damage to any target. Any player may activate this ability.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "As {CARDNAME} enters the battlefield, you may sacrifice a [BASIC_LAND_FOR_OUTPOST]. If you don't, sacrifice {CARDNAME}. {T}: Add {OUTPOST_MANA}. {1}{OUTPOST_MANA}, {T}: Create a 1/1 [OUTPOST_TOKEN_COLOR] [SOLDIER_SUBTYPE] creature token.",
+          2,
+          4,
+          6
+        ],
+        [
+          "If {CARDNAME} would enter the battlefield, sacrifice a Swamp instead. If you do, put {CARDNAME} onto the battlefield. If you don't, put it into its owner's graveyard. {T}: Add {B}. {T}, Sacrifice a Swamp: Add {B}{B}{B}{B}.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{T}: Add {C}. {1}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle. Return {CARDNAME} to its owner's hand at the beginning of the next end step.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "World Enchantment — Whenever a player taps a snow land for mana, that player adds one mana of any type that land produced. That land doesn't untap during its controller's next untap step.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Non-snow permanents enter the battlefield tapped.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}. Cumulative upkeep—{CU_COST_GENERIC}.",
+          1,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has trample and \"{T}: This creature deals 1 damage to any target.\" Any player may activate this ability.",
+          1,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Aesthir",
+      "Spirit"
+    ],
+    "U": [
+      "Wizard",
+      "Merfolk",
+      "Illusion",
+      "Horror"
+    ],
+    "B": [
+      "Zombie",
+      "Horror",
+      "Cleric",
+      "Assassin"
+    ],
+    "R": [
+      "Barbarian",
+      "Berserker",
+      "Shaman",
+      "Warrior",
+      "Goblin"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Ape",
+      "Hippo"
+    ],
+    "C": [
+      "Construct",
+      "Wall",
+      "Golem"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "flying"
+    ],
+    "B": [
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "trample"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "string_pools": {
+    "SLOWTRIP": [
+      "Draw a card at the beginning of the next turn's upkeep."
+    ],
+    "SOLDIER_SUBTYPE": [
+      "Soldier",
+      "Aesthir"
+    ],
+    "BANDS_QUALITY_WHITE": [
+      "Knights",
+      "Soldiers"
+    ],
+    "BANDS_QUALITY_GREEN": [
+      "Ape creatures",
+      "Beasts",
+      "Elves"
+    ],
+    "HATED_SUBTYPE": [
+      "Knight",
+      "Wizard",
+      "Berserker",
+      "Cleric"
+    ],
+    "PITCH_COST_WHITE": [
+      "exile a white card from your hand"
+    ],
+    "PITCH_COST_BLUE": [
+      "pay 1 life and exile a blue card from your hand"
+    ],
+    "PITCH_COST_BLACK": [
+      "pay 1 life and exile a black card from your hand"
+    ],
+    "PITCH_COST_RED": [
+      "exile a red card from your hand"
+    ],
+    "PITCH_COST_GREEN": [
+      "exile a green card from your hand"
+    ],
+    "CU_COST_WHITE": [
+      "{1}",
+      "Pay 2 life",
+      "Sacrifice a creature token"
+    ],
+    "CU_COST_BLUE": [
+      "{1}",
+      "Discard a card"
+    ],
+    "CU_COST_BLACK": [
+      "{1}",
+      "Pay 2 life",
+      "Exile a card from your graveyard"
+    ],
+    "CU_COST_RED": [
+      "{1}",
+      "Discard a card at random"
+    ],
+    "CU_COST_GREEN": [
+      "{1}",
+      "Sacrifice a Forest"
+    ],
+    "CU_COST_GENERIC": [
+      "{1}",
+      "Sacrifice a permanent"
+    ],
+    "RAMPAGE_N": [
+      "1",
+      "2"
+    ],
+    "PREVENT_N": [
+      "7",
+      "5"
+    ],
+    "PYRO_TOTAL": [
+      "4",
+      "5",
+      "6"
+    ],
+    "BASIC_LAND_FOR_OUTPOST": [
+      "Plains",
+      "Island",
+      "Swamp",
+      "Mountain",
+      "Forest"
+    ],
+    "OUTPOST_MANA": [
+      "{W}",
+      "{U}",
+      "{B}",
+      "{R}",
+      "{G}"
+    ],
+    "OUTPOST_TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ]
+  }
+}

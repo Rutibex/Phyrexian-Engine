@@ -1,0 +1,1510 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "Exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Exalted, exalted.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Cycling {COST}. (Pay {COST}, Discard this card: Draw a card.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Exalted. Unearth {COST}.",
+          1,
+          3,
+          5
+        ],
+        [
+          "[TRIGGER_INTRO] this creature's power becomes 5 or greater, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 until end of turn. Cycling {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Counter target artifact or enchantment spell. If that spell was multicolored, scry 2.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Tap up to {N} target permanents. Those permanents don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Exile target attacking or blocking creature. If it was multicolored, you gain {X} life.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Draw two cards. Cycling {COST}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Exalted.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 for each color among permanents you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Artifact creatures you control get +{N}/+{N} and have flying.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Creatures you control with power 5 or greater have trample and vigilance.",
+          2,
+          4,
+          7
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Exalted.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.",
+          8,
+          2,
+          4
+        ],
+        [
+          "{T}: Add one mana of [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] this enters the battlefield, it enters tapped unless you returned a basic land you control to its owner's hand.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: Add [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 for each color among permanents you control and has vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has first strike and lifelink.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} for each color among permanents you control and has \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any of its controller's colors.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Whenever you cast a multicolored spell, attach this to target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance and trample. Equip [EQUIP_COST]",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "Exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Exalted, exalted.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Unearth {COST}. (Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Cycling {COST}. (Pay {COST}, Discard this card: Draw a card.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Cascade. Exalted.",
+          1,
+          3,
+          5
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 until end of turn. Cycling {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Counter target artifact or enchantment spell. If that spell was multicolored, scry 2.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Tap up to {N} target permanents. Those permanents don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Counter target spell unless its controller pays {X}. If that spell was multicolored, draw a card.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Draw two cards. Cycling {COST}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Exalted.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 for each color among permanents you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Artifact creatures you control get +{N}/+{N} and have flying.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] a creature card is put into your graveyard from anywhere, create a 1/1 black [TOKEN_SUBTYPE] creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Exalted.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.",
+          8,
+          2,
+          4
+        ],
+        [
+          "{T}: Add one mana of [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] this enters the battlefield, it enters tapped unless you returned a basic land you control to its owner's hand.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: Add [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Unearth {COST} for target creature card in your graveyard with mana value {X} or less.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 for each color among permanents you control and has vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has first strike and lifelink.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} for each color among permanents you control and has \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any of its controller's colors.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Whenever you cast a multicolored spell, attach this to target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance and trample. Equip [EQUIP_COST]",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "Unearth {COST}. (Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Devour {N}. (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with {N} times that many +1/+1 counters on it.)",
+          7,
+          4,
+          7
+        ],
+        [
+          "Cycling {COST}. (Pay {COST}, Discard this card: Draw a card.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Unearth {COST}. Devour {N}.",
+          1,
+          4,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 until end of turn. Cycling {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Counter target artifact or enchantment spell. If that spell was multicolored, scry 2.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Target creature you control fights target creature you don't control. If you sacrificed a creature this turn, put two +1/+1 counters on the first creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If it was multicolored, you gain {N} life.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then target creature you control devours them. (Put two +1/+1 counters on it for each token devoured.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Draw two cards. Cycling {COST}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As an additional cost to cast this spell, you may sacrifice a creature. If you do, copy this spell.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 for each color among permanents you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Artifact creatures you control get +{N}/+{N} and have flying.",
+          3,
+          3,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] a creature card is put into your graveyard from anywhere, create a 1/1 black [TOKEN_SUBTYPE] creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ],
+        [
+          "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.",
+          8,
+          2,
+          4
+        ],
+        [
+          "{T}: Add one mana of [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] this enters the battlefield, it enters tapped unless you returned a basic land you control to its owner's hand.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: Add [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Unearth {COST} for target creature card in your graveyard with mana value {X} or less.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 for each color among permanents you control and has vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} for each color among permanents you control and has \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any of its controller's colors.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Whenever you cast a multicolored spell, attach this to target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance and trample. Equip [EQUIP_COST]",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "Unearth {COST}. (Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Devour {N}. (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with {N} times that many +1/+1 counters on it.)",
+          7,
+          4,
+          7
+        ],
+        [
+          "Cycling {COST}. (Pay {COST}, Discard this card: Draw a card.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Cascade. Devour {N}.",
+          1,
+          4,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] this creature's power becomes 5 or greater, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 until end of turn. Cycling {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Target creature you control fights target creature you don't control. If you sacrificed a creature this turn, put two +1/+1 counters on the first creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          3,
+          6
+        ],
+        [
+          "This spell deals {X} damage to any target. If that target was a multicolored permanent, scry 2.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then target creature you control devours them. (Put two +1/+1 counters on it for each token devoured.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Draw two cards. Cycling {COST}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As an additional cost to cast this spell, you may sacrifice a creature. If you do, copy this spell.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 for each color among permanents you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Creatures you control with power 5 or greater have trample and vigilance.",
+          2,
+          4,
+          7
+        ],
+        [
+          "[TRIGGER_INTRO] a creature card is put into your graveyard from anywhere, create a 1/1 black [TOKEN_SUBTYPE] creature token.",
+          3,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ],
+        [
+          "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.",
+          8,
+          2,
+          4
+        ],
+        [
+          "{T}: Add one mana of [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] this enters the battlefield, it enters tapped unless you returned a basic land you control to its owner's hand.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: Add [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Unearth {COST} for target creature card in your graveyard with mana value {X} or less.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 for each color among permanents you control and has vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} for each color among permanents you control and has \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any of its controller's colors.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Whenever you cast a multicolored spell, attach this to target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance and trample. Equip [EQUIP_COST]",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "Exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Exalted, exalted.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Devour {N}. (As this enters the battlefield, you may sacrifice any number of creatures. This creature enters with {N} times that many +1/+1 counters on it.)",
+          7,
+          4,
+          7
+        ],
+        [
+          "Cycling {COST}. (Pay {COST}, Discard this card: Draw a card.)",
+          5,
+          2,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Exalted. Devour {N}.",
+          1,
+          4,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] this creature's power becomes 5 or greater, draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+0 until end of turn. Cycling {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Target creature you control fights target creature you don't control. If you sacrificed a creature this turn, put two +1/+1 counters on the first creature.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Tap up to {N} target permanents. Those permanents don't untap during their controller's next untap step.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment. If it was multicolored, create a 3/3 green [TOKEN_SUBTYPE] creature token.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens, then target creature you control devours them. (Put two +1/+1 counters on it for each token devoured.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Draw two cards. Cycling {COST}.",
+          2,
+          3,
+          5
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "As an additional cost to cast this spell, you may sacrifice a creature. If you do, copy this spell.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Exalted.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "Creatures you control get +1/+1 for each color among permanents you control.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Creatures you control with power 5 or greater have trample and vigilance.",
+          2,
+          4,
+          7
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ],
+        [
+          "Exalted.",
+          2,
+          3,
+          6
+        ],
+        [
+          "You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.",
+          8,
+          2,
+          4
+        ],
+        [
+          "{T}: Add one mana of [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ],
+        [
+          "This spell is multicolored.",
+          2,
+          2,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] this enters the battlefield, it enters tapped unless you returned a basic land you control to its owner's hand.",
+          5,
+          2,
+          4
+        ],
+        [
+          "{T}: Add [TOKEN_COLOR] or [TOKEN_COLOR].",
+          8,
+          2,
+          4
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +1/+1 for each color among permanents you control and has vigilance.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has first strike and lifelink.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} for each color among permanents you control and has \"{T}: Add {C}.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any of its controller's colors.\"",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}. Whenever you cast a multicolored spell, attach this to target creature you control.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has vigilance and trample. Equip [EQUIP_COST]",
+          3,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Creature": [
+        [
+          "Cascade.",
+          5,
+          4,
+          8
+        ],
+        [
+          "Cascade, cascade.",
+          1,
+          6,
+          8
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a multicolored spell, put a +1/+1 counter on this creature.",
+          5,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Cascade.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Target multicolored creature gets +{X}/+{X} and gains trample until end of turn.",
+          4,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Cascade. (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost.)",
+          8,
+          3,
+          7
+        ],
+        [
+          "Return target multicolored card from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Cascade. Cascade. (Then cascade again.)",
+          2,
+          6,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Cascade.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Spells you cast have cascade.",
+          1,
+          5,
+          8
+        ],
+        [
+          "Whenever you cast a multicolored spell, [ACTIVATED_EFFECT]",
+          5,
+          2,
+          6
+        ],
+        [
+          "The first spell you cast each turn has cascade.",
+          3,
+          5,
+          8
+        ]
+      ],
+      "Artifact": [
+        [
+          "Cascade.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Knight",
+      "Soldier",
+      "Angel",
+      "Rhino",
+      "Monk"
+    ],
+    "U": [
+      "Vedalken",
+      "Sphinx",
+      "Wizard",
+      "Bird",
+      "Zombie"
+    ],
+    "B": [
+      "Demon",
+      "Zombie",
+      "Vampire",
+      "Horror",
+      "Skeleton"
+    ],
+    "R": [
+      "Warrior",
+      "Dragon",
+      "Goblin",
+      "Viashino",
+      "Barbarian"
+    ],
+    "G": [
+      "Beast",
+      "Elf",
+      "Cat",
+      "Rhino",
+      "Warrior"
+    ],
+    "any": [
+      "Cleric",
+      "Scout",
+      "Rogue",
+      "Shaman",
+      "Advisor",
+      "Druid",
+      "Artifact"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your upkeep,",
+      "At the beginning of your end step,"
+    ],
+    "CREATURE_TRIGGER": [
+      "deals combat damage to a player",
+      "attacks alone",
+      "dies",
+      "enters the battlefield"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Zombie",
+      "Dragon",
+      "Beast",
+      "Bird",
+      "Construct",
+      "Saproling",
+      "Golem",
+      "Wizard",
+      "Knight"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{3}, {T}:"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "exalted",
+      "first strike",
+      "vigilance"
+    ],
+    "U": [
+      "flying",
+      "shroud",
+      "exalted"
+    ],
+    "B": [
+      "deathtouch",
+      "unearth {COST}",
+      "lifelink"
+    ],
+    "R": [
+      "haste",
+      "devour {N}",
+      "cascade"
+    ],
+    "G": [
+      "trample",
+      "devour {N}"
+    ],
+    "C": [
+      "cascade"
+    ]
+  }
+}

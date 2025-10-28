@@ -1,0 +1,957 @@
+{
+  "name": "champions_of_kamigawa_megapack",
+  "version": "1.0",
+  "description": "HUGE content pack covering Champions of Kamigawa mechanics: Bushido, Soulshift, Splice onto Arcane, Spirit/Arcane triggers, Ki counters, Legendary matters, Shrines (Honden), Zubera, Myojin divinity, Ogres & Demons, Moonfolk land-bounce, and more.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Bushido {X}. (Whenever this creature blocks or becomes blocked, it gets +{X}/+{X} until end of turn.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Soulshift {X}. (When this creature dies, you may return target Spirit card with mana value {X} or less from your graveyard to your hand.)",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, [SPIRITCRAFT_EFFECT_W].",
+          10,
+          2,
+          6
+        ],
+        [
+          "Legendary creatures you control have vigilance.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Other Samurai you control get +1/+1.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When ~ enters the battlefield, create two 1/1 white Spirit creature tokens.",
+          4,
+          4,
+          6
+        ],
+        [
+          "~ enters the battlefield with a divinity counter if you cast it from your hand. ~ is indestructible as long as it has a divinity counter. Remove a divinity counter from ~: [MYOJIN_EFFECT_W].",
+          2,
+          7,
+          8
+        ],
+        [
+          "Whenever ~ or another Zubera you control dies, [ZUBERA_EFFECT_W].",
+          2,
+          2,
+          4
+        ],
+        [
+          "Whenever ~ deals combat damage to a player, tap up to one target creature that player controls. Those creatures don't untap during their controller's next untap step.",
+          3,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your end step, if you control a legendary permanent, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ],
+        [
+          "When ~ enters the battlefield, you may search your library for an Aura card with mana value {X} or less and put it onto the battlefield attached to target creature you control, then shuffle.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. This spell is Arcane. Splice onto Arcane {1}{W}.",
+          8,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature. This spell is Arcane. Splice onto Arcane {2}{W}.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Tap up to two target creatures. This spell is Arcane. Splice onto Arcane {1}{W}.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn. Draw a card. This spell is Arcane.",
+          4,
+          1,
+          3
+        ],
+        [
+          "This spell is Arcane. Splice onto Arcane {1}. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Spirit creature tokens. This spell is Arcane. Splice onto Arcane {1}{W}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Destroy all creatures. This spell is Arcane.",
+          1,
+          7,
+          8
+        ],
+        [
+          "Return target enchantment card from your graveyard to the battlefield. This spell is Arcane.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Shrine (Honden) — At the beginning of your upkeep, you gain 2 life for each Shrine you control.",
+          3,
+          3,
+          5
+        ],
+        [
+          "Enchant creature. Enchanted creature has bushido 1 and vigilance.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, put a +1/+1 counter on target creature.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +1/+1 and has 'Whenever you cast a Spirit or Arcane spell, this creature gets +1/+1 until end of turn.'",
+          4,
+          2,
+          4
+        ],
+        [
+          "Legendary matters — As long as you control a legendary creature, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1 and has bushido 1. Equip [EQUIP_COST].",
+          5,
+          2,
+          4
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, you may tap target permanent.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "~ enters the battlefield tapped. {T}: Add {W}. {W},{T}: Target Samurai gains first strike until end of turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add one mana of this land's color. {2},{T}: Target legendary creature gains [KEYWORD_EVASION] until end of turn.",
+          1,
+          0,
+          8
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Whenever you cast a Spirit or Arcane spell, [SPIRITCRAFT_EFFECT_U].",
+          10,
+          2,
+          6
+        ],
+        [
+          "{U}, Return a land you control to its owner's hand: [MOONFOLK_PAYOFF].",
+          10,
+          2,
+          6
+        ],
+        [
+          "Soulshift {X}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever ~ deals combat damage to a player, draw a card.",
+          4,
+          3,
+          5
+        ],
+        [
+          "When ~ enters the battlefield, tap target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          5,
+          3,
+          5
+        ],
+        [
+          "~ enters the battlefield with a divinity counter if you cast it from your hand. ~ is indestructible as long as it has a divinity counter. Remove a divinity counter from ~: [MYOJIN_EFFECT_U].",
+          2,
+          7,
+          8
+        ],
+        [
+          "Whenever ~ or another Zubera you control dies, [ZUBERA_EFFECT_U].",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell. This spell is Arcane. Splice onto Arcane {1}{U}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Return target creature to its owner's hand. This spell is Arcane. Splice onto Arcane {U}.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Draw two cards. Then discard a card. This spell is Arcane. Splice onto Arcane {1}{U}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "This spell is Arcane. Splice onto Arcane {1}. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Scry 2, then draw a card. This spell is Arcane.",
+          6,
+          1,
+          3
+        ],
+        [
+          "Tap up to two target permanents. They don't untap during their controller's next untap step. This spell is Arcane.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Shrine (Honden) — At the beginning of your upkeep, draw a card for each Shrine you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, you may put a ki counter on ~. Remove a ki counter from ~: Tap target permanent.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +1/+1 and has 'Whenever you cast a Spirit or Arcane spell, this creature gets +1/+1 until end of turn.'",
+          4,
+          2,
+          4
+        ],
+        [
+          "Legendary matters — As long as you control a legendary creature, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you cast a Spirit or Arcane spell, you may draw a card, then discard a card.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "~ enters the battlefield tapped. {T}: Add {U}. {U},{T}: Return target creature to its owner's hand. Activate only as a sorcery.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add one mana of this land's color. {2},{T}: Target legendary creature gains [KEYWORD_EVASION] until end of turn.",
+          1,
+          0,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Bushido {X}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Soulshift {X}.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, [SPIRITCRAFT_EFFECT_B].",
+          10,
+          2,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, if you control a Demon, you draw a card and you lose 1 life. Otherwise, you lose 1 life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever ~ or another Zubera you control dies, [ZUBERA_EFFECT_B].",
+          3,
+          2,
+          4
+        ],
+        [
+          "~ enters the battlefield with a divinity counter if you cast it from your hand. ~ is indestructible as long as it has a divinity counter. Remove a divinity counter from ~: [MYOJIN_EFFECT_B].",
+          2,
+          7,
+          8
+        ],
+        [
+          "When ~ enters the battlefield, target opponent discards a card.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Sacrifice a Spirit: Target creature gets -2/-2 until end of turn.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. This spell is Arcane. Splice onto Arcane {1}{B}.",
+          8,
+          1,
+          4
+        ],
+        [
+          "Destroy target nonblack creature. This spell is Arcane. Splice onto Arcane {2}{B}.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Target player discards two cards. This spell is Arcane. Splice onto Arcane {2}{B}.",
+          4,
+          3,
+          5
+        ],
+        [
+          "This spell is Arcane. Splice onto Arcane {1}. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to your hand. This spell is Arcane.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Each opponent loses 2 life and you gain 2 life. This spell is Arcane.",
+          5,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Shrine (Honden) — At the beginning of your upkeep, target opponent loses 1 life for each Shrine you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, you may put a ki counter on ~. Remove two ki counters from ~: Target creature gets -2/-2 until end of turn.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +1/+1 and has 'Whenever you cast a Spirit or Arcane spell, this creature gets +1/+1 until end of turn.'",
+          4,
+          2,
+          4
+        ],
+        [
+          "Legendary matters — As long as you control a legendary creature, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Oni Relic — As long as you control an Ogre, Demons you cast cost {1} less to cast. Whenever a Demon enters the battlefield under your control, each opponent loses 1 life.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "~ enters the battlefield tapped. {T}: Add {B}. {B},{T}, Pay 1 life: Return target Spirit card from your graveyard to your hand.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add one mana of this land's color. {2},{T}: Target legendary creature gains [KEYWORD_EVASION] until end of turn.",
+          1,
+          0,
+          8
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Bushido {X}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, [SPIRITCRAFT_EFFECT_R].",
+          10,
+          2,
+          6
+        ],
+        [
+          "Ogres you control get +1/+0. At the beginning of your upkeep, if you control a Demon, ~ deals 1 damage to any target.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever ~ or another Zubera you control dies, [ZUBERA_EFFECT_R].",
+          3,
+          2,
+          4
+        ],
+        [
+          "~ enters the battlefield with a divinity counter if you cast it from your hand. ~ is indestructible as long as it has a divinity counter. Remove a divinity counter from ~: [MYOJIN_EFFECT_R].",
+          2,
+          7,
+          8
+        ],
+        [
+          "~ can't block. {R}: ~ gets +1/+0 until end of turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever ~ attacks, target creature can't block this turn.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "~ deals {X} damage to any target. This spell is Arcane. Splice onto Arcane {1}{R}.",
+          9,
+          1,
+          5
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. This spell is Arcane.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Destroy target artifact. This spell is Arcane. Splice onto Arcane {R}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "This spell is Arcane. Splice onto Arcane {1}. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Spirit creature tokens. This spell is Arcane.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Discard your hand, then draw that many cards. This spell is Arcane.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Shrine (Honden) — At the beginning of your upkeep, ~ deals 1 damage to any target for each Shrine you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, put a ki counter on ~. Remove three ki counters from ~: ~ deals 2 damage to any target.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +1/+1 and has 'Whenever you cast a Spirit or Arcane spell, this creature gets +1/+1 until end of turn.'",
+          4,
+          2,
+          4
+        ],
+        [
+          "Legendary matters — As long as you control a legendary creature, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +2/+0 and has bushido 1. Equip [EQUIP_COST].",
+          5,
+          2,
+          4
+        ]
+      ],
+      "Land": [
+        [
+          "~ enters the battlefield tapped. {T}: Add {R}. {R},{T}: Target creature gains haste until end of turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add one mana of this land's color. {2},{T}: Target legendary creature gains [KEYWORD_EVASION] until end of turn.",
+          1,
+          0,
+          8
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Bushido {X}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Soulshift {X}.",
+          8,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, [SPIRITCRAFT_EFFECT_G].",
+          10,
+          2,
+          6
+        ],
+        [
+          "Snakes and Shamans you control get +1/+1.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever ~ or another Zubera you control dies, [ZUBERA_EFFECT_G].",
+          3,
+          2,
+          4
+        ],
+        [
+          "~ enters the battlefield with a divinity counter if you cast it from your hand. ~ is indestructible as long as it has a divinity counter. Remove a divinity counter from ~: [MYOJIN_EFFECT_G].",
+          2,
+          7,
+          8
+        ],
+        [
+          "Whenever ~ deals combat damage to a player, you may put a land card from your hand onto the battlefield tapped.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. This spell is Arcane. Splice onto Arcane {1}{G}.",
+          9,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. This spell is Arcane. Splice onto Arcane {G}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Search your library for a basic land card, reveal it, put it onto the battlefield tapped, then shuffle. This spell is Arcane.",
+          5,
+          2,
+          4
+        ],
+        [
+          "This spell is Arcane. Splice onto Arcane {1}. Draw a card.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 green Spirit creature tokens. This spell is Arcane.",
+          5,
+          2,
+          4
+        ],
+        [
+          "Put two +1/+1 counters on target creature. It gains trample until end of turn. This spell is Arcane.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Shrine (Honden) — At the beginning of your upkeep, create a 1/1 colorless Spirit creature token for each Shrine you control.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, you may put a ki counter on ~. Remove a ki counter from ~: Add {G}{G}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Aura — Enchant creature. Enchanted creature gets +1/+1 and has 'Whenever you cast a Spirit or Arcane spell, this creature gets +1/+1 until end of turn.'",
+          4,
+          2,
+          4
+        ],
+        [
+          "Legendary matters — As long as you control a legendary creature, [LEGENDARY_BUFF].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1 and has 'Whenever this creature deals combat damage to a player, you may put a land card from your hand onto the battlefield tapped.' Equip [EQUIP_COST].",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "~ enters the battlefield tapped. {T}: Add {G}. {G},{T}: Target creature gets +1/+1 until end of turn.",
+          3,
+          0,
+          8
+        ],
+        [
+          "Legendary Land — {T}: Add one mana of this land's color. {2},{T}: Target legendary creature gains [KEYWORD_EVASION] until end of turn.",
+          1,
+          0,
+          8
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human Samurai",
+      "Fox Cleric",
+      "Kitsune",
+      "Spirit",
+      "Human Monk",
+      "Hound",
+      "Moth"
+    ],
+    "U": [
+      "Human Wizard",
+      "Moonfolk",
+      "Soratami",
+      "Spirit",
+      "Human Ninja",
+      "Illusion"
+    ],
+    "B": [
+      "Human Rogue",
+      "Rat",
+      "Nezumi",
+      "Ogre",
+      "Demon",
+      "Spirit",
+      "Shaman"
+    ],
+    "R": [
+      "Human Warrior",
+      "Goblin",
+      "Akki",
+      "Ogre",
+      "Spirit",
+      "Samurai",
+      "Shaman"
+    ],
+    "G": [
+      "Human Shaman",
+      "Snake",
+      "Orochi",
+      "Spirit",
+      "Beast",
+      "Monk"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own",
+      "you choose"
+    ],
+    "OPPONENT": [
+      "an opponent",
+      "target opponent",
+      "each opponent"
+    ],
+    "TARGET_NOUN": [
+      "target creature",
+      "target permanent an opponent controls",
+      "target nonland permanent",
+      "target artifact or enchantment"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}",
+      "{2}, {T}",
+      "{3}, {T}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Spirit",
+      "Samurai",
+      "Fox",
+      "Rat",
+      "Goblin",
+      "Snake",
+      "Human Monk",
+      "Shaman"
+    ],
+    "BUFF_SHORT": [
+      "+1/+1",
+      "+2/+2",
+      "+0/+3",
+      "+3/+0"
+    ],
+    "DEBUFF_SHORT": [
+      "-1/-1",
+      "-2/-2"
+    ],
+    "COUNTER_KIND": [
+      "+1/+1 counter",
+      "ki counter",
+      "divinity counter"
+    ],
+    "KEYWORD_EVASION": [
+      "flying",
+      "menace",
+      "first strike",
+      "vigilance"
+    ],
+    "LIFE_SWING": [
+      "gain 3 life",
+      "gain 4 life",
+      "lose 2 life",
+      "lose 3 life"
+    ],
+    "SPIRITCRAFT_EFFECT_W": [
+      "you gain 2 life",
+      "put a +1/+1 counter on up to one target creature",
+      "tap up to one target creature"
+    ],
+    "SPIRITCRAFT_EFFECT_U": [
+      "scry 1",
+      "tap target permanent",
+      "draw a card, then discard a card"
+    ],
+    "SPIRITCRAFT_EFFECT_B": [
+      "each opponent loses 1 life",
+      "target creature gets -1/-1 until end of turn",
+      "return target Spirit card from your graveyard to your hand"
+    ],
+    "SPIRITCRAFT_EFFECT_R": [
+      "deal 1 damage to any target",
+      "target creature can't block this turn",
+      "create a 1/1 red Spirit creature token"
+    ],
+    "SPIRITCRAFT_EFFECT_G": [
+      "add {G}",
+      "target creature gets +1/+1 until end of turn",
+      "you may put a land card from your hand onto the battlefield tapped"
+    ],
+    "ZUBERA_EFFECT_W": [
+      "you gain 2 life for each Zubera that died this turn"
+    ],
+    "ZUBERA_EFFECT_U": [
+      "draw a card for each Zubera that died this turn"
+    ],
+    "ZUBERA_EFFECT_B": [
+      "target opponent discards a card for each Zubera that died this turn"
+    ],
+    "ZUBERA_EFFECT_R": [
+      "it deals 1 damage to any target for each Zubera that died this turn"
+    ],
+    "ZUBERA_EFFECT_G": [
+      "create a 1/1 colorless Spirit creature token for each Zubera that died this turn"
+    ],
+    "MYOJIN_EFFECT_W": [
+      "destroy all other creatures",
+      "creatures you control gain indestructible until end of turn"
+    ],
+    "MYOJIN_EFFECT_U": [
+      "draw a card for each permanent you control",
+      "counter target spell"
+    ],
+    "MYOJIN_EFFECT_B": [
+      "destroy target nonland permanent",
+      "each opponent sacrifices a creature"
+    ],
+    "MYOJIN_EFFECT_R": [
+      "Myojin of Roaring Flame deals 7 damage to any target",
+      "gain control of target creature until end of turn. Untap it. It gains haste until end of turn"
+    ],
+    "MYOJIN_EFFECT_G": [
+      "search your library for up to two land cards, put them onto the battlefield tapped, then shuffle",
+      "put a +1/+1 counter on each creature you control"
+    ],
+    "LEGENDARY_BUFF": [
+      "creatures you control get +1/+1",
+      "spells you cast cost {1} less to cast",
+      "whenever a legendary permanent enters the battlefield under your control, draw a card"
+    ],
+    "MOONFOLK_PAYOFF": [
+      "tap up to two target permanents",
+      "draw a card",
+      "return target creature to its owner's hand",
+      "create a 1/1 blue Spirit creature token"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "lifelink",
+      "bushido 1"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "flash"
+    ],
+    "B": [
+      "menace",
+      "deathtouch"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "bushido 1"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  }
+}

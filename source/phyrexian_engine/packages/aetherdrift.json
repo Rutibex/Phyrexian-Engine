@@ -1,0 +1,814 @@
+{
+  "name": "Aetherdrift Comprehensive",
+  "id": "aetherdrift",
+  "version": 1,
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to target creature or player this turn. If your speed is 3+, you gain {X} life.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Exile target attacking creature. If you have max speed, its controller loses 2 life.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Untap up to two target creatures. They gain vigilance until end of turn. If your speed increased this turn, draw a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Choose one —\n• Creatures you control get +1/+1 until end of turn.\n• Saddled creatures you control gain indestructible until end of turn.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Destroy target enchantment or artifact. If you control a Pilot, scry 2.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Target Vehicle you control becomes an artifact creature until end of turn. It gets +{X}/+{X}.",
+          4,
+          0,
+          2
+        ],
+        [
+          "Return target creature with mana value {MV} or less from your graveyard to the battlefield saddled. (It’s saddled until end of turn.)",
+          3,
+          0,
+          2
+        ],
+        [
+          "Tap up to two target creatures. If your speed is 2+, those creatures don’t untap during their controller’s next untap step.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, target creature you control gets +1/+0 and gains first strike until end of turn.",
+          3,
+          0,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] Soldier creature tokens with vigilance. If your speed is 4, create that many plus two instead.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Exile target tapped creature. If you started your engines this turn, gain 3 life.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Search your library for an Aura or Equipment card with mana value {MV} or less, reveal it, put it onto the battlefield attached to target creature you control, then shuffle.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Put a +1/+1 counter on each creature you control. Saddled creatures you control gain lifelink until end of turn.",
+          5,
+          6,
+          12
+        ],
+        [
+          "Return all Aura and Equipment cards from your graveyard with mana value {MV} or less to the battlefield.",
+          3,
+          6,
+          12
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, draw a card, then you may increase or decrease target player's speed by 1. (Min 0, max 4.)",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Vigilance\nStart your engines!\nWhenever your speed increases, put a +1/+1 counter on this creature.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Lifelink\nExhaust — Create a 2/2 [TOKEN_COLOR] Knight creature token. Activate only once.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Pilot — This creature crews Vehicles and saddles Mounts as though its power were 2 greater.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Whenever this creature attacks while saddled, exile up to one target creature until this leaves the battlefield.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Other creatures you control get +1/+1 as long as you have max speed.",
+          4,
+          6,
+          12
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.\nMax speed — Creatures you control have vigilance.",
+          5,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your end step, if your speed increased this turn, create a 1/1 [TOKEN_COLOR] Pilot creature token.",
+          4,
+          0,
+          2
+        ],
+        [
+          "Whenever a creature becomes saddled under your control, scry 1 and gain 1 life.",
+          4,
+          0,
+          2
+        ],
+        [
+          "Start your engines!\nAt the beginning of combat on your turn, if your speed is 4, creatures you control get +1/+0 and gain haste until end of turn.",
+          5,
+          6,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+2 and has vigilance.\nMax speed — Enchanted creature has \"Prevent all damage that would be dealt to this creature.\" until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Enchant creature\nWhen this Aura enters, untap enchanted creature. It gains lifelink until end of turn. If your speed is 3+, draw a card.",
+          4,
+          0,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has lifelink.\nEquip {EQUIP_COST}\nPilots you control can equip this as though they had 2 additional power.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Equipped creature has \"Whenever your speed increases, this creature gets +1/+1 until end of turn.\"\nEquip {EQUIP_COST}",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew 2\nWhenever this Vehicle attacks, if your speed is 3+, draw a card, then discard a card.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Vehicle — Crew 3\nHaste\nMax speed — This Vehicle gets +2/+0 and has trample.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Vehicle — Crew 1\nWhen this becomes crewed, target creature you control becomes saddled until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Whenever you cycle a card, this artifact becomes a 3/3 Construct artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exhaust — Add {C}{C}. Spend this mana only to activate crew and saddle abilities. Activate only once.",
+          4,
+          0,
+          2
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If your speed is 3+, scry 2.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Return target nonland permanent to its owner’s hand. If it’s a Vehicle, reduce target opponent’s speed by 1. (Min 0.)",
+          6,
+          3,
+          5
+        ],
+        [
+          "Draw two cards. If you have max speed, draw three cards instead.",
+          5,
+          6,
+          12
+        ],
+        [
+          "Tap target creature. It doesn’t untap during its controller’s next untap step. If you started your engines this turn, create a 1/1 [TOKEN_COLOR] Pilot token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, target creature you control gets +1/+0 and gains first strike until end of turn.",
+          3,
+          0,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top X cards of your library, put one into your hand and the rest on the bottom in a random order. If your speed is 2+, create a Map token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Gain control of target Vehicle until end of turn. Untap it. It becomes an artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Draw {X} cards. If you have a Pilot, also create a 1/1 [TOKEN_COLOR] Pilot creature token.",
+          4,
+          6,
+          12
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, draw a card, then you may increase or decrease target player's speed by 1. (Min 0, max 4.)",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Flash\nWhen this creature enters, if you have max speed, counter target spell unless its controller pays 3.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Pilot\nWhenever a Vehicle you control becomes crewed, scry 1.\nExhaust — Draw a card. Activate only once.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Flying\nStart your engines!\nWhenever your speed increases, this creature gets +1/+0 and can’t be blocked this turn.",
+          5,
+          0,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you draw your second card each turn, increase your speed by 1. (Max 4.)",
+          4,
+          0,
+          2
+        ],
+        [
+          "At the beginning of combat on your turn, target creature you control becomes a copy of target Vehicle you control until end of turn, except it’s not a Vehicle.",
+          4,
+          6,
+          12
+        ],
+        [
+          "Start your engines!\nAt the beginning of combat on your turn, if your speed is 4, creatures you control get +1/+0 and gain haste until end of turn.",
+          5,
+          6,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature has flying and \"Whenever this deals combat damage to a player, if your speed increased this turn, draw a card.\"",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has \"Crew 1.\"\nEquip {EQUIP_COST}",
+          4,
+          3,
+          5
+        ],
+        [
+          "Equipped creature has \"Whenever you cycle a card, untap this creature.\" and \"Whenever this becomes saddled, draw a card.\"\nEquip {EQUIP_COST}",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew 2\nWhenever this Vehicle attacks, if your speed is 3+, draw a card, then discard a card.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Vehicle — Crew 3\nHaste\nMax speed — This Vehicle gets +2/+0 and has trample.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Vehicle — Crew 1\nWhen this becomes crewed, target creature you control becomes saddled until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Whenever you cycle a card, this artifact becomes a 3/3 Construct artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exhaust — Add {C}{C}. Spend this mana only to activate crew and saddle abilities. Activate only once.",
+          4,
+          0,
+          2
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If your speed is 3+, you may also destroy target Vehicle.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Destroy target creature with mana value {MV} or less. If your speed increased this turn, each opponent loses 1 life.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If you have max speed, return another at random.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, target creature you control gets +1/+0 and gains first strike until end of turn.",
+          3,
+          0,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent discards two cards. If you have a Pilot, surveil 2.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Exile target creature or planeswalker. You lose 2 life. If your speed is 4, you lose 0 life instead.",
+          4,
+          6,
+          12
+        ],
+        [
+          "Create two 2/2 [TOKEN_COLOR] Zombie creature tokens with menace. Saddled creatures you control gain deathtouch until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, draw a card, then you may increase or decrease target player's speed by 1. (Min 0, max 4.)",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Menace\nStart your engines!\nWhenever one or more opponents lose life during your turn, if your speed is less than 4, increase your speed by 1.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Deathtouch\nExhaust — Each opponent loses 2 life and you gain 2 life. Activate only once.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Whenever this creature attacks while saddled, each opponent discards a card.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Pilot\nWhenever you sacrifice a creature, create a tapped Treasure token.",
+          4,
+          0,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, if your speed is 3+, create a 2/1 [TOKEN_COLOR] Rogue creature token with menace.",
+          4,
+          0,
+          2
+        ],
+        [
+          "Max speed — Creatures you control have lifelink.",
+          4,
+          6,
+          12
+        ],
+        [
+          "Start your engines!\nAt the beginning of combat on your turn, if your speed is 4, creatures you control get +1/+0 and gain haste until end of turn.",
+          5,
+          6,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+1 and has menace.\nExhaust — Target player discards a card. Activate only once.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has deathtouch.\nWhenever your speed increases, you may have equipped creature fight target creature you don’t control.\nEquip {EQUIP_COST}",
+          4,
+          6,
+          12
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew 2\nWhenever this Vehicle attacks, if your speed is 3+, draw a card, then discard a card.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Vehicle — Crew 3\nHaste\nMax speed — This Vehicle gets +2/+0 and has trample.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Vehicle — Crew 1\nWhen this becomes crewed, target creature you control becomes saddled until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Whenever you cycle a card, this artifact becomes a 3/3 Construct artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exhaust — Add {C}{C}. Spend this mana only to activate crew and saddle abilities. Activate only once.",
+          4,
+          0,
+          2
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target. If a permanent with start your engines! entered under your control this turn, it deals {X+1} damage instead.",
+          7,
+          0,
+          2
+        ],
+        [
+          "Target creature gains trample and haste until end of turn. If it’s a Vehicle, untap it and it becomes an artifact creature until end of turn.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Destroy target artifact. If you have max speed, this spell deals 3 damage to that artifact’s controller.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, target creature you control gets +1/+0 and gains first strike until end of turn.",
+          3,
+          0,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 [TOKEN_COLOR] Goblin creature tokens. If your speed is 3+, those tokens gain haste until end of turn.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Gain control of target creature or Vehicle until end of turn. Untap it. It gains haste. If your speed increased this turn, create a Treasure token.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Exile the top {X} cards of your library. Until the end of your next turn, you may play those cards.",
+          5,
+          6,
+          12
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, draw a card, then you may increase or decrease target player's speed by 1. (Min 0, max 4.)",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Haste\nStart your engines!\nWhenever your speed increases, this creature gets +1/+0 until end of turn. If you have max speed, it also gains first strike.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Exhaust — This creature deals 2 damage to any target. Activate only once.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Pilot\nOther Vehicles you control have \"Crew 1.\"",
+          5,
+          3,
+          5
+        ],
+        [
+          "Whenever this becomes saddled, it deals 1 damage to each opponent and each creature they control.",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, if your speed is 2+, target creature you control gets +2/+0 and gains haste until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Max speed — Whenever you cast a noncreature spell, this enchantment deals 1 damage to any target.",
+          4,
+          6,
+          12
+        ],
+        [
+          "Start your engines!\nAt the beginning of combat on your turn, if your speed is 4, creatures you control get +1/+0 and gain haste until end of turn.",
+          5,
+          6,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +2/+0 and has first strike.\nWhenever your speed increases, enchanted creature gets +1/+0 until end of turn.",
+          4,
+          0,
+          2
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has trample and haste.\nWhenever equipped creature attacks while saddled, create a tapped Treasure token.\nEquip {EQUIP_COST}",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew 2\nWhenever this Vehicle attacks, if your speed is 3+, draw a card, then discard a card.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Vehicle — Crew 3\nHaste\nMax speed — This Vehicle gets +2/+0 and has trample.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Vehicle — Crew 1\nWhen this becomes crewed, target creature you control becomes saddled until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Whenever you cycle a card, this artifact becomes a 3/3 Construct artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exhaust — Add {C}{C}. Spend this mana only to activate crew and saddle abilities. Activate only once.",
+          4,
+          0,
+          2
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn. If it’s saddled, it also gains trample until end of turn.",
+          7,
+          0,
+          2
+        ],
+        [
+          "Destroy target artifact or enchantment. If you have a Mount, you gain 3 life.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Target creature you control fights up to one target creature you don’t control. If your speed is 3+, put a +1/+1 counter on your creature first.",
+          5,
+          3,
+          5
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, target creature you control gets +1/+0 and gains first strike until end of turn.",
+          3,
+          0,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If your speed is 2+, untap that land.",
+          6,
+          0,
+          2
+        ],
+        [
+          "Create a 3/3 [TOKEN_COLOR] Beast creature token. If you control a Mount, create a Food token.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Distribute {X} +1/+1 counters among up to two target creatures you control. Creatures saddled this turn have trample.",
+          5,
+          6,
+          12
+        ],
+        [
+          "Cycling {COST}\nWhen you cycle this card, draw a card, then you may increase or decrease target player's speed by 1. (Min 0, max 4.)",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Creature": [
+        [
+          "Trample\nStart your engines!\nWhenever a Mount or Vehicle you control becomes saddled or crewed, increase your speed by 1. This ability triggers only once each turn.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Ward {2}\nExhaust — Create a 4/4 [TOKEN_COLOR] Rhino creature token with trample. Activate only once.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Mount\nSaddle 2\nWhenever this attacks while saddled, put a +1/+1 counter on each other creature you control.",
+          6,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1.\nMounts you control have saddle 1.\nMax speed — Creatures you control have trample.",
+          5,
+          6,
+          12
+        ],
+        [
+          "Whenever you cycle a card, you may have target creature you control fight up to one target creature you don’t control.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Start your engines!\nAt the beginning of combat on your turn, if your speed is 4, creatures you control get +1/+0 and gain haste until end of turn.",
+          5,
+          6,
+          12
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nEnchanted creature gets +3/+3 and has trample.\nWhen this Aura enters, if your speed increased this turn, draw a card.",
+          5,
+          3,
+          5
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2.\nWhenever equipped creature becomes saddled or crews a Vehicle, put a +1/+1 counter on it.\nEquip {EQUIP_COST}",
+          4,
+          3,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "Vehicle — Crew 2\nWhenever this Vehicle attacks, if your speed is 3+, draw a card, then discard a card.",
+          6,
+          3,
+          5
+        ],
+        [
+          "Vehicle — Crew 3\nHaste\nMax speed — This Vehicle gets +2/+0 and has trample.",
+          6,
+          6,
+          12
+        ],
+        [
+          "Vehicle — Crew 1\nWhen this becomes crewed, target creature you control becomes saddled until end of turn.",
+          5,
+          0,
+          2
+        ],
+        [
+          "Whenever you cycle a card, this artifact becomes a 3/3 Construct artifact creature until end of turn.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Exhaust — Add {C}{C}. Spend this mana only to activate crew and saddle abilities. Activate only once.",
+          4,
+          0,
+          2
+        ]
+      ]
+    }
+  },
+  "notes": "Implements Start your engines!/Speed, Exhaust, Vehicles/Crew, Mounts/Saddle, Pilots, Cycling hooks, and max-speed payoffs."
+}

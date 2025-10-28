@@ -1,0 +1,890 @@
+{
+  "name": "Arabian Nights — Core Mechanics",
+  "version": "1.0",
+  "description": "A comprehensive content pack inspired by the mechanics, tropes, and gameplay patterns of the Arabian Nights expansion. Includes deserts, bazaars, djinn/efreet bargains, coin flips, landwalk, upkeep costs, powerful artifacts, and iconic land designs. Uses modernized wording where helpful for templating.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Vigilance.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Banding.",
+          3,
+          2,
+          4
+        ],
+        [
+          "Protection from {C}.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} blocks, prevent {N} damage that would be dealt to it this turn.",
+          4,
+          2,
+          4
+        ],
+        [
+          "Desertwalk.",
+          1,
+          2,
+          4
+        ],
+        [
+          "When {THIS} dies, create a 1/1 [BIRD_NAMES] with flying.",
+          2,
+          2,
+          5
+        ],
+        [
+          "When {THIS} dies, each creature that blocked or was blocked by it this combat is destroyed.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Creatures you control that are banded with {THIS} get +1/+1.",
+          1,
+          3,
+          5
+        ],
+        [
+          "Whenever {THIS} attacks, other attacking creatures you control get +1/+0 until end of turn.",
+          2,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Prevent the next {X} damage that would be dealt to target creature this turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Creatures attacking this turn get +2/+0 until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Exile target attacking creature with mana value {X} or less.",
+          1,
+          3,
+          6
+        ],
+        [
+          "Tap up to {N} target creatures.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Soldier creature tokens.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Destroy target creature with power {X} or greater.",
+          2,
+          4,
+          6
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, you gain {X} life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Nonartifact spells your opponents cast cost {1} more to cast.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has banding.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature gets +3/+3. At the beginning of your upkeep, put a -1/-1 counter on it.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Enchanted creature has protection from {C}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Prevent the next 1 damage that would be dealt to target creature this turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "{4}, {T}: Untap target creature.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{6}, {T}: {THIS} deals 4 damage to any target.",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Islandwalk.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{U}: {THIS} gains flying until end of turn.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{THIS} doesn't untap during your untap step. At the beginning of your upkeep, you may pay {X}. If you do, untap it.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Whenever {THIS} attacks, defending player mills {N} cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} enters, gain control of target creature with power {N} or less for as long as you control {THIS}.",
+          1,
+          4,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, {THIS} deals 1 damage to you.",
+          1,
+          3,
+          5
+        ],
+        [
+          "{U}: Regenerate {THIS}.",
+          1,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Tap up to {N} target creatures. They don't untap during their controller's next untap step.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target player draws two cards, then discards three cards.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of each player's upkeep, that player draws a card.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Creatures with flying get -1/-0.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has islandwalk.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Enchanted creature can't attack.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Target creature gains flying until end of turn.",
+          2,
+          2,
+          4
+        ],
+        [
+          "{3}, {T}: Gain control of target artifact until end of turn. Untap it.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Menace.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Swampwalk.",
+          2,
+          2,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, {THIS} deals 1 damage to you.",
+          3,
+          3,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, sacrifice a land.",
+          1,
+          5,
+          6
+        ],
+        [
+          "When {THIS} enters, each opponent loses {N} life and you gain {N} life.",
+          2,
+          3,
+          6
+        ],
+        [
+          "When {THIS} dies, create a 4/4 red [RUKH] creature token with flying.",
+          1,
+          3,
+          5
+        ],
+        [
+          "{B}: Regenerate {THIS}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Destroy target nonblack creature.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Each opponent sacrifices a creature with mana value {N} or less.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target creature. You lose {N} life.",
+          3,
+          4,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {N} life.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Whenever an artifact would be destroyed, you may pay {2}. If you do, regenerate it.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X}. At the beginning of your upkeep, put a -1/-1 counter on it.",
+          2,
+          2,
+          3
+        ],
+        [
+          "Enchanted creature has swampwalk.",
+          1,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Pay 1 life: Add one mana of any color.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{4}, {T}: Target opponent discards two cards.",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Mountainwalk.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} attacks, it gets +{N}/+0 until end of turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever {THIS} blocks or becomes blocked, flip a coin. If you lose the flip, prevent all combat damage that would be dealt by {THIS} this combat.",
+          1,
+          3,
+          5
+        ],
+        [
+          "At the beginning of your upkeep, {THIS} deals 1 damage to you.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "{THIS_SPELL} deals {X} damage to any target.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{THIS_SPELL} deals 1 damage to each attacking or blocking creature.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Gain control of target artifact until end of turn. Untap it. It gains haste until end of turn.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target land.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Gain control of target artifact.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, {THIS} deals 1 damage to each player.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+0 and has haste.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{6}, {T}: {THIS} deals 4 damage to any target.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{1}: Untap target creature. Activate only as a sorcery.",
+          1,
+          2,
+          5
+        ],
+        [
+          "{1}, {T}: Flip a coin. If you win the flip, create a 5/5 colorless Djinn artifact creature token with flying. If you lose the flip, {THIS} deals 5 damage to you.",
+          1,
+          4,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Forestwalk.",
+          2,
+          2,
+          5
+        ],
+        [
+          "{G}: Regenerate {THIS}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "At the beginning of your upkeep, {THIS} deals 1 damage to each creature with flying and each player.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Whenever another creature enters under your control, you gain {N} life.",
+          1,
+          3,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target permanent.",
+          2,
+          5,
+          6
+        ],
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures with flying get -2/-0.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and trample.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.",
+          1,
+          3,
+          6
+        ],
+        [
+          "{2}, {T}: Untap target creature.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. {THIS} deals 1 damage to you.",
+          4,
+          2,
+          6
+        ],
+        [
+          "{T}: Draw two cards, then discard three cards.",
+          2,
+          3,
+          6
+        ],
+        [
+          "{T}: {THIS} deals 1 damage to target attacking creature. Activate only during the end of combat step.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{1}: {THIS} doesn't untap during your next untap step. {T}: Gain control of target creature with power {N} or less for as long as {THIS} remains tapped.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{1}: {THIS} doesn't untap during your next untap step. {T}: Untap target creature.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{X}, {T}: Return target nonland permanent with mana value {X} or less to its owner's hand.",
+          1,
+          4,
+          6
+        ],
+        [
+          "{T}: Target creature gains flying until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "{T}, Sacrifice {THIS}: Choose a card you own from outside the game and put it into your hand.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{T}: Add {C}. {1}: Untap {THIS}.",
+          1,
+          2,
+          4
+        ],
+        [
+          "{2}, {T}: Create a 1/1 colorless Sand artifact creature token.",
+          1,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "{T}: Add {C}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "{T}: Add one mana of any color. {THIS} deals 1 damage to you.",
+          3,
+          3,
+          6
+        ],
+        [
+          "{T}: Draw two cards, then discard three cards.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{T}: Prevent the next 1 damage that would be dealt to target creature this turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "{T}: {THIS} deals 1 damage to target attacking creature. Activate only during the end of combat step.",
+          3,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.",
+          1,
+          5,
+          6
+        ],
+        [
+          "{T}: Add {C}. As {THIS} enters the battlefield, you may reveal a [LOCATION]. If you don't, {THIS} enters tapped.",
+          1,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a permanent with \"Desert\" in its name becomes tapped for mana or to activate an ability, it deals 1 damage to that permanent's controller.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Whenever a player casts a spell with \"Arabian\" in its name, sacrifice {THIS}. If you do, destroy that spell's permanent when it enters the battlefield.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has landwalk of a basic land type of your choice.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Until end of turn, creatures you control get banding.",
+          1,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Nomad",
+      "Cleric",
+      "Monk",
+      "Camel",
+      "Roc"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Thief",
+      "Merfolk",
+      "Bird",
+      "Serpent",
+      "Djinn",
+      "Efreet"
+    ],
+    "B": [
+      "Human",
+      "Assassin",
+      "Rogue",
+      "Djinn",
+      "Efreet",
+      "Spirit"
+    ],
+    "R": [
+      "Human",
+      "Warrior",
+      "Nomad",
+      "Efreet",
+      "Djinn",
+      "Dwarf"
+    ],
+    "G": [
+      "Human",
+      "Shaman",
+      "Naga",
+      "Beast",
+      "Elephant",
+      "Snake",
+      "Wolf"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Sand",
+      "Camel"
+    ]
+  },
+  "string_pools": {
+    "BIRD_NAMES": [
+      "Roc",
+      "Falcon",
+      "Hawk",
+      "Desert Jay"
+    ],
+    "RUKH": [
+      "Rukh"
+    ],
+    "LOCATION": [
+      "Bazaar",
+      "Oasis",
+      "Caravanserai",
+      "Ziggurat",
+      "Market",
+      "Spice Quarter",
+      "Ivory Dunes",
+      "Singing Sands",
+      "Golden City",
+      "Hidden Grotto",
+      "Brass Quarter"
+    ],
+    "DESERT_THINGS": [
+      "sand",
+      "dust",
+      "mirage",
+      "scorching wind",
+      "sirocco",
+      "sunflare",
+      "dune shadow"
+    ],
+    "RELIEF_VERBS": [
+      "shield",
+      "succor",
+      "protect",
+      "ward"
+    ],
+    "TRIGGER_INTRO": [
+      "When the heat rises,",
+      "In the hush before dawn,",
+      "When caravans gather,",
+      "At high sun,"
+    ],
+    "ACTIVATED_COST": [
+      "{1}, Discard a card,",
+      "{2}, Pay 2 life,",
+      "Sacrifice a creature,",
+      "{3}, {T},"
+    ],
+    "ACTIVATED_EFFECT": [
+      "draw a card.",
+      "create a 1/1 colorless Sand artifact creature token.",
+      "untap target creature.",
+      "return target nonland permanent to its owner's hand."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "banding",
+      "vigilance"
+    ],
+    "U": [
+      "flying",
+      "islandwalk"
+    ],
+    "B": [
+      "menace"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ]
+  },
+  "rarity_hints": {
+    "AlwaysMythicExamples": [
+      "Start a subgame with your library as your deck. When that subgame ends, the winner's life total becomes their life total in the main game.",
+      "Choose a card you own from outside the game and put it into your hand."
+    ],
+    "UsuallyRareTemplates": [
+      "Destroy target permanent.",
+      "{THIS} doesn't untap during your untap step. At the beginning of your upkeep, you may pay {X}. If you do, untap it.",
+      "At the beginning of your upkeep, sacrifice a land."
+    ]
+  }
+}

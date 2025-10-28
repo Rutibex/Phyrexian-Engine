@@ -1,0 +1,838 @@
+{
+  "name": "Dark Ascension Mega Pack",
+  "code": "DKA_MEGA",
+  "version": 1,
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Exile target tapped creature. Morbid — If a creature died this turn, exile target creature instead.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Flashback [FLASHBACK_COST].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Exile target tapped creature. Morbid — If a creature died this turn, exile target creature instead.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Flashback [FLASHBACK_COST].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "[FATEFUL_HOUR_INTRO] As long as you have 5 or less life, [FATEFUL_BONUS_W].",
+          5,
+          3,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_NUISANCE]",
+          4,
+          2,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_TAX]",
+          4,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_NONE] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_TWO] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_KILL_TRIGGER] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Spirits you control get +1/+1 and have vigilance.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has undying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has lifelink.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [
+        [
+          "Draw {N} cards. Morbid — If a creature died this turn, draw {X} cards instead.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Flashback [FLASHBACK_COST].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {N} cards. Morbid — If a creature died this turn, draw {X} cards instead.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Flashback [FLASHBACK_COST].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "[FATEFUL_HOUR_INTRO] As long as you have 5 or less life, [FATEFUL_BONUS_U].",
+          4,
+          3,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_NUISANCE]",
+          4,
+          2,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_TAX]",
+          4,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_NONE] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_TWO] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_KILL_TRIGGER] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Spirits you control have \"{T}: Tap target creature.\"",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has undying.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature has \"{T}: Draw a card, then discard a card.\"",
+          3,
+          3,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [
+        [
+          "Destroy target creature. Morbid — If a creature died this turn, instead destroy target creature and you gain {N} life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Flashback [FLASHBACK_COST].",
+          3,
+          2,
+          6
+        ],
+        [
+          "Exile up to {N} target cards from a graveyard. Draw a card.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target creature. Morbid — If a creature died this turn, instead destroy target creature and you gain {N} life.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Flashback [FLASHBACK_COST].",
+          3,
+          3,
+          6
+        ],
+        [
+          "Return target creature card from your graveyard to the battlefield tapped. You lose {N} life.",
+          5,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "[FATEFUL_HOUR_INTRO] As long as you have 5 or less life, [FATEFUL_BONUS_B].",
+          5,
+          3,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_NUISANCE]",
+          4,
+          2,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_TAX]",
+          4,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_NONE] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_TWO] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_KILL_TRIGGER] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Zombies you control get +1/+1.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has undying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has deathtouch.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [
+        [
+          "Morbid — If a creature died this turn, this spell deals {X} damage to any target instead.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Flashback [FLASHBACK_COST].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Morbid — If a creature died this turn, this spell deals {X} damage to any target instead.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Flashback [FLASHBACK_COST].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "[FATEFUL_HOUR_INTRO] As long as you have 5 or less life, [FATEFUL_BONUS_R].",
+          4,
+          3,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_NUISANCE]",
+          4,
+          2,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_TAX]",
+          4,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_NONE] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_TWO] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_KILL_TRIGGER] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Vampires you control get +1/+0 and have menace.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has undying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{X}/+0 and has haste.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [
+        [
+          "Put {N} +1/+1 counters on target creature. Morbid — If a creature died this turn, put {X} +1/+1 counters on that creature instead.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Flashback [FLASHBACK_COST].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Put {N} +1/+1 counters on target creature. Morbid — If a creature died this turn, put {X} +1/+1 counters on that creature instead.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Flashback [FLASHBACK_COST].",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)",
+          4,
+          2,
+          6
+        ],
+        [
+          "[FATEFUL_HOUR_INTRO] As long as you have 5 or less life, [FATEFUL_BONUS_G].",
+          4,
+          3,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_NUISANCE]",
+          4,
+          2,
+          6
+        ],
+        [
+          "Curse — Enchant player\n[CURSE_TAX]",
+          4,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_NONE] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_UPKEEP_TWO] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "[TRANSFORM_KILL_TRIGGER] [BACKFACE_HINT]",
+          3,
+          2,
+          6
+        ],
+        [
+          "Wolves and Werewolves you control get +1/+1 and have trample.",
+          5,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature has undying.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Enchanted creature gets +{N}/+{N} and has trample.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. Then if you have exactly 10 life, transform this. [BACKFACE_HINT]",
+          3,
+          3,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Exile target card from a graveyard. If a creature card was exiled this way, draw a card.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT].",
+          6,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has first strike. Equip {C}",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has \"{T}: This creature deals {N} damage to any target.\" Equip {C}",
+          3,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Spirit",
+      "Soldier",
+      "Cleric",
+      "Knight",
+      "Angel",
+      "Griffin",
+      "Fox"
+    ],
+    "U": [
+      "Spirit",
+      "Zombie",
+      "Wizard",
+      "Horror",
+      "Homunculus",
+      "Drake"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Skeleton",
+      "Horror",
+      "Spirit",
+      "Assassin",
+      "Devil"
+    ],
+    "R": [
+      "Devil",
+      "Vampire",
+      "Human",
+      "Wolf",
+      "Warrior",
+      "Shaman",
+      "Spirit",
+      "Berserker"
+    ],
+    "G": [
+      "Human",
+      "Wolf",
+      "Werewolf",
+      "Spider",
+      "Beast",
+      "Spirit",
+      "Scout",
+      "Treefolk"
+    ],
+    "C": [
+      "Golem",
+      "Construct",
+      "Scarecrow",
+      "Spirit"
+    ]
+  },
+  "string_pools": {
+    "MORBID_INTRO": [
+      "Morbid —"
+    ],
+    "FATEFUL_HOUR_INTRO": [
+      "Fateful hour —"
+    ],
+    "TRANSFORM_INTRO": [
+      "Transform"
+    ],
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "enters the battlefield",
+      "attacks",
+      "blocks"
+    ],
+    "SPELL_SPEED": [
+      "instant or sorcery spell",
+      "noncreature spell",
+      "creature spell"
+    ],
+    "N": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "X": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "C": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Spirit",
+      "Zombie",
+      "Vampire",
+      "Wolf",
+      "Human",
+      "Homunculus",
+      "Horror",
+      "Devil",
+      "Golem",
+      "Insect",
+      "Bat"
+    ],
+    "COUNTER_KIND": [
+      "+1/+1",
+      "+1/+1",
+      "+1/+1",
+      "-1/-1"
+    ],
+    "FLASHBACK_COST": [
+      "{1}{W}",
+      "{2}{W}",
+      "{3}{W}",
+      "{1}{U}",
+      "{2}{U}",
+      "{3}{U}",
+      "{1}{B}",
+      "{2}{B}",
+      "{3}{B}",
+      "{1}{R}",
+      "{2}{R}",
+      "{3}{R}",
+      "{1}{G}",
+      "{2}{G}",
+      "{3}{G}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}, {T}",
+      "{2}, {T}",
+      "{1}, Pay 1 life",
+      "Sacrifice a creature"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gets +{N}/+{N} until end of turn",
+      "Target creature gets -{N}/-{N} until end of turn",
+      "Create a {N}/{N} {TOKEN_COLOR} {TOKEN_SUBTYPE} creature token",
+      "Draw a card",
+      "Exile target card from a graveyard",
+      "Return target creature card with mana value {X} or less from your graveyard to your hand",
+      "Target player mills {X} cards",
+      "Add {C}"
+    ],
+    "TRANSFORM_UPKEEP_NONE": [
+      "At the beginning of each upkeep, if no spells were cast last turn, transform this."
+    ],
+    "TRANSFORM_UPKEEP_TWO": [
+      "At the beginning of each upkeep, if a player cast two or more spells last turn, transform this."
+    ],
+    "TRANSFORM_KILL_TRIGGER": [
+      "When this dies, return it to the battlefield transformed under your control."
+    ],
+    "BACKFACE_HINT": [
+      "(It transforms into a larger, more menacing form.)",
+      "(Its back face has increased power and an additional ability.)",
+      "(The back face is a black Zombie creature with power and toughness {X}/{X}.)"
+    ],
+    "FATEFUL_BONUS_W": [
+      "creatures you control get +2/+2",
+      "prevent all damage that would be dealt to you",
+      "you have hexproof"
+    ],
+    "FATEFUL_BONUS_U": [
+      "spells you cast cost {1} less to cast",
+      "creatures you control have hexproof",
+      "at the beginning of your upkeep, scry 2"
+    ],
+    "FATEFUL_BONUS_B": [
+      "creatures you control get +1/+1 and have lifelink",
+      "at the beginning of your upkeep, each opponent loses 1 life and you gain 1 life",
+      "whenever a creature dies, you may draw a card"
+    ],
+    "FATEFUL_BONUS_R": [
+      "creatures you control get +2/+0 and have haste",
+      "spells you cast can’t be countered",
+      "whenever you cast a spell, this deals 1 damage to any target"
+    ],
+    "FATEFUL_BONUS_G": [
+      "creatures you control get +3/+3",
+      "creatures you control have trample",
+      "you may play an additional land on each of your turns"
+    ],
+    "CURSE_NUISANCE": [
+      "At the beginning of enchanted player's upkeep, that player loses {N} life.",
+      "Enchanted player can't gain life.",
+      "At the beginning of enchanted player's end step, that player discards a card."
+    ],
+    "CURSE_TAX": [
+      "Spells enchanted player casts cost {1} more to cast.",
+      "Creatures enchanted player controls enter the battlefield tapped."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "first strike",
+      "vigilance",
+      "undying",
+      "fateful hour — as long as you have 5 or less life, this creature gets +2/+2"
+    ],
+    "U": [
+      "flying",
+      "hexproof",
+      "undying",
+      "skulk"
+    ],
+    "B": [
+      "deathtouch",
+      "lifelink",
+      "undying",
+      "intimidate"
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "undying",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "undying",
+      "hexproof"
+    ],
+    "C": [
+      "vigilance",
+      "menace"
+    ]
+  }
+}

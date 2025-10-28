@@ -1,0 +1,822 @@
+{
+  "name": "Betrayers of Kamigawa — Mega Pack",
+  "version": 1,
+  "description": "A very large content pack focused on Betrayers of Kamigawa (BOK) mechanics: Ninjutsu, Offering (tribal patrons), Bushido, Soulshift, Splice onto Arcane, Spirit/Arcane themes, ki counters & flip-style progression. Includes extensive templates, string pools, creature subtypes per color, and extra keyword seasoning.",
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Samurai",
+      "Fox",
+      "Kitsune",
+      "Spirit",
+      "Cleric",
+      "Advisor"
+    ],
+    "U": [
+      "Human",
+      "Moonfolk",
+      "Soratami",
+      "Ninja",
+      "Rogue",
+      "Spirit",
+      "Wizard"
+    ],
+    "B": [
+      "Human",
+      "Rat",
+      "Nezumi",
+      "Ogre",
+      "Shaman",
+      "Ninja",
+      "Spirit",
+      "Rogue"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Akki",
+      "Samurai",
+      "Warrior",
+      "Shaman",
+      "Spirit"
+    ],
+    "G": [
+      "Human",
+      "Snake",
+      "Orochi",
+      "Shaman",
+      "Spirit",
+      "Warrior"
+    ],
+    "C": [
+      "Spirit"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "first strike",
+      "bushido 1"
+    ],
+    "U": [
+      "flying",
+      "ward {1}",
+      "ninjutsu {1}{U}"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "ninjutsu {1}{B}"
+    ],
+    "R": [
+      "haste",
+      "first strike"
+    ],
+    "G": [
+      "trample",
+      "reach"
+    ],
+    "C": []
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "When",
+      "At the beginning of",
+      "At end of turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "you own",
+      "an opponent controls"
+    ],
+    "ARCANE_VERB": [
+      "commune",
+      "channel",
+      "entreat",
+      "invoke",
+      "attune"
+    ],
+    "NINJA_TRICK": [
+      "draw a card",
+      "target creature can't block this turn",
+      "that player discards a card",
+      "return target creature to its owner's hand",
+      "create a 1/1 colorless Spirit creature token",
+      "scry 2",
+      "mill two cards",
+      "untap up to one target creature"
+    ],
+    "NINJUTSU_COST_SMALL": [
+      "{U}{B}",
+      "{1}{U}",
+      "{1}{B}",
+      "{2}"
+    ],
+    "NINJUTSU_COST_BIG": [
+      "{2}{U}{B}",
+      "{3}{U}",
+      "{3}{B}",
+      "{4}"
+    ],
+    "OFFERING_TRIBE": [
+      "Goblin",
+      "Akki",
+      "Rat",
+      "Nezumi",
+      "Fox",
+      "Kitsune",
+      "Snake",
+      "Orochi",
+      "Moonfolk",
+      "Soratami"
+    ],
+    "KI_TRIGGER": [
+      "Whenever you cast a Spirit or Arcane spell",
+      "Whenever you cast an Arcane spell",
+      "Whenever this creature deals combat damage to a player"
+    ],
+    "BUSHIDO_RANK": [
+      "1",
+      "2",
+      "3"
+    ],
+    "SOULSHIFT_RANK": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "SPLICE_COST_SMALL": [
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "SPLICE_COST_MED": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}"
+    ],
+    "SPLICE_COST_BIG": [
+      "{3}{W}",
+      "{3}{U}",
+      "{3}{B}",
+      "{3}{R}",
+      "{3}{G}"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "AURA_BOON_SMALL": [
+      "+1/+1",
+      "+0/+2",
+      "+2/+0"
+    ],
+    "AURA_BOON_MED": [
+      "+2/+2",
+      "+3/+1",
+      "+1/+3"
+    ],
+    "AURA_KEYWORD": [
+      "first strike",
+      "vigilance",
+      "flying",
+      "menace",
+      "lifelink",
+      "trample"
+    ],
+    "SAMURAI_TITLE": [
+      "Honorbound",
+      "Unyielding",
+      "Dawnblade",
+      "War-Faithful",
+      "Kanushi"
+    ],
+    "NINJA_TITLE": [
+      "Silent Blade",
+      "Moon-Shadow",
+      "Grave Whisper",
+      "Nightveil",
+      "Inkblade"
+    ]
+  },
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Bushido {BUSHIDO_RANK}. (Whenever this creature blocks or becomes blocked, it gets +{BUSHIDO_RANK}/+{BUSHIDO_RANK} until end of turn.)",
+          7,
+          2,
+          6
+        ],
+        [
+          "Soulshift {SOULSHIFT_RANK}. (When this creature dies, you may return target Spirit card with mana value {SOULSHIFT_RANK} or less from your graveyard to your hand.)",
+          5,
+          3,
+          6
+        ],
+        [
+          "{KI_TRIGGER}, put a ki counter on this creature. As long as it has three or more ki counters, it gets +2/+2 and has vigilance.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, create a 1/1 colorless Spirit creature token.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Other Samurai creatures you control get +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a Samurai {CREATURE_CONTROLLER} dies, you gain 2 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Legendary Creature — Spirit\nFox offering (You may cast this spell any time you could cast an instant by sacrificing a Fox. If you do, reduce its cost by the sacrificed creature's mana value.)\nVigilance\nWhenever a Spirit enters the battlefield under your control, you gain 2 life.",
+          2,
+          6,
+          8
+        ],
+        [
+          "At the beginning of your end step, if there are three or more ki counters on this creature, it becomes legendary and gets +2/+2 and has \"Creatures you control get +1/+1.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains first strike until end of turn.",
+          5,
+          1,
+          3
+        ],
+        [
+          "Prevent the next {X} damage that would be dealt to any target this turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Exile target attacking creature. Its controller gains life equal to its toughness.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Arcane — {ARCANE_VERB}. Target creature gets +2/+2 until end of turn.\nSplice onto Arcane {SPLICE_COST_SMALL}.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target tapped creature.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 colorless Spirit creature tokens.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Arcane — {ARCANE_VERB}. Gain {X} life.\nSplice onto Arcane {SPLICE_COST_SMALL}.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature\nEnchanted creature gets {AURA_BOON_MED} and has vigilance.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Samurai you control have bushido 1. (Whenever a Samurai blocks or becomes blocked, it gets +1/+1 until end of turn.)",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets {AURA_BOON_SMALL} and has first strike.\nEquip {EQUIP_COST}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {W}.\n{2}, {T}: Create a 1/1 colorless Spirit creature token. Activate only as a sorcery.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Ninjutsu {NINJUTSU_COST_SMALL} (Return an unblocked attacker you control to hand: Put this onto the battlefield from your hand tapped and attacking.)",
+          8,
+          2,
+          5
+        ],
+        [
+          "Whenever a Ninja you control deals combat damage to a player, {NINJA_TRICK}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "{KI_TRIGGER}, put a ki counter on this creature. As long as it has three or more ki counters, it has flying and \"Whenever this deals combat damage to a player, draw a card.\"",
+          4,
+          3,
+          6
+        ],
+        [
+          "When this creature enters the battlefield, return target creature to its owner's hand.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Moonfolk offering (You may cast this spell any time you could cast an instant by sacrificing a Moonfolk. If you do, the total cost of this spell is reduced by the sacrificed creature's mana value.)",
+          2,
+          5,
+          7
+        ],
+        [
+          "Legendary Creature — Spirit\nMoonfolk offering (You may cast this spell any time you could cast an instant by sacrificing a Moonfolk. If you do, reduce its cost by the sacrificed creature's mana value.)\nFlying\nWhenever you play a land, you may return a land you control to its owner's hand.",
+          2,
+          6,
+          8
+        ],
+        [
+          "Legendary Creature — Human Ninja\nNinjutsu {NINJUTSU_COST_BIG}\nWhenever a Ninja you control deals combat damage to a player, you may draw a card.",
+          3,
+          5,
+          7
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, put a ki counter on this. Then if it has three or more ki counters, it becomes legendary and has hexproof.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Arcane — {ARCANE_VERB}. Counter target spell unless its controller pays {X}.\nSplice onto Arcane {SPLICE_COST_SMALL}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Return target nonland permanent to its owner's hand.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Look at the top three cards of your library, put one into your hand and the rest into your graveyard.",
+          4,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards.\nArcane — {ARCANE_VERB}. Splice onto Arcane {SPLICE_COST_SMALL}.",
+          6,
+          2,
+          4
+        ],
+        [
+          "Reveal the top {X} cards of your library. Put one into your hand and the rest on the bottom of your library in any order.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature\nEnchanted creature has \"{T}: Draw a card, then discard a card.\"",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, scry 1.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature has \"Whenever this creature deals combat damage to a player, {NINJA_TRICK}.\"\nEquip {EQUIP_COST}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {U}.\n{2}, {T}: Return target creature you control to its owner's hand.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Ninjutsu {NINJUTSU_COST_SMALL}",
+          6,
+          2,
+          5
+        ],
+        [
+          "Whenever a Ninja you control deals combat damage to a player, that player discards a card.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Bushido {BUSHIDO_RANK}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Soulshift {SOULSHIFT_RANK}.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever another Spirit {CREATURE_CONTROLLER} dies, you gain 1 life and each opponent loses 1 life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Rat offering (You may cast this spell any time you could cast an instant by sacrificing a Rat. If you do, reduce its cost by the sacrificed creature's mana value.)",
+          3,
+          5,
+          7
+        ],
+        [
+          "Legendary Creature — Spirit\nRat offering (You may cast this spell any time you could cast an instant by sacrificing a Rat. If you do, reduce its cost by the sacrificed creature's mana value.)\nMenace\nWhenever a creature an opponent controls dies, draw a card and lose 1 life.",
+          2,
+          6,
+          8
+        ],
+        [
+          "Legendary Creature — Rat Ninja\nNinjutsu {NINJUTSU_COST_BIG}\nWhenever a Ninja you control deals combat damage to a player, that player discards a card and you create a Treasure token.",
+          3,
+          5,
+          7
+        ],
+        [
+          "Whenever a creature an opponent controls dies, put a ki counter on this. Then if it has three or more ki counters, it becomes legendary and has \"{T}: Target opponent loses 2 life.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Arcane — {ARCANE_VERB}. Target creature gets -{X}/-{X} until end of turn.\nSplice onto Arcane {SPLICE_COST_SMALL}.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Destroy target tapped creature. You gain 2 life.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target player discards two cards.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to your hand.\nArcane — Splice onto Arcane {SPLICE_COST_SMALL}.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Each opponent loses {X} life and you gain {X} life.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature\nEnchanted creature gets +2/+1 and has menace.\nWhenever enchanted creature deals combat damage to a player, that player discards a card.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature an opponent controls dies, you may pay {1}. If you do, draw a card.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+0 and has \"Whenever this creature deals combat damage to a player, that player discards a card.\"\nEquip {EQUIP_COST}.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {B}.\n{2}, {T}: Return target creature card from your graveyard to your hand. Activate only as a sorcery.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Bushido {BUSHIDO_RANK}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Goblin offering (You may cast this spell any time you could cast an instant by sacrificing a Goblin. If you do, reduce its cost by the sacrificed creature's mana value.)",
+          3,
+          5,
+          7
+        ],
+        [
+          "Ogre Warrior — As long as you control a Demon, this gets +2/+0 and has menace.",
+          2,
+          4,
+          6
+        ],
+        [
+          "{KI_TRIGGER}, put a ki counter on this creature. Remove a ki counter from this: This deals 1 damage to any target.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Whenever a Ninja you control deals combat damage to a player, you may have target creature can't block this turn.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Legendary Creature — Spirit\nGoblin offering (You may cast this spell any time you could cast an instant by sacrificing a Goblin. If you do, reduce its cost by the sacrificed creature's mana value.)\nHaste\nWhenever you cast a Spirit or Arcane spell, this deals 1 damage to any target.",
+          2,
+          6,
+          8
+        ],
+        [
+          "Whenever this attacks, put a ki counter on it. Then if it has three or more ki counters, it becomes legendary and has \"{T}: This creature deals 2 damage to any target.\"",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Arcane — {ARCANE_VERB}. This spell deals {X} damage to any target.\nSplice onto Arcane {SPLICE_COST_MED}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Target creature gets +2/+0 and gains first strike until end of turn.",
+          4,
+          1,
+          3
+        ],
+        [
+          "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact.\nArcane — Splice onto Arcane {SPLICE_COST_SMALL}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 colorless Spirit creature tokens with haste. Sacrifice them at the beginning of the next end step.",
+          3,
+          3,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature\nEnchanted creature gets +{X}/+0 and has haste.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +2/+0 and has \"{T}: This creature deals 1 damage to any target.\"\nEquip {EQUIP_COST}.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {R}.\n{2}, {T}: Target creature gains haste until end of turn.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Soulshift {SOULSHIFT_RANK}.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Snake offering (You may cast this spell any time you could cast an instant by sacrificing a Snake. If you do, reduce its cost by the sacrificed creature's mana value.)",
+          3,
+          5,
+          7
+        ],
+        [
+          "Bushido {BUSHIDO_RANK}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "{KI_TRIGGER}, put a ki counter on this creature. As long as it has three or more ki counters, it gets +2/+2 and has trample.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Whenever a Spirit enters the battlefield under your control, put a +1/+1 counter on target creature.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Legendary Creature — Spirit\nSnake offering (You may cast this spell any time you could cast an instant by sacrificing a Snake. If you do, reduce its cost by the sacrificed creature's mana value.)\nTrample\nWhenever you cast a Spirit or Arcane spell, create a 1/1 colorless Spirit creature token.",
+          2,
+          6,
+          8
+        ],
+        [
+          "Whenever a land enters the battlefield under your control, put a ki counter on this. Then if it has three or more ki counters, it becomes legendary and has trample.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Arcane — {ARCANE_VERB}. Target creature gets +{X}/+{X} until end of turn.\nSplice onto Arcane {SPLICE_COST_MED}.",
+          6,
+          2,
+          5
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Target creature you control fights target creature you don't control.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Create two 1/1 colorless Spirit creature tokens.\nArcane — Splice onto Arcane {SPLICE_COST_SMALL}.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Aura — Enchant creature\nEnchanted creature gets {AURA_BOON_MED} and has trample.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Whenever you cast a Spirit or Arcane spell, put a +1/+1 counter on target creature.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Equipment — Equipped creature gets +1/+1 and has trample.\nEquip {EQUIP_COST}.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Land": [
+        [
+          "This land enters the battlefield tapped.\n{T}: Add {G}.\n{2}, {T}: Target creature gets +1/+1 until end of turn for each Spirit you control.",
+          1,
+          3,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Legendary Artifact — Whenever you cast a Spirit or Arcane spell, put a charge counter on this. {T}, Remove three charge counters from this: Draw a card.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Equipment — Equipped creature gets +1/+1.\nWhenever equipped creature deals combat damage to a player, {NINJA_TRICK}.\nEquip {EQUIP_COST}.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Legendary Enchantment — Spirit and Arcane spells you cast cost {1} less to cast.",
+          2,
+          3,
+          6
+        ]
+      ]
+    }
+  }
+}

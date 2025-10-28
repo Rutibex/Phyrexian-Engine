@@ -1,0 +1,755 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Landfall \u2014 If you had a land enter under your control this turn, it also gains trample until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "This spell costs {N} less to cast if it targets a legendary creature you control.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Convoke (Your creatures can help cast this spell.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Convoke (Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. Convoke.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "This spell costs {N} less to cast if you control a legendary creature.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] you cast a legendary spell, [TOKEN_PT].",
+          2,
+          1,
+          3
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "As this enters the battlefield, choose a planeswalker type. Planeswalkers you control of the chosen type have hexproof.",
+          3,
+          1,
+          1
+        ],
+        [
+          "As long as you control a creature, if damage dealt to a planeswalker you control of the chosen type would remove all loyalty counters from it, instead remove all but one.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Creatures you control have ward {N}.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Artifact": [
+        [
+          "Each legendary permanent you control has ward {N}.",
+          3,
+          2,
+          3
+        ],
+        [
+          "Create a 1/1 [TOKEN_COLOR] Thopter artifact creature token with flying.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "As long as equipped creature is legendary, it has indestructible.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Landfall \u2014 If you had a land enter under your control this turn, it also gains trample until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "This spell costs {N} less to cast if it targets a legendary creature you control.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Exile target nonland card with mana value {X} or less from a graveyard. Until end of turn, you may cast a copy of it without paying its mana cost.",
+          3,
+          2,
+          5
+        ],
+        [
+          "This spell costs {N} less to cast if you control a legendary creature.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "[TRIGGER_INTRO] you cast a noncreature spell, [TOKEN_PT].",
+          3,
+          1,
+          3
+        ],
+        [
+          "[TRIGGER_INTRO] it enters the battlefield, exile target instant or sorcery card with mana value {X} or less from your graveyard. Until end of turn, you may cast a copy of it.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Legendary creatures you control have hexproof from monocolored.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "Legendary spells you cast cost {N} less to cast.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Landfall \u2014 If you had a land enter under your control this turn, it also gains trample until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "This spell has madness {X}. (If you discard this card, you may cast it for its madness cost.)",
+          4,
+          2,
+          4
+        ],
+        [
+          "This spell costs {N} less to cast if it targets a legendary creature you control.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Undergrowth \u2014 Each creature gets -{X}/-X until end of turn, where X is the number of creature cards in your graveyard.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Undergrowth \u2014 Create a [TOKEN_SUBTYPE] token with power and toughness each equal to the number of creature cards in your graveyard.",
+          2,
+          1,
+          1
+        ],
+        [
+          "This spell costs {N} less to cast if you control a legendary creature.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Madness \u2014 [TRIGGER_INTRO] you discard a card, [ACTIVATED_EFFECT].",
+          3,
+          1,
+          1
+        ],
+        [
+          "Undergrowth \u2014 [TRIGGER_INTRO] your end step, if you have {X} or more creature cards in your graveyard, [ACTIVATED_EFFECT].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you discard a card, you may pay {X}. If you do, return that card from your graveyard to your hand.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Landfall \u2014 If you had a land enter under your control this turn, it also gains trample until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "This spell deals {X} damage to any target. Madness {X}.",
+          2,
+          2,
+          4
+        ],
+        [
+          "This spell costs {N} less to cast if it targets a legendary creature you control.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Create two 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens. They gain haste until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "This spell costs {N} less to cast if you control a legendary creature.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever an equipped creature you control attacks, exile the top card of your library. You may play it this turn.",
+          4,
+          1,
+          1
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equip {X}",
+          4,
+          1,
+          3
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Target creature gets +{X}/+{X} until end of turn. Landfall \u2014 If you had a land enter under your control this turn, it also gains trample until end of turn.",
+          2,
+          1,
+          3
+        ],
+        [
+          "This spell costs {N} less to cast if it targets a legendary creature you control.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "Undergrowth \u2014 Each creature gets -{X}/-X until end of turn, where X is the number of creature cards in your graveyard.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Undergrowth \u2014 Create a [TOKEN_SUBTYPE] token with power and toughness each equal to the number of creature cards in your graveyard.",
+          2,
+          1,
+          1
+        ],
+        [
+          "This spell costs {N} less to cast if you control a legendary creature.",
+          3,
+          1,
+          2
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Constellation \u2014 [TRIGGER_INTRO] an enchantment enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters the battlefield under your control, [ACTIVATED_EFFECT].",
+          4,
+          1,
+          6
+        ],
+        [
+          "Landfall \u2014 [TRIGGER_INTRO] a land enters under your control, [TOKEN_PT].",
+          3,
+          1,
+          6
+        ],
+        [
+          "Undergrowth \u2014 [TRIGGER_INTRO] your end step, if you have {X} or more creature cards in your graveyard, [ACTIVATED_EFFECT].",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Create a Food token.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [
+        [
+          "As long as enchanted creature is legendary, it gets +{N}/+{N} and has trample.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "Whenever you cast a multicolored spell, scry {N}.",
+          3,
+          1,
+          2
+        ],
+        [
+          "{T}: Add {C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Angel",
+      "Cleric",
+      "Advisor",
+      "Artificer",
+      "Berserker",
+      "Dinosaur",
+      "Druid",
+      "Merfolk",
+      "Noble",
+      "Rogue",
+      "Samurai",
+      "Vampire",
+      "Wizard"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Illusion",
+      "Faerie",
+      "Vedalken",
+      "Advisor",
+      "Artificer",
+      "Berserker",
+      "Dinosaur",
+      "Druid",
+      "Knight",
+      "Noble",
+      "Rogue",
+      "Samurai",
+      "Vampire"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Shade",
+      "Skeleton",
+      "Cleric",
+      "Advisor",
+      "Artificer",
+      "Berserker",
+      "Dinosaur",
+      "Druid",
+      "Knight",
+      "Merfolk",
+      "Noble",
+      "Rogue",
+      "Samurai",
+      "Wizard"
+    ],
+    "R": [
+      "Goblin",
+      "Warrior",
+      "Berserker",
+      "Elemental",
+      "Shaman",
+      "Advisor",
+      "Artificer",
+      "Dinosaur",
+      "Druid",
+      "Knight",
+      "Merfolk",
+      "Noble",
+      "Rogue",
+      "Samurai",
+      "Vampire",
+      "Wizard"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Wolf",
+      "Spider",
+      "Advisor",
+      "Artificer",
+      "Berserker",
+      "Dinosaur",
+      "Knight",
+      "Merfolk",
+      "Noble",
+      "Rogue",
+      "Samurai",
+      "Vampire",
+      "Wizard"
+    ],
+    "any": [
+      "Scout",
+      "Rogue",
+      "Archer",
+      "Monk",
+      "Artificer",
+      "Construct",
+      "Advisor",
+      "Berserker",
+      "Dinosaur",
+      "Druid",
+      "Knight",
+      "Merfolk",
+      "Noble",
+      "Samurai",
+      "Vampire",
+      "Wizard"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,",
+      "At the beginning of your end step, if",
+      "Whenever one or more"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct",
+      "Thopter",
+      "Saproling"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature.",
+      "you gain {N} life",
+      "scry {N}",
+      "target creature gets +{N}/+{N} until end of turn",
+      "add {X} mana in any combination of colors",
+      "create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "training",
+      "ward {X}"
+    ],
+    "U": [
+      "ward {X}"
+    ],
+    "B": [
+      "rampage {X}"
+    ],
+    "R": [
+      "rampage {X}"
+    ],
+    "G": [
+      "rampage {X}"
+    ],
+    "C": [],
+    "evergreen": [
+      "prowess",
+      "ward"
+    ]
+  }
+}

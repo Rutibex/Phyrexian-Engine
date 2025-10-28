@@ -1,0 +1,823 @@
+{
+  "package_name": "duskmourn",
+  "package_version": "1.0",
+  "description": "A very large Duskmourn mechanics package: Rooms, Eerie, Impending, Manifest Dread, Survival, and Delirium, plus synergies and support pieces.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Eerie \u2014 put a +1/+1 counter on up to one target creature you control.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Survival \u2014 At the beginning of your second main phase, if this is tapped, create a 1/1 white [TOKEN_SUBTYPE] creature token.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Delirium \u2014 When this enters, if there are four or more card types among cards in your graveyard, gain 4 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "When this enters, manifest dread. (Look at the top two cards of your library. Manifest one and put the other into your graveyard.)",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever one or more enchantments enter under your control, tap up to one target creature an opponent controls. It doesn't untap during its controller's next untap step.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target attacking or blocking creature gets +2/+2 until end of turn. Eerie \u2014 If an enchantment entered under your control this turn or you fully unlocked a Room, instead put two +1/+1 counters on it.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile target attacking creature. Delirium \u2014 You gain 2 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Untap up to two target creatures. Prevent all damage that would be dealt to them this turn. If you manifested dread this turn, draw a card.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white [TOKEN_SUBTYPE] creature tokens. Eerie \u2014 Then creatures you control get +1/+0 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Return target enchantment card from your graveyard to your hand. Delirium \u2014 Return target creature card instead.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Eerie \u2014 whenever an enchantment enters under your control, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "At the beginning of your upkeep, gain 1 life. Delirium \u2014 Instead gain 3 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this enters, manifest dread.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Room": [
+        [
+          "Chapel of Quietude \u2014 Creatures you control get +1/+0.\n{1W}\n//\nHidden Reliquary \u2014 When you unlock this door, create a 1/1 white [TOKEN_SUBTYPE] token.\n{W}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Sanctified Ward \u2014 Prevent the next 2 damage that would be dealt to any target this turn.\n{1W}\n//\nCenser Alcove \u2014 When you unlock this door, you gain 3 life.\n{W}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          3,
+          1,
+          6
+        ]
+      ],
+      "EnchantmentCreature": [
+        [
+          "Impending 3 {2}W (You may cast this for its impending cost. It enters with 3 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When the last counter is removed, create a 3/3 white [TOKEN_SUBTYPE] creature token.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 2 {3}W (You may cast this for its impending cost. It enters with 2 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When this becomes a creature, draw two cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 4 {1}W (You may cast this for its impending cost. It enters with 4 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) As long as this isn't a creature, it has hexproof.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you fully unlock a Room, put a charge counter on this. {T}, Remove three charge counters from this: Draw two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Manifest dread.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature is turned face up, it gains first strike until end of turn. Equip {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this enters, tap enchanted creature. Eerie \u2014 Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1.\nDelirium \u2014 Enchanted creature has vigilance, trample, menace, prowess, or hexproof depending on color identity.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" Eerie \u2014 When this enters, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. Delirium \u2014 Add an additional {1}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Eerie \u2014 draw a card, then discard a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Survival \u2014 At the beginning of your second main phase, if this is tapped, return up to one other target creature you control to its owner's hand.",
+          3,
+          1,
+          6
+        ],
+        [
+          "When this enters, manifest dread. Whenever a face-down creature you control is turned face up, you may tap target creature an opponent controls.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Delirium \u2014 This has flying and ward {1} as long as there are four or more card types among cards in your graveyard.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}, where X is the number of enchantments you control.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Return target nonland permanent to its owner's hand. If you fully unlocked a Room this turn, draw a card.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Turn target face-down creature you control face up. Draw a card.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Look at the top four cards of your library. Manifest dread, then put one of the rest into your hand and the others into your graveyard.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Create a 1/1 blue Illusion creature token with \"When this becomes the target of a spell, sacrifice it.\" Eerie \u2014 Create two of those tokens instead.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Eerie \u2014 target creature doesn't untap during its controller's next untap step.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Whenever you manifest dread, scry 2.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Delirium \u2014 At the beginning of your end step, if there are four or more card types among cards in your graveyard, draw a card.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Room": [
+        [
+          "Echoing Hall \u2014 Whenever you cast a noncreature spell, scry 1.\n{1U}\n//\nFlooded Cellar \u2014 When you unlock this door, tap up to two target creatures. They don't untap during their controllers' next untap steps.\n{2U}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          2,
+          2,
+          6
+        ],
+        [
+          "Observation Deck \u2014 At the beginning of your upkeep, draw a card, then discard a card.\n{2U}\n//\nSealed Archive \u2014 When you unlock this door, return target nonland permanent to its owner's hand.\n{1U}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          2,
+          3,
+          6
+        ]
+      ],
+      "EnchantmentCreature": [
+        [
+          "Impending 3 {2}U (You may cast this for its impending cost. It enters with 3 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When the last counter is removed, create a 3/3 blue [TOKEN_SUBTYPE] creature token.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 2 {3}U (You may cast this for its impending cost. It enters with 2 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When this becomes a creature, draw two cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 4 {1}U (You may cast this for its impending cost. It enters with 4 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) As long as this isn't a creature, it has hexproof.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you fully unlock a Room, put a charge counter on this. {T}, Remove three charge counters from this: Draw two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Manifest dread.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature is turned face up, it gains first strike until end of turn. Equip {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this enters, tap enchanted creature. Eerie \u2014 Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1.\nDelirium \u2014 Enchanted creature has vigilance, trample, menace, prowess, or hexproof depending on color identity.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" Eerie \u2014 When this enters, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. Delirium \u2014 Add an additional {1}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Eerie \u2014 each opponent loses 1 life and you gain 1 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Survival \u2014 At the beginning of your second main phase, if this is tapped, each opponent loses 2 life.",
+          3,
+          1,
+          6
+        ],
+        [
+          "When this enters, manifest dread. Whenever a creature you control is turned face up, each opponent mills two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Delirium \u2014 This gets +2/+0 and has menace as long as there are four or more card types among cards in your graveyard.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -X/-X until end of turn, where X is the number of enchantments you control.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Destroy target creature with mana value {MV} or less. Delirium \u2014 You gain 2 life.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Manifest dread, then each opponent loses 1 life for each face-down creature you control.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to your hand. If you fully unlocked a Room this turn, return that card to the battlefield tapped instead.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Search your library for a card, reveal it, put it into your hand, then shuffle. Delirium \u2014 You may put it onto the battlefield tapped instead.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Eerie \u2014 each opponent discards a card, then you may exile a card from a graveyard.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Whenever a nontoken creature you control dies, manifest dread.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Room": [
+        [
+          "Morgue Freezer \u2014 Whenever a creature you control dies, each opponent loses 1 life.\n{1B}\n//\nSpecimen Locker \u2014 When you unlock this door, return up to one target creature card from your graveyard to your hand.\n{B}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Rotting Parlor \u2014 Creatures your opponents control get -1/-0.\n{1B}\n//\nForgotten Stairwell \u2014 When you unlock this door, each opponent discards a card.\n{1B}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          2,
+          3,
+          6
+        ]
+      ],
+      "EnchantmentCreature": [
+        [
+          "Impending 3 {2}B (You may cast this for its impending cost. It enters with 3 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When the last counter is removed, create a 3/3 black [TOKEN_SUBTYPE] creature token.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 2 {3}B (You may cast this for its impending cost. It enters with 2 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When this becomes a creature, draw two cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 4 {1}B (You may cast this for its impending cost. It enters with 4 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) As long as this isn't a creature, it has hexproof.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you fully unlock a Room, put a charge counter on this. {T}, Remove three charge counters from this: Draw two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Manifest dread.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature is turned face up, it gains first strike until end of turn. Equip {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this enters, enchanted creature gets -2/-0 until end of turn. Eerie \u2014 Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1.\nDelirium \u2014 Enchanted creature has vigilance, trample, menace, prowess, or hexproof depending on color identity.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" Eerie \u2014 When this enters, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. Delirium \u2014 Add an additional {1}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Eerie \u2014 this gets +1/+0 and gains haste until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Survival \u2014 At the beginning of your second main phase, if this is tapped, this deals 1 damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "When this enters, manifest dread. Whenever a face-down creature you control is turned face up, this deals 2 damage to any target.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Delirium \u2014 This has first strike and \"Whenever this attacks, it gets +1/+0 until end of turn\" as long as there are four or more card types among cards in your graveyard.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This deals 3 damage to any target. If an enchantment entered under your control this turn, this deals 4 damage instead.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Manifest dread. Then creatures you control get +1/+0 until end of turn.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Destroy target artifact. Eerie \u2014 Create a tapped Treasure token.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Goblin creature tokens. Eerie \u2014 They gain haste until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Exile the top two cards of your library. Until the end of your next turn, you may play them. If you fully unlocked a Room this turn, add {R}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Eerie \u2014 this deals 1 damage to each opponent.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever you manifest dread, you may discard a card. If you do, draw a card.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Room": [
+        [
+          "Shattered Hall \u2014 Whenever a creature you control attacks, this deals 1 damage to defending player.\n{1R}\n//\nPainter's Studio \u2014 When you unlock this door, exile the top two cards of your library. You may play them until the end of your next turn.\n{2R}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Boiler Room \u2014 Add {R}{R}. Spend this mana only to cast instant or sorcery spells.\n{R}\n//\nDefaced Gallery \u2014 When you unlock this door, attacking creatures you control get +1/+0 until end of turn.\n{1R}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          2,
+          2,
+          6
+        ]
+      ],
+      "EnchantmentCreature": [
+        [
+          "Impending 3 {2}R (You may cast this for its impending cost. It enters with 3 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When the last counter is removed, create a 3/3 red [TOKEN_SUBTYPE] creature token.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 2 {3}R (You may cast this for its impending cost. It enters with 2 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When this becomes a creature, draw two cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 4 {1}R (You may cast this for its impending cost. It enters with 4 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) As long as this isn't a creature, it has hexproof.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you fully unlock a Room, put a charge counter on this. {T}, Remove three charge counters from this: Draw two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Manifest dread.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature is turned face up, it gains first strike until end of turn. Equip {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this enters, enchanted creature gets +2/+0 and haste until end of turn. Eerie \u2014 Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1.\nDelirium \u2014 Enchanted creature has vigilance, trample, menace, prowess, or hexproof depending on color identity.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" Eerie \u2014 When this enters, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. Delirium \u2014 Add an additional {1}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Eerie \u2014 put a +1/+1 counter on this.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Survival \u2014 At the beginning of your second main phase, if this is tapped, search your library for a basic land card, reveal it, put it onto the battlefield tapped, then shuffle.",
+          2,
+          2,
+          6
+        ],
+        [
+          "When this enters, manifest dread. Whenever a face-down creature you control is turned face up, put a +1/+1 counter on it.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Delirium \u2014 This has trample and vigilance as long as there are four or more card types among cards in your graveyard.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +3/+3 until end of turn. If you fully unlocked a Room this turn, it also gains trample until end of turn.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Manifest dread, then untap up to two target creatures.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Destroy target artifact or enchantment. If an enchantment entered under your control this turn, create a 1/1 green [TOKEN_SUBTYPE] creature token.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Eerie \u2014 You gain 2 life.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Manifest dread twice.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Eerie \u2014 creatures you control get +1/+1 until end of turn.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Whenever a creature you control is turned face up, draw a card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Room": [
+        [
+          "Overgrown Conservatory \u2014 Creatures you control get +0/+1.\n{1G}\n//\nHidden Rootway \u2014 When you unlock this door, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{2G}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          3,
+          2,
+          6
+        ],
+        [
+          "Feeding Trough \u2014 At the beginning of your end step, put a +1/+1 counter on target creature you control that attacked this turn.\n{G}\n//\nSunlit Atrium \u2014 When you unlock this door, gain 4 life.\n{1G}\nEnchantment \u2014 Room\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+          2,
+          1,
+          6
+        ]
+      ],
+      "EnchantmentCreature": [
+        [
+          "Impending 3 {2}G (You may cast this for its impending cost. It enters with 3 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When the last counter is removed, create a 3/3 green [TOKEN_SUBTYPE] creature token.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 2 {3}G (You may cast this for its impending cost. It enters with 2 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) When this becomes a creature, draw two cards.",
+          1,
+          4,
+          6
+        ],
+        [
+          "Impending 4 {1}G (You may cast this for its impending cost. It enters with 4 time counters on it and isn't a creature while it has any. At the beginning of your end step, remove a time counter.) As long as this isn't a creature, it has hexproof.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [
+        [
+          "Whenever you fully unlock a Room, put a charge counter on this. {T}, Remove three charge counters from this: Draw two cards.",
+          2,
+          2,
+          6
+        ],
+        [
+          "{T}, Sacrifice this: Manifest dread.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Equipped creature gets +2/+0. Whenever equipped creature is turned face up, it gains first strike until end of turn. Equip {2}.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchant creature\nWhen this enters, enchanted creature gets +1/+1 until end of turn. Eerie \u2014 Draw a card.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Enchant creature\nEnchanted creature gets +1/+1.\nDelirium \u2014 Enchanted creature has vigilance, trample, menace, prowess, or hexproof depending on color identity.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchant land\nEnchanted land has \"{T}: Add one mana of any color.\" Eerie \u2014 When this enters, scry 1.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchant land\nWhenever enchanted land is tapped for mana, its controller gains 1 life. Delirium \u2014 Add an additional {1}.",
+          2,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "notes": {
+    "rooms": "Modeled as Enchantment \u2014 Room with unlockable doors and reminder text. Treated as static text in this generator.",
+    "impending": "For Enchantment Creatures; remove counters at your end step before it becomes a creature.",
+    "eerie": "Triggers on enchantment ETB and on fully unlocking a Room.",
+    "survival": "Second main phase if tapped.",
+    "manifest_dread": "Look at top two, manifest one, mill the other.",
+    "delirium": "4+ card types among cards in your graveyard enable stronger effects."
+  }
+}

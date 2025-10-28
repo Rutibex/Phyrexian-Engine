@@ -1,0 +1,616 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature tokens.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "[TRIGGER_INTRO] a creature [CREATURE_CONTROLLER] [CREATURE_TRIGGER], create a {X}/{X} [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gains vigilance until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          2,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards.",
+          2,
+          4,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, draw a card.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Scry {X}.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -{X}/-{X} until end of turn.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent loses {X} life and you gain {X} life.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gets -1/-1 until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "Deal {X} damage to any target.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy target artifact or land.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast a noncreature spell, this deals 1 damage to any target.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gains haste until end of turn.",
+          1,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} until end of turn.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 3/3 [TOKEN_COLOR] Beast creature tokens.",
+          1,
+          5,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +{X}/+{X}.",
+          1,
+          4,
+          6
+        ]
+      ],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Put a +1/+1 counter on target creature.",
+          1,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color.",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] [ACTIVATED_EFFECT]",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Add {C}.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has menace.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Enchanted creature has trample.",
+          3,
+          1,
+          6
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          5,
+          1,
+          6
+        ],
+        [
+          "Enchanted land has \"{T}: Add {C}.\"",
+          4,
+          1,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          6,
+          1,
+          6
+        ],
+        [
+          "Equipped creature has vigilance.",
+          4,
+          1,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Spirit",
+      "Angel",
+      "Cleric"
+    ],
+    "U": [
+      "Merfolk",
+      "Wizard",
+      "Illusion",
+      "Faerie",
+      "Vedalken"
+    ],
+    "B": [
+      "Zombie",
+      "Vampire",
+      "Shade",
+      "Skeleton",
+      "Cleric"
+    ],
+    "R": [
+      "Goblin",
+      "Warrior",
+      "Berserker",
+      "Elemental",
+      "Shaman"
+    ],
+    "G": [
+      "Elf",
+      "Druid",
+      "Beast",
+      "Wolf",
+      "Spider"
+    ],
+    "any": [
+      "Scout",
+      "Rogue",
+      "Archer",
+      "Monk",
+      "Artificer",
+      "Construct"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "training",
+      "ward {X}"
+    ],
+    "U": [
+      "ward {X}"
+    ],
+    "B": [
+      "rampage {X}"
+    ],
+    "R": [
+      "rampage {X}"
+    ],
+    "G": [
+      "rampage {X}"
+    ],
+    "C": []
+  }
+}

@@ -1,0 +1,928 @@
+{
+  "name": "dragons_of_tarkir",
+  "version": "1.0",
+  "description": "Huge Dragons of Tarkir-inspired package: Bolster, Exploit, Rebound, Dash, Megamorph, Formidable, and Dragon tribal synergies. Original template text (not card quotes).",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "Bolster {BOLSTER_N}.",
+          8,
+          2,
+          6
+        ],
+        [
+          "When this enters, bolster {BOLSTER_N}. If you control a Dragon, gain {GAIN_LIFE}.",
+          6,
+          2,
+          6
+        ],
+        [
+          "Megamorph {MEGAMORPH_COST}. When turned face up, bolster {BOLSTER_N}.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Formidable \u2014 At the beginning of combat, if creatures you control have total power 8 or more, creatures you control gain vigilance until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "When this enters, tap up to two target creatures. Those creatures don't untap during their controller's next untap step if you control a Dragon.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, if you control a Dragon, put a +1/+1 counter on this.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Dash {DASH_COST}. When this attacks, bolster 1.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Exploit (When this enters, you may sacrifice a creature.) When you exploit a creature, bolster {BOLSTER_N}.",
+          3,
+          3,
+          6
+        ],
+        [
+          "As long as you control a Dragon, this has flying and lifelink.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Whenever a creature you control with a +1/+1 counter attacks, create a 1/1 white Warrior creature token that's tapped and attacking.",
+          2,
+          4,
+          7
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{PUMP_SMALL}/+{TOUGH_SMALL} until end of turn. Bolster 1. Rebound.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Exile target tapped creature. If you control a Dragon, scry 2. Rebound.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Prevent all damage that would be dealt this turn. If you control a Dragon, you gain {GAIN_LIFE}.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures. Rebound.",
+          4,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Bolster {BOLSTER_N}. Draw a card if you control a Dragon.",
+          5,
+          2,
+          6
+        ],
+        [
+          "Create two 1/1 white Warrior creature tokens. If you control a Dragon, creatures you control gain vigilance until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Destroy all tapped creatures.",
+          1,
+          5,
+          8
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, bolster 1.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Creatures you control have vigilance as long as you control a Dragon.",
+          3,
+          3,
+          7
+        ],
+        [
+          "Formidable \u2014 At the beginning of combat on your turn, if creatures you control have total power 8 or more, put a +1/+1 counter on up to two target creatures.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{PUMP_SMALL}/+{TOUGH_SMALL}. When this Aura enters, bolster 1.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature has flying as long as you control a Dragon.",
+          3,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Bolster 1.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Tap target creature.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+2 and has vigilance. Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Megamorph {MEGAMORPH_COST}. When turned face up, return target nonland permanent to its owner's hand.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Exploit (When this enters, you may sacrifice a creature.) When you exploit a creature, draw two cards, then discard a card.",
+          6,
+          3,
+          6
+        ],
+        [
+          "Whenever you cast a noncreature spell, if you control a Dragon, scry 1, then this gets +1/+0 until end of turn.",
+          4,
+          2,
+          5
+        ],
+        [
+          "This can't be blocked as long as you control a Dragon.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Dash {DASH_COST}. When this deals combat damage to a player, you may return it to its owner's hand. If you do, draw a card.",
+          2,
+          2,
+          5
+        ],
+        [
+          "Formidable \u2014 When this attacks, if creatures you control have total power 8 or more, draw a card.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {TAX}. If you control a Dragon, draw a card. Rebound.",
+          6,
+          1,
+          5
+        ],
+        [
+          "Return target creature to its owner's hand. If you control a Dragon, that creature's owner puts it on top of their library instead. Rebound.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Tap up to two target creatures. They don't untap during their controller's next untap step. Rebound.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw two cards. Rebound.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Look at the top {LOOK_N} cards of your library. Put one into your hand and the rest on the bottom in any order. If you control a Dragon, scry 2 first.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, scry 1. If you control a Dragon, draw a card then discard a card.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Creatures your opponents control get -2/-0 as long as you control a Dragon.",
+          3,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets -{PUMP_SMALL}/-0 and can't block. When this Aura enters, if you control a Dragon, draw a card.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Enchanted creature has 'At the beginning of your upkeep, return a nonland permanent you control to its owner's hand.'",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Draw a card, then discard a card.",
+          5,
+          2,
+          6
+        ],
+        [
+          "{ACTIVATED_COST}: Target creature gains flying until end of turn.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+0 and has 'Whenever this deals combat damage to a player, draw a card.' Equip {EQUIP_COST}.",
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Exploit (When this enters, you may sacrifice a creature.) When you exploit a creature, target opponent discards two cards.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Megamorph {MEGAMORPH_COST}. When turned face up, target creature gets -{PUMP_MED}/-{PUMP_MED} until end of turn.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Dash {DASH_COST}. When this enters, each opponent loses {LIFE_SMALL} life. You gain that much life.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Formidable \u2014 At the beginning of combat on your turn, if creatures you control have total power 8 or more, target creature an opponent controls gets -2/-2 until end of turn.",
+          3,
+          3,
+          6
+        ],
+        [
+          "As long as you control a Dragon, this has deathtouch and menace.",
+          3,
+          2,
+          5
+        ],
+        [
+          "When this dies, if you exploited a creature this turn, return this to the battlefield tapped.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "Destroy target creature. If you control a Dragon, you gain {GAIN_LIFE}.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Target creature gets -{PUMP_MED}/-{PUMP_MED} until end of turn. Rebound.",
+          4,
+          2,
+          5
+        ],
+        [
+          "Exile target card from a graveyard. Draw a card if you exploited a creature this turn.",
+          4,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Target opponent loses {LIFE_MED} life and you gain {GAIN_LIFE}. If you control a Dragon, each opponent sacrifices a creature.",
+          3,
+          4,
+          7
+        ],
+        [
+          "Return target creature card from your graveyard to your hand. If you exploited a creature this turn, return that card to the battlefield instead.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your end step, each opponent loses 1 life if you control a Dragon.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Exploit synergies \u2014 Whenever a creature you control exploits a creature, each opponent sacrifices a creature.",
+          3,
+          4,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has menace. When this Aura enters, each opponent loses 1 life.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target opponent loses 1 life and you gain 1 life.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has deathtouch. Equip {EQUIP_COST}.",
+          4,
+          3,
+          6
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Dash {DASH_COST}. When this attacks, it deals {DAMAGE_SMALL} damage to any target.",
+          7,
+          2,
+          5
+        ],
+        [
+          "Megamorph {MEGAMORPH_COST}. When turned face up, this deals {DAMAGE_SMALL} damage to each opponent.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Formidable \u2014 Whenever this attacks, if creatures you control have total power 8 or more, this gets +{PUMP_MED}/+0 and gains first strike until end of turn.",
+          4,
+          3,
+          6
+        ],
+        [
+          "As long as you control a Dragon, this has flying and haste.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Exploit (When this enters, you may sacrifice a creature.) When you exploit a creature, this deals {DAMAGE_SMALL} damage to any target.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Instant": [
+        [
+          "This deals {DAMAGE_SMALL} damage to any target. If you control a Dragon, this deals {DAMAGE_BONUS} damage instead. Rebound.",
+          6,
+          1,
+          4
+        ],
+        [
+          "Target creature gets +{PUMP_MED}/+0 and gains first strike until end of turn. Rebound.",
+          4,
+          2,
+          4
+        ],
+        [
+          "This deals {DAMAGE_SMALL} damage divided as you choose among up to two targets.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Sorcery": [
+        [
+          "This deals {DAMAGE_MED} damage to target creature or planeswalker. If you control a Dragon, scry 2.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Create two 1/1 red Goblin creature tokens with haste. Sacrifice them at the beginning of the next end step.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control have haste as long as you control a Dragon.",
+          4,
+          3,
+          7
+        ],
+        [
+          "Formidable \u2014 At the beginning of combat on your turn, if creatures you control have total power 8 or more, this deals {DAMAGE_SMALL} damage to any target.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +2/+0 and has haste.",
+          4,
+          2,
+          5
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Target creature can't block this turn.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+0 and has 'Whenever this attacks, it deals 1 damage to defending player.' Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Megamorph {MEGAMORPH_COST}. When turned face up, put a +1/+1 counter on each of up to two target creatures.",
+          7,
+          3,
+          6
+        ],
+        [
+          "Formidable \u2014 At the beginning of combat on your turn, if creatures you control have total power 8 or more, target creature you control fights up to one target creature you don't control.",
+          5,
+          3,
+          6
+        ],
+        [
+          "Bolster {BOLSTER_N}. Then you may have this fight up to one target creature you don't control.",
+          4,
+          3,
+          6
+        ],
+        [
+          "As long as you control a Dragon, this gets +2/+2 and has trample.",
+          4,
+          3,
+          6
+        ],
+        [
+          "Dash {DASH_COST}. When this enters, add {MANA_RAMP}.",
+          2,
+          2,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control gets +{PUMP_MED}/+{PUMP_MED} until end of turn. If you control a Dragon, it also gains trample. Rebound.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Target creature you control fights target creature you don't control.",
+          5,
+          2,
+          5
+        ],
+        [
+          "Put two +1/+1 counters on target creature.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. If you control a Dragon, untap that land.",
+          4,
+          3,
+          5
+        ],
+        [
+          "Formidable \u2014 Draw two cards if creatures you control have total power 8 or more.",
+          3,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control. If you control a Dragon, that creature gains trample until end of turn.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{PUMP_MED}/+{PUMP_MED} and has trample.",
+          4,
+          2,
+          6
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+          4,
+          3,
+          6
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "Whenever you cast a Dragon spell, you may pay {ACTIVATED_COST}. If you do, create a Treasure token.",
+          4,
+          3,
+          7
+        ],
+        [
+          "{TAP}: Add one mana of any color. If you spent this mana to cast a Dragon spell, draw a card, then discard a card.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Face-Down Aid \u2014 You may spend mana as though it were mana of any color to cast face-down creatures.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +1/+1 and has flying if you control a Dragon. Equip {EQUIP_COST}.",
+          4,
+          2,
+          6
+        ],
+        [
+          "Equipped creature has 'Megamorph {MEGAMORPH_COST}.' Equip {EQUIP_COST}.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Land": [
+        [
+          "{TAP}: Add {MANA_SYMBOL}. Formidable \u2014 {TAP}: Add {MANA_SYMBOL}{MANA_SYMBOL}. Activate only if creatures you control have total power 8 or more.",
+          5,
+          0,
+          0
+        ],
+        [
+          "{TAP}: Add one mana of any color. Spend this mana only to cast a Dragon spell or a creature spell with megamorph.",
+          5,
+          0,
+          0
+        ],
+        [
+          "{TAP}, {SACRIFICE}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          4,
+          0,
+          0
+        ]
+      ],
+      "Instant": [
+        [
+          "Reveal the top card of your library. If it's a Dragon card, put it into your hand. Otherwise, you may put it on the bottom of your library.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "any": {
+      "Creature": [
+        [
+          "Megamorph {MEGAMORPH_COST}.",
+          3,
+          3,
+          6
+        ],
+        [
+          "Dash {DASH_COST}.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Exploit (When this enters, you may sacrifice a creature.)",
+          3,
+          3,
+          6
+        ],
+        [
+          "Formidable \u2014 As long as creatures you control have total power 8 or more, this gets +1/+1.",
+          3,
+          3,
+          6
+        ],
+        [
+          "As long as you control a Dragon, this has flying.",
+          3,
+          2,
+          5
+        ]
+      ],
+      "Instant": [
+        [
+          "Rebound. (Exile this spell as it resolves. At the beginning of your next upkeep, you may cast it from exile without paying its mana cost.)",
+          3,
+          1,
+          6
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create a 2/2 colorless Dragon Egg artifact creature token with defender and 'When this dies, create a 4/4 Dragon creature token with flying.'",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Dragons you control get +1/+1.",
+          3,
+          3,
+          7
+        ]
+      ],
+      "Activated": [
+        [
+          "{ACTIVATED_COST}: Scry 1.",
+          3,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Knight",
+      "Cleric",
+      "Archer",
+      "Spirit",
+      "Warrior",
+      "Dragon"
+    ],
+    "U": [
+      "Human",
+      "Monk",
+      "Wizard",
+      "Djinn",
+      "Bird",
+      "Spirit",
+      "Naga",
+      "Dragon"
+    ],
+    "B": [
+      "Human",
+      "Warrior",
+      "Rogue",
+      "Zombie",
+      "Assassin",
+      "Horror",
+      "Naga",
+      "Dragon"
+    ],
+    "R": [
+      "Human",
+      "Berserker",
+      "Shaman",
+      "Goblin",
+      "Orc",
+      "Warrior",
+      "Dragon"
+    ],
+    "G": [
+      "Human",
+      "Warrior",
+      "Shaman",
+      "Barbarian",
+      "Beast",
+      "Elemental",
+      "Dragon"
+    ],
+    "C": [
+      "Construct",
+      "Golem",
+      "Scarecrow",
+      "Drone"
+    ]
+  },
+  "string_pools": {
+    "ACTIVATED_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}, {TAP}",
+      "{2}, {TAP}",
+      "{TAP}, Sacrifice this"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}",
+      "{1}{W}",
+      "{1}{U}",
+      "{1}{B}",
+      "{1}{R}",
+      "{1}{G}"
+    ],
+    "MEGAMORPH_COST": [
+      "{2}{W}",
+      "{2}{U}",
+      "{2}{B}",
+      "{2}{R}",
+      "{2}{G}",
+      "{3}",
+      "{3}{C}"
+    ],
+    "DASH_COST": [
+      "{1}{R}",
+      "{2}{R}",
+      "{1}{B}",
+      "{2}{B}",
+      "{1}{R}{R}"
+    ],
+    "BOLSTER_N": [
+      "1",
+      "2",
+      "3"
+    ],
+    "GAIN_LIFE": [
+      "3",
+      "4",
+      "5"
+    ],
+    "LIFE_SMALL": [
+      "1",
+      "2"
+    ],
+    "LIFE_MED": [
+      "3",
+      "4",
+      "5"
+    ],
+    "DAMAGE_SMALL": [
+      "1",
+      "2",
+      "3"
+    ],
+    "DAMAGE_MED": [
+      "3",
+      "4",
+      "5"
+    ],
+    "DAMAGE_BONUS": [
+      "4",
+      "5"
+    ],
+    "PUMP_SMALL": [
+      "1",
+      "2"
+    ],
+    "PUMP_MED": [
+      "2",
+      "3"
+    ],
+    "TOUGH_SMALL": [
+      "1",
+      "2"
+    ],
+    "TAX": [
+      "2",
+      "3"
+    ],
+    "LOOK_N": [
+      "3",
+      "4",
+      "5"
+    ],
+    "MANA_RAMP": [
+      "{G}{G}",
+      "{G}{G}{G}",
+      "{G}{G}{G}{G}"
+    ],
+    "MANA_SYMBOL": [
+      "{C}",
+      "{1}",
+      "{R}",
+      "{G}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Vigilance",
+      "Lifelink",
+      "First strike"
+    ],
+    "U": [
+      "Flying",
+      "Hexproof"
+    ],
+    "B": [
+      "Deathtouch",
+      "Menace",
+      "Lifelink"
+    ],
+    "R": [
+      "Haste",
+      "First strike",
+      "Menace"
+    ],
+    "G": [
+      "Trample",
+      "Reach",
+      "Hexproof"
+    ]
+  }
+}

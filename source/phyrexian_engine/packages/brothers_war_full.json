@@ -1,0 +1,804 @@
+{
+  "name": "brothers_war_full",
+  "version": "1.0",
+  "notes": "Comprehensive package emulating The Brothers’ War (BRO) mechanics: Prototype, Unearth, Powerstone tokens, artifact-matters, Soldiers/Artificers/Constructs, big mechs, meld scaffolding, commands, and modal spells. Designed for ad-lib expansion.",
+  "effects_by_color": {
+    "W": {
+      "Creature": [
+        [
+          "When {this} enters the battlefield, create a tapped Powerstone token.",
+          3,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, put a +1/+1 counter on up to {X} target creatures you control.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Other Soldiers you control get +1/+0.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, you gain {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Vigilance",
+          3,
+          1,
+          1
+        ],
+        [
+          "First strike",
+          2,
+          1,
+          1
+        ],
+        [
+          "Prototype {COST} — {P}/{T} (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)",
+          4,
+          1,
+          1
+        ],
+        [
+          "Unearth {COST} ({COST}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "When {this} attacks, tap up to {X} target artifacts or creatures defending player controls.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Whenever an artifact you control becomes tapped, put a +1/+1 counter on {this}.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast an artifact spell, create a 1/1 [TOKEN_COLOR] Soldier artifact creature token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "At the beginning of combat on your turn, another target creature you control gains lifelink until end of turn.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Equipments you control have equip {X}.",
+          1,
+          1,
+          2
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets +{X}/+{X} and gains first strike until end of turn.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile target tapped creature.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a tapped Powerstone token. Scry {X}.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Choose one or both — • Tap up to two target creatures. • Create a 1/1 [TOKEN_COLOR] Soldier artifact creature token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Destroy all creatures. Create a tapped Powerstone token for each creature destroyed this way.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Return target artifact or creature card with mana value {X} or less from your graveyard to the battlefield tapped.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put {X} +1/+1 counters on target creature. It gains vigilance until end of turn.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Create {X} 1/1 [TOKEN_COLOR] Soldier artifact creature tokens.",
+          2,
+          1,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Creatures you control get +1/+1. Whenever an artifact enters the battlefield under your control, scry 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "At the beginning of your end step, if you gained {X} or more life this turn, create a tapped Powerstone token.",
+          1,
+          2,
+          3
+        ],
+        [
+          "Soldiers you control have vigilance.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{X}/+{X} and has vigilance.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Enchanted artifact creature gets +2/+2 and lifelink.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +2/+2 and has vigilance. Equip {COST}.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever equipped creature attacks, create a tapped Powerstone token. Equip {COST}.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Creature": [
+        [
+          "Flying",
+          3,
+          1,
+          1
+        ],
+        [
+          "Prototype {COST} — {P}/{T} (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)",
+          4,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, draw a card, then discard a card.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a noncreature spell, scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever an artifact enters the battlefield under your control, tap up to one target creature an opponent controls. It doesn’t untap during its controller’s next untap step.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Unearth {COST}",
+          1,
+          1,
+          1
+        ],
+        [
+          "{T}: Add {C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}. If an artifact was cast this turn, instead counter that spell.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Return up to one target nonland permanent to its owner’s hand. Create a tapped Powerstone token.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Draw two cards. Then discard a card unless you controlled an artifact as you cast this spell.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Choose two — • Counter target activated or triggered ability. • Tap up to two target creatures. • Scry 2, then draw a card. • Create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Mill {X} cards. Return up to one target artifact card from your graveyard to your hand.",
+          2,
+          2,
+          6
+        ],
+        [
+          "Draw {X} cards, where X is the number of artifacts you control.",
+          2,
+          1,
+          6
+        ],
+        [
+          "Create a token that’s a copy of target artifact you control.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Artifacts you control have \"{T}: Scry 1.\"",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast an artifact spell, draw a card, then discard a card.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature doesn’t untap during its controller’s untap step. When enchanted permanent becomes untapped, sacrifice {this}.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Enchanted artifact creature has flying and \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "B": {
+      "Creature": [
+        [
+          "Unearth {COST} ({COST}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+          5,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, each opponent loses {X} life and you gain {X} life.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Whenever an artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Prototype {COST} — {P}/{T}",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you sacrifice another artifact or creature, put a +1/+1 counter on {this}.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature gets -{X}/-X until end of turn. Create a tapped Powerstone token.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Destroy target creature or planeswalker. You lose {X} life.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Exile target card from a graveyard. If it was an artifact or creature card, scry 1 and create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature. Create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Return up to one target artifact card and up to one target creature card from your graveyard to your hand.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Search your library for an artifact card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "At the beginning of your upkeep, each opponent loses 1 life and you scry 1.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Whenever a nontoken artifact you control dies, you may pay {COST}. If you do, return that card to the battlefield under your control. It gains haste. Exile it at the beginning of the next end step.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "R": {
+      "Creature": [
+        [
+          "Haste",
+          3,
+          1,
+          1
+        ],
+        [
+          "Prototype {COST} — {P}/{T}",
+          4,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast an artifact spell, {this} deals 1 damage to each opponent.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Unearth {COST}",
+          2,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{R}, Sacrifice an artifact: {this} gets +{X}/+0 until end of turn.",
+          1,
+          1,
+          4
+        ]
+      ],
+      "Instant": [
+        [
+          "{this} deals {X} damage to any target.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Choose two — • {this} deals 2 damage to any target. • Create a tapped Powerstone token. • Target creature can’t block this turn. • Scry 2.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn. Create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two tapped Powerstone tokens. {this} deals {X} damage divided as you choose among up to two targets.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Destroy target artifact. {this} deals {X} damage to that permanent’s controller.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Exile the top {X} cards of your library. Until the end of your next turn, you may play those cards.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an artifact spell, exile the top card of your library. Until end of turn, you may play that card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "At the beginning of combat on your turn, create a tapped Powerstone token. Creatures you control get +1/+0 until end of turn.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +3/+0 and has haste. Equip {COST}.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever equipped creature attacks, it deals 1 damage to any target. Equip {COST}.",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "G": {
+      "Creature": [
+        [
+          "Trample",
+          3,
+          1,
+          1
+        ],
+        [
+          "Prototype {COST} — {P}/{T}",
+          4,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, you may return target artifact or creature card with mana value {X} or less from your graveyard to your hand.",
+          3,
+          2,
+          5
+        ],
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, put a +1/+1 counter on target creature you control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Reach",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Target creature you control gets +{X}/+{X} and gains trample until end of turn.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Destroy target artifact or enchantment. Scry {X}.",
+          3,
+          1,
+          2
+        ],
+        [
+          "Create a tapped Powerstone token. You may put a land card from your hand onto the battlefield tapped.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Create a tapped Powerstone token.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Exile up to two target cards from graveyards. You gain {X} life for each card exiled this way.",
+          2,
+          1,
+          2
+        ],
+        [
+          "Choose two — • Exile target player’s graveyard. • Put two +1/+1 counters on up to one target creature. • Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle. • Create two tapped Powerstone tokens.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever one or more artifacts enter the battlefield under your control, you may draw a card. This ability triggers only once each turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Artifact spells you cast cost {X} less to cast, where X is 1 plus the number of Powerstones you control.",
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "C": {
+      "Artifact": [
+        [
+          "{T}: Add {C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          3,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, create a tapped Powerstone token.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Sacrifice {this}: Add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast an artifact spell, you may pay {X}. If you do, scry {X}.",
+          2,
+          1,
+          3
+        ],
+        [
+          "Tap two untapped artifacts you control: Draw a card.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{3}, {T}, Sacrifice {this}: Return target artifact card from your graveyard to the battlefield tapped.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Creature": [
+        [
+          "Prototype {COST} — {P}/{T}",
+          8,
+          1,
+          1
+        ],
+        [
+          "Unearth {COST}",
+          4,
+          1,
+          1
+        ],
+        [
+          "When {this} enters the battlefield, you may have it fight target creature you don’t control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "{this} can’t block.",
+          1,
+          1,
+          1
+        ],
+        [
+          "Ward {X}",
+          2,
+          1,
+          3
+        ],
+        [
+          "When {this} dies, create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you sacrifice an artifact, put a +1/+1 counter on {this}.",
+          1,
+          1,
+          1
+        ]
+      ],
+      "Instant": [
+        [
+          "Tap up to two target artifacts or creatures. Create a tapped Powerstone token.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Target artifact gains indestructible until end of turn. Scry {X}.",
+          2,
+          1,
+          2
+        ],
+        [
+          "{this} deals {X} damage to target creature or planeswalker.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} tapped Powerstone tokens.",
+          4,
+          1,
+          5
+        ],
+        [
+          "Return target artifact card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Put two +1/+1 counters on up to two target artifact creatures you control.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you cast an artifact spell, create a tapped Powerstone token.",
+          4,
+          1,
+          1
+        ],
+        [
+          "Artifact creatures you control get +1/+1.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{X}/+0 and has trample. Equip {COST}.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has \"Whenever this creature attacks, create a tapped Powerstone token.\" Equip {COST}.",
+          2,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "special_mechanics": {
+    "Powerstone": "Create a tapped Powerstone token. (It’s an artifact with \"{T}: Add {C}. This mana can’t be spent to cast a nonartifact spell.\")",
+    "Prototype": "Prototype {COST} — {P}/{T} (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)",
+    "Unearth": "Unearth {COST} ({COST}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)",
+    "Meld_scaffold": "Melds with [MELD_PARTNER]. At the beginning of your end step, if you both own and control {this} and [MELD_PARTNER], exile them, then meld them into [MELDED_NAME]."
+  },
+  "type_bias": {
+    "Creature": 55,
+    "Instant": 12,
+    "Sorcery": 12,
+    "Enchantment": 7,
+    "Artifact": 10,
+    "Equipment": 4
+  },
+  "subtype_bias": {
+    "W": [
+      "Soldier",
+      "Cleric",
+      "Artificer"
+    ],
+    "U": [
+      "Wizard",
+      "Artificer"
+    ],
+    "B": [
+      "Warlock",
+      "Artificer"
+    ],
+    "R": [
+      "Warrior",
+      "Artificer"
+    ],
+    "G": [
+      "Druid",
+      "Artificer"
+    ],
+    "C": [
+      "Construct",
+      "Juggernaut",
+      "Golem",
+      "Assembly-Worker"
+    ]
+  },
+  "token_subtypes": [
+    "Soldier",
+    "Construct",
+    "Thopter",
+    "Insect"
+  ],
+  "powerstone_synergies": [
+    "If you cast an artifact spell this turn, create a tapped Powerstone token.",
+    "As long as you control three or more Powerstones, [BENEFIT].",
+    "Artifacts you cast cost {X} less to cast, where X is the number of Powerstones you control."
+  ],
+  "modal_commands": [
+    "Choose two — • Create a tapped Powerstone token. • Draw two cards. • Return target artifact card from your graveyard to your hand. • Tap up to two target creatures.",
+    "Choose two — • Exile target player’s graveyard. • Put two +1/+1 counters on up to one target creature. • Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle. • Create two tapped Powerstone tokens.",
+    "Choose two — • {this} deals 2 damage to any target. • Target creature can’t block this turn. • Scry 2. • Create a tapped Powerstone token."
+  ]
+}
