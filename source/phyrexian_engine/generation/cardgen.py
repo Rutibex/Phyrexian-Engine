@@ -120,14 +120,41 @@ def generate_card(code: str,
     rules_parts: List[str] = []
 
     if card_type == 'Creature':
-        card.types = ['Creature']
+        # Commander mode: Legendary Creature
+        if getattr(spec, "commander_mode", False):
+            card.types = ['Legendary', 'Creature']
+        else:
+            card.types = ['Creature']
+
         base = max(1, mv - 1)
         card.power = base
         card.toughness = base + 1
+
+        # Subtypes
         card.subtypes = []
-        for ccol in colors or []:
-            if subtypes_pool.get(ccol):
-                card.subtypes.append(random.choice(subtypes_pool[ccol]))
+
+        if getattr(spec, "commander_mode", False):
+            # Build a pool from the commander’s colors + 'any'
+            candidates = []
+            for ccol in (colors or []):
+                candidates.extend(subtypes_pool.get(ccol, []))
+            candidates.extend(subtypes_pool.get('any', []))
+
+            # Remove duplicates, randomize
+            candidates = list(dict.fromkeys(candidates))
+            random.shuffle(candidates)
+
+            if candidates:
+                max_types = 4
+                min_types = 1
+                n_types = random.randint(min_types, min(max_types, len(candidates)))
+                card.subtypes = candidates[:n_types]
+        else:
+            # Existing behavior for non-commander sets
+            for ccol in colors or []:
+                if subtypes_pool.get(ccol):
+                    card.subtypes.append(random.choice(subtypes_pool[ccol]))
+
 
         # Keyword abilities (first line, comma-separated)
         kw = _maybe_keywords(colors, mv, monster_keywords)

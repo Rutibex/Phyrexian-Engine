@@ -26,6 +26,10 @@ def plan_types(spec:SetSpec)->List[str]:
       - AuraLand
       - Equipment
     These behave as Enchantments/Artifacts but get generated distinctly."""
+    # Commander Mode: only creatures (these will become Legendary in cardgen)
+    if getattr(spec, "commander_mode", False):
+        total = max(1, spec.total_cards)
+        return ["Creature"] * total    
     base_types = ['Creature','Instant','Sorcery','Enchantment','Artifact']
     if spec.include_lands:
         base_types.append('Land')
