@@ -1,0 +1,210 @@
+{
+  "effects_by_color": {
+    "W": {},
+    "U": {},
+    "B": {},
+    "R": {},
+    "G": {},
+    "C": {}
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Cleric", "Spirit"],
+    "U": ["Human", "Wizard", "Rogue", "Spirit"],
+    "B": ["Human", "Rogue", "Warlock", "Zombie", "Spirit"],
+    "R": ["Human", "Warrior", "Shaman", "Goblin"],
+    "G": ["Human", "Warrior", "Druid", "Beast"],
+    "C": ["Construct", "Avatar", "Spirit"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Rogue",
+      "Spirit",
+      "Zombie",
+      "Beast",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Discard a card:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card, then discard a card.",
+      "Target creature gets +1/+0 until end of turn.",
+      "Target creature gets +0/+1 until end of turn.",
+      "Create a 1/1 [TOKEN_COLOR] [TOKEN_SUBTYPE] creature token.",
+      "You gain 1 life."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Whenever you discard a card, this creature gets +1/+1 until end of turn.",
+      "Whenever you discard a card, you gain 1 life.",
+      "Whenever you discard a noncreature card, put a +1/+1 counter on this creature.",
+      "Whenever you discard a creature card, you may tap target creature.",
+      "Whenever you discard a card, you may untap this creature.",
+      "Whenever you discard your second card each turn, create a 1/1 white Soldier creature token.",
+      "Whenever you discard a card, you may have target creature you control gain vigilance until end of turn.",
+      "Whenever you discard a card, if this is the first time this ability resolved this turn, prevent the next 2 damage that would be dealt to you this turn.",
+      "Whenever you discard a card, you may gain 2 life. If you do, this creature does not untap during your next untap step.",
+      "Whenever you discard a card, this creature gains lifelink until end of turn.",
+      "Whenever you discard a card, put a +1/+1 counter on target other creature you control.",
+      "Whenever you discard a card, if you control another creature, you may have that creature gain indestructible until end of turn.",
+      "Whenever you discard a card, you may exile a card from your graveyard. If you do, scry 1.",
+      "Whenever you discard a card, you may tap target creature an opponent controls. That creature does not untap during its controller's next untap step if you gained life this turn.",
+      "At the beginning of your end step, if you discarded a card this turn, create a 1/1 white Spirit creature token with flying.",
+      "At the beginning of combat on your turn, if you discarded a card this turn, this creature gets +2/+2 and gains vigilance until end of turn.",
+      "Whenever you discard a card, if you have fewer cards in hand than an opponent, you gain 3 life.",
+      "Whenever you discard your last card, this creature gains indestructible until your next turn.",
+      "Whenever you discard a card, you may have this creature block an additional creature this turn.",
+      "Whenever you discard a card, you may return target creature card with mana value 1 or less from your graveyard to your hand."
+    ],
+    "U": [
+      "Whenever you discard a card, draw a card, then discard a card.",
+      "Whenever you discard a card, scry 1.",
+      "Whenever you discard an instant or sorcery card, put a +1/+1 counter on this creature.",
+      "Whenever you discard a card with mana value 3 or greater, this creature gains flying until end of turn.",
+      "Whenever you discard a card, you may tap up to one target creature.",
+      "Whenever you discard your second card each turn, draw a card.",
+      "Whenever you discard a card, this creature gets +1/+0 and cannot be blocked this turn if you discarded an instant or sorcery card.",
+      "Whenever you discard a card, you may have target creature an opponent controls get -1/-0 until end of turn.",
+      "Whenever you discard a card, if exactly one card was discarded this turn, you may return that card from your graveyard to your hand at the beginning of the next end step.",
+      "Whenever you discard a card, you may exile that card. If you do, until the end of your next turn, you may cast that card from exile.",
+      "Whenever you discard a nonland card, put a stun counter on up to one target tapped creature an opponent controls.",
+      "Whenever you discard a card, you may pay {1}. If you do, this creature gains hexproof until end of turn.",
+      "Whenever you discard your last card, you may draw two cards.",
+      "At the beginning of your upkeep, if you discarded a card last turn, scry 2.",
+      "Whenever you discard a card, target creature you control gains \"Whenever this creature deals combat damage to a player, draw a card\" until end of turn.",
+      "Whenever you discard a card, you may phase out this creature.",
+      "Whenever you discard a card, you may look at the top two cards of your library, then put one of them into your graveyard.",
+      "Whenever you discard a card, you may untap target land.",
+      "Whenever you discard a card with mana value 2 or less, you may return target nonland permanent you control to its owner's hand.",
+      "Whenever you discard a card, if you control another Wizard or Rogue, put a +1/+1 counter on this creature."
+    ],
+    "B": [
+      "Whenever you discard a card, each opponent loses 1 life and you gain 1 life.",
+      "Whenever you discard a creature card, you may return that card from your graveyard to your hand at the beginning of the next end step.",
+      "Whenever you discard a card, put a +1/+1 counter on this creature.",
+      "Whenever you discard a card, you may put the top card of your library into your graveyard.",
+      "Whenever you discard a card, if at least one card was put into your graveyard from your library this turn, this creature gains deathtouch until end of turn.",
+      "Whenever you discard your second card each turn, create a 2/2 black Zombie creature token.",
+      "Whenever you discard a card, target opponent loses 1 life.",
+      "Whenever you discard a card, if you have fewer cards in hand than each opponent, each opponent loses 2 life and you gain 2 life.",
+      "Whenever you discard a card, you may sacrifice another creature. If you do, draw a card.",
+      "Whenever you discard a card, if that card is a creature card, you may pay {B}. If you do, put that card onto the battlefield tapped. You lose life equal to its mana value.",
+      "Whenever you discard a card, this creature gets +2/+0 until end of turn.",
+      "Whenever you discard a card, you may exile that card from your graveyard. If you do, put a +1/+1 counter on this creature and you lose 1 life.",
+      "Whenever you discard your last card, create a 2/2 black Zombie creature token and you lose 2 life.",
+      "Whenever you discard a card, if an opponent also discarded a card this turn, you may draw a card and lose 1 life.",
+      "At the beginning of your end step, if you discarded a card this turn, each opponent loses 1 life and you gain 1 life.",
+      "Whenever you discard a card with mana value 4 or greater, you may destroy target creature with mana value 3 or less.",
+      "Whenever you discard a card, you may have this creature fight target creature an opponent controls. You lose life equal to that creature's toughness.",
+      "Whenever you discard a card, you may return target creature card with mana value 2 or less from your graveyard to the battlefield.",
+      "Whenever you discard a card, if this is the third time this ability resolved this turn, each opponent discards a card.",
+      "Whenever you discard a card, creatures your opponents control get -1/-1 until end of turn if a creature died this turn."
+    ],
+    "R": [
+      "Whenever you discard a card, this creature gets +2/+0 until end of turn.",
+      "Whenever you discard a card, this creature deals 1 damage to any target.",
+      "Whenever you discard a card at random, draw a card.",
+      "Whenever you discard a card, if it is a land card, this creature gains first strike until end of turn.",
+      "Whenever you discard a card, if it is a nonland card, create a tapped Treasure token.",
+      "Whenever you discard your second card each turn, this creature deals 2 damage to each opponent.",
+      "Whenever you discard a card, you may have target creature you control gain haste until end of turn.",
+      "Whenever you discard a card, if you control another attacking creature, this creature gains trample until end of turn.",
+      "Whenever you discard a card, exile the top card of your library. You may play that card until the end of your next turn.",
+      "Whenever you discard a card, if that card is a red card, add {R}. Until end of turn, you do not lose this mana as steps and phases end.",
+      "Whenever you discard a card, this creature cannot block this turn and gets +3/+0 until end of turn.",
+      "Whenever you discard your last card, this creature gains double strike until end of turn.",
+      "Whenever you discard a card, if you have exactly one card in hand, this creature deals 1 damage to each creature and each player.",
+      "Whenever you discard a card, you may discard an additional card. If you do, draw a card.",
+      "At the beginning of combat on your turn, if you discarded a card this turn, this creature gets +3/+0 and gains menace until end of turn.",
+      "Whenever you discard a card with mana value 3 or greater, you may have this creature fight up to one target creature an opponent controls.",
+      "Whenever you discard a card, if you attacked with two or more creatures this turn, this creature deals 2 damage to any target.",
+      "Whenever you discard a card, if it was discarded at random, create a 1/1 red Goblin creature token.",
+      "Whenever you discard a card, you may have target creature lose indestructible until end of turn.",
+      "Whenever you discard a card, if you have no cards in hand, add {R}{R}."
+    ],
+    "G": [
+      "Whenever you discard a card, put a +1/+1 counter on this creature.",
+      "Whenever you discard a creature card, you gain 2 life.",
+      "Whenever you discard a card, you may put a land card from your hand onto the battlefield tapped.",
+      "Whenever you discard a card, if it is a creature card, this creature gains trample until end of turn.",
+      "Whenever you discard your second card each turn, create a 3/3 green Beast creature token.",
+      "Whenever you discard a card, you may have this creature fight up to one target creature you do not control.",
+      "Whenever you discard a card, if you control a creature with power 4 or greater, you gain 2 life.",
+      "Whenever you discard a card, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you discard a card, put a +1/+1 counter on target creature you control.",
+      "Whenever you discard a card, if that card is a green card, untap up to one target creature.",
+      "Whenever you discard a card, creatures you control get +1/+0 until end of turn.",
+      "Whenever you discard a card, if it is a land card, create a tapped Treasure token.",
+      "At the beginning of your end step, if you discarded a card this turn, you may put a +1/+1 counter on each creature you control that has power 2 or less.",
+      "Whenever you discard a card with mana value 5 or greater, you may search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever you discard a card, if you discarded two or more cards this turn, this creature gains indestructible until your next turn.",
+      "Whenever you discard a card, you may exile that card from your graveyard. If you do, put two +1/+1 counters on this creature.",
+      "Whenever you discard a card, if you control another Druid or Beast, add {G}{G}.",
+      "Whenever you discard a creature card, you may return another target creature card from your graveyard to your hand.",
+      "Whenever you discard a card, this creature gains \"Whenever this creature deals combat damage to a player, draw a card\" until end of turn.",
+      "Whenever you discard your last card, create a 4/4 green Elemental creature token."
+    ],
+    "C": [
+      "Whenever you discard a card, this creature gets +1/+1 until end of turn.",
+      "Whenever you discard a colorless card, put a +1/+1 counter on this creature.",
+      "Whenever you discard a card, you may add {C}.",
+      "Whenever you discard a card, you may pay {1}. If you do, draw a card.",
+      "Whenever you discard a card, if it is an artifact card, create a 1/1 colorless Construct artifact creature token.",
+      "Whenever you discard a card, if it has mana value 4 or greater, this creature gains indestructible until end of turn.",
+      "Whenever you discard a card, you may exile that card. If you do, proliferate.",
+      "Whenever you discard a card, if you control another artifact, scry 1.",
+      "Whenever you discard a card, put a charge counter on this creature.",
+      "Whenever you discard your second card each turn, you may search your library for a colorless card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you discard a card, each creature you control that is colorless gets +1/+0 until end of turn.",
+      "Whenever you discard a card, if at least three permanents you control are artifacts, draw a card.",
+      "Whenever you discard a nonland card, you may remove a counter from target permanent.",
+      "Whenever you discard a card, if exactly one card was discarded this turn, create a 0/1 colorless Servo artifact creature token.",
+      "Whenever you discard a card, you may have target artifact you control become a 3/3 Construct artifact creature until end of turn.",
+      "Whenever you discard a card, if it shares a card type with a permanent you control, put a +1/+1 counter on each colorless creature you control.",
+      "Whenever you discard a card, you may tap or untap target artifact.",
+      "Whenever you discard a card with mana value 6 or greater, create a 6/6 colorless Avatar creature token.",
+      "Whenever you discard a card, if you discarded three or more cards this turn, you may return target colorless card from your graveyard to your hand.",
+      "Whenever you discard a card, this creature gets +0/+2 until end of turn."
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Knight", "Soldier", "Advisor", "Merchant", "Cleric"],
+    "U": ["Human", "Merfolk", "Rogue", "Pirate", "Wizard", "Artificer"],
+    "B": ["Human", "Rogue", "Pirate", "Assassin", "Warlock", "Advisor"],
+    "R": ["Human", "Goblin", "Pirate", "Warrior", "Berserker", "Shaman"],
+    "G": ["Human", "Elf", "Scout", "Druid", "Warrior", "Mercenary"],
+    "C": ["Construct", "Golem", "Treasure", "Spirit"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Pirate",
+      "Rogue",
+      "Mercenary",
+      "Construct",
+      "Spirit",
+      "Treasure"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature.",
+      "Create a Treasure token."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "TREASURE_SYMBOL": [
+      "Treasure"
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+      "Whenever you create one or more Treasure tokens, you gain 1 life.",
+      "Whenever you sacrifice a Treasure, put a +1/+1 counter on this creature.",
+      "Whenever another creature you control attacks, if you control three or more Treasures, that creature gets +1/+1 until end of turn.",
+      "At the beginning of combat on your turn, if you control a Treasure, tap up to one target creature an opponent controls.",
+      "Whenever this creature enters the battlefield or attacks, create a Treasure token if you control another artifact.",
+      "Whenever a Treasure you control is put into a graveyard from the battlefield, you may gain 2 life.",
+      "Whenever you sacrifice an artifact, you may pay {1}. If you do, create a 1/1 white Soldier creature token.",
+      "Whenever you create your second Treasure each turn, creatures you control get +1/+1 until end of turn.",
+      "At the beginning of your end step, if you created a Treasure this turn, you may put a +1/+1 counter on up to one other creature you control.",
+      "Whenever you sacrifice a Treasure, prevent the next 1 damage that would be dealt to any target this turn.",
+      "Whenever an artifact you control becomes tapped, you gain 1 life.",
+      "Whenever a Treasure enters the battlefield under your control, you may tap target creature.",
+      "Whenever a Treasure enters the battlefield under your control, this creature gains vigilance until end of turn.",
+      "Whenever you sacrifice a Treasure, scry 1.",
+      "Whenever you create a Treasure token, you may have target creature you control gain lifelink until end of turn."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever you create a Treasure token, scry 1.",
+      "Whenever you sacrifice a Treasure, draw a card, then discard a card.",
+      "Whenever this creature deals combat damage to a player, create a Treasure token.",
+      "At the beginning of your end step, if you created two or more Treasures this turn, draw a card.",
+      "Whenever an artifact enters the battlefield under your control, you get \"Artifacts you control have ward {1}\" until your next turn.",
+      "Whenever you sacrifice an artifact, you may tap target nonland permanent.",
+      "Whenever a Treasure you control becomes tapped, scry 1.",
+      "Whenever one or more Treasures enter the battlefield under your control, you may return target nonland permanent you control to its owner’s hand.",
+      "Whenever an artifact you control leaves the battlefield, you may pay {1}. If you do, create a tapped Treasure token.",
+      "Whenever you sacrifice a Treasure, you may have target creature get -2/-0 until end of turn.",
+      "Whenever you create a Treasure token, this creature gets +1/+0 until end of turn.",
+      "Whenever you create your third Treasure this turn, draw a card.",
+      "Whenever you cast an instant or sorcery spell, if you spent mana from a Treasure to cast it, copy that spell. You may choose new targets for the copy.",
+      "Whenever this creature attacks, look at the top card of your library. If that card is an artifact or land card, you may reveal it and put it into your hand.",
+      "Whenever a Treasure you control is sacrificed, you may untap up to one target artifact.",
+      "At the beginning of combat on your turn, if you control a Treasure, this creature gains flying until end of turn."
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "Whenever you sacrifice a Treasure, each opponent loses 1 life and you gain 1 life.",
+      "Whenever this creature or another creature you control dies, create a tapped Treasure token.",
+      "Whenever a creature an opponent controls dies, if you control a Treasure, create a Treasure token.",
+      "At the beginning of your end step, if you sacrificed two or more Treasures this turn, each opponent loses 2 life.",
+      "Whenever a Treasure enters the battlefield under your control, this creature gets +1/+0 and gains menace until end of turn.",
+      "Whenever you sacrifice an artifact, you may return target creature card with mana value 2 or less from your graveyard to your hand.",
+      "Whenever a Treasure you control is put into a graveyard from the battlefield, you may put a +1/+1 counter on target creature you control.",
+      "Whenever you sacrifice a Treasure, you may pay {1}. If you do, each opponent discards a card.",
+      "Whenever this creature deals combat damage to a player, that player sacrifices an artifact or loses 3 life.",
+      "Whenever you create a Treasure token, you may have target creature an opponent controls get -1/-1 until end of turn.",
+      "Whenever an opponent sacrifices a permanent, create a Treasure token.",
+      "At the beginning of your upkeep, if an opponent lost 2 or more life last turn, create a Treasure token.",
+      "Whenever you sacrifice three or more Treasures during a turn, you may return target nonland permanent card from your graveyard to the battlefield tapped.",
+      "Whenever a Treasure enters the battlefield under your control, you may mill two cards.",
+      "Whenever you sacrifice a Treasure, if you control a Demon, draw a card and lose 1 life.",
+      "Whenever this creature blocks or becomes blocked, you may sacrifice a Treasure. If you do, this creature gets +2/+2 until end of turn."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "trample",
+      "Whenever you sacrifice a Treasure, this creature gets +1/+0 until end of turn.",
+      "Whenever this creature attacks, create a tapped Treasure token.",
+      "Whenever you cast a spell, if mana from a Treasure was spent to cast it, this creature deals 1 damage to each opponent.",
+      "At the beginning of combat on your turn, if you control a Treasure, this creature gets +2/+0 and gains first strike until end of turn.",
+      "Whenever a Treasure enters the battlefield under your control, this creature gets +1/+0 and gains haste until end of turn.",
+      "Whenever you sacrifice an artifact, this creature deals 1 damage to any target.",
+      "Whenever you create two or more Treasures in a turn, you may discard a card. If you do, draw a card.",
+      "Whenever this creature deals combat damage to a player, create a Treasure token and that player creates a tapped Treasure token.",
+      "Whenever you sacrifice a Treasure, you may pay {R}. If you do, this creature deals 2 damage to target creature.",
+      "Whenever an artifact you control is put into a graveyard from the battlefield, this creature deals 1 damage to each opponent.",
+      "Whenever a Treasure you control becomes tapped, this creature gets +1/+0 until end of turn.",
+      "Whenever you cast a noncreature spell, if you control three or more Treasures, this creature deals 2 damage to any target.",
+      "At the beginning of your end step, if you attacked with three or more creatures this turn, create a Treasure token.",
+      "Whenever an opponent is dealt damage from a source you control that used mana from a Treasure, create a Treasure token.",
+      "Whenever this creature becomes blocked, you may sacrifice a Treasure. If you do, it deals 3 damage to target creature blocking it."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever a Treasure enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Treasure, put a +1/+1 counter on up to one other creature you control.",
+      "Whenever this creature attacks, you may sacrifice a Treasure. If you do, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "At the beginning of combat on your turn, if you control three or more artifacts, this creature gets +2/+2 and gains trample until end of turn.",
+      "Whenever you create a Treasure token, you may create a 1/1 green Creature token.",
+      "Whenever you sacrifice an artifact, you may gain 2 life.",
+      "Whenever a Treasure you control is put into a graveyard from the battlefield, you may search your library for a Forest card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, create a Treasure token and put a +1/+1 counter on up to one target creature you control.",
+      "Whenever you create your third Treasure in a turn, creatures you control get trample until end of turn.",
+      "Whenever a land enters the battlefield under your control, if you control a Treasure, this creature gets +1/+1 until end of turn.",
+      "Whenever you sacrifice a Treasure, you may put a +1/+1 counter on each of up to X target creatures, where X is the amount of mana produced by that Treasure.",
+      "At the beginning of your end step, if you control both a Treasure and a creature with power 4 or greater, draw a card.",
+      "Whenever an artifact you control becomes tapped, you may add one mana of any color. Spend this mana only to cast creature spells.",
+      "Whenever you sacrifice an artifact, you may untap up to one target land."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever a Treasure enters the battlefield under your control, this creature becomes a 4/4 Construct artifact creature in addition to its other types until end of turn.",
+      "Whenever you sacrifice a Treasure, add one mana of any color.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "At the beginning of your upkeep, if you control five or more Treasures, this creature loses defender and gains trample and vigilance until end of turn.",
+      "Whenever you create a Treasure token, you may have target artifact you control become a 3/3 Construct artifact creature until end of turn.",
+      "Whenever a Treasure you control is put into a graveyard from the battlefield, scry 1.",
+      "Whenever an artifact you control leaves the battlefield, you may create a tapped Treasure token.",
+      "Whenever you sacrifice an artifact, this creature gets +0/+2 until end of turn.",
+      "Whenever you create your second Treasure each turn, draw a card, then discard a card.",
+      "Whenever this creature blocks or becomes blocked, you may sacrifice a Treasure. If you do, this creature gets +3/+3 until end of turn.",
+      "Whenever an artifact you control becomes tapped, you gain 1 life.",
+      "Whenever you sacrifice a Treasure, if you control three or more artifacts, draw a card.",
+      "Whenever a Treasure enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "At the beginning of your end step, if you control an artifact and an enchantment, create a Treasure token."
+    ]
+  }
+}

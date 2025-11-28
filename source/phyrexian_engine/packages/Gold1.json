@@ -1,0 +1,285 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever a creature you control attacks, if you created a Gold token this turn, that creature gets +1/+1 until end of turn.", 3, 1, 1],
+        ["Whenever you create one or more Gold tokens, you gain 1 life for each Gold token created this way.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, put a +1/+1 counter on target creature you control.", 3, 1, 1],
+        ["Whenever one or more creatures you control become tapped, create a Gold token if you control four or more creatures.", 2, 1, 1],
+        ["At the beginning of your end step, if you created two or more Gold tokens this turn, create a 1/1 white [TOKEN_SUBTYPE] creature token.", 3, 1, 1],
+        ["Whenever a creature you control with a +1/+1 counter on it dies, create a Gold token.", 2, 1, 1],
+        ["Whenever you gain life, you may pay 1 life. If you do, create a Gold token.", 2, 1, 1],
+        ["Whenever an enchantment you control enters the battlefield, create a Gold token.", 2, 1, 1],
+        ["At the beginning of combat on your turn, if you control three or more Gold tokens, creatures you control get +1/+1 until end of turn.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, prevent the next 1 damage that would be dealt to any target this turn.", 2, 1, 1],
+        ["Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may create a Gold token.", 3, 1, 1],
+        ["Whenever a creature enters the battlefield under your control, if you spent a Gold to cast it, it enters the battlefield with a +1/+1 counter on it.", 3, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature attacks, if you control a Gold token, put a +1/+1 counter on this creature.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, this creature gains vigilance until end of turn.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever this creature blocks, create a tapped Gold token.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever this creature deals combat damage to a player, create a Gold token.\"", 3, 1, 1],
+        ["Equipped creature has \"Whenever you sacrifice a Gold, put a +1/+1 counter on this creature.\"", 3, 1, 1]
+      ]
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever you create a Gold token, scry 1.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, you may draw a card. If you do, discard a card.", 3, 1, 1],
+        ["Whenever one or more Gold tokens enter the battlefield under your control, put a knowledge counter on this permanent. Then if there are three or more knowledge counters on it, draw a card.", 2, 1, 1],
+        ["Whenever you cast a noncreature spell, if mana from a Gold was spent to cast it, copy that spell. You may choose new targets for the copy.", 2, 1, 1],
+        ["At the beginning of your upkeep, if you control three or more Gold tokens, you may tap up to one target nonland permanent. It doesn’t untap during its controller’s next untap step.", 3, 1, 1],
+        ["Whenever an artifact enters the battlefield under your control, create a Gold token, then mill a card.", 2, 1, 1],
+        ["Whenever you sacrifice an artifact, surveil 1.", 3, 1, 1],
+        ["Whenever you create your second Gold token each turn, draw a card.", 3, 1, 1],
+        ["Whenever you spend mana produced by a Gold to cast an instant or sorcery spell, that spell costs {1} less to cast.", 2, 1, 1],
+        ["Whenever a creature you control deals combat damage to a player, if you control a Gold token, draw a card.", 3, 1, 1],
+        ["Whenever a creature you control becomes blocked, you may return a Gold you control to its owner’s hand. If you do, that creature can’t be blocked this turn.", 2, 1, 1],
+        ["At the beginning of your end step, if you created a Gold token this turn, you may return up to one target nonland permanent you control to its owner’s hand.", 2, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, create a Gold token and scry 1.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, untap this creature.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you draw your second card each turn, this creature can’t be blocked this turn if you control a Gold token.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever this creature becomes tapped, create a Gold token, then discard a card.\"", 2, 1, 1],
+        ["Equipped creature has \"Whenever you sacrifice a Gold, this creature gains flying until end of turn.\"", 3, 1, 1]
+      ]
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever you sacrifice a Gold, each opponent loses 1 life and you gain 1 life.", 3, 1, 1],
+        ["Whenever a creature an opponent controls dies, create a Gold token.", 3, 1, 1],
+        ["Whenever you create a Gold token, you may pay 1 life. If you do, create an additional Gold token.", 2, 1, 1],
+        ["At the beginning of your upkeep, you may sacrifice a Gold. If you do, draw a card and you lose 1 life.", 3, 1, 1],
+        ["Whenever you cast a creature spell, if mana from a Gold was spent to cast it, that creature enters the battlefield with a +1/+1 counter and menace.", 2, 1, 1],
+        ["Whenever one or more Gold tokens you control are sacrificed, target creature gets -1/-1 until end of turn.", 3, 1, 1],
+        ["Whenever a creature you control dies, if you control a Gold token, return that card to your hand and create a tapped Gold token.", 2, 1, 1],
+        ["Whenever an opponent sacrifices a permanent, create a Gold token.", 2, 1, 1],
+        ["At the beginning of each end step, if an opponent lost 3 or more life this turn, create a Gold token.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, put a corpse counter on this permanent. Then if there are five or more corpse counters on it, each opponent loses 3 life and you gain 3 life.", 2, 1, 1],
+        ["Whenever a creature an opponent controls dies, if you control three or more Gold tokens, you may return that card from that player’s graveyard to the battlefield under your control. It’s a Zombie in addition to its other types.", 2, 1, 1],
+        ["Whenever you discard a card, create a Gold token.", 2, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, that player sacrifices a creature. Then you create a Gold token.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, put a +1/+1 counter on this creature and you gain 1 life.\"", 2, 1, 1],
+        ["Enchanted creature has \"Whenever a creature an opponent controls dies, this creature gains deathtouch until end of turn if you control a Gold token.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever you sacrifice a Gold, this creature gets +2/+0 until end of turn.\"", 3, 1, 1],
+        ["Equipped creature has \"Whenever this creature attacks, defending player loses 1 life for each Gold you control.\"", 2, 1, 1]
+      ]
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever you create a Gold token, this permanent deals 1 damage to any target.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, this permanent deals 1 damage to each opponent.", 3, 1, 1],
+        ["Whenever a creature you control attacks, you may sacrifice a Gold. If you do, that creature gets +2/+0 until end of turn.", 3, 1, 1],
+        ["At the beginning of combat on your turn, if you control a Gold token, target creature you control gains haste until end of turn.", 3, 1, 1],
+        ["Whenever you cast a spell with mana paid from a Gold, that spell can’t be countered.", 2, 1, 1],
+        ["Whenever one or more Gold tokens enter the battlefield under your control, exile the top card of your library. Until the end of your next turn, you may play that card.", 3, 1, 1],
+        ["Whenever you sacrifice an artifact, this permanent deals 1 damage to any target and you scry 1.", 2, 1, 1],
+        ["Whenever a creature you control with power 4 or greater attacks, create a Gold token.", 2, 1, 1],
+        ["Whenever you cast your second spell each turn, if mana from a Gold was spent to cast either of them, create a Gold token.", 2, 1, 1],
+        ["At the beginning of your end step, if you sacrificed two or more Gold tokens this turn, this permanent deals 3 damage to any target.", 2, 1, 1],
+        ["Whenever you sacrifice a Gold, exile the top card of your library. You may play that card this turn.", 3, 1, 1],
+        ["Whenever a creature you control becomes blocked, you may sacrifice a Gold. If you do, this permanent deals 2 damage to target blocking creature.", 2, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature attacks, create a tapped Gold token.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, this creature gets +1/+0 and gains first strike until end of turn.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, you may sacrifice a Gold. If you do, this creature deals 2 damage to any target.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever you create a Gold token, this creature gets +1/+0 until end of turn.\"", 3, 1, 1],
+        ["Equipped creature has \"Whenever you sacrifice a Gold, this creature gains menace until end of turn.\"", 3, 1, 1]
+      ]
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever a land enters the battlefield under your control, you may pay {1}. If you do, create a Gold token.", 3, 1, 1],
+        ["Whenever you create a Gold token, put a +1/+1 counter on target creature you control.", 3, 1, 1],
+        ["Whenever you sacrifice a Gold, untap up to one target creature and up to one target land.", 3, 1, 1],
+        ["Whenever a creature you control with power 4 or greater enters the battlefield, create a Gold token.", 2, 1, 1],
+        ["At the beginning of combat on your turn, if you control three or more Gold tokens, creatures you control get +2/+2 and gain trample until end of turn.", 2, 1, 1],
+        ["Whenever one or more Gold tokens enter the battlefield under your control, you gain 2 life.", 3, 1, 1],
+        ["Whenever a creature you control becomes the target of a spell you control, if mana from a Gold was spent to cast that spell, put a +1/+1 counter on that creature.", 2, 1, 1],
+        ["Whenever you sacrifice a Gold, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.", 2, 1, 1],
+        ["Whenever a token you control dies, create a Gold token.", 2, 1, 1],
+        ["Whenever you control a creature with power 6 or greater, create a Gold token at the beginning of your end step.", 2, 1, 1],
+        ["Whenever you create your third Gold token in a turn, you may put two +1/+1 counters on target creature you control.", 2, 1, 1],
+        ["Whenever you sacrifice a Gold, put a growth counter on this permanent. Creatures you control get +1/+1 for each growth counter on it.", 2, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature attacks, you may create a Gold token. If you do, this creature gets +1/+1 until end of turn.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, put a +1/+1 counter on this creature.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, create a 1/1 green [TOKEN_SUBTYPE] creature token and a Gold token.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever you create a Gold token, this creature gains trample until end of turn.\"", 3, 1, 1],
+        ["Equipped creature has \"Whenever you sacrifice a Gold, this creature gets +2/+2 until end of turn.\"", 3, 1, 1]
+      ]
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [
+        ["Whenever you create one or more Gold tokens, put a charge counter on this permanent.", 3, 1, 1],
+        ["Remove three charge counters from this permanent: Create a 4/4 colorless Construct artifact creature token and a Gold token.", 2, 1, 1],
+        ["Whenever you sacrifice a Gold, put a charge counter on this permanent. Then if there are five or more charge counters on it, draw two cards.", 2, 1, 1],
+        ["Whenever an artifact enters the battlefield under your control, you may create a Gold token.", 3, 1, 1],
+        ["Whenever you sacrifice an artifact, this permanent deals 1 damage to any target and you gain 1 life.", 2, 1, 1],
+        ["At the beginning of your end step, if you control six or more artifacts, create a Gold token.", 2, 1, 1]
+      ],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, create a Gold token.\"", 3, 1, 1],
+        ["Enchanted creature has \"Whenever you sacrifice a Gold, this creature gains indestructible until end of turn.\"", 2, 1, 1]
+      ],
+      "AuraLand": [],
+      "Equipment": [
+        ["Equipped creature has \"Whenever you create a Gold token, put a +1/+1 counter on this creature.\"", 3, 1, 1],
+        ["Equipped creature has \"Whenever you sacrifice a Gold, this creature gains hexproof until end of turn.\"", 2, 1, 1]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Cleric", "Knight", "Merchant", "Advisor"],
+    "U": ["Human", "Wizard", "Rogue", "Advisor", "Merchant", "Artificer"],
+    "B": ["Human", "Rogue", "Warlock", "Assassin", "Merchant", "Pirate"],
+    "R": ["Human", "Warrior", "Barbarian", "Pirate", "Rogue", "Merchant"],
+    "G": ["Human", "Druid", "Scout", "Warrior", "Citizen", "Artisan"],
+    "C": ["Construct", "Golem", "Treasure", "Spirit"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Citizen",
+      "Merchant",
+      "Pirate",
+      "Rogue",
+      "Construct",
+      "Spirit",
+      "Soldier"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "GOLD_RULES": [
+      "Gold is an artifact token with \"Sacrifice this artifact: Add one mana of any color.\""
+    ],
+    "GOLD_SYNERGY_WORD": [
+      "gold-fueled",
+      "gilded",
+      "lavish",
+      "mercantile",
+      "hoarding"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "Whenever you sacrifice a Gold, put a +1/+1 counter on this creature."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever you create a Gold token, scry 1."
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "Whenever you sacrifice a Gold, each opponent loses 1 life and you gain 1 life."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever you sacrifice a Gold, this creature gets +1/+0 until end of turn."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever you create a Gold token, put a +1/+1 counter on this creature."
+    ],
+    "C": [
+      "indestructible",
+      "defender"
+    ]
+  }
+}

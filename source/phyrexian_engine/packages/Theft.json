@@ -1,0 +1,105 @@
+{
+  "effects_by_color": {
+    "W": {},
+    "U": {},
+    "B": {},
+    "R": {},
+    "G": {},
+    "C": {}
+  },
+  "creature_subtypes": {
+    "W": [],
+    "U": [],
+    "B": [],
+    "R": [],
+    "G": [],
+    "C": []
+  },
+  "string_pools": {},
+  "monster_keywords": {
+    "W": [
+      "Whenever this creature enters the battlefield, exile up to one target creature an opponent controls with mana value 3 or less until this creature leaves the battlefield.",
+      "Whenever this creature attacks, exile target creature defending player controls until end of combat, then return that card to the battlefield under its owner's control tapped.",
+      "Whenever a creature an opponent controls becomes tapped, you may exile that creature until this creature leaves the battlefield. Activate this ability only once each turn.",
+      "Whenever a creature you control blocks, you may exchange control of it and target attacking creature until end of combat.",
+      "Whenever this creature deals combat damage to a player, you may gain control of target Aura attached to a permanent that player controls and attach it to a creature you control.",
+      "Whenever a creature enters the battlefield under an opponent's control, if you control more creatures than that player, you may exile that creature until this creature leaves the battlefield.",
+      "Whenever this creature or another creature you control dies, you may return target creature card exiled with this creature to the battlefield under your control.",
+      "At the beginning of each combat, you may gain control of target creature with power 2 or less until end of combat. Untap that creature. It blocks this turn if able.",
+      "Whenever this creature blocks or becomes blocked by a creature, you may exile that creature. At the beginning of the next end step, return that card to the battlefield under your control.",
+      "Whenever you gain life, you may put a justice counter on this creature. Whenever this creature attacks, you may remove three justice counters from it. When you do, gain control of target nonland permanent with mana value 3 or less for as long as you control this creature.",
+      "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may gain control of that spell or ability's target instead if it could legally target a permanent you control.",
+      "At the beginning of your end step, if you did not lose life this turn and an opponent did, gain control of target tapped creature that player controls until this creature leaves the battlefield."
+    ],
+    "U": [
+      "Whenever this creature deals combat damage to a player, look at the top three cards of that player's library. Exile one of them face down. You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever you cast a noncreature spell, gain control of target creature with power 2 or less until end of turn. Untap that creature. It becomes a Rogue in addition to its other types.",
+      "Whenever a creature an opponent controls dies, you may exile it face down. As long as it remains exiled, it is a copy card exiled with this creature. You may cast spells from among those cards and you may spend mana as though it were mana of any color to cast them.",
+      "Whenever this creature enters the battlefield, gain control of target nonland permanent with mana value less than or equal to the number of cards exiled with this creature for as long as you control this creature.",
+      "Whenever you draw your second card each turn, you may gain control of target artifact or enchantment for as long as you control this creature.",
+      "Whenever this creature deals combat damage to a player, choose up to one target spell that player controls. You may change the target of that spell to this creature or to a permanent you control if that spell could legally target it.",
+      "Whenever you cast an instant or sorcery spell from anywhere other than your hand, you may gain control of target creature with mana value less than that spell's mana value until end of turn. Untap that creature.",
+      "Whenever you gain control of a permanent you do not own, scry 2, then draw a card if you control three or more permanents you do not own.",
+      "At the beginning of your upkeep, you may look at the top card of each opponent's library. You may exile one of those cards. Until the end of your next turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever this creature becomes tapped, you may tap target creature an opponent controls. Until your next turn, that creature does not untap during its controller's untap step and you may activate abilities of that creature as though you controlled it.",
+      "Whenever an opponent casts their first spell each turn, you may copy that spell. You may choose new targets for the copy. If the copied spell is a permanent spell, it enters the battlefield under your control instead.",
+      "Whenever a spell or ability you control counters a spell, you may exile that spell instead of putting it into its owner's graveyard. For as long as that card remains exiled, you may cast it and you may spend mana as though it were mana of any color to cast it."
+    ],
+    "B": [
+      "Whenever this creature deals combat damage to a player, that player discards a card. If they discard a nonland card this way, you may cast that card from their graveyard this turn and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever a creature an opponent controls dies, you may return that card to the battlefield under your control. It is a Zombie in addition to its other types.",
+      "Whenever this creature or another creature you control dies, you may exile target creature card from an opponent's graveyard. Put a soul counter on this creature. This creature gets plus one plus one for each soul counter on it.",
+      "At the beginning of your upkeep, each opponent loses 1 life and discards a card, then you may choose a nonland card discarded this way. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever an opponent sacrifices a permanent, you may gain control of target creature that player controls with mana value less than or equal to the number of permanents they sacrificed this turn.",
+      "Whenever this creature blocks or becomes blocked by a creature, you may destroy that creature. If you do, return that card to the battlefield under your control at the beginning of the next end step.",
+      "Whenever a card leaves an opponent's graveyard, that player loses 1 life and you gain 1 life. Then, if you control three or more creature cards that you do not own, draw a card.",
+      "Whenever this creature enters the battlefield or attacks, you may exile target card from a graveyard. Until end of turn, you may play that card and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever a creature you control but do not own dies, each opponent loses 2 life and you draw a card.",
+      "Whenever an opponent loses life for the second time each turn, gain control of up to one target nonland permanent that player controls with mana value 3 or less until this creature leaves the battlefield.",
+      "At the beginning of each end step, if an opponent lost 4 or more life this turn, you may return target creature card from that player's graveyard to the battlefield under your control.",
+      "Whenever this creature deals combat damage to a planeswalker, destroy that planeswalker, then you may return it to the battlefield under your control with loyalty counters equal to the damage dealt to it this turn."
+    ],
+    "R": [
+      "Whenever this creature attacks, gain control of target creature defending player controls until end of turn. Untap that creature. It gains haste until end of turn.",
+      "Whenever this creature deals combat damage to a player, exile the top card of that player's library. Until the end of your next turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.",
+      "Whenever a creature you control but do not own attacks, it gets plus two plus zero and gains trample until end of turn.",
+      "At the beginning of combat on your turn, if you control a creature you do not own, create a Treasure token. Then, target creature you control gets plus X plus 0 until end of turn, where X is the number of permanents you control but do not own.",
+      "Whenever a creature an opponent controls becomes tapped, you may gain control of that creature until end of combat. Untap it. It attacks this turn if able.",
+      "Whenever a spell or ability you control deals damage to an opponent, exile the top card of that player's library. You may play that card this turn.",
+      "Whenever a creature you control dies, if you did not own it, this creature deals 3 damage to any target.",
+      "Whenever this creature enters the battlefield, gain control of up to one target artifact until end of turn. If you do, untap that artifact. It gains haste until end of turn. If that artifact is still on the battlefield at the beginning of the next end step, you may sacrifice it. When you do, this creature deals damage equal to that artifact's mana value to any target.",
+      "Whenever this creature blocks or becomes blocked by a creature, you may gain control of that creature until end of turn. Untap it. Remove it from combat.",
+      "Whenever you cast a spell from exile, this creature deals 1 damage to any target and you may gain control of target creature with mana value 1 or less until end of turn.",
+      "Whenever an opponent casts their second spell each turn, you may exile it as it resolves. Until the end of your next turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.",
+      "At the beginning of your end step, if you attacked with three or more creatures you do not own this turn, gain control of those creatures for as long as you control this creature."
+    ],
+    "G": [
+      "Whenever this creature deals combat damage to a creature with lesser power, gain control of that creature for as long as you control this creature.",
+      "Whenever a land enters the battlefield under your control, you may gain control of target land an opponent controls until end of turn. Untap that land.",
+      "Whenever a creature you control fights a creature you do not control and that creature would die this turn, return that card to the battlefield under your control at the beginning of the next end step.",
+      "Whenever this creature enters the battlefield or attacks, you may search target opponent's library for a basic land card and put that card onto the battlefield tapped under your control, then that player shuffles.",
+      "Whenever a creature an opponent controls becomes tapped for mana, put a plus one plus one counter on this creature. Then, if this creature has three or more plus one plus one counters on it, you may gain control of that permanent until this creature leaves the battlefield.",
+      "Whenever a creature you control but do not own deals combat damage to a player, draw a card and gain 2 life.",
+      "Whenever a creature you control with power 4 or greater enters the battlefield, you may gain control of target artifact or enchantment with mana value less than that creature's power for as long as you control that creature.",
+      "Whenever this creature blocks, you may have it fight target creature you do not control. If that creature would die this turn, exile it instead and you may play that card for as long as it remains exiled.",
+      "At the beginning of your end step, if you control three or more permanents you do not own, create a 3 3 green Beast creature token with trample.",
+      "Whenever this creature becomes the target of a spell or ability an opponent controls, you may gain control of target noncreature permanent that player controls until this creature leaves the battlefield.",
+      "Whenever a land you control becomes tapped, if you control a land you do not own, add one mana of any color that land could produce.",
+      "Whenever a creature token you control deals combat damage to a player, you may have that player sacrifice a nonland permanent. If they do, create a token that is a copy of that permanent."
+    ],
+    "C": [
+      "Whenever this creature enters the battlefield, each opponent exiles the top card of their library. For as long as those cards remain exiled, you may play them and you may spend mana as though it were mana of any color to cast them.",
+      "Whenever a permanent you control that you do not own leaves the battlefield, exile it instead of putting it anywhere else. You may play that card for as long as it remains exiled.",
+      "Whenever this creature deals combat damage to a player, choose up to one target nonland permanent that player controls. Gain control of that permanent until this creature leaves the battlefield.",
+      "Whenever a spell or ability causes an opponent to discard one or more cards, exile those cards instead of putting them into their graveyard. You may play cards exiled this way.",
+      "Whenever another creature enters the battlefield under your control but you do not own it, put a plus one plus one counter on this creature and draw a card.",
+      "Whenever a permanent you control but do not own becomes tapped, add one mana of any color and you gain 1 life.",
+      "At the beginning of each upkeep, if you control three or more permanents you do not own, each opponent mills three cards, then you may exile a nonland card milled this way. You may cast that card for as long as it remains exiled.",
+      "Whenever this creature attacks, exile up to one target nonland permanent you do not own and up to one target nonland permanent you own but do not control. Return the first card to the battlefield under your control at the beginning of the next end step and return the second card to the battlefield under its owner's control.",
+      "Whenever you cast a spell that was not cast from your hand, put a knowledge counter on this creature. Then, if there are three or more knowledge counters on it, you may gain control of target nonland permanent.",
+      "Whenever a permanent you control but do not own becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays three.",
+      "Whenever this creature or another permanent you control but do not own becomes untapped, you may untap target permanent you control.",
+      "At the beginning of your end step, if you control five or more permanents you do not own, each opponent chooses a permanent they control and gives you control of it. You create a token that is a copy of that permanent, then each opponent draws a card."
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Create a Clue token. Creatures you control gain vigilance until end of turn.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 white Human Detective creature tokens. For each of those tokens, create a Clue token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {2}. If that player pays, you create a Clue token.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw a card, then create a Clue token.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [
+        [
+          "Target creature gets -2/-2 until end of turn. Create a Clue token.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Each opponent sacrifices a creature or planeswalker. For each permanent sacrificed this way, create a Clue token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals 2 damage to any target. You may sacrifice a Clue. If you do, this deals 3 damage to that target instead.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two 1/1 red Rogue creature tokens. Whenever one of those tokens dies this turn, create a Clue token.",
+          2,
+          2,
+          5
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [
+        [
+          "Target creature gets +2/+2 until end of turn. If you control a Clue, it gains trample until end of turn.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for a basic land card, reveal it, put it onto the battlefield tapped, then shuffle. If you control three or more Clues, instead put two basic land cards onto the battlefield tapped this way.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [
+        [
+          "Create a Clue token.",
+          3,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create three Clue tokens.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Soldier",
+      "Cleric",
+      "Detective",
+      "Advisor"
+    ],
+    "U": [
+      "Human",
+      "Wizard",
+      "Detective",
+      "Rogue",
+      "Advisor"
+    ],
+    "B": [
+      "Human",
+      "Rogue",
+      "Assassin",
+      "Detective",
+      "Advisor"
+    ],
+    "R": [
+      "Human",
+      "Rogue",
+      "Warrior",
+      "Detective",
+      "Rebel"
+    ],
+    "G": [
+      "Human",
+      "Druid",
+      "Scout",
+      "Detective",
+      "Warrior"
+    ],
+    "C": [
+      "Spirit",
+      "Construct",
+      "Avatar"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Detective",
+      "Rogue",
+      "Spirit",
+      "Construct",
+      "Citizen"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a Clue:",
+      "{1}, Sacrifice a Clue:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "You gain 2 life.",
+      "Target creature gets +1/+1 until end of turn.",
+      "Target creature you don’t control gets -1/-1 until end of turn.",
+      "Create a 1/1 white Human Detective creature token.",
+      "Scry 1."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "CLUE_TAGLINE": [
+      "Clue tokens are artifacts with \"{2}, Sacrifice this artifact: Draw a card.\""
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+      "Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Clue, you gain 2 life.",
+      "Whenever you sacrifice a Clue, create a 1/1 white Human Detective creature token.",
+      "Whenever one or more Clues enter the battlefield under your control, you gain 1 life.",
+      "Whenever a Clue you control is put into a graveyard from the battlefield, you may pay {1}. If you do, tap target creature an opponent controls.",
+      "Whenever you sacrifice a Clue, prevent the next 1 damage that would be dealt to any target this turn.",
+      "Whenever a creature you control becomes the target of a spell or ability an opponent controls, create a Clue token.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, create a Clue token.",
+      "Whenever this creature attacks, if you control a Clue, this creature gains indestructible until end of turn.",
+      "Whenever you create one or more Clue tokens, you may exile target creature you control, then return it to the battlefield under its owner’s control.",
+      "Whenever you sacrifice a Clue, put a shield counter on up to one target creature you control.",
+      "Whenever this creature or another Detective you control dies, create a Clue token.",
+      "Whenever you gain life, you may sacrifice a Clue. If you do, put two +1/+1 counters on this creature.",
+      "Whenever you sacrifice a Clue, you may tap up to one target creature an opponent controls.",
+      "Whenever you sacrifice exactly two Clues, creatures you control get +1/+1 until end of turn.",
+      "Whenever one or more Clues enter the battlefield under your control, you may put a +1/+1 counter on up to one target creature you control.",
+      "Whenever you sacrifice a Clue, you may return target creature card with mana value 2 or less from your graveyard to your hand.",
+      "Whenever this creature or another Ally enters the battlefield under your control, if you control a Clue, put a +1/+1 counter on this creature.",
+      "Whenever a Clue you control becomes tapped, you gain 1 life.",
+      "Whenever you sacrifice a Clue, you may choose a creature. Until end of turn, that creature gains vigilance.",
+      "Whenever you sacrifice a Clue, if this creature has three or more +1/+1 counters on it, create a 2/2 white Spirit creature token with flying."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever you sacrifice a Clue, scry 1.",
+      "Whenever you sacrifice a Clue, draw a card, then discard a card.",
+      "Whenever you sacrifice a Clue, target creature gains flying until end of turn.",
+      "Whenever you sacrifice a Clue, untap up to one target creature you control.",
+      "Whenever a Clue enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever one or more Clues enter the battlefield under your control, look at the top card of your library. You may put it into your graveyard.",
+      "Whenever you draw your second card each turn, create a Clue token.",
+      "Whenever you sacrifice a Clue, target nonland permanent an opponent controls doesn’t untap during its controller’s next untap step.",
+      "Whenever you sacrifice a Clue, you may have target creature you control phase out.",
+      "Whenever an artifact enters the battlefield under your control, create a Clue token.",
+      "Whenever you cast an instant or sorcery spell, if you control a Clue, this creature gets +1/+0 until end of turn.",
+      "Whenever you sacrifice a Clue, you may pay {1}. If you do, copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+      "Whenever this creature deals combat damage to a player, create a Clue token.",
+      "Whenever one or more Clues you control are sacrificed, you may tap or untap target permanent.",
+      "Whenever you sacrifice a Clue, you may exile the top card of your library. You may play that card this turn.",
+      "Whenever an opponent draws their second card each turn, create a Clue token.",
+      "Whenever you sacrifice a Clue, counter target activated ability unless its controller pays {2}.",
+      "Whenever this creature attacks, if you control three or more Clues, defending player mills three cards.",
+      "Whenever you sacrifice a Clue, put a stun counter on up to one target creature an opponent controls.",
+      "Whenever one or more Clues enter the battlefield under your control, surveil 1.",
+      "Whenever you sacrifice a Clue, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of Clues you control.",
+      "Whenever you sacrifice a Clue, you may exile target card from a graveyard.",
+      "Whenever this creature becomes tapped, if you control a Clue, draw a card, then discard a card."
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "Whenever you sacrifice a Clue, each opponent loses 1 life and you gain 1 life.",
+      "Whenever you sacrifice a Clue, you may have target opponent lose 2 life.",
+      "Whenever a creature an opponent controls dies, create a Clue token.",
+      "Whenever you sacrifice a Clue, you may return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.",
+      "Whenever a Clue you control is put into a graveyard from the battlefield, you may exile up to one target card from a graveyard.",
+      "Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Clue, target creature an opponent controls gets -1/-1 until end of turn.",
+      "Whenever you sacrifice a Clue, each opponent loses 1 life. If you sacrificed two or more Clues this turn, instead each opponent loses 2 life and you gain 2 life.",
+      "Whenever a Clue enters the battlefield under your control, you may pay {1}. If you do, each opponent loses 1 life.",
+      "Whenever this creature enters the battlefield or attacks, if you control a Clue, each opponent loses 1 life and you gain 1 life.",
+      "Whenever one or more Clues enter the battlefield under your control, you may sacrifice a creature. If you do, draw a card.",
+      "Whenever you sacrifice a Clue, you may have each opponent lose 1 life. If you control four or more Clues, instead each opponent loses 2 life.",
+      "Whenever this creature deals combat damage to a player, that player discards a card. If they can’t, create a Clue token.",
+      "Whenever you sacrifice a Clue, put a +1/+1 counter on this creature, then if it has three or more +1/+1 counters on it, you may return target creature card from your graveyard to your hand.",
+      "Whenever a creature you control dies, if you control a Clue, each opponent loses 1 life.",
+      "Whenever you sacrifice a Clue, you may pay {B}. If you do, return target creature card with mana value 1 from your graveyard to the battlefield.",
+      "Whenever you sacrifice a Clue, if an opponent has 10 or less life, create a 2/2 black Zombie creature token.",
+      "Whenever a Clue you control becomes tapped, each opponent loses 1 life.",
+      "Whenever you sacrifice a Clue, you may have target player mill two cards.",
+      "Whenever you sacrifice a Clue, you may draw a card. If you do, you lose 1 life.",
+      "Whenever you sacrifice a Clue, if this creature has deathtouch, put a +1/+1 counter on it.",
+      "Whenever this creature or another Rogue you control deals combat damage to a player, create a Clue token.",
+      "Whenever an opponent sacrifices a Clue, that player loses 2 life unless they discard a card."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever you sacrifice a Clue, this creature gets +1/+0 until end of turn.",
+      "Whenever you sacrifice a Clue, this creature deals 1 damage to any target.",
+      "Whenever this creature attacks, you may sacrifice a Clue. If you do, this creature gets +2/+0 and gains trample until end of turn.",
+      "Whenever a Clue enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "Whenever you sacrifice a Clue, create a 1/1 red Rogue creature token. That token gains haste until end of turn.",
+      "Whenever you sacrifice a Clue, add {R}. Until end of turn, you don’t lose this mana as steps and phases end.",
+      "Whenever you sacrifice a Clue, exile the top card of your library. You may play that card this turn.",
+      "Whenever you sacrifice a Clue, if you’ve sacrificed three or more Clues this turn, this creature deals 3 damage to any target.",
+      "Whenever one or more Clues enter the battlefield under your control, you may discard a card. If you do, draw a card.",
+      "Whenever you sacrifice a Clue, creatures you control get +1/+0 until end of turn.",
+      "Whenever this creature or another attacking creature you control dies, if you control a Clue, this creature deals 2 damage to any target.",
+      "Whenever you sacrifice a Clue, you may have this creature gain first strike until end of turn.",
+      "Whenever a Clue you control is put into a graveyard from the battlefield, this creature deals 1 damage to each opponent.",
+      "Whenever this creature enters the battlefield, create a Clue token.",
+      "Whenever you sacrifice a Clue, you may pay {1}. If you do, target creature can’t block this turn.",
+      "Whenever you sacrifice a Clue, if this creature has power 4 or greater, it deals 2 damage to each opponent.",
+      "Whenever a Clue enters the battlefield under your control, this creature gets +1/+0 until end of turn for each Clue you control.",
+      "Whenever you sacrifice a Clue, you may have target creature gain menace until end of turn.",
+      "Whenever you sacrifice a Clue, this creature deals 1 damage to each creature with defender.",
+      "Whenever you sacrifice two or more Clues during a turn, at the beginning of the next end step, create a 3/1 red Elemental creature token with haste and \"Sacrifice this creature at the beginning of the next end step.\"",
+      "Whenever a Clue you control becomes tapped, this creature deals 1 damage to any target.",
+      "Whenever you sacrifice a Clue, if an opponent was dealt damage this turn, draw a card, then discard a card.",
+      "Whenever this creature blocks or becomes blocked, if you control a Clue, it deals 1 damage to each creature blocking or blocked by it."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
+      "Whenever a Clue enters the battlefield under your control, you gain 1 life.",
+      "Whenever you sacrifice a Clue, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you sacrifice a Clue, you may put a +1/+1 counter on up to one target creature you control.",
+      "Whenever a land enters the battlefield under your control, if you control a Clue, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Clue, untap target land.",
+      "Whenever you sacrifice a Clue, creatures you control get +0/+1 until end of turn.",
+      "Whenever you sacrifice a Clue, you may have target creature you control fight up to one target creature you don’t control.",
+      "Whenever a Clue you control is put into a graveyard from the battlefield, you may put two +1/+1 counters on this creature if it has power 3 or less.",
+      "Whenever you sacrifice a Clue, you may put a +1/+1 counter on each of up to two target creatures you control.",
+      "Whenever you sacrifice a Clue, you may reveal the top card of your library. If it’s a creature card, put it into your hand.",
+      "Whenever this creature enters the battlefield, create a Clue token.",
+      "Whenever a Clue enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever you sacrifice a Clue, if you control four or more creatures, creatures you control gain trample until end of turn.",
+      "Whenever you sacrifice a Clue, you may put a +1/+1 counter on this creature, then if it has four or more +1/+1 counters on it, you gain 4 life.",
+      "Whenever you sacrifice a Clue, you may have target creature you control fight target creature you don’t control. Activate only once each turn.",
+      "Whenever a Clue you control becomes tapped, add {G}.",
+      "Whenever you sacrifice a Clue, you may put a +1/+1 counter on target land you control. That land becomes a 0/0 Elemental creature with haste. It’s still a land.",
+      "Whenever you sacrifice a Clue, if this creature’s power is 4 or greater, create a 2/2 green Beast creature token.",
+      "Whenever one or more Clues enter the battlefield under your control, put a +1/+1 counter on each creature you control with power 2 or less.",
+      "Whenever you sacrifice a Clue, you may choose a creature you control. Until end of turn, that creature gets +X/+X, where X is the number of Clues you control.",
+      "Whenever you sacrifice a Clue, proliferate.",
+      "Whenever you sacrifice a Clue, you may untap this creature."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever you sacrifice a Clue, you may add {C}.",
+      "Whenever a Clue enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Clue, choose a color. Until end of turn, this creature becomes that color in addition to its other colors.",
+      "Whenever you sacrifice a Clue, this creature gets +1/+1 until end of turn for each color among permanents you control.",
+      "Whenever you sacrifice a Clue, you may have target colorless creature gain vigilance until end of turn.",
+      "Whenever a Clue you control is put into a graveyard from the battlefield, if you have exactly three Clues in your graveyard, transform this creature.",
+      "Whenever you sacrifice a Clue, if this creature is colorless, draw a card and then discard a card.",
+      "Whenever you sacrifice a Clue, you may exile target artifact card from a graveyard."
+    ]
+  }
+}

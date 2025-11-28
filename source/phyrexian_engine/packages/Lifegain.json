@@ -1,0 +1,248 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Cleric", "Soldier", "Angel", "Advisor"],
+    "U": ["Human", "Wizard", "Cleric", "Spirit"],
+    "B": ["Human", "Warlock", "Cleric", "Vampire"],
+    "R": ["Human", "Shaman", "Cleric", "Warrior"],
+    "G": ["Human", "Druid", "Cleric", "Beast"],
+    "C": ["Spirit", "Avatar", "Construct"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct",
+      "Cleric"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains lifelink until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "lifelink",
+      "whenever you gain life, put a +1/+1 counter on this creature.",
+      "whenever you gain life, this creature gains vigilance until end of turn.",
+      "whenever you gain life, this creature gains flying until end of turn.",
+      "whenever you gain life, this creature gains indestructible until end of turn.",
+      "whenever you gain life, scry 1.",
+      "whenever you gain life, you may tap up to one target creature.",
+      "whenever you gain life, untap this creature.",
+      "whenever another creature enters the battlefield under your control, you gain 1 life.",
+      "whenever another creature enters the battlefield under your control, you gain 1 life and this creature gets +1/+0 until end of turn.",
+      "whenever another creature you control gains lifelink, you gain 1 life.",
+      "whenever one or more other creatures you control attack, you gain 1 life.",
+      "whenever this creature attacks, you gain 1 life for each other attacking creature.",
+      "whenever this creature attacks, you gain 1 life, then put a +1/+1 counter on this creature if you gained 3 or more life this turn.",
+      "whenever this creature blocks, you gain 2 life.",
+      "whenever this creature becomes tapped, you gain 1 life.",
+      "whenever this creature becomes untapped, you gain 1 life.",
+      "whenever this creature deals combat damage, you gain that much life.",
+      "whenever this creature deals combat damage to a player, you gain that much life and create a 1/1 white Spirit creature token with flying.",
+      "whenever you gain life for the first time each turn, put a +1/+1 counter on each other creature you control.",
+      "whenever you gain life for the second time each turn, draw a card.",
+      "whenever you gain 3 or more life at once, create a 1/1 white Cleric creature token.",
+      "whenever you gain 5 or more life at once, you may return target creature card with mana value 3 or less from your graveyard to the battlefield.",
+      "whenever your total life gained this turn becomes 5 or more, this creature gets +2/+2 and gains vigilance until end of turn.",
+      "whenever your total life gained this turn becomes 10 or more, this creature gets +4/+4 and gains flying until end of turn.",
+      "whenever you gain life, each opponent loses 1 life.",
+      "whenever you gain life, up to one target creature you control gains lifelink until end of turn.",
+      "whenever you gain life, up to one target creature you control gets +1/+1 until end of turn.",
+      "whenever an opponent attacks you or a planeswalker you control, you gain 1 life.",
+      "whenever a creature you control dies, you gain 1 life.",
+      "whenever a creature you control with lifelink dies, you gain life equal to its power.",
+      "at the beginning of your end step, if you gained life this turn, create a 1/1 white Spirit creature token with flying.",
+      "at the beginning of your end step, if you gained 3 or more life this turn, put a +1/+1 counter on this creature.",
+      "at the beginning of your end step, if you gained 5 or more life this turn, you gain 5 life.",
+      "at the beginning of combat on your turn, if you gained life this turn, this creature gets +2/+2 and gains vigilance until end of turn.",
+      "as long as you have 25 or more life, this creature gets +2/+2 and has flying.",
+      "as long as you have more life than each opponent, creatures you control have lifelink.",
+      "as long as you’ve gained life this turn, this creature has first strike.",
+      "whenever you gain life, you may exile target creature you control, then return that card to the battlefield under its owner’s control."
+    ],
+
+    "U": [
+      "whenever you gain life, scry 1.",
+      "whenever you gain life, you may draw a card. If you do, discard a card.",
+      "whenever you gain 3 or more life at once, draw a card.",
+      "whenever you gain life, put a +1/+1 counter on this creature if you have more cards in hand than each opponent.",
+      "whenever you gain life, tap up to one target creature an opponent controls.",
+      "whenever you gain life, you may return target creature you control to its owner’s hand.",
+      "whenever you gain life, this creature can’t be blocked this turn except by creatures with flying.",
+      "at the beginning of your end step, if you gained life this turn, you may phase out this creature.",
+      "as long as you’ve gained life this turn, this creature has hexproof.",
+      "whenever you gain life, surveil 1."
+    ],
+
+    "B": [
+      "whenever you gain life, each opponent loses 1 life.",
+      "whenever you gain life, you may pay 1 life. If you do, draw a card.",
+      "whenever you gain life, put a +1/+1 counter on this creature and lose 1 life.",
+      "whenever you gain life, each opponent mills two cards.",
+      "whenever a creature an opponent controls dies, you gain 1 life.",
+      "whenever a creature you control dies, you gain 1 life and each opponent loses 1 life.",
+      "whenever you gain 3 or more life at once, each opponent sacrifices a creature.",
+      "whenever an opponent loses life, you gain 1 life.",
+      "at the beginning of your end step, if you gained life this turn, create a 1/1 black Spirit creature token with flying.",
+      "whenever you gain life, you may return target creature card with mana value 2 or less from your graveyard to your hand.",
+      "whenever you gain life, if an opponent has 10 or less life, put two +1/+1 counters on this creature.",
+      "as long as you have 30 or more life, this creature has menace and deathtouch.",
+      "whenever you gain life, you may exile target card from a graveyard.",
+      "whenever you gain life, creatures your opponents control get -1/-1 until end of turn.",
+      "whenever you gain life, you may sacrifice another creature. If you do, draw a card."
+    ],
+
+    "R": [
+      "whenever you gain life, this creature gets +1/+0 until end of turn.",
+      "whenever you gain life, this creature gains first strike until end of turn.",
+      "whenever you gain life, this creature gains menace until end of turn.",
+      "whenever you gain 3 or more life at once, this creature deals 2 damage to any target.",
+      "whenever you gain life, you may discard a card. If you do, draw a card.",
+      "whenever you gain life, create a 1/1 red Warrior creature token that can’t block.",
+      "whenever you gain life, if this is the second time this turn you’ve gained life, this creature gains double strike until end of turn.",
+      "whenever you gain life during combat, untap this creature.",
+      "whenever you gain life, you may sacrifice another creature. If you do, this creature gets +2/+0 until end of turn."
+    ],
+
+    "G": [
+      "whenever you gain life, put a +1/+1 counter on this creature.",
+      "whenever you gain life, put a +1/+1 counter on another target creature you control.",
+      "whenever you gain life, you may put a +1/+1 counter on each of up to two target creatures.",
+      "whenever you gain life, you may put a +1/+1 counter on target land you control. It becomes a 0/0 Elemental creature that’s still a land.",
+      "whenever you gain life, untap target creature you control.",
+      "whenever you gain life, untap target land you control.",
+      "whenever you gain 3 or more life at once, create a 2/2 green Beast creature token.",
+      "whenever you gain 4 or more life at once, create a 3/3 green Beast creature token with trample.",
+      "whenever you gain life, this creature gains trample until end of turn.",
+      "whenever you gain life, this creature gains hexproof until end of turn.",
+      "whenever another creature enters the battlefield under your control, you gain 1 life and that creature enters the battlefield with an additional +1/+1 counter on it.",
+      "whenever another creature you control with a +1/+1 counter on it dies, you gain life equal to its toughness.",
+      "at the beginning of your end step, if you gained life this turn, put a +1/+1 counter on each creature you control with lifelink.",
+      "as long as you have 25 or more life, creatures you control get +1/+1.",
+      "whenever you gain life, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "whenever you gain life, you may put a land card from your hand onto the battlefield tapped.",
+      "whenever you gain life, you may have target creature you control fight up to one target creature you don’t control.",
+      "whenever you gain life, if this is the third time this turn you’ve gained life, create a 4/4 green Elemental creature token with trample.",
+      "whenever you gain life, you may distribute that many +1/+1 counters among any number of other target creatures you control.",
+      "whenever you gain life, put a +1/+1 counter on this creature, then if it has three or more +1/+1 counters on it, remove all of them and create a {X}/{X} green Elemental creature token, where X is the number of counters removed this way."
+    ],
+
+    "C": [
+      "whenever you gain life, put a +1/+1 counter on each other creature you control.",
+      "whenever you gain life, you may have target opponent lose 1 life.",
+      "whenever you gain life, if your life total is 40 or more, you win the game."
+    ]
+  }
+}

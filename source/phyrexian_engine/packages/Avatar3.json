@@ -1,0 +1,388 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        ["Exile target creature you control, then return it to the battlefield under its owner's control. You gain {X} life.", 3, 2, 5],
+        ["Creatures you control get +{X}/+{X} until end of turn. If you control an Ally, those creatures gain vigilance until end of turn.", 3, 3, 6],
+        ["Prevent the next {X} damage that would be dealt to any number of targets this turn. For each {2} damage prevented this way, create a 1/1 white Ally creature token.", 2, 2, 5],
+        ["Airbend up to {X} target creatures you control. (Exile them, then return them to the battlefield tapped under their owner's control at the beginning of the next end step.)", 3, 2, 5],
+        ["Until end of turn, whenever a creature you control would die, instead exile it and you gain 1 life.", 2, 2, 4]
+      ],
+      "Sorcery": [
+        ["Create {X} 1/1 white Ally creature tokens with \"Whenever this creature attacks, you gain 1 life.\"", 3, 3, 6],
+        ["Create two 1/1 white [TOKEN_SUBTYPE] creature tokens, then you may Airbend any number of them. (Exile them and return them at the beginning of the next end step.)", 2, 3, 5],
+        ["Choose up to {X} target creatures. They gain indestructible until your next turn.", 2, 4, 7],
+        ["Create a 2/2 white [TOKEN_SUBTYPE] creature token with vigilance, then you may search your library for a Lesson card, reveal it, put it into your hand, then shuffle.", 2, 3, 6],
+        ["Return target creature card with mana value {X} or less from your graveyard to the battlefield tapped. It becomes an Ally in addition to its other types.", 2, 4, 7]
+      ],
+      "Enchantment": [
+        ["[TRIGGER_INTRO] a creature [CREATURE_CONTROLLER] [CREATURE_TRIGGER], create a 1/1 white Ally creature token.", 3, 2, 5],
+        ["Whenever you cast a Lesson spell, creatures you control get +1/+1 until end of turn.", 2, 2, 5],
+        ["Creatures you control have \"Whenever this creature becomes tapped, you gain 1 life.\" and \"Airbend this creature only as a sorcery.\" (Exile it, then return it at the beginning of the next end step.)", 2, 3, 6],
+        ["Whenever you gain life, create a Clue token.", 2, 2, 5],
+        ["At the beginning of combat on your turn, up to one target creature you control gets +{X}/+{X} and gains vigilance until end of turn, where {X} is the number of Allies you control.", 2, 3, 6]
+      ],
+      "Artifact": [
+        ["Whenever you cast a Lesson spell, put a charge counter on this. Remove three charge counters from this: Create two 1/1 white Ally creature tokens.", 2, 2, 5],
+        ["{T}, Sacrifice this: You gain 4 life and create a 1/1 white [TOKEN_SUBTYPE] creature token.", 2, 1, 3]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Target creature gains vigilance until end of turn. If it's an Ally, put a +1/+1 counter on it.", 3, 2, 6],
+        ["[ACTIVATED_COST] Airbend target creature you control. (Exile it, then return it to the battlefield under its owner's control at the beginning of the next end step.)", 3, 3, 6],
+        ["[ACTIVATED_COST] Create a 1/1 white Ally creature token.", 2, 3, 6]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N}. As long as it's an Ally, it has vigilance.", 5, 1, 6],
+        ["Enchanted creature has \"Whenever this creature attacks, you gain 2 life.\"", 3, 1, 6],
+        ["Enchanted creature has \"Exhaust — Sacrifice another creature: Airbend this creature.\" (Exile it, then return it to the battlefield under its owner's control at the beginning of the next end step. Activate only once.)", 2, 3, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land has \"{T}: Add one mana of any color. Spend this mana only to cast Lesson spells or to cast Ally spells.\"", 4, 2, 6],
+        ["Enchanted land has \"{T}: Add {W}{W}.\"", 3, 2, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N} and has vigilance.", 5, 1, 6],
+        ["Equipped creature has \"Whenever this creature becomes tapped, you gain 1 life.\" and \"Airbend this creature.\"", 3, 2, 6]
+      ]
+    },
+    "U": {
+      "Instant": [
+        ["Counter target spell unless its controller pays {X}. If that spell is countered this way, you may Waterbend up to one target creature you control. (Tap it; it doesn't untap during its controller's next untap step.)", 2, 2, 5],
+        ["Tap up to {X} target creatures. They don't untap during their controller's next untap step.", 3, 2, 5],
+        ["Scry {X}, then draw a card.", 3, 1, 4],
+        ["Until end of turn, whenever you draw a card, you may Waterbend up to one target artifact or creature you control. (You may tap it to help pay for generic mana costs this turn.)", 2, 2, 5],
+        ["Airbend target spell. (Exile it. Its owner may cast that card from exile for {2} rather than pay its mana cost.)", 3, 2, 5]
+      ],
+      "Sorcery": [
+        ["Draw {X} cards, then discard a card.", 3, 3, 7],
+        ["Return up to one target nonland permanent to its owner's hand. Create a Clue token.", 3, 2, 5],
+        ["Search your library for a Lesson card, reveal it, put it into your hand, then shuffle. Scry 2.", 2, 2, 5],
+        ["Choose one or both — Waterbend up to two target creatures you control; or Airbend up to one target creature you don't control.", 2, 3, 6],
+        ["Look at the top {X} cards of your library. Put one into your hand, one into your graveyard, and the rest on the bottom of your library in a random order.", 2, 3, 6]
+      ],
+      "Enchantment": [
+        ["Whenever you cast a noncreature spell, you may Waterbend up to one target creature you control. (You may tap it to help pay for generic mana costs this turn.)", 3, 2, 5],
+        ["Whenever you draw your second card each turn, create a Clue token.", 2, 2, 5],
+        ["Creatures your opponents control get -1/-0 as long as you control an Airbender.", 2, 3, 6],
+        ["[TRIGGER_INTRO] a creature you control becomes tapped, scry 1.", 2, 2, 5],
+        ["You may cast Lessons as though they had flash.", 2, 2, 4]
+      ],
+      "Artifact": [
+        ["{T}: Add {C}. Spend this mana only to cast Lessons or to activate abilities of Benders.", 3, 2, 5],
+        ["Whenever you sacrifice a Clue, you may untap target creature you control.", 2, 1, 4]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Scry 1, then draw a card, then discard a card.", 3, 2, 6],
+        ["[ACTIVATED_COST] Waterbend up to one target creature you control. (You may tap it to help pay for generic mana costs this turn.)", 3, 3, 6],
+        ["[ACTIVATED_COST] Airbend target spell you control. (Exile it. You may cast it from exile for {2}.)", 2, 3, 6]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N} and has flying.", 5, 1, 6],
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, draw a card.\"", 3, 2, 6],
+        ["Enchanted creature has \"Waterbend {X}. (You may tap this creature to help pay for generic mana costs of your spells.)\"", 3, 3, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land has \"{T}: Add {U}{U}.\"", 3, 2, 6],
+        ["Enchanted land has \"{T}: Add {U} or {C}. When this land becomes tapped, scry 1.\"", 3, 2, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N} and has flying.", 4, 1, 6],
+        ["Equipped creature has \"Whenever this creature becomes tapped, draw a card, then discard a card.\"", 3, 2, 6]
+      ]
+    },
+    "B": {
+      "Instant": [
+        ["Target creature gets -{X}/- {X} until end of turn. If that creature dies this turn, create a 1/1 black Spirit creature token.", 3, 2, 5],
+        ["Target player discards {X} cards at random.", 2, 2, 5],
+        ["Destroy target creature with mana value {X} or less. You lose {X} life.", 3, 3, 6],
+        ["Until end of turn, whenever a creature an opponent controls dies, create a Food token.", 2, 2, 5],
+        ["Airbend target creature an opponent controls. When that creature returns, its controller loses 2 life.", 2, 3, 6]
+      ],
+      "Sorcery": [
+        ["Create {X} 2/2 black [TOKEN_SUBTYPE] creature tokens. Then each opponent loses X life and you gain X life.", 3, 4, 7],
+        ["Return target creature card from your graveyard to the battlefield. It gains \"Exhaust — Sacrifice another creature: This creature gains indestructible until end of turn.\" (Activate only once.)", 3, 4, 7],
+        ["Each opponent discards a card. For each nonland card discarded this way, create a Clue token.", 2, 3, 6],
+        ["Choose a creature type. Return up to {X} target creature cards of the chosen type from your graveyard to your hand.", 2, 3, 6],
+        ["Each opponent sacrifices a creature. You may Waterbend up to one target creature you control.", 2, 3, 6]
+      ],
+      "Enchantment": [
+        ["Whenever a creature an opponent controls dies, create a 1/1 black Spirit creature token and you gain 1 life.", 3, 3, 6],
+        ["Whenever you sacrifice a Clue or Food, each opponent loses 1 life and you gain 1 life.", 3, 2, 5],
+        ["Creatures your opponents control get -1/-1 as long as you control three or more Spirits.", 2, 3, 6],
+        ["Whenever a creature you control dies, you may pay {1}. If you do, draw a card and lose 1 life.", 3, 2, 5],
+        ["At the beginning of your end step, you may sacrifice a creature. If you do, Airbend target nonland permanent.", 2, 4, 7]
+      ],
+      "Artifact": [
+        ["Whenever a creature you control dies, put a charge counter on this. Remove three charge counters from this: Create two 2/2 black [TOKEN_SUBTYPE] creature tokens.", 3, 3, 6],
+        ["{T}, Sacrifice a creature: Add {B}{B}. Spend this mana only to cast creature spells or activate abilities of creatures.", 2, 2, 5]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Target creature gets -1/-1 until end of turn. If that creature dies this turn, create a 1/1 black Spirit creature token.", 3, 2, 6],
+        ["[ACTIVATED_COST] Each opponent loses 1 life and you gain 1 life.", 3, 2, 6],
+        ["[ACTIVATED_COST] Exile target creature card from a graveyard. Create a Food token.", 2, 2, 6]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N} and has menace.", 5, 1, 6],
+        ["Enchanted creature has deathtouch.", 3, 1, 6],
+        ["Enchanted creature has \"Whenever this creature dies, each opponent loses 2 life and you gain 2 life.\"", 3, 2, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land has \"{T}: Add {B}{B}.\"", 3, 2, 6],
+        ["Enchanted land has \"{T}: Add {B}. When this land becomes tapped, you lose 1 life and create a 1/1 black Spirit creature token.\"", 2, 3, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N} and has menace.", 4, 1, 6],
+        ["Equipped creature has \"Whenever this creature deals combat damage to a player, that player discards a card.\"", 3, 2, 6]
+      ]
+    },
+    "R": {
+      "Instant": [
+        ["This spell deals {X} damage to any target.", 3, 1, 6],
+        ["Firebending — Whenever a creature you control attacks this turn, add {R}. Until end of turn, you don't lose this mana as steps and phases end.", 3, 3, 6],
+        ["Target creature gets +{X}/0 and gains first strike until end of turn.", 2, 2, 5],
+        ["Target creature you control deals damage equal to its power to target creature you don't control.", 3, 3, 6],
+        ["Airbend up to one target creature you control and up to one target creature you don't control.", 2, 3, 6]
+      ],
+      "Sorcery": [
+        ["This spell deals {X} damage divided as you choose among any number of targets.", 3, 3, 7],
+        ["Create {X} 1/1 red [TOKEN_SUBTYPE] creature tokens with haste and \"At the beginning of the end step, sacrifice this creature.\"", 3, 3, 6],
+        ["Creatures you control get +2/+0 until end of turn. If you control a Bender, those creatures gain menace until end of turn.", 2, 3, 5],
+        ["Destroy target artifact or land. Create a tapped Treasure token.", 2, 3, 6],
+        ["Firebending Lesson — Create a 1/1 red Bender creature token with \"Whenever this creature attacks, add {R}.\"", 2, 2, 5]
+      ],
+      "Enchantment": [
+        ["Whenever you cast a noncreature spell, this enchantment deals 1 damage to any target.", 3, 2, 5],
+        ["Creatures you control have \"Whenever this creature attacks, if it has firebending, it gets +1/+0 until end of turn.\"", 2, 3, 6],
+        ["At the beginning of combat on your turn, you may have target creature you control gain firebending {X} until end of turn, where {X} is its power.", 2, 3, 6],
+        ["Whenever a creature you control dies, this enchantment deals 1 damage to each opponent.", 2, 2, 5],
+        ["Whenever you sacrifice a permanent, add {R}. Until end of turn, you don't lose this mana as steps and phases end.", 2, 3, 6]
+      ],
+      "Artifact": [
+        ["{T}: Add {R}. When this mana is spent to cast an instant or sorcery spell, that spell deals 1 extra damage to any target.", 3, 2, 5],
+        ["Whenever you cast a spell with firebending, put a charge counter on this. Remove two charge counters from this: Draw a card, then discard a card.", 2, 3, 6]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Target creature gains haste until end of turn.", 3, 1, 6],
+        ["[ACTIVATED_COST] This permanent deals 1 damage to any target.", 3, 2, 6],
+        ["[ACTIVATED_COST] Firebend. (Until end of turn, whenever a creature you control attacks, add {R}.)", 2, 3, 6]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N} and has haste.", 5, 1, 6],
+        ["Enchanted creature has \"Whenever this creature attacks, it deals 1 damage to any target.\"", 3, 2, 6],
+        ["Enchanted creature has \"Firebending {X}. (Whenever this creature attacks, add {R} for each point of {X}. You don't lose this mana until end of combat.)\"", 2, 3, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land has \"{T}: Add {R}{R}.\"", 3, 2, 6],
+        ["Enchanted land has \"{T}: Add {R}. When this land becomes tapped, this land deals 1 damage to each opponent.\"", 2, 3, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N} and has first strike.", 4, 1, 6],
+        ["Equipped creature has \"Whenever this creature attacks, it deals 1 damage to each opponent.\"", 3, 2, 6]
+      ]
+    },
+    "G": {
+      "Instant": [
+        ["Target creature gets +{X}/+{X} and gains trample until end of turn.", 3, 2, 6],
+        ["Destroy target artifact or enchantment.", 3, 2, 5],
+        ["Put {X} +1/+1 counters on target creature. It gains vigilance until end of turn.", 2, 3, 6],
+        ["Untap up to {X} target lands you control.", 2, 3, 6],
+        ["Until end of turn, whenever a land you control becomes tapped for mana, add an additional {G}.", 2, 2, 5]
+      ],
+      "Sorcery": [
+        ["Search your library for up to {X} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle.", 3, 3, 7],
+        ["Create a 3/3 green [TOKEN_SUBTYPE] creature token with \"When this creature enters the battlefield, earthbend 2.\" (Target land you control becomes a 0/0 land creature. Put two +1/+1 counters on it.)", 3, 3, 6],
+        ["Distribute {X} +1/+1 counters among up to three target creatures you control.", 2, 3, 7],
+        ["Earthbending Lesson — Earthbend {X}. (Target land you control becomes a 0/0 land creature with haste. Put X +1/+1 counters on it. It's still a land.)", 2, 3, 7],
+        ["Create two 2/2 green [TOKEN_SUBTYPE] creature tokens, then untap up to two target lands.", 2, 3, 6]
+      ],
+      "Enchantment": [
+        ["Whenever a land enters the battlefield under your control, you gain 1 life and you may put a +1/+1 counter on target creature.", 3, 3, 6],
+        ["Lands you control are 2/2 Elemental creatures with vigilance in addition to their other types.", 2, 4, 7],
+        ["Whenever a creature you control with power 4 or greater attacks, draw a card.", 3, 3, 6],
+        ["Whenever you earthbend a land, that land gains trample until end of turn.", 2, 2, 5],
+        ["Creatures you control get +1/+1 as long as you control four or more lands.", 2, 2, 5]
+      ],
+      "Artifact": [
+        ["{T}: Add {G}. If this mana is spent to cast a creature spell, that creature enters the battlefield with an additional +1/+1 counter on it.", 3, 2, 5],
+        ["Whenever you earthbend a land, put a charge counter on this. Remove three charge counters from this: Create a 4/4 green [TOKEN_SUBTYPE] creature token with trample.", 2, 3, 6]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Put a +1/+1 counter on target creature.", 3, 2, 6],
+        ["[ACTIVATED_COST] Earthbend 1. (Target land you control becomes a 0/0 land creature with haste. Put one +1/+1 counter on it. It's still a land.)", 3, 3, 6],
+        ["[ACTIVATED_COST] Untap target land.", 2, 1, 4]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N} and has trample.", 5, 1, 6],
+        ["Enchanted creature has \"Whenever this creature attacks, earthbend 1.\"", 3, 3, 6],
+        ["Enchanted creature has \"Whenever this creature becomes blocked, put a +1/+1 counter on it.\"", 3, 2, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land is a 3/3 green Elemental creature with trample. It's still a land.", 4, 2, 6],
+        ["Enchanted land has \"{T}: Add {G}{G}.\"", 3, 2, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N} and has trample.", 4, 1, 6],
+        ["Equipped creature has \"Whenever this creature attacks, you may untap target land.\"", 3, 2, 6]
+      ]
+    },
+    "C": {
+      "Instant": [
+        ["Add {C}{C}. Spend this mana only to cast Lessons or activate abilities of Benders.", 3, 2, 5],
+        ["Create a Clue token.", 3, 1, 3],
+        ["Create a Food token and a Clue token.", 2, 2, 5]
+      ],
+      "Sorcery": [
+        ["Create two colorless 1/1 Construct creature tokens.", 3, 2, 5],
+        ["Search your library for a colorless card with mana value {X} or less, reveal it, put it into your hand, then shuffle.", 2, 3, 6]
+      ],
+      "Enchantment": [
+        ["Whenever you sacrifice a Clue or Food, put a +1/+1 counter on target creature you control.", 3, 2, 5],
+        ["Artifacts you control have \"{T}: Add {C}.\"", 2, 3, 6]
+      ],
+      "Artifact": [
+        ["{T}: Add one mana of any color. Spend this mana only to cast multicolored spells.", 3, 2, 5],
+        ["{2}, {T}, Sacrifice this: Draw a card and create a Clue token.", 2, 2, 5]
+      ],
+      "Activated": [
+        ["[ACTIVATED_COST] Create a Clue token.", 3, 2, 6],
+        ["[ACTIVATED_COST] Create a Food token.", 3, 2, 6]
+      ],
+      "AuraCreature": [
+        ["Enchanted creature gets +{N}/+{N}.", 4, 1, 6],
+        ["Enchanted creature has \"Whenever this creature deals combat damage to a player, create a Clue token.\"", 3, 2, 6]
+      ],
+      "AuraLand": [
+        ["Enchanted land has \"{T}: Add one mana of any color.\"", 4, 2, 6]
+      ],
+      "Equipment": [
+        ["Equipped creature gets +{N}/+{N}.", 4, 1, 6]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Monk", "Ally", "Bender", "Cleric"],
+    "U": ["Human", "Wizard", "Monk", "Illusion", "Ally", "Bender"],
+    "B": ["Human", "Assassin", "Rogue", "Shaman", "Spirit", "Ally"],
+    "R": ["Human", "Warrior", "Soldier", "Berserker", "Ally", "Bender"],
+    "G": ["Human", "Druid", "Scout", "Warrior", "Bender", "Beast"],
+    "C": ["Spirit", "Elemental", "Avatar", "Construct"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Ally",
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct",
+      "Bender"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature.",
+      "Create a Clue token.",
+      "Create a Food token.",
+      "Waterbend up to one target creature you control. (You may tap it to help pay for generic mana costs of your spells this turn.)"
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "BENDER_SUBTYPE": [
+      "Airbender",
+      "Waterbender",
+      "Earthbender",
+      "Firebender"
+    ],
+    "NATION": [
+      "Air Nomads",
+      "Water Tribe",
+      "Earth Kingdom",
+      "Fire Nation",
+      "Republic City"
+    ],
+    "LESSON_TYPE": [
+      "Lesson",
+      "Training",
+      "Meditation",
+      "Form",
+      "Practice"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+      "airbend up to one other creature you control"
+    ],
+    "U": [
+      "flying",
+      "prowess",
+      "ward {X}",
+      "waterbend {X}"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "ward {X}",
+      "exhaust — Sacrifice another creature: Put two +1/+1 counters on this creature."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "firebending {X}",
+      "exhaust — This creature deals damage equal to its power to any target."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "earthbend 2",
+      "ward {X}"
+    ],
+    "C": [
+      "indestructible",
+      "defender"
+    ]
+  }
+}

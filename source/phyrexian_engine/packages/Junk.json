@@ -1,0 +1,352 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token with \"{T}, Sacrifice this artifact: You gain 1 life.\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Tap any number of untapped Junk tokens you control. Prevent the next {X} damage that would be dealt to you this turn, where X is the number of Junk tokens tapped this way.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token with \"{T}, Sacrifice this artifact: Scry 1.\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Tap two untapped Junk tokens you control: Draw a card, then discard a card.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token with \"{T}, Sacrifice this artifact: Each opponent loses 1 life.\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Sacrifice a Junk token: Each opponent loses 1 life and you gain 1 life.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token with \"{T}, Sacrifice this artifact: This artifact deals 1 damage to any target.\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Sacrifice a Junk token: This permanent deals 1 damage to any target.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token with \"{T}, Sacrifice this artifact: Add one mana of any color.\"",
+          2,
+          2,
+          6
+        ],
+        [
+          "[ACTIVATED_COST] Sacrifice a Junk token: Put a +1/+1 counter on target creature.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a colorless Junk artifact token.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Artificer",
+      "Soldier",
+      "Rebel",
+      "Advisor",
+      "Engineer"
+    ],
+    "U": [
+      "Human",
+      "Artificer",
+      "Wizard",
+      "Rogue",
+      "System",
+      "Drone"
+    ],
+    "B": [
+      "Human",
+      "Rogue",
+      "Assassin",
+      "Scavenger",
+      "Zombie",
+      "Warlock"
+    ],
+    "R": [
+      "Human",
+      "Goblin",
+      "Rebel",
+      "Scavenger",
+      "Berserker",
+      "Artificer"
+    ],
+    "G": [
+      "Human",
+      "Druid",
+      "Scout",
+      "Beast",
+      "Artificer",
+      "Shaman"
+    ],
+    "C": [
+      "Construct",
+      "Drone",
+      "Golem",
+      "Assembly",
+      "Avatar"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Junk",
+      "Construct",
+      "Thopter",
+      "Servo",
+      "Goblin",
+      "Beast"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a Junk token:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Create a colorless Junk artifact token.",
+      "Create two colorless Junk artifact tokens.",
+      "Sacrifice a Junk token: Draw a card, then discard a card.",
+      "Sacrifice a Junk token: Add one mana of any color.",
+      "Sacrifice a Junk token: This permanent deals 1 damage to any target.",
+      "Sacrifice a Junk token: Put a +1/+1 counter on target creature.",
+      "Sacrifice a Junk token: You gain 2 life."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "JUNK_RULES": [
+      "A Junk token is a colorless artifact token with no inherent abilities.",
+      "Some cards create Junk tokens with abilities such as \"{T}, Sacrifice this artifact: Add one mana of any color.\"."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "Whenever a Junk token enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever one or more Junk tokens you control are sacrificed, put a +1/+1 counter on this creature.",
+      "Whenever you gain life, create a colorless Junk artifact token.",
+      "Whenever this creature attacks, you may tap an untapped Junk token you control. If you do, this creature gains indestructible until end of turn.",
+      "Whenever this creature blocks, you may sacrifice a Junk token. If you do, prevent all combat damage that would be dealt to this creature this turn.",
+      "Whenever a creature you control dies, you may pay {1}. If you do, create a colorless Junk artifact token.",
+      "At the beginning of your end step, if you gained life this turn, create a colorless Junk artifact token.",
+      "Whenever you sacrifice an artifact, you gain 1 life.",
+      "Whenever this creature becomes tapped, create a tapped Junk token.",
+      "Whenever you create one or more Junk tokens, you may tap target creature an opponent controls.",
+      "Whenever another creature enters the battlefield under your control, if you control three or more Junk tokens, put a +1/+1 counter on that creature.",
+      "At the beginning of combat on your turn, you may sacrifice a Junk token. If you do, creatures you control get +0/+1 until end of turn.",
+      "Whenever this creature or another Ally enters the battlefield under your control, create a colorless Junk artifact token.",
+      "Whenever an opponent attacks you with one or more creatures, create a colorless Junk artifact token."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever a Junk token you control is sacrificed, scry 1.",
+      "Whenever you draw your second card each turn, create a colorless Junk artifact token.",
+      "Whenever you cast a noncreature spell, you may create a colorless Junk artifact token.",
+      "Whenever this creature deals combat damage to a player, you may sacrifice a Junk token. If you do, draw a card.",
+      "Whenever a Junk token enters the battlefield under your control, you may tap or untap target artifact or creature.",
+      "At the beginning of your upkeep, if you control three or more Junk tokens, you may draw a card, then discard a card.",
+      "Whenever you sacrifice an artifact, target player mills two cards.",
+      "Whenever an artifact you control becomes tapped, this creature gets +1/+0 until end of turn.",
+      "Whenever you cast an instant or sorcery spell, if you sacrificed a Junk token this turn, copy that spell. You may choose new targets for the copy.",
+      "Whenever you create one or more Junk tokens, you may return target nonland permanent you control to its owner's hand.",
+      "Whenever this creature becomes the target of a spell an opponent controls, you may sacrifice a Junk token. If you do, counter that spell unless its controller pays {2}.",
+      "At the beginning of your end step, if you created two or more Junk tokens this turn, scry 2.",
+      "Whenever a Junk token you control is put into a graveyard from the battlefield, you may exile up to one target card from a graveyard."
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "Whenever a Junk token you control is sacrificed, each opponent loses 1 life and you gain 1 life.",
+      "Whenever this creature or another creature you control dies, create a colorless Junk artifact token.",
+      "Whenever an artifact is put into your graveyard from the battlefield, put a +1/+1 counter on this creature.",
+      "Whenever a creature an opponent controls dies, you may sacrifice a Junk token. If you do, return that card to the battlefield under your control. It’s a black Zombie in addition to its other colors and types.",
+      "At the beginning of your end step, if an artifact was put into a graveyard from the battlefield this turn, create a colorless Junk artifact token.",
+      "Whenever you sacrifice a Junk token, you may pay {1}. If you do, draw a card and you lose 1 life.",
+      "Whenever an opponent discards a card, create a colorless Junk artifact token.",
+      "Whenever you sacrifice another permanent, this creature gets +1/+1 until end of turn.",
+      "Whenever this creature deals combat damage to a player, that player loses 1 life for each Junk token you control.",
+      "Whenever an artifact you control is destroyed, you may search your library for a card named Junk and put it into your hand, then shuffle.",
+      "Whenever a Junk token enters the battlefield under your control, target creature an opponent controls gets -1/-1 until end of turn.",
+      "At the beginning of each opponent's upkeep, if that player controls fewer artifacts than you, create a colorless Junk artifact token.",
+      "Whenever you exile a card from a graveyard, create a colorless Junk artifact token."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever this creature attacks, you may sacrifice a Junk token. If you do, this creature gets +2/+0 until end of turn.",
+      "Whenever you sacrifice an artifact, this creature deals 1 damage to any target.",
+      "Whenever a Junk token enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "Whenever an artifact you control is put into a graveyard from the battlefield, create a colorless Junk artifact token.",
+      "Whenever you cast a spell that targets this creature, create a colorless Junk artifact token.",
+      "Whenever you cast a noncreature spell, if you sacrificed a Junk token this turn, this creature deals 2 damage to each opponent.",
+      "At the beginning of combat on your turn, you may sacrifice any number of Junk tokens. This creature gets +1/+0 until end of turn for each Junk token sacrificed this way.",
+      "Whenever this creature deals combat damage to a player, create that many Junk tokens.",
+      "Whenever an opponent is dealt noncombat damage, create a colorless Junk artifact token.",
+      "Whenever you create one or more Junk tokens, target creature can't block this turn.",
+      "Whenever a land enters the battlefield under your control, if you control an artifact, create a colorless Junk artifact token.",
+      "Whenever you discard a card, you may sacrifice a Junk token. If you do, draw a card.",
+      "At the beginning of your end step, if you dealt 4 or more damage to opponents this turn, create two colorless Junk artifact tokens."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever a Junk token you control is sacrificed, put a +1/+1 counter on target creature.",
+      "Whenever a land enters the battlefield under your control, you may create a colorless Junk artifact token.",
+      "Whenever a creature you control with power 4 or greater attacks, create a colorless Junk artifact token tapped and attacking.",
+      "Whenever you sacrifice an artifact, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may sacrifice a Junk token. If you do, untap up to one target land.",
+      "Whenever you create one or more Junk tokens, creatures you control get +0/+1 until end of turn.",
+      "At the beginning of your end step, if you control four or more artifacts, put a +1/+1 counter on each creature you control.",
+      "Whenever an artifact enters the battlefield under your control, this creature fights up to one target creature you don't control.",
+      "Whenever a Junk token you control is put into a graveyard from the battlefield, you gain 1 life.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, create two colorless Junk artifact tokens.",
+      "Whenever you sacrifice a Junk token, you may put a +1/+1 counter on each of up to two target creatures.",
+      "At the beginning of combat on your turn, if you control three or more Junk tokens, creatures you control get +1/+1 and gain trample until end of turn."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever a Junk token enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever you sacrifice a Junk token, put a +1/+1 counter on this creature.",
+      "Whenever another artifact enters the battlefield under your control, create a colorless Junk artifact token.",
+      "Whenever an artifact you control is put into a graveyard from the battlefield, you may draw a card.",
+      "At the beginning of your upkeep, if you control ten or more artifacts, you win the game.",
+      "Whenever you cast an artifact spell, create a colorless Junk artifact token.",
+      "Whenever a player sacrifices an artifact, this creature deals 1 damage to any target.",
+      "Whenever this creature attacks, create a tapped and attacking Junk token.",
+      "Whenever you create one or more Junk tokens, proliferate.",
+      "Whenever you sacrifice a Junk token, you may add {C}{C}. Spend this mana only to cast artifact spells or activate abilities of artifacts.",
+      "Whenever an artifact you control becomes tapped, untap up to one other target artifact you control.",
+      "At the beginning of your end step, if you created three or more Junk tokens this turn, draw a card."
+    ]
+  }
+}

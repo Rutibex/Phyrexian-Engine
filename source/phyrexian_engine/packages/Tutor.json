@@ -1,0 +1,208 @@
+{
+  "effects_by_color": {
+    "W": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] },
+    "U": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] },
+    "B": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] },
+    "R": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] },
+    "G": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] },
+    "C": { "Instant": [], "Sorcery": [], "Enchantment": [], "Artifact": [], "Activated": [], "AuraCreature": [], "AuraLand": [], "Equipment": [] }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Knight", "Cleric"],
+    "U": ["Human", "Wizard", "Rogue"],
+    "B": ["Human", "Warlock", "Rogue"],
+    "R": ["Human", "Warrior", "Shaman"],
+    "G": ["Human", "Druid", "Scout", "Beast"],
+    "C": ["Construct", "Spirit", "Avatar"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Wizard",
+      "Rogue",
+      "Cleric",
+      "Beast",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card.",
+      "Put a +1/+1 counter on target creature.",
+      "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "Whenever this creature enters the battlefield, you may search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature enters the battlefield, you may search your library for an Aura card that could enchant this creature, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature enters the battlefield, if you gained life this turn, you may search your library for a creature card that shares a creature type with it, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may search your library for a creature card with mana value less than or equal to the number of creatures you control, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, if you control three or more other creatures, you may search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.",
+      "Whenever one or more other creatures enter the battlefield under your control, you may search your library for a creature card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature you control with mana value 2 or less dies, you may search your library for a creature card with mana value 3, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature blocks, you may search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a token creature enters the battlefield under your control, you may search your library for a nonlegendary creature card with mana value equal to the number of tokens you control, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you gained 3 or more life this turn, you may search your library for a creature card with toughness 4 or greater, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature becomes tapped, you may search your library for a creature card that shares a creature type with it, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another creature you control is exiled from the battlefield, you may search your library for a creature card with mana value less than that creature’s mana value, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature an opponent controls attacks you or a planeswalker you control, you may search your library for a creature card with mana value less than or equal to the number of attacking creatures, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another creature you control becomes the target of a spell or ability an opponent controls, you may search your library for a creature card with hexproof or ward, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of combat on your turn, if you control three or more tapped creatures, you may search your library for a creature card with vigilance, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast your second spell each turn, you may search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another creature you control enters the battlefield from your graveyard, you may search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature with a +1/+1 counter on it dies, you may search your library for a creature card with mana value less than that creature’s mana value, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you control four or more creatures, you may search your library for a creature card that shares a creature type with two or more of them, reveal it, put it into your hand, then shuffle."
+    ],
+
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever this creature enters the battlefield, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature enters the battlefield, if you’ve drawn two or more cards this turn, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, scry 1, then you may search your library for a card with mana value equal to the number of cards you’ve drawn this turn, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for an instant card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for a card with the same mana value as a spell you cast this turn, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast your second spell each turn, you may search your library for a noncreature spell, reveal it, put it into your hand, then shuffle.",
+      "Whenever you scry, you may pay {1}. If you do, you may search your library for a card with mana value less than or equal to the number of cards you looked at while scrying this way, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature with flying you control deals combat damage to a player, you may search your library for an instant or sorcery card with mana value 3 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever you draw your second card each turn, you may search your library for a card with flash, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast an instant or sorcery spell, you may search your library for a card with the same name as that spell, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your upkeep, you may reveal the top card of your library. If it’s an instant or sorcery card, put it into your hand. Otherwise, you may search your library for a card that shares a card type with it, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature becomes the target of a spell you control, you may search your library for a card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever one or more nontoken Wizards you control enter the battlefield, you may search your library for an instant or sorcery card with mana value less than or equal to the number of Wizards you control, reveal it, put it into your hand, then shuffle.",
+      "Whenever a spell you control is countered, you may search your library for a card with mana value less than that spell’s mana value, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a spell during an opponent’s turn, you may search your library for an instant card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you cast three or more spells this turn, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+      "Whenever an artifact you control becomes tapped, you may pay {1}. If you do, you may search your library for an artifact card with mana value 1, reveal it, put it into your hand, then shuffle."
+    ],
+
+    "B": [
+      "deathtouch",
+      "menace",
+      "Whenever this creature enters the battlefield, you may search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle. You lose 2 life.",
+      "Whenever this creature enters the battlefield or dies, you may search your library for a creature card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever another creature you control dies, you may search your library for a creature card with mana value less than that creature’s mana value, reveal it, put it into your hand, then shuffle. You lose 1 life.",
+      "Whenever a creature an opponent controls dies, you may search your library for a card with mana value 3 or less, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your upkeep, you may pay 2 life. If you do, search your library for a card, shuffle, then put that card on top.",
+      "Whenever you discard one or more cards, you may search your library for a card with mana value less than or equal to the total mana value of the discarded cards, reveal it, put it into your hand, then shuffle.",
+      "Whenever an opponent discards a card, you may search your library for a card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, that player discards a card, then you may search your library for a card with mana value less than or equal to the discarded card’s mana value, reveal it, put it into your hand, then shuffle.",
+      "Whenever a non-Token creature dies, you may search your library for a card with the same name as that creature, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another creature you control leaves the battlefield, you may search your library for a card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature card is put into your graveyard from your library, you may search your library for another creature card with mana value less than that card’s mana value, reveal it, put it into your hand, then shuffle.",
+      "Whenever an opponent loses 3 or more life in a turn, you may search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever you gain life from a source you don’t control, you may search your library for a card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature dies, you may search your library for a creature card with the same creature type as this creature, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if a creature died this turn, you may search your library for a card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever an opponent sacrifices a permanent, you may search your library for a card with mana value less than or equal to the number of permanents sacrificed this turn, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature with a -1/-1 counter on it dies, you may search your library for a creature card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for a card, then shuffle and put that card into your graveyard."
+    ],
+
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever this creature enters the battlefield, you may search your library for a creature card with haste, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may exile the top card of your library. You may play that card this turn. Then you may search your library for a card with the same mana value as the exiled card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, if you’ve cast a spell with mana value 4 or greater this turn, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a spell with mana value 3 or greater, you may search your library for a card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever a source you control deals noncombat damage to a player, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for a land card that could produce {R}, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast your second spell each turn, you may search your library for a card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature with haste you control dies, you may search your library for a creature card with haste, reveal it, put it into your hand, then shuffle.",
+      "Whenever you sacrifice a permanent, you may search your library for a card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature becomes blocked, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you cast three or more spells this turn, you may search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another creature you control deals combat damage to a planeswalker, you may search your library for a card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever you exile a card from your library, you may search your library for a card with the same card type as that card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a land enters the battlefield under your control from exile, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever an Aura or Equipment becomes attached to this creature, you may search your library for a card that could also enchant or equip it, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a spell from exile, you may search your library for a card with mana value less than that spell’s mana value, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals excess combat damage to a player, you may search your library for an instant card, reveal it, put it into your hand, then shuffle."
+    ],
+
+    "G": [
+      "trample",
+      "reach",
+      "Whenever this creature enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature enters the battlefield, you may search your library for a creature card with mana value less than or equal to the number of lands you control, reveal it, put it into your hand, then shuffle.",
+      "Whenever another creature enters the battlefield under your control, you may search your library for a creature card with mana value less than that creature’s power, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may search your library for a creature card with mana value less than this creature’s power, reveal it, put it into your hand, then shuffle.",
+      "Whenever a land enters the battlefield under your control, you may search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature you control with power 4 or greater enters the battlefield, you may search your library for a land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature you control with power 4 or greater attacks, you may search your library for a creature card with mana value 4 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a creature spell, you may search your library for a creature card that shares a creature type with it, reveal it, put it into your hand, then shuffle.",
+      "Whenever a nontoken creature enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature deals combat damage to a player, you may search your library for a land card, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your upkeep, you may search your library for a creature card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever one or more +1/+1 counters are put on a creature you control, you may search your library for a creature card with mana value less than or equal to the number of counters on that creature, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature token enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you gain life, you may search your library for a creature card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature blocks or becomes blocked by a creature with flying, you may search your library for a reach creature card, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you control three or more creatures with different powers, you may search your library for a creature card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature you control fights, you may search your library for a creature card with mana value less than or equal to that creature’s power, reveal it, put it into your hand, then shuffle.",
+      "Whenever you sacrifice a permanent to activate a mana ability, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    ],
+
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever this creature enters the battlefield, you may search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature attacks, you may search your library for a colorless card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a colorless permanent enters the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a colorless spell, you may search your library for an artifact or land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you sacrifice an artifact, you may search your library for an artifact card with mana value 1, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature or another artifact creature you control dies, you may search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you tap a nonbasic land for mana, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a spell with mana value 7 or greater, you may search your library for a colorless card, reveal it, put it into your hand, then shuffle."
+    ]
+  }
+}

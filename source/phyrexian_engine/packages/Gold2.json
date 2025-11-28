@@ -1,0 +1,263 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        ["Create {X} Gold tokens. (They’re artifacts with \"Sacrifice this artifact: Add one mana of any color.\")", 3, 2, 6],
+        ["You gain {X} life. Create a Gold token.", 2, 1, 4]
+      ],
+      "Sorcery": [
+        ["Create two 1/1 white Soldier creature tokens and a Gold token.", 2, 2, 6]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [
+        ["Counter target spell unless its controller pays {X}. Create a Gold token.", 3, 2, 6],
+        ["Draw a card, then create a Gold token.", 2, 1, 4]
+      ],
+      "Sorcery": [
+        ["Scry 2, then draw a card. Create a Gold token.", 2, 1, 4]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [
+        ["Target creature gets -{X}/-{X} until end of turn. Create a Gold token.", 3, 2, 6],
+        ["Each opponent loses 1 life and you gain 1 life. Create a Gold token.", 2, 1, 4]
+      ],
+      "Sorcery": [
+        ["Return target creature card with mana value {X} or less from your graveyard to your hand. Create a Gold token.", 2, 2, 6]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [
+        ["This spell deals {X} damage to any target. Create a Gold token.", 3, 2, 6]
+      ],
+      "Sorcery": [
+        ["Create two 1/1 red [TOKEN_SUBTYPE] creature tokens with haste and a Gold token.", 2, 2, 6]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [
+        ["Target creature gets +{X}/+{X} and trample until end of turn. Create a Gold token.", 3, 2, 6]
+      ],
+      "Sorcery": [
+        ["Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Create a Gold token.", 2, 2, 6]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [
+        ["Create a Gold token.", 3, 1, 3]
+      ],
+      "Sorcery": [
+        ["Create {X} Gold tokens.", 3, 2, 6]
+      ],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Advisor", "Cleric", "Merchant"],
+    "U": ["Human", "Rogue", "Wizard", "Advisor", "Artificer"],
+    "B": ["Human", "Rogue", "Warlock", "Assassin", "Merchant"],
+    "R": ["Human", "Warrior", "Berserker", "Pirate", "Shaman"],
+    "G": ["Human", "Druid", "Scout", "Warrior", "Beast"],
+    "C": ["Construct", "Treasure", "Avatar", "Spirit"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped",
+      "enters the battlefield"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Rogue",
+      "Pirate",
+      "Cleric",
+      "Warrior",
+      "Construct",
+      "Merchant"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature.",
+      "Create a Gold token."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "GOLD_REMINDER": [
+      "Gold tokens are artifacts with \"Sacrifice this artifact: Add one mana of any color.\""
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+
+      "Whenever a Gold token enters the battlefield under your control, you gain 1 life.",
+      "Whenever a Gold token enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever you create one or more Gold tokens, tap up to one target creature an opponent controls.",
+      "Whenever you sacrifice a Gold, you may pay {1}. If you do, prevent the next 2 damage that would be dealt to any target this turn.",
+      "Whenever you sacrifice a Gold, you gain 2 life.",
+      "At the beginning of your end step, if you created two or more Gold tokens this turn, create a 1/1 white Soldier creature token.",
+      "Whenever this creature attacks, create a Gold token.",
+      "Whenever this creature attacks, creatures you control get +1/+1 until end of turn if you control three or more Gold tokens.",
+      "Whenever this creature blocks or becomes blocked, you may sacrifice a Gold. If you do, this creature gets +2/+2 until end of turn.",
+      "Whenever a creature you control dies, if you control a Gold token, you gain 1 life.",
+      "Whenever you gain life, you may create a Gold token. This ability triggers only once each turn."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+
+      "Whenever a Gold token enters the battlefield under your control, scry 1.",
+      "Whenever you sacrifice a Gold, you may draw a card. If you do, discard a card.",
+      "Whenever you cast an instant or sorcery spell using mana from a Gold, copy that spell. You may choose new targets for the copy.",
+      "Whenever this creature deals combat damage to a player, create a Gold token.",
+      "Whenever you draw your second card each turn, create a Gold token.",
+      "At the beginning of your end step, if you created a Gold token this turn, you may tap up to one target creature.",
+      "Whenever you sacrifice an artifact, this creature gets +1/+0 until end of turn.",
+      "Whenever a Gold token you control is put into a graveyard from the battlefield, you may return target noncreature artifact card from your graveyard to your hand.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever you cast a spell with mana value {X} or greater, if mana from a Gold was spent to cast it, draw a card.",
+      "Whenever you sacrifice a Gold, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of Gold tokens you control."
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+
+      "Whenever a Gold token enters the battlefield under your control, each opponent loses 1 life.",
+      "Whenever you sacrifice a Gold, each opponent loses 1 life and you gain 1 life.",
+      "Whenever you sacrifice an artifact, put a +1/+1 counter on this creature.",
+      "Whenever this creature or another creature you control dies, create a tapped Gold token.",
+      "Whenever a creature an opponent controls dies, if you sacrificed a Gold this turn, create a 2/2 black [TOKEN_SUBTYPE] creature token.",
+      "At the beginning of your end step, if an artifact you controlled was put into a graveyard from the battlefield this turn, create a Gold token.",
+      "Whenever this creature deals combat damage to a player, that player discards a card. If they can’t, you create a Gold token.",
+      "Whenever you create one or more Gold tokens, you may pay {1}. If you do, each opponent loses 1 life.",
+      "Whenever you sacrifice a Gold, you may exile target card from a graveyard.",
+      "Whenever you sacrifice a Gold, this creature gains lifelink until end of turn.",
+      "Whenever an opponent sacrifices a permanent, create a Gold token."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+
+      "Whenever a Gold token enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "Whenever you sacrifice a Gold, this creature deals 1 damage to any target.",
+      "Whenever you sacrifice an artifact, this creature gets +2/+0 until end of turn.",
+      "Whenever this creature attacks, you may sacrifice a Gold. If you do, this creature gains double strike until end of turn.",
+      "Whenever this creature attacks, create a tapped Gold token.",
+      "Whenever you cast a spell using mana from a Gold, this creature deals 1 damage to each opponent.",
+      "Whenever you create one or more Gold tokens, this creature gains menace until end of turn.",
+      "At the beginning of combat on your turn, if you control three or more Gold tokens, this creature gains first strike and trample until end of turn.",
+      "Whenever a source you control deals noncombat damage to an opponent, create a Gold token.",
+      "Whenever you sacrifice a Gold, exile the top card of your library. You may play that card until the end of your next turn.",
+      "Whenever a creature you control with power 4 or greater attacks, if you control a Gold token, create a Gold token."
+    ],
+    "G": [
+      "trample",
+      "reach",
+
+      "Whenever a Gold token enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Gold, put a +1/+1 counter on target creature you control.",
+      "Whenever this creature attacks, you may sacrifice a Gold. If you do, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "Whenever this creature attacks, create a tapped Gold token.",
+      "At the beginning of your end step, if you created two or more Gold tokens this turn, create a 2/2 green [TOKEN_SUBTYPE] creature token.",
+      "Whenever you sacrifice an artifact, untap this creature.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever you create one or more Gold tokens, you gain 1 life and this creature gains trample until end of turn.",
+      "Whenever you sacrifice a Gold, target creature you control fights up to one target creature you don’t control.",
+      "Whenever a land enters the battlefield under your control, if you control a Gold token, put a +1/+1 counter on this creature.",
+      "At the beginning of combat on your turn, if you control three or more Gold tokens, creatures you control get +1/+1 and gain trample until end of turn."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+
+      "Whenever you create a Gold token, this creature becomes an artifact in addition to its other types until end of turn.",
+      "Whenever you sacrifice a Gold, add one mana of any color. Until end of turn, you don’t lose this mana as steps and phases end.",
+      "Whenever another artifact enters the battlefield under your control, create a Gold token.",
+      "Whenever a Gold token you control is sacrificed, you may return target artifact card with mana value {X} or less from your graveyard to the battlefield, where X is the number of artifacts you control.",
+      "Whenever you sacrifice an artifact, put a +1/+1 counter on this creature for each artifact sacrificed this turn.",
+      "Whenever a nontoken artifact you control is put into a graveyard from the battlefield, create a Gold token.",
+      "Whenever you cast an artifact spell, scry 1. If mana from a Gold was spent to cast that spell, draw a card instead.",
+      "At the beginning of your upkeep, if you control five or more Gold tokens, this creature becomes a 10/10 Avatar artifact creature in addition to its other types and loses defender.",
+      "Whenever you sacrifice a Gold, artifacts you control gain indestructible until end of turn."
+    ]
+  }
+}

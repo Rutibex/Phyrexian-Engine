@@ -1,0 +1,261 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Cleric", "Knight", "Angel", "Advisor"],
+    "U": ["Human", "Wizard", "Rogue", "Mutant", "Illusion", "Advisor"],
+    "B": ["Human", "Assassin", "Warlock", "Zombie", "Phyrexian", "Rogue"],
+    "R": ["Human", "Warrior", "Berserker", "Shaman", "Devil", "Goblin"],
+    "G": ["Human", "Druid", "Beast", "Warrior", "Hydra", "Insect"],
+    "C": ["Construct", "Golem", "Drone", "Avatar"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Zombie",
+      "Insect",
+      "Phyrexian",
+      "Beast",
+      "Snake"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains deathtouch until end of turn.",
+      "Target creature gains lifelink until end of turn.",
+      "Proliferate.",
+      "Put a +1/+1 counter on target creature.",
+      "Target player gets a poison counter."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "toxic {X}",
+      "vigilance",
+      "lifelink",
+      "Whenever this creature deals combat damage to a player, if that player has a poison counter, you gain that much life.",
+      "Whenever this creature deals combat damage to a player, prevent the next {X} damage that would be dealt to you this turn, where X is the number of poison counters that player has.",
+      "Whenever this creature enters the battlefield or attacks, you may remove a poison counter from yourself. If you do, put a +1/+1 counter on this creature.",
+      "Whenever a player gets one or more poison counters, you gain 1 life.",
+      "Whenever a creature you control with toxic deals combat damage to a player, you may put a +1/+1 counter on that creature.",
+      "At the beginning of your end step, if an opponent has three or more poison counters, you may put a shield counter on target creature you control.",
+      "Whenever this creature blocks a creature with toxic, that creature’s controller gets a poison counter.",
+      "Whenever this creature attacks, if you have fewer poison counters than an opponent, this creature gets +1/+1 and gains lifelink until end of turn.",
+      "Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, that player gets an additional poison counter.",
+      "Whenever this creature or another creature you control with toxic dies, each opponent with a poison counter loses 1 life and you gain 1 life.",
+      "At the beginning of combat on your turn, if an opponent has five or more poison counters, creatures you control get +1/+1 until end of turn.",
+      "Whenever you gain life, you may remove a poison counter from yourself. If you do, proliferate.",
+      "Whenever this creature deals combat damage to a player, if that player has no poison counters, that player gets a poison counter and you gain 2 life.",
+      "Whenever you remove one or more poison counters from yourself, put that many +1/+1 counters on target creature you control.",
+      "Whenever this creature becomes the target of a spell or ability an opponent controls, if that opponent has a poison counter, counter that spell or ability unless its controller pays {X}, where X is the number of poison counters they have.",
+      "At the beginning of your upkeep, if each opponent has a poison counter, create a 1/1 white Soldier creature token with toxic 1.",
+      "Whenever this creature deals combat damage to a player, choose one — You gain X life; or put X +1/+1 counters on another target creature you control; where X is the number of poison counters that player has."
+    ],
+    "U": [
+      "toxic {X}",
+      "flying",
+      "ward {X}",
+      "Whenever this creature deals combat damage to a player, you may draw a card. If that player has a poison counter, instead draw a card, then discard a card.",
+      "Whenever this creature deals combat damage to a player, that player gets a poison counter, then mill X cards, where X is the number of poison counters they have.",
+      "Whenever a player gets a poison counter, scry 1.",
+      "Whenever this creature attacks, you may tap target creature that player controls. If that player has three or more poison counters, that creature doesn’t untap during its controller’s next untap step.",
+      "Whenever one or more creatures you control with toxic deal combat damage to a player, you may return target nonland permanent that player controls with mana value X or less to its owner’s hand, where X is the number of poison counters they have.",
+      "Whenever you draw your second card each turn, proliferate.",
+      "Whenever this creature becomes blocked, you may have defending player get a poison counter.",
+      "Whenever this creature deals combat damage to a player, look at the top X cards of your library, where X is the number of poison counters that player has. Put one of them into your hand and the rest on the bottom of your library in a random order.",
+      "Whenever a creature with toxic enters the battlefield under your control, you may give target opponent a poison counter.",
+      "Whenever a player would scry, if that player has a poison counter, they scry that many cards plus 1 instead.",
+      "At the beginning of your end step, if two or more opponents have poison counters, draw a card.",
+      "Whenever this creature deals combat damage to a player, you may exile target nonland permanent that player controls with mana value X or less until this creature leaves the battlefield, where X is the number of poison counters that player has.",
+      "Whenever you cast an instant or sorcery spell, if an opponent has a poison counter, this creature gets +1/+0 and can’t be blocked this turn.",
+      "Whenever a player gets their first poison counter each turn, you may untap up to one target creature you control.",
+      "Whenever this creature deals combat damage to a player, if that player has five or more poison counters, take an extra turn after this one. Exile this creature at the beginning of that turn’s end step.",
+      "Whenever you proliferate, you may tap or untap up to one target permanent.",
+      "Whenever an opponent with poison counters casts a spell, you may have that player mill two cards."
+    ],
+    "B": [
+      "toxic {X}",
+      "deathtouch",
+      "menace",
+      "Whenever this creature deals combat damage to a player, that player gets a poison counter.",
+      "Whenever a player gets a poison counter, that player loses 1 life and you gain 1 life.",
+      "Whenever a creature an opponent controls with a counter on it dies, that player gets a poison counter.",
+      "Whenever a creature you control with toxic dies, proliferate.",
+      "At the beginning of your upkeep, each opponent with a poison counter loses 1 life and you gain 1 life.",
+      "Whenever this creature or another creature you control deals combat damage to a player, if that player has three or more poison counters, that player discards a card.",
+      "Whenever a creature with a -1/-1 counter on it dies, create a 1/1 black Phyrexian Insect creature token with toxic 1.",
+      "Whenever a creature an opponent controls becomes the target of a spell or ability you control, if that player has a poison counter, that creature gets -1/-1 until end of turn.",
+      "Whenever this creature enters the battlefield or attacks, you may give each opponent who has fewer than three poison counters one poison counter.",
+      "Whenever a player loses life, if they have a poison counter, you may have them get an additional poison counter.",
+      "Whenever this creature deals combat damage to a player, put X +1/+1 counters on this creature, where X is the number of poison counters that player has.",
+      "At the beginning of each end step, if an opponent has five or more poison counters, you may return target creature card from your graveyard to your hand.",
+      "Whenever a creature an opponent controls dies, if that player has a poison counter, you may draw a card and lose 1 life.",
+      "Whenever this creature attacks, defending player loses 1 life for each poison counter they have.",
+      "Whenever you proliferate, each opponent loses 1 life and you gain 1 life.",
+      "Whenever an opponent with a poison counter casts a noncreature spell, that player loses 1 life unless they discard a card.",
+      "At the beginning of your end step, if each opponent has at least three poison counters, creatures you control gain \"Whenever this creature deals combat damage to a player, that player gets a poison counter\" until your next turn.",
+      "Whenever this creature dies, choose a player. That player gets two poison counters.",
+      "Whenever a creature with toxic you control deals combat damage to a player, that player mills X cards, where X is the number of poison counters they have, then they lose X life."
+    ],
+    "R": [
+      "toxic {X}",
+      "haste",
+      "first strike",
+      "Whenever this creature attacks, if defending player has a poison counter, this creature gets +2/+0 until end of turn.",
+      "Whenever this creature deals combat damage to a player, if that player has a poison counter, this creature deals 2 damage to any target.",
+      "Whenever a player gets a poison counter, this creature deals 1 damage to that player.",
+      "Whenever a creature you control with toxic attacks, it gets +1/+0 until end of turn for each poison counter defending player has.",
+      "Whenever a creature you control deals noncombat damage to a player, if that player has a poison counter, that player gets an additional poison counter.",
+      "Whenever this creature becomes blocked, you may have defending player get a poison counter. If you do, this creature gets +1/+0 until end of turn.",
+      "At the beginning of your combat step, if an opponent has three or more poison counters, creatures you control gain first strike until end of turn.",
+      "Whenever a player with a poison counter casts a spell, this creature deals 1 damage to that player.",
+      "Whenever this creature deals combat damage to a player, exile the top X cards of your library, where X is the number of poison counters that player has. You may play one of those cards this turn.",
+      "Whenever you proliferate, this creature deals 1 damage to any target.",
+      "Whenever this creature enters the battlefield, you may have each opponent who has exactly one poison counter gain another poison counter.",
+      "Whenever a creature an opponent controls with toxic attacks, that player gets a poison counter.",
+      "Whenever you cast a noncreature spell, if an opponent has a poison counter, this creature gets +1/+0 and gains menace until end of turn.",
+      "Whenever a source you control deals damage to a player with three or more poison counters, that damage can’t be prevented.",
+      "At the beginning of your end step, if an opponent has five or more poison counters, create a 1/1 red Insect creature token with haste and toxic 1.",
+      "Whenever this creature deals combat damage to a player, you may sacrifice another creature. If you do, that player gets X poison counters, where X is the sacrificed creature’s power."
+    ],
+    "G": [
+      "toxic {X}",
+      "trample",
+      "reach",
+      "Whenever this creature deals combat damage to a player, put X +1/+1 counters on up to one target creature you control, where X is the number of poison counters that player has.",
+      "Whenever a land enters the battlefield under your control, you may give target opponent a poison counter.",
+      "Whenever you give one or more opponents poison counters, you may put a +1/+1 counter on each creature you control with toxic.",
+      "Whenever this creature attacks, you may have defending player get a poison counter. If that player already has a poison counter, instead proliferate.",
+      "Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever this creature becomes blocked by one or more creatures, those creatures’ controller gets a poison counter.",
+      "At the beginning of your end step, if you control three or more creatures with toxic, you may put a +1/+1 counter on each of them.",
+      "Whenever a creature you control with power 4 or greater deals combat damage to a player, that player gets an additional poison counter.",
+      "Whenever you proliferate, untap up to one target creature you control.",
+      "Whenever this creature deals combat damage to a player, if that player has five or more poison counters, you may search your library for a creature card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature an opponent controls with a counter on it blocks, that creature gets -1/-1 until end of turn.",
+      "Whenever a creature you control with toxic dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "Whenever this creature enters the battlefield, choose a player. That player gets a poison counter, then you may put a +1/+1 counter on up to one target creature.",
+      "At the beginning of combat on your turn, if an opponent has three or more poison counters, creatures you control get +1/+1 and gain trample until end of turn.",
+      "Whenever a creature you control with toxic deals combat damage to a player, you may have that player get an additional poison counter. If you do, put a +1/+1 counter on that creature.",
+      "Whenever you cast a creature spell, if an opponent has a poison counter, that creature enters the battlefield with an additional +1/+1 counter on it.",
+      "Whenever a creature you control with toxic blocks or becomes blocked, that creature gets +1/+1 until end of turn for each poison counter defending player has."
+    ],
+    "C": [
+      "deathtouch",
+      "toxic {X}",
+      "indestructible",
+      "defender",
+      "Whenever a player gets a poison counter, proliferate.",
+      "Whenever you proliferate, put a +1/+1 counter on this creature.",
+      "Whenever this creature deals combat damage to a player, each opponent gets a poison counter.",
+      "At the beginning of your upkeep, if an opponent has ten or more poison counters, you win the game.",
+      "Whenever a creature with toxic enters the battlefield under your control, you may have each opponent get a poison counter.",
+      "Whenever a creature with a counter on it dies, draw a card.",
+      "Whenever a player would get one or more poison counters, they get that many plus one instead.",
+      "Whenever this creature deals combat damage to a player, choose any number of players, then proliferate that many times.",
+      "Whenever a permanent with a counter on it becomes tapped, that permanent’s controller gets a poison counter.",
+      "Whenever you put one or more counters on a permanent you control, you may put an additional counter of a kind already there on that permanent.",
+      "Whenever a player loses the game, you may remove all poison counters from yourself.",
+      "Whenever a player gets a poison counter, exile the top card of that player’s library face down. You may look at and play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them."
+    ]
+  }
+}

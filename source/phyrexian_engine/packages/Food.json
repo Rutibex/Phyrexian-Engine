@@ -1,0 +1,234 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Citizen", "Cleric", "Advisor", "Spirit", "Chef"],
+    "U": ["Human", "Wizard", "Advisor", "Merfolk", "Spirit", "Artificer"],
+    "B": ["Human", "Warlock", "Rogue", "Zombie", "Spirit", "Advisor"],
+    "R": ["Human", "Warrior", "Barbarian", "Goblin", "Shaman", "Chef"],
+    "G": ["Human", "Druid", "Scout", "Beast", "Elf", "Chef"],
+    "C": ["Construct", "Golem", "Scarecrow", "Food"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Citizen",
+      "Peasant",
+      "Chef",
+      "Beast",
+      "Spirit",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Create a Food token.",
+      "Create a 1/1 white Citizen creature token.",
+      "Put a +1/+1 counter on target creature.",
+      "You gain 2 life.",
+      "Draw a card, then discard a card.",
+      "Target creature gains lifelink until end of turn."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "FOOD_REMINDER": [
+      "(A Food is an artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\")"
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "Whenever you sacrifice a Food, put a +1/+1 counter on this creature.",
+      "Whenever you sacrifice a Food, create a 1/1 white Citizen creature token.",
+      "Whenever one or more Foods enter the battlefield under your control, you gain 1 life.",
+      "Whenever you gain life from a Food, this creature gets +1/+1 until end of turn.",
+      "Whenever you gain life, if that life was gained from a Food, put a +1/+1 counter on up to one target creature you control.",
+      "Whenever you sacrifice a Food, tap up to one target creature. That creature doesn’t untap during its controller’s next untap step.",
+      "Whenever you sacrifice a Food, prevent the next 2 damage that would be dealt to any target this turn.",
+      "Whenever this creature attacks, if you gained 3 or more life this turn, create a Food token.",
+      "Whenever a Citizen you control dies, create a Food token.",
+      "At the beginning of your end step, if you gained life from a Food this turn, create a 1/1 white Spirit creature token with flying.",
+      "Whenever you sacrifice a Food, this creature gains indestructible until end of turn.",
+      "Whenever you sacrifice a Food, you may exile target creature card with mana value 2 or less from a graveyard. If you do, you gain 2 life.",
+      "Whenever another creature you control dies, if it was fed (you gained life from a Food this turn), create a Food token."
+    ],
+
+    "U": [
+      "flying",
+      "ward {1}",
+      "Whenever you sacrifice a Food, scry 1.",
+      "Whenever you sacrifice a Food, you may tap or untap target creature.",
+      "Whenever you sacrifice a Food, draw a card, then discard a card.",
+      "Whenever one or more Foods enter the battlefield under your control, look at the top card of your library. You may put that card into your graveyard.",
+      "Whenever you gain life from a Food, target creature you control gains flying until end of turn.",
+      "Whenever an artifact you control is put into a graveyard from the battlefield, create a Food token.",
+      "Whenever you sacrifice a Food, this creature can’t be blocked this turn except by creatures with flying or reach.",
+      "Whenever you cast a noncreature spell, if you gained life from a Food this turn, draw a card.",
+      "At the beginning of your end step, if you sacrificed two or more Foods this turn, return up to one target noncreature card from your graveyard to your hand.",
+      "Whenever this creature deals combat damage to a player, create a tapped Food token.",
+      "Whenever you sacrifice a Food, target creature an opponent controls gets -X/-0 until end of turn, where X is the number of Foods you control.",
+      "Whenever one or more Foods enter the battlefield under your control, you may phase out this creature. (Treat it and anything attached to it as though they don’t exist until your next turn.)"
+    ],
+
+    "B": [
+      "menace",
+      "deathtouch",
+      "Whenever you sacrifice a Food, each opponent loses 1 life and you gain 1 life.",
+      "Whenever you sacrifice a Food, put a +1/+1 counter on this creature and you lose 1 life.",
+      "Whenever a creature an opponent controls dies, create a Food token.",
+      "Whenever you gain life from a Food, you may pay 1 life. If you do, draw a card.",
+      "Whenever you sacrifice a Food, you may exile target card from a graveyard.",
+      "Whenever you sacrifice a Food, each opponent mills two cards.",
+      "At the beginning of your end step, if you gained 3 or more life from Foods this turn, each opponent loses 2 life.",
+      "Whenever another creature you control dies, you may create a Food token.",
+      "Whenever you sacrifice a Food, target creature an opponent controls gets -1/-1 until end of turn.",
+      "Whenever an opponent sacrifices a permanent, if you sacrificed a Food this turn, that player loses 1 life and you gain 1 life.",
+      "Whenever this creature or another creature you control with power 4 or greater dies, create two Food tokens.",
+      "Whenever you sacrifice a Food, you may return this creature from your graveyard to your hand."
+    ],
+
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever you sacrifice a Food, this creature gets +2/+0 until end of turn.",
+      "Whenever you sacrifice a Food, this creature deals 1 damage to any target.",
+      "Whenever one or more Foods enter the battlefield under your control, this creature gains haste until end of turn.",
+      "Whenever you sacrifice a Food, create a 1/1 red Goblin creature token. That token gains haste until end of turn.",
+      "Whenever you gain life from a Food, you may discard a card. If you do, draw a card.",
+      "Whenever you sacrifice a Food, add {R}. Until end of turn, you don’t lose this mana as steps and phases end.",
+      "Whenever this creature attacks, you may sacrifice a Food. When you do, this creature gets +X/+0 until end of turn, where X is the number of Foods you control.",
+      "Whenever you sacrifice a Food, up to one target creature can’t block this turn.",
+      "At the beginning of combat on your turn, if you sacrificed a Food this turn, create a tapped Food token.",
+      "Whenever another creature you control dies, if it was dealt damage this turn and you control a Food, this creature deals 2 damage to any target.",
+      "Whenever you sacrifice a Food, exile the top card of your library. You may play that card this turn."
+    ],
+
+    "G": [
+      "trample",
+      "reach",
+      "Whenever you sacrifice a Food, put a +1/+1 counter on target creature you control.",
+      "Whenever one or more Foods enter the battlefield under your control, you may have target creature you control fight up to one target creature you don’t control.",
+      "Whenever you gain life from a Food, this creature gains trample until end of turn.",
+      "Whenever you sacrifice a Food, untap target creature you control.",
+      "Whenever you sacrifice a Food, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "At the beginning of your end step, if you gained 3 or more life from Foods this turn, create a 3/3 green Beast creature token.",
+      "Whenever another nontoken creature enters the battlefield under your control, if you control a Food, put a +1/+1 counter on that creature.",
+      "Whenever you sacrifice a Food, double the number of +1/+1 counters on target creature you control. (Round down.)",
+      "Whenever this creature deals combat damage to a player, create that many Food tokens.",
+      "Whenever you sacrifice a Food, creatures you control get +1/+0 and gain vigilance until end of turn.",
+      "Whenever one or more Foods enter the battlefield under your control, you gain 2 life."
+    ],
+
+    "C": [
+      "indestructible",
+      "Whenever you sacrifice a Food, put a +1/+1 counter on each other creature you control that has a +1/+1 counter on it.",
+      "Whenever one or more Foods enter the battlefield under your control, proliferate.",
+      "Whenever you sacrifice a Food, you may create a 0/1 colorless Plant creature token.",
+      "Whenever you gain life from a Food, you may add one mana of any color.",
+      "At the beginning of your end step, if you sacrificed three or more Foods this turn, create a 4/4 colorless Construct artifact creature token.",
+      "Whenever you sacrifice a Food, you may return target artifact card with mana value 3 or less from your graveyard to your hand.",
+      "Whenever a token you control dies, create a tapped Food token.",
+      "Whenever you sacrifice a Food, choose one — Put a +1/+1 counter on this creature; or draw a card, then discard a card; or add {C}{C}."
+    ]
+  }
+}

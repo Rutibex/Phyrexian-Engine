@@ -1,0 +1,159 @@
+{
+  "effects_by_color": {
+    "W": {},
+    "U": {},
+    "B": {},
+    "R": {},
+    "G": {},
+    "C": {}
+  },
+  "creature_subtypes": {
+    "W": ["Soldier", "Knight"],
+    "U": ["Wizard", "Rogue"],
+    "B": ["Zombie", "Rogue"],
+    "R": ["Goblin", "Warrior", "Rogue", "Shaman", "Berserker"],
+    "G": ["Warrior", "Shaman"],
+    "C": ["Construct"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "red"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Goblin",
+      "Warrior",
+      "Shaman"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{R}, Sacrifice a Goblin:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "This creature deals 1 damage to any target.",
+      "Create a 1/1 red Goblin creature token.",
+      "Put a +1/+1 counter on this creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "Whenever another Goblin you control dies, you gain 1 life.",
+      "Whenever a Goblin you control becomes blocked, you may tap target creature.",
+      "Whenever one or more Goblins you control attack, creatures you control get +0/+1 until end of turn."
+    ],
+    "U": [
+      "Whenever another Goblin you control becomes tapped, scry 1.",
+      "Whenever a Goblin you control deals combat damage to a player, draw a card, then discard a card.",
+      "At the beginning of combat on your turn, you may have target Goblin you control gain flying until end of turn."
+    ],
+    "B": [
+      "Whenever another Goblin you control dies, each opponent loses 1 life and you gain 1 life.",
+      "Whenever this creature or another Goblin you control dies, you may pay {B}. If you do, draw a card and lose 1 life.",
+      "Whenever a Goblin you control dies, put a +1/+1 counter on this creature.",
+      "At the beginning of your end step, if a Goblin died this turn, create a 1/1 red Goblin creature token.",
+      "Whenever this creature deals combat damage to a player, that player discards a card.",
+      "Whenever another Goblin you control leaves the battlefield, surveil 1.",
+      "Whenever one or more Goblins you control die, each opponent loses X life, where X is the number of Goblins that died this turn.",
+      "Whenever this creature attacks, you may sacrifice another Goblin. If you do, target creature gets -2/-2 until end of turn.",
+      "Whenever a nontoken Goblin you control dies, you may return target Goblin card with lesser mana value from your graveyard to your hand.",
+      "Whenever this creature blocks or becomes blocked by a creature, that creature gets -1/-1 until end of turn."
+    ],
+    "R": [
+      "Whenever this creature or another Goblin enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "Whenever another Goblin you control enters the battlefield, this creature deals 1 damage to each opponent.",
+      "Whenever a Goblin you control attacks, this creature gets +1/+0 until end of turn.",
+      "Whenever one or more Goblins you control attack, create a 1/1 red Goblin creature token tapped and attacking.",
+      "Whenever this creature attacks, it deals 1 damage to up to one target creature defending player controls.",
+      "Whenever this creature becomes blocked, it deals 1 damage to target player or planeswalker.",
+      "Whenever another Goblin you control dies, this creature deals 1 damage to any target.",
+      "Whenever you cast a Goblin spell, this creature deals 1 damage to any target.",
+      "Whenever you cast a Goblin spell, create a 1/1 red Goblin creature token.",
+      "Whenever this creature or another Goblin you control becomes blocked, Goblins you control get +1/+0 until end of turn.",
+      "Whenever a Goblin you control deals combat damage to a player, create a Treasure token.",
+      "Whenever another Goblin you control becomes tapped, this creature gets +1/+0 until end of turn.",
+      "Whenever another Goblin you control attacks, you may have this creature also attack that player or planeswalker.",
+      "Whenever this creature attacks, you may sacrifice another Goblin. If you do, this creature gets +3/+0 until end of turn.",
+      "At the beginning of combat on your turn, if you control three or more Goblins, this creature gets +2/+0 and gains first strike until end of turn.",
+      "Whenever this creature deals combat damage to a player, exile the top card of your library. You may play that card this turn.",
+      "Whenever another Goblin you control dies, put a +1/+1 counter on this creature and it deals 1 damage to each opponent.",
+      "At the beginning of your end step, if a Goblin you control dealt damage to an opponent this turn, create a 1/1 red Goblin creature token.",
+      "Whenever a Goblin you control becomes the target of a spell you control, this creature deals 1 damage to any target.",
+      "Whenever a Goblin you control becomes the target of a spell an opponent controls, this creature deals 2 damage to that player.",
+      "Whenever another Goblin you control enters the battlefield, you may discard a card. If you do, draw a card.",
+      "Whenever this creature enters the battlefield or attacks, create a 1/1 red Goblin creature token.",
+      "Whenever a Goblin you control attacks alone, it gets +2/+0 and gains trample until end of turn.",
+      "Whenever one or more Goblins you control become blocked, create that many 1/1 red Goblin creature tokens.",
+      "Whenever another Goblin you control dies, exile the top card of your library. Until the end of your next turn, you may play that card.",
+      "Whenever you sacrifice a Goblin, this creature deals 2 damage to any target.",
+      "Whenever this creature attacks, you may sacrifice another Goblin. If you do, this creature deals damage equal to its power to any target.",
+      "Whenever another Goblin you control attacks, you may pay {R}. If you do, that creature gets +1/+0 until end of turn for each attacking Goblin.",
+      "At the beginning of combat on your turn, create a 1/1 red Goblin creature token. It gains haste until end of turn.",
+      "Whenever a Goblin you control is dealt damage, this creature deals 1 damage to any target.",
+      "Whenever another Goblin you control becomes blocked, you may have it deal damage equal to its power to target creature blocking it.",
+      "Whenever a Goblin you control deals combat damage to a player, that player mills two cards.",
+      "Whenever you cast a noncreature spell, Goblins you control get +1/+0 until end of turn.",
+      "Whenever this creature becomes tapped, create a 1/1 red Goblin creature token.",
+      "Whenever another Goblin you control enters the battlefield, each opponent loses 1 life.",
+      "Whenever a Goblin you control blocks or becomes blocked, it gets +1/+0 until end of turn.",
+      "At the beginning of your end step, if you control four or more Goblins, this creature deals 2 damage to each opponent.",
+      "Whenever a Goblin you control dies, this creature deals 1 damage to each creature without flying.",
+      "Whenever you cast a Goblin spell, put a +1/+1 counter on this creature. Then if it has three or more +1/+1 counters on it, it deals 3 damage to any target.",
+      "Whenever this creature or another Goblin you control attacks, create a tapped and attacking token that is a copy of that creature, except it is not legendary. Exile that token at the beginning of the next end step.",
+      "Whenever another Goblin you control becomes the target of a spell you control, untap that creature. It gets +1/+0 until end of turn.",
+      "Whenever a Goblin you control enters the battlefield, if you control exactly one Goblin, create two 1/1 red Goblin creature tokens.",
+      "Whenever another Goblin you control leaves the battlefield, this creature gets +1/+0 until end of turn for each Goblin you controlled that left the battlefield this turn.",
+      "Whenever this creature blocks or becomes blocked, you may sacrifice another Goblin. If you do, this creature deals 3 damage to each creature blocking or blocked by it.",
+      "Whenever one or more Goblins you control deal combat damage to a player, add {R} for each of those creatures.",
+      "Whenever a Goblin you control becomes tapped for mana or to pay a cost, this creature deals 1 damage to each opponent.",
+      "Whenever you cast a Goblin spell from exile, this creature deals 2 damage to any target.",
+      "Whenever this creature deals combat damage to a player, create that many 1/1 red Goblin creature tokens.",
+      "Whenever another Goblin you control enters the battlefield, this creature gets +1/+0 until end of turn for each other Goblin you control.",
+      "At the beginning of your end step, if you sacrificed a Goblin this turn, create two 1/1 red Goblin creature tokens.",
+      "Whenever another Goblin you control dies, this creature deals 1 damage to each planeswalker your opponents control.",
+      "Whenever a Goblin you control attacks, you may discard a card. If you do, draw a card and this creature deals 1 damage to any target.",
+      "Whenever another Goblin you control becomes blocked, this creature gains first strike until end of turn.",
+      "Whenever this creature attacks, create a tapped and attacking 1/1 red Goblin creature token for each other attacking Goblin.",
+      "Whenever a Goblin you control becomes tapped, if it is the second time this turn that Goblin became tapped, this creature deals 2 damage to any target.",
+      "Whenever this creature or another Goblin you control is dealt damage, this creature deals that much damage to any target."
+    ],
+    "G": [
+      "Whenever another Goblin you control enters the battlefield, put a +1/+1 counter on that creature.",
+      "Whenever a Goblin you control deals combat damage to a player, put a +1/+1 counter on this creature.",
+      "At the beginning of combat on your turn, if you control three or more Goblins, creatures you control get +1/+1 and gain trample until end of turn.",
+      "Whenever this creature attacks, you may have target Goblin you control fight target creature you do not control.",
+      "Whenever a Goblin you control dies, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    ],
+    "C": [
+      "Whenever another Goblin you control enters the battlefield, untap this creature.",
+      "Whenever a colorless artifact enters the battlefield under your control, create a 1/1 red Goblin creature token.",
+      "Whenever this creature or another Goblin you control deals combat damage to a player, put a charge counter on target artifact you control."
+    ]
+  }
+}

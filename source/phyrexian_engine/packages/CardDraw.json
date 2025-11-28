@@ -1,0 +1,251 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Cleric", "Soldier", "Advisor", "Knight", "Spirit"],
+    "U": ["Human", "Wizard", "Rogue", "Merfolk", "Faerie", "Spirit"],
+    "B": ["Human", "Warlock", "Rogue", "Zombie", "Vampire", "Shade"],
+    "R": ["Human", "Warrior", "Shaman", "Berserker", "Goblin", "Elemental"],
+    "G": ["Human", "Druid", "Shaman", "Warrior", "Elf", "Beast"],
+    "C": ["Construct", "Avatar", "Eldrazi", "Spirit", "Drone", "Assembly-Worker"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Wizard",
+      "Spirit",
+      "Rogue",
+      "Soldier",
+      "Beast",
+      "Elemental",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Draw a card, then discard a card.",
+      "Scry 1, then draw a card.",
+      "Put a +1/+1 counter on target creature.",
+      "Add {C}.",
+      "Create a 1/1 blue Wizard creature token."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "Whenever you gain life, you may pay {1}. If you do, draw a card.",
+      "Whenever another creature you control enters the battlefield, if you gained life this turn, draw a card.",
+      "Whenever a creature you control with power 2 or less attacks, you may draw a card. If you do, discard a card.",
+      "At the beginning of your end step, if you drew two or more cards this turn, create a 1/1 white Soldier creature token.",
+      "Whenever you draw your second card each turn, put a +1/+1 counter on up to one target creature you control.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, draw a card.",
+      "Whenever an enchantment enters the battlefield under your control, you gain 1 life and may draw a card. If you do, discard a card.",
+      "Whenever another creature you control becomes tapped, if this is the first time this ability resolved this turn, you may draw a card.",
+      "Whenever you cast a spell during an opponent's turn, you may draw a card. If you do, that player gains 2 life.",
+      "At the beginning of combat on your turn, if your life total is greater than or equal to your starting life total, draw a card.",
+      "Whenever a creature you control blocks, you may draw a card, then discard a card.",
+      "Whenever a creature you control with vigilance attacks, scry 1, then you may draw a card.",
+      "Whenever a token enters the battlefield under your control, if you drew a card this turn, draw a card.",
+      "Whenever one or more creatures you control are returned to your hand from the battlefield, draw a card.",
+      "At the beginning of your upkeep, if you control three or more creatures with different powers, draw a card.",
+      "Whenever you cast a spell that targets exactly one creature you control, draw a card.",
+      "Whenever an effect you control prevents damage, draw a card.",
+      "At the beginning of your end step, if you gained 3 or more life this turn, draw a card and each opponent loses 1 life."
+    ],
+
+    "U": [
+      "Whenever you draw a card, you may put a +1/+1 counter on this creature. If you do, then discard a card.",
+      "Whenever you draw your second card each turn, untap up to one target creature you control.",
+      "Whenever this creature deals combat damage to a player, draw a card.",
+      "Whenever you cast an instant or sorcery spell, scry 1, then you may draw a card. If you do, discard a card.",
+      "Whenever you cast a spell from anywhere other than your hand, draw a card.",
+      "At the beginning of your upkeep, look at the top card of your library. You may reveal it. If it's a noncreature, nonland card, draw a card.",
+      "Whenever a creature you control becomes tapped, if it wasn't declared as an attacker, draw a card, then discard a card.",
+      "Whenever you discard a card, you may pay {1}. If you do, draw a card.",
+      "Whenever you draw your third card in a turn, create a 1/1 blue Wizard creature token.",
+      "Whenever an opponent scry s, you may draw a card. If you do, put a card from your hand on top of your library.",
+      "Whenever a spell or ability you control counters a spell, draw a card.",
+      "At the beginning of combat on your turn, if you have more cards in hand than each opponent, you may draw a card.",
+      "Whenever a creature you control deals combat damage to a player, if that creature has flying, draw a card.",
+      "Whenever you draw a card except the first one you draw in each of your draw steps, each opponent mills one card.",
+      "Whenever you cast your second spell each turn, draw a card.",
+      "Whenever you cast a spell that shares a card type with another spell you cast this turn, draw a card.",
+      "Whenever one or more creatures you control become blocked, you may draw a card for each creature that became blocked this combat, then discard that many cards.",
+      "Whenever a permanent you control phases in, draw a card."
+    ],
+
+    "B": [
+      "Whenever you draw a card, you lose 1 life and each opponent loses 1 life.",
+      "Whenever one or more cards are put into your graveyard from your library, draw a card, then discard a card.",
+      "Whenever a creature you control dies, you may pay {1} life. If you do, draw a card.",
+      "At the beginning of your end step, if you lost 3 or more life this turn, draw a card.",
+      "Whenever an opponent discards a card, you may draw a card.",
+      "Whenever you draw your second card each turn, target opponent mills two cards and you gain 1 life.",
+      "Whenever a creature an opponent controls dies, if you drew a card this turn, draw a card.",
+      "Whenever a card leaves your graveyard, draw a card, then discard a card.",
+      "At the beginning of your upkeep, you may put the top two cards of your library into your graveyard. If you do, draw a card, then lose 1 life.",
+      "Whenever you cast a spell with mana value {X} or less from your graveyard, draw a card.",
+      "Whenever one or more creature cards are put into your graveyard from anywhere, you may pay {B}. If you do, draw a card and you lose 1 life.",
+      "Whenever a creature an opponent controls is put into a graveyard from the battlefield, if it wasn't sacrificed, you may draw a card.",
+      "Whenever you sacrifice another creature, draw a card, then discard a card.",
+      "At the beginning of your end step, if a creature died this turn and you drew a card this turn, each opponent loses 2 life and you draw a card.",
+      "Whenever a token you control dies, you may draw a card.",
+      "Whenever an opponent loses life for the first time each turn, you may surveil 1. If you do, draw a card.",
+      "Whenever you draw a card while you have ten or more cards in your graveyard, you may return a creature card from your graveyard to your hand.",
+      "Whenever you exile a card from a graveyard, you may draw a card and lose 1 life."
+    ],
+
+    "R": [
+      "Whenever you discard a card, this creature deals 1 damage to any target and you may draw a card.",
+      "At the beginning of your end step, if you drew three or more cards this turn, this creature deals 2 damage to each opponent.",
+      "Whenever this creature attacks, discard a card, then draw a card.",
+      "Whenever you cast a spell from exile, draw a card.",
+      "Whenever a spell or ability you control deals noncombat damage to a player, exile the top card of your library. You may play that card this turn. When you do, if you cast it, draw a card.",
+      "Whenever you cast your first instant or sorcery spell each turn, exile the top card of your library. You may play that card this turn. If you cast it, draw a card, then discard a card.",
+      "Whenever an opponent is dealt damage by a source you control, if it's the second time this turn a source you control dealt damage to that player, draw a card.",
+      "Whenever a creature you control with haste attacks, draw a card, then discard a card.",
+      "At the beginning of combat on your turn, you may discard a card. If you do, draw two cards.",
+      "Whenever you exile one or more cards from your hand, graveyard, or library, this creature deals 1 damage to each opponent and you may draw a card.",
+      "Whenever a spell you control is copied, draw a card.",
+      "Whenever you cast a spell with mana value greater than the number of cards in your hand, draw a card.",
+      "Whenever an opponent casts a spell during your turn, you may draw a card, then discard a card.",
+      "Whenever you draw a card with mana value {X} or greater, this creature gets +{X}/+0 until end of turn.",
+      "Whenever you draw your second card each turn, create a 1/1 red Elemental creature token with haste.",
+      "Whenever one or more creatures you control die, exile the top card of your library. You may play that card until the end of your next turn. If you cast a spell this way, draw a card.",
+      "Whenever you cast a spell that targets only this creature, draw a card.",
+      "Whenever a land enters the battlefield under your control, if you haven't drawn a card this turn, you may discard a card. If you do, draw a card."
+    ],
+
+    "G": [
+      "Whenever you draw a card, you may put a +1/+1 counter on target creature.",
+      "At the beginning of your end step, if a creature you control with power 4 or greater entered the battlefield this turn, draw a card.",
+      "Whenever a land enters the battlefield under your control, scry 1, then you may draw a card. If you do, discard a card.",
+      "Whenever a creature you control with power 4 or greater deals combat damage to a player, draw a card.",
+      "Whenever you cast a creature spell, if its mana value is greater than the number of cards in your hand, draw a card.",
+      "Whenever you draw your second card each turn, put a +1/+1 counter on each creature you control with power 2 or less.",
+      "Whenever a +1/+1 counter is put on a creature you control, you may draw a card. If you do, discard a card.",
+      "Whenever a creature you control fights or becomes blocked, draw a card.",
+      "At the beginning of combat on your turn, if you control three or more creatures with different powers, draw a card.",
+      "Whenever a token enters the battlefield under your control, if you cast a creature spell this turn, draw a card.",
+      "Whenever you draw a creature card, you gain 1 life.",
+      "Whenever you cast a spell with mana value {X} or greater, create a 1/1 green Beast creature token and draw a card.",
+      "Whenever you sacrifice a creature or land, draw a card.",
+      "Whenever a land you control becomes tapped for mana, if it's the second time this turn a land with that name produced mana, you may draw a card.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you draw a card with mana value less than or equal to the number of lands you control, you may put a +1/+1 counter on this creature.",
+      "At the beginning of your end step, if you drew a card and gained life this turn, draw an additional card.",
+      "Whenever a creature with power 4 or greater enters the battlefield under your control, draw a card."
+    ],
+
+    "C": [
+      "Whenever you draw a card, you may pay {1}. If you do, create a 1/1 colorless Construct artifact creature token.",
+      "Whenever an artifact enters the battlefield under your control, you may draw a card, then discard a card.",
+      "At the beginning of your upkeep, if you control three or more artifacts, draw a card.",
+      "Whenever a colorless spell you control resolves, scry 1, then draw a card.",
+      "Whenever you cast a spell with mana value {X} or greater, if that spell is colorless, draw a card.",
+      "Whenever a noncreature, nonland permanent you control is put into a graveyard from the battlefield, you may draw a card.",
+      "Whenever you draw your second card each turn, put a +1/+1 counter on this creature and on up to one other target artifact creature you control.",
+      "Whenever a land you control becomes tapped for {C}, you may draw a card. If you do, discard a card."
+    ]
+  }
+}

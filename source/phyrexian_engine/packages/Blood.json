@@ -1,0 +1,253 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+
+  "creature_subtypes": {
+    "W": ["Human", "Cleric", "Knight", "Vampire", "Spirit"],
+    "U": ["Human", "Wizard", "Rogue", "Vampire", "Spirit"],
+    "B": ["Vampire", "Warlock", "Assassin", "Zombie", "Devil"],
+    "R": ["Vampire", "Berserker", "Warrior", "Devil", "Shaman"],
+    "G": ["Human", "Beast", "Wolf", "Druid", "Vampire"],
+    "C": ["Spirit", "Avatar", "Construct"]
+  },
+
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Vampire",
+      "Zombie",
+      "Devil",
+      "Spirit",
+      "Bat",
+      "Human",
+      "Blood"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Create a Blood token.",
+      "Target creature gains lifelink until end of turn.",
+      "Target Vampire gains menace until end of turn.",
+      "Draw a card, then discard a card.",
+      "Put a +1/+1 counter on target creature.",
+      "Each opponent loses 1 life and you gain 1 life."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "BLOOD_REMINDER": [
+      "A Blood token is an artifact with \"{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.\""
+    ]
+  },
+
+  "monster_keywords": {
+    "W": [
+      "lifelink",
+      "Whenever this creature enters the battlefield, create a Blood token.",
+      "Whenever you sacrifice a Blood token, you gain 1 life.",
+      "Whenever one or more Blood tokens enter the battlefield under your control, put a +1/+1 counter on target creature you control.",
+      "Whenever this creature or another creature you control with lifelink dies, create a Blood token.",
+      "Whenever you gain life, you may pay {1}. If you do, create a Blood token.",
+      "Whenever you sacrifice an artifact, you may gain 2 life.",
+      "At the beginning of your end step, if you gained 3 or more life this turn, create a Blood token.",
+      "Whenever this creature blocks, you may sacrifice a Blood token. If you do, prevent all combat damage that would be dealt to it this turn.",
+      "Whenever this creature becomes the target of a spell or ability an opponent controls, create a Blood token.",
+      "Whenever you discard a card, you may gain 1 life.",
+      "Whenever a Blood token you control is put into a graveyard from the battlefield, you may exile up to one target creature card from a graveyard.",
+      "At the beginning of combat on your turn, if you control three or more Blood tokens, creatures you control get +1/+1 until end of turn.",
+      "Whenever another nontoken creature you control dies, you may pay {1}. If you do, create a Blood token.",
+      "Whenever you sacrifice a Blood token, you may put a shield counter on target creature you control."
+    ],
+
+    "U": [
+      "ward {X}",
+      "Whenever this creature deals combat damage to a player, you may create a Blood token.",
+      "Whenever you sacrifice a Blood token, you may scry 1.",
+      "Whenever you discard one or more cards, surveil 1.",
+      "Whenever you draw your second card each turn, create a Blood token.",
+      "Whenever a Blood token enters the battlefield under your control, you may tap target creature an opponent controls.",
+      "Whenever one or more artifacts you control are sacrificed, you may draw a card, then discard a card.",
+      "Whenever you sacrifice a Blood token, target creature you control gains flying until end of turn.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "At the beginning of your end step, if you drew two or more cards this turn, create a Blood token.",
+      "Whenever a Blood token you control is put into a graveyard from the battlefield, you may return target instant or sorcery card with mana value 3 or less from your graveyard to your hand.",
+      "Whenever an opponent discards a card, create a Blood token.",
+      "Whenever this creature becomes tapped, you may sacrifice a Blood token. If you do, untap it.",
+      "Whenever you cast a spell from your graveyard, create a Blood token.",
+      "At the beginning of combat on your turn, if you control four or more artifacts, this creature can’t be blocked this turn."
+    ],
+
+    "B": [
+      "menace",
+      "Whenever this creature enters the battlefield, create two Blood tokens.",
+      "Whenever this creature attacks, you may sacrifice a Blood token. If you do, this creature gets +2/+0 and lifelink until end of turn.",
+      "Whenever you sacrifice a Blood token, each opponent loses 1 life and you gain 1 life.",
+      "Whenever one or more creatures an opponent controls die, create a Blood token.",
+      "Whenever you discard a card, create a Blood token.",
+      "At the beginning of your end step, if you lost 2 or more life this turn, create a Blood token.",
+      "Whenever another Vampire you control dies, you may sacrifice a Blood token. If you do, return that card to the battlefield tapped at the beginning of the next end step.",
+      "Whenever you sacrifice an artifact, put a +1/+1 counter on this creature.",
+      "Whenever this creature or another Vampire you control deals combat damage to a player, that player discards a card. For each card discarded this way, create a Blood token.",
+      "Whenever a Blood token you control is put into a graveyard from the battlefield, you may pay {1}. If you do, each opponent loses 1 life.",
+      "At the beginning of combat on your turn, if you control three or more Blood tokens, target creature an opponent controls gets -2/-2 until end of turn.",
+      "Whenever you sacrifice a Blood token, you may return target creature card with mana value 2 or less from your graveyard to your hand.",
+      "Whenever you discard a card, you may have target creature get -1/-1 until end of turn.",
+      "Whenever a creature an opponent controls dies, if that creature had counters on it, create that many Blood tokens.",
+      "Whenever this creature attacks, you may discard a card. When you do, create a Blood token and this creature gets +1/+1 until end of turn.",
+      "Whenever you sacrifice a Blood token, exile up to one target card from a graveyard. If a creature card is exiled this way, create a 1/1 black Bat creature token with flying.",
+      "At the beginning of your upkeep, you may sacrifice a Blood token. If you do, draw a card and you lose 1 life.",
+      "Whenever this creature becomes blocked, you may sacrifice a Blood token. If you do, each blocking creature gets -1/-1 until end of turn.",
+      "Whenever an opponent loses life, if that loss wasn’t from combat damage, create a Blood token.",
+      "Whenever one or more Blood tokens enter the battlefield under your control, target opponent loses 1 life.",
+      "Whenever a nontoken creature you control dies, if you had two or more Blood tokens enter the battlefield under your control this turn, return that creature to your hand.",
+      "At the beginning of your end step, if you control five or more Blood tokens, each opponent loses 3 life and you gain 3 life.",
+      "Whenever you sacrifice a Blood token, this creature gains indestructible until end of turn.",
+      "Whenever you discard a card, put a madness counter on this creature. As long as it has three or more madness counters on it, it has \"Whenever you discard a card, each opponent loses 1 life.\"",
+      "Whenever a Blood token you control is put into a graveyard from the battlefield, if it wasn’t sacrificed, you lose 1 life and draw a card.",
+      "Whenever a creature you control with power 4 or greater dies, create two Blood tokens.",
+      "Whenever this creature deals combat damage to a player, you may sacrifice any number of Blood tokens. That player loses that much life and you gain that much life."
+    ],
+
+    "R": [
+      "haste",
+      "Whenever this creature enters the battlefield or attacks, create a Blood token.",
+      "Whenever you sacrifice a Blood token, this creature gets +1/+0 and gains first strike until end of turn.",
+      "Whenever you discard a card, this creature deals 1 damage to any target.",
+      "Whenever you sacrifice an artifact, this creature deals 1 damage to each opponent.",
+      "Whenever this creature attacks, you may discard a card. If you do, draw a card and create a Blood token.",
+      "At the beginning of combat on your turn, if you control three or more Blood tokens, target creature you control gets +2/+0 and gains trample until end of turn.",
+      "Whenever one or more Blood tokens enter the battlefield under your control, you may have this creature gain menace until end of turn.",
+      "Whenever you cast a spell from exile, create a Blood token.",
+      "Whenever a creature you control dies, you may sacrifice a Blood token. If you do, this creature deals 2 damage to any target.",
+      "Whenever you sacrifice a Blood token during combat, target attacking creature gets +2/+0 until end of turn.",
+      "Whenever an opponent discards a card, this creature gets +1/+0 until end of turn.",
+      "At the beginning of your end step, if an opponent was dealt 4 or more damage this turn, create a Blood token.",
+      "Whenever you sacrifice a Blood token, exile the top card of your library. You may play that card until the end of your next turn.",
+      "Whenever this creature becomes blocked, you may discard a card. If you do, create a Blood token and this creature deals 1 damage to each creature blocking it."
+    ],
+
+    "G": [
+      "trample",
+      "Whenever this creature enters the battlefield, create a Blood token.",
+      "Whenever you sacrifice a Blood token, put a +1/+1 counter on this creature.",
+      "Whenever you discard a creature card, you may create a Blood token.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, create a Blood token.",
+      "At the beginning of combat on your turn, if you control three or more Blood tokens, creatures you control get +1/+1 and gain trample until end of turn.",
+      "Whenever one or more Blood tokens enter the battlefield under your control, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you sacrifice an artifact, you may put a +1/+1 counter on target creature you control.",
+      "Whenever a creature with power 4 or greater enters the battlefield under your control, create a Blood token.",
+      "Whenever you discard a card, you may have target creature you control fight up to one target creature you don’t control.",
+      "At the beginning of your end step, if you gained life and a creature you control died this turn, create a Blood token.",
+      "Whenever an artifact you control is put into a graveyard from the battlefield, you may return target creature card with mana value 3 or less from your graveyard to your hand.",
+      "Whenever you sacrifice a Blood token, you may have target creature you control gain vigilance until end of turn."
+    ],
+
+    "C": [
+      "indestructible",
+      "Whenever a Blood token enters the battlefield under your control, you may put a +1/+1 counter on each other creature you control that has a +1/+1 counter on it.",
+      "Whenever you sacrifice a Blood token, you may add one mana of any color.",
+      "Whenever you discard a card, if it’s a creature card, create a Blood token.",
+      "At the beginning of your upkeep, create a Blood token, then if you control ten or more Blood tokens, sacrifice this creature and each opponent loses 10 life.",
+      "Whenever one or more artifacts leave the battlefield, scry 1.",
+      "Whenever a Blood token you control becomes tapped, you may untap target creature.",
+      "Whenever you sacrifice a Blood token, you may exile target nonland permanent until this creature leaves the battlefield.",
+      "Whenever a Vampire you control deals combat damage to a player, create a Blood token.",
+      "Whenever you discard a card, if it’s the second card you’ve discarded this turn, create two Blood tokens instead."
+    ]
+  }
+}

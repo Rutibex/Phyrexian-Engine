@@ -1,0 +1,955 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [
+        [
+          "Prevent all combat damage that would be dealt this turn by creatures you don’t control.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Exile target creature you control, then return it to the battlefield under its owner’s control. You gain {X} life.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Creatures you control gain indestructible until end of turn. You get EE.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Counter target spell that targets a permanent you control. Scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Put a shield counter on up to {X} target creatures you control.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create {X} 1/1 white Human Soldier creature tokens named Away Team.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Search your library for a Planet card, reveal it, put it into your hand, then shuffle. Create a Lander token.",
+          2,
+          3,
+          6
+        ],
+        [
+          "Creatures you control can’t attack this turn. Spells you cast this turn can’t target permanents your opponents control.",
+          2,
+          2,
+          2
+        ],
+        [
+          "Return target creature card with mana value {X} or less from your graveyard to the battlefield. You get EE.",
+          2,
+          2,
+          4
+        ],
+        [
+          "Put {X} charge counters on up to one target Spacecraft or Planet you control. You gain 3 life.",
+          2,
+          3,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Prime Directive — At the beginning of your end step, if no opponent was dealt combat damage this turn and you didn’t target a permanent an opponent controls this turn, create a 1/1 white Human Advisor creature token.",
+          3,
+          2,
+          2
+        ],
+        [
+          "Prime Directive — At the beginning of your end step, if the Prime Directive condition was met, draw a card.",
+          2,
+          2,
+          2
+        ],
+        [
+          "Whenever you gain life, you get E.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Artifacts and creatures you control have ward—pay E.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Creatures can’t attack you or planeswalkers you control unless their controller pays {X} for each of those creatures, where X is the amount of energy you have.",
+          1,
+          2,
+          2
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast legendary spells or to activate abilities of Planets and Spacecraft.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{1}, {T}: Prevent the next 1 damage that would be dealt to target creature this turn. You gain 1 life.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gains vigilance until end of turn. If it’s a Doctor, you gain 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "[ACTIVATED_COST] Create a 1/1 white Human Soldier creature token named Away Team.",
+          2,
+          2,
+          4
+        ],
+        [
+          "[ACTIVATED_COST] Put a +1/+1 counter on target creature that didn’t attack this turn.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has vigilance.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature is dealt damage, you gain that much life.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has \"Prime Directive — At the beginning of your end step, if the Prime Directive condition was met, put a +1/+1 counter on this creature.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color. Spend this mana only to cast Advisor, Cleric, or Doctor spells.\"",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has vigilance.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Equipped creature has \"Whenever this creature blocks, you gain 1 life.\"",
+          2,
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "Instant": [
+        [
+          "Counter target spell unless its controller pays {X}.",
+          3,
+          1,
+          4
+        ],
+        [
+          "Counter target activated or triggered ability.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Choose one — Return target nonland permanent to its owner’s hand; or draw a card. Void — If a nonland permanent left the battlefield this turn or a spell was warped this turn, choose both instead.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Target artifact or creature you control phases out.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Tap up to {X} target creatures. Those creatures don’t untap during their controller’s next untap step.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Draw {X} cards, then discard a card.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Scry 2, then draw a card. You get EE.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Each player may cast a permanent card from their hand for its warp cost. Draw a card for each spell cast this way.",
+          2,
+          2,
+          2
+        ],
+        [
+          "Return up to two target nonland permanents to their owners’ hands. Void — If the Void condition is true, return up to three of those permanents instead. You get EE.",
+          2,
+          2,
+          2
+        ],
+        [
+          "Until end of turn, you may cast a permanent card from your hand for its warp cost as though it had flash.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Prime Directive — At the beginning of your end step, if the Prime Directive condition was met, draw a card.",
+          3,
+          1,
+          1
+        ],
+        [
+          "You may activate station abilities any time you could cast an instant.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you activate a station ability, you may pay E. If you do, untap up to one target creature that was tapped to pay that cost.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever a permanent you control phases in, you get E and scry 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Noncreature tokens you control are 1/1 artifact creature tokens in addition to their other types.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {U}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{1}, {T}: Another target nonland permanent phases out. Activate only as a sorcery.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you draw your second card each turn, put a charge counter on this, then scry 1. You get E.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Scry 1, then draw a card, then discard a card.",
+          3,
+          1,
+          1
+        ],
+        [
+          "[ACTIVATED_COST] Target creature phases out. Its controller draws a card. Activate only during combat.",
+          2,
+          1,
+          1
+        ],
+        [
+          "[ACTIVATED_COST] Put a cloak counter on target permanent you control, then it phases out.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has flying.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature becomes tapped, scry 1.\"",
+          2,
+          1,
+          1
+        ],
+        [
+          "Enchanted creature has \"Warp {U}. (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile on a later turn.)\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add {U}{U}.\"",
+          3,
+          1,
+          1
+        ],
+        [
+          "Enchanted land has \"{T}: Add {U}. When this land becomes tapped, scry 1.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has \"Whenever this creature deals combat damage to a player, draw a card.\"",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "B": {
+      "Instant": [
+        [
+          "Exile target creature or planeswalker.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Void — This spell costs {2} less to cast if the Void condition is true. (If a nonland permanent left the battlefield this turn or a spell was warped this turn.)",
+          2,
+          1,
+          1
+        ],
+        [
+          "Target creature gets -{X}/-{X} until end of turn. If that creature dies this turn, you gain 2 life.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Each opponent sacrifices a creature. You get EE.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Return target creature card from your graveyard to the battlefield. You lose {X} life, where X is its mana value.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Choose one — Remove up to three charge counters from target artifact or Planet; or destroy target artifact with mana value {X} or less.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Gain control of target artifact or creature with mana value {X} or less until end of turn. Untap it. It gains haste until end of turn. It becomes a Borg in addition to its other types.",
+          2,
+          1,
+          4
+        ],
+        [
+          "Void — If the Void condition is true, instead gain control of that permanent until your next turn.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you activate station, each opponent loses 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Void — At the beginning of your end step, if the Void condition is true, surveil 1.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever one or more creatures die, you may pay E or 2 life. If you do, exile one of those cards and put a graft counter on target creature you control.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Creatures you control with graft counters have all activated abilities of cards exiled with this and get +1/+1 for each card exiled with it.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {B}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{1}, {T}, Sacrifice another creature: You get EE and draw a card.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gets -1/-1 until end of turn. If that creature dies this turn, each opponent loses 1 life and you gain 1 life.",
+          2,
+          1,
+          1
+        ],
+        [
+          "[ACTIVATED_COST] Exile target card from a graveyard. You get E.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has menace.",
+          4,
+          1,
+          4
+        ],
+        [
+          "Enchanted creature has \"Whenever this creature deals combat damage to a player, that player discards a card.\"",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add {B}{B}.\"",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has deathtouch.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "R": {
+      "Instant": [
+        [
+          "This spell deals {X} damage to any target.",
+          3,
+          1,
+          6
+        ],
+        [
+          "Target creature gets +2/+0 and first strike until end of turn.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Void — If the Void condition is true, scry 2, then this spell deals 2 damage to any target.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Gain control of target artifact or creature with mana value {X} or less until end of turn. Untap it. It gains haste until end of turn.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Destroy target artifact or land.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Create {X} 1/1 red Klingon Warrior creature tokens with haste.",
+          2,
+          2,
+          6
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you sacrifice a permanent, this enchantment deals 1 damage to any target.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Whenever you cast a spell for its warp cost, this enchantment deals 1 damage to each opponent.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {R}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{1}, {T}: This artifact deals 1 damage to any target.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Target creature gains haste until end of turn.",
+          3,
+          1,
+          1
+        ],
+        [
+          "[ACTIVATED_COST] This permanent deals 1 damage to any target.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has haste.",
+          4,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add {R}{R}.\"",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has first strike.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "G": {
+      "Instant": [
+        [
+          "Untap up to {X} target creatures you control.",
+          3,
+          1,
+          3
+        ],
+        [
+          "Destroy target artifact or enchantment.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Void — If the Void condition is true, create a Lander token and you get EE.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Search your library for up to {X} basic land cards, reveal them, put them onto the battlefield tapped, then shuffle.",
+          3,
+          2,
+          6
+        ],
+        [
+          "Choose one — Create two Lander tokens; or search your library for a Planet card, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          1
+        ],
+        [
+          "Put a +1/+1 counter on each of up to three target creatures you control.",
+          2,
+          1,
+          3
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever a land enters the battlefield under your control, you gain 1 life and you get E.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Whenever you activate station on a Planet you control, scry 1, then you gain 1 life.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add {G}.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{T}, Sacrifice this: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Put a +1/+1 counter on target creature.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N} and has trample.",
+          4,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land is a 3/3 green Elemental creature with vigilance and trample. It’s still a land.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N} and has trample.",
+          3,
+          1,
+          4
+        ]
+      ]
+    },
+    "C": {
+      "Instant": [
+        [
+          "Create a Lander token. (It’s an artifact with \"{T}, Sacrifice this artifact: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\")",
+          3,
+          1,
+          1
+        ],
+        [
+          "Create a Clue token.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Sorcery": [
+        [
+          "Create two Lander tokens.",
+          3,
+          1,
+          1
+        ],
+        [
+          "Search your library for a colorless card with mana value {X} or less, reveal it, put it into your hand, then shuffle.",
+          2,
+          1,
+          4
+        ]
+      ],
+      "Enchantment": [
+        [
+          "Whenever you sacrifice a Lander, you may draw a card.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Artifact": [
+        [
+          "{T}: Add one mana of any color. Spend this mana only to cast Spacecraft, Planets, or Saga spells.",
+          3,
+          1,
+          1
+        ],
+        [
+          "{2}, {T}, Sacrifice this: Draw a card.",
+          2,
+          1,
+          1
+        ]
+      ],
+      "Activated": [
+        [
+          "[ACTIVATED_COST] Create a Lander token.",
+          3,
+          1,
+          1
+        ]
+      ],
+      "AuraCreature": [
+        [
+          "Enchanted creature gets +{N}/+{N}.",
+          3,
+          1,
+          4
+        ]
+      ],
+      "AuraLand": [
+        [
+          "Enchanted land has \"{T}: Add one mana of any color.\"",
+          3,
+          1,
+          1
+        ]
+      ],
+      "Equipment": [
+        [
+          "Equipped creature gets +{N}/+{N}.",
+          3,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "creature_subtypes": {
+    "W": [
+      "Human",
+      "Bajoran",
+      "Advisor",
+      "Cleric",
+      "Doctor",
+      "Soldier"
+    ],
+    "U": [
+      "Human",
+      "Vulcan",
+      "Betazoid",
+      "Hologram",
+      "Artificer",
+      "Advisor",
+      "Rogue"
+    ],
+    "B": [
+      "Romulan",
+      "Cardassian",
+      "Borg",
+      "Rogue",
+      "Assassin",
+      "Advisor"
+    ],
+    "R": [
+      "Klingon",
+      "Andorian",
+      "Warrior",
+      "Soldier",
+      "Rogue"
+    ],
+    "G": [
+      "Human",
+      "Trill",
+      "Scout",
+      "Druid",
+      "Warrior"
+    ],
+    "C": [
+      "Avatar",
+      "Entity",
+      "Hologram",
+      "Construct",
+      "Drone"
+    ]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Human",
+      "Advisor",
+      "Soldier",
+      "Civilian",
+      "Borg",
+      "Hologram",
+      "Drone"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains vigilance until end of turn.",
+      "Target creature gains hexproof until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature.",
+      "Create a Lander token.",
+      "You get E."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ],
+    "PRIME_DIRECTIVE_COND": [
+      "if no opponent was dealt combat damage this turn and you didn’t target a permanent an opponent controls this turn"
+    ],
+    "VOID_COND": [
+      "if a nonland permanent left the battlefield this turn or a spell was warped this turn"
+    ],
+    "STATION_TARGET": [
+      "Planet",
+      "Spacecraft",
+      "Starbase"
+    ],
+    "ENERGY_SYMBOL": [
+      "E"
+    ],
+    "LANDER_RULES": [
+      "It’s an artifact with \"{T}, Sacrifice this artifact: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\""
+    ],
+    "WARP_REMINDER": [
+      "Warp {COST} (You may cast this spell for its warp cost. If you do, exile it at the beginning of the next end step. You may cast it from exile on a later turn.)"
+    ],
+    "CLOAK_REMINDER": [
+      "Cloak N — {COST}. (Activate only as a sorcery.) This permanent phases out. At the beginning of your next untap step, it phases in with N cloak counters on it. It has hexproof while it has a cloak counter. Whenever it attacks or becomes the target of a spell or ability, remove a cloak counter from it."
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+      "Prime Directive — At the beginning of your end step, if the Prime Directive condition was met, put a +1/+1 counter on this creature."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "warp {U}",
+      "phasing"
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "Void — This creature gets +1/+1 as long as the Void condition is true."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "menace"
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "ward {X}"
+    ],
+    "C": [
+      "indestructible",
+      "defender"
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Cleric"],
+    "U": ["Human", "Wizard"],
+    "B": ["Human", "Zombie"],
+    "R": ["Human", "Warrior"],
+    "G": ["Human", "Druid"],
+    "C": ["Construct", "Golem"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains haste until end of turn.",
+      "Target creature gains vigilance until end of turn.",
+      "Draw a card.",
+      "Add {C}.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "Whenever you gain life, proliferate.",
+      "Whenever another creature you control with a counter on it attacks, proliferate.",
+      "At the beginning of your end step, if you gained 3 or more life this turn, proliferate.",
+      "Whenever a +1/+1 counter is put on another creature you control, you may proliferate.",
+      "Whenever this creature attacks, you may put a +1/+1 counter on up to one other target creature you control, then proliferate.",
+      "Whenever this creature blocks, you may put a shield counter on it. Whenever you put a shield counter on a permanent, proliferate.",
+      "At the beginning of combat on your turn, if you control three or more creatures with counters on them, proliferate.",
+      "Whenever a creature you control with vigilance deals combat damage to a player, proliferate.",
+      "Whenever you cast a creature spell, if it has one or more counters on it, proliferate.",
+      "Whenever a creature you control becomes the target of a spell or ability you control, you may put a +1/+1 counter on it. If you do, proliferate.",
+      "Whenever a creature an opponent controls with a counter on it dies, you gain 2 life and proliferate.",
+      "Whenever you proliferate, you may put a +1/+1 counter on up to one target creature you control.",
+      "At the beginning of each end step, if you proliferated this turn, create a 1/1 white Soldier creature token.",
+      "Whenever this creature or another creature you control with a counter on it dies, proliferate.",
+      "Whenever this creature attacks, you may tap up to one target creature an opponent controls. If that creature has a counter on it, proliferate."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever you draw your second card each turn, proliferate.",
+      "Whenever an artifact you control with one or more counters on it becomes tapped, proliferate.",
+      "Whenever you cast an instant or sorcery spell, if you control a permanent with a counter on it, proliferate.",
+      "Whenever you proliferate, scry 1.",
+      "Whenever one or more counters are put on a permanent you control during your turn, you may draw a card. If you do, proliferate.",
+      "At the beginning of your upkeep, if you control three or more permanents with counters on them, proliferate.",
+      "Whenever you cast a spell with mana value {X} or greater, proliferate.",
+      "Whenever a creature you control with flying deals combat damage to a player, proliferate.",
+      "Whenever this creature becomes tapped, look at the top card of your library. If that card has mana value equal to the number of counters on target permanent, you may reveal it and put it into your hand. Then proliferate.",
+      "Whenever a noncreature spell you control resolves, if it targeted a permanent with a counter on it, proliferate.",
+      "Whenever a permanent an opponent controls with a counter on it becomes tapped, you may tap up to one target permanent that player controls. If you do, proliferate.",
+      "Whenever you proliferate, untap up to one target permanent you control.",
+      "At the beginning of combat on your turn, up to one target creature you control gets +1/+0 and flying until end of turn. If that creature already has a counter on it, proliferate.",
+      "Whenever this creature deals combat damage to a player, draw a card. If you control three or more permanents with counters on them, instead draw two cards and proliferate."
+    ],
+    "B": [
+      "menace",
+      "deathtouch",
+      "Whenever a creature an opponent controls with a counter on it dies, proliferate.",
+      "Whenever you lose life for the first time each turn, proliferate.",
+      "Whenever you proliferate, each opponent loses 1 life and you gain 1 life.",
+      "Whenever a creature you control with a counter on it dies, draw a card, then proliferate.",
+      "At the beginning of your upkeep, you may put a -1/-1 counter on another target creature you control. If you do, proliferate.",
+      "Whenever a creature an opponent controls becomes tapped, if it has a counter on it, that player loses 1 life and you proliferate.",
+      "Whenever a permanent you control with a counter on it is put into a graveyard from the battlefield, you may return another creature card with mana value less than its mana value from your graveyard to your hand. If you do, proliferate.",
+      "Whenever this creature deals combat damage to a player, that player gets a poison counter, then you may proliferate.",
+      "Whenever an opponent discards a card, if that player has a poison counter or controls a permanent with a counter on it, proliferate.",
+      "At the beginning of each end step, if a permanent or player got a counter this turn, proliferate.",
+      "Whenever you cast a spell from your graveyard, proliferate.",
+      "Whenever an opponent sacrifices a permanent with a counter on it, you draw a card and proliferate.",
+      "Whenever you proliferate, put a +1/+1 counter on this creature and you lose 1 life.",
+      "Whenever another creature dies, if it had any counters on it, create a 2/2 black Zombie creature token and proliferate."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever this creature attacks, you may put a +1/+0 counter on it. Then if it has three or more counters on it, proliferate.",
+      "Whenever you cast a noncreature spell, if a permanent you control has a counter on it, this creature deals 1 damage to any target and you may proliferate.",
+      "Whenever a creature you control with a +1/+1 counter on it attacks, it gets +1/+0 until end of turn. If it's the second time this ability has resolved this turn, proliferate.",
+      "Whenever you proliferate, this creature deals 1 damage to each opponent.",
+      "Whenever a source you control deals noncombat damage to a player, proliferate.",
+      "At the beginning of combat on your turn, you may put an oil counter on target artifact or creature you control. Then if you control two or more permanents with oil counters on them, proliferate.",
+      "Whenever this creature becomes blocked by a creature with a counter on it, this creature deals 1 damage to that creature and you proliferate.",
+      "Whenever a land enters the battlefield under your control, if you control a creature with a counter on it, this creature gains haste until end of turn and you may proliferate.",
+      "Whenever you sacrifice a permanent with a counter on it, add {R}{R} and proliferate.",
+      "Whenever you cast a spell from exile, proliferate.",
+      "Whenever you proliferate, up to one target creature you control gets +2/+0 and gains trample until end of turn.",
+      "Whenever a creature you control with power 4 or greater attacks, proliferate.",
+      "At the beginning of your end step, if you dealt 4 or more noncombat damage this turn, proliferate."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever a land enters the battlefield under your control, if you control a creature with a +1/+1 counter on it, proliferate.",
+      "Whenever this creature attacks, put a +1/+1 counter on another target attacking creature. Then if creatures you control have a total of six or more counters on them, proliferate.",
+      "Whenever you cast a creature spell, you may put a +1/+1 counter on it. If you do, proliferate.",
+      "At the beginning of your end step, if you control three or more creatures with +1/+1 counters on them, proliferate.",
+      "Whenever you proliferate, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever a creature you control with power 4 or greater enters the battlefield, proliferate.",
+      "Whenever this creature deals combat damage to a player, you may distribute two +1/+1 counters among up to two target creatures you control, then proliferate.",
+      "Whenever one or more +1/+1 counters are put on a creature you control for the first time each turn, untap that creature and proliferate.",
+      "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may put a +1/+1 counter on it. If you do, proliferate.",
+      "Whenever a nontoken creature you control dies, if it had counters on it, create a 1/1 green Saproling creature token and proliferate.",
+      "At the beginning of combat on your turn, you may move a counter from one creature you control onto another creature you control. If you do, proliferate.",
+      "Whenever you proliferate, put a +1/+1 counter on each of up to two target creatures you control.",
+      "Whenever you cast a multicolored spell, proliferate."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever you proliferate, put a +1/+1 counter on this creature.",
+      "Whenever a planeswalker you control is dealt damage, you may prevent that damage. If you do, proliferate.",
+      "Whenever you activate a loyalty ability of a planeswalker you control, proliferate.",
+      "Whenever a charge counter is put on an artifact you control, proliferate.",
+      "At the beginning of your upkeep, if you control five or more permanents with counters on them, proliferate twice.",
+      "Whenever a permanent you control with a counter on it becomes tapped, you may add {C}. If you do, proliferate.",
+      "Whenever you cast a colorless spell, proliferate.",
+      "Whenever a permanent you control with a counter on it phases in, proliferate.",
+      "Whenever you proliferate, you may choose any number of permanents you control that don’t have counters on them and put a +1/+1 counter on each of them.",
+      "Whenever this creature or another artifact creature you control dies, if it had counters on it, return it to your hand at the beginning of the next end step, then proliferate.",
+      "Whenever an opponent casts a spell, if they control a permanent or have a counter on them with the same kind of counter as a permanent or player you control, proliferate.",
+      "Whenever you cast an artifact spell, you may put a charge counter on target permanent. If you do, proliferate.",
+      "Whenever a permanent or player gets one or more counters, you may pay {1}. If you do, proliferate."
+    ]
+  }
+}

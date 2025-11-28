@@ -1,0 +1,264 @@
+{
+  "effects_by_color": {
+    "W": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "U": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "B": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "R": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "G": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    },
+    "C": {
+      "Instant": [],
+      "Sorcery": [],
+      "Enchantment": [],
+      "Artifact": [],
+      "Activated": [],
+      "AuraCreature": [],
+      "AuraLand": [],
+      "Equipment": []
+    }
+  },
+  "creature_subtypes": {
+    "W": ["Human", "Soldier", "Knight", "Cleric", "Spirit"],
+    "U": ["Human", "Wizard", "Rogue", "Merfolk", "Illusion"],
+    "B": ["Human", "Rogue", "Cleric", "Zombie", "Warlock"],
+    "R": ["Human", "Warrior", "Shaman", "Goblin", "Berserker"],
+    "G": ["Human", "Druid", "Scout", "Beast", "Elf"],
+    "C": ["Construct", "Avatar", "Golem", "Drone"]
+  },
+  "string_pools": {
+    "TRIGGER_INTRO": [
+      "Whenever",
+      "At the beginning of your end step,",
+      "At the beginning of combat on your turn,"
+    ],
+    "CREATURE_CONTROLLER": [
+      "you control",
+      "an opponent controls",
+      "each opponent controls"
+    ],
+    "CREATURE_TRIGGER": [
+      "dies",
+      "leaves the battlefield",
+      "deals combat damage to a player",
+      "becomes tapped"
+    ],
+    "TOKEN_COLOR": [
+      "white",
+      "blue",
+      "black",
+      "red",
+      "green",
+      "colorless"
+    ],
+    "TOKEN_SUBTYPE": [
+      "Soldier",
+      "Spirit",
+      "Beast",
+      "Elemental",
+      "Construct",
+      "Wizard"
+    ],
+    "TOKEN_PT": [
+      "1/1",
+      "2/2",
+      "{X}/{X}"
+    ],
+    "ACTIVATED_COST": [
+      "{1}:",
+      "{2}:",
+      "{1}, {T}:",
+      "{2}, {T}:",
+      "{2}, {T}, Sacrifice a creature:"
+    ],
+    "ACTIVATED_EFFECT": [
+      "Target creature gains vigilance until end of turn.",
+      "Target creature gains flying until end of turn.",
+      "Target creature gets +1/+0 until end of turn.",
+      "Draw a card.",
+      "Put a +1/+1 counter on target creature."
+    ],
+    "EQUIP_COST": [
+      "{1}",
+      "{2}",
+      "{3}"
+    ]
+  },
+  "monster_keywords": {
+    "W": [
+      "vigilance",
+      "lifelink",
+      "ward {X}",
+      "Whenever another creature enters the battlefield under your control, you gain 1 life.",
+      "Whenever this creature attacks, creatures you control get +1/+0 until end of turn.",
+      "Whenever this creature blocks or becomes blocked, you gain 2 life.",
+      "Whenever you gain life, put a +1/+1 counter on this creature.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, create a 1/1 white Spirit creature token with flying.",
+      "Whenever another nontoken creature you control dies, create a 1/1 white Soldier creature token.",
+      "Whenever this creature becomes tapped, you may tap target creature an opponent controls.",
+      "Whenever this creature enters the battlefield or attacks, create a 1/1 white Soldier creature token.",
+      "Whenever you cast a creature spell, this creature gets +1/+1 until end of turn.",
+      "Whenever an Aura becomes attached to a creature you control, draw a card.",
+      "At the beginning of combat on your turn, up to one other target creature you control gets +1/+1 and gains vigilance until end of turn.",
+      "Whenever you gain 3 or more life, scry 1.",
+      "Whenever this creature deals combat damage to a player, you gain that much life.",
+      "Whenever another creature enters the battlefield under your control, you may move any number of +1/+1 counters from that creature onto this creature.",
+      "Whenever a creature you control becomes the target of a spell or ability an opponent controls, you may put a +1/+1 counter on that creature.",
+      "Whenever a creature you control with power 2 or less attacks, you gain 1 life.",
+      "At the beginning of your end step, if you gained life this turn, create a 1/1 white Spirit creature token with flying."
+    ],
+    "U": [
+      "flying",
+      "ward {X}",
+      "Whenever you draw your second card each turn, put a +1/+1 counter on this creature.",
+      "Whenever this creature deals combat damage to a player, draw a card.",
+      "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.",
+      "Whenever you cast an instant or sorcery spell, scry 1.",
+      "Whenever a creature you control becomes tapped, you may untap this creature.",
+      "Whenever this creature becomes untapped, you may tap target creature an opponent controls.",
+      "Whenever you draw a card, target creature you control gains flying until end of turn.",
+      "Whenever one or more creatures you control deal combat damage to a player, you may return target creature with mana value {X} or less from your graveyard to your hand, where X is the number of those creatures.",
+      "Whenever a creature you control with flying deals combat damage to a player, scry 1.",
+      "Whenever you cast a multicolored spell, this creature gets hexproof until end of turn.",
+      "Whenever one or more tokens enter the battlefield under your control, draw a card, then discard a card.",
+      "Whenever this creature blocks, you may return another creature you control to its owner’s hand. If you do, this creature gets +2/+0 until end of turn.",
+      "Whenever an artifact enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever this creature deals combat damage to a player, you may exile up to one target nonland permanent you control, then return it to the battlefield under its owner’s control.",
+      "Whenever you cast your second spell each turn, create a 1/1 blue Illusion creature token with flying.",
+      "At the beginning of your end step, if you drew two or more cards this turn, draw a card, then discard a card.",
+      "Whenever you scry, this creature gets +1/+0 until end of turn.",
+      "Whenever a creature an opponent controls becomes tapped, you may pay {1}. If you do, draw a card, then discard a card."
+    ],
+    "B": [
+      "deathtouch",
+      "menace",
+      "Whenever another creature dies, you gain 1 life.",
+      "Whenever another creature you control dies, put a +1/+1 counter on this creature.",
+      "Whenever this creature or another creature you control dies, each opponent loses 1 life.",
+      "Whenever this creature deals combat damage to a player, that player discards a card.",
+      "Whenever you sacrifice a creature, each opponent loses 1 life and you gain 1 life.",
+      "Whenever a creature an opponent controls dies, create a 1/1 black Zombie creature token.",
+      "Whenever one or more creature cards leave your graveyard, create a 2/2 black Zombie creature token.",
+      "Whenever this creature enters the battlefield or attacks, you may mill two cards.",
+      "Whenever you gain life, each opponent loses 1 life.",
+      "Whenever you lose life, put a +1/+1 counter on this creature.",
+      "Whenever a creature an opponent controls dies, you may pay {1}. If you do, draw a card and lose 1 life.",
+      "At the beginning of your end step, if a creature died this turn, create a 1/1 black Skeleton creature token with \"{1}{B}: Regenerate this creature.\"",
+      "Whenever this creature attacks, each opponent loses 1 life for each creature card in your graveyard.",
+      "Whenever one or more creatures you control die, each opponent mills two cards.",
+      "Whenever this creature blocks or becomes blocked by a creature, that creature’s controller loses 1 life and you gain 1 life.",
+      "Whenever you discard a card, put a +1/+1 counter on this creature.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, each opponent loses 2 life and you gain 2 life.",
+      "At the beginning of your upkeep, you may sacrifice another creature. If you do, draw a card and you lose 1 life."
+    ],
+    "R": [
+      "haste",
+      "first strike",
+      "Whenever this creature attacks, it gets +1/+0 until end of turn for each other attacking creature.",
+      "Whenever you cast a noncreature spell, this creature gets +1/+0 until end of turn.",
+      "Whenever this creature attacks, it deals 1 damage to any target.",
+      "Whenever this creature becomes blocked, it deals 1 damage to each creature blocking it.",
+      "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token with haste. Exile that token at the beginning of the next end step.",
+      "Whenever another creature you control dies, this creature gets +1/+0 until end of turn.",
+      "Whenever you sacrifice a permanent, put a +1/+1 counter on this creature.",
+      "Whenever this creature deals combat damage to a player, exile the top card of your library. You may play that card until the end of your next turn.",
+      "Whenever one or more creatures you control deal combat damage to a player, you may discard a card. If you do, draw a card.",
+      "Whenever this creature enters the battlefield or attacks, create a 1/1 red Goblin creature token that’s attacking.",
+      "Whenever you cast a spell with mana value 5 or greater, this creature deals 2 damage to any target.",
+      "Whenever this creature attacks, you may have it fight target creature you don’t control.",
+      "Whenever you cast a multicolored spell, this creature gets +2/+0 until end of turn.",
+      "Whenever a source you control deals noncombat damage to an opponent, put a +1/+1 counter on this creature.",
+      "Whenever you discard a card, this creature gets +1/+0 and gains first strike until end of turn.",
+      "Whenever a creature you control with power 4 or greater attacks, this creature deals 1 damage to each opponent.",
+      "At the beginning of combat on your turn, you may sacrifice another creature. If you do, this creature gets +3/+0 and gains trample until end of turn.",
+      "Whenever a creature you control with haste dies, this creature deals 2 damage to any target."
+    ],
+    "G": [
+      "trample",
+      "reach",
+      "Whenever another creature enters the battlefield under your control, put a +1/+1 counter on this creature.",
+      "Whenever a land enters the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever this creature attacks, you may put a +1/+1 counter on another target creature you control.",
+      "Whenever you cast a creature spell, you gain 1 life.",
+      "Whenever a creature you control with power 4 or greater enters the battlefield, draw a card.",
+      "Whenever this creature becomes blocked, it gets +2/+2 until end of turn.",
+      "Whenever a land enters the battlefield under your control, you may have this creature fight target creature you don’t control.",
+      "Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, draw a card.",
+      "Whenever one or more tokens enter the battlefield under your control, this creature gets +1/+1 until end of turn.",
+      "Whenever this creature attacks, create a 1/1 green Beast creature token that’s tapped and attacking.",
+      "Whenever you gain life, put a +1/+1 counter on target creature you control.",
+      "Whenever this creature blocks or becomes blocked by a creature with flying, this creature gets +2/+2 until end of turn.",
+      "Whenever a creature you control deals combat damage to a player, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+      "Whenever you cast a multicolored spell, put a +1/+1 counter on this creature and you gain 1 life.",
+      "Whenever a creature you control with power 2 or less enters the battlefield, put a +1/+1 counter on that creature.",
+      "At the beginning of combat on your turn, you may tap another untapped creature you control. If you do, this creature gets +2/+2 and gains trample until end of turn.",
+      "Whenever this creature blocks, you may untap target land you control.",
+      "Whenever a creature you control with a +1/+1 counter on it dies, create a 3/3 green Beast creature token."
+    ],
+    "C": [
+      "indestructible",
+      "defender",
+      "Whenever you cast a colorless spell, put a +1/+1 counter on this creature.",
+      "Whenever this creature or another colorless creature enters the battlefield under your control, scry 1.",
+      "Whenever an artifact enters the battlefield under your control, this creature gets +1/+0 until end of turn.",
+      "Whenever this creature blocks or becomes blocked, you may tap target nonland permanent.",
+      "Whenever you cast an artifact spell, create a 1/1 colorless Construct artifact creature token.",
+      "Whenever a creature you control becomes the target of a spell you control, put a +1/+1 counter on that creature.",
+      "Whenever a noncreature artifact you control is put into a graveyard from the battlefield, draw a card.",
+      "Whenever this creature attacks, defending player mills three cards.",
+      "Whenever you draw your second card each turn, this creature gains flying until end of turn.",
+      "Whenever a creature you control with a +1/+1 counter on it attacks, you may untap target artifact.",
+      "Whenever a spell or ability you control exiles one or more cards, this creature gets +1/+1 until end of turn.",
+      "Whenever you cast a spell with mana value 7 or greater, put two +1/+1 counters on this creature.",
+      "Whenever an artifact or creature you control becomes tapped, you may pay {1}. If you do, scry 1.",
+      "At the beginning of your end step, if you control three or more artifacts, create a 1/1 colorless Thopter artifact creature token with flying.",
+      "Whenever you cast a spell that’s both an artifact and a creature, this creature gains double strike until end of turn.",
+      "Whenever a colorless creature you control dies, put a +1/+1 counter on this creature.",
+      "Whenever a spell you control deals damage to a permanent or player, this creature deals 1 damage to that permanent or player.",
+      "Whenever this creature deals combat damage to a player, you may return target artifact card with mana value {X} or less from your graveyard to your hand, where X is the damage dealt."
+    ]
+  }
+}
