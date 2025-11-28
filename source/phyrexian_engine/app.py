@@ -52,6 +52,15 @@ class App(tk.Tk):
         self.include_artifacts = tk.BooleanVar(value=True); ttk.Checkbutton(colf, text="Artifacts", variable=self.include_artifacts).grid(row=0, column=len(COLORS_LIST)+2, padx=6)
         self.include_lands = tk.BooleanVar(value=True); ttk.Checkbutton(colf, text="Lands", variable=self.include_lands).grid(row=0, column=len(COLORS_LIST)+3, padx=6)
 
+        # Commander Mode – Legendary creatures only
+        self.commander_mode = tk.BooleanVar(value=False)
+        ttk.Checkbutton(
+            colf,
+            text="Commander Mode (Legendary Creatures Only)",
+            variable=self.commander_mode
+        ).grid(row=1, column=1, columnspan=4, sticky='w', pady=(4, 0))
+
+
         # Description
         ttk.Label(top, text="Set Theme / Description").grid(row=2, column=0, sticky='nw', pady=(8,0))
         self.txt_desc = tk.Text(top, width=80, height=4)
@@ -139,7 +148,8 @@ class App(tk.Tk):
             include_artifacts=self.include_artifacts.get(),
             include_lands=self.include_lands.get(),
             description=desc,
-            selected_packages=selected_packages
+            selected_packages=selected_packages,
+            commander_mode=self.commander_mode.get(),
         )
         return spec
 
@@ -177,30 +187,46 @@ class App(tk.Tk):
                 # schedule progress update on main thread
                 self.after(0, self._set_progress, i, f"Generating {i}/{len(types)}...")
 
-                
-                # Determine color identity for this card with proper distribution.
-                if ctype == 'Land':
-                    # Lands are colorless identity for cost purposes (no cost anyway)
-                    colors = []
+                if spec.commander_mode:
+                    # Commander Mode: 0–5 colors, biased towards multicolor
+                    all_cols = spec.colors or ['W','U','B','R','G']
+
+                    # weights: mostly 2–3 colors, some mono, some 4–5, rare colorless
+                    choices = [0, 1, 2, 3, 4, 5]          # # of colors
+                    weights = [1, 3, 6, 6, 3, 2]          # tweak as desired
+
+                    k = random.choices(choices, weights=weights, k=1)[0]
+                    k = min(k, len(all_cols))            # don't exceed allowed colors
+
+                    if k <= 0:
+                        colors = []                      # colorless commander (weird but allowed)
+                    else:
+                        colors = random.sample(all_cols, k=k)
                 else:
-                    # Artifacts / Equipment: 80% chance to be colorless
-                    if ctype in ('Artifact', 'Equipment') and spec.include_artifacts and random.random() < 0.80:
+                    # existing non-commander logic                
+                    # Determine color identity for this card with proper distribution.
+                    if ctype == 'Land':
+                        # Lands are colorless identity for cost purposes (no cost anyway)
                         colors = []
                     else:
-                        # 15% chance to be multicolor (only if at least 2 colors available)
-                        can_multicolor = len(spec.colors) >= 2
-                        if can_multicolor and random.random() < 0.15:
-                            pick_n = min(2, len(spec.colors))
-                            colors = random.sample(spec.colors, k=pick_n)
+                        # Artifacts / Equipment: 80% chance to be colorless
+                        if ctype in ('Artifact', 'Equipment') and spec.include_artifacts and random.random() < 0.80:
+                            colors = []
                         else:
-                            # Otherwise pick ONE mono color or colorless with equal weight
-                            # Build options = each allowed color + 'colorless'
-                            opts = list(spec.colors) + ['colorless']
-                            choice = random.choice(opts) if opts else 'colorless'
-                            if choice == 'colorless':
-                                colors = []
+                            # 15% chance to be multicolor (only if at least 2 colors available)
+                            can_multicolor = len(spec.colors) >= 2
+                            if can_multicolor and random.random() < 0.15:
+                                pick_n = min(2, len(spec.colors))
+                                colors = random.sample(spec.colors, k=pick_n)
                             else:
-                                colors = [choice]
+                                # Otherwise pick ONE mono color or colorless with equal weight
+                                # Build options = each allowed color + 'colorless'
+                                opts = list(spec.colors) + ['colorless']
+                                choice = random.choice(opts) if opts else 'colorless'
+                                if choice == 'colorless':
+                                    colors = []
+                                else:
+                                    colors = [choice]
 
 
                 card = generate_card(f"C{i}", colors, ctype, spec, effects, subtypes_pool, string_pools, monster_keywords)

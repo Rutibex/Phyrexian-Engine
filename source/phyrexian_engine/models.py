@@ -27,6 +27,7 @@ class SetSpec:
     seed: Optional[int] = None
     target_curve: Dict[int, float] = field(default_factory=dict)
     selected_packages: List[str] = field(default_factory=list)
+    commander_mode: bool = False
 
 @dataclass
 class Card:
