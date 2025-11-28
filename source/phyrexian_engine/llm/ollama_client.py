@@ -28,9 +28,12 @@ def name_art_flavor(set_context:str, card_text:str, mv:int, pt:str=None, subtype
 - OUTPUT: JSON only with keys exactly: name, art, flavor.
 - Do NOT repeat rules text, mana, or keywords in the name.
 - NAME: 1–4 words, Title Case, evocative, no punctuation like ';' or ':'.
-- ART: 1–2 sentences, concise brief. No mechanics terms.
+- ART: 1–2 sentences, concise brief. No mechanics terms. Take creature types into account.
 - FLAVOR: One quoted line <= 140 chars, not rules.
-If unsure, return empty strings but keep valid JSON."""
+If unsure, return empty strings but keep valid JSON.
+If card is a LEGENDARY CREATURE "commander".
+- The NAME MUST be a proper name for a single unique character (e.g. "Arash, Soulfire Tactician").
+- The FLAVOR line MUST be a quote spoken by that character in first person or closely tied to them."""
     user = f"""Set description:
 {set_context}
 
